@@ -15,16 +15,22 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 
 ---
 
-## 📋 Roadmap -> To be updated
+## 📋 Roadmap
 
-- [x] Project scoped and README drafted
 - [x] Repo structure and initial setup
-- [ ] Data pipeline — PDF rulebook ingestion + BGG forum scraping
-- [ ] RAG pipeline (chunking, embeddings, vector store)
-- [ ] Core Q&A chain with citation retrieval
-- [ ] VLM integration for game state image input
-- [ ] Evaluation framework (rule accuracy, citation quality, visual comprehension)
-- [ ] Frontend / user interface
+- [x] Text Q&A evaluation dataset curated
+- [x] Image-text dataset curated
+- [x] Baseline outputs collected across ChatGPT, Claude, Gemini, and DeepSeek
+- [x] Data pipeline — PDF rulebook ingestion + BGG forum scraping
+- [ ] Chunking script (preparation and execution)
+- [ ] Chunk embedding with vector store for dense and sparse retrievers
+- [ ] RAG orchestrator script (Use Groq `Llama-32B-Instruct`)
+- [ ] Image and text encoder (might use CLIP)
+- [ ] VLM inference pipeline (access LlaVa or more SOTA VLM through Groq)
+- [ ] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
+- [ ] Implement UI mockup + game selection menu
+
+
 
 ## 📅 Progression
 
