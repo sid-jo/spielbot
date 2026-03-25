@@ -34,3 +34,8 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 03/16/26 | Identified `PDFPlumber` and made initial rule extraction pipeline |
 | 03/23/26 | Enhanced the rulebook extraction pipeline to work on multi-column pages, still working out tabular data |
 | 03/24/26 | Requested BGG API key (would take about a week). Working on alternate webscrapping component | 
+
+
+### References
+
+- BGG API Repo (https://github.com/tnaskali/bgg-api)
