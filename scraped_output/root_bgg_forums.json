@@ -1,0 +1,691 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "threads_scraped": 20,
+    "scrape_date": "2026-03-24"
+  },
+  "threads": {
+    "two questions about the twilight council": [
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-22T20:31:07+00:00",
+        "body": "1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\n2. It appears that any opponent can flip an assembly to closed for no cost except loyalists for the Council? What the heck? Is there a once-per turn limit? Card cost? Requirement that you have to be at the assembly. I don't understand.\n\nClarification would be great. Thanks, all!"
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-22T20:58:44+00:00",
+        "body": "Yes that was abandoned as it was impossible to balance\n\nThere is no frequency limit or cost for the player activating Entreat. The hidden cost is that using it wantonly will supercharge the Bats' recruiting"
+      },
+      {
+        "username": "pmw57",
+        "date": "2026-03-22T20:59:34+00:00",
+        "body": "From https://rules.ledergames.com/?product=root\n16.4.1 Craft. You may activate enclaves to craft cards (16.2.1.II).\n\nThat would be Negotiations.\n\n16.2.5 Negotiations. Once during their turn, an enemy with faction pieces in a clearing with a Militant enclave may flip it to Peaceful. If they don't rule the enclave but another player does, the flipping player must give the ruler a card in order to flip the enclave."
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-22T21:00:41+00:00",
+        "body": "From rules.ledergames.com\n16.4.1 Craft. You may activate enclaves to craft cards (16.2.1.II).\n\nThat would be Negotiations.\n\n16.2.5 Negotiations. Once during their turn, an enemy with faction pieces in a clearing with a Militant enclave may flip it to Peaceful. If they don't rule the enclave but another player does, the flipping player must give the ruler a card in order to flip the enclave.\nOP was asking about the Bats, and you are referencing the Frogs"
+      },
+      {
+        "username": "pmw57",
+        "date": "2026-03-22T21:02:51+00:00",
+        "body": "Oh thanks, that'll teach me to reply while not having woken up yet."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-23T05:08:21+00:00",
+        "body": "The answer is, there's no mistakes that's precisely how they work.\n\nPlay a couple of games and you should find they're well balanced (even a little strong imo)"
+      },
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-23T21:31:45+00:00",
+        "body": "Thanks everyone!"
+      },
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-23T21:41:20+00:00",
+        "body": "Yes that was abandoned as it was impossible to balance\n\nThis disappoints me. How was it impossible to balance? It seems like it would encourage strategic placement of assemblies. Of course, they would occasionally struggle to craft but that seems like a reasonably thematic cost of playing without helpful allies. What is the problem? Where did they release this?\n\nThe answer to question 2 is very interesting. I wonder how the meta will turn out for that."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-24T07:02:44+00:00",
+        "body": "They already score from enemy cardboard, so strategic assemblies are still required.\nThe crafting thing was an issue because different matchups have vastly different crafting pieces. In a WA game it'd be fine, but against Cats, Vagabond and Keepers in Iron there may only ever be 3 crafting pieces on the board in the whole game.\nWhereas the amount of cardboard is consistent across most matchups, in my afformentioned example, cats and badgers put down plenty of cardboard, it's just only a small percentage are crafting pieces.\n\nBasically crafting pieces are ridiculously variable whereas cardboard (while still being variable) is far less so"
+      },
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-24T20:58:18+00:00",
+        "body": "Thanks for the clarification. I still would have liked the mechanic to show up somewhere. Maybe they choose which to use each turn? Or they use both?"
+      }
+    ],
+    "Twilight council question ": [
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-20T16:01:55+00:00",
+        "body": "Ok so the Twilight council banish action reads:\n\n\"Battle. Your hits force enemy warriors to move instead, ignoring rule. Ignore any rolled his you take\"\n\nSo if I have partisans or any other means to deal extra hits, do those hits also make enemies move, or to they hit them normally? \n\nAlso can you use that action to hit enemy cardboard? If so, do you hit them normally or do extra rules apply?\n\nThanks in advance"
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-20T16:07:47+00:00",
+        "body": "1) Extra Hits you deal will also make enemy warriors move\n\n2) Banish does not deal hits to enemy buildings and tokens. If you move all enemy warriors and have hits left over, those left over hits are simply unused"
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-20T17:11:40+00:00",
+        "body": "Ok ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?"
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-20T17:16:07+00:00",
+        "body": "Ok ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?\nNo, Banish moves all hit warriors to a single destination"
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-21T01:26:08+00:00",
+        "body": "Ok ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?\nNo, Banish moves all hit warriors to a single destination\nExcelent tysm"
+      },
+      {
+        "username": "DMoneyMonet",
+        "date": "2026-03-21T19:01:44+00:00",
+        "body": "Ok ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?\nNo, Banish moves all hit warriors to a single destination\nEven though its a much simpler system than it once was, it's still a little complex and very unique. Banish is so weird that I wish all of this was on the player board instead of just in the law. This is an instance where more would be more. A lot of people I've play Root with only check the Law for edge cases and trust the boards to (succinctly) cover what they need to know. Or they play most factions first in the app and then have no true understanding of how the minutiae of factions work. For some factions, the board is enough, mostly because the faction is very simple or comes from earlier days of Root when you could just take most instructions at face value. For others, the board is inadequate - someone needs to know the Law or know when to use the Law. After all, you don't know what you don't know. I find this to be especially true for Lord of Hundreds and all three Homeland factions. These are also factions with the most dense text, though, and I wish that it had been broken up a bit more. I can picture the Woodland Alliance board in my head. The same for the Keepers in Iron. There's a shape to their turn structure that helps you get through it. The Knaves have that a bit, but it's not quite as visually supported as the Vagabond's board. Even just having the buildings on the board, such as with the Lizard Cult, is a huge help for giving the rest of the turn a form you can live in comfortably. It would seem that I'm arguing for less text, but I am really arguing for graphic design that allows for more text because the user can situate different text in diverse contexts. Every time I see white space on a player board filled with a big animal picture opposite a wall of instructions, I just know I'm going to have to put extra effort into walking someone through their turn (or working to internalize that turn if I'm playing as that faction). Again, not a dig on the factions. Just a phenomenon that I wish was better addressed given how complex these factions are."
+      },
+      {
+        "username": "stuffbybez",
+        "date": "2026-03-22T20:36:36+00:00",
+        "body": "What is lacking from the LoH board? What rules do you think should be there but aren't?"
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-23T21:16:23+00:00",
+        "body": "What is lacking from the LoH board? What rules do you think should be there but aren't?\nPrecisely the fact that you cannot hit cardboard with banish.\n\nI know the Law of root has it, but come on this should be at least in the manual"
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-23T22:03:23+00:00",
+        "body": "What is lacking from the LoH board? What rules do you think should be there but aren't?\nPrecisely the fact that you cannot hit cardboard with banish.\n\nI know the Law of root has it, but come on this should be at least in the manual \nFor what it's worth, the Banish text OP posted is not the final board text. The final text for Banish says \"Battle. Ignored rolled hits you take. You only hit warriors, forcing them to move as you want, ignoring rule.\""
+      }
+    ],
+    "Knaves of the deep wood question ": [
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-15T17:00:55+00:00",
+        "body": "Ok so I know they haven't come out yet, but we're play testing them. So anyway, the Knaves board says that they cam move in and out of forests, but can they move from adjacent forest to another forest? Law of root doesn't really address this"
+      },
+      {
+        "username": "steveowen",
+        "date": "2026-03-15T17:31:42+00:00",
+        "body": "Yes, they may move through forests - this has been confirmed on the Root discord."
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-15T18:19:11+00:00",
+        "body": "Oh ty, what is this Root discord? Is like an official Leder games discord or something?"
+      },
+      {
+        "username": "steveowen",
+        "date": "2026-03-15T18:23:43+00:00",
+        "body": "Yes it is officially sanctioned by Leder games and is called the Woodland Warriors."
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-15T18:30:36+00:00",
+        "body": "Tysm"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-16T03:55:41+00:00",
+        "body": "This counts as moving into a forest.\n\nLaw of Root has rules for forest adjacency, and move into a forest abilities allow you to move into any adjacent forest, no restrictions based on where you're moving from. So forest to forest movement is well covered.\n\nVagabond can also slip from one forest to another."
+      },
+      {
+        "username": "Vagabot",
+        "date": "2026-03-16T21:40:52+00:00",
+        "body": "The Vagabond cannot move from one forest to another.\n\n9.5.1. If in a forest, you may only move into an adjacent clearing."
+      },
+      {
+        "username": "pmw57",
+        "date": "2026-03-16T22:20:24+00:00",
+        "body": "For clarification, the Vagabond cannot move to an adjacent forest in daylight, but they can still use the slip action to move to an adjacent forest during birdsong.\n\n9.4.2 Slip. You may move into an adjacent clearing or forest without exhausting any Boot, even for moving into a Hostile clearing (9.2.9.IIIb). This move ignores all effects that prevent movement out of a clearing (such as the Corvids' snare)."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-17T00:05:25+00:00",
+        "body": "Please note I specifically said \"Slip\"."
+      }
+    ],
+    "Question about moles and Hundreds": [
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-08T23:44:29+00:00",
+        "body": "Ok so I have two questions:\n\n1.- As moles when you dig a tunnel, is it mandatory to have warriors in your burrow when building it? I believe you can dig and move 0, but what if you don't have warriors at all?\n\n2.- Hundreds, when you raze a ruin and is it mandatory to take the item even if you don't want it?\n\nThanks in advance"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-08T23:59:21+00:00",
+        "body": "1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. However interesting to note you may not dig and choose to move 0 warriors. If you have any number of warriors in the burrow you must move at least one (this is an update from a rule clarification about whether 0 is a number or not with Homeland, it's a whole thing)\n\n2. Yes, it is mandatory to take the item. The only way to get rid of it is with the Lavish mood or if your item track is already full. The items in the ruins can block some pretty good moods so that's part of the gamble!"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-09T00:02:08+00:00",
+        "body": "Just to justify the above, here's the current wording in the latest version of the law, it's very clear in the latest edition 🙂"
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-09T01:06:13+00:00",
+        "body": "Just to justify the above, here's the current wording in the latest version of the law, it's very clear in the latest edition 🙂 \n\nTysm, does the law of root mention anything about the hundreds item being mandatory to take?"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-09T01:13:34+00:00",
+        "body": "if Root doesn't say \"may\" in an action then it's mandatory. (with several weird exceptions)\n\nSo here's the list of rules you should know to understand why you must take the item:\n\nSo whenever a mob razes an item must be taken from a ruin without any choice on the Hundred's part. You don't control the Raze action it just happens, same for removing enemy cardboard you couldn't stop it if you wanted to. And whenever the Hundreds gain an item it must go in their Hoard (with the exception of the choice you get when you craft but that's a different rule) so therefore if you have a mob at a ruin you might get stuck with an item you don't want.\n\nThen if you know other Hundreds mechanics, you can remove items with Lavish, or by overfilling your hoard."
+      },
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-13T02:02:29+00:00",
+        "body": "I think this is false. But that would just be my interpretation of the law that your not aloud to dig if you don't have warriors to move."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-13T02:12:22+00:00",
+        "body": "I think this is false. But that would just be my interpretation of the law that your not aloud to dig if you don't have warriors to move.\n\nThis is wrong.\n\nDoesn't say anything about requiring a warrior therefore it doesn't. There's no interpretation where a warrior is required.\n\nThen is a keyword in Root for compound actions, it means you must have finished the first step to do the second step, and you cannot do anything in between. But doesn't have any requirements for fulfilment of either step. If the word was \"and\" (used in replace) it would be more ambiguous but even \"and\" is usually used synonymously with \"then\", in the case of something like replace (which does require all parts of the action to be possible) a special rule is required. So it's \"Then\" as in, after doing the first step, do the second step\n\nYou must move one warrior, if you cannot, then you cannot. This is just how Root logic works, if you're instructed to move and don't have the warriors, you can't move.\n\nI can't think of any way to read this which would require a warrior to place the tunnel."
+      }
+    ],
+    "The Riverfolk Company's funds": [
+      {
+        "username": "NoTeVuelvasLoki",
+        "date": "2026-02-13T12:58:13+00:00",
+        "body": "According to the faction board, when the company loses a trading post, it has to return half of its funds. What happens if all the warriors are in the consignment area? Do they count as funds?"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-02-13T13:00:39+00:00",
+        "body": "Nope! Funds only count as funds when they're in the funds box.\n\nYou only have to worry about losing funds from a destroyed trade post if you're trying to score dividends, otherwise it poses no threat."
+      },
+      {
+        "username": "NachoFailconi",
+        "date": "2026-02-13T13:04:10+00:00",
+        "body": "Funds are defined as \"warriors in the Fund box\", so no, warriors is the Committed box are do not count for Trade Disruption, as they are not in the Funds box."
+      },
+      {
+        "username": "NoTeVuelvasLoki",
+        "date": "2026-02-13T13:05:49+00:00",
+        "body": "Thank you, both of you."
+      },
+      {
+        "username": "Skeime",
+        "date": "2026-02-13T13:19:17+00:00",
+        "body": "Not quite the only threat: If you attack on your turn in a way that destroys a trading post (for example, fighting with two Riverfolk warriors against three warriors at a trading post, and then rolling 3-3), you lose half of your remaining funds as well.\n\nThis can become relevant relatively easily when you run into an ambush."
+      },
+      {
+        "username": "Rootin",
+        "date": "2026-02-13T17:24:07+00:00",
+        "body": "Not quite the only threat: If you attack on your turn in a way that destroys a trading post (for example, fighting with two Riverfolk warriors against three warriors at a trading post, and then rolling 3-3), you lose half of your remaining funds as well.\n\nThis can become relevant relatively easily when you run into an ambush.\n\nYes, as happened to me in a recent digital game :("
+      }
+    ],
+    "A question about the Keepers in Iron": [
+      {
+        "username": "Vagabot",
+        "date": "2026-02-10T14:36:44+00:00",
+        "body": "In the last game I played, I had a question about this faction, which has been played very little in my group.\n\nThe player who was playing with them had three relics unearthed in the same clearing and, according to him, that meant that if he was attacked, none of his warriors could die because he had one less hit for each relic carried by one of his badgers. Is that true?\n\nAccording to the faction board, the first hit received is ignored if you have a relic and a guardian, but it doesn't say anything if you have more guardians and more relics."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-02-10T14:55:04+00:00",
+        "body": "Ignore the first hit they take.\n\nYour friend is wrong. Just get him to check the wording on the faction board next time the ruling is already very clear. \n\nIt sounds like you guys already read the board, so if he still insists the effect stacks you have to ask why he thinks that 😅 Root rules are very precise and should be followed exactly as written."
+      },
+      {
+        "username": "Vagabot",
+        "date": "2026-02-11T09:22:19+00:00",
+        "body": "Thank you. I figured it couldn't be because that would give them a tremendous advantage."
+      },
+      {
+        "username": "Rootin",
+        "date": "2026-02-13T17:30:32+00:00",
+        "body": "Yeah I just got shivers thinking about that lol"
+      }
+    ],
+    "Woodland Alliance \"officer\" moving without controlling clearings": [
+      {
+        "username": "Nemesis5057",
+        "date": "2026-02-02T18:09:45+00:00",
+        "body": "Can a Woodland Alliance \"Officer\" do a \"Move\" action if the Alliance doesn't rule either their current site or the site he's moving to?   I believe the answer to be No but the two times I've played it seemed very easy to bottle the Alliance by placing warriors in the sites surrounding them.   Thank you in advance."
+      },
+      {
+        "username": "Mattchu",
+        "date": "2026-02-02T18:13:32+00:00",
+        "body": "Nope, barring crafted card effects the Alliance needs to rule one or both clearings. Popping a big pile of warriors on top of their bases is often a good way to slow them down."
+      },
+      {
+        "username": "Kendress",
+        "date": "2026-02-02T18:15:03+00:00",
+        "body": "Only the corvids and vagabond specifically call out the ability to move without rule in the origin or destination clearings. All other factions are limited to that movement rule. \n\nOn that note, one of the primary deterrents of the WA once they have a base is to camp out with a ton of warriors on that clearing so they can't move out."
+      },
+      {
+        "username": "sigmazero13",
+        "date": "2026-02-02T18:15:22+00:00",
+        "body": "They are bound by the rule of.. well, Rule, when moving.  So they either need to rule to clearing they are moving FROM or moving TO.  Hemming the Alliance in is one key way to help keep them from spreading sympathy.  Of course, they can still do it by spending cards, but with more Sympathy on the board, it becomes more and more expensive to do that (as opposed to using a Warrior to do it without spending cards)."
+      },
+      {
+        "username": "Nemesis5057",
+        "date": "2026-02-03T01:58:18+00:00",
+        "body": "Thank you to all who responded.  It is much appreciated.  I pretty much knew that would be the response but thought I'd get confirmation after seeing the way the Alliance was pretty much stymied when warriors enter their base."
+      }
+    ],
+    "Vagabond black and white pawns": [
+      {
+        "username": "darthkirx",
+        "date": "2026-01-30T09:58:09+00:00",
+        "body": "As you may already know there are two separate character boards for vagabond, one of them requires black pawn, and another one requires white pawn. One of these boards contains quest cards as faction components, another one doesn't. Also I have all available vagabond cards with pawns. Each pawn corelate exactly to one vagabond card (by art)\nSo here is my question. \n- Are those character boards completely interchangeable?\n- May I use any white color pawns correlated to a specific vagabond card, if my character board requires a black pawn?\n- Can I pick any of the vagabond boards if there is only one vagabond in the game?\n- Are there quests in the game if I choose to play black vagabond without white vagabond?"
+      },
+      {
+        "username": "NachoFailconi",
+        "date": "2026-01-30T10:47:13+00:00",
+        "body": "- Yes.\n- Yes. The color of the pawns is irrelevant.\n- Yes. Both Vagabonds are similar.\n- No. Vagabonds share the Quest deck, and playing with any pawn is irrelevant for the purpose of playing (other than aesthetics)."
+      },
+      {
+        "username": "darthkirx",
+        "date": "2026-01-30T12:49:57+00:00",
+        "body": "Thank you for replying, but what then is the purpose of specifying black and white pawns if it doesn't matter?"
+      },
+      {
+        "username": "NachoFailconi",
+        "date": "2026-01-30T12:59:27+00:00",
+        "body": "Originally, there was only one Vagabond. The Riverfolk expansion (2018) allows to play with a second Vagabond (that is, two Vagabonds in the same session), and in that case you needed to differentiate them, hence a black meeple and a grey meeple; there was never a need to match the card with the meeple. When The Vagabond Pack (2020, two years later) was published, now you could match the Vagabond you chose with the particular meeple, but that's that, aesthetics."
+      },
+      {
+        "username": "darthkirx",
+        "date": "2026-01-30T13:37:50+00:00",
+        "body": "Thank you very much.\nI understand it now. I forgot that initially it was literally the same pawn in different colors, and then the vagabond pack came in."
+      },
+      {
+        "username": "BitBracht",
+        "date": "2026-01-30T19:23:04+00:00",
+        "body": "You can use whichever board you want with whichever meeple you want. Matching the board with the meeple was never a thing. (Personally, I didn’t even know the boards could be differentiated in any way.)\n\nUsually you’ll want to match the meeple with the card, since each meeple actually corresponds to one card, but even that is not necessary. As long as you play by your card, you can totally use any meeple you want to represent that card.  \n\n(Unless you’re playing a 2-vagabond game, in which case it would probably be confusing for everyone if either Vagabond’s meeple didn’t match their card. But you probably shouldn’t be playing 2-vagabond games anyway.)"
+      }
+    ],
+    "WA: From where does a ‘trained’ officer come?": [
+      {
+        "username": "hand0rf",
+        "date": "2026-01-29T15:55:07+00:00",
+        "body": "Does the warrior have to come from the appropriate base ON THE BOARD? Or does the warrior just move from Supply to the Officer’s section on the player’s mat?"
+      },
+      {
+        "username": "smmckit",
+        "date": "2026-01-29T16:21:51+00:00",
+        "body": "Pieces are placed from Supply unless otherwise specified. In the case of a Revolt, it is not specified and so comes from supply. (8.4.1.III for Revolt and G.1.19 for definition of Place)"
+      },
+      {
+        "username": "dcpepp",
+        "date": "2026-01-30T21:38:35+00:00",
+        "body": "Yep! In fact, if you make an Officer out of a Mouse, you can’t use it for anything else, and you only get it back if you loose a base - so plan them carefully! 10 mice get used up very quickly!"
+      }
+    ],
+    "How to remove the Corvid's Raid token once it's face up": [
+      {
+        "username": "Tpatts1",
+        "date": "2026-01-24T20:35:21+00:00",
+        "body": "I was playing Crows and flipped a raid token face up to get some much needed points.\n\nFool!\n\nSuddenly I was without one of the handiest plot tokens and everyone was giving it a wide berth. \n\nIs there any way for it to be removed from the board other than for an enemy to attack it? \n\nGoogle told me I could attack it myself but the Law of Root states that battle is against enemy pieces, so I don't agree…"
+      },
+      {
+        "username": "NachoFailconi",
+        "date": "2026-01-24T20:50:43+00:00",
+        "body": "You can only attack enemy pieces, as you say, and you're not an enemy of yourself. And yes, I think the only way to remove it is that enemies should attack it."
+      },
+      {
+        "username": "pmw57",
+        "date": "2026-01-24T22:52:47+00:00",
+        "body": "Because other factions aren’t incentivised to attack and remove raid tokens, leverage that to help you score points by flipping other tokens instead."
+      },
+      {
+        "username": "BitBracht",
+        "date": "2026-01-25T02:38:53+00:00",
+        "body": "Don't forget you can also use the Trick action to move that plot somewhere else. (Provided you have a different revealed plot on the board during your turn.) Perhaps enemies would be more incentivized to remove it if it was somewhere else?\n\nBut I agree with the others — a Raid plot usually does more for you when it's revealed and boosting your scoring for the other revealed plots than it does when it's removed."
+      },
+      {
+        "username": "PlanBee",
+        "date": "2026-01-25T08:47:52+00:00",
+        "body": "In response to the OP, I am not sure it is the handiest token. I wouldn't differentiate but if forced to choose it would be the one that gives you more cards (exploit?).\n\nBut Paul hits the nail on the head.....if you have 2 Raid tokens that are flipped and your opponents will not attack, that means every subsequent flipped token is scoring at least 3 points........they'll attack it soon enough"
+      }
+    ],
+    "two questions about the twilight council [thread:3681594]": [
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-22T20:31:07+00:00",
+        "body": "1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\n2. It appears that any opponent can flip an assembly to closed for no cost except loyalists for the Council? What the heck? Is there a once-per turn limit? Card cost? Requirement that you have to be at the assembly. I don't understand.\n\nClarification would be great. Thanks, all!"
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-22T20:58:44+00:00",
+        "body": "Yes that was abandoned as it was impossible to balance\n\nThere is no frequency limit or cost for the player activating Entreat. The hidden cost is that using it wantonly will supercharge the Bats' recruiting"
+      },
+      {
+        "username": "pmw57",
+        "date": "2026-03-22T20:59:34+00:00",
+        "body": "From https://rules.ledergames.com/?product=root\n16.4.1 Craft. You may activate enclaves to craft cards (16.2.1.II).\n\nThat would be Negotiations.\n\n16.2.5 Negotiations. Once during their turn, an enemy with faction pieces in a clearing with a Militant enclave may flip it to Peaceful. If they don't rule the enclave but another player does, the flipping player must give the ruler a card in order to flip the enclave."
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-22T21:00:41+00:00",
+        "body": "From rules.ledergames.com\n16.4.1 Craft. You may activate enclaves to craft cards (16.2.1.II).\n\nThat would be Negotiations.\n\n16.2.5 Negotiations. Once during their turn, an enemy with faction pieces in a clearing with a Militant enclave may flip it to Peaceful. If they don't rule the enclave but another player does, the flipping player must give the ruler a card in order to flip the enclave.\nOP was asking about the Bats, and you are referencing the Frogs"
+      },
+      {
+        "username": "pmw57",
+        "date": "2026-03-22T21:02:51+00:00",
+        "body": "Oh thanks, that'll teach me to reply while not having woken up yet."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-23T05:08:21+00:00",
+        "body": "The answer is, there's no mistakes that's precisely how they work.\n\nPlay a couple of games and you should find they're well balanced (even a little strong imo)"
+      },
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-23T21:31:45+00:00",
+        "body": "Thanks everyone!"
+      },
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-23T21:41:20+00:00",
+        "body": "Yes that was abandoned as it was impossible to balance\n\nThis disappoints me. How was it impossible to balance? It seems like it would encourage strategic placement of assemblies. Of course, they would occasionally struggle to craft but that seems like a reasonably thematic cost of playing without helpful allies. What is the problem? Where did they release this?\n\nThe answer to question 2 is very interesting. I wonder how the meta will turn out for that."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-24T07:02:44+00:00",
+        "body": "They already score from enemy cardboard, so strategic assemblies are still required.\nThe crafting thing was an issue because different matchups have vastly different crafting pieces. In a WA game it'd be fine, but against Cats, Vagabond and Keepers in Iron there may only ever be 3 crafting pieces on the board in the whole game.\nWhereas the amount of cardboard is consistent across most matchups, in my afformentioned example, cats and badgers put down plenty of cardboard, it's just only a small percentage are crafting pieces.\n\nBasically crafting pieces are ridiculously variable whereas cardboard (while still being variable) is far less so"
+      },
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-24T20:58:18+00:00",
+        "body": "Thanks for the clarification. I still would have liked the mechanic to show up somewhere. Maybe they choose which to use each turn? Or they use both?"
+      }
+    ],
+    "Twilight council question  [thread:3680429]": [
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-20T16:01:55+00:00",
+        "body": "Ok so the Twilight council banish action reads:\n\n\"Battle. Your hits force enemy warriors to move instead, ignoring rule. Ignore any rolled his you take\"\n\nSo if I have partisans or any other means to deal extra hits, do those hits also make enemies move, or to they hit them normally? \n\nAlso can you use that action to hit enemy cardboard? If so, do you hit them normally or do extra rules apply?\n\nThanks in advance"
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-20T16:07:47+00:00",
+        "body": "1) Extra Hits you deal will also make enemy warriors move\n\n2) Banish does not deal hits to enemy buildings and tokens. If you move all enemy warriors and have hits left over, those left over hits are simply unused"
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-20T17:11:40+00:00",
+        "body": "Ok ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?"
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-20T17:16:07+00:00",
+        "body": "Ok ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?\nNo, Banish moves all hit warriors to a single destination"
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-21T01:26:08+00:00",
+        "body": "Ok ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?\nNo, Banish moves all hit warriors to a single destination\nExcelent tysm"
+      },
+      {
+        "username": "DMoneyMonet",
+        "date": "2026-03-21T19:01:44+00:00",
+        "body": "Ok ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?\nNo, Banish moves all hit warriors to a single destination\nEven though its a much simpler system than it once was, it's still a little complex and very unique. Banish is so weird that I wish all of this was on the player board instead of just in the law. This is an instance where more would be more. A lot of people I've play Root with only check the Law for edge cases and trust the boards to (succinctly) cover what they need to know. Or they play most factions first in the app and then have no true understanding of how the minutiae of factions work. For some factions, the board is enough, mostly because the faction is very simple or comes from earlier days of Root when you could just take most instructions at face value. For others, the board is inadequate - someone needs to know the Law or know when to use the Law. After all, you don't know what you don't know. I find this to be especially true for Lord of Hundreds and all three Homeland factions. These are also factions with the most dense text, though, and I wish that it had been broken up a bit more. I can picture the Woodland Alliance board in my head. The same for the Keepers in Iron. There's a shape to their turn structure that helps you get through it. The Knaves have that a bit, but it's not quite as visually supported as the Vagabond's board. Even just having the buildings on the board, such as with the Lizard Cult, is a huge help for giving the rest of the turn a form you can live in comfortably. It would seem that I'm arguing for less text, but I am really arguing for graphic design that allows for more text because the user can situate different text in diverse contexts. Every time I see white space on a player board filled with a big animal picture opposite a wall of instructions, I just know I'm going to have to put extra effort into walking someone through their turn (or working to internalize that turn if I'm playing as that faction). Again, not a dig on the factions. Just a phenomenon that I wish was better addressed given how complex these factions are."
+      },
+      {
+        "username": "stuffbybez",
+        "date": "2026-03-22T20:36:36+00:00",
+        "body": "What is lacking from the LoH board? What rules do you think should be there but aren't?"
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-23T21:16:23+00:00",
+        "body": "What is lacking from the LoH board? What rules do you think should be there but aren't?\nPrecisely the fact that you cannot hit cardboard with banish.\n\nI know the Law of root has it, but come on this should be at least in the manual"
+      },
+      {
+        "username": "OmegasSquared",
+        "date": "2026-03-23T22:03:23+00:00",
+        "body": "What is lacking from the LoH board? What rules do you think should be there but aren't?\nPrecisely the fact that you cannot hit cardboard with banish.\n\nI know the Law of root has it, but come on this should be at least in the manual \nFor what it's worth, the Banish text OP posted is not the final board text. The final text for Banish says \"Battle. Ignored rolled hits you take. You only hit warriors, forcing them to move as you want, ignoring rule.\""
+      }
+    ],
+    "Knaves of the deep wood question  [thread:3677896]": [
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-15T17:00:55+00:00",
+        "body": "Ok so I know they haven't come out yet, but we're play testing them. So anyway, the Knaves board says that they cam move in and out of forests, but can they move from adjacent forest to another forest? Law of root doesn't really address this"
+      },
+      {
+        "username": "steveowen",
+        "date": "2026-03-15T17:31:42+00:00",
+        "body": "Yes, they may move through forests - this has been confirmed on the Root discord."
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-15T18:19:11+00:00",
+        "body": "Oh ty, what is this Root discord? Is like an official Leder games discord or something?"
+      },
+      {
+        "username": "steveowen",
+        "date": "2026-03-15T18:23:43+00:00",
+        "body": "Yes it is officially sanctioned by Leder games and is called the Woodland Warriors."
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-15T18:30:36+00:00",
+        "body": "Tysm"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-16T03:55:41+00:00",
+        "body": "This counts as moving into a forest.\n\nLaw of Root has rules for forest adjacency, and move into a forest abilities allow you to move into any adjacent forest, no restrictions based on where you're moving from. So forest to forest movement is well covered.\n\nVagabond can also slip from one forest to another."
+      },
+      {
+        "username": "Vagabot",
+        "date": "2026-03-16T21:40:52+00:00",
+        "body": "The Vagabond cannot move from one forest to another.\n\n9.5.1. If in a forest, you may only move into an adjacent clearing."
+      },
+      {
+        "username": "pmw57",
+        "date": "2026-03-16T22:20:24+00:00",
+        "body": "For clarification, the Vagabond cannot move to an adjacent forest in daylight, but they can still use the slip action to move to an adjacent forest during birdsong.\n\n9.4.2 Slip. You may move into an adjacent clearing or forest without exhausting any Boot, even for moving into a Hostile clearing (9.2.9.IIIb). This move ignores all effects that prevent movement out of a clearing (such as the Corvids' snare)."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-17T00:05:25+00:00",
+        "body": "Please note I specifically said \"Slip\"."
+      }
+    ],
+    "Question about moles and Hundreds [thread:3674425]": [
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-08T23:44:29+00:00",
+        "body": "Ok so I have two questions:\n\n1.- As moles when you dig a tunnel, is it mandatory to have warriors in your burrow when building it? I believe you can dig and move 0, but what if you don't have warriors at all?\n\n2.- Hundreds, when you raze a ruin and is it mandatory to take the item even if you don't want it?\n\nThanks in advance"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-08T23:59:21+00:00",
+        "body": "1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. However interesting to note you may not dig and choose to move 0 warriors. If you have any number of warriors in the burrow you must move at least one (this is an update from a rule clarification about whether 0 is a number or not with Homeland, it's a whole thing)\n\n2. Yes, it is mandatory to take the item. The only way to get rid of it is with the Lavish mood or if your item track is already full. The items in the ruins can block some pretty good moods so that's part of the gamble!"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-09T00:02:08+00:00",
+        "body": "Just to justify the above, here's the current wording in the latest version of the law, it's very clear in the latest edition 🙂"
+      },
+      {
+        "username": "DGD_Kami",
+        "date": "2026-03-09T01:06:13+00:00",
+        "body": "Just to justify the above, here's the current wording in the latest version of the law, it's very clear in the latest edition 🙂 \n\nTysm, does the law of root mention anything about the hundreds item being mandatory to take?"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-09T01:13:34+00:00",
+        "body": "if Root doesn't say \"may\" in an action then it's mandatory. (with several weird exceptions)\n\nSo here's the list of rules you should know to understand why you must take the item:\n\nSo whenever a mob razes an item must be taken from a ruin without any choice on the Hundred's part. You don't control the Raze action it just happens, same for removing enemy cardboard you couldn't stop it if you wanted to. And whenever the Hundreds gain an item it must go in their Hoard (with the exception of the choice you get when you craft but that's a different rule) so therefore if you have a mob at a ruin you might get stuck with an item you don't want.\n\nThen if you know other Hundreds mechanics, you can remove items with Lavish, or by overfilling your hoard."
+      },
+      {
+        "username": "MiceandMysticslover",
+        "date": "2026-03-13T02:02:29+00:00",
+        "body": "I think this is false. But that would just be my interpretation of the law that your not aloud to dig if you don't have warriors to move."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-03-13T02:12:22+00:00",
+        "body": "I think this is false. But that would just be my interpretation of the law that your not aloud to dig if you don't have warriors to move.\n\nThis is wrong.\n\nDoesn't say anything about requiring a warrior therefore it doesn't. There's no interpretation where a warrior is required.\n\nThen is a keyword in Root for compound actions, it means you must have finished the first step to do the second step, and you cannot do anything in between. But doesn't have any requirements for fulfilment of either step. If the word was \"and\" (used in replace) it would be more ambiguous but even \"and\" is usually used synonymously with \"then\", in the case of something like replace (which does require all parts of the action to be possible) a special rule is required. So it's \"Then\" as in, after doing the first step, do the second step\n\nYou must move one warrior, if you cannot, then you cannot. This is just how Root logic works, if you're instructed to move and don't have the warriors, you can't move.\n\nI can't think of any way to read this which would require a warrior to place the tunnel."
+      }
+    ],
+    "The Riverfolk Company's funds [thread:3661638]": [
+      {
+        "username": "NoTeVuelvasLoki",
+        "date": "2026-02-13T12:58:13+00:00",
+        "body": "According to the faction board, when the company loses a trading post, it has to return half of its funds. What happens if all the warriors are in the consignment area? Do they count as funds?"
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-02-13T13:00:39+00:00",
+        "body": "Nope! Funds only count as funds when they're in the funds box.\n\nYou only have to worry about losing funds from a destroyed trade post if you're trying to score dividends, otherwise it poses no threat."
+      },
+      {
+        "username": "NachoFailconi",
+        "date": "2026-02-13T13:04:10+00:00",
+        "body": "Funds are defined as \"warriors in the Fund box\", so no, warriors is the Committed box are do not count for Trade Disruption, as they are not in the Funds box."
+      },
+      {
+        "username": "NoTeVuelvasLoki",
+        "date": "2026-02-13T13:05:49+00:00",
+        "body": "Thank you, both of you."
+      },
+      {
+        "username": "Skeime",
+        "date": "2026-02-13T13:19:17+00:00",
+        "body": "Not quite the only threat: If you attack on your turn in a way that destroys a trading post (for example, fighting with two Riverfolk warriors against three warriors at a trading post, and then rolling 3-3), you lose half of your remaining funds as well.\n\nThis can become relevant relatively easily when you run into an ambush."
+      },
+      {
+        "username": "Rootin",
+        "date": "2026-02-13T17:24:07+00:00",
+        "body": "Not quite the only threat: If you attack on your turn in a way that destroys a trading post (for example, fighting with two Riverfolk warriors against three warriors at a trading post, and then rolling 3-3), you lose half of your remaining funds as well.\n\nThis can become relevant relatively easily when you run into an ambush.\n\nYes, as happened to me in a recent digital game :("
+      }
+    ],
+    "A question about the Keepers in Iron [thread:3660060]": [
+      {
+        "username": "Vagabot",
+        "date": "2026-02-10T14:36:44+00:00",
+        "body": "In the last game I played, I had a question about this faction, which has been played very little in my group.\n\nThe player who was playing with them had three relics unearthed in the same clearing and, according to him, that meant that if he was attacked, none of his warriors could die because he had one less hit for each relic carried by one of his badgers. Is that true?\n\nAccording to the faction board, the first hit received is ignored if you have a relic and a guardian, but it doesn't say anything if you have more guardians and more relics."
+      },
+      {
+        "username": "Laterbot",
+        "date": "2026-02-10T14:55:04+00:00",
+        "body": "Ignore the first hit they take.\n\nYour friend is wrong. Just get him to check the wording on the faction board next time the ruling is already very clear. \n\nIt sounds like you guys already read the board, so if he still insists the effect stacks you have to ask why he thinks that 😅 Root rules are very precise and should be followed exactly as written."
+      },
+      {
+        "username": "Vagabot",
+        "date": "2026-02-11T09:22:19+00:00",
+        "body": "Thank you. I figured it couldn't be because that would give them a tremendous advantage."
+      },
+      {
+        "username": "Rootin",
+        "date": "2026-02-13T17:30:32+00:00",
+        "body": "Yeah I just got shivers thinking about that lol"
+      }
+    ],
+    "Woodland Alliance \"officer\" moving without controlling clearings [thread:3655693]": [
+      {
+        "username": "Nemesis5057",
+        "date": "2026-02-02T18:09:45+00:00",
+        "body": "Can a Woodland Alliance \"Officer\" do a \"Move\" action if the Alliance doesn't rule either their current site or the site he's moving to?   I believe the answer to be No but the two times I've played it seemed very easy to bottle the Alliance by placing warriors in the sites surrounding them.   Thank you in advance."
+      },
+      {
+        "username": "Mattchu",
+        "date": "2026-02-02T18:13:32+00:00",
+        "body": "Nope, barring crafted card effects the Alliance needs to rule one or both clearings. Popping a big pile of warriors on top of their bases is often a good way to slow them down."
+      },
+      {
+        "username": "Kendress",
+        "date": "2026-02-02T18:15:03+00:00",
+        "body": "Only the corvids and vagabond specifically call out the ability to move without rule in the origin or destination clearings. All other factions are limited to that movement rule. \n\nOn that note, one of the primary deterrents of the WA once they have a base is to camp out with a ton of warriors on that clearing so they can't move out."
+      },
+      {
+        "username": "sigmazero13",
+        "date": "2026-02-02T18:15:22+00:00",
+        "body": "They are bound by the rule of.. well, Rule, when moving.  So they either need to rule to clearing they are moving FROM or moving TO.  Hemming the Alliance in is one key way to help keep them from spreading sympathy.  Of course, they can still do it by spending cards, but with more Sympathy on the board, it becomes more and more expensive to do that (as opposed to using a Warrior to do it without spending cards)."
+      },
+      {
+        "username": "Nemesis5057",
+        "date": "2026-02-03T01:58:18+00:00",
+        "body": "Thank you to all who responded.  It is much appreciated.  I pretty much knew that would be the response but thought I'd get confirmation after seeing the way the Alliance was pretty much stymied when warriors enter their base."
+      }
+    ],
+    "Vagabond black and white pawns [thread:3653647]": [
+      {
+        "username": "darthkirx",
+        "date": "2026-01-30T09:58:09+00:00",
+        "body": "As you may already know there are two separate character boards for vagabond, one of them requires black pawn, and another one requires white pawn. One of these boards contains quest cards as faction components, another one doesn't. Also I have all available vagabond cards with pawns. Each pawn corelate exactly to one vagabond card (by art)\nSo here is my question. \n- Are those character boards completely interchangeable?\n- May I use any white color pawns correlated to a specific vagabond card, if my character board requires a black pawn?\n- Can I pick any of the vagabond boards if there is only one vagabond in the game?\n- Are there quests in the game if I choose to play black vagabond without white vagabond?"
+      },
+      {
+        "username": "NachoFailconi",
+        "date": "2026-01-30T10:47:13+00:00",
+        "body": "- Yes.\n- Yes. The color of the pawns is irrelevant.\n- Yes. Both Vagabonds are similar.\n- No. Vagabonds share the Quest deck, and playing with any pawn is irrelevant for the purpose of playing (other than aesthetics)."
+      },
+      {
+        "username": "darthkirx",
+        "date": "2026-01-30T12:49:57+00:00",
+        "body": "Thank you for replying, but what then is the purpose of specifying black and white pawns if it doesn't matter?"
+      },
+      {
+        "username": "NachoFailconi",
+        "date": "2026-01-30T12:59:27+00:00",
+        "body": "Originally, there was only one Vagabond. The Riverfolk expansion (2018) allows to play with a second Vagabond (that is, two Vagabonds in the same session), and in that case you needed to differentiate them, hence a black meeple and a grey meeple; there was never a need to match the card with the meeple. When The Vagabond Pack (2020, two years later) was published, now you could match the Vagabond you chose with the particular meeple, but that's that, aesthetics."
+      },
+      {
+        "username": "darthkirx",
+        "date": "2026-01-30T13:37:50+00:00",
+        "body": "Thank you very much.\nI understand it now. I forgot that initially it was literally the same pawn in different colors, and then the vagabond pack came in."
+      },
+      {
+        "username": "BitBracht",
+        "date": "2026-01-30T19:23:04+00:00",
+        "body": "You can use whichever board you want with whichever meeple you want. Matching the board with the meeple was never a thing. (Personally, I didn’t even know the boards could be differentiated in any way.)\n\nUsually you’ll want to match the meeple with the card, since each meeple actually corresponds to one card, but even that is not necessary. As long as you play by your card, you can totally use any meeple you want to represent that card.  \n\n(Unless you’re playing a 2-vagabond game, in which case it would probably be confusing for everyone if either Vagabond’s meeple didn’t match their card. But you probably shouldn’t be playing 2-vagabond games anyway.)"
+      }
+    ],
+    "WA: From where does a ‘trained’ officer come? [thread:3653229]": [
+      {
+        "username": "hand0rf",
+        "date": "2026-01-29T15:55:07+00:00",
+        "body": "Does the warrior have to come from the appropriate base ON THE BOARD? Or does the warrior just move from Supply to the Officer’s section on the player’s mat?"
+      },
+      {
+        "username": "smmckit",
+        "date": "2026-01-29T16:21:51+00:00",
+        "body": "Pieces are placed from Supply unless otherwise specified. In the case of a Revolt, it is not specified and so comes from supply. (8.4.1.III for Revolt and G.1.19 for definition of Place)"
+      },
+      {
+        "username": "dcpepp",
+        "date": "2026-01-30T21:38:35+00:00",
+        "body": "Yep! In fact, if you make an Officer out of a Mouse, you can’t use it for anything else, and you only get it back if you loose a base - so plan them carefully! 10 mice get used up very quickly!"
+      }
+    ],
+    "How to remove the Corvid's Raid token once it's face up [thread:3650459]": [
+      {
+        "username": "Tpatts1",
+        "date": "2026-01-24T20:35:21+00:00",
+        "body": "I was playing Crows and flipped a raid token face up to get some much needed points.\n\nFool!\n\nSuddenly I was without one of the handiest plot tokens and everyone was giving it a wide berth. \n\nIs there any way for it to be removed from the board other than for an enemy to attack it? \n\nGoogle told me I could attack it myself but the Law of Root states that battle is against enemy pieces, so I don't agree…"
+      },
+      {
+        "username": "NachoFailconi",
+        "date": "2026-01-24T20:50:43+00:00",
+        "body": "You can only attack enemy pieces, as you say, and you're not an enemy of yourself. And yes, I think the only way to remove it is that enemies should attack it."
+      },
+      {
+        "username": "pmw57",
+        "date": "2026-01-24T22:52:47+00:00",
+        "body": "Because other factions aren’t incentivised to attack and remove raid tokens, leverage that to help you score points by flipping other tokens instead."
+      },
+      {
+        "username": "BitBracht",
+        "date": "2026-01-25T02:38:53+00:00",
+        "body": "Don't forget you can also use the Trick action to move that plot somewhere else. (Provided you have a different revealed plot on the board during your turn.) Perhaps enemies would be more incentivized to remove it if it was somewhere else?\n\nBut I agree with the others — a Raid plot usually does more for you when it's revealed and boosting your scoring for the other revealed plots than it does when it's removed."
+      },
+      {
+        "username": "PlanBee",
+        "date": "2026-01-25T08:47:52+00:00",
+        "body": "In response to the OP, I am not sure it is the handiest token. I wouldn't differentiate but if forced to choose it would be the one that gives you more cards (exploit?).\n\nBut Paul hits the nail on the head.....if you have 2 Raid tokens that are flipped and your opponents will not attack, that means every subsequent flipped token is scoring at least 3 points........they'll attack it soon enough"
+      }
+    ]
+  }
+}
