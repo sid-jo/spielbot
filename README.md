@@ -38,4 +38,5 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 
 ### References
 
+- PDF Plumber (https://github.com/jsvine/pdfplumber)
 - BGG API Repo (https://github.com/tnaskali/bgg-api)
