@@ -1,3 +1,4 @@
 *.pyc
 .env
 data/checkpoints/
+/src/.claude
