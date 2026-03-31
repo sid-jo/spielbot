@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-03-31"
+  },
+  "subject": "Is giving resources away technically legal?",
+  "posts": [
+    {
+      "username": "Karlo760400",
+      "date": "2025-04-15T05:24:10-05:00",
+      "body": "Would you consider the following trades legal?\n\nStep 1 :Player A trades 2 wood for 1 ore with player B.\nStep 2 : Player A trades 1 ore for 1 wood with player B."
+    },
+    {
+      "username": "Zveroboy",
+      "date": "2025-04-15T05:42:22-05:00",
+      "body": "Technically, rules as written legal? Yes, it's allowed.\n\nBut it feels rather underhanded, whether you \"allow\" it at your table is down to you and your group. For me personally the net result of those trades is that one player has effectively been given a resource for free and personally I would say that is against the spirit of the rules (\"something for nothing\" trades are specifically not allowed)."
+    },
+    {
+      "username": "xipuloxx",
+      "date": "2025-04-15T06:47:42-05:00",
+      "body": "Karlo760400 wrote:\n\nWould you consider the following trades legal?\n\nStep 1 :Player A trades 2 wood for 1 ore with player B.\nStep 2 : Player A trades 1 ore for 1 wood with player B.\n\nI would say, if you’re doing those trades one after the other, then no, it’s not legal. Because  you’re really just doing one trade which breaks the rules, and trying to justify it by doing it in two stages. But it’s still really one trade. \n\nNow, if you’re doing step 1 in one turn and wait till the next turn to do step 2, that’s fine, because the dice have been rolled and other trades may have happened in the meantime, so the game state has changed. It’s no longer functionally one trade."
+    },
+    {
+      "username": "edugon",
+      "date": "2025-04-15T09:35:12-05:00",
+      "body": "Is it illegal to donate a resource? I have not seen that in the rules."
+    },
+    {
+      "username": "cordeiro",
+      "date": "2025-04-15T10:10:01-05:00",
+      "body": "edugon wrote:\n\nIs it illegal to donate a resource? I have not seen that in the rules.\n\nIt's illegal.  Both players have to get something tangible in the trade, and you can't trade a resource for the same resource.\n\nhttps://www.catan.com/faq"
+    },
+    {
+      "username": "WilbertK",
+      "date": "2025-04-15T10:11:01-05:00",
+      "body": "Giving stuff away for free is not allowed."
+    },
+    {
+      "username": "xorsyst_uk",
+      "date": "2025-04-16T02:59:41-05:00",
+      "body": "Karlo760400 wrote:\n\nWould you consider the following trades legal?\n\nStep 1 :Player A trades 2 wood for 1 ore with player B.\nStep 2 : Player A trades 1 ore for 1 wood with player B.\n\nI would say this is absolutely legal. However, there's nothing stopping player B from changing their mind after the first trade."
+    },
+    {
+      "username": "WilbertK",
+      "date": "2025-04-16T03:54:20-05:00",
+      "body": "It was explicitly stated by the developer that it's not allowed to give other players resources for free. If you want to break the trade down like this in order to circumvent the rules I'd like to remind you that there's also nothing in the rules that says I can't kick you out of my house halfway through the game."
+    },
+    {
+      "username": "jorganos",
+      "date": "2025-04-16T04:15:43-05:00",
+      "body": "edugon wrote:\n\nIs it illegal to donate a resource? I have not seen that in the rules.\n\nThere is one official scenario that allows giving away a resource without being prompted by a card, yielding a reward instead: Frenemies. But only the active player can do so.\n\nOutside of that, it is prohibited.\n\nIt is always possible to define a set of rules modifications for your game, ideally set down before play."
+    },
+    {
+      "username": "James2044",
+      "date": "2025-04-29T18:38:06-05:00",
+      "body": "ISTM; They have traded two wood for one ore and one wood, Yes, within the rules it is legal.\nQuestion, did Player A gain a consideration for the trade?  Was Player B able to change the game score?"
+    },
+    {
+      "username": "xipuloxx",
+      "date": "2025-04-29T19:36:32-05:00",
+      "body": "James2044 wrote:\n\nISTM; They have traded two wood for one ore and one wood, Yes, within the rules it is legal.\nQuestion, did Player A gain a consideration for the trade?  Was Player B able to change the game score?\n\nMy understanding was that they have not really traded the ore away, as it was given then returned. So the overall trade was two wood for one wood, which is exactly equivalent to one wood for nothing, i.e. giving away one wood. Which is not legal."
+    },
+    {
+      "username": "drswirly",
+      "date": "2025-04-30T02:57:24-05:00",
+      "body": "Someone mentioned the \"spirit\" of the rules above, and I can see examples both ways.\n\nFirst example\n\n1.  Player A thinks \"Oh no, I have eight cards!  Can I sneakily give someone a free card to avoid being caught by the Robber?\"\n2. Player A trades two wood for one ore with player B.\n3. Player A trades one ore for one wood with player B.\n4. Player C rolls a 7 and looks grumpily at Players A and B, who both did well out it.\n\nSecond example.\n\n1.  Player A is close to building a city and needs two ore.\n2. Player A trades two wood for one ore with Player B.\n3. Player A tries to get another ore from Player C, who turns out to have none.\n4. Player A can't build a city after all and decides to go for a road instead, but now needs a wood.\n5. Player B offers to return one of the wood for the ore back.\n6. Player A reluctantly agrees.\n\nTo me, the first example feels against the spirit of the rules and should't really be allowed.  But the second example feels entirely in the spirit of the game, and ought to be allowed.  Above, Mark L said \"The game state has changed. It’s no longer functionally one trade.\", and the second example does somewhat fit that since step 3 happened and A gained information from C that no further ore was available.\n\nSo, would the second example be allowed?  (If it's both or neither, then I would prefer to allow the first than to ban the second.)"
+    },
+    {
+      "username": "xorsyst_uk",
+      "date": "2025-04-30T04:41:51-05:00",
+      "body": "Personally I don't see a legality difference between the following two scenarios:\n\nFirst Scenario:\n1. Player A trades two wood for an ore with player B\n2. Player A trades an ore for a wood with player B\nPlayer A has effectively given away a wood to player B. Some people are claiming this is between \"against the spirit\" and \"outright illegal\"\n\nSecond Scenario:\n1. Player A trades two wood for an ore with player B\n2. Player A trades an ore for a wood with player C\nFrom Player A's perspective, they have effectively given away a wood, however this is definitely a legal set of trades."
+    },
+    {
+      "username": "Zveroboy",
+      "date": "2025-04-30T06:17:50-05:00",
+      "body": "Ultimately its down to whether you consider each individual trade as an independent game event or whether you can take the whole set of trades, and their net outcomes, as one game event.\n\nI honestly don't believe you can seriously enforce the latter. You'd have to track all trades made in a turn, sum everything up, only to then declare \"Nope, sorry, after all that you got one sheep for free so take it all back.\"\n\nIf, OP, players A and B continue to exploit the rules like this, then your options are:\n\n- Use the \"exploit\" yourself\n\n- Tell them that while they're not technically doing anything against the rules, you feel that what they are doing is against the \"spirit of the rules\" (mention that single something-for-nothing trades are explicitly forbidden) and it is affecting your enjoyment of the game and your play sessions together"
+    },
+    {
+      "username": "DragonsDream",
+      "date": "2025-04-30T06:23:00-05:00",
+      "body": "Zveroboy wrote:\n\n...\nthey're not ... doing anything against the rules,  ...  \nsingle something-for-nothing trades are explicitly forbidden\n\nnot sure how you square these two statements. is effectively giving away a card forbidden by the rules or not?"
+    },
+    {
+      "username": "Skeime",
+      "date": "2025-04-30T06:38:10-05:00",
+      "body": "DragonsDream wrote:\n\nZveroboy wrote:\n\n...\nthey're not ... doing anything against the rules,  ...  \nsingle something-for-nothing trades are explicitly forbidden\n\nnot sure how you square these two statements. is effectively giving away a card forbidden by the rules or not?\n\n(Emphasis mine.) The key word is single here. In each individual trade, gifting cards is forbidden. Doing it over multiple trades is legal. The two options are strategically distinct as each player could go back on their non-binding promise to perform the second trade after the first one has been completed, leaving the other player in a worse position if they were counting on the second trade going through."
+    },
+    {
+      "username": "xipuloxx",
+      "date": "2025-04-30T07:30:00-05:00",
+      "body": "drswirly wrote:\n\nSomeone mentioned the \"spirit\" of the rules above, and I can see examples both ways.\n\nFirst example\n\n1.  Player A thinks \"Oh no, I have eight cards!  Can I sneakily give someone a free card to avoid being caught by the Robber?\"\n2. Player A trades two wood for one ore with player B.\n3. Player A trades one ore for one wood with player B.\n4. Player C rolls a 7 and looks grumpily at Players A and B, who both did well out it.\n\nSecond example.\n\n1.  Player A is close to building a city and needs two ore.\n2. Player A trades two wood for one ore with Player B.\n3. Player A tries to get another ore from Player C, who turns out to have none.\n4. Player A can't build a city after all and decides to go for a road instead, but now needs a wood.\n5. Player B offers to return one of the wood for the ore back.\n6. Player A reluctantly agrees.\n\nTo me, the first example feels against the spirit of the rules and should't really be allowed.  But the second example feels entirely in the spirit of the game, and ought to be allowed.  Above, Mark L said \"The game state has changed. It’s no longer functionally one trade.\", and the second example does somewhat fit that since step 3 happened and A gained information from C that no further ore was available.\n\nSo, would the second example be allowed?  (If it's both or neither, then I would prefer to allow the first than to ban the second.)\n\nIn your second example, the game state has not changed. Player A’s information has changed, but only because they didn’t ask player C if they would trade an ore away before doing the trade with player B. If I was in this situation, I would always check with both players before conducting any trades. If I didn’t, that’s my fault and it doesn’t allow me to tiptoe my way around the rules."
+    },
+    {
+      "username": "xipuloxx",
+      "date": "2025-04-30T07:36:56-05:00",
+      "body": "xorsyst_uk wrote:\n\nPersonally I don't see a legality difference between the following two scenarios:\n\nFirst Scenario:\n1. Player A trades two wood for an ore with player B\n2. Player A trades an ore for a wood with player B\nPlayer A has effectively given away a wood to player B. Some people are claiming this is between \"against the spirit\" and \"outright illegal\"\n\nSecond Scenario:\n1. Player A trades two wood for an ore with player B\n2. Player A trades an ore for a wood with player C\nFrom Player A's perspective, they have effectively given away a wood, however this is definitely a legal set of trades.\n\nThe reason you don’t see the difference is because you’re only looking at it from player A’s perspective, and you’re ignoring the other two players’ perspectives, which also matter. \n\nIn the first example, player B has gained something for nothing, while player A has given something away. In other words, player A has simply given a wood to player B. \n\nIn the second example, player C has gained an ore and lost a wood, while player B has lost an ore and gained two wood. Only player A has not gained anything overall. I think that difference is crucial.\n\nThe rule is that you’re not allowed to give something to another player for nothing, not that you’re not allowed to lose overall when you make multiple trades."
+    },
+    {
+      "username": "cordeiro",
+      "date": "2025-04-30T07:42:03-05:00",
+      "body": "Zveroboy wrote:\n\nUltimately its down to whether you consider each individual trade as an independent game event or whether you can take the whole set of trades, and their net outcomes, as one game event.\n\nI honestly don't believe you can seriously enforce the latter. You'd have to track all trades made in a turn, sum everything up, only to then declare \"Nope, sorry, after all that you got one sheep for free so take it all back.\"\n\nIt's not hard to keep track of the trades made in a single turn, especially if the 2 questionable trades are made back-to-back.  Also, these types of trades are usually prefaced by, \"I need this resource to stop the leader from winning.  Who can give it to me?\""
+    },
+    {
+      "username": "drswirly",
+      "date": "2025-04-30T08:19:21-05:00",
+      "body": "xipuloxx wrote:\n\nIn your second example, the game state has not changed. Player A’s information has changed, but only because they didn’t ask player C if they would trade an ore away before doing the trade with player B. If I was in this situation, I would always check with both players before conducting any trades. If I didn’t, that’s my fault and it doesn’t allow me to tiptoe my way around the rules. \n\nI think it depends on what you view as state.  I would count information as state, but you wouldn't.  That's fair enough.  In the example I gave, the changing of state was that wood became more valuable to A than before.\n\nAlthough, what actually counts as state?\n\nExample 1.\n\nSuppose A makes the two-for-one trade with B, and that then there are three turns in which nothing is produced because of die rolls, and nothing is built.  It's now A's turn again, and the game state is exactly as it was before.  Can A now make the one-for-one trade with B?\n\nExample 2.\n\nIf the state changing between the trades within a turn counts, then you can we have the following sequence?\n\n1. A trades two wood for one ore with B.\n2. A trades two brick for one sheep with C.\n3. A trades one ore for one wood with B.  (Since step 2 has happened.)\n4. A trades one sheep for one brick with C.  (Since step 3 has happened.)\n\nI can see why a \"no giving things away\" rule should be there, but I think it's hard to define precisely and to prevent (which is probably why this discussion has happened so often in the last 30 years!)."
+    },
+    {
+      "username": "xorsyst_uk",
+      "date": "2025-04-30T08:43:01-05:00",
+      "body": "xipuloxx wrote:\n\nThe rule is that you’re not allowed to give something to another player for nothing, not that you’re not allowed to lose overall when you make multiple trades. \n\nAnd in both scenarios, player A has lost overall over multiple trades, and never given something to another player for nothing."
+    },
+    {
+      "username": "xipuloxx",
+      "date": "2025-04-30T08:52:03-05:00",
+      "body": "drswirly wrote:\n\nI think it depends on what you view as state.  I would count information as state, but you wouldn't.  That's fair enough.  In the example I gave, the changing of state was that wood became more valuable to A than before. \n\nI would definitely say that a player asking a question of another (and getting an answer) doesn’t change the game state, becauer nothing has happened in the actual game. But if you disagree, I don’t think there’s any way to prove one of us right!\n\n Although, what actually counts as state?\n\nExample 1.\n\nSuppose A makes the two-for-one trade with B, and that then there are three turns in which nothing is produced because of die rolls, and nothing is built.  It's now A's turn again, and the game state is exactly as it was before.  Can A now make the one-for-one trade with B? \n\nThat’s a slightly tricky one, as I would say the game state has changed, as the turn has passed to another player (once or more than once doesn’t matter) but I can see the argument that it hasn’t materially changed. But unless you keep track of past trades for multiple turns, I don’t see any way to rule out such a thing. \n\n Example 2.\n\nIf the state changing between the trades within a turn counts, then you can we have the following sequence?\n\n1. A trades two wood for one ore with B.\n2. A trades two brick for one sheep with C.\n3. A trades one ore for one wood with B.  (Since step 2 has happened.)\n4. A trades one sheep for one brick with C.  (Since step 3 has happened.) \n\n😀 Clever! That could be argued, but it seems to me like the very definition of using the letter of the rules to defeat the spirit. At the end of the day, the end result of all the trading in that one turn is still that one player has given something to another for nothing. \n\n I can see why a \"no giving things away\" rule should be there, but I think it's hard to define precisely and to prevent (which is probably why this discussion has happened so often in the last 30 years!).\n\nI’m not really sure how often it’s happened, but to me the intent of the rule seems clear, and arguing it, while fun, does feel like rules-lawyering."
+    },
+    {
+      "username": "WilbertK",
+      "date": "2025-04-30T14:33:38-05:00",
+      "body": "The official ruling regarding this is that you're just not allowed to do this. Also not in multiple trades. It may not be in the rules, but it's been clarified by official sources. You can argue about rules as written, but the intent is clear."
+    },
+    {
+      "username": "Tcaalaw",
+      "date": "2025-04-30T22:59:13-05:00",
+      "body": "WilbertK wrote:\n\nThe official ruling regarding this is that you're just not allowed to do this. Also not in multiple trades. It may not be in the rules, but it's been clarified by official sources. You can argue about rules as written, but the intent is clear.\n\nThe intent may be clear, but I'm still trying to understand why it isn't allowed if both parties to the deal agree to it."
+    },
+    {
+      "username": "WilbertK",
+      "date": "2025-05-01T03:52:23-05:00",
+      "body": "Collusion. In a tournament setting, for example, you could arrange it such that your friend is with you at the table and dumps resources to you, giving you the opportunity to win the round easily."
+    },
+    {
+      "username": "DragonsDream",
+      "date": "2025-05-01T05:20:16-05:00",
+      "body": "Tcaalaw wrote:\n\nWilbertK wrote:\n\nThe official ruling regarding this is that you're just not allowed to do this. Also not in multiple trades. It may not be in the rules, but it's been clarified by official sources. You can argue about rules as written, but the intent is clear.\n\nThe intent may be clear, but I'm still trying to understand why it isn't allowed if both parties to the deal agree to it.  \n\nbut even you don't understand why the rule exists, that's not a reason to rules lawyer your way around the rule"
+    }
+  ]
+}

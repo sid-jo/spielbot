@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-03-31"
+  },
+  "subject": "[Helpers of Catan] Vincent and city building",
+  "posts": [
+    {
+      "username": "warlock000",
+      "date": "2025-01-11T08:17:12-06:00",
+      "body": "(initially I posted this thread in the HoC forum, but it's dead)\n\nThe standard Catan rules clearly state that you can only build city as an upgrade to an already existing settlement. Does it work the same with Vincent, i.e. does he just give a resource discount for upgrading settlement to a city (my guess) or does he allow you to build a city straight away (don't think that's the case, but the wording on the card is a bit confusing to me)? Thanks!"
+    },
+    {
+      "username": "WilbertK",
+      "date": "2025-01-11T08:54:18-06:00",
+      "body": "That forum isn't dead, you just have to give people time to respond. You're right. Vincent just gives you a resource discount."
+    }
+  ]
+}

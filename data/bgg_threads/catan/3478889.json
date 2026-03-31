@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-03-31"
+  },
+  "subject": "Catan Longest Road Card",
+  "posts": [
+    {
+      "username": "BagaCrisps",
+      "date": "2025-03-15T16:45:59-05:00",
+      "body": "Hi everyone,\n\nI've just played Catan with my family and we couldn't agree whether the scenario below counts as the longest road (blue player).\n\nI always understood that the road / segment can't be interrupted by any settlements or cities.\n\nMy husband thinks only roads / segments interrupted by an opponents settlement don't count as the longest road.\n\nPleas help us settle this argument! 😊"
+    },
+    {
+      "username": "269Hawkmoon",
+      "date": "2025-03-15T16:54:54-05:00",
+      "body": "I see a road of length 6 for white and length 8 for blue. Only an opponent's settlements and cities break a road, not your own.\n\nLook at the example on page 9 here: \nCatan Rules\nNotice blue's road isn't broken my the blue's settlement. After blue builds at C, red's longest road is length 3. If blue's own settlement broke their own road, they'd also only have length 3. But the example indicates blue's is longer."
+    },
+    {
+      "username": "russ",
+      "date": "2025-03-15T16:55:23-05:00",
+      "body": "1. Each game has its own forum (which you can find by typing its title in the upper right Search box). (I've marked this thread \"Wrong forum\" so an admin can move it to the rules forum of Catan.)\n\n2. Your husband is correct. The rules say:\nYou can break an opponent’s road by building a settlement on an open intersection along his road!\n\nThere's nothing about your settlements breaking your own road."
+    },
+    {
+      "username": "purvisa",
+      "date": "2025-03-15T18:19:35-05:00",
+      "body": "Road is 8. A road cannot pass through another player's settlement, but blue can pass through and stay."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-03-31"
+  },
+  "subject": "First round settlement placement question...",
+  "posts": [
+    {
+      "username": "AbstractStrategy",
+      "date": "2023-01-04T00:01:13-06:00",
+      "body": "The rules seem to be worded ambiguously with regard to how settlements may be placed on the first round. It says, 'When placing all other settlements, the Distance Rule * (see page 7) always applies!' It is not clear from this whether they mean that the distance rule applies only after every player has placed their first settlement OR whether the distance rule applies after the first player has placed their first settlement. Most sources seem to think the distance rule always applies but then, if this is the intended meaning, IMHO, it is VERY odd that the rules should mention the distance rule not applying at some point. The distance rules can still apply on the very first placement regardless of whether there is something to distance yourself from or not. There is no need to make an exception for this very first placement. This makes me lean towards interpreting the rules as 'the distance rule does not apply on round 1'. Does anyone know for absolute sure what the game designers intend?"
+    },
+    {
+      "username": "WilbertK",
+      "date": "2023-01-04T00:14:07-06:00",
+      "body": "The distance rule always applies. That's always been the case in any implementation of the game, digital or analog."
+    },
+    {
+      "username": "AbstractStrategy",
+      "date": "2023-01-04T00:24:10-06:00",
+      "body": "Ok. Cool. Thankyou. 🙂 They really need to change the wording in that case as it definitely implies the opposite."
+    },
+    {
+      "username": "Chango",
+      "date": "2023-01-04T04:43:56-06:00",
+      "body": "AbstractStrategy wrote:\n\nOk. Cool. Thankyou. 🙂 They really need to change the wording in that case as it definitely implies the opposite.\n\nNo need, that misinterpretation is yours alone."
+    },
+    {
+      "username": "Burning_Tyger",
+      "date": "2023-01-04T05:51:24-06:00",
+      "body": "Chango wrote:\n\nAbstractStrategy wrote:\n\nOk. Cool. Thankyou. 🙂 They really need to change the wording in that case as it definitely implies the opposite.\n\nNo need, that misinterpretation is yours alone.\n\nHaving never been confused about the rules, to be fair, if the wording in this version English rule book truly is:\n\n'When placing all other settlements, the Distance Rule * (see page 7) always applies!'*\n\n... then I could see how one might interpret it that way.  The word \"other\" is unnecessary, and should actually just be ''When placing all settlements, the Distance Rule * (see page 7) always applies!'*.  The addition of the word \"other\" would typically mean all settlements but those previously mentioned before this sentence.  So if the instructions before this sentence mentioned the first player places their first settlement only, then the usage of \"other\" makes sense still and would technically still be correct.  Even if that is true,  the word \"other\" remains unnecessary."
+    },
+    {
+      "username": "Dax006006",
+      "date": "2024-12-24T18:29:43-06:00",
+      "body": "I agree they should word it better.  Saying \"other\" implies there is a moment when the distance rule does not apply.  Anyone who reads carefully would see the ambiguity."
+    },
+    {
+      "username": "homewardbound",
+      "date": "2025-03-20T23:30:05-05:00",
+      "body": "Chango wrote:\n\nAbstractStrategy wrote:\n\nOk. Cool. Thankyou. 🙂 They really need to change the wording in that case as it definitely implies the opposite.\n\nNo need, that misinterpretation is yours alone.\n\nNot at all! We were also confused. It's crazy to think that there's still ambiguity in the rulebook for a game that's been around THIS long."
+    }
+  ]
+}

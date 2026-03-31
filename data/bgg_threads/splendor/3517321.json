@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-03-31"
+  },
+  "subject": "Rules Complexity and Strategic Complexity",
+  "posts": [
+    {
+      "username": "fibonnaci_otters",
+      "date": "2025-05-25T11:33:59-05:00",
+      "body": "Someone invented a \"next-generation way of quantifying the difficulty of a game. A simple 1-5 rating in the same fashion as BoardGameGeek doesn’t tell the full measure of the difficulty of a game since it doesn’t identify if a game is difficult due to the rules or the strategy.\n\n[It] is a two-dimensional rating scale where the rules difficulty and the strategic difficulty is measured individually.\n\nThe first number quantifies the rules complexity using a 1-5 scale. A 1-rating has very few rules and can be taught verbally in seconds (think: tic-tac-toe rules). A 5-rating has a very thick rules manual, many addendums, FAQs, rules charts, player aids, and a long rules explanation. (think: High Frontier)\n\nThe second letter quantifies the strategic complexity using an A through an E. An A-rating has very low strategy and may be either instant to grasp or be entirely luck-based. An E-rating has layers and layers of complexity and may take years to master. (think: Go or many 18xx titles)\"\n\nI've created a poll to see what other people think the rules complexity and strategic complexity would be for this game.\n\nGeeklist with all Rules Complexity and Strategic Complexity Polls: https://boardgamegeek.com/geeklist/354554\n\n[poll=2091290]"
+    }
+  ]
+}

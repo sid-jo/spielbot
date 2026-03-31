@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-03-31"
+  },
+  "subject": "Prosperous Farmers Hireling - Who takes the Actions?",
+  "posts": [
+    {
+      "username": "Samalander",
+      "date": "2026-03-25T21:46:48-05:00",
+      "body": "Prosperous Farmers says (among other things):\n2nd  Battle at a farm, or place 1 warrior at each farm.\n\nBoth of these options are confusing, as they are far less clear than other hirelings. \nA) Is the battling force you or the Hireling? \nB) Are the warriors placed yours or the Hireling's?\n\nIf both are \"Hireling\", this makes sense, as the warriors are meaningful, but the wording appears to be warped. Warriors should be called \"Farmer warriors\", yes? And shouldn't it say \"Prosperous Farmers battle at a farm...\"? (see Riverfolk Flotilla: \"Then, the Flotilla may battle.\")\nAnd if both are \"you\", then the single Farmer warrior at each farm is relatively useless, and there are a ton of unused warriors, which doesn't seem great.\nA mixture of the two is also confusing.\n\nBasically, huh?"
+    },
+    {
+      "username": "OmegasSquared",
+      "date": "2026-03-25T21:55:25-05:00",
+      "body": "Hirelings are always self-referential unless they use the word \"Controller\" either within the effect or prefacing the effect.\n\nYou can see other examples of Hireling actions that do not explicitly state the Hireling name on the Vault Keepers (\"place a warrior\", \"you may battle\"), Corvid Spies (\"battle in each clearing\"), Sunward Expedition (\"you may move, and then you may battle\", \"place a warrior\"), Forest Patrol (\"you may move, and then you may battle\"), etc"
+    },
+    {
+      "username": "Samalander",
+      "date": "2026-03-25T22:01:41-05:00",
+      "body": "Thank you so much!"
+    }
+  ]
+}

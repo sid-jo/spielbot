@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-03-31"
+  },
+  "subject": "Taking 3 chips when there only two left",
+  "posts": [
+    {
+      "username": "danieldukai",
+      "date": "2018-06-22T03:10:57-05:00",
+      "body": "I noticed this while watching a video about Splendor on the app.\n\nThere were only two gem tokens left, let's say one green and one blue. The player proceeded to take the two chips and pass.\n\nHow is that even a legal move, when you have to take 3 chips? \n\nEDIT: Quoting the rules here\n\n- Take 3 gem tokens of different colors.\n\nNowhere does it say up to 3 gem tokens."
+    },
+    {
+      "username": "HowitzerBug",
+      "date": "2018-06-22T03:22:17-05:00",
+      "body": "I don't recall where it's stated, but you can definitely take less, but ONLY if there are not 3 available.\n\nAlways played it this way with friends and I assumed that the app allows it meant we were right to do so."
+    },
+    {
+      "username": "danieldukai",
+      "date": "2018-06-22T03:24:42-05:00",
+      "body": "HowitzerBug wrote:\n\nI don't recall where it's stated, but you can definitely take less, but ONLY if there are not 3 available.\n\nAlways played it this way with friends and I assumed that the app allows it meant we were right to do so.\n\nCould it be a bug in the app?\n\nIs there an FAQ for this game?"
+    },
+    {
+      "username": "Sp1r0u",
+      "date": "2018-06-22T03:25:05-05:00",
+      "body": "If you read the next paragraph, it says, that if you can't take three chips, then you're allowed to take less (as many as you can).\n\nSo: If you can take three chips, you have to. Can't take less. If there are not enough chips, you take as many as you can.\n\n(Edit: Can't quote the rules since I own the german version)"
+    },
+    {
+      "username": "danieldukai",
+      "date": "2018-06-22T03:32:29-05:00",
+      "body": "Sp1r0u wrote:\n\nIf you read the next paragraph, it says, that if you can't take three chips, then you're allowed to take less (as many as you can).\n\nI can't see that in the English version at all. What are you talking about?\n\nEDIT: The only thing I could find is this link\n\nhttp://www.spacecowboys.fr/faq\n\nI cannot take three tokens. And the two remaining stacks are less than four tokens high. Can I take tokens anyway ?\n\nThe action \"take three different tokens\" allows you to pick only two different tokens, or even one.\n\nSo I would say that the wording should be changed to: you may take up to three gem chips."
+    },
+    {
+      "username": "russ",
+      "date": "2018-06-22T03:39:07-05:00",
+      "body": "danieldukai wrote:\n\nSo I would say that the wording should be changed to: you may take up to three gem chips.\n\nNote that this proposed wording would not be equivalent to the intended interpretation; this proposed wording would permit you to take fewer than 3 even when it's possible for you to take 3."
+    },
+    {
+      "username": "danieldukai",
+      "date": "2018-06-22T03:41:34-05:00",
+      "body": "russ wrote:\n\ndanieldukai wrote:\n\nSo I would say that the wording should be changed to: you may take up to three gem chips.\n\nNote that this proposed wording would not be equivalent to the intended interpretation; this proposed wording would permit you to take fewer than 3 even when it's possible for you to take 3.\n\nWell, ok. But then there should be at least a foot note for this very rare occasion where you can take only two."
+    },
+    {
+      "username": "russ",
+      "date": "2018-06-22T04:21:57-05:00",
+      "body": "danieldukai wrote:\n\nWell, ok. But then there should be at least a foot note for this very rare occasion where you can take only two.\n\nAgreed; interesting that the German rules apparently have such a statement (according to Timo's comment), but the English rules left it out. Perhaps something got lost in translation, or lost (or not added) during editing/revision."
+    },
+    {
+      "username": "COMaestro",
+      "date": "2018-06-22T13:02:39-05:00",
+      "body": "I would note that the rules are very clear about taking two of the same color token.\n\nThis action is only possible if there are at least 4 tokens of the\n\nchosen color left when the player takes them.\n\nHowever, there's no special footnote about the taking three different gems rule. Since there was nothing like \"This action is only possible if there are at least three differently colored tokens available when the player takes them,\" following the rule, my belief is the designer intends for players to be able to take just one or two tokens if that is all the colors of tokens that are available."
+    },
+    {
+      "username": "KogarashiKaze",
+      "date": "2018-06-22T14:03:15-05:00",
+      "body": "I can confirm that at least one version of the English rules specifies what to do. Mine has under Game Rules, after the list of four actions:\n\nSplendor Rulebook wrote:\n\nSelecting tokens\n\nIf there is not enough tokens available to take three of different colors, you may take two tokens (or even one).\n\nIt then goes on to explain that you can never have more than 10 tokens, and reminds you about not taking two of the same color if there are fewer than four left.\n\nEDIT: It should be noted that mine is the edition that also changed the setup instructions so that \"Don't touch the gold\" (for fewer players) was changed to \"No change for gold tokens,\" presumably because of ambiguity."
+    },
+    {
+      "username": "plezercruz",
+      "date": "2018-06-24T23:38:59-05:00",
+      "body": "My rules also have this rule...take two or one if more are not available.\n\nPete (was not an early adopter and supposes maybe they changed it at some point)"
+    },
+    {
+      "username": "junesen",
+      "date": "2018-09-21T01:46:19-05:00",
+      "body": "danieldukai wrote:\n\nhttp://www.spacecowboys.fr/faq\n\nI cannot take three tokens. And the two remaining stacks are less than four tokens high. Can I take tokens anyway ?\n\nThe action \"take three different tokens\" allows you to pick only two different tokens, or even one.\n\nSo I would say that the wording should be changed to: you may take up to three gem chips.\n\nNote that the wording implies that if there was only a stack of 4 green and a stack 2 red that you may not take a red and green. The iOS app also enforces this restriction."
+    },
+    {
+      "username": "TomareUtsuZo",
+      "date": "2025-07-11T08:00:04-05:00",
+      "body": "COMaestro wrote:\n\nI would note that the rules are very clear about taking two of the same color token.\n\nThis action is only possible if there are at least 4 tokens of the\nchosen color left when the player takes them.\n\nHowever, there's no special footnote about the taking three different gems rule. Since there was nothing like \"This action is only possible if there are at least three differently colored tokens available when the player takes them,\" following the rule, my belief is the designer intends for players to be able to take just one or two tokens if that is all the colors of tokens that are available.\n\nI gonna be honest. I happily remove any player who attempted to rules lawyer like this. What a flabbergasting way to ruin fun."
+    },
+    {
+      "username": "MLBath",
+      "date": "2025-07-11T08:22:29-05:00",
+      "body": "KogarashiKaze wrote:\n\n ...It then goes on to explain that you can never have more than 10 tokens...\n\nWe'll, either this has changed as well or Amanda has misquoted their rulebook. \n\nThe latest rule allow you to go above 10 tokens. You have to discard down to 10 at the end of your turn."
+    }
+  ]
+}

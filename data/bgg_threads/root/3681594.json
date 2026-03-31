@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-03-31"
+  },
+  "subject": "two questions about the twilight council",
+  "posts": [
+    {
+      "username": "MiceandMysticslover",
+      "date": "2026-03-22T15:31:07-05:00",
+      "body": "1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\n2. It appears that any opponent can flip an assembly to closed for no cost except loyalists for the Council? What the heck? Is there a once-per turn limit? Card cost? Requirement that you have to be at the assembly. I don't understand.\n\nClarification would be great. Thanks, all!"
+    },
+    {
+      "username": "OmegasSquared",
+      "date": "2026-03-22T15:58:44-05:00",
+      "body": "1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\nYes that was abandoned as it was impossible to balance\n\n2. It appears that any opponent can flip an assembly to closed for no cost except loyalists for the Council? What the heck? Is there a once-per turn limit? Card cost? Requirement that you have to be at the assembly. I don't understand.\n\nThere is no frequency limit or cost for the player activating Entreat. The hidden cost is that using it wantonly will supercharge the Bats' recruiting"
+    },
+    {
+      "username": "pmw57",
+      "date": "2026-03-22T15:59:34-05:00",
+      "body": "MiceandMysticslover wrote:\n\n1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\n[Edit: The following about Lilypad Diaspora when it was Twilight Council being asked about]\n\nFrom https://rules.ledergames.com/?product=root\n16.4.1 Craft. You may activate enclaves to craft cards (16.2.1.II).\n\nMiceandMysticslover wrote:\n\n2. It appears that any opponent can flip an assembly to closed for no cost except loyalists for the Council? What the heck? Is there a once-per turn limit? Card cost? Requirement that you have to be at the assembly. I don't understand.\n\nThat would be Negotiations.\n\n16.2.5 Negotiations. Once during their turn, an enemy with faction pieces in a clearing with a Militant enclave may flip it to Peaceful. If they don't rule the enclave but another player does, the flipping player must give the ruler a card in order to flip the enclave."
+    },
+    {
+      "username": "OmegasSquared",
+      "date": "2026-03-22T16:00:41-05:00",
+      "body": "pmw57 wrote:\n\nMiceandMysticslover wrote:\n\n1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\nFrom rules.ledergames.com\n16.4.1 Craft. You may activate enclaves to craft cards (16.2.1.II).\n\nMiceandMysticslover wrote:\n\n2. It appears that any opponent can flip an assembly to closed for no cost except loyalists for the Council? What the heck? Is there a once-per turn limit? Card cost? Requirement that you have to be at the assembly. I don't understand.\n\nThat would be Negotiations.\n\n16.2.5 Negotiations. Once during their turn, an enemy with faction pieces in a clearing with a Militant enclave may flip it to Peaceful. If they don't rule the enclave but another player does, the flipping player must give the ruler a card in order to flip the enclave.\n\nOP was asking about the Bats, and you are referencing the Frogs"
+    },
+    {
+      "username": "pmw57",
+      "date": "2026-03-22T16:02:51-05:00",
+      "body": "OmegasSquared wrote:\n\nOP was asking about the Bats, and you are referencing the Frogs\n\nOh thanks, that'll teach me to reply while not having woken up yet."
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-03-23T00:08:21-05:00",
+      "body": "The answer is, there's no mistakes that's precisely how they work.\n\nPlay a couple of games and you should find they're well balanced (even a little strong imo)"
+    },
+    {
+      "username": "MiceandMysticslover",
+      "date": "2026-03-23T16:31:45-05:00",
+      "body": "Thanks everyone!"
+    },
+    {
+      "username": "MiceandMysticslover",
+      "date": "2026-03-23T16:41:20-05:00",
+      "body": "OmegasSquared wrote:\n\n1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\nYes that was abandoned as it was impossible to balance\n\nThis disappoints me. How was it impossible to balance? It seems like it would encourage strategic placement of assemblies. Of course, they would occasionally struggle to craft but that seems like a reasonably thematic cost of playing without helpful allies. What is the problem? Where did they release this?\n\nThe answer to question 2 is very interesting. I wonder how the meta will turn out for that."
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-03-24T02:02:44-05:00",
+      "body": "They already score from enemy cardboard, so strategic assemblies are still required.\nThe crafting thing was an issue because different matchups have vastly different crafting pieces. In a WA game it'd be fine, but against Cats, Vagabond and Keepers in Iron there may only ever be 3 crafting pieces on the board in the whole game.\nWhereas the amount of cardboard is consistent across most matchups, in my afformentioned example, cats and badgers put down plenty of cardboard, it's just only a small percentage are crafting pieces.\n\nBasically crafting pieces are ridiculously variable whereas cardboard (while still being variable) is far less so"
+    },
+    {
+      "username": "MiceandMysticslover",
+      "date": "2026-03-24T15:58:18-05:00",
+      "body": "Laterbot wrote:\n\nThey already score from enemy cardboard, so strategic assemblies are still required.\nThe crafting thing was an issue because different matchups have vastly different crafting pieces. In a WA game it'd be fine, but against Cats, Vagabond and Keepers in Iron there may only ever be 3 crafting pieces on the board in the whole game.\nWhereas the amount of cardboard is consistent across most matchups, in my afformentioned example, cats and badgers put down plenty of cardboard, it's just only a small percentage are crafting pieces.\n\nBasically crafting pieces are ridiculously variable whereas cardboard (while still being variable) is far less so\n\nThanks for the clarification. I still would have liked the mechanic to show up somewhere. Maybe they choose which to use each turn? Or they use both?"
+    },
+    {
+      "username": "shadowhawk720",
+      "date": "2026-03-26T14:29:50-05:00",
+      "body": "Would be nice if they considered such nice crafting changes for the lizards 🤐😅"
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-03-27T06:24:34-05:00",
+      "body": "shadowhawk720 wrote:\n\nWould be nice if they considered such nice crafting changes for the lizards 🤐😅\n\nThe lizards actually do have a small crafting buff in Homeland, specifically in relation to Lost City, the new Landmarks and Lilypad Diaspora clearings"
+    }
+  ]
+}
