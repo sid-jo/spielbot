@@ -483,7 +483,7 @@ if __name__ == "__main__":
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
 
-    output_dir = project_root / "bgg_threads"
+    output_dir = project_root / "data" / "bgg_threads"
     checkpoint_dir = project_root / "data" / "checkpoints"
 
     scrape_all_games(output_dir, checkpoint_dir, args.limit, project_root)
