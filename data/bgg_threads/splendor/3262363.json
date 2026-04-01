@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Resolving a missed hand limit.",
+  "posts": [
+    {
+      "username": "redknight_ks",
+      "date": "2024-03-08T22:59:31-06:00",
+      "body": "Suppose a player has more than ten tokens at the end of their turn, but nobody noticed. What rules do you guys use to resolve this when somebody does notice at a later point in time?\n\nWe are playing casually and don't want to punish the player too harshly if it was an honest mistake."
+    },
+    {
+      "username": "SaltyHorse",
+      "date": "2024-03-08T23:14:49-06:00",
+      "body": "When playing casually: Ask them to return the extra tokens when you notice it."
+    },
+    {
+      "username": "whac3",
+      "date": "2024-03-09T10:49:09-06:00",
+      "body": "If we notice at their next turn, then they have to get rid of the excess before playing."
+    },
+    {
+      "username": "CavemanLogic",
+      "date": "2024-03-09T19:29:00-06:00",
+      "body": "It's tricky, depending on *when* you notice.\n\nSuppose its during a 4-player game.  Player 1 takes too many tokens, and no one notices at the time.  Players 2 and 3 take their turns.  Then the error is discovered on Player 4's turn, and the excess tokens are returned.\n\nBut what if that would have altered Player 2's and Player 3's turns?  Perhaps Player 2 needed red, which wasn't available at the time, and Player 1 returns a red token when the mistake is discovered during Player 4's turn.\n\nI guess you need to try to redo the last two turns as well.  Or at least allow Player 2, then Player 3, to exchange tokens (assuming they took tokens on their turns), based on the tokens that Player 1 just returned to fix their error.\n\nCheers!"
+    },
+    {
+      "username": "whac3",
+      "date": "2024-03-10T07:47:00-05:00",
+      "body": "Yes, when them having the extra tokens in principle limited others players, just ask if they'd have done something differently."
+    },
+    {
+      "username": "pdowen3",
+      "date": "2024-11-12T05:24:10-06:00",
+      "body": "To prevent this, we're in the habit of announcing our chip count at the end of our turn when it gets above five. That prompts us to count every time."
+    }
+  ]
+}

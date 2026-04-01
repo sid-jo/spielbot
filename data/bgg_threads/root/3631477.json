@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Vagabond damages all his undamaged sword after being ambushed",
+  "posts": [
+    {
+      "username": "tranlyvu",
+      "date": "2025-12-21T19:58:53-06:00",
+      "body": "Hi,\n\nIf Vagabond damages all his undamaged sword after being ambushed as attacker, will the battle stop?"
+    },
+    {
+      "username": "k8rthik",
+      "date": "2025-12-21T20:43:44-06:00",
+      "body": "You still battle, the vagabond is just treated as defenseless. (9.2.4)"
+    },
+    {
+      "username": "tranlyvu",
+      "date": "2025-12-21T22:02:42-06:00",
+      "body": "k8rthik wrote:\n\nYou still battle, the vagabond is just treated as defenseless. (9.2.4)\n\nbut defenseless is state that granted to defender, in this case  Vagabond is the attacker,  so can he be considered defenseless with no undamaged sword?"
+    },
+    {
+      "username": "OmegasSquared",
+      "date": "2025-12-21T22:52:07-06:00",
+      "body": "tranlyvu wrote:\n\nHi,\n\nIf Vagabond damages all his undamaged sword after being ambushed as attacker, will the battle stop? \n\nThe battle will continue, with the Vagabond having a maximum rolled hits value of 0 but still able to deal extra hits from Defenseless or Crafted Improvements or so on\n\nThe attacking Vagabond is not defenseless, that is a condition that only applies to defenders. The Vagabond would not take an extra hit from the defender from having no undamaged swords"
+    },
+    {
+      "username": "bladerunner007",
+      "date": "2025-12-21T23:53:03-06:00",
+      "body": "tranlyvu wrote:\n\nHi,\n\nIf Vagabond damages all his undamaged sword after being ambushed as attacker, will the battle stop? \n\nThis question was already asked before:\n\nCan Vagabond still hit when swords are damaged?"
+    }
+  ]
+}

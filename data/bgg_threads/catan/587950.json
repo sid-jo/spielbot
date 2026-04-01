@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "What is the tie break?",
+  "posts": [
+    {
+      "username": "pazu",
+      "date": "2010-11-23T00:22:46-06:00",
+      "body": "In the end game, if players (not the winner) get same scores, what is the tie breaker?"
+    },
+    {
+      "username": "wmshub",
+      "date": "2010-11-23T00:26:25-06:00",
+      "body": "You can only win on your turn. You can't have two people taking their turn at the same time, so somebody must win before the other. No tiebreaker is needed."
+    },
+    {
+      "username": "superbgg",
+      "date": "2010-11-23T00:27:34-06:00",
+      "body": "To win, you have to have the required number of points (10 in the basic game) on your turn.  So there can be no tie.\n\nEDIT:  One minute too slow"
+    },
+    {
+      "username": "elementary",
+      "date": "2010-11-23T00:37:15-06:00",
+      "body": "He asked what the tie breakers were for the other players, not the winner.  These would separate 2nd, 3rd, and 4th in instances of tied scores.\n\nI actually don't happen to know if there are any such tie breakers in the official rules, but I would assume that some tournament rule sets have established these types of tie breakers.  But again, I don't really know."
+    },
+    {
+      "username": "superbgg",
+      "date": "2010-11-23T01:08:37-06:00",
+      "body": "elementary wrote:\n\nHe asked what the tie breakers were for the other players, not the winner.  \n\nD'oh!  You're right, my apologies.  I also do not know of any official rules for this.  I guess we play by the 'if you're not first you're last' motto"
+    },
+    {
+      "username": "Sebastian Rapp",
+      "date": "2010-11-23T02:32:37-06:00",
+      "body": "In Settlers of Catan, there is no tier. There can be only one winner ever (the player who's turn it is as long as he is among the tied players).\n\nApart from winning, there is no ranking for 2nd, 3rd ... \n\nTournaments (that usually play more than one round) use other means to determine a tournament ranking, but there is none that involves tiers for ranking in a single game. If two players tie for 2nd place with 9 victory points, they are both considered 2nd with 9 victory points.\n\nThat's it. Because the game does not offer any means to determine a 2nd and 3rd place in this case\n\nSebastian Rapp / Kosmos"
+    },
+    {
+      "username": "Burtch",
+      "date": "2010-11-23T06:47:48-06:00",
+      "body": "But if you really really wanted to hand out silver medals, you could make a house rule that, of the tied players, whoever would have a turn next wins. But if you play with a new group who are familiar with the game, just don't expect anyone to know what your talking about.. I GOT SECOND!!"
+    },
+    {
+      "username": "mst3k4L",
+      "date": "2010-11-23T07:22:08-06:00",
+      "body": "Although it is by no means an official rule, I normally consider a good tie breaker to be the player with the most VPs that cannot be lost as the winner.  This removes Longest Road and Largest Army from the final point tally."
+    },
+    {
+      "username": "Gruumsh",
+      "date": "2010-11-23T10:33:00-06:00",
+      "body": "elementary wrote:\n\nHe asked what the tie breakers were for the other players, not the winner.  These would separate 2nd, 3rd, and 4th in instances of tied scores.\n\nI actually don't happen to know if there are any such tie breakers in the official rules, but I would assume that some tournament rule sets have established these types of tie breakers.  But again, I don't really know.\n\nWell, we all know that \"assume\" makes an \"ass\" out of \"u\" and \"me\", but here I go anyway... maybe I can be permitted to make assumptions because my name is Klaus \n\nI would assume that because turn order is an issue, the next person who would have won on their turn would be 2nd, then 3rd, then so on. That seems to be within the spirit of the rules."
+    },
+    {
+      "username": "markgravitygood",
+      "date": "2010-11-23T10:40:13-06:00",
+      "body": "On ties, we go by:\n\nNumber of Cities, then\n\nNumber of Settlements, then\n\nNumber of Roads, then\n\nVictory Point Cards.\n\nAfter all, the name of the game is to \"Settle\" Catan, so it makes good sense."
+    },
+    {
+      "username": "kjamma4",
+      "date": "2010-11-23T11:15:34-06:00",
+      "body": "Steel cage death-match. It's the only way to be sure."
+    },
+    {
+      "username": "kelvSYC",
+      "date": "2010-11-23T19:46:10-06:00",
+      "body": "Short answer: Depends on the scenario.  Consult the individual scenario rules.\n\nLong answer: In the absence of any other rules to the contrary, there is no tiebreaker among \"the losers\".  One can still win on a tiebreak depending on scenario (where the game may end due to meeting some conditions independent of VPs).  These may be used as a definitive player ranking in those situations."
+    },
+    {
+      "username": "Radien",
+      "date": "2010-11-26T02:10:33-06:00",
+      "body": "I've calculated who got \"2nd place,\" etc., after many games of Settlers, but it's usually just an informational thing.  On the other hand, if it's your first game of Settlers, it feels a lot better to say \"I came in 2nd!\" than \"I lost.  \"  I say this because getting \"2nd\" in your first game of Settlers is actually pretty impressive in my book.\n\nzu laputa, is there a specific reason you need to calculate 2nd, 3rd, and 4th place?"
+    },
+    {
+      "username": "sergut",
+      "date": "2023-01-17T03:46:26-06:00",
+      "body": "markgravitygood wrote:\n\nOn ties, we go by:\n\nNumber of Cities, then\nNumber of Settlements, then\nNumber of Roads, then\nVictory Point Cards.\n\nIf two (or more) players have the same number of points, the same number of Cities, and the same number of Settlements... must they not have the same number of VP cards too? \n\nIf VP = 1 x S + 2 x C + 1 x DC and you have a tie on VP, C, and S, it seems that the value of DC is fixed. 🤔\n\nPS: FWIW, Board Game Arena seems to use the number of VP cards as a tie breaker."
+    },
+    {
+      "username": "drswirly",
+      "date": "2023-01-18T03:02:12-06:00",
+      "body": "sergut wrote:\n\nIf two (or more) players have the same number of points, the same number of Cities, and the same number of Settlements... must they not have the same number of VP cards too? \n\nIf VP = 1 x S + 2 x C + 1 x DC and you have a tie on VP, C, and S, it seems that the value of DC is fixed. 🤔\n\nMaybe they ignore bonus points from Longest Road and Largest Army since those points aren't permanent, and only count actual VP cards."
+    },
+    {
+      "username": "sergut",
+      "date": "2023-02-01T16:54:51-06:00",
+      "body": "That makes a lot of sense. I had forgotten about the Special Cards. \n\nSo the correct formula is VP = 1 x S + 2 x C + 1 x DC + 2 x LR + 2 x LA and, therefore, fixing VP, S, and C does not determine the value of DC. \n\nThank you! 🙂"
+    }
+  ]
+}

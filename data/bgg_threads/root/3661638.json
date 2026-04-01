@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "The Riverfolk Company's funds",
+  "posts": [
+    {
+      "username": "NoTeVuelvasLoki",
+      "date": "2026-02-13T06:58:13-06:00",
+      "body": "According to the faction board, when the company loses a trading post, it has to return half of its funds. What happens if all the warriors are in the consignment area? Do they count as funds?"
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-02-13T07:00:39-06:00",
+      "body": "Nope! Funds only count as funds when they're in the funds box.\n\nYou only have to worry about losing funds from a destroyed trade post if you're trying to score dividends, otherwise it poses no threat."
+    },
+    {
+      "username": "NachoFailconi",
+      "date": "2026-02-13T07:04:10-06:00",
+      "body": "Funds are defined as \"warriors in the Fund box\", so no, warriors is the Committed box are do not count for Trade Disruption, as they are not in the Funds box."
+    },
+    {
+      "username": "NoTeVuelvasLoki",
+      "date": "2026-02-13T07:05:49-06:00",
+      "body": "Thank you, both of you."
+    },
+    {
+      "username": "Skeime",
+      "date": "2026-02-13T07:19:17-06:00",
+      "body": "Laterbot wrote:\n\nNope! Funds only count as funds when they're in the funds box.\n\nYou only have to worry about losing funds from a destroyed trade post if you're trying to score dividends, otherwise it poses no threat.\n\nNot quite the only threat: If you attack on your turn in a way that destroys a trading post (for example, fighting with two Riverfolk warriors against three warriors at a trading post, and then rolling 3-3), you lose half of your remaining funds as well.\n\nThis can become relevant relatively easily when you run into an ambush."
+    },
+    {
+      "username": "Rootin",
+      "date": "2026-02-13T11:24:07-06:00",
+      "body": "Skeime wrote:\n\nLaterbot wrote:\n\nNope! Funds only count as funds when they're in the funds box.\n\nYou only have to worry about losing funds from a destroyed trade post if you're trying to score dividends, otherwise it poses no threat.\n\nNot quite the only threat: If you attack on your turn in a way that destroys a trading post (for example, fighting with two Riverfolk warriors against three warriors at a trading post, and then rolling 3-3), you lose half of your remaining funds as well.\n\nThis can become relevant relatively easily when you run into an ambush.\n\nYes, as happened to me in a recent digital game"
+    }
+  ]
+}

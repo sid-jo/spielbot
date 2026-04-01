@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Advanced Setup with no Vagabonds or Hundred: Do you place Ruins?",
+  "posts": [
+    {
+      "username": "Yenreb",
+      "date": "2025-12-25T05:17:15-06:00",
+      "body": "The instructions to set up the ruins during basic setup are a separate step from any faction's setup. In the advanced setup, though, I can see no instruction to set up ruins except in the Vagabond's and Hundred's faction setup. If using Advanced Setup and neither of these factions are playing, should the Ruins slots be empty, or should they be filled anyway?"
+    },
+    {
+      "username": "jdludlow",
+      "date": "2025-12-25T05:35:25-06:00",
+      "body": "Set the ruins up as normal. It’s the last sentence of step 1 in advanced setup."
+    },
+    {
+      "username": "Yenreb",
+      "date": "2025-12-25T06:01:28-06:00",
+      "body": "Thanks!"
+    },
+    {
+      "username": "Micro_BIOS",
+      "date": "2025-12-26T10:19:09-06:00",
+      "body": "You put the ruins tokens alone, without any other token under them."
+    },
+    {
+      "username": "Laterbot",
+      "date": "2025-12-26T17:55:08-06:00",
+      "body": "Vagabond and Hundreds actually instruct you to set up Ruin items rather than the Ruins themselves"
+    }
+  ]
+}

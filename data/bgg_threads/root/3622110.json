@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Movements as Marquise de Cat",
+  "posts": [
+    {
+      "username": "MakingPancakes",
+      "date": "2025-12-03T09:15:28-06:00",
+      "body": "Good morning!\nMy friend and I bought Root, and we keep coming to an impasse. I’m currently playing Marquise de Cat. As the cat, the rules say I can move up to two times. The way I’m understanding the rules, if I own the land I’m originating from or the land that is my destination I can move freely up to two times. So if I own a land and I move through the eerie, pass it to a second spot, I can do that? In my mind it’s like a flight. I start in one location, the layover is not my destination, so I can move on. The book doesn’t mention that the moves are necessarily separate nor are they conjoined. My friend is really hung up on the two moves aspect of my character. In each case though, I have moved either owning the spot I’m moving from or eventually to.\nSo my question is, when moving two times, does the layover spot count as a “destination “? Do I have to own the first land I move TO even if I plan on moving my pieces to a second spot in the same turn?\n\nThank you for your help and consideration!"
+    },
+    {
+      "username": "Zetecua",
+      "date": "2025-12-03T09:25:43-06:00",
+      "body": "Each of the \"up to two\" moves must either originate or end in a clearing you own. Each of the two moves are separate events and must each adhere to general movement rules, with hopefully different parameters, i.e. number of warriors, starting clearing, ending clearing.\n\nHappy Gaming!"
+    },
+    {
+      "username": "ras2124",
+      "date": "2025-12-03T09:26:27-06:00",
+      "body": "It is two independent moves. You can move through a spot as long as you meet the criteria for each leg as you are doing that move."
+    },
+    {
+      "username": "Domfluff",
+      "date": "2025-12-03T09:27:38-06:00",
+      "body": "4.2 Move\nWhen you move, you may take any number (more than zero) of your warriors and pawns from one clearing and move them to one adjacent clearing.\n4.2.1\nYou Must Rule. To take a move, you must rule the origin clearing, destination clearing, or both.   \n4.2.2\nNo Movement Limits. A given piece can be moved any number of times per turn. If you are prompted to take multiple moves, you may move the same or separate groups of warriors.\n\nThe Marquise de Cat has the \"March\" action, which is two moves. Those two moves are worked out individually, with no memory of previous turns.\n\n(Assume all clearings are empty unless specified for the below. Three clearings A -> B -> C)\n\nIf you were moving 3 cats from clearing A, you could move them all to B (since you rule A), then move them all to C, (since you rule B).\n\nIf there were 4 lizards in clearing B, then you could move three from A to B, but then they wouldn't be able to move again (since Lizards now rule B, and the cats do not rule A or C)."
+    },
+    {
+      "username": "ZergyPoo",
+      "date": "2025-12-03T09:30:43-06:00",
+      "body": "MakingPancakes wrote:\n\nThe book doesn’t mention that the moves are necessarily separate nor are they conjoined.\n\nYou are in the right, they are separate moves.\n\nThe rulebook doesn't address this specifically, you are correct, but it does make it clear:\n\n1. It defines \"move\" as a core action. This is where the restrictions with regards to \"rule\" are defined.\n2. The Marquise player board just says \"March: take up to 2 moves.\"\n\nSince \"move\" is defined, there is nothing altering the rules and saying that March alters any \"rule\" restrictions. Therefore it's just like it says: you just take up to 2 moves, no more, no less. Following the core \"move\" rules from the booklet."
+    },
+    {
+      "username": "MakingPancakes",
+      "date": "2025-12-03T09:45:48-06:00",
+      "body": "Thanks everybody!"
+    }
+  ]
+}

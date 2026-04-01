@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Question regarding the False Orders card.",
+  "posts": [
+    {
+      "username": "Tpatts1",
+      "date": "2026-01-08T12:05:20-06:00",
+      "body": "I read it to mean move any number of enemy warriors from ANY clearing to ANY OTHER clearing, regardless of adjacency. My thinking is it would explicitly say \"adjacent clearing\" otherwise.\n\nAm I correct in this?"
+    },
+    {
+      "username": "NachoFailconi",
+      "date": "2026-01-08T12:12:01-06:00",
+      "body": "\"Move\" is defined through adjacency, so no, you cannot do that.\n\nEdit: \"When you move, you may take any number (more than zero) of your warriors and pawns from one clearing and move them to one adjacent clearing.\""
+    },
+    {
+      "username": "dsdhornet",
+      "date": "2026-01-08T12:23:00-06:00",
+      "body": "You must also follow any of the ordered faction's move requirements, including rule (must rule the start or destination clearing)."
+    },
+    {
+      "username": "NachoFailconi",
+      "date": "2026-01-08T18:39:37-06:00",
+      "body": "dsdhornet wrote:\n\nYou must also follow any of the ordered faction's move requirements, including rule (must rule the start or destination clearing).\n\nNo, because False Orders explicitly says \"ignoring rule\"."
+    },
+    {
+      "username": "dsdhornet",
+      "date": "2026-01-08T20:11:17-06:00",
+      "body": "NachoFailconi wrote:\n\ndsdhornet wrote:\n\nYou must also follow any of the ordered faction's move requirements, including rule (must rule the start or destination clearing).\n\nNo, because False Orders explicitly says \"ignoring rule\".\n\nGood catch.  Didn't have the card in front of me.  I believe other restrictions / abilities apply though."
+    },
+    {
+      "username": "BoilerUp",
+      "date": "2026-01-08T21:36:31-06:00",
+      "body": "Can I move the moles from one clearing with a hole to another clearing with a hole?  Could I move them to the burrow?  \nIf a faction has warriors by the raft, can I send them in the raft?  Do they get a card?"
+    },
+    {
+      "username": "pmw57",
+      "date": "2026-01-08T21:41:16-06:00",
+      "body": "BoilerUp wrote:\n\nCan I move the moles from one clearing with a hole to another clearing with a hole?  Could I move them to the burrow?\n\nIt's 1 move action to move from the clearing with a hole token to the burrow. it's then another move action to move them from the burrow to another clearing with a hole token.\n\nBoilerUp wrote:\n\nIf a faction has warriors by the raft, can I send them in the raft?  Do they get a card?\n\nIf you are allowed to move them, such as with False Orders, then yes you can send them in the raft. The raft can only be used once per turn so you would not be allowed to use the raft if it's been used to move others, at least that's how it is on the same turn.\n\nWhether they get a card or you get a card, depends on what it is that allows you to move them."
+    },
+    {
+      "username": "dsdhornet",
+      "date": "2026-01-08T23:29:32-06:00",
+      "body": "BoilerUp wrote:\n\nCan I move the moles from one clearing with a hole to another clearing with a hole?  Could I move them to the burrow?  \nIf a faction has warriors by the raft, can I send them in the raft?  Do they get a card?\n\nSee Paul's answers.  But also:\n\nYou can move the Riverfolk along rivers and have the Keepers carry items along with them.  You can also move hireling warriors controlled by an enemy player (but not both the player's warriors and hireling's warriors...they are considered two separate \"enemies\").  \n\nNote that you cannot move the Vagabond or Protector, as they are pawns, not warriors."
+    }
+  ]
+}

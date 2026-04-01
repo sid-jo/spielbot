@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Do you need to show the card before you guess the crow's token to prove you have the card matching suit?",
+  "posts": [
+    {
+      "username": "tranlyvu",
+      "date": "2026-01-01T05:51:24-06:00",
+      "body": "Hi,\n\nLet's say after 3 wrong guesses, you know for sure the final plot type,  do you still need to prove you have the card matching the suit in the hand to guess the final type?\n\nTechnically, you still can forget the final plot type and guess wrong, and still have to hand over the card to the crow player? or you can guess without having the card which i dont think its correct rule?"
+    },
+    {
+      "username": "ow3n",
+      "date": "2026-01-01T06:12:44-06:00",
+      "body": "Hi,\nYes you need to be able to Expose, and for that the mandatory pre-requisite is to actually show a matching card to the Crow player.\nIn particular, in you have no card, you cannot Expose, and therefore must battle the plot if you absolutely need to remove it.\n\nAs you noticed, you could still purposely fake-guess for whatever reason."
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-01-01T08:43:52-06:00",
+      "body": "Also important to note, the Corvid getting to see your card is still an explicit advantage for them.\nFor example if the only matching card you had was an ambush, you need to show them that to remove the plot. They get to know you have that ambush, and you get to remove the plot. That's the cost of the expose action even if you guess the plot correctly."
+    },
+    {
+      "username": "dsdhornet",
+      "date": "2026-01-01T10:57:55-06:00",
+      "body": "Laterbot wrote:\n\nAlso important to note, the Corvid getting to see your card is still an explicit advantage for them.\nFor example if the only matching card you had was an ambush, you need to show them that to remove the plot. They get to know you have that ambush, and you get to remove the plot. That's the cost of the expose action even if you guess the plot correctly.\n\nAnd remember, \"showing a card\" does not just mean flashing it to show the suit.  It means they get to see and inspect the entire card."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Spending gold/jokers/wild instead of gems you already have",
+  "posts": [
+    {
+      "username": "ahmadnz",
+      "date": "2022-01-11T16:55:06-06:00",
+      "body": "I have 4 blue gems and 3 gold. I want to place a 6 blue development. There are 0 blue gems available in the supply. \n\nCan I choose to pay as 3/3 or do I have to spend all 4 blue (meaning opponent could take 2 of the retuned blue gems?)."
+    },
+    {
+      "username": "aldaryn",
+      "date": "2022-01-11T16:58:05-06:00",
+      "body": "ahmadnz wrote:\n\nI have 4 blue gems and 3 gold. I want to place a 6 blue development. There are 0 blue gems available in the supply. \n\nCan I choose to pay as 3/3 or do I have to spend all 4 blue (meaning opponent could take 2 of the retuned blue gems?). \n\nI believe you can choose."
+    },
+    {
+      "username": "PauloSantoro",
+      "date": "2022-01-12T00:08:41-06:00",
+      "body": "Rulebook page 3: \"To purchase a card, a player must spend the number of tokens indicated on the card. A joker token can replace any color. The spent tokens (including any jokers) are returned to the middle of the table.\"\nIt can't be clearer."
+    },
+    {
+      "username": "Vulpis1",
+      "date": "2022-01-12T11:35:03-06:00",
+      "body": "ahmadnz wrote:\n\nI have 4 blue gems and 3 gold. I want to place a 6 blue development. There are 0 blue gems available in the supply. \n\nCan I choose to pay as 3/3 or do I have to spend all 4 blue (meaning opponent could take 2 of the retuned blue gems?). \n\nYou do not have to use all 4 blue. You use 3 blue and 3 gold (wilds)."
+    },
+    {
+      "username": "Vulpis1",
+      "date": "2022-01-12T11:35:58-06:00",
+      "body": "Vulpis1 wrote:\n\nahmadnz wrote:\n\nI have 4 blue gems and 3 gold. I want to place a 6 blue development. There are 0 blue gems available in the supply. \n\nCan I choose to pay as 3/3 or do I have to spend all 4 blue (meaning opponent could take 2 of the retuned blue gems?). \n\nYou do not have to use all 4 blue. You can use 3 blue and 3 gold (wilds)."
+    },
+    {
+      "username": "ahmadnz",
+      "date": "2022-01-12T13:11:49-06:00",
+      "body": "I don’t believe the Splendor phone app gives this choice. Not at least the last time I played it."
+    },
+    {
+      "username": "russ",
+      "date": "2022-01-12T13:23:26-06:00",
+      "body": "ahmadnz wrote:\n\nI don’t believe the Splendor phone app gives this choice. Not at least the last time I played it. \n\nSo it seems either the app is buggy, or it has the option but you didn't find it in the user interface."
+    },
+    {
+      "username": "drneau",
+      "date": "2022-01-12T14:04:50-06:00",
+      "body": "russ wrote:\n\nahmadnz wrote:\n\nI don’t believe the Splendor phone app gives this choice. Not at least the last time I played it. \n\nSo it seems either the app is buggy, or it has the option but you didn't find it in the user interface.\n\nOr the developer of the app made a design choice."
+    },
+    {
+      "username": "russ",
+      "date": "2022-01-12T14:12:53-06:00",
+      "body": "drneau wrote:\n\nruss wrote:\n\nahmadnz wrote:\n\nI don’t believe the Splendor phone app gives this choice. Not at least the last time I played it. \n\nSo it seems either the app is buggy, or it has the option but you didn't find it in the user interface.\n\nOr the developer of the app made a design choice.\n\nA design choice to change the rules? Still seems like a bug, if so."
+    },
+    {
+      "username": "ahmadnz",
+      "date": "2022-01-12T15:41:12-06:00",
+      "body": "OK confirmed.\n\nI had 1 White Development and 4 White gems and 2 Gold. When I put down a Development at a cost of 6 white, the app automatically played it and paid 4 White and 1 Gold (it did not ask me how I wanted to pay for the 5 White required)."
+    },
+    {
+      "username": "gillum",
+      "date": "2022-01-12T19:16:02-06:00",
+      "body": "Maybe someone can check how it's implemented on boardgamearena."
+    },
+    {
+      "username": "aelfric_brewer",
+      "date": "2022-02-14T15:10:25-06:00",
+      "body": "Playing in person, you have your choice. You can, but are not required to, substitute gold joker tokens for any colored gem tokens. Normally it is preferred to hold onto the gold joker tokens as long as possible because they are the most useful, but it is a perfectly valid tactic to pay with them when you don't need to (for example, you opponent has 3 reserved cards so cannot reserve more, and needs blue tokens for a card he reserved, you might choose to pay with gold instead of blue so as not to return the blue tokens to the supply where he could collect them).\n\nI strongly suspect that, for app or online, it was a programmer's/developer's choice to avoid having the game drag out forever as each player tap-tap-taps out each individual chip he spends."
+    },
+    {
+      "username": "ZeekLTK",
+      "date": "2022-05-01T10:24:28-05:00",
+      "body": "I strongly suspect that, for app or online, it was a programmer's/developer's choice to avoid having the game drag out forever as each player tap-tap-taps out each individual chip he spends.\n\nI mean, I don't think it would take that long.\n\nYou just have a check to see \"does the player have any gold pieces?\" If not, then no pop up. If yes, check to see if they have enough of the gems to pay the cost. If not, automatically use gold (again, no pop up). If so, ask them \"do you want to spend (extra) gold for this?\" and THEN if they say yes, let them pick. So would only have to click \"no\" each turn you have a gold and are spending gems (so would never come up if you don't have gold left OR you are just getting cards with the cards you already have) and then maybe \"yes\" and select the value once or twice a game or so."
+    }
+  ]
+}

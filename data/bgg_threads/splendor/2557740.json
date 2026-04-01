@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Can you clarify the rules when only single color tokens left with less than 4 tokens",
+  "posts": [
+    {
+      "username": "Goren",
+      "date": "2020-12-11T00:04:57-06:00",
+      "body": "Can you clarify the rules when only single color tokens left with less than 4 tokens, is the player allowed to take tokens? And if so, how many?"
+    },
+    {
+      "username": "rkonigsberg",
+      "date": "2020-12-11T00:23:28-06:00",
+      "body": "Goren wrote:\n\nCan you clarify the rules when only single color tokens left with less than 4 tokens, is the player allowed to take tokens? And if so, how many?\n\nWelcome to bgg. In that case, the player may take only a single token. A tough spot to be in if other options are not beneficial."
+    },
+    {
+      "username": "AccountAnt",
+      "date": "2020-12-11T03:27:14-06:00",
+      "body": "9/10 you won't want to take a single token. Either spend or reserve."
+    },
+    {
+      "username": "Goren",
+      "date": "2020-12-11T07:43:00-06:00",
+      "body": "Thanks guys!"
+    },
+    {
+      "username": "aelfric_brewer",
+      "date": "2020-12-29T14:11:08-06:00",
+      "body": "Goren wrote:\n\nCan you clarify the rules when only single color tokens left with less than 4 tokens, is the player allowed to take tokens? And if so, how many?\n\ntaking 1 token each of 3 different colors, or from as many colors as are present if there are fewer than 3 different colors in the supply, is always an option. this is in contrast to the other 3 options, which are each conditional (you may only take two tokens of the same color if at least two tokens of that color remain afterwards; you may only reserve a card if you currently have fewer than 3 reserved cards; you may only purchase a card if you have the required tokens and discounts from previously purchased cards to pay the price.) it is theoretically possible that you can do nothing on your turn, if all tokens have been taken by players, you have the full hand of 3 reserved cards, and you are unable to buy any cards from your hand or in the tableau, but i have never seen this happen.\n\nfor example, if there are only 4 white and 2 blue chips in the supply, you are allowed to take 1 white and 1 blue (you are not forced to take 2 white, nor are you prevented from taking 1 of each when there are fewer than 3 colors available).\n\nfrom the rules (taken from https://017aae6e-7d2b-4a50-9dfc-d78eced3774e.filesusr.com/ug... )\n--\nOn their turn, a player must choose to perform only one of the\nfollowing four actions.\n- Take 3 gem tokens of different colors.\n- Take 2 gem tokens of the same color.\n This action is only possible if there are at least 4 tokens of the\nchosen color left when the player takes them.\n- Reserve 1 development card and take 1 gold token (joker).\n- Purchase 1 face-up development card from the middle of the\ntable or a previously reserved one.\n\nSelecting tokens\nA player can never have more than 10 tokens at the end of\ntheir turn (including jokers). If this happens, they must return\ntokens until they only have 10 left. A player can return all or\nsome of those they’ve just drawn. The tokens owned by a\nplayer must be visible by all players at all times.\nReminder: players may not take 2 tokens of the same color if\nthere are less than 4 tokens available of that color.\""
+    },
+    {
+      "username": "CorkNeck",
+      "date": "2025-01-13T07:36:38-06:00",
+      "body": "- Take 2 gem tokens of the same color.\nThis action is only possible if there are at least 4 tokens of the\nchosen color left when the player takes them.\n\nI recently stumbled upon this. On games with 2 players, there are only 4 tokens of each color, so this would technically rule out the possibility of a player getting 2 of the same, which, sounds counter-intuitive... There is a newer (?) version of the rulebook that claims you can get 2 of the same color if there are at least 2 left on the color's pile after collecting, which, deals with the issue raised by the previous ruling."
+    },
+    {
+      "username": "CavemanLogic",
+      "date": "2025-01-13T17:17:44-06:00",
+      "body": "CorkNeck wrote:\n\n- Take 2 gem tokens of the same color.\nThis action is only possible if there are at least 4 tokens of the\nchosen color left when the player takes them.\n\nI recently stumbled upon this. On games with 2 players, there are only 4 tokens of each color, so this would technically rule out the possibility of a player getting 2 of the same, which, sounds counter-intuitive... There is a newer (?) version of the rulebook that claims you can get 2 of the same color if there are at least 2 left on the color's pile after collecting, which, deals with the issue raised by the previous ruling.\n\nThe rule has *always* been that, in order to take two gems of the same color, there needs to be four tokens of that color *before* you take gems. Or, if you prefer, there need to be two gems of that color remaining *after* you take gems.\n\nSo, in a two player game, a long as the stack is full (has all four gems available), then you can take two of them on your turn.\n\nMy copy is from 2014, and that's how that rule has always worked.\n\nCheers!"
+    }
+  ]
+}

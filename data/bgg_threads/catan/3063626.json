@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Maritine Trading Rules",
+  "posts": [
+    {
+      "username": "Ellebell",
+      "date": "2023-04-10T14:04:40-05:00",
+      "body": "If I give someone say 2 sheep to trade for 1 ore as they have a harbour, then they can trade it back for say wool is that OK in catan 5 player expansion maratine version"
+    },
+    {
+      "username": "WilbertK",
+      "date": "2023-04-10T14:16:03-05:00",
+      "body": "They can trade you 1 ore for 2 sheep. But they can't use their harbour if it's not their turn."
+    }
+  ]
+}

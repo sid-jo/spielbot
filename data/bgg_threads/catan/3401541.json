@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "How many resource cards does a player get when placing a starting settlement this way",
+  "posts": [
+    {
+      "username": "rollstar",
+      "date": "2024-11-07T23:27:34-06:00",
+      "body": "Can anyone clarify, if a player were to put their starting settlement on A or B like in this picture, how many resource cards do they get?\n\nA - get 2 resource cards at the start of the game (wheat, lumber)\nB - get 1 resource card at the start of the game (brick)\n\nAre these correct?"
+    },
+    {
+      "username": "Eldard",
+      "date": "2024-11-07T23:36:16-06:00",
+      "body": "Yes.  Before the first dice are rolled, the second-placed settlement collects 1 resource card from each resource space to which it is adjacent.  B is adjacent to a single resource space (brick), so it gets 1 brick card.  A is adjacent to 2 resource spaces (wheat, wood), so it collects 1 wheat and 1 wood card."
+    },
+    {
+      "username": "Chango",
+      "date": "2024-11-08T03:27:06-06:00",
+      "body": "Assuming those are 2nd settlements.\nA = two resources\nB = one resource\n\nPorts (neither 1st settlements) give you nothing at the setup."
+    },
+    {
+      "username": "cordeiro",
+      "date": "2024-11-08T07:03:08-06:00",
+      "body": "You're correct, but only if spot A or B is where you placed your second settlement during setup.  Your first placement gets you nothing.  And if you went last, and are effectively placing 2 settlements back to back, you choose which settlement gives you your starting resources."
+    }
+  ]
+}

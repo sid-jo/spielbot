@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "A question about the Keepers in Iron",
+  "posts": [
+    {
+      "username": "Vagabot",
+      "date": "2026-02-10T08:36:44-06:00",
+      "body": "In the last game I played, I had a question about this faction, which has been played very little in my group.\n\nThe player who was playing with them had three relics unearthed in the same clearing and, according to him, that meant that if he was attacked, none of his warriors could die because he had one less hit for each relic carried by one of his badgers. Is that true?\n\nAccording to the faction board, the first hit received is ignored if you have a relic and a guardian, but it doesn't say anything if you have more guardians and more relics."
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-02-10T08:55:04-06:00",
+      "body": "15.2.4 Devout Knights. In battle, if the clearing of battle has at least one relic and at least one Keeper warrior, the Keepers ignore the first hit they take. _(If ambushed, ignore one hit from the ambush, but do not ignore further hits.)_ When moving, the Keepers may move one relic with each Keeper warrior that they move.\n\nIgnore the first hit they take.\n\nYour friend is wrong. Just get him to check the wording on the faction board next time the ruling is already very clear. \n\nIt sounds like you guys already read the board, so if he still insists the effect stacks you have to ask why he thinks that 😅 Root rules are very precise and should be followed exactly as written."
+    },
+    {
+      "username": "Vagabot",
+      "date": "2026-02-11T03:22:19-06:00",
+      "body": "Thank you. I figured it couldn't be because that would give them a tremendous advantage."
+    },
+    {
+      "username": "Rootin",
+      "date": "2026-02-13T11:30:32-06:00",
+      "body": "Yeah I just got shivers thinking about that lol"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Question about moles and Hundreds",
+  "posts": [
+    {
+      "username": "DGD_Kami",
+      "date": "2026-03-08T18:44:29-05:00",
+      "body": "Ok so I have two questions:\n\n1.- As moles when you dig a tunnel, is it mandatory to have warriors in your burrow when building it? I believe you can dig and move 0, but what if you don't have warriors at all?\n\n2.- Hundreds, when you raze a ruin and is it mandatory to take the item even if you don't want it?\n\nThanks in advance"
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-03-08T18:59:21-05:00",
+      "body": "1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. However interesting to note you may not dig and choose to move 0 warriors. If you have any number of warriors in the burrow you must move at least one (this is an update from a rule clarification about whether 0 is a number or not with Homeland, it's a whole thing)\n\n2. Yes, it is mandatory to take the item. The only way to get rid of it is with the Lavish mood or if your item track is already full. The items in the ruins can block some pretty good moods so that's part of the gamble!"
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-03-08T19:02:08-05:00",
+      "body": "Laterbot wrote:\n\n1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. However interesting to note you may not dig and choose to move 0 warriors. If you have any number of warriors in the burrow you must move at least one (this is an update from a rule clarification about whether 0 is a number or not with Homeland, it's a whole thing)\n\nJust to justify the above, here's the current wording in the latest version of the law, it's very clear in the latest edition 🙂 \nLaw of Root 12.5.1 V wrote:\n\n Dig. Spend one card to place a tunnel token in a matching clearing without a tunnel token. Then, move up to four warriors (at least one) from the Burrow to that clearing. (If all three tunnels are on the map, you may remove a tunnel first.)"
+    },
+    {
+      "username": "DGD_Kami",
+      "date": "2026-03-08T20:06:13-05:00",
+      "body": "Laterbot wrote:\n\nLaterbot wrote:\n\n1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. However interesting to note you may not dig and choose to move 0 warriors. If you have any number of warriors in the burrow you must move at least one (this is an update from a rule clarification about whether 0 is a number or not with Homeland, it's a whole thing)\n\nJust to justify the above, here's the current wording in the latest version of the law, it's very clear in the latest edition 🙂 \nLaw of Root 12.5.1 V wrote:\n\n Dig. Spend one card to place a tunnel token in a matching clearing without a tunnel token. Then, move up to four warriors (at least one) from the Burrow to that clearing. (If all three tunnels are on the map, you may remove a tunnel first.)\n\nTysm, does the law of root mention anything about the hundreds item being mandatory to take?"
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-03-08T20:13:34-05:00",
+      "body": "if Root doesn't say \"may\" in an action then it's mandatory. (with several weird exceptions)\n\nSo here's the list of rules you should know to understand why you must take the item:\n\n14.4.1:\nRaze. In each clearing with a mob token, remove all enemy buildings and tokens, take one item from the ruin in the clearing, if any, and remove the ruin if you took its last item....\n\n14.2.4 I:\nGaining Items. When the Hundreds gain an item, they put it in the leftmost empty Command or Prowess space based on the item type; if there is no such empty space, they must permanently remove the gained item or any item on that track, and they score one victory point.\n\nSo whenever a mob razes an item must be taken from a ruin without any choice on the Hundred's part. You don't control the Raze action it just happens, same for removing enemy cardboard you couldn't stop it if you wanted to. And whenever the Hundreds gain an item it must go in their Hoard (with the exception of the choice you get when you craft but that's a different rule) so therefore if you have a mob at a ruin you might get stuck with an item you don't want.\n\nThen if you know other Hundreds mechanics, you can remove items with Lavish, or by overfilling your hoard."
+    },
+    {
+      "username": "MiceandMysticslover",
+      "date": "2026-03-12T21:02:29-05:00",
+      "body": "Laterbot wrote:\n\n1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. \n\nI think this is false. But that would just be my interpretation of the law that your not aloud to dig if you don't have warriors to move."
+    },
+    {
+      "username": "Laterbot",
+      "date": "2026-03-12T21:12:22-05:00",
+      "body": "MiceandMysticslover wrote:\n\nLaterbot wrote:\n\n1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. \n\nI think this is false. But that would just be my interpretation of the law that your not aloud to dig if you don't have warriors to move.\n\nThis is wrong.\n\nSpend one card to place a tunnel token in a matching clearing without a tunnel token. \n\nDoesn't say anything about requiring a warrior therefore it doesn't. There's no interpretation where a warrior is required.\n\nThen,\n\nThen is a keyword in Root for compound actions, it means you must have finished the first step to do the second step, and you cannot do anything in between. But doesn't have any requirements for fulfilment of either step. If the word was \"and\" (used in replace) it would be more ambiguous but even \"and\" is usually used synonymously with \"then\", in the case of something like replace (which does require all parts of the action to be possible) a special rule is required. So it's \"Then\" as in, after doing the first step, do the second step\n\nmove up to four warriors (at least one) from the Burrow to that clearing. (If all three tunnels are on the map, you may remove a tunnel first.)\n\nYou must move one warrior, if you cannot, then you cannot. This is just how Root logic works, if you're instructed to move and don't have the warriors, you can't move.\n\nI can't think of any way to read this which would require a warrior to place the tunnel."
+    }
+  ]
+}

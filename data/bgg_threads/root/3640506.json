@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "If the warlord dies from the ambush, benefit from bitter cannot be triggered?",
+  "posts": [
+    {
+      "username": "tranlyvu",
+      "date": "2026-01-06T23:30:25-06:00",
+      "body": "hi, \n\nIf the warlord dies from the ambush, benefit from bitter cannot be triggered, i.e. no warriors are placed?"
+    },
+    {
+      "username": "OmegasSquared",
+      "date": "2026-01-07T05:59:32-06:00",
+      "body": "tranlyvu wrote:\n\nhi, \n\nIf the warlord dies from the ambush, benefit from bitter cannot be triggered, i.e. no warriors are placed?\n\nCorrect\n\nBitter's timing window is specifically after the ambush step of battle and before the dice roll step of battle"
+    },
+    {
+      "username": "NachoFailconi",
+      "date": "2026-01-07T06:02:24-06:00",
+      "body": "OmegasSquared wrote:\n\nBitter's timing window is specifically after the ambush step of battle and before the dice roll step of battle\n\nWhere is stated that Bitter's timing is after an ambush? When I read the rules, I don't conclude that from the texts (card and rule 14.7.1). Why rule 1.1.3 (Unclear Resolutions and Choices) cannot be applied?"
+    },
+    {
+      "username": "OmegasSquared",
+      "date": "2026-01-07T06:20:01-06:00",
+      "body": "NachoFailconi wrote:\n\nOmegasSquared wrote:\n\nBitter's timing window is specifically after the ambush step of battle and before the dice roll step of battle\n\nWhere is stated that Bitter's timing is after an ambush? When I read the rules, I don't conclude that from the texts (card and rule 14.7.1). Why rule 1.1.3 (Unclear Resolutions and Choices) cannot be applied?\n\n\"Before rolling\" has been established to mean \"the moment before rolling\" since Arbiter released alongside the base game in 2018. As of Homeland this has been explicitly listed in the Law of Root as Step 2 of Battle"
+    },
+    {
+      "username": "NachoFailconi",
+      "date": "2026-01-07T06:50:50-06:00",
+      "body": "Thanks a lot! Yes, now that I re-read the Arbiter, it's clear from the rule, that says \"immediately before you roll\", but the Bitter rule does not have the word \"immediately\"."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Starting out ",
+  "posts": [
+    {
+      "username": "fugazi70",
+      "date": "2024-09-07T19:03:12-05:00",
+      "body": "When placing the road and settlement each player can do both in a turn but in a 3 or 4 player, how does the placement of roads and settlement go?\n\nIn a 3 player does the following for initial placement?\nPlayer 1 go\nPlayer 2 go\nPlayer 3 go\nPlayer 3 go\nPlayer 2 go\nPlayer 1 go\nStart roll?\n\nIf so where exactly in the rule book is this defined?"
+    },
+    {
+      "username": "dcclark",
+      "date": "2024-09-07T19:19:43-05:00",
+      "body": "Yes, you're correct: Each player puts out one settlement and adjacent road, then each player puts out a second one in reverse order. This is explained in the Almanac under \"Set-up Phase\"."
+    },
+    {
+      "username": "Argus Panoptes",
+      "date": "2024-09-07T19:22:15-05:00",
+      "body": "In the current rules at https://www.catan.com/sites/default/files/2021-06/catan_base... , it's under the Set-Up Phase on page 12 of the Almanac.\n\nRound One\nThe starting player places a settlement ....\nThe other players then follow clockwise.\n\nRound Two\n... the player who went last in the first round begins round two....\nImportant: After the starting player builds, the other players follow counterclockwise, so the starting player in round one places their second settlement last."
+    },
+    {
+      "username": "fugazi70",
+      "date": "2024-09-07T19:42:53-05:00",
+      "body": "Thanks 🙂 I’m playing Star Trek catan and it didn’t mention it heh"
+    },
+    {
+      "username": "odie73",
+      "date": "2024-09-07T19:49:51-05:00",
+      "body": "You will find that described in the Star Trek Catan Almanac on page 9 under \"Round 2\": https://www.catan.com/sites/default/files/2021-07/star_trek_..."
+    },
+    {
+      "username": "fugazi70",
+      "date": "2024-09-07T20:06:06-05:00",
+      "body": "Lol ya I was going through it and found it heh"
+    }
+  ]
+}

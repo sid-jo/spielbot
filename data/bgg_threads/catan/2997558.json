@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Can a settlement intersect another player’s road that only has a settlement on one side?",
+  "posts": [
+    {
+      "username": "tylermt1999",
+      "date": "2022-12-29T19:31:02-06:00",
+      "body": "In the picture below, can blue build a settlement in the purple circle, leaving red’s road stranded? \n\nIf someone can point me to a section in the rules, I’d appreciate it, this is a huge sticking point in our game"
+    },
+    {
+      "username": "whac3",
+      "date": "2022-12-29T19:37:10-06:00",
+      "body": "The rules just say it has to be two away from any other settlement. That point is. So it's allowed."
+    },
+    {
+      "username": "Arges92",
+      "date": "2022-12-29T19:53:16-06:00",
+      "body": "It's allowed and one way to cut off others routes"
+    },
+    {
+      "username": "tylermt1999",
+      "date": "2022-12-29T20:04:46-06:00",
+      "body": "So blue CAN build there and isolate that one red road, so it is no longer connected to anything?\n\nJust need some clarification, this is a pretty big sticking point in the game"
+    },
+    {
+      "username": "Arges92",
+      "date": "2022-12-29T20:05:42-06:00",
+      "body": "Yes, blue can build there."
+    },
+    {
+      "username": "monkeyhandz",
+      "date": "2022-12-29T20:11:42-06:00",
+      "body": "tylermt1999 wrote:\n\nSo blue CAN build there and isolate that one red road, so it is no longer connected to anything?\n\nJust need some clarification, this is a pretty big sticking point in the game\n\nSee page 9\n\nhttps://www.catan.com/sites/default/files/2021-06/catan_base..."
+    },
+    {
+      "username": "Eldard",
+      "date": "2022-12-29T20:14:03-06:00",
+      "body": "The placing of a Blue settlement is legal as noted above, and furthermore, it affects Red when considering the Longest Road.  \n\nIn your example, if Red constructed a road between the \"5\" and \"4\" hexes, thus connecting the 2 existing Red roads coming from the two Red settlements (5 total), Red would be awarded the Longest Road card (unless someone else already held it).  The placing of the Blue settlement in the purple circle would then divide that Red Longest Road into two shorter roads (3 + 2), and Red would lose the Longest Road card."
+    },
+    {
+      "username": "kkstiles",
+      "date": "2022-12-29T21:17:05-06:00",
+      "body": "tylermt1999 wrote:\n\nSo blue CAN build there and isolate that one red road, so it is no longer connected to anything?\n\nJust need some clarification, this is a pretty big sticking point in the game\n\nAs others have said, Blue can build there, but I wanted to add that while that would leave the red road no longer connected to anything, Red could still build off that road. They'd have to add another road first before a settlement and on the current board that would only get them a 5 wood, but the road isn't \"dead\" just because it's on its own. \n\n(Also, it's funny to me that it's Blue that is shown as doing this in your picture. At my house, the person who always plays with that color has earned the name The Evil Blue People because he'll regularly do this, usually 2 roads and a settlement all in one turn. And often on the spot that his mother-in-law has been trying to collect resources to build on for ages! )"
+    },
+    {
+      "username": "xipuloxx",
+      "date": "2022-12-30T05:08:50-06:00",
+      "body": "Since the OP asked for a rules reference: in the rules linked by Liam above, the picture under “Longest Road” shows exactly this happening, and the text explains that building there will break the road up, as Bill said."
+    },
+    {
+      "username": "Argus Panoptes",
+      "date": "2022-12-31T19:16:48-06:00",
+      "body": "See also the official FAQ at https://www.catan.com/node/1532"
+    },
+    {
+      "username": "jorganos",
+      "date": "2023-01-04T06:22:24-06:00",
+      "body": "tylermt1999 wrote:\n\nSo blue CAN build there and isolate that one red road, so it is no longer connected to anything?\n\nBlue can build a settlement there, which separates the red road line for purposes of calculating the Longest Road. Red can however continue to add roads to the isolated road, build settlements there, and might ultimately reconnect that road section to the other section by going around the coastal wood tile with the 5,  and /or connect one the roads to the other red settlement around the brick tile.\n\nIn this specific situation, if red wants to continue its longest road strategy it either needs to run around the coast line or connect the two settlements, losing the advantage of two roads already built. It is a setback, but hardly a crushing blow."
+    }
+  ]
+}

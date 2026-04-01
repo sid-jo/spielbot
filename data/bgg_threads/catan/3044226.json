@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Answered. Clarification in specific scenario - it seems like yellow should be able to play a settlement at intersection of 6 pasture, 11 hill, and 12 pasture. What am I missing??",
+  "posts": [
+    {
+      "username": "coffeeand",
+      "date": "2023-03-10T14:05:54-06:00",
+      "body": "Here's a screenshot:\n\nI'm yellow. It's not giving me the option to build a settlement - only roads. Am I missing something? A rule?"
+    },
+    {
+      "username": "cordeiro",
+      "date": "2023-03-10T14:12:56-06:00",
+      "body": "ColtsFan76 wrote:\n\ncoffeeand wrote:\n\nHere's a screenshot:\n\nI'm yellow. It's not giving me the option to build a settlement - only roads. Am I missing something? A rule?\n\nBecause Settlements need to be at least 2 spaces away - including from your opponent. Both Red and White are blocking you in this situatuon.\n\nI think she's okay with spacing.  It's the double wool and brick intersection on the right, just below the desert.  The real problem is you have 5 settlements on the board already.  Max is 5.  You need to build a city to free up a settlement."
+    },
+    {
+      "username": "ColtsFan76",
+      "date": "2023-03-10T14:13:07-06:00",
+      "body": "coffeeand wrote:\n\nHere's a screenshot:\n\nI'm yellow. It's not giving me the option to build a settlement - only roads. Am I missing something? A rule?\n\nYou already have 5 settlements on the board, which is the limit. Convert one to a City and that intersection will be legal again."
+    },
+    {
+      "username": "ColtsFan76",
+      "date": "2023-03-10T14:14:39-06:00",
+      "body": "cordeiro wrote:\n\nColtsFan76 wrote:\n\ncoffeeand wrote:\n\nHere's a screenshot:\n\nI'm yellow. It's not giving me the option to build a settlement - only roads. Am I missing something? A rule?\n\nBecause Settlements need to be at least 2 spaces away - including from your opponent. Both Red and White are blocking you in this situatuon.\n\nI think he's okay with spacing.  It's the double wool and brick intersection on the right, just below the desert.  The real problem is you have 5 settlements on the board already.  Max is 5.  You need to build a city to free up a settlement.\n\nYeah, I didn't see the question in the thread title and my eyes were drawn to the middle of the board at 3, 10, 11. Once I saw the actual location in question, then I saw we had 5 settlements on the board."
+    },
+    {
+      "username": "coffeeand",
+      "date": "2023-03-10T14:51:22-06:00",
+      "body": "Oh!!! Thank you!"
+    }
+  ]
+}

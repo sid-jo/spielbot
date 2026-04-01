@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Rules, 1 victory point.",
+  "posts": [
+    {
+      "username": "wetopia",
+      "date": "2023-04-13T01:48:37-05:00",
+      "body": "Hi!\nI have a doubt about the rules. Can the 1 victory point development card be used in the same turn it is purchased?"
+    },
+    {
+      "username": "WilbertK",
+      "date": "2023-04-13T02:09:19-05:00",
+      "body": "The way to think about it is this: you don't need to use these cards at all. They just count as hidden victory points from the moment you get them. This means there's no limit on the number you can reveal at the same time, or on when you can do so.\n\nSo yes, you can immediately 'use' them."
+    },
+    {
+      "username": "Goliath463",
+      "date": "2023-04-13T07:44:05-05:00",
+      "body": "According to page 5 of the rulebook (English version), you cannot play a development card the same turn it is purchased. Therefore if you purchase the game winning victory point you’d need to wait until your next turn to claim victory. The rules also state that you should keep your development cards secret to hide any victory points."
+    },
+    {
+      "username": "wetopia",
+      "date": "2023-04-13T08:19:36-05:00",
+      "body": "As you indicate, there seems to be a contradiction: is there an official email where I can clear up my doubts?"
+    },
+    {
+      "username": "Farleyd",
+      "date": "2023-04-13T08:35:38-05:00",
+      "body": "The Settlers of Catan. Fourth Edition. Game Rules & Almanac Page 7.\n\"Exception: If you buy a card and it is a Victory Point Card that brings you to 10 points, you may immediately reveal this card (and all other VP cards) and win the game.\""
+    },
+    {
+      "username": "Skeime",
+      "date": "2023-04-13T08:41:10-05:00",
+      "body": "In the rules linked on catan.com, page 5, right column under Victory Point Cards, it says at the end:\nYou may play any number of victory point cards during your turn, even during the turn you purchased them.\n\nClearly, this is meant to overwrite the general limitations on playing progress cards."
+    },
+    {
+      "username": "wmshub",
+      "date": "2023-04-13T10:28:41-05:00",
+      "body": "Goliath463 wrote:\n\nAccording to page 5 of the rulebook (English version), you cannot play a development card the same turn it is purchased. Therefore if you purchase the game winning victory point you’d need to wait until your next turn to claim victory. The rules also state that you should keep your development cards secret to hide any victory points. \n\nYou do not play the VP cards. You simply own them, so the \"when you can play...\" doesn't apply. If you are at 9VP, and you buy a card, and it's a VP card...you win! Stand up and cheer!"
+    },
+    {
+      "username": "Fromper",
+      "date": "2023-04-13T12:57:13-05:00",
+      "body": "wmshub wrote:\n\nGoliath463 wrote:\n\nAccording to page 5 of the rulebook (English version), you cannot play a development card the same turn it is purchased. Therefore if you purchase the game winning victory point you’d need to wait until your next turn to claim victory. The rules also state that you should keep your development cards secret to hide any victory points. \n\nYou do not play the VP cards. You simply own them, so the \"when you can play...\" doesn't apply. If you are at 9VP, and you buy a card, and it's a VP card...you win! Stand up and cheer!\n\nThis also means that if you have 8 points, buy 2 dev cards, and they're both VPs, you still win instantly. The limit on playing more than one dev card per turn doesn't apply to these, because you're not playing them."
+    },
+    {
+      "username": "wetopia",
+      "date": "2023-04-14T01:45:25-05:00",
+      "body": "Thank you all."
+    }
+  ]
+}

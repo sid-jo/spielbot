@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Ruling on gold tokens in basic setup for six players catan rivers",
+  "posts": [
+    {
+      "username": "Krustynp",
+      "date": "2022-04-15T16:07:05-05:00",
+      "body": "Was playing rivers of catan last night with friends and a interesting question arised, in the basic 5-6 set up \n (see image for reference)\nIn the area between the two mountain hex's would you be awarded two gold each for your road and settlement if you built in that area yes, you are adjacent to two rivers\n\nWould be cool to see how others would rule this"
+    },
+    {
+      "username": "tabicat",
+      "date": "2022-04-15T16:56:41-05:00",
+      "body": "Are you talking about The Settlers of Catan: The Great River expansion?  If so, you should post your question there."
+    },
+    {
+      "username": "WilbertK",
+      "date": "2022-04-15T18:12:37-05:00",
+      "body": "The rule for gold for settlements doesn't take into account the number of river hexes the settlement is adjacent to. So I wouldn't expect to get more gold for being adjacent to multiple rivers."
+    }
+  ]
+}

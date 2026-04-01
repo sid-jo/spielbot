@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Lost City, defenceless Vagabond, damaged items, Woodland organise, and flotilla questions from a 5-player session",
+  "posts": [
+    {
+      "username": "pmw57",
+      "date": "2025-11-30T17:29:54-06:00",
+      "body": "Last night during a 5 player game with two militant and 3 insurgent factions, a number of questions came up. Factions involved were Lizard Cult, Keepers in Iron, Woodland Alliance, Lord of the Hundreds, and a Tinker Vagabond.\n\nQ1: In root when the Lost City landmark is being used, could the vagabond with multiple hammers craft cards with multiple different suits?\nA1: vagabond can craft any given suit in the Lost City clearing, and should announce which suit they are crafting with. Differently suited cards (such as fox, mouse, and rabbit) cannot be crafted by the vagabond, as all hammers match one particular suit for each crafting action. The vagabond can though craft multiple cards with different suits, such as for example one with a rabbit suit, and without moving from the Lost City use another hammer to craft with a fox suit.\n\nQ2: When the Woodland Alliance revolts in the Lost City, how does that affect the cards and the base being placed there when they revolt?\nA2: The cards have to match the clearing, so could be a rabbit and a mouse card for a revolt. The base has to match the clearing so could be a fox base. Yes, that means that there doesn’t have to be any connection between the cards and the base when revolting in the Lost City clearing.\n\nQ3: When the vagabond had zero swords, does that mean that the attacker gets a defenseless bonus again them?\nA3: Yes, the attacker against the vagabond gains a plus 1 bonus hit against the vagabond when they have zero swords, or when all swords are damaged. A crossbow if they have one doesn’t change any of that for the vagabond.\n\nQ4: Which rule indicates that the vagabond cannot use a damaged item for a quest?\nA4: Rule 9.2.5, “The Vagabond exhausts undamaged items . . .” They can though refresh damaged items, which remain in the damaged area but flip over to the refreshed side.\n\nQ5: When the Woodland Alliance Organises, do they ignore martial law?\nA5: No Martial Law applies when you Organise. It only applies when spreading sympathy during birdsong. The evening action to Organise is clear of any Martial Law obligations.\n\nQ6: Does the Flotilla hireling count towards rule?\nA6: No it doesn’t count. While all hirelings count towards rule, the Flotilla hireling is a pawn, and doesn’t qualify as either a warrior or a building to help towards rule.\n\nQ7: When the Woodland Alliance revolts and has just one warrior in their supply, can they choose to not an add a warrior to the revolted clearing so that they can instead use it as an officer?\nA7: No, you cannot skip placing the warrior in the clearing to save it for the Officers box. This comes from section 2.5, which says in part: “If you are prompted to place, take, or remove a piece but you cannot, you must place, take, or remove the maximum number possible.”"
+    },
+    {
+      "username": "OmegasSquared",
+      "date": "2025-11-30T17:39:00-06:00",
+      "body": "Q1) Incorrect. In the Lost City the Vagabond may craft cards that require multiple different suits to craft\n\nQ2) Correct, the base must match the clearing, the supporters must match the clearing, but supporters need not match the base \n\nQ3) Correct\n\nQ4) Correct. It's not stated as clearly as it could be, but items must be undamaged to be used for any purpose\n\nQ5) Correct\n\nQ6) Correct \n\nQ7) Correct. Revolt resolves linearly and the steps are not optional. The Warriors are placed before Officers are placed, so any remaining warriors in the supply must be placed as warriors, and only then can remaining warriors in the supply be placed as an officer"
+    },
+    {
+      "username": "kelann08",
+      "date": "2025-11-30T18:07:52-06:00",
+      "body": "Title edited for detail.\n\nPlease make sure your rules question threads include information about the questions being asked. This makes it much easier for others in the community to find the same answers."
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-11-30T19:30:16-06:00",
+      "body": "kelann08 wrote:\n\nPlease make sure your rules question threads include information about the questions being asked. This makes it much easier for others in the community to find the same answers.\n\nThe title has been updated. Thanks for the idea."
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-11-30T20:05:54-06:00",
+      "body": "OmegasSquared wrote:\n\nQ1) Incorrect. In the Lost City the Vagabond may craft cards that require multiple different suits to craft\n\nThank you. Because the vagabond hammers must match the suit of the clearing, and the Lost City clearing matches all suits, that allows hammer 1 to be fox and hammer 2 to be bunny for example, as each hammer matches the lost city suit of all suits, to craft a card that requires one fox and one bunny.\n\nIf using AI to resolve this type of question, it’s hands need to be bound or else it fails due to a few problems:\n- it resorts to interpretation and thinks that matching the clearing suit means matching a single suit, which goes against section 0.2 of the law or root\n- it attempts to apply competitive play rulings or FAQ info, both of which fail to take into account the superseding nature of the landmark rules.\n\nAfter an intense discussion with AI it eventually conceded that my logic is unassailable (a massively enjoyable ego-stroking there) and that future prompts about Root could do with the following constraints to help avoid similar problems:\n\nI need a ruling on the interaction between Vagabond Crafting (Law 9.5.8) and the Lost City Landmark in Root. Please resolve this only by adhering to these constraints:\n\nLaw of Root 0.2: No Interpretation. State the RAW text only; do not infer intent or meaning.\n\nRules Hierarchy is Absolute: Specific rules (like Landmarks) supersede general rules or general FAQ/competitive rulings.\n\nQuestion: Can multiple Vagabond's hammers count as multiple suits for a single crafting action when he is in the Lost City clearing (All Suits)?\n\nYou might still find that it uses its own custom interpretation of the rules, but on catching that and having it use the correct reading of the rules it finally relents and gives the correct answer."
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-12-01T03:31:50-06:00",
+      "body": "pmw57 wrote:\n\nOmegasSquared wrote:\n\nQ1) Incorrect. In the Lost City the Vagabond may craft cards that require multiple different suits to craft\n\nThank you. Because the vagabond hammers must match the suit of the clearing, and the Lost City clearing matches all suits, that allows hammer 1 to be fox and hammer 2 to be bunny for example, as each hammer matches the lost city suit of all suits, to craft a card that requires one fox and one bunny.\n\nIf using AI to resolve this type of question, it’s hands need to be bound or else it fails due to a few problems:\n- it resorts to interpretation and thinks that matching the clearing suit means matching a single suit, which goes against section 0.2 of the law or root\n- it attempts to apply competitive play rulings or FAQ info, both of which fail to take into account the superseding nature of the landmark rules.\n\nAfter an intense discussion with AI it eventually conceded that my logic is unassailable (a massively enjoyable ego-stroking there) and that future prompts about Root could do with the following constraints to help avoid similar problems:\n\n“Gemini AI” wrote:\n\nI need a ruling on the interaction between Vagabond Crafting (Law 9.5.8) and the Lost City Landmark in Root. Please resolve this only by adhering to these constraints:\n\nLaw of Root 0.2: No Interpretation. State the RAW text only; do not infer intent or meaning.\n\nRules Hierarchy is Absolute: Specific rules (like Landmarks) supersede general rules or general FAQ/competitive rulings.\n\nQuestion: Does the Vagabond's hammer count as multiple suits for crafting when he is in the Lost City clearing (All Suits)?\n\nYou might still find that it uses its own custom interpretation of the rules, but on catching that and having it use the correct reading of the rules it finally relents and gives the correct answer."
+    },
+    {
+      "username": "Sebby19",
+      "date": "2025-12-03T20:58:00-06:00",
+      "body": "Yeah never use AI for game rules. Ever. Or AI period, there is a reason the internet at large is revolting against the idea.\n\nSure, the Vagabond could craft a few more cards thanks to the Lost City. But when you look closely at those cards... are they really worth it? They would be unusable XD"
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-12-04T00:09:55-06:00",
+      "body": "Sebby19 wrote:\n\nSure, the Vagabond could craft a few more cards thanks to the Lost City. But when you look closely at those cards... are they really worth it? They would be unusable XD\n\nYea there is that, but the Vagabond then keeps them out of the hands of other players at best, and forces them to use up some sabotage cards at worst."
+    }
+  ]
+}

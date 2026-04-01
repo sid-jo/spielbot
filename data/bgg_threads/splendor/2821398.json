@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "If I forget to keep tally of my points",
+  "posts": [
+    {
+      "username": "Mybidda",
+      "date": "2022-02-25T02:34:08-06:00",
+      "body": "If I forget to keep tally of my points and have 15 but did not say anything and someone else gets 15 next round do we go back a round or does that person win?"
+    },
+    {
+      "username": "SaltyHorse",
+      "date": "2022-02-25T04:02:18-06:00",
+      "body": "The game doesn't have an official ruling about about \"forgetting\" to announce your victory. According to the rules of the game, you won - you accidentally continued playing after the game was over.\nYou're welcome to decide what to do in this situation with your own group."
+    },
+    {
+      "username": "iklinck",
+      "date": "2022-02-25T05:45:20-06:00",
+      "body": "Also, the winner is not the first person to get 15, but the person with the higher score at the end of the round in which someone gets to 15..."
+    },
+    {
+      "username": "Zark",
+      "date": "2022-02-28T02:12:00-06:00",
+      "body": "iklinck wrote:\n\nAlso, the winner is not the first person to get 15, but the person with the higher score at the end of the round in which someone gets to 15...\n\nSo for simplicity I would say the winner is the person with the highest score at the end of a round when someone announces they have 15"
+    },
+    {
+      "username": "Rumbelow",
+      "date": "2022-02-28T08:22:31-06:00",
+      "body": "Zark wrote:\n\niklinck wrote:\n\nAlso, the winner is not the first person to get 15, but the person with the higher score at the end of the round in which someone gets to 15...\n\nSo for simplicity I would say the winner is the person with the highest score at the end of a round when someone announces they have 15\n\nhah then it becomes a game of Spoons, seeing that someone may have triggered end-game but sneakily getting in your points before deciding (entirely to your own advantage) how obvious to be."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Longest Road vs. Largest Army",
+  "posts": [
+    {
+      "username": "scotty321",
+      "date": "2022-07-26T07:02:58-05:00",
+      "body": "Longest Road vs. Largest Army:\n\nThere seems to be a difference in the rules for how these 2 cards are played.\n\n1. If you have the longest road card first, and then somebody ties you for the length of your road, the card gets removed from the game until somebody ends up with an actual longer road.\n\n2. However, if you have the largest army card first, and then somebody ties you for your amount of knight cards, you still get to hold onto your largest army card for the rest of the game unless someone ends up with more knight cards than you.\n\nIs this correct? Why the discrepancy between how these 2 cards are played?"
+    },
+    {
+      "username": "jutuomin",
+      "date": "2022-07-26T07:09:09-05:00",
+      "body": "I don't think 1. is correct.\nOnly time I have heard that The Longest Road gets removed is if someone builds a settlement in the middle of other player's (longest) road which cuts that road in half and there are no other roads in the game that are long enough."
+    },
+    {
+      "username": "scotty321",
+      "date": "2022-07-26T07:16:52-05:00",
+      "body": "jutuomin wrote:\n\nOnly time I have heard that The Longest Road gets removed is if someone builds a settlement in the middle of other player's (longest) road which cuts that road in half and there are no other roads in the game that are long enough.\n\nThe official rulebook states the exact opposite of this:\n\n1. In the event that the longest road is broken up by someone building a settlement in the middle of the longest road, the original person still gets to hold onto their longest road card, because they are still considered to have the longest road.\n\n2. However, if another player builds a road of equal length to the longest road, then the longest road card is removed from the game until a new longest road emerges.\n\n3. But in the case of the largest army, the largest army card always stays with the original owner in the event of a tie, and only gets transferred to another person if that person builds a larger army. \n\nPretty confusing, and it is glossed over pretty quickly in the rulebook. Although ideally, the ruies should be changed to be more consistent — instead of having 3 completely different sets of rules."
+    },
+    {
+      "username": "ChrisB",
+      "date": "2022-07-26T07:27:39-05:00",
+      "body": "scotty321 wrote:\n\nLongest Road vs. Largest Army:\n\nThere seems to be a difference in the rules for how these 2 cards are played.\n....\nIs this correct? Why the discrepancy between how these 2 cards are played?\n\nNo, both are basically played the same way \nRules on Catan.com pg 9:\n[If you hold the \"Longest Road\" card and another player builds a longer road, they immediately take your \"Longest Road\" card\n\nRules on Catan.com pg 5\n[If another player has more knight cars in front of them than the current holder of the Largest army card, they immediately take the special card...\n\n \n\nI think your confusion arises from situations where a player can get his number of roads reduced, say if his 5 length road is cut by the settlement of another player. The card can then be temporarily removed if no single player qualifies for \"Longest read\", say if 2 other players both have a road 5 long, or noone has a road 5 or longer. Once a player has a road that is at least 5 long and it is the longest, he gets the card.\nEdit: curses, 2nd on the \"puck\"."
+    },
+    {
+      "username": "xipuloxx",
+      "date": "2022-07-26T07:28:15-05:00",
+      "body": "scotty321 wrote:\n\njutuomin wrote:\n\nOnly time I have heard that The Longest Road gets removed is if someone builds a settlement in the middle of other player's (longest) road which cuts that road in half and there are no other roads in the game that are long enough.\n\nThe official rulebook states the exact opposite of this:\n\n1. In the event that the longest road is broken up by someone building a settlement in the middle of the longest road, the original person still gets to hold onto their longest road card, because they are still considered to have the longest road.\n\n2. However, if another player builds a road of equal length to the longest road, then the longest road card is removed from the game until a new longest road emerges.\n\n3. But in the case of the largest army, the largest army card always stays with the original owner in the event of a tie, and only gets transferred to another person if that person builds a larger army. \n\nPretty confusing, and it is glossed over pretty quickly in the rulebook. Although ideally, the ruies should be changed to be more consistent — instead of having 3 completely different sets of rules.\n\nMy rules (very old, 3rd edition I think) agree with jutuominen's. Both largest army and longest road are treated the same: they remain with the owner until someone else gets a larger army or a longer road. A settlement in the middle of a road breaks that road up, and if no single person now has longest road (or the longest is now less than 5 segments), the card is set aside until someone has a valid longest road again.\n\nWhat version of the game do you have, Scott?"
+    },
+    {
+      "username": "jutuomin",
+      "date": "2022-07-26T07:32:33-05:00",
+      "body": "Scott Rose wrote:\n\n2. However, if another player builds a road of equal length to the longest road, then the longest road card is removed from the game until a new longest road emerges.\n\nCan you point where in the rules it says this?:\nhttps://www.officialgamerules.org/settlersofcatan\nMy game's rules are a translation (in Finnish) so that might be an issue."
+    },
+    {
+      "username": "ChrisB",
+      "date": "2022-07-26T07:37:28-05:00",
+      "body": "xipuloxx wrote:\n\nscotty321 wrote:\n\nMy rules (very old, 3rd edition I think) agree with jutuominen's. Both largest army and longest road are treated the same: they remain with the owner until someone else gets a larger army or a longer road. A settlement in the middle of a road breaks that road up, and if no single person now has longest road (or the longest is now less than 5 segments), the card is set aside until someone has a valid longest road again.\n\nWhat version of the game do you have, Scott?\n\nI think Scott misreads this special case on page 9 where it says that if your road is cut and your shortened road ties (edit: and qualifies) for longest, you keep the card.\nhttps://www.catan.com/sites/default/files/2021-06/catan_base... (Open the file, search for \"Special case\")\n(Sorry, my pdf reader wont let me copy the text, and it's too long for me to handtype.)\n\nEdit:\nscotty321 wrote:\n\nThe official rulebook states the exact opposite of this:\n2. However, if another player builds a road of equal length to the longest road, then the longest road card is removed from the game until a new longest road emerges.\n\nNo, as I quoted in my first post from the rules at Catan.com, \"[If you hold the \"Longest Road\" card and another player builds a longer road, they immediately take your \"Longest Road\" card\" something which is not possible if you  lose the card when they tie you, that is, the card would not be \"yours\"."
+    },
+    {
+      "username": "mtaylor314",
+      "date": "2022-07-26T07:49:11-05:00",
+      "body": "scotty321 wrote:\n\nThe official rulebook states the exact opposite of this:\n\n1. In the event that the longest road is broken up by someone building a settlement in the middle of the longest road, the original person still gets to hold onto their longest road card, because they are still considered to have the longest road.\n\n2. However, if another player builds a road of equal length to the longest road, then the longest road card is removed from the game until a new longest road emerges.\n\nWhere in the rulebook and what edition are you getting this from? As others have said, I've always longest road only gets removed if an opponent builds a settlement break up your longest road and now its not at least 5 lengths. If an opponent builds their road to tie yours, you keep it until theirs is longer"
+    },
+    {
+      "username": "pauvre",
+      "date": "2022-07-26T08:19:56-05:00",
+      "body": "Here is the quote from the official rulebook:\n The first player to build a continuous road (not counting forks) of at least 5 road segments, receives the Special Card \"Longest Road\".\n\nIf another player succeeds in building a longer road than the one created by the current owner of the \"Longest Road\" card, he immediately takes the Special Card (and its 2 victory points). In this case, there is a 4 victory point swing!  \n\nHope this helps!"
+    },
+    {
+      "username": "scotty321",
+      "date": "2022-07-26T08:29:55-05:00",
+      "body": "Below is the photo from the newest version of rulebook. \n\nIf an opponent builds their road to tie your road, you lose the tile (and they do not gain the tile).\n\nHowever, the largest army card acts completely differently:\n\nIt’s disappointing that these 2 cards work completely differently from one another. It creates a lot of confusion and unnecessary bickering during a game.\n\nI suppose the only confusion remains for me over someone breaking up a longest road with a settlement."
+    },
+    {
+      "username": "jutuomin",
+      "date": "2022-07-26T08:36:53-05:00",
+      "body": "scotty321 wrote:\n\nBelow is the photo from the newest version of rulebook. \n\nIf an opponent builds their road to tie your road, you lose the tile (and they do not gain the tile).\n\nHowever, the largest army card acts completely differently:\n\nIt’s disappointing that these 2 cards work completely differently from one another. It creates a lot of confusion and unnecessary bickering during a game.\n\nI suppose the only confusion remains for me over someone breaking up a longest road with a settlement.\n\nThat is not what it says.\nIt's a special rule about a special case where opponent builds a settlement in the middle of other player's (longest) road.\n\nThis rule doesn't come in the play very often. I think I have never seen it played in any of my games."
+    },
+    {
+      "username": "xipuloxx",
+      "date": "2022-07-26T09:05:46-05:00",
+      "body": "jutuomin wrote:\n\nThat is not what it says.\nIt's a special rule about a special case where opponent builds a settlement in the middle of other player's (longest) road.\n\nExactly. Scott, you are misreading that rule; it only applies in that special case, and even then only if you are no longer tied for longest road.\n\nSee the rule above that for what happens if someone just builds up their road till it equals yours: it's the same as with largest army.\n\nThe reason this special rule exists is for cases like this:\n\nPlayer A has longest road, at 9 segments.\nPlayers B and C are tied for second, at 6 segments.\nIf player A's road is broken into 5 and 4 by someone else's settlement, who should get the longest road card? A is no longer even tied for longest, but should it go to B or C?\n\nThis rule makes it clear that no-one gets it in that case."
+    },
+    {
+      "username": "scotty321",
+      "date": "2022-07-26T10:02:26-05:00",
+      "body": "Thanks, everyone, for the clarification on this!! \n\nDamn, it looks like we were playing this rule properly for years, and then there was some recent confusion over what I believe is a poorly written almanac.\n\nAnd then, the confusion was confounded when somebody in my group Googled \"Catan 2 people tied longest road\", which led to the incorrect answer (on these forums). They didn't click through on the link to see that people corrected that person's incorrect answer.\n\nSo we were playing this rule properly for years, then we changed how we played the rule, and now we have to go back to normal! Lol.\n\nThank you for the clarification!"
+    }
+  ]
+}

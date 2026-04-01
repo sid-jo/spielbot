@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Do you have to “claim” longest road",
+  "posts": [
+    {
+      "username": "Kilroy451",
+      "date": "2023-01-11T22:02:38-06:00",
+      "body": "Do you have to claim longest road or is it issued regardless once you get required road pieces down."
+    },
+    {
+      "username": "wmshub",
+      "date": "2023-01-11T22:22:58-06:00",
+      "body": "Issued regardless."
+    },
+    {
+      "username": "chardir",
+      "date": "2023-01-12T03:52:53-06:00",
+      "body": "Official answer: https://boardgamegeek.com/thread/494190/article/4629712#4629...\n\nYou have to do everything the rules state, you cannot \"forget\" or choose not to claim a resource, longest road, victory etc."
+    },
+    {
+      "username": "TVis",
+      "date": "2023-01-12T06:06:20-06:00",
+      "body": "Kilroy451 wrote:\n\nDo you have to claim longest road or is it issued regardless once you get required road pieces down.\n\n\"Claim\" (as a choice) may be a misdirection.\n\nAccording to rules copyright 2020, as found here: \"Game Rules for Download\" page at Catan.com, it would simply be awarded.\n\nPage 4\nThe first player to build a continuous road (not counting forks) of at least 5 road segments receives the special card \"Longest Road\".  If another player succeeds in bulding a longer road than the one created by the current owner of the \"Longest Road\" card, they immediately take the special card (and its 2 victory points)."
+    },
+    {
+      "username": "AllanSMW",
+      "date": "2023-01-12T15:34:41-06:00",
+      "body": "There are instances where it has an impact:\n1) When a second person reaches 5 they would otherwise be able to claim, even though not entitled to it.\n2) Cities and Knights progress cards for example consider people with more VP than you.  Therefore \"Not claiming 2 vp\" would have a big impact."
+    },
+    {
+      "username": "Chango",
+      "date": "2023-01-12T17:42:42-06:00",
+      "body": "To earn those cards you have to overpass the previous maximum count, not just tie them. Also, not claiming any will be always bad, a mistake for the player, because they grant points, nothing bad to chose to hide you awarded them."
+    }
+  ]
+}

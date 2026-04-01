@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Splendor 10 chip limit Returning chips question",
+  "posts": [
+    {
+      "username": "spades8",
+      "date": "2014-04-13T08:07:07-05:00",
+      "body": "Hi,\n\nHave only played the game twice so far but wanted to clariy a rule.\n\nA player may not have over 10 chips in their hand at the end of their turn.\n\nThey must return down to 10 tokens if they are over the limit by the end of their turn.\n\nThe rules state that: \"A player can return all or some of those (chips) they've just drawn.\"\n\nSo just wanted to clarify that if at the beginning of your turn you have either 8, 9, or 10 chips in your area, you are still able to choose to pick up 3 different coloured chips (which brings your total to either 11, 12 or 13 chips), as long as you return chips until you reach 10 chips again by the end of your turn? Is that correct?\n\nAlso, when returning chips down to 10 if you're over the limit you can return all or some of the chips that you've just picked up (that brought you over the 10 chip limit). \n\nBut can you return for example, none of the 3\n\ndifferent coloured chips that you just picked up this turn and choose to return 3 other combinations of chips (eg 3 other different coloured chips or 3 of the same coloured chips or other combo) from your pile of chips as an option?\n\nThanks!"
+    },
+    {
+      "username": "Rompa",
+      "date": "2014-04-13T09:52:09-05:00",
+      "body": "Alan - you just need to look at the rule in its simplest terms.  \n\nYou can always take three tokens (or less depending on the action).  However, after doing so, you need to check if you have more than ten.  If so, return any chips so that you're back down to the limit.  Don't worry about the colours, just focus on the ten chip limit.\n\nHope this helps."
+    },
+    {
+      "username": "gillum",
+      "date": "2014-04-13T21:44:13-05:00",
+      "body": "Right.\n\nYou can return any tokens you want to get down to 10.\n\nThe statement \"A player can return all or some of those they’ve just drawn,\" is there just to emphasize that your are not constrained to returning tokens you had at the beginning of the turn.\n\nIn particular, the following is allowed:  you start a turn with 9 tokens, take one each of Emerald, Sapphire, and Ruby, and then return the Sapphire and Ruby.\n\nMaybe you really needed an Emerald - and wanted to keep the 9 tokens with which you started the turn.  This is a legal way to get that Emerald."
+    },
+    {
+      "username": "spades8",
+      "date": "2014-04-13T22:33:57-05:00",
+      "body": "Great thanks Rompa and gillum for confirming and clarifying!\n\nThis helped!"
+    },
+    {
+      "username": "icarusmustburn",
+      "date": "2014-04-24T23:01:41-05:00",
+      "body": "I had the same question. The answer was what I expected, but the English rules do not convey clearly the intent that has been communicated here. The mention of the gems that you have just taken comes across as a logical constraint, in my reading, at least. I suspect many less experienced gamers, which seems to be the target audience, will play the rule incorrectly.\n\nI hope that the publisher takes this feedback to heart and adds another simple sentence to the next printing of the rules that explicitly states the rule, something like, \"any gems in your possession may returned to reach the limit of 10.\" Seriously, the rule as currently written does not logically imply this to be the case, because only one use case is provided along with the limit of 10 rule.\n\nNice game, by the way!"
+    },
+    {
+      "username": "Marlonthegamer75",
+      "date": "2023-02-18T17:16:21-06:00",
+      "body": "How can you take a total of 13 the the rules clearly state… The rules state that: \"A player can return all or some of those (chips) they've just drawn.\".      JUST DRAWN…so there is no exchanging chips to get back to 10. \n\nI’m just saying🤔"
+    },
+    {
+      "username": "russ",
+      "date": "2023-02-19T02:28:32-06:00",
+      "body": "Marlonthegamer75 wrote:\n\nHow can you take a total of 13 the the rules clearly state… The rules state that: \"A player can return all or some of those (chips) they've just drawn.\".      JUST DRAWN…so there is no exchanging chips to get back to 10. \n\nI’m just saying🤔\n\nThe intention of that text is literally that you CAN return those you just drew, but you're NOT FORCED to return those. (As gillum wrote upthread, \"The statement \"A player can return all or some of those they’ve just drawn,\" is there just to emphasize that your are not constrained to returning tokens you had at the beginning of the turn.\")\n\nThe full rule is:\nA player can never have more than 10 tokens at the end of their turn (including jokers). If this happens, they must return tokens until they only have 10 left. A player can return all or some of those they’ve just drawn.\n\nYes, it could have been phrased better. But the intent is clear and established."
+    },
+    {
+      "username": "JoeBoardgame",
+      "date": "2023-02-19T16:07:59-06:00",
+      "body": "A player can never have more than 10 tokens at the end of their turn (including jokers). If this happens, they must return tokens until they only have 10 left. A player can return all or some of those they’ve just drawn.\n\nSo if you have 10 tokens, and you draw 3, then at the end of your turn, the pool from which you must return tokens is all 13 tokens.\n\nThe clarification about \"A player can return...\" is because otherwise it could have been argued that they would take 3, and they had to get rid of 3 of their existing pot of tokens to make room for the 3 they just picked up.\n\nThis rule basically says \"The tokens you pick up are instantly part of your token pot.\"  That way the \"They must return tokens...\" statement applies to them too."
+    }
+  ]
+}

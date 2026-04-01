@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Reserve card: Visible or no?",
+  "posts": [
+    {
+      "username": "PhotoRob",
+      "date": "2023-02-13T18:05:00-06:00",
+      "body": "I don't know if this really matters in the grand scheme of things, but what's the rule on whether or not your reserved cards are visible to other player(s)?\n\nThe way the game was taught to me is that players keep their reserved cards face down, not visible to other players. Now, obviously, if a card is reserved from the face-up cards in play, the other players will easily be able to see what was reserved. However, if a player chooses try to \"get lucky\" and reserves a card from deck, the rules specifically say to NOT show the other players what the card was. I don't see any other rules about whether or not reserved cards should be kept face up or face down, but I think it was that rule about now showing the card pulled from the deck to other players that caused my friend to interpret the rules to mean that players should not keep their reserved cards revealed to other players.\n\nLike I said, I don't know that it really matters one way or another (though I guess there could be some strategy to keep reserved cards secret). But now that I've added Splendor Duel to my collection, and it has similar rules for reserved cards, it'd be nice to have some definitive clarification."
+    },
+    {
+      "username": "rkonigsberg",
+      "date": "2023-02-13T18:09:34-06:00",
+      "body": "Here's the answer from Space Cowboys themselves from 2018:\nme wrote:\n\nI am writing with a Splendor rules question. It is not at all clear whether, when reserving a card, whether you may, may not, or must not, leave the card face up, or turn it face down.\n\nMy interpretation of the rules is that cards reserved from the top of the deck stay face down, and that cards from the play area are face down.\n\nIt looks like there's nothing clear about this rule on BGG:\nhttps://boardgamegeek.com/thread/1308007/hiding-your-reserve...\nhttps://boardgamegeek.com/thread/1575934/do-cards-reserved-b...\n\nIs there an *official* rule here?\n\nThanks!\n-Robert\n\nSpace Cowboys wrote:\n\nHi Robert,\n\nReserving a card means taking it for yourself in a way that prevents other people from:\n- Seeing it afterwards.\n- Confusing it with the cards you already acquired.\n\nIt must also be very easy to keep track of the number of cards you have in reserve, and their level.\n\nHence, yes, keep the cards as if you had them in hand. For all purposes, they work in this way.\n\nKind regards\n\nFrançois Doucet\nSpace Cowboys"
+    },
+    {
+      "username": "dbelcher",
+      "date": "2023-02-13T18:26:24-06:00",
+      "body": "there's also a thread where someone was trying to address an issue where one of their players deliberately quickly covered and grabbed the card they wanted to reserve so noone else could see it as they picked it up...(eg they \"slammed\" their hand over it). \n\nhttps://boardgamegeek.com/thread/1308007/hiding-your-reserve..."
+    },
+    {
+      "username": "rkonigsberg",
+      "date": "2023-02-13T18:30:05-06:00",
+      "body": "Oh yeah, that's a good thread."
+    },
+    {
+      "username": "Longshot_66",
+      "date": "2023-04-11T12:07:25-05:00",
+      "body": "We play that reserved cards that are in the table remain face up for all to see.  I have ADHD and my short term memory is terrible.  This is publicly trackable information and in this game, to hope you win because someone forgets or because they have a learning disability is not the way I am sure people want to win by.\n\nThis could be a whole separate conversation about making accommodations for people with learning disabilities to make a game fair but I digress.\n\nSecond if a player reserves a card from the face down pile that card remains hidden to the other players because this is hidden information."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Resources ",
+  "posts": [
+    {
+      "username": "Miragetwothousand",
+      "date": "2022-07-22T05:16:36-05:00",
+      "body": "Do the hexagon adjacent to the road generate resources ? Or there has to be a city or settlement next to the hexagon to generate a resource."
+    },
+    {
+      "username": "Arges92",
+      "date": "2022-07-22T05:34:49-05:00",
+      "body": "Only settlement and cities"
+    },
+    {
+      "username": "Karlsen",
+      "date": "2022-07-22T05:38:48-05:00",
+      "body": "It is the city or settlement that is generating the resource(s).\n\nSee section 1. Resource production of the rules, absolutely no mention of roads."
+    },
+    {
+      "username": "Miragetwothousand",
+      "date": "2022-07-22T08:34:42-05:00",
+      "body": "Thanks"
+    }
+  ]
+}

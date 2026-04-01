@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "End Game Scoring and Nobles",
+  "posts": [
+    {
+      "username": "TDevils6",
+      "date": "2025-05-10T12:50:09-05:00",
+      "body": "I apologize if this is covered somewhere else, but there are too many threads and I could not locate anyone discussing the following question I have.\n\nSimply put, do you keep the score you had at the end of your turn, or at the end of the game?\n\nFor Example:\n\n3 player game.  Players A B C.  Player A had the first turn.\nOn Player A's turn, they manage to buy a card that also causes a noble to visit them on their turn, their total is 16 points (Horay!).  End of game triggered, everyone else goes since you play an equal number of turns.\nPlayer B goes, they buy a card, their turn ends, they have 15 points (second place, dang).  \nPlayer C goes, they also buy a card, and additionally, they have enough cards now that they can have the same noble visit them that player A took.  So they take that card for the additional 3 points, however they still only have a total of 14 points.  \n\nHere's my question.  Since Player C took the noble that visited player A, is their score now 13 points instead of 16 points, meaning player B would actually win with 15 points?  Or does Player A win because on their turn they had 16 points.\n\nThank you to anyone who can explain the official ruling.  Originally I would play where the score would be reduced but we found that this made it more favorable to whoever went last in our games."
+    },
+    {
+      "username": "waxbottle",
+      "date": "2025-05-10T12:52:46-05:00",
+      "body": "Nobles aren't taken away from players.  The first one to meet the required gems takes the noble at the end of their turn."
+    },
+    {
+      "username": "JeffyJeff",
+      "date": "2025-05-10T12:54:26-05:00",
+      "body": "TDevils6 wrote:\n\nPlayer C goes, they also buy a card, and additionally, they have enough cards now that they can have the same noble visit them that player A took.\n\nonly 1st player to claim a noble scores points for it, they actually take the noble and put it in front of them"
+    },
+    {
+      "username": "JeffyJeff",
+      "date": "2025-05-10T12:55:31-05:00",
+      "body": "waxbottle wrote:\n\nNobles aren't taken away from players.  The first one to meet the required gems takes the noble at the end of their turn.\n\nninja'ed!  just wanted to add that even if you meet the requirements for more than one noble on your turn to claim, one can only claim one noble per turn"
+    },
+    {
+      "username": "TDevils6",
+      "date": "2025-05-14T10:17:21-05:00",
+      "body": "OK wow I can't believe we've been playing this wrong the whole time.... my family is going to be so upset with me"
+    }
+  ]
+}

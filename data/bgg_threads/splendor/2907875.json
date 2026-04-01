@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "What to do when you can't play?",
+  "posts": [
+    {
+      "username": "dallo",
+      "date": "2022-07-29T09:08:02-05:00",
+      "body": "During a game of Splendor on bga, I reached a state where no move cant be made. My timer ran out and I was expelled from the game.\n\n* I can't reserve a card because my hand is full.\n* I can't take any token because none are available\n* I can't spend any card because I cant pay them\n\nHow this kind of state should be handle by the game? What should I have done while in this state?"
+    },
+    {
+      "username": "rkonigsberg",
+      "date": "2022-07-29T09:10:39-05:00",
+      "body": "IRL I would just pass. But the rules don't cover this.\n\nHowever, it looks like you can buy two of your three reserved cards. What am I missing?"
+    },
+    {
+      "username": "iloveashesreborn",
+      "date": "2022-07-29T09:14:12-05:00",
+      "body": "rkonigsberg wrote:\n\nIRL I would just pass. But the rules don't cover this.\n\nHowever, it looks like you can buy two of your three reserved cards. What am I missing?\n\nthis"
+    },
+    {
+      "username": "dallo",
+      "date": "2022-07-29T09:17:28-05:00",
+      "body": "I can't buy any reserved cards. I miss on 1 green and 3 blue for the first one and the second one need one more source of green."
+    },
+    {
+      "username": "rkonigsberg",
+      "date": "2022-07-29T09:19:46-05:00",
+      "body": "What a strange visualization."
+    },
+    {
+      "username": "rkonigsberg",
+      "date": "2022-07-29T09:22:20-05:00",
+      "body": "By the way, you might do better asking this question on the BGA forums: https://boardgamearena.com/forum/viewforum.php?f=389"
+    },
+    {
+      "username": "ciggie",
+      "date": "2022-07-29T09:23:10-05:00",
+      "body": "dallo wrote:\n\nI can't buy any reserved cards. I miss on 1 green and 3 blue for the first one and the second one need one more source of green.\n\nYou could have played your first reserved card. You have 3 blue gems (2 chips plus 1 from a card) and 1 green gem (1 green chip plus 1 from a card) in your My Gems"
+    },
+    {
+      "username": "styates",
+      "date": "2022-07-29T09:25:48-05:00",
+      "body": "dallo wrote:\n\nI can't buy any reserved cards. I miss on 1 green and 3 blue for the first one and the second one need one more source of green.\n\nYou do have 3 blue and 2 green"
+    },
+    {
+      "username": "dkearns",
+      "date": "2022-07-29T09:36:28-05:00",
+      "body": "That interface is awful.  I can't make heads or tails of what the person has/doesn't have or even what is on the cards.  Just mysterious.  I think the numbers on the cards are what is still needed to pay the cost, and blank color means it is possible to be paid?\n\nMoreover, how did the person get in this situation?  Seems early game, has reserved three cards, no gold and I think only has two played cards?  I'm assuming the played cards must be from the middle row but not sure.\n\nI think the player (presumably everyone) is going for nobles but red looks fantastic for this board considering the top row."
+    },
+    {
+      "username": "Chango",
+      "date": "2022-07-29T09:38:17-05:00",
+      "body": "Yeah, not very easy to see the card engine he has, he needs to open the eye corner function for details. EDIT: unless he didn't know they grant credit to buy along gems."
+    },
+    {
+      "username": "Chango",
+      "date": "2022-07-29T09:44:01-05:00",
+      "body": "dkearns wrote:\n\nMoreover, how did the person get in this situation?  Seems early game, has reserved three cards, no gold and I think only has two played cards?  I'm assuming the played cards must be from the middle row but not sure.\n\nHe used the golds to buy those two cards."
+    },
+    {
+      "username": "evnzro",
+      "date": "2022-07-29T09:59:21-05:00",
+      "body": "Chango wrote:\n\nYeah, not very easy to see the card engine he has, he needs to open the eye corner function for details.\n\nOut of curiosity I just played around with the Splendor tutorial on BGA and the \"eye\" button just toggles between showing you how many gems it takes to buy a card vs. how many more gems you need to buy the card. (That's why in the screenshot some of the gems on cards are blank. That's because OP already has the required gems for purchase.)\n\nAlso, what's not shown in the screenshot is on the right side there is a display for each player that makes it much more clear which cards and gems they own of each color.\n\nRegardless, OP could have bought either of the first two cards in the reserve.\n\nNevermind. Duh. Because the \"eye\" button is toggled, the cards are showing which gems the OP needs but does not have."
+    },
+    {
+      "username": "SaltyHorse",
+      "date": "2022-07-29T10:01:50-05:00",
+      "body": "rkonigsberg wrote:\n\nBy the way, you might do better asking this question on the BGA forums: https://boardgamearena.com/forum/viewforum.php?f=389\n\nThis is a bug, not just a \"question to ask\" - it should be reported here: https://boardgamearena.com/bugs?game=1394\n\nEDIT: I just reported it: https://boardgamearena.com/bug?id=68933\n\nHere is the official answer from Asmodee: Re: What if no actions are possible? - in this rare situation, you must pass.\nBGA should automatically skip your turn."
+    },
+    {
+      "username": "rkonigsberg",
+      "date": "2022-07-29T10:38:35-05:00",
+      "body": "Well done going the last  mile, Ori."
+    },
+    {
+      "username": "dallo",
+      "date": "2022-07-29T13:14:43-05:00",
+      "body": "Thank you for opening a bug in the bugtracker and sharing the link."
+    },
+    {
+      "username": "macdaddy256",
+      "date": "2022-08-01T01:48:05-05:00",
+      "body": "In BGA Splendor I have several times got into a state where I could afford a reserved card but the game wouldn't let me buy it or indicate it was available. F5 / reset has fixed it every time for me."
+    },
+    {
+      "username": "SaltyHorse",
+      "date": "2022-08-01T02:03:39-05:00",
+      "body": "macdaddy256 wrote:\n\nIn BGA Splendor I have several times got into a state where I could afford a reserved card but the game wouldn't let me buy it or indicate it was available. F5 / reset has fixed it every time for me.\n\nLooks like there's still a problem related to that, and it's not fixed by a refresh.\nAnd reading your discussion about the reserved card, I think this is the actual bug rather than \"can't play anything\""
+    }
+  ]
+}

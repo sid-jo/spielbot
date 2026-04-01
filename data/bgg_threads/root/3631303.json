@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Vagabond coalition with someone in a dominance victory condition ",
+  "posts": [
+    {
+      "username": "pogle1",
+      "date": "2025-12-21T13:07:54-06:00",
+      "body": "So, previous laws of Root explicitly stated that Vagabonds could not coalition with someone in a dominance victory condition already. The latest one however no longer says that, and instead just says player with fewer points, and not having points is fewer than anyone else. I imagine they intend it to be like older versions, but the change in wording makes it a little uncertain whereas before it was crystal clear. Do we have any official guidance on the intention of the change in the latest version of the laws? We're playing it as though it's not allowed per the intention in older law versions, but I always like knowing for certain when possible."
+    },
+    {
+      "username": "ZergyPoo",
+      "date": "2025-12-21T13:28:35-06:00",
+      "body": "pogle1 wrote:\n\nSo, previous laws of Root explicitly stated that Vagabonds could not coalition with someone in a dominance victory condition already. The latest one however no longer says that, and instead just says player with fewer points, and not having points is fewer than anyone else. I imagine they intend it to be like older versions, but the change in wording makes it a little uncertain whereas before it was crystal clear. Do we have any official guidance on the intention of the change in the latest version of the laws? We're playing it as though it's not allowed per the intention in older law versions, but I always like knowing for certain when possible. \n\nNot having a point marker at all is not like having fewer. There is a \"0\" spot on the point track, and THAT would count as having fewer."
+    },
+    {
+      "username": "dsdhornet",
+      "date": "2025-12-21T17:48:06-06:00",
+      "body": "No point market is \"undefined\", not 0.  It is neither fewer not more than anyone else."
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-12-22T03:17:05-06:00",
+      "body": "Regardless of whether things are undefined or zero, the game rules clearly spell out that the Vagabond cannot form a coalition with someone that has declared dominance.\n\n9.2.8 Dominance Cards and Coalitions. In games with four or more players, the Vagabond can activate a dominance card to form a coalition with the player with the fewest victory points other than himself, placing his score marker on the chosen player’s faction board. If there is a tie for fewest, he chooses one tied player. If the chosen player wins the game, the Vagabond also wins. (The Vagabond no longer scores victory points. He cannot form a coalition with a player who has already activated a dominance card.)\n\nEmphasis at the end is mine, for clarity."
+    },
+    {
+      "username": "pogle1",
+      "date": "2025-12-22T06:41:40-06:00",
+      "body": "The latest version of the law does not in fact state that, as I mentioned in my original post. The change seemed weird since it moved from clear to ambiguity.\n\nDominance Cards and Coalitions.\nThe Vagabond cannot activate a dominance card for its normal victory condition (3.3.1). Instead, in games with four or more players, the Vagabond can activate a dominance card to form a coalition with another player, placing his score marker on that player's faction board. (The Vagabond no longer scores points.) That player must have fewer victory points than each other player except the Vagabond forming the coalition, and that player cannot be in a coalition. If there is a tie for fewest victory points, he chooses one tied player. If the coalitioned player wins the game, the Vagabond also wins. (3.3.1 - Activating.)"
+    },
+    {
+      "username": "ZergyPoo",
+      "date": "2025-12-23T18:07:25-06:00",
+      "body": "pogle1 wrote:\n\nThe latest version of the law does not in fact state that, as I mentioned in my original post. The change seemed weird since it moved from clear to ambiguity.\n\nDominance Cards and Coalitions.\nThe Vagabond cannot activate a dominance card for its normal victory condition (3.3.1). Instead, in games with four or more players, the Vagabond can activate a dominance card to form a coalition with another player, placing his score marker on that player's faction board. (The Vagabond no longer scores points.) That player must have fewer victory points than each other player except the Vagabond forming the coalition, and that player cannot be in a coalition. If there is a tie for fewest victory points, he chooses one tied player. If the coalitioned player wins the game, the Vagabond also wins. (3.3.1 - Activating.)\n\nI actually agree that this re-wording muddies it a bit more than it was before. But I still believe it's pretty clear. I think it's hard to argue that having no point marker at all is like having fewer. Having fewer would require you to have an actual number of points that is smaller than someone else's."
+    },
+    {
+      "username": "timonkey",
+      "date": "2025-12-24T18:33:07-06:00",
+      "body": "ZergyPoo wrote:\n\nBut I still believe it's pretty clear. I think it's hard to argue that having no point marker at all is like having fewer. Having fewer would require you to have an actual number of points that is smaller than someone else's.\n\nIt is not clear from the rules that the answer to the question \"how many victory points do you have?\" is not a number for a player who has played a dominance card.  The rules say the score marker is removed and that the player no longer scores points but does not say that you no longer have a number of victory points.\n\nI find it hard to believe the rule would be changed in this manner without being explicit, so I assume the change was driven by space constraints.  A phrasing based on forming a coalition with the player furthest back on the victory point track would be preferable."
+    },
+    {
+      "username": "ZergyPoo",
+      "date": "2025-12-25T18:17:55-06:00",
+      "body": "timonkey wrote:\n\nZergyPoo wrote:\n\nBut I still believe it's pretty clear. I think it's hard to argue that having no point marker at all is like having fewer. Having fewer would require you to have an actual number of points that is smaller than someone else's.\n\nIt is not clear from the rules that the answer to the question \"how many victory points do you have?\" is not a number for a player who has played a dominance card.  The rules say the score marker is removed and that the player no longer scores points but does not say that you no longer have a number of victory points.\n\nI find it hard to believe the rule would be changed in this manner without being explicit, so I assume the change was driven by space constraints.  A phrasing based on forming a coalition with the player furthest back on the victory point track would be preferable.\n\nThe point marker is literally removed from the track. What number are you arguing is the number of points that they have? \n\nBearing in mind that there is a 0 spot on the track and their marker is not on it"
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-12-25T19:21:57-06:00",
+      "body": "If it helps, the phrase \"He cannot form a coalition with a player who has already activated a dominance card.\" was removed in the 8th printing (Maruder expansion) for a number of reasons:\n\n* It was redundant.\n* The \"Fewest Points\" Requirement: Under the current Law, a Vagabond must form a coalition with the player who has the fewest victory points.\n*The Status of Dominance Players: Rule 3.3.1 requires a Dominance player to remove their score marker from the track.\n*The Interaction: Because a Dominance player has no marker on the track, they technically do not have a \"victory point total\" to compare. Official rulings (such as the Root FAQ and developer clarifications) have clarified that if a player's marker is not on the track, the Vagabond cannot mathematically satisfy the requirement of picking the player with the \"fewest points.\"\n\nBy removing the sentence, the designers cleaned up the Law to rely on the core mechanic (the score track) rather than a redundant exception.\n\nThe Official Root FAQ explicitly addresses your exact scenario to clear up the confusion caused by the removal of that text:\nhttps://boardgamegeek.com/filepage/176322/official-root-rule...\n\nQ: Can a Vagabond form a coalition with a player who has activated a dominance card? Can a player activate a dominance card after a Vagabond formed a coalition with them?\nA: A Vagabond cannot form a coalition with a dominance player, since they have no victory point marker on the track. However, a player can activate a dominance card after a Vagabond forms a coalition with them!"
+    },
+    {
+      "username": "timonkey",
+      "date": "2025-12-25T22:46:43-06:00",
+      "body": "ZergyPoo wrote:\n\nThe point marker is literally removed from the track. What number are you arguing is the number of points that they have? \n\nI'm not arguing that they have a specific number, but there are arguments to be made that the number is either what it was before their marker was removed as well as zero.  The rulebook doesn’t say.  Removing the point marker does not necessarily mean anything particular about how many victory points the player now has.\n\nThe FAQ seems to resolve the issue, but it's unfortunate that the principle is not found in the rulebook itself."
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-12-25T22:52:52-06:00",
+      "body": "ZergyPoo wrote:\n\nRemoving the point marker does not necessarily mean anything particular [edit]about[/edit] how many victory points the player now has.\n\nRemoving their victory point marker from the victory points track means that they no longer qualify for anything relating to victory points.\n\ntimonkey wrote:\n\nThe FAQ seems to resolve the issue, but it's unfortunate that the principle is not found in the rulebook itself.\n\nIt used to be found explicitly in the rulebook, but during an update it was considered better to remove it so that it was only the victory marker track responsible.\nI understand it was Joshua Yearsley’s rule design philosophy to streamline the Law in the 8th Printing. His portfolio and various interviews explain the shift toward a \"technical\" rulebook that removes redundant \"reminder text\" in favor of core mechanics."
+    },
+    {
+      "username": "timonkey",
+      "date": "2025-12-26T07:29:52-06:00",
+      "body": "pmw57 wrote:\n\nI understand it was Joshua Yearsley’s rule design philosophy to streamline the Law in the 8th Printing. His portfolio and various interviews explain the shift toward a \"technical\" rulebook that removes redundant \"reminder text\" in favor of core mechanics.\n\nI like a technical rulebook myself.  I'm trying to explain how, by my read at least, it doesn’t quite meet that goal.\n\npmw57 wrote:\n\nRemoving their victory point marker from the victory points track means that they no longer qualify for anything relating to victory points.\n\nThat's what it's supposed to mean, but the rulebook does not establish this.  The game could be different.  For example, a different game could have the rule that such players have zero victory points but the marker is removed as a reminder that they no longer earn victory points.  A different game could have an identical rulebook but a different FAQ that establishes a different intended rule.\n\nNeither the actual FAQ or my hypothetical one contradict the rulebook."
+    },
+    {
+      "username": "stuffbybez",
+      "date": "2025-12-27T01:31:44-06:00",
+      "body": "timonkey wrote:\n\npmw57 wrote:\n\nI understand it was Joshua Yearsley’s rule design philosophy to streamline the Law in the 8th Printing. His portfolio and various interviews explain the shift toward a \"technical\" rulebook that removes redundant \"reminder text\" in favor of core mechanics.\n\nI like a technical rulebook myself.  I'm trying to explain how, by my read at least, it doesn’t quite meet that goal.\n\npmw57 wrote:\n\nRemoving their victory point marker from the victory points track means that they no longer qualify for anything relating to victory points.\n\nThat's what it's supposed to mean, but the rulebook does not establish this.  The game could be different.  For example, a different game could have the rule that such players have zero victory points but the marker is removed as a reminder that they no longer earn victory points.  A different game could have an identical rulebook but a different FAQ that establishes a different intended rule.\n\nNeither the actual FAQ or my hypothetical one contradict the rulebook.\n\nI agree with all this. \n\nThis is what the currently shared homeland rulebook says:\n\n9.2.8 Dominance Cards and Coalitions. The Vagabond\ncannot activate a dominance card for its normal\nvictory condition (3.3.1). Instead, in games with\nfour or more players, the Vagabond can activate a\ndominance card to form a coalition with another\nplayer, placing his score marker on that player’s\nfaction board. (The Vagabond no longer scores points.)\nThat player must have fewer victory points than\neach other player except the Vagabond forming\nthe coalition, and that player cannot be in a coa-\nlition. If there is a tie for fewest victory points, he\nchooses one tied player. If the coalitioned player\nwins the game, the Vagabond also wins.\n\nIf I'd had to make a ruling before today, I'd probably has suggested that the person has no victory points, therefore has the fewest. \n\nIf it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck."
+    },
+    {
+      "username": "dsdhornet",
+      "date": "2025-12-27T01:39:42-06:00",
+      "body": "stuffbybez wrote:\n\nIf I'd had to make a ruling before today, I'd probably has suggested that the person has no victory points, therefore has the fewest. \n\nIf it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck. \n\nThe rule has not changed.  You cannot, and have never been able to, do coalitions with someone without a victory point marker on the track."
+    },
+    {
+      "username": "ZergyPoo",
+      "date": "2025-12-27T10:56:18-06:00",
+      "body": "dsdhornet wrote:\n\nstuffbybez wrote:\n\nIf I'd had to make a ruling before today, I'd probably has suggested that the person has no victory points, therefore has the fewest. \n\nIf it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck. \n\nThe rule has not changed.  You cannot, and have never been able to, do coalitions with someone without a victory point marker on the track.\n\nSeriously. They know the intent, and they are in this thread, why would they be confused?"
+    },
+    {
+      "username": "dsdhornet",
+      "date": "2025-12-27T11:32:09-06:00",
+      "body": "ZergyPoo wrote:\n\ndsdhornet wrote:\n\nstuffbybez wrote:\n\nIf I'd had to make a ruling before today, I'd probably has suggested that the person has no victory points, therefore has the fewest. \n\nIf it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck. \n\nThe rule has not changed.  You cannot, and have never been able to, do coalitions with someone without a victory point marker on the track.\n\nSeriously. They know the intent, and they are in this thread, why would they be confused?\n\nI get that the rulebook could be clearer in this regard, but to vote or remove cards when the answer is known?  The rulebook may be considered slightly ambiguous, but it isn't contradictory."
+    },
+    {
+      "username": "sigmazero13",
+      "date": "2026-02-12T14:21:14-06:00",
+      "body": "For my part, as a computer programmer, I am keenly aware of the difference between \"null\"/\"undefined\", and an actual value.  A variable with a null value is not comparable (with greater than or less than operators) to integers in most modern programming languages I'm familiar with; if you try to do so, you'll get an error.\n\nI know this doesn't necessarily \"prove\" anything from a board game perspective, but simply that for me, at least, it seems clear that \"remove the VP\" means \"undefined VP\"."
+    }
+  ]
+}

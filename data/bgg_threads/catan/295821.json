@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "2 for 1 ports",
+  "posts": [
+    {
+      "username": "Barticus88",
+      "date": "2008-02-24T13:57:28-06:00",
+      "body": "Do the 2:1 ports go both ways?  When I played in Los Angeles (multiple groups, but overlapping members), the rule was that it did, while here in Seattle (two groups, no known overlap) everyone says the 2:1 are one way only.\n\nTo elaborate, if I have a brick port, in Los Angeles I could use it to trade two brick for one of anything or to trade two (identical) of anything for one brick.  In Seattle I am told I can only use it to trade two brick for one of anything.  I looked at the rule book (from last century) and it was rather vague, but to me it implied it went both ways.  How do most people play, and in more recent editions is the rule written more clearly?"
+    },
+    {
+      "username": "chockle",
+      "date": "2008-02-24T14:14:46-06:00",
+      "body": "two brick for one of anything"
+    },
+    {
+      "username": "weevol",
+      "date": "2008-02-24T14:19:51-06:00",
+      "body": "Seattle is correct."
+    },
+    {
+      "username": "brafman",
+      "date": "2008-02-24T14:28:16-06:00",
+      "body": "Yep, one way only."
+    },
+    {
+      "username": "Case",
+      "date": "2008-02-24T15:19:20-06:00",
+      "body": "Seattle 1\n\nLA      0"
+    },
+    {
+      "username": "turtleback",
+      "date": "2008-02-24T18:21:25-06:00",
+      "body": "Case wrote:\n\nSeattle 1\n\nLA      0\n\nIt think that's one of the first times we have beat LA!"
+    },
+    {
+      "username": "ackmondual",
+      "date": "2008-02-24T18:35:35-06:00",
+      "body": "my vote is with Seattle as well.  It's 2 brick for one of any other resource type.\n\nInterestingly enough, someone's game group who posted here on BGG thought it was ONLY the other way around.  2 of any resource for one brick"
+    },
+    {
+      "username": "FlatOnHisFace",
+      "date": "2008-02-25T13:05:26-06:00",
+      "body": "Chock one up for the home team!\n\nIn yer face LA!\n\n(Which I think stands for \"Losing Argument\")"
+    },
+    {
+      "username": "Barticus88",
+      "date": "2008-02-29T23:46:39-06:00",
+      "body": "I went and looked this up and wrote it down.  In a recent rulebook I found this very clear statement:\n\nNew rulebook wrote:\n\nThey [specific ports] allow a player to trade two of that specific resource for one of any resource.\n\nThere's no arguing with that rule.  However, in an old rulebook (back when \"specific ports\" were \"special harbors\"), I find this:\n\nOld rulebook wrote:\n\nSpecial Harbor (2:1):  There is but one special harbor for each type of resource (with the same symbol).  So, it's important to build on the type of special harbor you can use fairly frequently.  (Look at your resource production.)  The exchange rate of 2:1 only applies to the resource shown on the harbor location.\n\nWith all this verbiage (mixing tactical advice with rules of play) they never got around to clearly stating the rule.  A strict reading of this says I can only use my brick port harbor to trade two brick for one brick.  Clearly that's useless, so it must mean that brick needs to be on one side of the transaction, but it doesn't say which.  I can understand how someone concluded that it's two anything for one brick, though that is of limited utility.  It goes on to include a correct example, but there's nothing which explicitly bars the reverse trade.  Once you believe the trades run either way, there's nothing in the old rulebook to convince you otherwise.\n\nI liked the old LA rule.  It was rare that you used the reverse trade, but it was nice to have when you needed it."
+    },
+    {
+      "username": "Rusty Gamer",
+      "date": "2008-11-02T05:45:12-06:00",
+      "body": "Well, you could have a variation that if you upgrade a port settlement to a city, then you can have it both ways. :)"
+    },
+    {
+      "username": "itsmenadz33",
+      "date": "2019-01-02T15:53:11-06:00",
+      "body": "do you have to put a settlement on a port for it to be used? And if the ports a wood port does your road have to include a wood hex?"
+    },
+    {
+      "username": "DominionFamily",
+      "date": "2019-01-02T17:32:19-06:00",
+      "body": "itsmenadz33 wrote:\n\ndo you have to put a settlement on a port for it to be used?\n\nYes\n\nitsmenadz33 wrote:\n\nAnd if the ports a wood port does your road have to include a wood hex?\n\nNo, there is no requirement like that."
+    },
+    {
+      "username": "mintern",
+      "date": "2020-09-11T19:27:54-05:00",
+      "body": "I've never played with the \"both ways\" rule, but it makes thematic sense to me. If I can take my bricks down to the port and trade them for other resources, some merchant at the port must be on the other side of that trade, trading those resources for brick. It makes logical sense to go trade for bricks, too, and our hypothetical merchant would love the opportunity to double up on both sides of the trade.\n\nIf a gaming group decides to play with this rule as a variant, it seems like it could introduce an interesting strategy wrinkle and more flexible starting opportunities. Can anyone, perhaps someone who has played \"both ways\" several times, describe ways that this rule would significantly break the dynamics?"
+    },
+    {
+      "username": "jorganos",
+      "date": "2020-09-13T09:45:41-05:00",
+      "body": "I think that having the \"we sell one brick for any two resources of the same kind\" port (or trade card) in addition to the conventional ones can introduce new goals in an expanded map Catan game (like Seafarers or possibly E&P)."
+    },
+    {
+      "username": "billybobjones1",
+      "date": "2024-12-28T07:59:48-06:00",
+      "body": "Yes, it fully changes the game and makes otherwise hard to obtain resources easy to get. For example, I played a game where the ore numbers were 2, 12, and 9, one of my friends got the ore 2:1 harbor/port and used that to get a ridiculous amount of ore because he traded sheep which was in abundance for the ore. 2 sheep for 1 ore."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "If I have have played 3 knights but then discard one using Vincent's ability (Helpers of Catan expansion), do I lose the \"largest army\" bonus card?",
+  "posts": [
+    {
+      "username": "hansat",
+      "date": "2024-08-26T19:36:04-05:00",
+      "body": "This situation came up in my game yesterday (we play base Catan along with the Helpers of Catan scenario cards): \n\nI had 3 knights already played face-up, and thus I collected the largest army bonus (no one else had any knights played at all).\n\nOn my next turn I used Vincent's ability (he lets you discard a face-up knight in order to reduce the necessary resources to build a settlement), which meant I had to  discard a knight. My friend pointed out that this meant I would lose the largest army bonus, because I no longer have 3 knights played.\n\nHowever the largest army bonus does not include the word \"minimum\" on it, whereas the longest road bonus does.\n\nSo we weren't sure if 3 knights are a minimum to \"introduce\" the largest army card into play, or if it functions as a minimum to hold the largest army bonus.\n\nDo you think I would have to relinquish the largest army if I used Vincent's ability and dropped down from 3 knights played to 2 knights played?"
+    },
+    {
+      "username": "Eldard",
+      "date": "2024-08-26T20:22:44-05:00",
+      "body": "I would say that since you no longer have the requisite 3 knights, you relinquish the Largest Army card."
+    },
+    {
+      "username": "odie73",
+      "date": "2024-08-26T21:42:29-05:00",
+      "body": "You lose the largest army. See the FAQ: https://www.catan.com/faq/catan-helpers"
+    },
+    {
+      "username": "hansat",
+      "date": "2024-08-26T21:48:31-05:00",
+      "body": "But the FAQ says you \"may\" lose the largest army. Are you sure that they are referring to the case of going from 3 to 2 knights, or just the case of being tied with another player for most knights and then dropping down to second-most knights?"
+    },
+    {
+      "username": "kkstiles",
+      "date": "2024-08-26T22:31:45-05:00",
+      "body": "In my view, the fact that they used \"minimum\" on the largest roads card but not the largest army doesn't really matter. When the base game was created, Helpers didn't exist; so while there was a way to lose minimum 5 roads (if an opponent built a settlement that divided the roads), there wasn't a way to lose knights. So there was no need to include \"minimum\" on the largest army card. \nMy table would probably treat largest army the same as largest road-- if you lose the number that got the card for you originally, you lose the card. I do see your point and you could certainly make a case for it. But without an official ruling, my table would probably side against your view."
+    },
+    {
+      "username": "WilbertK",
+      "date": "2024-08-26T22:55:43-05:00",
+      "body": "hansat wrote:\n\nBut the FAQ says you \"may\" lose the largest army. Are you sure that they are referring to the case of going from 3 to 2 knights, or just the case of being tied with another player for most knights and then dropping down to second-most knights?\n\nThe closest we have to an official ruling are the comments made by Dr Düren in this thread.\nOn top of that, it's good to realize that Klaus Teuber liked to make like things work alike. Ships work like roads for example. And the largest army works like the longest road. You lose the longest road card if you ever go below the minimum requirement. It's in line with his style to infer that the same would be true for the largest army."
+    },
+    {
+      "username": "Argus Panoptes",
+      "date": "2024-09-07T20:04:34-05:00",
+      "body": "hansat wrote:\n\nBut the FAQ says you \"may\" lose the largest army.\n\nIf you drop from 4 knights to 3 knights and no one else has played knights, you won't lose largest army.  That FAQ entry  is not specific to the case of losing one of your 3 knights."
+    }
+  ]
+}

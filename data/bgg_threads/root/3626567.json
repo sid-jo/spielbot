@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Keepers in iron questions:",
+  "posts": [
+    {
+      "username": "DGD_Kami",
+      "date": "2025-12-12T00:21:39-06:00",
+      "body": "Ok so I have two questions:\n\n1.- (Digital) can you chose which retinue card to use on certain actions? Today I was playing against lizards, and sometimes I want to use the bird card first because I needed to burn the delving card, so even tho I had a suited card also I didn't wanna use it because knew I wasn't gonna rule after the first attack. So I wanted to use my bird card first to attack without delving, and then delve with the suited card and burn it.\n\nIs that even possible? Because the game didn't give me the option to, and used the suited card first by default which was annoying \n\n2.- How does rule and forests work in the lake map? I mean do clearings across the lake count as surrounding the forests that are next to the lake?\n\nThanks in advance"
+    },
+    {
+      "username": "Laterbot",
+      "date": "2025-12-12T00:57:45-06:00",
+      "body": "1. Sometimes digital has weird niche settings where you can pick the order of things (like WA Supporters) but I believe retinue, much like the decree, forces you to use suited cards first. It's just a limitation of digital.\nIf you were always going to do both actions, is there a reason you couldn't just do them in reverse order?\n(I'm 99% sure you cannot choose the card but maybe someone else will prove me wrong, I'm not as big of a digital player as others)\n\n2. Like the River on the Winter map, the lake splits forests. But worth noting the forests around the lake are adjacent to each other across the clearings.\nLaw of Root M.3.2: The Lake. The lake is in the center of the map. The lake is treated as rivers linking each coastal clearing to each other coastal clearing. The lake divides forests.\nM.3.4: Coastal Forests. Forests touching the lake are coastal forests. Each coastal forest is adjacent to its two neighboring coastal forests (separated by one coastal clearing).\n\nI couldn't find a good diagram to link (there are some I just couldn't find them) so I made a bad one for you:"
+    },
+    {
+      "username": "DeToije",
+      "date": "2025-12-12T01:02:37-06:00",
+      "body": "1) Regarding the cards in the retinue, yes uou can choose. But you have to choose before you start the corresponding action! It is possible to click on the retinue (in the bottom right corner) and then you will get a pop-up.\n(At least in the mobile app)\n\n2) every forest has at least 3 adjacent clearings. The lake does work as a barrier, so clearings on the otherside of the lake are not adjacent to a forest on this side."
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-12-12T04:34:16-06:00",
+      "body": "DeToije wrote:\n\n2) every forest has at least 3 adjacent clearings. The lake does work as a barrier, so clearings on the otherside of the lake are not adjacent to a forest on this side.\n\nI feel a clarification is wanted there. Lakeside forests that share a common clearing are considered to be adjacent. \n\nThe forest on the bottom towards the right, and the forest on the other side of the lake on the right edge towards the bottom, they both share the same bottom-right clearing so those two forests are adjacent to each other. Thematically it's wading through shallow waters to get from one forest to the next one."
+    },
+    {
+      "username": "DGD_Kami",
+      "date": "2025-12-12T08:38:58-06:00",
+      "body": "Tysm everyone for the answers, I will try to see if I can click the retinue, it didn't seem like I could in my previous game.\nLaterbot wrote:\n\nIf you were always going to do both actions, is there a reason you couldn't just do them in reverse order?\n\nThe situation is as follows: Lizard cult is in a clearing I need to delve in, they have two warriors and two gardens, I'm 100% guaranteed to not being able to rule after a single attack because lizards rule the clearing even if just a single garden exists, so I won't be able to delve in my first attack. The retinue card I was going to delve with was going to burn, since I don't rule three adjacent clearings to the forest, so naturally I wanted to burn the suited card and not the bird card, so the best course of action was to attack with the bird card first to kill (hopefully) two warriors and the attack again the two gardens with the suited card, delve and let it burn"
+    },
+    {
+      "username": "TacoMan253",
+      "date": "2025-12-13T16:11:04-06:00",
+      "body": "DGD_Kami wrote:\n\nTysm everyone for the answers, I will try to see if I can click the retinue, it didn't seem like I could in my previous game.\nLaterbot wrote:\n\nIf you were always going to do both actions, is there a reason you couldn't just do them in reverse order?\n\nThe situation is as follows: Lizard cult is in a clearing I need to delve in, they have two warriors and two gardens, I'm 100% guaranteed to not being able to rule after a single attack because lizards rule the clearing even if just a single garden exists, so I won't be able to delve in my first attack. The retinue card I was going to delve with was going to burn, since I don't rule three adjacent clearings to the forest, so naturally I wanted to burn the suited card and not the bird card, so the best course of action was to attack with the bird card first to kill (hopefully) two warriors and the attack again the two gardens with the suited card, delve and let it burn \n\nYou only burn the card if you try to delve and don't rule enough surrounding clearings, not if you battle but don't rule."
+    },
+    {
+      "username": "DGD_Kami",
+      "date": "2025-12-13T17:17:29-06:00",
+      "body": "TacoMan253 wrote:\n\nYou only burn the card if you try to delve and don't rule enough surrounding clearings, not if you battle but don't rule.\n\nYou need to rule the clearing you're battling on to delve mate"
+    },
+    {
+      "username": "ViolentWaves",
+      "date": "2025-12-14T03:38:07-06:00",
+      "body": "You need to rule the clearing you're battling on to delve mate\n\nYeah. But og poster knows that (“I’m 100% not guaranteed to rule after a single attack”). Therefore they need to attack twice and only delve on the second attack:\n- first attack uses bird card. No rule yet, so no delve. Bird card is secure. \n- second attack uses suited card. If no rule, no delve. But if rule, then delve with suited card. Since player KNOWS they won’t rule enough clearings when they turn the relic over, the used card is guaranteed to burn. Therefore ideally this second attack + delve should be done using a suited card. \n\nOG poster is right in their strategy. Without being able to choose, the keepers in iron would become a much weaker faction."
+    },
+    {
+      "username": "DGD_Kami",
+      "date": "2025-12-14T11:16:31-06:00",
+      "body": "ViolentWaves wrote:\n\n You need to rule the clearing you're battling on to delve mate\n\nYeah. But og poster knows that (“I’m 100% not guaranteed to rule after a single attack”). Therefore they need to attack twice and only delve on the second attack:\n- first attack uses bird card. No rule yet, so no delve. Bird card is secure. \n- second attack uses suited card. If no rule, no delve. But if rule, then delve with suited card. Since player KNOWS they won’t rule enough clearings when they turn the relic over, the used card is guaranteed to burn. Therefore ideally this second attack + delve should be done using a suited card. \n\nOG poster is right in their strategy. Without being able to choose, the keepers in iron would become a much weaker faction. \n\nI mean I know, I'm the OG lol\n\nI was clarifying because if feel like Jason G didn't understand the question"
+    },
+    {
+      "username": "gmhakim",
+      "date": "2025-12-17T10:28:14-06:00",
+      "body": "Clarification here, which I think I have right. The forest labeled A here is adjacent to 4 other forests. Two \"inland\" forests which it borders, and two \"coastal\" forests on the other side of the clearings that border forest A."
+    },
+    {
+      "username": "stuffbybez",
+      "date": "2025-12-18T00:12:18-06:00",
+      "body": "gmhakim wrote:\n\nClarification here, which I think I have right. The forest labeled A here is adjacent to 4 other forests. Two \"inland\" forests which it borders, and two \"coastal\" forests on the other side of the clearings that border forest A.\n\nIf \"Lakeside forests that share a common clearing are considered to be adjacent.\", then A should alsop be adjacent to a 5th clearing; the clearing above it, between two you have already marked."
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-12-18T00:27:09-06:00",
+      "body": "stuffbybez wrote:\n\nIf \"Lakeside forests that share a common clearing are considered to be adjacent.\", then A should alsop be adjacent to a 5th clearing; the clearing above it, between two you have already marked. \n\nThat forest, just below the collection of items, is not considered to be a lakeside forest as no edge of it is adjacent to the lake."
+    },
+    {
+      "username": "stuffbybez",
+      "date": "2025-12-18T00:52:02-06:00",
+      "body": "pmw57 wrote:\n\nstuffbybez wrote:\n\nIf \"Lakeside forests that share a common clearing are considered to be adjacent.\", then A should alsop be adjacent to a 5th clearing; the clearing above it, between two you have already marked. \n\nThat forest, just below the collection of items, is not considered to be a lakeside forest as no edge of it is adjacent to the lake.\n\nI'm talking about the forest on the top-right tip of A."
+    },
+    {
+      "username": "gmhakim",
+      "date": "2025-12-18T12:24:43-06:00",
+      "body": "stuffbybez wrote:\n\npmw57 wrote:\n\nstuffbybez wrote:\n\nIf \"Lakeside forests that share a common clearing are considered to be adjacent.\", then A should alsop be adjacent to a 5th clearing; the clearing above it, between two you have already marked. \n\nThat forest, just below the collection of items, is not considered to be a lakeside forest as no edge of it is adjacent to the lake.\n\nI'm talking about the forest on the top-right tip of A.\n\nYes, I think I know what you mean. Between the two I've marked with upward facing arrows. That forest doesn't border the lake, so is not considered a coastal forest, and thus is not adjacent to forest A."
+    },
+    {
+      "username": "stuffbybez",
+      "date": "2025-12-19T01:24:49-06:00",
+      "body": "gmhakim wrote:\n\nYes, I think I know what you mean. Between the two I've marked with upward facing arrows. That forest doesn't border the lake, so is not considered a coastal forest, and thus is not adjacent to forest A.\n\nAh thanks for explaining again. \n\nI hope I didn't confuse other readers. I blame recent fatigue and brainfog. :-/"
+    },
+    {
+      "username": "gmhakim",
+      "date": "2025-12-19T08:35:45-06:00",
+      "body": "stuffbybez wrote:\n\ngmhakim wrote:\n\nYes, I think I know what you mean. Between the two I've marked with upward facing arrows. That forest doesn't border the lake, so is not considered a coastal forest, and thus is not adjacent to forest A.\n\nAh thanks for explaining again. \n\nI hope I didn't confuse other readers. I blame recent fatigue and brainfog. :-/\n\nNo worries - this is why we ask these questions and why the forums exist!"
+    }
+  ]
+}

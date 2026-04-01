@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Can you build a road from one of your non-blocked roads if other player's settlement is at the other endpoint of the constructed road?",
+  "posts": [
+    {
+      "username": "vshorb",
+      "date": "2022-07-23T02:59:20-05:00",
+      "body": "'-' - my existing roads, 'X' - other player's settlement, '=' - road I want to build; is the following setup legal, i.e. can I build the '=' road:\n\n      = X\n   / \n  |\n\n?"
+    },
+    {
+      "username": "l-hansen",
+      "date": "2022-07-23T03:16:49-05:00",
+      "body": "Really can't figure it out from your \"graphics\". Could you take a photo and upload it instead?"
+    },
+    {
+      "username": "WilbertK",
+      "date": "2022-07-23T04:08:12-05:00",
+      "body": "I agree that a photo would be infinitely more clear. But I'm pretty sure what you want is not allowed."
+    },
+    {
+      "username": "jorganos",
+      "date": "2022-07-23T05:08:29-05:00",
+      "body": "Do you mean \"can I continue to build on a road where another player placed a settlement between two road pieces of mine\", then the answer is yes if the intersection you want to build past has no other player's piece (settlement, city, C&K knight) on it. Also, you can extend your road network to other players' settlements to add another piece to your bid for longest road.\n\nCan I build a road on an edge where the intersection connecting to my road has another player's piece? Then the answer is no."
+    },
+    {
+      "username": "grarrrg",
+      "date": "2022-07-23T10:16:08-05:00",
+      "body": "vshorb wrote:\n\n'-' - my existing roads, 'X' - other player's settlement, '=' - road I want to build; is the following setup legal, i.e. can I build the '=' road:\n\nForget hexagons...straight line for example:\n\n- - - = X\nYes, you can build.\n\n- - - X =\nNo, you cannot build.\n\n- - X - =\nYes, you can build."
+    },
+    {
+      "username": "odie73",
+      "date": "2022-07-23T15:08:46-05:00",
+      "body": "To put it into words: \n\nIf a road ends in an empty intersection you can expand from that end. Whether the newly built road ends at an opponent's village or city afterwards does not matter."
+    },
+    {
+      "username": "vshorb",
+      "date": "2022-07-24T16:35:31-05:00",
+      "body": "Got it, thanks! Yes, the rules seem pretty clear about disallowing building roads from the intersection if there's an opponent's village/city there. My question was if I can build a road starting from a \"valid\" intersection if it will end at the opponent's village/city - this seems like a useful way to block opponent from expanding in this direction. Seems like it's allowed, thanks everyone for your answers"
+    }
+  ]
+}

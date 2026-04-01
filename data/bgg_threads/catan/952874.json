@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Robber - discarding half of your cards, do development cards count?",
+  "posts": [
+    {
+      "username": "BeeBee505",
+      "date": "2013-03-27T10:55:20-05:00",
+      "body": "When a seven is rolled and the robber is activated, you have to discard half of your cards, if you have more than 7. Do you have to discard half of your cards if you have 5 resource and 3 unplayed development cards, that makes 8 cards in your hand?"
+    },
+    {
+      "username": "ackmondual",
+      "date": "2013-03-27T10:56:54-05:00",
+      "body": "Efecka wrote:\n\nWhen a seven is rolled and the robber is activated, you have to discard half of your cards, if you have more than 7. Do you have to discard half of your cards if you have 5 resource and 3 unplayed development cards, that makes 8 cards in your hand?\n\nNo, Development cards do not count as resources for this purpose.  You're fine if you have 5 resource cards in hand and 3 dev cards in hand."
+    },
+    {
+      "username": "BeeBee505",
+      "date": "2013-03-27T10:59:35-05:00",
+      "body": "thank you for clearing that up  it's been bugging me for days and it's not explained anywhere in the rulebook"
+    },
+    {
+      "username": "mistergnome",
+      "date": "2013-03-27T11:04:51-05:00",
+      "body": "And just to clarify, Development cards cannot be stolen by other players either. They are meant to be face down in front of you and separate from your hand, presumably to clear up those two issues."
+    },
+    {
+      "username": "freechinanow",
+      "date": "2013-03-27T11:18:01-05:00",
+      "body": "Efecka wrote:\n\nthank you for clearing that up  it's been bugging me for days and it's not explained anywhere in the rulebook\n\nJust to clarify, the rules state that Resource Cards are discarded. Development Cards are not Resource Cards."
+    },
+    {
+      "username": "BeeBee505",
+      "date": "2013-03-27T11:41:04-05:00",
+      "body": "My game and its rulebook aren't in english  that's why I was confused, because the rulebook only says: cards are discarded, it doesn't say: resource cards are discarded :/ I guess they did a sloppy translation"
+    },
+    {
+      "username": "Jason Winter",
+      "date": "2013-03-27T13:59:20-05:00",
+      "body": "\"keep your development cards hidden (in your hand)until you use them,so your opponents can't anticipate your play.\"  source \"build\" \"d)\" page 5 Game Rules Almanac \n\nI believe this is the source of contention."
+    },
+    {
+      "username": "BeeBee505",
+      "date": "2013-03-27T16:39:55-05:00",
+      "body": "exactly"
+    },
+    {
+      "username": "ivankeri",
+      "date": "2022-03-20T22:52:43-05:00",
+      "body": "Exactly!!\n\nCan anyone help me out here?\n\nHow can you actually “keep the number of resource cards you have” hidden, if you are not required to keep them separate from your resource cards?\n\nI mean: if you (as a personal choice) keep all of your cards (resource+development) in you hand (I mean in your literal hand together without distinction), then when the robber comes to get you, you could easily say something like: “oh no I do have 8 cards (i.e. more than 7) but actually 1 of them is a resource card so the robber won’t hit me”…\n\nI dont get how are you supposed to be able to keep resource and development not-separated and still be able to play without causing distrust in the rest of the players."
+    },
+    {
+      "username": "WilbertK",
+      "date": "2022-03-21T00:18:04-05:00",
+      "body": "Development cards are not resource cards."
+    },
+    {
+      "username": "xipuloxx",
+      "date": "2022-03-21T07:16:00-05:00",
+      "body": "ivankeri wrote:\n\nHow can you actually “keep the number of resource cards you have” hidden, if you are not required to keep them separate from your resource cards?\n\nI assume one of those should have said development cards, rather than resource cards! But nobody said anything about keeping the number of them secret: when it tells you to keep them hidden it just means to hide what they actually are (i.e. victory points, monopoly etc.). Obviously you'd have to reveal how many resource cards you have when the robber strikes so it's clear how many you should lose.\n\nI mean: if you (as a personal choice) keep all of your cards (resource+development) in you hand (I mean in your literal hand together without distinction), then when the robber comes to get you, you could easily say something like: “oh no I do have 8 cards (i.e. more than 7) but actually 1 of them is a resource card so the robber won’t hit me”…\n\nIt's been a while since I've played, but don't they have different backs so you can tell which is which?"
+    }
+  ]
+}

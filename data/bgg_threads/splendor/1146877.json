@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "game_name": "splendor",
+    "game_id": 148228,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Taking 2 Gems of one color",
+  "posts": [
+    {
+      "username": "Mikefitz",
+      "date": "2014-03-28T14:09:54-05:00",
+      "body": "the rules say \"This action is only possible if there are at least 4 tokens of the chosen color left when the player takes them. I have already been taught two different ways. One review said this means you cannot take 2 if there are 4 in the start because the left means after you take them. Another player told me you can take them as long as there are 4 left when you take them. \n\nPlease help: Which is correct?"
+    },
+    {
+      "username": "Runkst",
+      "date": "2014-03-28T14:18:54-05:00",
+      "body": "It means 4 left before you take them. It's clearer in some of the other languages and that's also how the publisher describes it in a video on Tric Trac."
+    },
+    {
+      "username": "Mikefitz",
+      "date": "2014-03-28T14:26:33-05:00",
+      "body": "Thanks for the quick reply. A Rules editor of mine told me the word \"Left\" means that it means you cannot take them if less than 4 are left after your take. I thought your answer made more sense so that in a two player game you at least have one shot at a full stack to get 2."
+    },
+    {
+      "username": "W Eric Martin",
+      "date": "2014-03-28T16:17:10-05:00",
+      "body": "Mikefitz wrote:\n\nThanks for the quick reply. A Rules editor of mine told me the word \"Left\" means that it means you cannot take them if less than 4 are left after your take.\n\n\"When the player takes them\" ≠ \"after the player takes them\".\n\n\"When the player takes them\" = \"at the moment that the player takes them\"."
+    },
+    {
+      "username": "biohazard",
+      "date": "2014-04-01T08:33:30-05:00",
+      "body": "W Eric Martin wrote:\n\nMikefitz wrote:\n\nThanks for the quick reply. A Rules editor of mine told me the word \"Left\" means that it means you cannot take them if less than 4 are left after your take.\n\n\"When the player takes them\" ≠ \"after the player takes them\".\n\n\"When the player takes them\" = \"at the moment that the player takes them\".\n\nYeah, right !\n\nRegards,\n\nCROC"
+    },
+    {
+      "username": "gillum",
+      "date": "2014-04-13T21:49:46-05:00",
+      "body": "If you couldn't take two gems of a color unless there will be 4 left after you take them, then this option would be available only in the 4-player game!\n\nWith 2-3 players, you start with only 4-5 games per color - taking 2 of those would always leave less than 4!"
+    },
+    {
+      "username": "sillynamenace",
+      "date": "2023-03-11T03:34:04-06:00",
+      "body": "gillum wrote:\n\nIf you couldn't take two gems of a color unless there will be 4 left after you take them, then this option would be available only in the 4-player game!\n\nWith 2-3 players, you start with only 4-5 games per color - taking 2 of those would always leave less than 4!\n\nSo that means, in a 2p game if there are 4 gems/tokens of a certain color, it is allowed to take 2 gems/tokens of that color. In other words: The pair-picking action is allowed. Then 2 tokens of that color are left on the table. The pair-picking action is not allowed anymore (for that color), until at least 4 tokens of that color come back to the table (through payments)."
+    },
+    {
+      "username": "JoeBoardgame",
+      "date": "2023-03-11T10:19:10-06:00",
+      "body": "Woo!  The 9 year clarification!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Clarification of Harbor rules",
+  "posts": [
+    {
+      "username": "ryleyra",
+      "date": "2022-08-05T17:06:10-05:00",
+      "body": "I came here searching for a clarification of a rule, and surprisingly saw no post directly about it. (There were a few that indirectly addressed the question, but it took me some time to find them) Since I came up with this question and others might wonder about the same thing I thought I might go ahead and make a post.\n\nThe answer may seem obvious, but I was wondering if a harbor can only be accessed from two settlements along its hex, or three. On the frames used by the most recent editions, there are jettys adjacent to two of the intersections of the hex, but there is also an intersection on the same coast that looks like it could be used, according to the stated rules, but there is no jetty.\n\nI always assumed that only the jettys could be used, which is correct, but I was was reading a review of 3D Catan that caused me to question that assumption. I came here to ask that question, or at least get clarification that I was right.\n\nMy solution was to realize that harbors are on the EDGE of the hex on which they are located, not the whole tile. This can be clearly seen in previous editions of Catan, where the sea hexes along the border clearly marked the two intersections where a settlement may be placed. The change from hexes to frame pieces obscured that factor, but harbors are still along a single edge of a the frame.\n\nTo put the nail in the coffin, the harbor pieces in Seafarers are clearly placed adjacent to an edge of a shoreline hex. There is no need for confusion as long as you understand the harbor is a feature of an edge.\n\nThis if course means that only one player can claim each harbor, which I'm sure was intended. \n\n(To clarify why I was confused, the harbors in 3D Catan are boats, with 3D cargo loaded into them, which I really like. But each boat had a pair of gangplanks, and the reviewer just placed them haphazardly, making it look like they were leading to two adjacent hexes. This was wrong; the boats were supposed to be placed with the gangplanks leading to the two vertices of the same edge)"
+    },
+    {
+      "username": "Smolskc",
+      "date": "2022-08-05T20:19:38-05:00",
+      "body": "You are correct that the harbors could only have at most one settlement each. They are meant to be aligned to an edge as a trade-off for only getting access to one or two production hexes."
+    }
+  ]
+}

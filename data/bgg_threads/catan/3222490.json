@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Is there an \"official\" variant for an extra round of turns when someone declares victory?",
+  "posts": [
+    {
+      "username": "Barninator",
+      "date": "2024-01-08T11:53:36-06:00",
+      "body": "I was reviewing the questions & answers on the awesome CATAN FAQ, here:\nhttps://www.catan.com/faq/basegame\n\nI noticed one that really confused me.  Here it is, in full. (I'm including the text and a screenshot.)  See my question following after:\nCATAN FAQ wrote:\n\nEnd of the Game -- Is there another special building phase at the end of the game?\n⚫ No – if a player reaches the required number of victory points during his turn, the game ends as specified in the rules.\n\n⚫ Yes – if the game ends at a point agreed upon by the players before or during the game, after which each player – beginning with the starting player – may take one more turn, that is, the game ends when player 5 or 6 has taken his turn.\nIn this case, it is recommended to include another special building phase after player 5 or 6 has finished his turn, so that the players can use the resources they just have received. Otherwise, the last player to take a turn is at a disadvantage, because no one will trade with him any more. The order in which the players take their turns would have too much bearing on the outcome of the game, because during the last round the number of trades performed would diminish player by player – after all, why should a player who is no longer allowed to build keep on trading?\nThis rule is also recommended for 3-4 player games, because otherwise the last player would hardly have an opportunity to trade. Therefore, in a 3-4 player game, a one-time final build phase for all other players would take place.\n\nFor the \"Yes\" option here, what game-end point \"agreed upon by the players\" do they mean?  Is this a variant I just don't see in the current version of the rules?\n\nIt seems like \"No\" should be the only answer to this question.  Unless it's a house rule or variant.  Or unless I'm missing something else?"
+    },
+    {
+      "username": "BGmbr",
+      "date": "2024-01-09T06:19:21-06:00",
+      "body": "The quotes above relate to the old rules for 5-6 players (which included a special building phase). They do not apply to games with 3-4 players.\n\nActually, the official rule is that once the player reaches 10 victory points during their turn they win and the game ends immediately. So, there is no rule to let the rest of  players who did not take their turn this round (if any) to do it after the winning player declares their victory. The good thing is that no need to worry about ties as they are not possible with such approach. You may try to house rule it, of course."
+    },
+    {
+      "username": "Barninator",
+      "date": "2024-01-09T13:48:51-06:00",
+      "body": "Sounds good; that makes sense.  Thank you, Maxim!"
+    }
+  ]
+}

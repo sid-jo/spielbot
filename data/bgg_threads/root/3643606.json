@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Vagabond Coalition and Damage Rules Clarification",
+  "posts": [
+    {
+      "username": "Paoloscia",
+      "date": "2026-01-12T10:21:31-06:00",
+      "body": "I’ve just read the Root Quick Start Guide and I have two questions that I couldn’t find answers to, even after checking rules 9.2.8 and 9.2.9:\n\n1) Can a faction that is in a coalition with the Vagabond become Hostile if one of its warriors is removed, or once a faction enters a coalition is it immune to becoming Hostile?\n2) When the Vagabond takes damage but has no more damage he can mark (and therefore may “ignore damage”):\nif he is Allied with a faction and is fighting with the help of that faction’s warriors, can he still ignore the damage even if there are allied warriors that would be removed if the damage were assigned?"
+    },
+    {
+      "username": "ZergyPoo",
+      "date": "2026-01-12T10:47:00-06:00",
+      "body": "1. I don't think this can happen. If the vagabond is in a coalition with someone, they can't attack them, and therefore can't remove warriors. But also I believe the relationship marker for the coalition partner is removed anyway.\n2. No, I would think that damage would have to be applied."
+    },
+    {
+      "username": "Skeime",
+      "date": "2026-01-12T11:09:41-06:00",
+      "body": "ZergyPoo wrote:\n\n1. I don't think this can happen. If the vagabond is in a coalition with someone, they can't attack them, and therefore can't remove warriors. But also I believe the relationship marker for the coalition partner is removed anyway.\n\nI don’t think the relationship marker is removed. (If you are hostile before forming the coalition, there’s even a rule to move it to Indifferent (see 9.2.9.III.D).)\n\nAnd I think in rare cases the Vagabond can remove warriors from a coalition partner. For example, when the Vagrant makes their coalition partner fight using Instigate. (This might be the only way?) In this case, the relationship would turn hostile again; there is no rule making an exception here."
+    },
+    {
+      "username": "ZergyPoo",
+      "date": "2026-01-12T11:25:19-06:00",
+      "body": "Skeime wrote:\n\nZergyPoo wrote:\n\n1. I don't think this can happen. If the vagabond is in a coalition with someone, they can't attack them, and therefore can't remove warriors. But also I believe the relationship marker for the coalition partner is removed anyway.\n\nI don’t think the relationship marker is removed. (If you are hostile before forming the coalition, there’s even a rule to move it to Indifferent (see 9.2.9.III.D).)\n\nAnd I think in rare cases the Vagabond can remove warriors from a coalition partner. For example, when the Vagrant makes their coalition partner fight using Instigate. (This might be the only way?) In this case, the relationship would turn hostile again; there is no rule making an exception here.\n\nYou are correct!\n\nIn any case. Why would a VB in a coalition with someone actually want to go hostile?"
+    },
+    {
+      "username": "Skeime",
+      "date": "2026-01-12T12:04:13-06:00",
+      "body": "ZergyPoo wrote:\n\nIn any case. Why would a VB in a coalition with someone actually want to go hostile?\n\nProbably they wouldn’t want to. But maybe Instigate is used as a Hail Mary to stop someone else from winning."
+    },
+    {
+      "username": "tranlyvu",
+      "date": "2026-01-13T05:56:47-06:00",
+      "body": "Can I also clarify that you can only initiate battle against an enemy and since coalition is no longer enemy, you cannot attack your coalition faction?"
+    },
+    {
+      "username": "Skeime",
+      "date": "2026-01-13T06:06:38-06:00",
+      "body": "tranlyvu wrote:\n\nCan I also clarify that you can only initiate battle against an enemy and since coalition is no longer enemy, you cannot attack your coalition faction?\n\nYes, that’s right."
+    },
+    {
+      "username": "pmw57",
+      "date": "2026-01-13T06:17:25-06:00",
+      "body": "If you are also Allied with your Coalition faction as well though, you can battle with someone else and choose to have your ally take hits. When they've taken more hits in the battle than you did, they become Hostile with you.\n\nhttps://rules.ledergames.com/?product=root&locale=en-US&prin...\n9.2.9 II D Taking Hits with Ally. In a battle where you treat Allied warriors as your own, you can take hits by removing them. However, if you take more hits by removing Allied warriors than by damaging items during the same battle, that Allied faction becomes Hostile (9.2.9.III) at the end of the battle. This rule overrides the condition for becoming Hostile in 9.3.3."
+    }
+  ]
+}

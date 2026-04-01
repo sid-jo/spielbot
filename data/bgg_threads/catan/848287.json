@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "The rules are not clear about starting resources, do you always hand out accourding to the white stars?",
+  "posts": [
+    {
+      "username": "bmwrider",
+      "date": "2012-08-28T08:22:34-05:00",
+      "body": "How do we figure out which resources each player starts out with? 3 of us played last night and all read the starting setup rules but could not figure out if you are always supposed to use the white stars for starting resources.\n\nIt seems like its just the learning setup and there is another way but we could not find it.\n\nWe have played a few times before but the game owner always set things up now we can't figure it out, could some one help us out."
+    },
+    {
+      "username": "John85",
+      "date": "2012-08-28T08:27:53-05:00",
+      "body": "You get one resource from each resource tile adjacent to your starting settlements (so at most you begin with six cards, although depending on placement you may only receive 4 [i.e. if both settlements are on the coast])"
+    },
+    {
+      "username": "thejeffo",
+      "date": "2012-08-28T08:28:06-05:00",
+      "body": "You get the resource that are touching the second settlement you lay in setup.\n\nEx. If the second settlement you play in setup is touching 2 sheep hexes and 1 wood hex, then you get 2 sheep and 1 wood.\n\nIf the second settlement you play in setup is touching the desert, a brick hex and a stone hex, then you would get 1 brick and 1 stone."
+    },
+    {
+      "username": "AlexYeager",
+      "date": "2012-08-28T08:29:28-05:00",
+      "body": "The rule you're looking for is on page 3: \"You receive resources for each terrain hex around your starting settlement marked with a white star...\" So, if you're the blue player per the setup illustration, you receive a clay, wool, and ore card. If you do the variable setup (where you place your starting settlements where you choose), you get the resources from the hexes touching the second settlement that you place.\n\nI hope that helps!\n\nAlex Yeager\n\nMayfair Games"
+    },
+    {
+      "username": "jss333",
+      "date": "2012-08-28T08:31:06-05:00",
+      "body": "If you're using the starting setup laid out in the manual, then yes, you should give starting resources based on the settlement marked with a white star.\n\nIf you're doing a random setup, then resources are given according to the 2nd settlement placed by each player during the setup stage."
+    },
+    {
+      "username": "Sayburr",
+      "date": "2012-08-28T08:31:18-05:00",
+      "body": "You gather resources based on the tiles surrounding the second settlement you place.  \n\nOne resource, based on the tiles, that are surrounding your second settlement.\n\nIf the second settlement were placed in the intersection of 10,5,9 (where the white city is now), the players starting recources would be Wood and two Wool.\n\nAt 5,9,2 - three wool\n\nAt 2,4,6 - Wool, Wheat, Wood\n\nect..."
+    },
+    {
+      "username": "Sayburr",
+      "date": "2012-08-28T08:32:33-05:00",
+      "body": "Better Answer:\n\njss333 wrote:\n\nIf you're using the starting setup laid out in the manual, then yes, you should give starting resources based on the settlement marked with a white star.\n\nIf you're doing a random setup, then resources are given according to the 2nd settlement placed by each player during the setup stage."
+    },
+    {
+      "username": "John85",
+      "date": "2012-08-28T09:50:26-05:00",
+      "body": "I guess I've been playing house rules, oh well."
+    },
+    {
+      "username": "markgravitygood",
+      "date": "2012-08-28T11:25:05-05:00",
+      "body": "John85 wrote:\n\nI guess I've been playing house rules, oh well.\n\nI like your version. \"Constructors of Catan\". Seems to make it a fast-build game."
+    },
+    {
+      "username": "papiklfish",
+      "date": "2012-08-28T21:59:40-05:00",
+      "body": "markgravitygood wrote:\n\nJohn85 wrote:\n\nI guess I've been playing house rules, oh well.\n\nI like your version. \"Constructors of Catan\". Seems to make it a fast-build game.\n\nActually we play with this house rule as well.  We always knew it was a house rule, but the guy who was most familiar with the game when we started playing regularly told us about this, and we have been using it ever since.  It will often let you get a road or a development card early on in the game.  I do not think it throws things off too much.  The downside is that you can become vulnerable to the robber with 7+ cards before you even get a turn to use any of them."
+    },
+    {
+      "username": "bmwrider",
+      "date": "2012-08-29T10:59:56-05:00",
+      "body": "markgravitygood wrote:\n\nJohn85 wrote:\n\nI guess I've been playing house rules, oh well.\n\nI like your version. \"Constructors of Catan\". Seems to make it a fast-build game.\n\nOK so how does constructors of catan work?\n\nDo you get all adjacent resources? for a total of six depending on placement."
+    },
+    {
+      "username": "markgravitygood",
+      "date": "2012-08-29T11:24:56-05:00",
+      "body": "That's what I hear."
+    },
+    {
+      "username": "bmwrider",
+      "date": "2012-09-01T23:33:51-05:00",
+      "body": "bmwrider wrote:\n\nmarkgravitygood wrote:\n\nJohn85 wrote:\n\nI guess I've been playing house rules, oh well.\n\nI like your version. \"Constructors of Catan\". Seems to make it a fast-build game.\n\nOK so how does constructors of catan work?\n\nDo you get all adjacent resources? for a total of six depending on placement.\n\nWhere are the rules to this variant?"
+    },
+    {
+      "username": "The_General_",
+      "date": "2024-03-01T07:45:36-06:00",
+      "body": "Yep, the rule book is pretty poor here. I bought the 2019 version last month. Rule book doesn't explain what to do for random setup from what I can see. I was looking for hexes with white stars on them to begin with lol.\nWe ended up playing with no bonus starting resources, and it was a very slow start to the game. I like Patricks idea of bonus resources for both settlements to get things moving."
+    },
+    {
+      "username": "rainbowrose",
+      "date": "2024-03-03T18:43:28-06:00",
+      "body": "thejeffo wrote:\n\nYou get the resource that are touching the second settlement you lay in setup.\n\nEx. If the second settlement you play in setup is touching 2 sheep hexes and 1 wood hex, then you get 2 sheep and 1 wood.\nIf the second settlement you play in setup is touching the desert, a brick hex and a stone hex, then you would get 1 brick and 1 stone.\n\nMy rules from the English 4th Edition from 2007 are very clear that this is the rule. It's sad that newer editions are letting the side down.\n\nIn the Almanac section of my rulebook on Page 12 under Round Two, under Set-up Phase it saysEach player receives his starting resources immediately after building his second settlement; for each terrain hex adjacent to this second settlement, he takes a corresponding Resource Card from the supply.\n\nThis is referenced in the Game Rules section of the rulebook under Starting Set-up for Experienced Players.  The buisness about white stars is only part of the Starting Set-up for Beginners.\n\nAgain, it's really sad that the rulebook has gone down hill. Catan won awards for it's excellent and innovative rulebook."
+    }
+  ]
+}

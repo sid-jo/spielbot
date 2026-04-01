@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Is it a legal move to give p1 5 Clay and they give me p2 a stone? ",
+  "posts": [
+    {
+      "username": "skipppy909",
+      "date": "2024-09-15T07:39:07-05:00",
+      "body": "Is it a legal move to give p1 5 Clay and they give me p2 a stone? \n\nI did this because I wanted p1 to steal the longest road and end up with 8 points. The previous long road player (p3) had 9 points. So helping p1, reduced p3s points down to 7 because they lost the longest road. I couldn’t try getting longest road because I was no where near doing so.\n\nThis game ended up being a win for me because this decision prolonged the game and enabled me to catch up with my points."
+    },
+    {
+      "username": "WilbertK",
+      "date": "2024-09-15T08:02:10-05:00",
+      "body": "You can't offer trades that are strictly better than what the bank offers.\nsource"
+    },
+    {
+      "username": "skipppy909",
+      "date": "2024-09-15T08:12:07-05:00",
+      "body": "so would that mean I could give up 4 cards and receive 1?\n\nbecause you can exchange 4 of the same card for a card of your choice during a turn"
+    },
+    {
+      "username": "WilbertK",
+      "date": "2024-09-15T08:20:49-05:00",
+      "body": "That depends om which trade harbours are available to you, but in principle yes."
+    },
+    {
+      "username": "skipppy909",
+      "date": "2024-09-15T08:24:20-05:00",
+      "body": "this is confusing, where in the rulebook does it state this? I thought trading didn't have any restrictions with the amounts"
+    },
+    {
+      "username": "WilbertK",
+      "date": "2024-09-15T08:27:25-05:00",
+      "body": "I linked my source. It's a developer of the game. It's an operationalization of the rule that says you can't just give your opponents stuff without receiving anything in return."
+    },
+    {
+      "username": "skipppy909",
+      "date": "2024-09-15T08:32:24-05:00",
+      "body": "so the max cards I can give is always 4? I know that we have to atleast recieve 1 item, which I mentioned in the first post."
+    },
+    {
+      "username": "skipppy909",
+      "date": "2024-09-15T08:59:45-05:00",
+      "body": "this is a different version of catan in that thread you linked. I've looked through the original catan rulebook and there's nothing about player to player trading restrictions."
+    },
+    {
+      "username": "WilbertK",
+      "date": "2024-09-15T09:47:25-05:00",
+      "body": "It's not a different version. It's an expansion. The ruling came up in that context, but it's not specific to that expansion.\nFor reference, the general rule about trading restrictions is rule 1.E.b of Encyclopædia Catanica. The thread I linked to discusses the implications of that rule."
+    },
+    {
+      "username": "RandomObfuscation",
+      "date": "2024-09-15T09:51:45-05:00",
+      "body": "skipppy909 wrote:\n\nthis is a different version of catan in that thread you linked. I've looked through the original catan rulebook and there's nothing about player to player trading restrictions.\n\nIt's also in the FAQ on Catan.com which is an updated living document of rules clarifications that apply regardless of edition or printing."
+    },
+    {
+      "username": "ackmondual",
+      "date": "2024-09-15T09:54:58-05:00",
+      "body": "RandomObfuscation wrote:\n\nskipppy909 wrote:\n\nthis is a different version of catan in that thread you linked. I've looked through the original catan rulebook and there's nothing about player to player trading restrictions.\n\nIt's also in the FAQ on Catan.com which is an updated living document of rules clarifications that apply regardless of edition or printing.\n\nAll it says is..\nNo. On Catan, a trade always involves giving and taking resources. Consequently, Catan’s trade law does not contain a “trade” of something for nothing or for immaterial goods such as services.\n\n... it doesn't seem to apply in the OP's case of 5 Clay to get 1 stone."
+    },
+    {
+      "username": "RandomObfuscation",
+      "date": "2024-09-15T10:11:59-05:00",
+      "body": "ackmondual wrote:\n\nRandomObfuscation wrote:\n\nskipppy909 wrote:\n\nthis is a different version of catan in that thread you linked. I've looked through the original catan rulebook and there's nothing about player to player trading restrictions.\n\nIt's also in the FAQ on Catan.com which is an updated living document of rules clarifications that apply regardless of edition or printing.\n\nAll it says is..\nNo. On Catan, a trade always involves giving and taking resources. Consequently, Catan’s trade law does not contain a “trade” of something for nothing or for immaterial goods such as services.\n\n... it doesn't seem to apply in the OP's case of 5 Clay to get 1 stone.\n\nTrue. Though it was meant more of a supporting argument to the previous posts (re: developer) where the link they posted was broken."
+    },
+    {
+      "username": "WilbertK",
+      "date": "2024-09-15T11:37:02-05:00",
+      "body": "ackmondual wrote:\n\nAll it says is..\nNo. On Catan, a trade always involves giving and taking resources. Consequently, Catan’s trade law does not contain a “trade” of something for nothing or for immaterial goods such as services.\n\n... it doesn't seem to apply in the OP's case of 5 Clay to get 1 stone.\n\nThat's why I linked to the discussion, which is about the intent behind the rule. Dr Düren has been writing official clarifications about Catan for years."
+    },
+    {
+      "username": "James2044",
+      "date": "2024-09-20T11:18:00-05:00",
+      "body": "We would allow the trade under \"House Rules\"."
+    },
+    {
+      "username": "jorganos",
+      "date": "2024-09-20T12:43:51-05:00",
+      "body": "skipppy909 wrote:\n\nIs it a legal move to give p1 5 Clay and they give me p2 a stone? \n\nNot in a single trade. Legally, you can trade that p1 stone for three bricks, than trade a single brick for that stone to return to p1, then trade it for three bricks again, and you will have moved 5 bricks from p2 to p1. Stretched over three trades, there is a risk that one of the trading partners stops in the middle of the business."
+    }
+  ]
+}

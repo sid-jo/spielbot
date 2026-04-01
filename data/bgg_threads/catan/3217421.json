@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "game_name": "catan",
+    "game_id": 13,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-01"
+  },
+  "subject": "Building on coast Catan",
+  "posts": [
+    {
+      "username": "tangodownNZ",
+      "date": "2023-12-31T17:17:28-06:00",
+      "body": "In the Catan rules it says you may only build settlements on an intersection when the 3 adjacent intersections are unoccupied. The game rules fail to mention anything about unoccupied intersections when building on the coast. The coast does not have 3 intersections, only 2 so it is impossible to have 3 unoccupied intersections on the coast. So the game rules contradict themselves because we have no way of knowing how many unoccupied intersections there must be in order to build a settlement on the coast"
+    },
+    {
+      "username": "dcclark",
+      "date": "2023-12-31T17:21:44-06:00",
+      "body": "You can find some good answers to this in this previous thread where you posted the same question."
+    },
+    {
+      "username": "wcp1876",
+      "date": "2023-12-31T20:54:13-06:00",
+      "body": "tangodownNZ wrote:\n\nIn the Catan rules it says you may only build settlements on an intersection when the 3 adjacent intersections are unoccupied. The game rules fail to mention anything about unoccupied intersections when building on the coast. The coast does not have 3 intersections, only 2 so it is impossible to have 3 unoccupied intersections on the coast. So the game rules contradict themselves because we have no way of knowing how many unoccupied intersections there must be in order to build a settlement on the coast\n\nI'm not sure what rule you're confused about (can you quote it?), but the only restriction regarding settlement building is all settlements must be at least two hex-sides apart. Under those circumstances you can build inland, inland adjacent to the desert, on the coast, or on the coast adjacent to the desert. Under those circumstances, you'll be adjacent to 3, 2, 2, and 1 resource generating areas respectively."
+    },
+    {
+      "username": "jorganos",
+      "date": "2024-01-01T07:04:03-06:00",
+      "body": "The hexagonal frame for the current edition of Catan was originally a ring of separate water hexes, and the areas on the frame are still treated as such. There is an invisible border to the edge of the frame from which originally two edges would extend outward. In this regard, the intersections pointing outward are adjacent to a free intersection. \n\nAs a consequence, the corners of the frame are regular intersections between two (incompletely represented) water hexes and the land hex, and with a free intersection on the far end of the invisible border between the two water hexes. The \"contradiction\" is mainly ignorance of the meaning of the frame that may have become slightly less obvious in re-design."
+    },
+    {
+      "username": "panzer6",
+      "date": "2024-01-01T10:49:30-06:00",
+      "body": "Older versions of SoC had full size sea hexes instead of a frame."
+    }
+  ]
+}
