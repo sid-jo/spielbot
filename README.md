@@ -22,9 +22,11 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] Image-text dataset curated
 - [x] Baseline outputs collected across ChatGPT, Claude, Gemini, and DeepSeek
 - [x] Data pipeline — PDF rulebook ingestion + BGG forum scraping
+- [x] Processing script for BGG data to prep for question-based embedding
+- [ ] Processing script for rulebook data; section-based chunking?
 - [ ] Chunking script (preparation and execution)
 - [ ] Chunk embedding with vector store for dense and sparse retrievers
-- [ ] RAG orchestrator script (Use Groq `Llama-32B-Instruct`)
+- [ ] RAG orchestrator script (Use Groq `Llama-32B-Instruct` or CMU LiteLLM instance)
 - [ ] Image and text encoder (might use CLIP)
 - [ ] VLM inference pipeline (access LlaVa or more SOTA VLM through Groq)
 - [ ] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
@@ -41,8 +43,9 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 03/23/26 | Enhanced the rulebook extraction pipeline to work on multi-column pages, still working out tabular data |
 | 03/24/26 | Requested BGG API key (would take about a week). Working on alternate webscraping component (`scrape_bgg_temp.py`) that uses geekdo API | 
 | 03/25/26 | Got access to the BGG API and made the API key! Incorporated API calls to gather data and kept webscraping script as fallback| 
-
+| 03/31/26 | Finalized BGG forum extraction script + processing script to prepare for chunking |
 ### References
 
-- PDF Plumber (https://github.com/jsvine/pdfplumber)
-- BGG API Repo (https://github.com/tnaskali/bgg-api)
+- [PDF Plumber](https://github.com/jsvine/pdfplumber)
+- [BGG API Repo](https://github.com/tnaskali/bgg-api)
+- [Using the BGG XML API](https://boardgamegeek.com/wiki/page/BGG_XML_API#)
