@@ -2,3 +2,5 @@
 .env
 data/checkpoints/
 /src/.claude
+.claude/
+/src/__pycache__
