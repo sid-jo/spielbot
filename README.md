@@ -23,7 +23,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] Baseline outputs collected across ChatGPT, Claude, Gemini, and DeepSeek
 - [x] Data pipeline — PDF rulebook ingestion + BGG forum scraping
 - [x] Processing script for BGG data to prep for question-based embedding
-- [ ] Processing script for rulebook data; section-based chunking?
+- [x] Processing script for rulebook data; section-based chunking?
 - [ ] Chunking script (preparation and execution)
 - [ ] Chunk embedding with vector store for dense and sparse retrievers
 - [ ] RAG orchestrator script (Use Groq `Llama-32B-Instruct` or CMU LiteLLM instance)
@@ -44,6 +44,8 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 03/24/26 | Requested BGG API key (would take about a week). Working on alternate webscraping component (`scrape_bgg_temp.py`) that uses geekdo API | 
 | 03/25/26 | Got access to the BGG API and made the API key! Incorporated API calls to gather data and kept webscraping script as fallback| 
 | 03/31/26 | Finalized BGG forum extraction script + processing script to prepare for chunking |
+| 04/05/26| Implemented chunking script for rulebook outputs and cleaned up data file structure. I might need to revise the chunking strategies to make sure only useful information is being kept to support retriever quality |
+
 ### References
 
 - [PDF Plumber](https://github.com/jsvine/pdfplumber)
