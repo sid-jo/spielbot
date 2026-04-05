@@ -1,0 +1,62 @@
+{
+  "game_name": "splendor",
+  "source_file": "splendor_rulebook.txt",
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "chunk_id": "splendor_rulebook_000",
+      "source_type": "rulebook",
+      "game_name": "splendor",
+      "section_title": "Introduction",
+      "source_tier": "core_rules",
+      "content": "In Splendor, you take on the role of a rich merchant during the Renaissance.\nYou will use your resources to acquire mines, transportation methods, and artisans\nwho will allow you to turn raw gems into beautiful jewels.\nContents\n40 tokens 90 Development cards\n10 Noble tiles\n7 Emerald 7 Diamond\ntokens tokens\n(green) (white)\n7 Sapphire 7 Onyx\ntokens tokens\n(blue) (black)\n40 Level 1\n7 Ruby 5 Gold Joker cards\ntokens tokens\n30 Level 2\n(red) (yellow)\ncards\n20 Level 3\ncards\nGame setup\nShuffle each development card deck separately, and then place them in\na column in the middle of the table in increasing order from bottom to\ntop ( ; ; ).\nThen reveal 4 cards from each level.\nShuffle the noble tiles and reveal as many of them as there are players\nplus one (example: 5 tiles for a 4 player game).\nThe remaining tiles are removed from the game; they will not be used\nduring the game. Finally, place the tokens in 6 distinct piles (sort them\nby color) within reach of the players.\nGame with 2 or 3 players\nWith 2 players With 3 players\nRemove 3 tokens of each gem color (there should Remove 2 tokens of each gem color (there should\nbe only 4 of each remaining). be only 5 of each remaining).\nDon’t touch the gold. Don’t touch the gold.\nReveal 3 noble tiles Reveal 4 noble tiles.\nThere are no other changes.",
+      "chunk_index": 0,
+      "total_chunks": 5,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "splendor_rulebook_001",
+      "source_type": "rulebook",
+      "game_name": "splendor",
+      "section_title": "Game overview (Part 1)",
+      "source_tier": "core_rules",
+      "content": "During the game, the players take gem and gold tokens. With these tokens, they purchase development cards,\nwhich are worth prestige points and/or bonuses. These bonuses allow players to purchase subsequent\ndevelopment cards for a lesser cost. When a player has enough bonuses, they immediately receive a visit\nfrom a noble (which is also worth prestige points). As soon as a player reaches 15 prestige points, the current turn ends and the player\nwith the most prestige points is declared the winner. The development cards GAME RULES\nTo win prestige points, the players must purchase development The youngest player begins. Play then proceeds clockwise.\ncards. These cards are visible in the middle of the table and On their turn, a player must choose to perform only one of the\nmay be purchased by all players during the game. following four actions. The developments in hand are the cards which the players - Take 3 gem tokens of different colors.\nreserve throughout the game. Developments in hand may - Take 2 gem tokens of the same color.\nonly be purchased by the players holding them. This action is only possible if there are at least 4 tokens of the\nchosen color left when the player takes them. The player who purchases this card wins 4 prestige points. - Reserve 1 development card and take 1 gold token (joker). Owning this card allows the player to benefit from a blue - Purchase 1 face-up development card from the middle of the\nbonus. To purchase this card, the player must spend 3 blue table or a previously reserved one.\ntokens, 3 black tokens, and 6 white tokens. Selecting tokens\nA player can never have more than 10 tokens at the end of\ntheir turn (including jokers). If this happens, they must return\ntokens until they only have 10 left. A player can return all or\nsome of those they’ve just drawn. The tokens owned by a\nplayer must be visible by all players at all times. Reminder: players may not take 2 tokens of the same color if\nthere are less than 4 tokens available of that color. The noble tiles\nThe noble tiles are visible in the middle of the table. At the Reserve a development card\nend of their turn, a player automatically receives the visit from To reserve a card, a player simply needs to take a face-up\na noble if that player has the amount of bonuses (and only development from the middle of the table or (if you’re feeling\nbonuses) required, and they get the corresponding tile. lucky) draw the first card from one of the three decks (level\nA player cannot refuse a visit from a noble. ; ; ) without showing it to the other players. Receiving a noble isn’t considered to be an action.",
+      "chunk_index": 1,
+      "total_chunks": 5,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "splendor_rulebook_002",
+      "source_type": "rulebook",
+      "game_name": "splendor",
+      "section_title": "Game overview (Part 2)",
+      "source_tier": "core_rules",
+      "content": "you’re feeling bonuses) required, and they get the corresponding tile. lucky) draw the first card from one of the three decks (level A player cannot refuse a visit from a noble. ; ; ) without showing it to the other players. Receiving a noble isn’t considered to be an action.\n\nEach noble The reserved cards are kept in hand and cannot be discarded.\ntile is worth 3 prestige points, but players can only get a single Players may not have more than three reserved cards in hand,\none per turn. and the only way to get rid of a card is to buy it (see below). Reserving a card is also the only way to get a gold token\nThe player who acquires this noble’s tile gains 3 prestige (joker). If there is no gold left, you can still reserve a card, but\npoints. If a player has enough development cards to amass 3 you won’t get any gold.\nblue bonuses, 3 green bonuses, and 3 white bonuses, then that\nplayer automatically receives a visit from that noble. Buying a development card\nTo purchase a card, a player must spend the number of\ntokens indicated on the card. A joker token can replace any\ncolor. The spent tokens (including any jokers) are returned to\nthe middle of the table. A player may purchase one of the face-up development\ncards in the middle of the table or a card in his hand that was\nreserved on a previous turn. Each player makes distinct rows with the acquired\ndevelopment cards by sorting them by color, and staggering\nthem vertically so that their bonuses and prestige point\nvalues are visible.",
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "splendor_rulebook_003",
+      "source_type": "rulebook",
+      "game_name": "splendor",
+      "section_title": "The bonuses and prestige points granted The nobles (Part 1)",
+      "source_tier": "core_rules",
+      "content": "by each card must be visible to all at all At the end of their turn, each player checks the noble tiles in\ntimes. order to determine if they’re receiving a visit from one of them. A player can be visited if they have (at least) the quantity and\nImportant: when a development card from the middle of the type of bonuses indicated on the noble tile.\ntable is acquired or reserved, it must immediately be replaced by It is impossible to refuse the visit from a noble, which is not\na card of the same level. considered to be an action. At all times during the game, there must be 4 face-up cards of If a player has enough bonuses to be visited by more than one\neach level (unless the deck in question is empty, in which case the noble at the end of their turn, that player chooses the noble to\nempty spaces also remain empty). be received. The tile obtained is placed face-up in front of the player in\nThe bonuses question. The bonuses a player has from development cards acquired\non previous turns provide discounts on the purchase of new END OF THE GAME\ncards. Each bonus of a given color is equal to a token of that When a player reaches 15 prestige points, complete the\ncolor. current round so that each player has played the same number\nThus, if a player has 2 blue bonuses and wants to purchase a of turns.\ncard which costs 2 blue tokens and 1 green token, the player The player who then has the highest number of prestige points\nmust only spend 1 green token. is declared the winner (don’t forget to count your nobles). If a player has enough development cards (and therefore In case of a tie, the player who has purchased the fewest\nbonuses), they can even purchase a card without spending any development cards wins.\ntokens. The author: Marc André\nGood-looking, tall, blond, athletic, Marc André has a godlike body worthy of a game designer. (Oh darn! They’ve\nstuck a picture in here! I’ll have to find something else...) Born in 1967 (that’s incredible, I’m as old as the Space\nCowboys!), in the South of France, where children are forced to learn how to play chess as early as 4 years old. Actually, no, it’s just that in my family, a playful mind is a way of life, or not, it’s all in how you see it. I’ve thus grown\nup alongside thinking games as much as boardgames of all sizes and shapes, for players young and old. Then came\nthe 80’s and its revolution: roleplaying games which freed up imagination and creativity. It was a revelation! One\nday I’d make games too! I got on that right away, first with roleplaying games, then fighting games to play with my\nbuddies, and finally, much later, boardgames. Now, Splendor is my second published game. How did I do it?",
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "splendor_rulebook_004",
+      "source_type": "rulebook",
+      "game_name": "splendor",
+      "section_title": "The bonuses and prestige points granted The nobles (Part 2)",
+      "source_tier": "core_rules",
+      "content": "freed up imagination and creativity. It was a revelation! One day I’d make games too! I got on that right away, first with roleplaying games, then fighting games to play with my buddies, and finally, much later, boardgames. Now, Splendor is my second published game. How did I do it?\n\nThanks\nto my super psychic hypnotic powers during important meetings (with Sébastien Pauchon and CROC). To finish,\nI’m dedicating this game to CROC who has my complete sympathy and consideration, to my wife and my son, who\nhave all my love. The artist: Pascal Quidault\n«No, but really – what’s your real job?»\nArtist. A horrible job if there’s one. Normally lost in worlds of Heroic Fantasy or Science Fiction for gaming platforms\nor literary ones, it was time for me to buy myself a conscience back. Born in 1976 (a wee lad in comparison). Quickly,\nthe evidence of an age limit being required to stand the horrible working conditions among the Space Cowboys was\ndiscovered: humor, puns, centuries-old references, and even an honest and good camaraderie. Revolting. Using bru-\nshes and styluses for almost 10 years for various French and worldwide publishers, I also teach digital art to a youth\nlooking to walk down this road to perdition. Accumulating the vices, I also play various sorts of games: boardgames,\nroleplaying, strategy, wargames... The possibility to collaborate on the first game by the Cowboys was thus the fruit\nof an intense debate which lasted a few microseconds. Much thanks to Philippe Mouret and the Space Cowboys team\nfor their confidence and their patience, as well as Splendor’s daddy: Marc André. I’ll finish by admitting a terrible secret: I’ve played Splendor and I loved it. My soul is definitely lost. Translation: Eric Harlaux\nRevision: Eric Franklin\nSplendor is published by JD Éditions - SPACE Cowboys: 238, rue des frères Farman, 78530 BUC - France\n© 2014 SPACE Cowboys. All rights reserved\nwww.spacecowboys.fr",
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "retrieval_priority": 1
+    }
+  ]
+}

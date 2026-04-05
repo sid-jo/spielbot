@@ -1,0 +1,1402 @@
+{
+  "game_name": "splendor",
+  "game_id": 148228,
+  "total_chunks": 15,
+  "chunks": [
+    {
+      "chunk_id": "splendor_148228_forum_1146877",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "1146877",
+      "thread_subject": "Taking 2 Gems of one color",
+      "embed_text": "Can a player take 2 gems of one color if there are at least 4 tokens of that color left when the player takes them, or does it mean there must be at least 4 tokens left after taking them?",
+      "content": "The community resolved that a player can take 2 gems of one color if there are at least 4 tokens of that color present when the player takes them, not after. This interpretation is supported by the explanation that 'when the player takes them' refers to the moment of taking, not after.",
+      "raw_thread": [
+        {
+          "username": "Mikefitz",
+          "date": "2014-03-28T14:09:54-05:00",
+          "body": "the rules say \"This action is only possible if there are at least 4 tokens of the chosen color left when the player takes them. I have already been taught two different ways. One review said this means you cannot take 2 if there are 4 in the start because the left means after you take them. Another player told me you can take them as long as there are 4 left when you take them. \n\nPlease help: Which is correct?"
+        },
+        {
+          "username": "Runkst",
+          "date": "2014-03-28T14:18:54-05:00",
+          "body": "It means 4 left before you take them. It's clearer in some of the other languages and that's also how the publisher describes it in a video on Tric Trac."
+        },
+        {
+          "username": "Mikefitz",
+          "date": "2014-03-28T14:26:33-05:00",
+          "body": "Thanks for the quick reply. A Rules editor of mine told me the word \"Left\" means that it means you cannot take them if less than 4 are left after your take. I thought your answer made more sense so that in a two player game you at least have one shot at a full stack to get 2."
+        },
+        {
+          "username": "W Eric Martin",
+          "date": "2014-03-28T16:17:10-05:00",
+          "body": "\"When the player takes them\" ≠ \"after the player takes them\".\n\n\"When the player takes them\" = \"at the moment that the player takes them\"."
+        },
+        {
+          "username": "biohazard",
+          "date": "2014-04-01T08:33:30-05:00",
+          "body": "W Eric Thanks for the quick reply. A Rules editor of mine told me the word \"Left\" means that it means you cannot take them if less than 4 are left after your take.\n\n\"When the player takes them\" ≠ \"after the player takes them\".\n\n\"When the player takes them\" = \"at the moment that the player takes them\".\n\nYeah, right !\n\nRegards,\n\nCROC"
+        },
+        {
+          "username": "gillum",
+          "date": "2014-04-13T21:49:46-05:00",
+          "body": "If you couldn't take two gems of a color unless there will be 4 left after you take them, then this option would be available only in the 4-player game!\n\nWith 2-3 players, you start with only 4-5 games per color - taking 2 of those would always leave less than 4!"
+        },
+        {
+          "username": "sillynamenace",
+          "date": "2023-03-11T03:34:04-06:00",
+          "body": "With 2-3 players, you start with only 4-5 games per color - taking 2 of those would always leave less than 4!\n\nSo that means, in a 2p game if there are 4 gems/tokens of a certain color, it is allowed to take 2 gems/tokens of that color. In other words: The pair-picking action is allowed. Then 2 tokens of that color are left on the table. The pair-picking action is not allowed anymore (for that color), until at least 4 tokens of that color come back to the table (through payments)."
+        },
+        {
+          "username": "JoeBoardgame",
+          "date": "2023-03-11T10:19:10-06:00",
+          "body": "Woo!  The 9 year clarification!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": "false",
+      "confidence": "medium",
+      "post_count": 8,
+      "date_range": [
+        "2014-03-28",
+        "2023-03-11"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_1155253",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "1155253",
+      "thread_subject": "Splendor 10 chip limit Returning chips question",
+      "embed_text": "In Splendor, if a player's chip count exceeds 10 at the end of their turn, can they return any chips to reach the limit, or are they limited to returning chips they just drew? Can a player choose to return chips from their existing pile instead of the newly drawn chips?",
+      "content": "The community consensus is that a player can return any chips to reach the 10 chip limit, not just the chips they just drew. The rule allows for returning all or some of the chips drawn, but this does not constrain the player to only return those chips. The player can choose to return any combination of chips from their total pile to get back to the 10 chip limit.",
+      "raw_thread": [
+        {
+          "username": "spades8",
+          "date": "2014-04-13T08:07:07-05:00",
+          "body": "Hi,\n\nHave only played the game twice so far but wanted to clariy a rule.\n\nA player may not have over 10 chips in their hand at the end of their turn.\n\nThey must return down to 10 tokens if they are over the limit by the end of their turn.\n\nThe rules state that: \"A player can return all or some of those (chips) they've just drawn.\"\n\nSo just wanted to clarify that if at the beginning of your turn you have either 8, 9, or 10 chips in your area, you are still able to choose to pick up 3 different coloured chips (which brings your total to either 11, 12 or 13 chips), as long as you return chips until you reach 10 chips again by the end of your turn? Is that correct?\n\nAlso, when returning chips down to 10 if you're over the limit you can return all or some of the chips that you've just picked up (that brought you over the 10 chip limit). \n\nBut can you return for example, none of the 3\n\ndifferent coloured chips that you just picked up this turn and choose to return 3 other combinations of chips (eg 3 other different coloured chips or 3 of the same coloured chips or other combo) from your pile of chips as an option?\n\nThanks!"
+        },
+        {
+          "username": "Rompa",
+          "date": "2014-04-13T09:52:09-05:00",
+          "body": "Alan - you just need to look at the rule in its simplest terms.  \n\nYou can always take three tokens (or less depending on the action).  However, after doing so, you need to check if you have more than ten.  If so, return any chips so that you're back down to the limit.  Don't worry about the colours, just focus on the ten chip limit.\n\nHope this helps."
+        },
+        {
+          "username": "gillum",
+          "date": "2014-04-13T21:44:13-05:00",
+          "body": "Right.\n\nYou can return any tokens you want to get down to 10.\n\nThe statement \"A player can return all or some of those they’ve just drawn,\" is there just to emphasize that your are not constrained to returning tokens you had at the beginning of the turn.\n\nIn particular, the following is allowed:  you start a turn with 9 tokens, take one each of Emerald, Sapphire, and Ruby, and then return the Sapphire and Ruby.\n\nMaybe you really needed an Emerald - and wanted to keep the 9 tokens with which you started the turn.  This is a legal way to get that Emerald."
+        },
+        {
+          "username": "spades8",
+          "date": "2014-04-13T22:33:57-05:00",
+          "body": "Great thanks Rompa and gillum for confirming and clarifying!\n\nThis helped!"
+        },
+        {
+          "username": "icarusmustburn",
+          "date": "2014-04-24T23:01:41-05:00",
+          "body": "I had the same question. The answer was what I expected, but the English rules do not convey clearly the intent that has been communicated here. The mention of the gems that you have just taken comes across as a logical constraint, in my reading, at least. I suspect many less experienced gamers, which seems to be the target audience, will play the rule incorrectly.\n\nI hope that the publisher takes this feedback to heart and adds another simple sentence to the next printing of the rules that explicitly states the rule, something like, \"any gems in your possession may returned to reach the limit of 10.\" Seriously, the rule as currently written does not logically imply this to be the case, because only one use case is provided along with the limit of 10 rule.\n\nNice game, by the way!"
+        },
+        {
+          "username": "Marlonthegamer75",
+          "date": "2023-02-18T17:16:21-06:00",
+          "body": "How can you take a total of 13 the the rules clearly state… The rules state that: \"A player can return all or some of those (chips) they've just drawn.\".      JUST DRAWN…so there is no exchanging chips to get back to 10. \n\nI’m just saying🤔"
+        },
+        {
+          "username": "russ",
+          "date": "2023-02-19T02:28:32-06:00",
+          "body": "I’m just saying🤔\n\nThe intention of that text is literally that you CAN return those you just drew, but you're NOT FORCED to return those. (As gillum wrote upthread, \"The statement \"A player can return all or some of those they’ve just drawn,\" is there just to emphasize that your are not constrained to returning tokens you had at the beginning of the turn.\")\n\nThe full rule is:\nA player can never have more than 10 tokens at the end of their turn (including jokers). If this happens, they must return tokens until they only have 10 left. A player can return all or some of those they’ve just drawn.\n\nYes, it could have been phrased better. But the intent is clear and established."
+        },
+        {
+          "username": "JoeBoardgame",
+          "date": "2023-02-19T16:07:59-06:00",
+          "body": "A player can never have more than 10 tokens at the end of their turn (including jokers). If this happens, they must return tokens until they only have 10 left. A player can return all or some of those they’ve just drawn.\n\nSo if you have 10 tokens, and you draw 3, then at the end of your turn, the pool from which you must return tokens is all 13 tokens.\n\nThe clarification about \"A player can return...\" is because otherwise it could have been argued that they would take 3, and they had to get rid of 3 of their existing pot of tokens to make room for the 3 they just picked up.\n\nThis rule basically says \"The tokens you pick up are instantly part of your token pot.\"  That way the \"They must return tokens...\" statement applies to them too."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 8,
+      "date_range": [
+        "2014-04-13",
+        "2023-02-19"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_1169896",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "1169896",
+      "thread_subject": "Additional tie breakers",
+      "embed_text": "What are the additional tie-breakers for the game Splendor when the official rule of fewest development cards is not enough to determine a winner?",
+      "content": "The community suggests several tie-breakers, including the player owning the most nobles tiles, the player owning the most gems, and the last player in the order of play. Mr Poulpe, a representative of Space Cowboys, provided an unofficial but authoritative answer: the player with the most nobles tiles, then the player owning the most gems, and finally the last player in the order of play. This order is also followed in the official tournament rules for the online app.",
+      "raw_thread": [
+        {
+          "username": "Aetheros",
+          "date": "2014-05-10T16:11:48-05:00",
+          "body": "Just played a game where tied on points and number of development cards. We chose to use level 3 cards as second tie breaker (and level 2, then 1, if necessary).\n\nThoughts?"
+        },
+        {
+          "username": "boywithcap",
+          "date": "2014-05-10T16:40:10-05:00",
+          "body": "Would the winner be the player with the least amount of level 3 cards?"
+        },
+        {
+          "username": "Aetheros",
+          "date": "2014-05-10T17:46:54-05:00",
+          "body": "Sorry, didn't mean to leave that out. We chose who had the most because the level 3 ones take the most work to get to, and it seemed in the spirit of the first tie breaker: who got the most points with the fewest cards."
+        },
+        {
+          "username": "Highland Cow",
+          "date": "2014-05-10T20:31:12-05:00",
+          "body": "Thoughts?\n\nI love the notion of deciding tie-breaker criteria in the aftermath of a tie.\n\nWhat's wrong with a draw anyway?"
+        },
+        {
+          "username": "hymie",
+          "date": "2014-05-11T07:04:58-05:00",
+          "body": "Seems to me that this is a game where you could just keep going until there's a clear winner."
+        },
+        {
+          "username": "book_worm71",
+          "date": "2014-05-12T00:50:47-05:00",
+          "body": "Thoughts?\n\nPotentially you could decide based on # of nobles, although I wouldn't want players to feel pushed towards focusing on nobles as a strategy.\n\nYou could decide based on # of gems in hand, although you would need to decide how many gems a gold token is worth. Based on the actions, a gold token is worth more than one gem (since it's wild) but less than three gems (assuming all actions are meant to be equivalent, because you also reserve a card when you get a gold). So, two?\n\nYou could decide based on who has the single most valuable card. And should there be a tie for 5-point cards you could then proceed to 4, 3, etc. as needed. However, this might also push players towards a certain strategy.\n\nI sort of like the idea of just continuing the game, although this could allow someone who has not initially reached 15 at the \"conclusion\" of the game to then win when it is continued (which would be dramatic, but it doesn't feel right).\n\nDeclaring a draw also seems ok, but not ideal.\n\nI really hope the designer or publisher weighs in."
+        },
+        {
+          "username": "Mr Poulpe",
+          "date": "2014-05-12T08:13:35-05:00",
+          "body": "I've asked the author about tie-breakers. \n\nPlease note this is not official as of now, but you may use it if you need to determine a winner (in tournaments, for instance) :\n\nSo, in order of priority :\n\n- The player with the less number of development cards (already there, and official)\n\n- The player owning the most nobles tiles\n\n- The player owning the most gems (chips)\n\n- If you're still tied (highly unlikely !) : the last player in the order of play."
+        },
+        {
+          "username": "Highland Cow",
+          "date": "2014-05-12T10:05:41-05:00",
+          "body": "That'll be no more sleepless nights for me."
+        },
+        {
+          "username": "gillum",
+          "date": "2014-05-12T11:46:07-05:00",
+          "body": "Seems like you could also use the the number of reserved unpurchased development cards (in hand).\n\nThat is, ties would be broken in favor of the player holding the fewest such cards.\n\nOne could argue that a player who reached the same total points while holding the fewest reserved cards did so based more on skill than on stealing cards away from other players.\n\n(Of course, you could use the same argument for breaking ties in favor of the player with the least gems held, not the most!)"
+        },
+        {
+          "username": "J Young",
+          "date": "2015-01-09T16:44:02-06:00",
+          "body": "Would the winner be the player with the least amount of level 3 cards?\n\nSorry, didn't mean to leave that out. We chose who had the most because the level 3 ones take the most work to get to, and it seemed in the spirit of the first tie breaker: who got the most points with the fewest cards.\n\nThis is an interesting notion, but it seems a little fiddly.  That is, it seems like the players involved with the tie would likely have an equal number of level 3 cards.  Did someone have more level 3 cards in your game?  \n\nSomeone may have more level 3 cards if another player has more nobles, which is another reason I do not like level 3 cards as a tie breaker.  Most nobles as a tie breaker seems to punish players for not choosing the noble strategy, and this is not a tendency I like in the game because diverse strategies make for interesting and fun game-play.    \n\nI played a game where there was a tie on points and cards.  I suggested using most chips as tie breaker because it can be seen as a marker of efficiency, which is why I believe fewest cards is a tie breaker.  \n\nThis is another good option that I did not think of.  Players could continue for another round until the tie is broken.  This could add some additional tension to the game because someone may potentially pull ahead of the tied players.  There have been games where I could have made huge score differences if I simply had one more turn.  This could definitely be interesting."
+        },
+        {
+          "username": "J Young",
+          "date": "2015-01-09T16:52:04-06:00",
+          "body": "That is, ties would be broken in favor of the player holding the fewest such cards.\n\nOne could argue that a player who reached the same total points while holding the fewest reserved cards did so based more on skill than on stealing cards away from other players.\n\n(Of course, you could use the same argument for breaking ties in favor of the player with the least gems held, not the most!)\n\nUsing gems as a tie breaker is tricky because of certain assumptions.  I argued for least gems because it could be a sign that a player had built an efficient economy to where he/she did not need to take gems.  That is, he/she used development cards instead of gems to purchase more development cards.  However, a player may have used all or most of his/her gems to purchase a development card and break the tie even though he/she was not as efficient as the other player.\n\nAdmittedly, using most gems is probably not the best tie breaker either."
+        },
+        {
+          "username": "spritey",
+          "date": "2015-09-06T22:21:52-05:00",
+          "body": "Thanks for this. We had a tie in our second ever game, decided by the nobles tiles."
+        },
+        {
+          "username": "cdunc123",
+          "date": "2019-02-21T07:20:26-06:00",
+          "body": "That is, ties would be broken in favor of the player holding the fewest such cards.\n\nI second this.  This idea seems almost part-and-parcel of the current official \"fewest development cards wins\" tie-breaker.\n\nSo I'd favor the following tie-breaker schedule:\n\n- The player with the fewest development cards \n\n- The player currently holding the fewest reserve cards\n\n- The player owning the most nobles tiles\n\n- The player owning the most gems (chips)\n\n- If you're still tied (highly unlikely !) : the last player in the order of play.\n\nI was initially drawn to the idea of \"if tied, play another round.\"  If Splendor were just a two player game, then I'd likely favor that.  But the extra round can get awkward with more than two players.  \n\nFor instance, if all players play an extra round (not just the players tied for the win) then you could get some awkward cases such as the following:  P1 has 15 points, P2 has 15 points, P3 has 14 points.  Another round is played in which P1 gets 1 more point, P2 gets 2 more points, and P3 gets 4 more points.  So after the extra round, the scores are P1 = 16, P2 = 17, P3 = 18.  P3 wins the game, even though P3 was the last player to cross the 15 point victory line.  That doesn't seem right!\n\nAlternatively, one could say that only the tied players play another round (and potentially, yet another round, and another, until the tie is broken).  But that amounts to adding player elimination into Splendor, making it not my cup of tea (I'm not a fan of player elimination).\n\nSo I prefer the schedule of tie-breakers listed above."
+        },
+        {
+          "username": "Chinchilla2121",
+          "date": "2019-05-30T02:48:11-05:00",
+          "body": "Hey Mr Poulpe! \n\nI'm a member of a board game league in my town and we play games competitively that are scored throughout the course of a season (two months). One issue we ran into last night was additional tie breakers for the game Splendor. \n\nThe members of the  league were unable to agree upon a rule further expanding on tie-breakers, since our league is scored for placement, we cannot have ties. \n\nI did my research and couldn't find any official additional rules until I came across your comment here. It says you asked the author about this rule? If that's so I was wondering if you could forward me the email or whatever way of communication you used so we could get an official ruling, especially since Splendor is one our our most frequently played games. \n\nI also know your comment is from 5 years ago, but I'd thought I'd ask!\n\nThank you so much, my email is acanchola14@georgefox.edu if that helps responding to me."
+        },
+        {
+          "username": "gillum",
+          "date": "2019-05-30T10:25:44-05:00",
+          "body": "This post in another thread says, \"Mr Poulpe ... is a representative of Space Cowboys, or at least was when this thread was created in 2014. Those answers are authoritative, and there's no reason to speculate.\""
+        },
+        {
+          "username": "bad hair day",
+          "date": "2019-06-07T20:53:30-05:00",
+          "body": "It seems to me that the very FIRST tiebreaker should be:\n\n1.  Does anyone have any points that are still owed them?  \n\nI can play a move on my last turn that gets me two nobles, but I can only claim one per turn.  So if I am tied with someone else but I am still owed a noble (or two, which is theoretically possible) then that should break a tie ahead of anything else, including development cards."
+        },
+        {
+          "username": "chiefsachem",
+          "date": "2021-06-19T21:05:04-05:00",
+          "body": "Mr Please note this is not official as of now, but you may use it if you need to determine a winner (in tournaments, for instance) :\n\nSo, in order of priority :\n\n- The player with the less number of development cards (already there, and official)\n- The player owning the most nobles tiles\n- The player owning the most gems (chips)\n- If you're still tied (highly unlikely !) : the last player in the order of play.\n\nThis is the order followed in the official tournament rules for the online app. Though I must say, having played over 5,500 games over the course of a few years, I have yet to come across a situation where the tie-breaker was decided by the player owning the most chips."
+        },
+        {
+          "username": "Lillgrodan",
+          "date": "2022-02-16T05:49:33-06:00",
+          "body": "Mr Please note this is not official as of now, but you may use it if you need to determine a winner (in tournaments, for instance) :\n\nSo, in order of priority :\n\n- The player with the less number of development cards (already there, and official)\n- The player owning the most nobles tiles\n- The player owning the most gems (chips)\n- If you're still tied (highly unlikely !) : the last player in the order of play.\n\nI just experienced a game on Board Game Arena that went to the last (as said above: highly unlikely!) of the tiebreakers (provided that BGA follows these additional tiebreakers)! 😮\n\nWe both had the same number of development cards (9), the same number of nobles tiles (0) and the same number of chips (0). So I guess that my opponent won because I was the starting player.\n\nBefore I found this forum thread I was really upset and felt it was very unfair that I didn't win the game.\nI had used less thinking time than the other player, and since that's what determines who wins when a game is abandoned, I felt that this should have been the tiebreaker.\n\n(When in a game that's abandoned you get the following message:\nGame abandoned\nThe game was abandoned automatically because the players did not manage to finish it before the next round of the tournament. The player with the most remaining thinking time wins the game. )\n\nSince the only tiebreaker mentioned in the rules is fewest purchased development cards, I was confused why we both didn't \nproceed in the tournament. But I guess it's not made possible in the mechanics of the tournament system in BGA.\n\nHowever. It IS highly unlikely to happen, but here you can see (what I guess is) the last tiebreaker in action:"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": true,
+      "confidence": "high",
+      "post_count": 18,
+      "date_range": [
+        "2014-05-10",
+        "2022-02-16"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_1282556",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "1282556",
+      "thread_subject": "Are reserved cards hidden?",
+      "embed_text": "Are reserved cards in Splendor hidden from other players?",
+      "content": "The community is divided on whether reserved cards are hidden or not. Some players believe that all reserved cards should be hidden, while others think that face-up cards should remain visible. There is no official ruling on this issue, but many players and digital implementations of the game treat reserved cards as hidden information.",
+      "raw_thread": [
+        {
+          "username": "ghopper21",
+          "date": "2014-12-09T22:21:33-06:00",
+          "body": "From memory, the rule book is explicit about reserve cards drawn face down from the piles staying face down in your hand. Is it implied (or explicit somewhere) that cards reserved from the face-up cards become hidden in your hand? (I played a friend's copy tonight and don't have the rules in front of me now.)"
+        },
+        {
+          "username": "MajaiofDreams",
+          "date": "2014-12-09T22:26:52-06:00",
+          "body": "Cards you reserve are always hidden. They go right to your hand. Cards in hand are never shown."
+        },
+        {
+          "username": "toober",
+          "date": "2014-12-09T22:28:16-06:00",
+          "body": "People actually hold cards in splendor? We never do."
+        },
+        {
+          "username": "vexman",
+          "date": "2014-12-09T22:29:02-06:00",
+          "body": "yep they are hidden.\n\nYou can also take a the top face down card on one of the stacks and don't need to show it to other players."
+        },
+        {
+          "username": "MajaiofDreams",
+          "date": "2014-12-09T22:31:57-06:00",
+          "body": "True. We just place them face down and hope our opponents forget about them so we can make a game winning move with them when they least expect it."
+        },
+        {
+          "username": "12thManStanding",
+          "date": "2014-12-09T23:46:26-06:00",
+          "body": "We put all cards purchased on the table in front of us as well in groups. I can't imagine trying to keep them all in my hand.  Plus if you put the reserved card in your hand, how does anyone know when you actually pay for it?  Guess I need to start looking at images of Splendor to see what others are doing..."
+        },
+        {
+          "username": "Sphere",
+          "date": "2014-12-09T23:52:23-06:00",
+          "body": "'In hand' is a conceptual term denoting cards that are treated differently than the ones kept face up on the table. They needn't be literally in your hand; face down on the table is fine."
+        },
+        {
+          "username": "toober",
+          "date": "2014-12-10T00:00:40-06:00",
+          "body": "we tap our reserved cards until they're paid for, face up, too busy concentrating on our own cards to memorize opponents reserved hand."
+        },
+        {
+          "username": "Pseudacris",
+          "date": "2014-12-10T06:31:11-06:00",
+          "body": "The reserve cards being discussed are the ones you take when you take the action to reserve a card to your hand (hand limit 3) and take a gold token; not when you purchase a card to add to your rows.  =)"
+        },
+        {
+          "username": "TheOneEared",
+          "date": "2014-12-10T07:39:11-06:00",
+          "body": "Yes indeed the reserved cards are hidden.  You can take one from the board or from the op of a deck, place them in your hand (which is hidden from other players) and then take a Gold."
+        },
+        {
+          "username": "Nikoms",
+          "date": "2014-12-10T14:42:58-06:00",
+          "body": "Why not?\n\nIMHO, this is a huge part of the strategy, as you can use it to block, guarantee that said card will be yours, or simply add a gold and a card - which increases flexibility later.  \n\nThere was actually a game where I reserved a card (which I intended to build) but never even built it.  A different card came up later (worth more VP) - and the gold taken gave me the flexibility to build the \"better version\".\n\nSeveral times it has been done when multiple players are vying for the same noble - and all need \"just one more X card\" - so a player reserves it, even if they can't build it, hoping that another card of the same type doesn't turn up. \n\nWe've even had a game where someone reserved a card \"blind\" - off the draw pile - as they didn't like the options on the table.\n\nReserving cards is a very useful strategy - especially in 4 player games.  \n\nBut in answer to the OP - we always play face down."
+        },
+        {
+          "username": "MajaiofDreams",
+          "date": "2014-12-10T16:23:53-06:00",
+          "body": "People actually hold cards in splendor? We never do. \n\nWhy not?\n\nIMHO, this is a huge part of the strategy, as you can use it to block, guarantee that said card will be yours, or simply add a gold and a card - which increases flexibility later.  \n\nThere was actually a game where I reserved a card (which I intended to build) but never even built it.  A different card came up later (worth more VP) - and the gold taken gave me the flexibility to build the \"better version\".\n\nSeveral times it has been done when multiple players are vying for the same noble - and all need \"just one more X card\" - so a player reserves it, even if they can't build it, hoping that another card of the same type doesn't turn up. \n\nWe've even had a game where someone reserved a card \"blind\" - off the draw pile - as they didn't like the options on the table.\n\nReserving cards is a very useful strategy - especially in 4 player games.  \n\nBut in answer to the OP - we always play face down.\n\nI believe by \"hold\" they meant \"physically hold\" not that they don't reserve."
+        },
+        {
+          "username": "TheOneEared",
+          "date": "2014-12-10T19:19:10-06:00",
+          "body": "Why not?\n\nIMHO, this is a huge part of the strategy, as you can use it to block, guarantee that said card will be yours, or simply add a gold and a card - which increases flexibility later.  \n\nThere was actually a game where I reserved a card (which I intended to build) but never even built it.  A different card came up later (worth more VP) - and the gold taken gave me the flexibility to build the \"better version\".\n\nSeveral times it has been done when multiple players are vying for the same noble - and all need \"just one more X card\" - so a player reserves it, even if they can't build it, hoping that another card of the same type doesn't turn up. \n\nWe've even had a game where someone reserved a card \"blind\" - off the draw pile - as they didn't like the options on the table.\n\nReserving cards is a very useful strategy - especially in 4 player games.  \n\nBut in answer to the OP - we always play face down.\n\nI believe by \"hold\" they meant \"physically hold\" not that they don't reserve.\n\nKinda hard to have a hand of hidden cards if you're not holding them..."
+        },
+        {
+          "username": "kc2dpt",
+          "date": "2014-12-10T21:24:59-06:00",
+          "body": "People actually hold cards in splendor? We never do. \n\nWhy not?\n\nIMHO, this is a huge part of the strategy...\n\nI believe by \"hold\" they meant \"physically hold\" not that they don't reserve.\n\nKinda hard to have a hand of hidden cards if you're not holding them...\n\nNot hard at all. You just leave them face-down on the table."
+        },
+        {
+          "username": "Sphere",
+          "date": "2014-12-11T12:22:05-06:00",
+          "body": "Why not?\n\nIMHO, this is a huge part of the strategy...\n\nI believe by \"hold\" they meant \"physically hold\" not that they don't reserve.\n\nKinda hard to have a hand of hidden cards if you're not holding them...\n\nNot hard at all. You just leave them face-down on the table.\n\nPrecisely what we do. The known cards are face up in a tableau, and the unknown cards in the 'hand' sit beside them face down."
+        },
+        {
+          "username": "TheOneEared",
+          "date": "2014-12-11T18:43:39-06:00",
+          "body": "People actually hold cards in splendor? We never do. \n\nWhy not?\n\nIMHO, this is a huge part of the strategy...\n\nI believe by \"hold\" they meant \"physically hold\" not that they don't reserve.\n\nKinda hard to have a hand of hidden cards if you're not holding them...\n\nNot hard at all. You just leave them face-down on the table.\n\nPrecisely what we do. The known cards are face up in a tableau, and the unknown cards in the 'hand' sit beside them face down.\n\nI was trying to be humourous...clearly didn't catch on...\n\nWe play with them in your hand (physically); much easier to see what you've reserved and less time checking...but again, each to their own..."
+        },
+        {
+          "username": "Albatross74",
+          "date": "2015-05-10T13:56:08-05:00",
+          "body": "After reserving a card and getting a gold token, when should I buy the reserved card? Can that card remain reserved all throughout the game? Do you lose if that card cannot be bought during the course of the game?"
+        },
+        {
+          "username": "TheOneEared",
+          "date": "2015-05-10T14:11:37-05:00",
+          "body": "When you \"should\" buy it depends entirely on what your plan for that card is.  If you grabbed a level 3 one to work towards then build it when you can.  Was it to stop someone else from grabbing it, or simply to get the gold for later on...too many options to tell you an optimal timing.\n\nThe cards you reserve remain in your hand indefinitely, but you're only allowed 3 of them and the only way to remove one from your hand to make space for another is to play (buy/build) it.  \n\nThere's no penalty for hands left in reserve at the end of the game."
+        },
+        {
+          "username": "Albatross74",
+          "date": "2015-05-11T00:27:52-05:00",
+          "body": "@TheOneEared Thank you!  There was this time I already had 20 points but I was waiting to get green gems(emeralds) to buy/build my reserved card in  order to win. We thought a face down reserved card has to be built or bought in order for a player to win.  It does seem unfair to just reserve cards just to stop someone from grabbing it.\n\nSo a player can reserve 3 cards and not buy/build any?  Also you can buy/build the reserved card anytime during the course of the game?  No need to buy it on the next turn after reserving it?"
+        },
+        {
+          "username": "freddieyu",
+          "date": "2015-05-11T01:22:54-05:00",
+          "body": "So a player can reserve 3 cards and not buy/build any?  Also you can buy/build the reserved card anytime during the course of the game?  No need to buy it on the next turn after reserving it? \n\nAnytime someone has 15 points worth of cards/personalities then the last turn is triggered. If it was the starting player who reached 15 points then everyone else has 1 more turn. If it was the last turn who triggered the end game then the game ends immediately. Everyone must have had the same amount of turns by game end.\n\nYou are not required to build a reserved card in order to win a game. As long as you have the most points when the end game is triggered then you win."
+        },
+        {
+          "username": "TheOneEared",
+          "date": "2015-05-16T07:15:43-05:00",
+          "body": "So a player can reserve 3 cards and not buy/build any?  Also you can buy/build the reserved card anytime during the course of the game?  No need to buy it on the next turn after reserving it? \n\nMy pleasure! \n\nA player can indeed reserve 3 cards they have no intention of building; it'll give you 3 Gold and could mess up someone else's plans.  There's no \"deadline\" on when you need to build them, nor is it a condition to end the game; it ends (with a final turn) when someone hits 15 points.   \n\nYou can reserve and build from your reserve as one of your normal actions, so you'd do it instead of taking gems etc.\n\nTaking a card that someone else wants is probably the most aggressive thing you do here, so I guess it's up to your personal playstyle how you handle it and how fair it is."
+        },
+        {
+          "username": "cpsof95",
+          "date": "2015-07-20T07:15:26-05:00",
+          "body": "Is there any official ruling on this?\n\nThe rules say that cards that are reserved from the face-down deck are not shown to other players, but it doesn't say anything about the reserved face-up cards. So we figured that since the reserved card was face-up on the table, it remains face-up when it's reserved.\n\nHaving cards \"in hand\" doesn't imply whether the cards are public or hidden. For example, in some poker variants player's hand consists of both public and hidden cards.\n\nAlso, having less burden of memorising things makes the game more casual and lets players focus on the game itself.\n\nSo, I'm really surprised to see most people seem to interpret rules in a way that face-up cards are hidden when reserved."
+        },
+        {
+          "username": "TheOneEared",
+          "date": "2015-07-26T06:29:09-05:00",
+          "body": "The rules say that cards that are reserved from the face-down deck are not shown to other players, but it doesn't say anything about the reserved face-up cards. So we figured that since the reserved card was face-up on the table, it remains face-up when it's reserved.\n\nHaving cards \"in hand\" doesn't imply whether the cards are public or hidden. For example, in some poker variants player's hand consists of both public and hidden cards.\n\nAlso, having less burden of memorising things makes the game more casual and lets players focus on the game itself.\n\nSo, I'm really surprised to see most people seem to interpret rules in a way that face-up cards are hidden when reserved.\n\nNo official ruling as of yet."
+        },
+        {
+          "username": "warrens",
+          "date": "2015-09-28T21:54:50-05:00",
+          "body": "The rules say that cards that are reserved from the face-down deck are not shown to other players, but it doesn't say anything about the reserved face-up cards. So we figured that since the reserved card was face-up on the table, it remains face-up when it's reserved.\n\nHaving cards \"in hand\" doesn't imply whether the cards are public or hidden. For example, in some poker variants player's hand consists of both public and hidden cards.\n\nAlso, having less burden of memorising things makes the game more casual and lets players focus on the game itself.\n\nSo, I'm really surprised to see most people seem to interpret rules in a way that face-up cards are hidden when reserved.\n\nCompletely agree with this. Visible cards stay face up, hidden cards stay face down. All reserved cards are laid out in front of the player on the table. We usually put a gold chip on top of the reserved cards or turn the reserved cards sideways."
+        },
+        {
+          "username": "morgothrond",
+          "date": "2015-10-02T08:33:34-05:00",
+          "body": "We play with reserved cards face down and usually place a gold coin on top of each.\n\nI'm not saying this is how the designer meant, since we might not know that unless they release an official answer on this; but to me and our group is sound to have them as hidden information."
+        },
+        {
+          "username": "ludd_gang",
+          "date": "2016-02-09T16:52:22-06:00",
+          "body": "We play with reserved cards face-up and tapped. I suppose we should start turning them face down, though I'm not sure we want the memory game. Seems it would distract from the tack of the game."
+        },
+        {
+          "username": "russ",
+          "date": "2016-02-10T00:57:08-06:00",
+          "body": "What if someone reserves a (face down) card from the top of a deck instead of taking a face up card?"
+        },
+        {
+          "username": "Scorpion0x17",
+          "date": "2016-02-10T01:22:21-06:00",
+          "body": "I know this is not 'official', but, in the Splendor app you cannot view your opponents' reserved cards."
+        },
+        {
+          "username": "MajaiofDreams",
+          "date": "2016-02-10T06:58:07-06:00",
+          "body": "All reserved cards are face down, regardless of where you got them from."
+        },
+        {
+          "username": "dmillar71",
+          "date": "2016-02-10T07:00:11-06:00",
+          "body": "We always play that they're hidden, and, as someone else mentioned, that's how it's played in the app."
+        },
+        {
+          "username": "YAZMAN 3000",
+          "date": "2017-07-22T01:44:14-05:00",
+          "body": "Reserved cards are not hidden...correct me if I'm wrong, but I believe that even in the APP the reserved cards are NOT hidden"
+        },
+        {
+          "username": "MercifulBiscuit",
+          "date": "2017-07-22T02:40:52-05:00",
+          "body": "YAZMAN According to this guy from a few posts up, you're wrong:\n\nScorpion0x17 wrote:\n\nI know this is not 'official', but, in the Splendor app you cannot view your opponents' reserved cards."
+        },
+        {
+          "username": "toober",
+          "date": "2017-07-24T08:57:36-05:00",
+          "body": "this"
+        },
+        {
+          "username": "Scorpion0x17",
+          "date": "2017-08-20T06:18:29-05:00",
+          "body": "Reserved cards are not hidden...correct me if I'm wrong, but I believe that even in the APP the reserved cards are NOT hidden\n\nAccording to this guy from a few posts up, you're wrong:\n\nI just loaded the app, started a two-player pass and play game, took a turn for each player, just reserving one card each.\n\nI could not see any way to view the reserved cards of my opponent when playing as either player."
+        },
+        {
+          "username": "Phaseshifter",
+          "date": "2017-10-13T10:28:43-05:00",
+          "body": "Wow.  I've been playing the game for a while and never noticed that reserved cards are supposed to be hidden.\n\nEven when I played with other people using their game."
+        },
+        {
+          "username": "waxbottle",
+          "date": "2017-10-14T00:26:07-05:00",
+          "body": "I place my reserved cards face down. My wife does not. As long as it's clear that they're not yet part of the engine you're building... It's all good. Face down or face up, just have fun."
+        },
+        {
+          "username": "russ",
+          "date": "2017-10-14T12:59:13-05:00",
+          "body": "Does she reveal them even if she draws them unrevealed from the deck?"
+        },
+        {
+          "username": "waxbottle",
+          "date": "2017-10-18T02:05:40-05:00",
+          "body": "I place my reserved cards face down. My wife does not.\n\nDoes she reveal them even if she draws them unrevealed from the deck?\n\nShe has never taken one of those... Just the ones that are out in the open."
+        },
+        {
+          "username": "kaduzy",
+          "date": "2021-10-08T17:47:21-05:00",
+          "body": "I'm sorry, but where does it say this in the official rules? The rules clearly mention secret reservations being hidden, but not face up reservations. I just played on BGA and all the cards were not only reserved facedown, they were taken from the board too quickly for me to even catch what was being reserved in the animation. This *completely* alters the strategy and prevents players from blocking someone from eventually purchasing their reserved cards. It's a huge advantage to players who bank on reservations as a strategy. I've always taught new players that face up reservations must remain face up, and will continue to do so unless a definitive rule is published saying otherwise."
+        },
+        {
+          "username": "kaduzy",
+          "date": "2021-10-08T17:50:19-05:00",
+          "body": "Yes, and in my opinion this is one of MANY problems with that wretched app. Like the even worse Pandemic app, it does not follow its own printed rules."
+        },
+        {
+          "username": "russ",
+          "date": "2021-10-09T08:03:55-05:00",
+          "body": "\"The reserved cards are kept in hand and cannot be discarded.\" Your \"hand\" in card games is typically private.\n\nAnd it's clear that reserve cards taken from the deck are hidden, so I'd expect that IF other reserve cards worked differently, THEN there would be some mention of that. So to me, the most obvious conclusion is that cards \"in hand\" are private. (And so when you take face-up cards into your hand, that his the always-debated-at-BGG Hidden but Trackable Info.)\n\nBut indeed I agree that it's not explicitly stated in the rules. Oh well, unclear rules happen. In such a case, I'd go with tradition (your \"hand\" is secret unless specified otherwise is the usual convention) as well as the fact that multiple software implementations make them hidden, and it seems unlikely they'd all get such a significant thing wrong without the publisher correcting them."
+        },
+        {
+          "username": "possumgumbo",
+          "date": "2022-01-24T14:25:47-06:00",
+          "body": "The big problem with the App versions is that you can't even see that the opponents *have* cards in reserve at all. They might have none, they might have three! Who knows?\n\nIt seems to be a glaring oversight on the software side."
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "low",
+      "post_count": 42,
+      "date_range": [
+        "2014-12-09",
+        "2022-01-24"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_1308007",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "1308007",
+      "thread_subject": "Hiding your reserved cards?",
+      "embed_text": "In the board game Splendor, can a player hide a reserved card from other players, or must they reveal the card before taking it?",
+      "content": "The community is divided on whether reserved cards should be hidden or revealed. Some argue that hiding the card is within the rules and adds a memory element to the game, while others believe that revealing the card is more sporting and allows for counter-strategies. The official rules do not explicitly state whether reserved cards should be hidden or revealed, and different players have different interpretations.",
+      "raw_thread": [
+        {
+          "username": "dswhite42",
+          "date": "2015-01-24T20:00:11-06:00",
+          "body": "This has already come up in an earlier thread, but I wanted to explore this a bit more.\n\nIn a four-player game, my daughter's style of play is to reserve high-value cards very early on and focus exclusively on acquiring them.  In our last game, for example, she only purchased five cards, most of which were worth 4-5 points.  \n\nObviously that takes a lot of gems, and large collections of a single type of gem.  If the rest of the group knew what she was trying to collect, we might try to buy up the extras of that gem before she can get what she needs.  \n\nSo on her turn, to prevent that, she slaps her hand over a card to hide it, announces she's reserving it, and pulls it away before anyone can see what its value is, or what gems are required to buy it.  \n\nWhat's the best way to handle this?\n\n1) Make no changes - it's up to the rest of the group to try to remember the card that is reserved and what she needs in order to buy it.  If you don't remember what it was, tough beans.\n\n2) Leave reserved cards hidden, but only after clearly showing everyone what card is being reserved before taking it and putting it in your hand.\n\n3) Play with reserved cards face up and visible (which counters the opinion on the other thread.)\n\nMaybe we're just lousy players  but we're not doing well countering her strategy.  The rest of us work on building up gem bonuses from the level-1 and level-2 cards, but her strategy is getting her to 15 without any of that."
+        },
+        {
+          "username": "rob3k",
+          "date": "2015-01-24T20:04:26-06:00",
+          "body": "I would go with your option 2. Showing the card to be reserved before putting it in your hand (hidden) seems sporting to me. Announcing \"I am going to reserve this card.\" while pointing to the card about to be plucked for a few beats should be sufficient."
+        },
+        {
+          "username": "OnlyMostlyDead",
+          "date": "2015-01-24T20:12:27-06:00",
+          "body": "Huh, just checked since I have the rulebook out from quoting it for your other question.\n\nTurns out it never says anything one way or another about whether reserved cards are hidden information.  It merely says they are kept \"in hand.\"  We've always interpreted that as hidden, because it's slightly more interesting that way to add a memory element to the game and because in most games (except something like Hanabi) \"in hand\" tends to also mean \"hidden.\"  But choosing whether they're hidden or not appears to be up to house rule."
+        },
+        {
+          "username": "SEMiWeirdAndNerdy",
+          "date": "2015-01-24T20:19:12-06:00",
+          "body": "I'd have to say that option 2 is about the best option to go with. Typically I'm playing the game with just my wife & I so it's different for us with the limited gems. If you're always playing with 4 players I'm surprised and amazed that she'd be able to get all those resources with just so few cards. \n\nI wouldn't put in the rule to have the reserved cards face up but I would definitely make sure they are kept on the table so that you can see how many a player has. If memory serves me, there is a limit of 3 cards in your hand so I'd just make sure that rule is being enforced."
+        },
+        {
+          "username": "doctoryes0",
+          "date": "2015-01-24T20:27:54-06:00",
+          "body": "If it isn't against the rules, it isn't against the rules. When it's her turn, she can slap her hand on the table all she wants. It sounds kind of annoying, but it's not like it gives her an unfair advantage over normal people who just pick the card up and put it in their hand. Bottom line is no one is going to remember what was on it anyway."
+        },
+        {
+          "username": "clydeiii",
+          "date": "2015-01-24T21:15:25-06:00",
+          "body": "Easy solution: take photos of every card that comes out.\n\nTell her to reserve cards from the draw deck if she wants to play like that."
+        },
+        {
+          "username": "zenpunk",
+          "date": "2015-01-24T21:42:02-06:00",
+          "body": "Just my vote/opinion...\n\nDon't do anything.  She's playing within the rules, and isn't required to (and shouldn't) show you what's on her reserved cards.\n\nIf you can't beat her strategy, start using it too.  If she still wins with everyone using that strat, take your game and go home..."
+        },
+        {
+          "username": "Hahma",
+          "date": "2015-01-24T22:11:51-06:00",
+          "body": "Nothing wrong with keeping it secret, but I'd say option 2 is best and fair.\n\n\"I'm going to reserve this card\" and then pick it up."
+        },
+        {
+          "username": "Faville",
+          "date": "2015-01-24T22:36:51-06:00",
+          "body": "Since I'm the polite type of chap when I play Splendor I announce everything I'm doing, pointing to what I have on my tableau and chips when and announcing it when I take something.\n\nHowever, I don't expect that from anyone I play with and if they choose to just grab stuff without saying anything I accept that and trust what they are doing (I'm also naive) and it's up to me to be keeping track of what they have.\n\nFor reserves I have always assumed \"in hand\" means hidden information in its own way since it is presumed I am paying attention and watching what a player picks up for a reserve."
+        },
+        {
+          "username": "Cinnibar",
+          "date": "2015-01-25T00:21:40-06:00",
+          "body": "One note: if she helpfully fills in a space with a card, she is not allowed to look at it first privately, then claim it if it is now her turn.  The card must go on the table for all to see during the previous player's turn and before she hides the information on the card with a slap."
+        },
+        {
+          "username": "dswhite42",
+          "date": "2015-01-25T00:22:08-06:00",
+          "body": "Thanks, all!  We'll think about maybe a house rule for #2 - maybe try it out and see if it's too unfair or not.  I've progressed to a discussion of the strategy itself here."
+        },
+        {
+          "username": "doctoryes0",
+          "date": "2015-01-25T00:58:35-06:00",
+          "body": "Of course I don't know the situation, but could this be a good time to mention the idea of sportsmanship? If you insist on taking an advantage that the other players are not themselves taking, legal or no, that might bug some people.\n\nPlease don't take offense; I'm sure your daughter's a good egg - just saying kids in general often need a bit of eye-opening where sportsmanship is concerned.\n\nI don't know. Something to think about if you haven't, which you almost certainly have..."
+        },
+        {
+          "username": "Tikatoy",
+          "date": "2015-01-25T03:16:58-06:00",
+          "body": "We play with #2. The card being reserved is clearly public information at the time. If people forget the card later on that's another issue."
+        },
+        {
+          "username": "riddell",
+          "date": "2015-01-25T07:30:41-06:00",
+          "body": "I strongly encourage you to choose option 1, or as well stated above\n\nDon't house rule because you can't beat her strategy, and in my opinion she is definitely well within the spirit of the game. This slapping may be annoying, but it seems like it's effective in psyching you out. Go girl!\n\nUnder \"Reserve a development card\" in the rule book it states:Splendor development from the middle of the table or (if you’re feeling\n\nlucky) draw the first card from one of the three decks without showing it to the other players.\n\nSo, would you require her to allow you to inspect a drawn card? Also, this last statement implies that the hand is meant to be hidden. So, although less likely and risky, she could beat you without you ever knowing what she's going for until she's completed the card.\n\nMy eleven year old son started doing the same thing and we shortly after started routinely beating him through watching what he's trying to collect and draining the supply. We didn't use memory (because our memories are pretty much gone).\n\nNearly all of the high value cards that require less than 10 gems require several of one color of chip. This strategy she is using requires that she pretty much focus on one color chip, so it should be pretty obvious what she is going for. She will then waste several turns waiting for that color. She will then have to adjust her strategy."
+        },
+        {
+          "username": "kc2dpt",
+          "date": "2015-01-25T08:26:17-06:00",
+          "body": "Some thoughts...\n\n1] This thread belongs in \"Strategy\", not in \"Rules\". There is no question of rules here.\n\n2] There are only four high-value cards at a time, and each has only one color it really depends on. I don't think it's asking much to look at the four cards and note what colors are needed.\n\n3] You could also look at which chips she's hoarding. That should give you a clue to what she needs.\n\n4] Sportsmanship is a two sided thing. Sure, it's tough on you if she want's to play that way, but it's legal. On the other hand, it's tough on her if you don't feel like playing with her in the future because you don't like the way she plays. That's what sportsmanship is about, putting winning second to making sure everyone is having a good time playing.\n\n4] Sportsmanship also includes you being a good sport about losing. \n\nI hope this is helpful."
+        },
+        {
+          "username": "toober",
+          "date": "2015-01-25T09:03:06-06:00",
+          "body": "She's playing within the rules. It is unsportsman like to alter the rules. If you want to divert her type of play, simply sit to her right. Then just before your turn is over, announce what each of the point cards require (just before she can take one)."
+        },
+        {
+          "username": "gillum",
+          "date": "2015-01-25T09:05:25-06:00",
+          "body": "To reserve a card, a player simply needs to take a face-up development from the middle of the table or (if you’re feeling lucky) draw the first card from one of the three decks without showing it to the other players.\n\nSo, would you require her to allow you to inspect a drawn card?\n\nAs I understand the OP, the poster's daughter was reserving cards from table (not from one of the three decks) and not allowing others to see which card she reserved.\n\nIt does seem that, if all players always remembered the 12 cards on display, they wouldn't suffer when this kind of thing happens.\n\nBut not everyone can do that.  I feel like trying to remember what cards other plays have reserved from the display are part of the game here.  But I'm not sure whether trying to memorize the cards in the display before players reserve (so that you will know which they took if they took one very quickly) is."
+        },
+        {
+          "username": "kc2dpt",
+          "date": "2015-01-25T11:04:48-06:00",
+          "body": "It is part of the game if you make it part of the game. It comes down to play style. This then becomes a matter of what kind of people you want to play with.\n\nI knew a guy who played Settlers never making a trade unless it clearly benefited him more than anyone else. Most other people I played with were happy to make trades which seemed to benefit both parties equally.\n\nI know people who play 4X games trying not to get into conflicts and people who look for conflicts wherever they can.\n\nDifferent play styles.\n\nThere's a concept in Go wherein when you can capture an opponent's group of pieces on your next move you announce this to your opponent. It's not mandatory. The idea, I think, is you want to win because you made better decisions than your opponent, not because he missed something. I play every game like this. I remind people of rules or choices they might have forgotten, I make sure they know what I did, etc. I'm not trying to win by tricking someone. I want to win because I made better decisions. But that is my play style."
+        },
+        {
+          "username": "riddell",
+          "date": "2015-01-26T00:26:49-06:00",
+          "body": "Under \"Reserve a development card\" in the rule book it states:Splendor So, would you require her to allow you to inspect a drawn card?\n\nAs I understand the OP, the poster's daughter was reserving cards from table (not from one of the three decks) and not allowing others to see which card she reserved.\n\nYes, sorry for the confusion. I understood the OP's situation. My point was that if she has the option to take a card off of the deck without anyone having any opportunity to see it then it seems fair (at least to me) for her to be able to grab a card that is already face up and fully available for other players to look at without making sure everyone has additional time to look at it after she decides to take it."
+        },
+        {
+          "username": "aelfric_brewer",
+          "date": "2015-01-26T16:55:47-06:00",
+          "body": "Common courtesy - you can hide any card after it is reserved, but any player should be able to review exactly what any other player does on that other player's turn. If she reserves a card from the board, everyone should be able to review THAT TURN what card she is reserving. When the next player acts, it is too late.\n\nAlso: demonstrate playing nicely. Show each other what you're doing, in front of her. If Player A asks what daughter did, players B and C should simply say what daughter did, politely and efficiently. There are no hidden actions in Splendor. (\"Reserving a card from the top of a deck\" is not a hidden action, although the card you actually get that way is hidden.)"
+        },
+        {
+          "username": "Hahma",
+          "date": "2015-01-27T08:07:16-06:00",
+          "body": "How long to you give other players to memorize the card you are going to reserve? Do you point to it and say, \"I'm going to reserve that card\" and then count to 10 or something before taking it? Giving other players enough time to memorize it gives the other players an advantage. Is that fair to the person reserving it? \n\nI think that if a person reaches for a card in a normal manner and says \"I'm reserving this card\" and takes it immediately is fair enough. Reserving a 3rd level card isn't the most efficient action a player can take because they are either giving up buying a card or getting a number of gems to buy a future card. A person isn't guaranteed to be able to complete the reserved card, so that is a wasted inefficient action in hindsight. There is already a risk being taken, so why does someone have to make that even more of a risk by letting the other players memorize that card before you take it?"
+        },
+        {
+          "username": "riddell",
+          "date": "2015-01-27T10:00:45-06:00",
+          "body": "I agree that common courtesy should prevail, but in Splendor all of the cards up for grabs aside from the draw deck are available for viewing at all times. The player before the player grabbing the cards can stall the ending of his turn so that all players can look at the cards.\n\nIf a player has been temporarily distracted then I would agree that perhaps they should have some opportunity to know what just happened, but if this isn't the case then I'd wonder what other players are doing such that they are so caught off guard and can't protect against it within the confines of the rules. If the player is jumping the gun (playing before the previous player has ended their turn) then this is another issue and I'd agree that this should not be allowed.\n\nThere are only so many cards that this strategy can work for, those that require 10 gems or less and nearly all of those require large amounts of a single gem color. If the other players are observant they should notice and can take enough of that chip color to disallow the player from amassing that one color. That player will be often taking two of a single color which also should alert the other players. After they have reserved their three cards then they are stuck and can't even get another yellow if their color runs out.\n\nAlso, in another thread the player in question is the OP's 10 year old daughter that seems to be outsmarting and psyching out the rest of the players with this strategy. My 11 year old used to do it (not grabbing in this way, but just taking), but after we started keeping an eye out for this sort of play this strategy has failed miserably. My memory is shot, too, so I wouldn't have been able to remember the cards he collected if I had an hour to stare at them. We just watched for the chips he was going for and knew he'd probably want more. Now that we've countered his play I've told him to think of how to tweak his play to see if he can think of another out of the box way of winning that we weren't considering.\n\nSplendor is fairly interactive in that you are all going for the same short supply of cards and chips. You have to play not only for yourself, but directly against what your opponents are doing."
+        },
+        {
+          "username": "Sethala",
+          "date": "2015-04-21T02:46:43-05:00",
+          "body": "Personally, I find what she's doing to be very unsportsmanlike, and I do think being able to check out what a player's done on their turn is necessary.  I think that any time before the next player acts, anyone should be able to look at the card someone just reserved (assuming it was face up to begin with, of course).  This isn't as much of an issue if the player is being open about what they're taking, but with someone who appears to be deliberately hiding information that should be (briefly) public, I'd say other measures are warranted."
+        },
+        {
+          "username": "Mingy Jongo",
+          "date": "2015-04-25T18:23:24-05:00",
+          "body": "I can't believe so many people are saying that this as acceptable. It is one thing if someone reserves a face-up card and you forget what it was later on, but it is definitely unsportsmanlike to go out of your way to physically prevent another from seeing the card in the first place. Trying to block an opponent from easily purchasing a reserved card is a huge part of the strategy of this game. Also, allowing everyone to see a face-up reserve initially helps give a little edge to doing a blind reserve from the top of a deck instead, because your opponents don't get to see it then."
+        },
+        {
+          "username": "Hahma",
+          "date": "2015-04-25T18:57:36-05:00",
+          "body": "Do I think players should be able to slap their hand over a card and reserve it? No. \n\nDo I think other players should get 30 seconds to study a card and recalculate their plans, after someone points to the card they are going to reserve? No."
+        },
+        {
+          "username": "darthopper",
+          "date": "2015-04-25T19:14:16-05:00",
+          "body": "I'm not seeing too much of a difference between slapping her hand over it or just picking it up very, very quickly"
+        },
+        {
+          "username": "rkonigsberg",
+          "date": "2018-05-22T12:17:20-05:00",
+          "body": "While I can't speak to your daughter's strategy of quickly hiding cards that she reserves, I went to Space Cowboys for clear guidance on this, even though the written rules aren't clear in my mind.\n\nHere's what I got:\n\nHi Robert,\n\nReserving a card means taking it for yourself in a way that prevents other people from:\n\n- Seeing it afterwards.\n\n- Confusing it with the cards you already acquired.\n\nIt must also be very easy to keep track of the number of cards you have in reserve, and their level.\n\nHence, yes, keep the cards as if you had them in hand. For all purposes, they work in this way.\n\nKind regards\n\nFrançois Doucet\n\nSpace Cowboys"
+        },
+        {
+          "username": "COMaestro",
+          "date": "2018-05-22T14:34:45-05:00",
+          "body": "So here's a question. Say I take my turn, then have to head to the bathroom or go get a drink. When I come back, it's my turn again, and I ask, \"What happened?\"\n\n\"Oh, I took and played this card, he took these three chips, and she reserved a card.\"\n\n\"Which card was it?\"\n\nShould I be shown the card? In the spirit of fairness and sportsmanship, I would show the card I reserved if I had been the one to take it and was asked about it. I'm getting the vibe that OP's daughter would not show it to me. I'm curious about what other people who have posted here (threeish years ago) think."
+        },
+        {
+          "username": "toober",
+          "date": "2018-05-22T21:19:06-05:00",
+          "body": "I would think no. Once a card is reserved, it's hidden."
+        },
+        {
+          "username": "gillum",
+          "date": "2018-05-22T22:11:01-05:00",
+          "body": "If your opponents play like that, you should probably wait till the game's over before you go to the bathroom."
+        },
+        {
+          "username": "russ",
+          "date": "2018-05-23T01:44:14-05:00",
+          "body": "Or just pee while you're there at the table. That might convince them to change their policy of refusing to tell you what happened while you were away from the table."
+        },
+        {
+          "username": "bobacles",
+          "date": "2018-05-23T08:38:41-05:00",
+          "body": "\"Oh, I took and played this card, he took these three chips, and she reserved a card.\"\n\n\"Which card was it?\"\n\nShould I be shown the card? In the spirit of fairness and sportsmanship, I would show the card I reserved if I had been the one to take it and was asked about it. I'm getting the vibe that OP's daughter would not show it to me. I'm curious about what other people who have posted here (threeish years ago) think.\n\nI think that this mostly depends on your play group.  Are they dicks?  If so, I would ask that they refrain from taking their turn while you visit the restroom.  If they are not dicks, I would ask if they could give a brief summary of what they did once you return."
+        },
+        {
+          "username": "vitruvianmeeple",
+          "date": "2018-05-23T08:43:29-05:00",
+          "body": "And I think the essence of the question is whether or not that \"brief summary\" should include the details of the card that was reserved."
+        },
+        {
+          "username": "bobacles",
+          "date": "2018-05-23T09:42:33-05:00",
+          "body": "I think that this mostly depends on your play group.  Are they dicks?  If so, I would ask that they refrain from taking their turn while you visit the restroom.  If they are not dicks, I would ask if they could give a brief summary of what they did once you return.\n\nAnd I think the essence of the question is whether or not that \"brief summary\" should include the details of the card that was reserved.\n\nIf it was open information when they chose the card (and in this case it definitely was), they should include that information in their brief summary.  Unless, they're dicks.\n\nI don't know.  I play games to have fun and so do the people I play with.  If the game is so competitive that they can't share the information that everyone else at the table has because I walked away for 3 minutes, then I would prefer to find someone different to play with.\n\ntldr;  Yes, tell me what card you took."
+        },
+        {
+          "username": "rkonigsberg",
+          "date": "2018-05-23T09:52:15-05:00",
+          "body": "If it was a child refusing to show, I would use it as a teaching opportunity for sportsmanship."
+        },
+        {
+          "username": "Leedguitar",
+          "date": "2018-05-23T09:54:05-05:00",
+          "body": "The way that I usually play games is to be courteous - I'm taking this card, oh you didn't see it, here take a look.  In all honesty though, this is a game, and if someone isn't paying attention to the game, then that's on them.  Again, I typically play very casually and would rather lose a game in order to keep it entertaining for everyone so they want to play again, however nothing frustrates me more than when you play with someone and it gets around to them and then they say something like \"Okay, wait, now what did you guys do?\"  \n\nSo I don't think it is necessarily bad sportsmanship, everyone at the table had the same opportunity to see what cards were there, just because she came up with a strategy and took a card based upon that doesn't mean it is then fair for someone else to say \"hold on, let me see that again\" so that they can re-plan.  At the same time, if this is too aggressive of an approach for the group that is playing, then by all means make concessions."
+        },
+        {
+          "username": "COMaestro",
+          "date": "2018-05-23T16:34:26-05:00",
+          "body": "And that's just it. I play games for fun, as do the people I play with. I can't imagine one of us not showing the card in my hypothetical situation because they are that desperate to win the game. That just sounds like someone I probably would not want to play games with in the long run.\n\nI will agree with getting frustrated with a player who just isn't paying attention to the game though. We have a player who has ADD, so she often is looking at her phone when it's not her turn in games. Thankfully she is usually multitasking enough to have a general idea of what is going on, so we don't have the constant \"What happened?\" questions, but she often needs to be reminded when it is her turn."
+        },
+        {
+          "username": "Leedguitar",
+          "date": "2018-05-24T08:30:30-05:00",
+          "body": "I will agree with getting frustrated with a player who just isn't paying attention to the game though. We have a player who has ADD, so she often is looking at her phone when it's not her turn in games. Thankfully she is usually multitasking enough to have a general idea of what is going on, so we don't have the constant \"What happened?\" questions, but she often needs to be reminded when it is her turn.\n\nI agree, it's all about the fun to me, and I'd rather lose every game I play so that people will want to play again.  I play with my kids, and just last night I played my 6 year old and limited the game rules, and she \"won\".  You know what happened?  She wanted to play again and again.    That's a real win to me."
+        },
+        {
+          "username": "Geroid",
+          "date": "2018-10-04T07:56:23-05:00",
+          "body": "The rulebook indirectly implies that hiding a card that was face-up is against the rules. So that would be cheating. \n\nThe rulebook:\n\n\"Reserve a development card\n\nTo reserve a card, a player simply needs to take a face-up development from the middle of the table or draw the first card from one of the three decks (level 0; 00; 000) without showing it to the other players.\"\n\nWhat is the point/advantage of drawing blind from the top of the deck? Because you can keep it hidden. If you can do that with every card then drawing from the top of the deck loses some of it's appeal/power. \n\nBlocking tokens that other players have on high value reserved cards, they took face up, seems to be a valid and needed balancing counter strategy. To remove that would unbalance the game.  \n\nI don't like it but lots of rulebooks indirectly imply rules to save space."
+        },
+        {
+          "username": "russ",
+          "date": "2018-10-04T08:55:44-05:00",
+          "body": "FWIW I don't see how the text you quote implies it. All it implies is that opponents get to see what card you reserved if you took a face up card and don't get to see what card you reserved if you took a face down one.\n\nSo that would be cheating. \n\nThe rulebook:\n\n\"Reserve a development card\n\nTo reserve a card, a player simply needs to take a face-up development from the middle of the table or draw the first card from one of the three decks (level 0; 00; 000) without showing it to the other players.\"\n\nWhat is the point/advantage of drawing blind from the top of the deck? Because you can keep it hidden. If you can do that with every card then drawing from the top of the deck loses some of it's appeal/power.\n\nThat's not the only point/advantage to drawing from the top of the deck: it could also be that none of the visible cards are useful for you!\n\nAnd you're ignoring that many games have memory element (hidden but trackable info), and many games have exactly this paradigm (of take a visible item or draw a hidden item, and either way add it to your private hand which opponents cannot examine.)\n\nIt also seems unlikely that the Splendor app would get such an important rule wrong:\n\nhttps://boardgamegeek.com/article/21770323#21770323\n\nAnd typically in games with cards, a player's \"hand\" is considered hidden from opponents.\n\n---\n\nSince this seems to be a continual point of controversy, I wish there would be an official clarification, but with a bit of forum searching I could not find one. :/"
+        },
+        {
+          "username": "Geroid",
+          "date": "2018-10-05T12:35:34-05:00",
+          "body": "https://boardgamegeek.com/article/21770323#21770323\n\nAnd typically in games with cards, a player's \"hand\" is considered hidden from opponents.\n\n---\n\nSince this seems to be a continual point of controversy, I wish there would be an official clarification, but with a bit of forum searching I could not find one. :/\n\nThat is a fantastic point. Thanks Russ. \n\nI thought the rulebook mentioning that the deck cards remain hidden was making a big point. But it may not be as you have pointed out  I never thought Splendor was about memory but it seems like it could be part of it. \n\nI looked for tournament videos on youtube and a few play-throughs videos. Unfortunately half of the ones I've seen show the reserved card face-up and the other half show them face-down \n\nThe continual point of controversy rages on. If only we had a Space Cowboy to come to our rescue."
+        },
+        {
+          "username": "Time2Game",
+          "date": "2018-10-05T17:54:16-05:00",
+          "body": "For me, it depends on who I am playing with. If I am teaching the game to new players, I'll be nice and show everyone the card I just reserved. After all, you want them to have a fun time. \n\nHowever, if I am playing with gamers, then if you weren't paying attention to the display of cards, then that's your fault. Pay attention next time and stop checking your phone. This is a super light-weight game already. No need to dumb it down for experienced players."
+        },
+        {
+          "username": "Geroid",
+          "date": "2018-10-05T18:14:04-05:00",
+          "body": "However, if I am playing with gamers, then if you weren't paying attention to the display of cards, then that's your fault. Pay attention next time and stop checking your phone. This is a super light-weight game already. No need to dumb it down for experienced players. \n\nI feel the opposite I feel showing the cards adds more complexity and strategy. If you know the cards your opponent has then you can counter them by taking what they need. And playing like that I would be worried not to reserve a card to soon. I think you lose all that if you hide the cards (except for people that are great at memory games). I feel it makes it lighter if you hide the cards. I'm not going to even try to remember them as I know I will forget. \n\nI will play with reserved cards face up to keep that Lost Cities dilemma feel."
+        },
+        {
+          "username": "Geroid",
+          "date": "2018-10-08T06:26:51-05:00",
+          "body": "I contacted Space Cowboys a few days ago and got a reply.\n\nPierre from Space Cowboys said: \n\n\"It depends of you and your mates some keep it hidden, and some keep it face up. I keep it face-down when I play.\"\n\nSo we are all playing it the \"right\" way"
+        },
+        {
+          "username": "rkonigsberg",
+          "date": "2018-10-12T23:32:34-05:00",
+          "body": "Pierre from Space Cowboys said: \n\n\"It depends of you and your mates some keep it hidden, and some keep it face up. I keep it face-down when I play.\"\n\nSo we are all playing it the \"right\" way  \n\nHow annoying, because as I mentioned above, I got an entirely different answer:\n\nHi Robert,\n\nReserving a card means taking it for yourself in a way that prevents other people from:\n\n- Seeing it afterwards.\n\n- Confusing it with the cards you already acquired.\n\nIt must also be very easy to keep track of the number of cards you have in reserve, and their level.\n\nHence, yes, keep the cards as if you had them in hand. For all purposes, they work in this way.\n\nKind regards\n\nFrançois Doucet\n\nSpace Cowboys"
+        },
+        {
+          "username": "Geroid",
+          "date": "2018-10-13T06:48:41-05:00",
+          "body": "I contacted Space Cowboys a few days ago and got a reply.\n\nPierre from Space Cowboys said: \n\n\"It depends of you and your mates some keep it hidden, and some keep it face up. I keep it face-down when I play.\"\n\nSo we are all playing it the \"right\" way  \n\nHow annoying, because as I mentioned above, I got an entirely different answer:\n\nHi Robert,\n\nReserving a card means taking it for yourself in a way that prevents other people from:\n\n- Seeing it afterwards.\n\n- Confusing it with the cards you already acquired.\n\nIt must also be very easy to keep track of the number of cards you have in reserve, and their level.\n\nHence, yes, keep the cards as if you had them in hand. For all purposes, they work in this way.\n\nKind regards\n\nFrançois Doucet\n\nSpace Cowboys\n\nLoL. Back to square 1. \n\nPutting the 3 reserved cards sideways does avoid those problems."
+        },
+        {
+          "username": "Wunderforce",
+          "date": "2023-04-14T01:49:45-05:00",
+          "body": "For what it's worth, the splendor app handles it this way:\n\nReserved cards are taken quickly. They don't linger on the screen, and there is no pause for you to inspect or formally acknowledge that the card was taken. This is basically like a player reaching and quickly taking a card off the table while keeping it visible untill it is in their hand. All reserved cards are hidden.\n\nAn alternate to this could be to require the player to briefly show the card to all players when taking it. The app doesn't instantly hide a card when a player reserves it, but it's also pretty clear that other players don't get a good long look at it before it goes away either.\n\nIn terms of the rules themselves, it is clear that reserved cards are hidden. This comes from the concept of a \"hand\" universally being hidden information unless otherwise specified. Combined with the rule that if you blind reserve a card from the top of a deck you do not need to show it to other players before putting it in your hand, things become pretty clear. There would be no point in hiding your blind reservation if your hand was not also hidden. \n\nIt is a common house rule, however, to play with non-hidden reservations. I often play this way since technically, if you are paying close attention and have a decent memory, you should be able to know what each player has reserved anyway. Playing with an open hand just eliminates the need to memorize which I don't find to be particularly fun."
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": true,
+      "confidence": "medium",
+      "post_count": 47,
+      "date_range": [
+        "2015-01-24",
+        "2023-04-14"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2013374",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2013374",
+      "thread_subject": "Taking 3 chips when there only two left",
+      "embed_text": "In Splendor, can a player take fewer than three gem tokens if there are not enough available to take three of different colors?",
+      "content": "The community resolved that if there are not enough tokens available to take three of different colors, a player may take two tokens or even one. Some users referenced specific rulebook editions that explicitly state this rule, while others inferred it from the game's mechanics.",
+      "raw_thread": [
+        {
+          "username": "danieldukai",
+          "date": "2018-06-22T03:10:57-05:00",
+          "body": "I noticed this while watching a video about Splendor on the app.\n\nThere were only two gem tokens left, let's say one green and one blue. The player proceeded to take the two chips and pass.\n\nHow is that even a legal move, when you have to take 3 chips? \n\nEDIT: Quoting the rules here\n\n- Take 3 gem tokens of different colors.\n\nNowhere does it say up to 3 gem tokens."
+        },
+        {
+          "username": "HowitzerBug",
+          "date": "2018-06-22T03:22:17-05:00",
+          "body": "I don't recall where it's stated, but you can definitely take less, but ONLY if there are not 3 available.\n\nAlways played it this way with friends and I assumed that the app allows it meant we were right to do so."
+        },
+        {
+          "username": "danieldukai",
+          "date": "2018-06-22T03:24:42-05:00",
+          "body": "Always played it this way with friends and I assumed that the app allows it meant we were right to do so.\n\nCould it be a bug in the app?\n\nIs there an FAQ for this game?"
+        },
+        {
+          "username": "Sp1r0u",
+          "date": "2018-06-22T03:25:05-05:00",
+          "body": "If you read the next paragraph, it says, that if you can't take three chips, then you're allowed to take less (as many as you can).\n\nSo: If you can take three chips, you have to. Can't take less. If there are not enough chips, you take as many as you can.\n\n(Edit: Can't quote the rules since I own the german version)"
+        },
+        {
+          "username": "danieldukai",
+          "date": "2018-06-22T03:32:29-05:00",
+          "body": "I can't see that in the English version at all. What are you talking about?\n\nEDIT: The only thing I could find is this link\n\nhttp://www.spacecowboys.fr/faq\n\nI cannot take three tokens. And the two remaining stacks are less than four tokens high. Can I take tokens anyway ?\n\nThe action \"take three different tokens\" allows you to pick only two different tokens, or even one.\n\nSo I would say that the wording should be changed to: you may take up to three gem chips."
+        },
+        {
+          "username": "russ",
+          "date": "2018-06-22T03:39:07-05:00",
+          "body": "Note that this proposed wording would not be equivalent to the intended interpretation; this proposed wording would permit you to take fewer than 3 even when it's possible for you to take 3."
+        },
+        {
+          "username": "danieldukai",
+          "date": "2018-06-22T03:41:34-05:00",
+          "body": "So I would say that the wording should be changed to: you may take up to three gem chips.\n\nNote that this proposed wording would not be equivalent to the intended interpretation; this proposed wording would permit you to take fewer than 3 even when it's possible for you to take 3.\n\nWell, ok. But then there should be at least a foot note for this very rare occasion where you can take only two."
+        },
+        {
+          "username": "russ",
+          "date": "2018-06-22T04:21:57-05:00",
+          "body": "Agreed; interesting that the German rules apparently have such a statement (according to Timo's comment), but the English rules left it out. Perhaps something got lost in translation, or lost (or not added) during editing/revision."
+        },
+        {
+          "username": "COMaestro",
+          "date": "2018-06-22T13:02:39-05:00",
+          "body": "I would note that the rules are very clear about taking two of the same color token.\n\nThis action is only possible if there are at least 4 tokens of the\n\nchosen color left when the player takes them.\n\nHowever, there's no special footnote about the taking three different gems rule. Since there was nothing like \"This action is only possible if there are at least three differently colored tokens available when the player takes them,\" following the rule, my belief is the designer intends for players to be able to take just one or two tokens if that is all the colors of tokens that are available."
+        },
+        {
+          "username": "KogarashiKaze",
+          "date": "2018-06-22T14:03:15-05:00",
+          "body": "I can confirm that at least one version of the English rules specifies what to do. Mine has under Game Rules, after the list of four actions:\n\nSplendor If there is not enough tokens available to take three of different colors, you may take two tokens (or even one).\n\nIt then goes on to explain that you can never have more than 10 tokens, and reminds you about not taking two of the same color if there are fewer than four left.\n\nEDIT: It should be noted that mine is the edition that also changed the setup instructions so that \"Don't touch the gold\" (for fewer players) was changed to \"No change for gold tokens,\" presumably because of ambiguity."
+        },
+        {
+          "username": "plezercruz",
+          "date": "2018-06-24T23:38:59-05:00",
+          "body": "My rules also have this rule...take two or one if more are not available.\n\nPete (was not an early adopter and supposes maybe they changed it at some point)"
+        },
+        {
+          "username": "junesen",
+          "date": "2018-09-21T01:46:19-05:00",
+          "body": "I cannot take three tokens. And the two remaining stacks are less than four tokens high. Can I take tokens anyway ?\n\nThe action \"take three different tokens\" allows you to pick only two different tokens, or even one.\n\nSo I would say that the wording should be changed to: you may take up to three gem chips.\n\nNote that the wording implies that if there was only a stack of 4 green and a stack 2 red that you may not take a red and green. The iOS app also enforces this restriction."
+        },
+        {
+          "username": "TomareUtsuZo",
+          "date": "2025-07-11T08:00:04-05:00",
+          "body": "This action is only possible if there are at least 4 tokens of the\nchosen color left when the player takes them.\n\nHowever, there's no special footnote about the taking three different gems rule. Since there was nothing like \"This action is only possible if there are at least three differently colored tokens available when the player takes them,\" following the rule, my belief is the designer intends for players to be able to take just one or two tokens if that is all the colors of tokens that are available.\n\nI gonna be honest. I happily remove any player who attempted to rules lawyer like this. What a flabbergasting way to ruin fun."
+        },
+        {
+          "username": "MLBath",
+          "date": "2025-07-11T08:22:29-05:00",
+          "body": "We'll, either this has changed as well or Amanda has misquoted their rulebook. \n\nThe latest rule allow you to go above 10 tokens. You have to discard down to 10 at the end of your turn."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 14,
+      "date_range": [
+        "2018-06-22",
+        "2025-07-11"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2557740",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2557740",
+      "thread_subject": "Can you clarify the rules when only single color tokens left with less than 4 tokens",
+      "embed_text": "What are the rules when only single color tokens are left with less than 4 tokens? Is the player allowed to take tokens and if so, how many?",
+      "content": "The player may take only a single token when there are less than 4 tokens of a single color left. However, there is an option to take 1 token of each available color if there are multiple colors present. The rules state that a player can take 2 gem tokens of the same color only if there are at least 4 tokens of that color left before taking them, or 2 tokens of that color remaining after taking them.",
+      "raw_thread": [
+        {
+          "username": "Goren",
+          "date": "2020-12-11T00:04:57-06:00",
+          "body": "Can you clarify the rules when only single color tokens left with less than 4 tokens, is the player allowed to take tokens? And if so, how many?"
+        },
+        {
+          "username": "rkonigsberg",
+          "date": "2020-12-11T00:23:28-06:00",
+          "body": "Welcome to bgg. In that case, the player may take only a single token. A tough spot to be in if other options are not beneficial."
+        },
+        {
+          "username": "AccountAnt",
+          "date": "2020-12-11T03:27:14-06:00",
+          "body": "9/10 you won't want to take a single token. Either spend or reserve."
+        },
+        {
+          "username": "Goren",
+          "date": "2020-12-11T07:43:00-06:00",
+          "body": "Thanks guys!"
+        },
+        {
+          "username": "aelfric_brewer",
+          "date": "2020-12-29T14:11:08-06:00",
+          "body": "taking 1 token each of 3 different colors, or from as many colors as are present if there are fewer than 3 different colors in the supply, is always an option. this is in contrast to the other 3 options, which are each conditional (you may only take two tokens of the same color if at least two tokens of that color remain afterwards; you may only reserve a card if you currently have fewer than 3 reserved cards; you may only purchase a card if you have the required tokens and discounts from previously purchased cards to pay the price.) it is theoretically possible that you can do nothing on your turn, if all tokens have been taken by players, you have the full hand of 3 reserved cards, and you are unable to buy any cards from your hand or in the tableau, but i have never seen this happen.\n\nfor example, if there are only 4 white and 2 blue chips in the supply, you are allowed to take 1 white and 1 blue (you are not forced to take 2 white, nor are you prevented from taking 1 of each when there are fewer than 3 colors available).\n\nfrom the rules (taken from https://017aae6e-7d2b-4a50-9dfc-d78eced3774e.filesusr.com/ug... )\n--\nOn their turn, a player must choose to perform only one of the\nfollowing four actions.\n- Take 3 gem tokens of different colors.\n- Take 2 gem tokens of the same color.\n This action is only possible if there are at least 4 tokens of the\nchosen color left when the player takes them.\n- Reserve 1 development card and take 1 gold token (joker).\n- Purchase 1 face-up development card from the middle of the\ntable or a previously reserved one.\n\nSelecting tokens\nA player can never have more than 10 tokens at the end of\ntheir turn (including jokers). If this happens, they must return\ntokens until they only have 10 left. A player can return all or\nsome of those they’ve just drawn. The tokens owned by a\nplayer must be visible by all players at all times.\nReminder: players may not take 2 tokens of the same color if\nthere are less than 4 tokens available of that color.\""
+        },
+        {
+          "username": "CorkNeck",
+          "date": "2025-01-13T07:36:38-06:00",
+          "body": "- Take 2 gem tokens of the same color.\nThis action is only possible if there are at least 4 tokens of the\nchosen color left when the player takes them.\n\nI recently stumbled upon this. On games with 2 players, there are only 4 tokens of each color, so this would technically rule out the possibility of a player getting 2 of the same, which, sounds counter-intuitive... There is a newer (?) version of the rulebook that claims you can get 2 of the same color if there are at least 2 left on the color's pile after collecting, which, deals with the issue raised by the previous ruling."
+        },
+        {
+          "username": "CavemanLogic",
+          "date": "2025-01-13T17:17:44-06:00",
+          "body": "I recently stumbled upon this. On games with 2 players, there are only 4 tokens of each color, so this would technically rule out the possibility of a player getting 2 of the same, which, sounds counter-intuitive... There is a newer (?) version of the rulebook that claims you can get 2 of the same color if there are at least 2 left on the color's pile after collecting, which, deals with the issue raised by the previous ruling.\n\nThe rule has *always* been that, in order to take two gems of the same color, there needs to be four tokens of that color *before* you take gems. Or, if you prefer, there need to be two gems of that color remaining *after* you take gems.\n\nSo, in a two player game, a long as the stack is full (has all four gems available), then you can take two of them on your turn.\n\nMy copy is from 2014, and that's how that rule has always worked.\n\nCheers!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 7,
+      "date_range": [
+        "2020-12-11",
+        "2025-01-13"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2792365",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2792365",
+      "thread_subject": "Spending gold/jokers/wild instead of gems you already have",
+      "embed_text": "Can a player choose to spend gold or jokers instead of gems they already have when paying for a development, or must they spend all available gems first?",
+      "content": "The community consensus is that players can choose to spend gold or jokers instead of gems they already have. The rulebook supports this interpretation, stating that a joker token can replace any color and spent tokens are returned to the supply. However, the Splendor phone app does not appear to offer this choice, which may be a design decision or a bug.",
+      "raw_thread": [
+        {
+          "username": "ahmadnz",
+          "date": "2022-01-11T16:55:06-06:00",
+          "body": "I have 4 blue gems and 3 gold. I want to place a 6 blue development. There are 0 blue gems available in the supply. \n\nCan I choose to pay as 3/3 or do I have to spend all 4 blue (meaning opponent could take 2 of the retuned blue gems?)."
+        },
+        {
+          "username": "aldaryn",
+          "date": "2022-01-11T16:58:05-06:00",
+          "body": "Can I choose to pay as 3/3 or do I have to spend all 4 blue (meaning opponent could take 2 of the retuned blue gems?). \n\nI believe you can choose."
+        },
+        {
+          "username": "PauloSantoro",
+          "date": "2022-01-12T00:08:41-06:00",
+          "body": "Rulebook page 3: \"To purchase a card, a player must spend the number of tokens indicated on the card. A joker token can replace any color. The spent tokens (including any jokers) are returned to the middle of the table.\"\nIt can't be clearer."
+        },
+        {
+          "username": "Vulpis1",
+          "date": "2022-01-12T11:35:03-06:00",
+          "body": "Can I choose to pay as 3/3 or do I have to spend all 4 blue (meaning opponent could take 2 of the retuned blue gems?). \n\nYou do not have to use all 4 blue. You use 3 blue and 3 gold (wilds)."
+        },
+        {
+          "username": "Vulpis1",
+          "date": "2022-01-12T11:35:58-06:00",
+          "body": "I have 4 blue gems and 3 gold. I want to place a 6 blue development. There are 0 blue gems available in the supply. \n\nCan I choose to pay as 3/3 or do I have to spend all 4 blue (meaning opponent could take 2 of the retuned blue gems?). \n\nYou do not have to use all 4 blue. You can use 3 blue and 3 gold (wilds)."
+        },
+        {
+          "username": "ahmadnz",
+          "date": "2022-01-12T13:11:49-06:00",
+          "body": "I don’t believe the Splendor phone app gives this choice. Not at least the last time I played it."
+        },
+        {
+          "username": "russ",
+          "date": "2022-01-12T13:23:26-06:00",
+          "body": "So it seems either the app is buggy, or it has the option but you didn't find it in the user interface."
+        },
+        {
+          "username": "drneau",
+          "date": "2022-01-12T14:04:50-06:00",
+          "body": "I don’t believe the Splendor phone app gives this choice. Not at least the last time I played it. \n\nSo it seems either the app is buggy, or it has the option but you didn't find it in the user interface.\n\nOr the developer of the app made a design choice."
+        },
+        {
+          "username": "russ",
+          "date": "2022-01-12T14:12:53-06:00",
+          "body": "So it seems either the app is buggy, or it has the option but you didn't find it in the user interface.\n\nOr the developer of the app made a design choice.\n\nA design choice to change the rules? Still seems like a bug, if so."
+        },
+        {
+          "username": "ahmadnz",
+          "date": "2022-01-12T15:41:12-06:00",
+          "body": "OK confirmed.\n\nI had 1 White Development and 4 White gems and 2 Gold. When I put down a Development at a cost of 6 white, the app automatically played it and paid 4 White and 1 Gold (it did not ask me how I wanted to pay for the 5 White required)."
+        },
+        {
+          "username": "gillum",
+          "date": "2022-01-12T19:16:02-06:00",
+          "body": "Maybe someone can check how it's implemented on boardgamearena."
+        },
+        {
+          "username": "aelfric_brewer",
+          "date": "2022-02-14T15:10:25-06:00",
+          "body": "Playing in person, you have your choice. You can, but are not required to, substitute gold joker tokens for any colored gem tokens. Normally it is preferred to hold onto the gold joker tokens as long as possible because they are the most useful, but it is a perfectly valid tactic to pay with them when you don't need to (for example, you opponent has 3 reserved cards so cannot reserve more, and needs blue tokens for a card he reserved, you might choose to pay with gold instead of blue so as not to return the blue tokens to the supply where he could collect them).\n\nI strongly suspect that, for app or online, it was a programmer's/developer's choice to avoid having the game drag out forever as each player tap-tap-taps out each individual chip he spends."
+        },
+        {
+          "username": "ZeekLTK",
+          "date": "2022-05-01T10:24:28-05:00",
+          "body": "I strongly suspect that, for app or online, it was a programmer's/developer's choice to avoid having the game drag out forever as each player tap-tap-taps out each individual chip he spends.\n\nI mean, I don't think it would take that long.\n\nYou just have a check to see \"does the player have any gold pieces?\" If not, then no pop up. If yes, check to see if they have enough of the gems to pay the cost. If not, automatically use gold (again, no pop up). If so, ask them \"do you want to spend (extra) gold for this?\" and THEN if they say yes, let them pick. So would only have to click \"no\" each turn you have a gold and are spending gems (so would never come up if you don't have gold left OR you are just getting cards with the cards you already have) and then maybe \"yes\" and select the value once or twice a game or so."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 13,
+      "date_range": [
+        "2022-01-11",
+        "2022-05-01"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2821398",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2821398",
+      "thread_subject": "If I forget to keep tally of my points",
+      "embed_text": "What happens if a player forgets to announce reaching a score of 15 and continues playing, and another player reaches 15 in a later round?",
+      "content": "The game does not have an official ruling for this situation. According to the rules, the game is over when a player reaches 15, but the winner is determined by the highest score at the end of the round in which someone reaches 15. Players can decide how to handle this situation in their own group.",
+      "raw_thread": [
+        {
+          "username": "Mybidda",
+          "date": "2022-02-25T02:34:08-06:00",
+          "body": "If I forget to keep tally of my points and have 15 but did not say anything and someone else gets 15 next round do we go back a round or does that person win?"
+        },
+        {
+          "username": "SaltyHorse",
+          "date": "2022-02-25T04:02:18-06:00",
+          "body": "The game doesn't have an official ruling about about \"forgetting\" to announce your victory. According to the rules of the game, you won - you accidentally continued playing after the game was over.\nYou're welcome to decide what to do in this situation with your own group."
+        },
+        {
+          "username": "iklinck",
+          "date": "2022-02-25T05:45:20-06:00",
+          "body": "Also, the winner is not the first person to get 15, but the person with the higher score at the end of the round in which someone gets to 15..."
+        },
+        {
+          "username": "Zark",
+          "date": "2022-02-28T02:12:00-06:00",
+          "body": "So for simplicity I would say the winner is the person with the highest score at the end of a round when someone announces they have 15"
+        },
+        {
+          "username": "Rumbelow",
+          "date": "2022-02-28T08:22:31-06:00",
+          "body": "Also, the winner is not the first person to get 15, but the person with the higher score at the end of the round in which someone gets to 15...\n\nSo for simplicity I would say the winner is the person with the highest score at the end of a round when someone announces they have 15\n\nhah then it becomes a game of Spoons, seeing that someone may have triggered end-game but sneakily getting in your points before deciding (entirely to your own advantage) how obvious to be."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 5,
+      "date_range": [
+        "2022-02-25",
+        "2022-02-28"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2824299",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2824299",
+      "thread_subject": "Earning two nobles on same turn",
+      "embed_text": "Can a player earn two nobles in the same game, and if so, how are they obtained?",
+      "content": "The community resolved that a player can earn two nobles, but not in the same turn. If a player earns two nobles, they can take one at the end of the turn they earned it and the second one at the end of their next turn. However, some players disagree on the likelihood of getting two nobles in a game, with some arguing it's common and others saying it's rare, especially in high-level play.",
+      "raw_thread": [
+        {
+          "username": "Smerdy643",
+          "date": "2022-03-02T09:23:16-06:00",
+          "body": "My wife earned a visit from two nobles after purchasing a card last night. I realize you can only obtain one noble at the end of a turn, so she only took one of the nobles at the end of that turn. Then, at the end of her next turn, she obtained the second noble (which she earned the previous turn).\nDid we play this right? Or can you only receive one visit from a noble per game?"
+        },
+        {
+          "username": "JeffyJeff",
+          "date": "2022-03-02T09:24:10-06:00",
+          "body": "you played right\n\none per turn gives another player a shot at getting the other one"
+        },
+        {
+          "username": "Smerdy643",
+          "date": "2022-03-02T10:06:41-06:00",
+          "body": "Oh, I didn't realize the other player still had a shot at the second noble. Thanks much. I don't think I could have obtained it anyway in our game last night"
+        },
+        {
+          "username": "YeOldePlayer",
+          "date": "2022-03-03T19:49:23-06:00",
+          "body": "Yep, you did it right! In fact, considerations of which noble your opponent might get on the next turn can influence which one you take first. \nFor example, assume you have 4 onyx, 3 sapphires, and 4 diamonds; the other player has 3 onyx, 3 sapphires, and 2 diamonds; and you're at the end of your turn. You'd likely want to take the noble attracted to 3 onyx, 3 sapphires, and 3 diamonds instead of the one attracted by 4 onyx and 4 diamonds. The first noble is one your opponent could attract by getting a diamond on the next turn; the second would be unattainable on a single turn."
+        },
+        {
+          "username": "Smerdy643",
+          "date": "2022-03-04T10:38:09-06:00",
+          "body": "Right, thanks. We never imagined one of us would get TWO nobles in one game and that we'd be facing this situation. We usually have trouble getting one! Maybe it means we're getting better ha"
+        },
+        {
+          "username": "Pattersonclan",
+          "date": "2022-03-04T10:48:48-06:00",
+          "body": "Does sound like you are getting better. Of course, it depends on how the demands of the nobles line up.  In many games, especially 2p, getting two nobles would be quite difficult.\n\nThe last time my wife and I played, I was able to snag a top-tier card which completed a noble for an 8 point turn that ended the game. Maybe something like that is your next challenge. Have fun!"
+        },
+        {
+          "username": "schloetterer",
+          "date": "2022-03-05T12:07:00-06:00",
+          "body": "I disagree. There are 3 nobles out with 2 players. At least the way I would play, in almost every game there is no noble left, so one of the players had to get 2. And in many cases that was the winner."
+        },
+        {
+          "username": "iloveashesreborn",
+          "date": "2022-03-17T01:28:55-05:00",
+          "body": "Does sound like you are getting better. Of course, it depends on how the demands of the nobles line up.  In many games, especially 2p, getting two nobles would be quite difficult.\n\nI disagree. There are 3 nobles out with 2 players. At least the way I would play, in almost every game there is no noble left, so one of the players had to get 2. And in many cases that was the winner.\n\nThen you haven't played the rush strategy\nThat strategy focused on sniping point cards with engine building as a side tool, and nobles in those game are pretty much powerless"
+        },
+        {
+          "username": "JoeBoardgame",
+          "date": "2022-03-17T10:44:41-05:00",
+          "body": "In high level tournament play, the chance of a player having even one noble as the winner of a game goes *down* the higher the level of play.\n\nThe better the player, the lower the chance of using even one noble in a win strategy."
+        },
+        {
+          "username": "PauloSantoro",
+          "date": "2022-03-20T10:34:55-05:00",
+          "body": "The better the player, the lower the chance of using even one noble in a win strategy.\n\nDo you know if the game designer thought about tweaking it a bit, like giving +1 point to each noble or whatever?"
+        },
+        {
+          "username": "iloveashesreborn",
+          "date": "2022-03-21T03:41:33-05:00",
+          "body": "In high level tournament play, the chance of a player having even one noble as the winner of a game goes *down* the higher the level of play.\n\nThe better the player, the lower the chance of using even one noble in a win strategy.\n\nDo you know if the game designer thought about tweaking it a bit, like giving +1 point to each noble or whatever?\n\nI think no\nThe game is about eficiently gaining point, and the rush strategy did just that"
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 11,
+      "date_range": [
+        "2022-03-02",
+        "2022-03-21"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2849587",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2849587",
+      "thread_subject": "The Dized tutorial for Splendor is now available!",
+      "embed_text": "Is the Dized tutorial for Splendor available and what does it offer?",
+      "content": "The Dized tutorial for Splendor is available on the mobile app and online, teaching players during their first game and adapting to their choices. It also offers interactive rules for quick answers to specific rule questions in subsequent games.",
+      "raw_thread": [
+        {
+          "username": "Mattintheweb",
+          "date": "2022-04-14T14:53:14-05:00",
+          "body": "We've just released the tutorial for the game: it's available on our mobile app and directly online if you're using a computer. As all Dized tutorial, it's meant to be used during your first game, teaching all players at the same time as they're playing, while adapting to their choices. 🤓\nAnd for your next games, you can always use the interactive rules (still in the app or online) to quickly find the answer to any question you might have about a specific rule. 🙂\nPlease tell us what you think and feel free to give any feedback you might have – unlike a printed rulebook, it's quite easy to update… 😉"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": true,
+      "confidence": "high",
+      "post_count": 1,
+      "date_range": [
+        "2022-04-14",
+        "2022-04-14"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2878731",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2878731",
+      "thread_subject": "do chips have to be spent first?",
+      "embed_text": "When paying for new cards in Splendor, do players have to spend their chip tokens first or can they use their development cards to cover the cost? If a player has both chip tokens and development cards that can cover the cost of a card, which ones should they use first?",
+      "content": "The community resolved that players must use their development cards first to cover the cost of a new card, before spending any chip tokens. This is based on the rulebook, which states that players must apply their card discounts before spending chips. However, there is some disagreement about the interpretation of the word 'must' in the rulebook, with some players arguing that it means players have the option to spend more tokens if they want to.",
+      "raw_thread": [
+        {
+          "username": "tommatty",
+          "date": "2022-06-05T19:18:50-05:00",
+          "body": "When paying for new cards, and I have more than tje cost of one gem color when adding my development cards and my chip tokens, do I have to spend out the chip tokens first?\n\nThis is how we played in order to keep chips available and push people to play for the higher value cards.  And we find this works very well.\n\nBut we wonder what is the official rule.  \n\nTo clarify, an example wpuld be that the card I want requires 5 red gems.  I have 3 tokens and 4 development cards.  \n\nDo I have to spend, return, the 3 red tokens first, and then not fully utilize the development cards?  Or do I max out the development cards and only spend 1 token, thereby keeping two in my reserve?\n\nTIA\nTom"
+        },
+        {
+          "username": "iklinck",
+          "date": "2022-06-05T19:28:02-05:00",
+          "body": "Use the cards first."
+        },
+        {
+          "username": "therealtheshader",
+          "date": "2022-06-05T19:28:03-05:00",
+          "body": "The cards work as discounts or virtual currency.  So if a card costs five and you have 4 cards, it costs you one gem.\n\nEdit Beaten by a literal second."
+        },
+        {
+          "username": "PauloSantoro",
+          "date": "2022-06-05T21:48:32-05:00",
+          "body": "What part of the rulebook made you think that this could be the way of play?"
+        },
+        {
+          "username": "tommatty",
+          "date": "2022-06-05T23:10:26-05:00",
+          "body": "2 things.  First the rules didn't explicitly staye that amd we got the impression that chip hoarding is a negative factor oft discussed, so inentives to keep chip liquidity made sense.\n\nSecond is the card symbolism.  It is notable that the noble cards use rectangles to show their costs, ie. Use cards to meet tje requirement, while cards showed circle for their cost, which we took to imply use chips primarily.  \n\nWe'll try the proper rules play.  But I could see us returning to the system we used as play has. Even good, balanced, and never an issue with chip hoarding as they must go back into the pool each time a buy is made."
+        },
+        {
+          "username": "iloveashesreborn",
+          "date": "2022-06-05T23:15:41-05:00",
+          "body": "There is no answer. In all of my games, we use your technique"
+        },
+        {
+          "username": "iloveashesreborn",
+          "date": "2022-06-05T23:18:35-05:00",
+          "body": "There is no answer. In all of my games, we use your technique"
+        },
+        {
+          "username": "CavemanLogic",
+          "date": "2022-06-05T23:40:37-05:00",
+          "body": "Chip hoarding is *not* a negative.  It is an important strategy to help keep your opponent's buying power in check.\n\nThe rulebook does indeed cover this.\nThe rulebook does indeed cover this.\n\nIt says you *must* use your card discounts first, before spending any chips:\n\nSplendor Rules, Pg. Thus, if a player has 2 blue bonuses and wants to purchase a card which costs 2 blue tokens and 1 green token, the player must only spend 1 green token.\n\n(bold emphasis mine).  It does not say you *may* spend two blue tokens and one green token if you have them, even if you have two blue cards.  It says you *must* only spend the one green token.  And, by association, that also means you *must* apply the two blue discount from your two blue cards.\n\nThat said, it's your game.  If you want to house rule it that way, then go ahead.  Just know that your method is indeed a house rule, and is not the official, nor intended, way of play according to the rulebook.\n\nCheers!"
+        },
+        {
+          "username": "Ryucoo",
+          "date": "2022-06-06T02:23:15-05:00",
+          "body": "2 things.  First the rules didn't explicitly staye that amd we got the impression that chip hoarding is a negative factor oft discussed, so inentives to keep chip liquidity made sense.\n\nChip hoarding is *not* a negative.  It is an important strategy to help keep your opponent's buying power in check.\n\nThe rulebook does indeed cover this.\nThe rulebook does indeed cover this.\n\nIt says you *must* use your card discounts first, before spending any chips:\n\nSplendor Rules, Pg. Thus, if a player has 2 blue bonuses and wants to purchase a card which costs 2 blue tokens and 1 green token, the player must only spend 1 green token.\n\n(bold emphasis mine).  It does not say you *may* spend two blue tokens and one green token if you have them, even if you have two blue cards.  It says you *must* only spend the one green token.  And, by association, that also means you *must* apply the two blue discount from your two blue cards.\n\nThat said, it's your game.  If you want to house rule it that way, then go ahead.  Just know that your method is indeed a house rule, and is not the official, nor intended, way of play according to the rulebook.\n\nCheers!\n\nThis.\n\nBonuses give you a discount. You aren’t “spending” them, they just reduce the price you must pay."
+        },
+        {
+          "username": "tommatty",
+          "date": "2022-06-06T02:52:08-05:00",
+          "body": "Thanks everyone for answering this.  It is clear that development cards can/ perhaps must be utilized first.  We're going to play this way from now on and.  Should be an interesting comparison."
+        },
+        {
+          "username": "Rikboy",
+          "date": "2022-06-06T04:36:38-05:00",
+          "body": "Chip hoarding is part of the game in a way. It can force players to start buying cards when the chips they want are not available."
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2022-06-06T09:40:09-05:00",
+          "body": "Splendor Rules, Pg. Thus, if a player has 2 blue bonuses and wants to purchase a card which costs 2 blue tokens and 1 green token, the player must only spend 1 green token.\n\n(bold emphasis mine).  It does not say you *may* spend two blue tokens and one green token if you have them, even if you have two blue cards.  It says you *must* only spend the one green token.  And, by association, that also means you *must* apply the two blue discount from your two blue cards.\n\nThat said, it's your game.  If you want to house rule it that way, then go ahead.  Just know that your method is indeed a house rule, and is not the official, nor intended, way of play according to the rulebook.\n\nCheers!\n\nI don’t think you’re reading “must” quite correctly there. Often when translating from German to English, there’s some confusion between “must” and “have to”. (“Musst nicht” in German is often mistranslated “must not” but actually means “do not have to”.)\n\nIn this case I think it means you need to spend only one green token. If a player wanted to spend more tokens in that case I don’t think the rules are intended to disallow it. But I can’t imagine why anyone would want to!"
+        },
+        {
+          "username": "Ryucoo",
+          "date": "2022-06-06T15:16:40-05:00",
+          "body": "It says you *must* use your card discounts first, before spending any chips:\n\nSplendor Rules, Pg. Thus, if a player has 2 blue bonuses and wants to purchase a card which costs 2 blue tokens and 1 green token, the player must only spend 1 green token.\n\n(bold emphasis mine).  It does not say you *may* spend two blue tokens and one green token if you have them, even if you have two blue cards.  It says you *must* only spend the one green token.  And, by association, that also means you *must* apply the two blue discount from your two blue cards.\n\nThat said, it's your game.  If you want to house rule it that way, then go ahead.  Just know that your method is indeed a house rule, and is not the official, nor intended, way of play according to the rulebook.\n\nCheers!\n\nI don’t think you’re reading “must” quite correctly there. Often when translating from German to English, there’s some confusion between “must” and “have to”. (“Musst nicht” in German is often mistranslated “must not” but actually means “do not have to”.)\n\nIn this case I think it means you need to spend only one green token. If a player wanted to spend more tokens in that case I don’t think the rules are intended to disallow it. But I can’t imagine why anyone would want to!\n\nAye, good play is to choke the supply so your opponent is screwed. So taking the full discount and holding onto your chips is always the better option."
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 13,
+      "date_range": [
+        "2022-06-05",
+        "2022-06-06"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2891080",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2891080",
+      "thread_subject": "Joker - Single Use or Multi Use?",
+      "embed_text": "In the game, can a Joker be used multiple times or is it a single-use token? Does the Joker go back to the pool after being used to buy something?",
+      "content": "The community resolved that the Joker goes back into the pool after being used to buy something. A post quotes the rulebook, stating that spent tokens, including Jokers, are returned to the middle of the table.",
+      "raw_thread": [
+        {
+          "username": "ChevyFan",
+          "date": "2022-06-28T14:38:43-05:00",
+          "body": "When you have a Joker (gold coin) in your possession and you want to use it to buy something, does the Joker go back to the house after you buy something, or can you just keep it and use it over and over?\n\nThanks!"
+        },
+        {
+          "username": "JeffyJeff",
+          "date": "2022-06-28T14:40:15-05:00",
+          "body": "goes back into the pool...\n\n... otherwise everyone's early game would be reserving 3 cards asap to get 3 of them"
+        },
+        {
+          "username": "odie73",
+          "date": "2022-06-28T16:00:11-05:00",
+          "body": "Here is the relevant quote from the rulebook, found under 'Buying a development card':\n\nThe spent tokens (including any jokers) are returned to the middle of the table."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 3,
+      "date_range": [
+        "2022-06-28",
+        "2022-06-28"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2907875",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2907875",
+      "thread_subject": "What to do when you can't play?",
+      "embed_text": "What should a player do in Splendor when they cannot make any moves, such as reserving a card, taking tokens, or spending cards? How should the game handle this situation?",
+      "content": "The community resolved that in this situation, the player should pass their turn. According to an official answer from Asmodee, if no actions are possible, the player must pass, and the game should automatically skip their turn.",
+      "raw_thread": [
+        {
+          "username": "dallo",
+          "date": "2022-07-29T09:08:02-05:00",
+          "body": "During a game of Splendor on bga, I reached a state where no move cant be made. My timer ran out and I was expelled from the game.\n\n* I can't reserve a card because my hand is full.\n* I can't take any token because none are available\n* I can't spend any card because I cant pay them\n\nHow this kind of state should be handle by the game? What should I have done while in this state?"
+        },
+        {
+          "username": "rkonigsberg",
+          "date": "2022-07-29T09:10:39-05:00",
+          "body": "IRL I would just pass. But the rules don't cover this.\n\nHowever, it looks like you can buy two of your three reserved cards. What am I missing?"
+        },
+        {
+          "username": "iloveashesreborn",
+          "date": "2022-07-29T09:14:12-05:00",
+          "body": "However, it looks like you can buy two of your three reserved cards. What am I missing?\n\nthis"
+        },
+        {
+          "username": "dallo",
+          "date": "2022-07-29T09:17:28-05:00",
+          "body": "I can't buy any reserved cards. I miss on 1 green and 3 blue for the first one and the second one need one more source of green."
+        },
+        {
+          "username": "rkonigsberg",
+          "date": "2022-07-29T09:19:46-05:00",
+          "body": "What a strange visualization."
+        },
+        {
+          "username": "rkonigsberg",
+          "date": "2022-07-29T09:22:20-05:00",
+          "body": "By the way, you might do better asking this question on the BGA forums: https://boardgamearena.com/forum/viewforum.php?f=389"
+        },
+        {
+          "username": "ciggie",
+          "date": "2022-07-29T09:23:10-05:00",
+          "body": "You could have played your first reserved card. You have 3 blue gems (2 chips plus 1 from a card) and 1 green gem (1 green chip plus 1 from a card) in your My Gems"
+        },
+        {
+          "username": "styates",
+          "date": "2022-07-29T09:25:48-05:00",
+          "body": "You do have 3 blue and 2 green"
+        },
+        {
+          "username": "dkearns",
+          "date": "2022-07-29T09:36:28-05:00",
+          "body": "That interface is awful.  I can't make heads or tails of what the person has/doesn't have or even what is on the cards.  Just mysterious.  I think the numbers on the cards are what is still needed to pay the cost, and blank color means it is possible to be paid?\n\nMoreover, how did the person get in this situation?  Seems early game, has reserved three cards, no gold and I think only has two played cards?  I'm assuming the played cards must be from the middle row but not sure.\n\nI think the player (presumably everyone) is going for nobles but red looks fantastic for this board considering the top row."
+        },
+        {
+          "username": "Chango",
+          "date": "2022-07-29T09:38:17-05:00",
+          "body": "Yeah, not very easy to see the card engine he has, he needs to open the eye corner function for details. EDIT: unless he didn't know they grant credit to buy along gems."
+        },
+        {
+          "username": "Chango",
+          "date": "2022-07-29T09:44:01-05:00",
+          "body": "He used the golds to buy those two cards."
+        },
+        {
+          "username": "evnzro",
+          "date": "2022-07-29T09:59:21-05:00",
+          "body": "Out of curiosity I just played around with the Splendor tutorial on BGA and the \"eye\" button just toggles between showing you how many gems it takes to buy a card vs. how many more gems you need to buy the card. (That's why in the screenshot some of the gems on cards are blank. That's because OP already has the required gems for purchase.)\n\nAlso, what's not shown in the screenshot is on the right side there is a display for each player that makes it much more clear which cards and gems they own of each color.\n\nRegardless, OP could have bought either of the first two cards in the reserve.\n\nNevermind. Duh. Because the \"eye\" button is toggled, the cards are showing which gems the OP needs but does not have."
+        },
+        {
+          "username": "SaltyHorse",
+          "date": "2022-07-29T10:01:50-05:00",
+          "body": "This is a bug, not just a \"question to ask\" - it should be reported here: https://boardgamearena.com/bugs?game=1394\n\nEDIT: I just reported it: https://boardgamearena.com/bug?id=68933\n\nHere is the official answer from Asmodee: Re: What if no actions are possible? - in this rare situation, you must pass.\nBGA should automatically skip your turn."
+        },
+        {
+          "username": "rkonigsberg",
+          "date": "2022-07-29T10:38:35-05:00",
+          "body": "Well done going the last  mile, Ori."
+        },
+        {
+          "username": "dallo",
+          "date": "2022-07-29T13:14:43-05:00",
+          "body": "Thank you for opening a bug in the bugtracker and sharing the link."
+        },
+        {
+          "username": "macdaddy256",
+          "date": "2022-08-01T01:48:05-05:00",
+          "body": "In BGA Splendor I have several times got into a state where I could afford a reserved card but the game wouldn't let me buy it or indicate it was available. F5 / reset has fixed it every time for me."
+        },
+        {
+          "username": "SaltyHorse",
+          "date": "2022-08-01T02:03:39-05:00",
+          "body": "Looks like there's still a problem related to that, and it's not fixed by a refresh.\nAnd reading your discussion about the reserved card, I think this is the actual bug rather than \"can't play anything\""
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 17,
+      "date_range": [
+        "2022-07-29",
+        "2022-08-01"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "splendor_148228_forum_2909463",
+      "source_type": "forum",
+      "game_name": "splendor",
+      "game_id": 148228,
+      "thread_id": "2909463",
+      "thread_subject": "Splendor newbie question",
+      "embed_text": "In Splendor, when buying a card, do I have to use gems first and then cards, or can I choose how to pay? For example, if a card costs 5 emeralds, can I pay with 5 emerald cards and keep my 2 emerald gems, or do I have to use the gems first?",
+      "content": "The community resolved that players can choose how to pay for a card, using either gems, cards, or a combination of both. It is recommended to use cards to save gems for future turns. The official rules state that card bonuses give discounts and the remainder must be paid with tokens, but do not explicitly mention a choice in this matter.",
+      "raw_thread": [
+        {
+          "username": "Kachotto",
+          "date": "2022-08-01T04:40:31-05:00",
+          "body": "Hi everyone, please, help a rookie!\n\nSo let's say I want to buy a card that costs 5 emeralds.\nI have 5 emerald cards and 2 emerald gems. \nIn this situation do I \n1) pay with my 5 emerald cards and keep my 2 emerald gems\n2) pay with my 2 emerald gems plus 3 emeralds cards?\n\nIn other words, do I always have to use gems first and then cards?\nOr I can decide to keep however many gems I want?\n\nThanks a lot, I love Splendor and Boardgamegeek!"
+        },
+        {
+          "username": "Eldard",
+          "date": "2022-08-01T04:46:54-05:00",
+          "body": "You decide what to do.  I recommend using your 5 emerald cards and saving your 2 emerald gems in order to buy a card requiring 6 or 7 emeralds on a later turn.  Remember:  you expend gems but you keep cards.\n\nConsidering that you cannot hold more than 10 gems from the end of one turn to the next, you can always get rid of any emerald gems that you feel are unneeded when you take 2 or 3 new gems from the supply. You can take more gems putting you over 10, but you have to get rid of enough to get back down to 10 before your turn ends.  In other words, let's say that I have 10 gems including those 2 emerald gems.  I take 2 ruby gems from the supply, raising my total to 12.  To get back down to 10, I return the 2 emerald gems to the supply.   That's my turn.\n\nFor me, I'd go with keeping the 2 emerald gems and just using the 5 emerald cards.  It's what we call a 'free card' in our Splendor games because you are actually spending nothing.\n\nIf you like Splendor, check out Gizmos."
+        },
+        {
+          "username": "Kachotto",
+          "date": "2022-08-01T05:01:16-05:00",
+          "body": "That makes sense, and that's what I thought!\nThank you for confirming that and I appreciate your fast reply because we played yesterday and we're going to play right now!\nHello from Japan and have a great day!"
+        },
+        {
+          "username": "Eldard",
+          "date": "2022-08-01T05:41:35-05:00",
+          "body": "My pleasure, Kachotto!  Have fun! 🙂"
+        },
+        {
+          "username": "russ",
+          "date": "2022-08-01T05:43:39-05:00",
+          "body": "Relevant rules quote:\nThe bonuses a player has from development cards acquired\non previous turns provide discounts on the purchase of new\ncards. Each bonus of a given color is equal to a token of that\ncolor.\nThus, if a player has 2 blue bonuses and wants to purchase a\ncard which costs 2 blue tokens and 1 green token, the player\nmust only spend 1 green token.\nIf a player has enough development cards (and therefore\nbonuses), they can even purchase a card without spending any\ntokens."
+        },
+        {
+          "username": "Chango",
+          "date": "2022-08-01T08:30:29-05:00",
+          "body": "Yep, some people forget to read the rules :-(."
+        },
+        {
+          "username": "Issity",
+          "date": "2022-08-02T11:36:15-05:00",
+          "body": "I don't think the rules mention any kind of choice in that matter.\nCard bonuses give discounts and the remainder must be paid with tokens.\nTBH I can't think of a situation where it would be beneficial to voluntarily overspend."
+        },
+        {
+          "username": "JoeBoardgame",
+          "date": "2022-08-02T13:59:14-05:00",
+          "body": "Just to be clear:  You don't turn in your cards once you use the gems on them.  They are permanently in your possession.\n\nYou use the gems on them many times.\n\nYour \"pay with my cards\" terminology made me wonder if you got that."
+        },
+        {
+          "username": "Kachotto",
+          "date": "2022-08-03T22:50:54-05:00",
+          "body": "You're right, \"pay with cards\" sounds like I return the cards.\nNo, the cards stay in my \"wallet\" forever and I use them as gem value repeatedly throughout the game. \nThank you!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 9,
+      "date_range": [
+        "2022-08-01",
+        "2022-08-03"
+      ],
+      "retrieval_priority": 2
+    }
+  ]
+}

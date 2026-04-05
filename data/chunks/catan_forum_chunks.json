@@ -1,0 +1,1912 @@
+{
+  "game_name": "catan",
+  "game_id": 13,
+  "total_chunks": 30,
+  "chunks": [
+    {
+      "chunk_id": "catan_13_forum_2404930",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "2404930",
+      "thread_subject": "Does my 1 Victory Point count in the same turn when it was bought?",
+      "embed_text": "If a player buys a Development card that contains a 1 Victory Point, does that Victory Point count immediately, or does it have to wait until the next turn? Can a player reveal a Victory Point card immediately after purchasing it to win the game?",
+      "content": "According to the rules, Victory Point cards are exempt from the restriction that prevents players from using Development cards in the same turn they were bought. Players can reveal Victory Point cards immediately after purchasing them, and if this brings their total points to 10 or more, they can win the game. The rules state that players may reveal Victory Point cards during their turn and when they are sure they have 10 victory points, which is to win the game.",
+      "raw_thread": [
+        {
+          "username": "stephanieverena",
+          "date": "2020-04-10T08:41:25-05:00",
+          "body": "Hi guys,\n\nThanks a mill in advance for helping us out here. The following led to a heated discussion at our Catan game last night and we're out to find the answer!  \n\nIt's my turn. Whilst on 9 points, I bought a Development card which contained the 1 Victory Point - and thus my winning 10th point. Does that Victory Point gets 'activated' straight away e.g. I won immediately due to that card, or would I have to wait till my next turn before it counts? \n\nThnks so much!"
+        },
+        {
+          "username": "Khonnor",
+          "date": "2020-04-10T08:46:53-05:00",
+          "body": "Thanks a mill in advance for helping us out here. The following led to a heated discussion at our Catan game last night and we're out to find the answer!  \n\nIt's my turn. Whilst on 9 points, I bought a Development card which contained the 1 Victory Point - and thus my winning 10th point. Does that Victory Point gets 'activated' straight away e.g. I won immediately due to that card, or would I have to wait till my next turn before it counts? \n\nThnks so much!\n\nNormally you're not allowed to use a development card in the same turn that it was bought. However, the VP cards are exempt from that restriction.\nSo, you're allowed to play them immediately or wait to reveal them until the end of the game."
+        },
+        {
+          "username": "stephanieverena",
+          "date": "2020-04-10T09:01:08-05:00",
+          "body": "Cool!!! That's what I thought, but my opponents wouldn't believe me (of course ha, now they have to accept they lost). Thanks!"
+        },
+        {
+          "username": "Khonnor",
+          "date": "2020-04-10T09:03:25-05:00",
+          "body": "Did you check the rules book? It's supposed to be mentioned in there as well. The thing with Catan is that because it's been around for 25 years the rules have differed from edition to edition, so it's also dependant on which edition you have, but I'm pretty sure this particular rule has been the same."
+        },
+        {
+          "username": "jorganos",
+          "date": "2020-04-10T09:05:28-05:00",
+          "body": "Hi guys,\n\nThanks a mill in advance for helping us out here. The following led to a heated discussion at our Catan game last night and we're out to find the answer!  \n\nIt's my turn. Whilst on 9 points, I bought a Development card which contained the 1 Victory Point - and thus my winning 10th point. Does that Victory Point gets 'activated' straight away e.g. I won immediately due to that card, or would I have to wait till my next turn before it counts? \n\nThnks so much!\n\nNormally you're not allowed to use a development card in the same turn that it was bought. However, the VP cards are exempt from that restriction.\nSo, you're allowed to play them immediately or wait to reveal them until the end of the game.\n\nIn versions that use the standard set of development cards, victory points aren't revealed except at the end of the game. There is no rule Apparently in newer editions, there is a rule to stop you from revealing them earlier, and demonstrating the lack of a monopoly card might occasionally make trading a little bit easier for you, but that's about the only benefit that revealing your VP cards may have.\n\nAnnouncing your victory does not count as a use of development cards. In theory, you could buy several cards at once, find more than one VP and thereby finish the game. Possibly after playing another development card that gave you Longest Road, Largest Army, or the resources to buy that many development cards."
+        },
+        {
+          "username": "jutuomin",
+          "date": "2020-04-10T09:11:32-05:00",
+          "body": "I cannot say for sure that this is wrong (for instant I don't own the game so I cannot check the rules). But I have played Catan a lot online (using the Windows games application) and in that game you cannot get your 1 extra point until one turn after you have purchased your Development Card.\n\nNot that I think it makes much difference playing either way. In some very unique situations it might make a difference though.\nI would suggest that this thing is discussed before the game starts so that everyone plays with the same rules.\nHaving that 1 point to count might make the game easier to play as you are very keen to announce your victory when you have 9 points and get one from the Developmetn Card. This is almost what every human would intuitively do. While not counting the point until your next turn makes sense when you think of Development Cards in general. It would have the same rule as with any other card."
+        },
+        {
+          "username": "Chango",
+          "date": "2020-04-10T09:39:36-05:00",
+          "body": "Normally you're not allowed to use a development card in the same turn that it was bought. However, the VP cards are exempt from that restriction.\nSo, you're allowed to play them immediately or wait to reveal them until the end of the game.\n\nI cannot say for sure that this is wrong (for instant I don't own the game so I cannot check the rules). But I have played Catan a lot online (using the Windows games application) and in that game you cannot get your 1 extra point until one turn after you have purchased your Development Card.\n\nNot that I think it makes much difference playing either way. In some very unique situations it might make a difference though.\nI would suggest that this thing is discussed before the game starts so that everyone plays with the same rules.\nHaving that 1 point to count might make the game easier to play as you are very keen to announce your victory when you have 9 points and get one from the Developmetn Card. This is almost what every human would intuitively do. While not counting the point until your next turn makes sense when you think of Development Cards in general. It would have the same rule as with any other card.\n\nIs not wrong, rules allows that, claim the point when you purchase it triggering the end game. In fact, if you have 8 public points + 1 secret point in hand and then purchase a 2nd one, you immediately can reveal both at once wining the game."
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2020-04-10T09:41:11-05:00",
+          "body": "The 5th edition rules at www.catan.com say:\nIf you buy a card and it is a victory point card that brings you to 10 points, you may immediately reveal this card (and all other victory point cards) and win the game.\n\n(p7)\n\nI have 3rd edition but I'm pretty sure the rules in that say the same thing."
+        },
+        {
+          "username": "Khonnor",
+          "date": "2020-04-10T09:41:15-05:00",
+          "body": "Directly quoted from the rules it says the following:\n\n\"you must keep victory point cards hidden. You may only reveal them during your turn and when you are sure that you have 10 victory points - that is, to win the game. Of course, you can reveal them after the end of the game if someone else wins. You may play any number of victory point cards during your turn, even during the turn you purchase them.\"\n\nSo, the OP was still right in purchasing and immediately revealing a victory point card, giving them the 10 points they needed."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2020-04-11T02:34:04-05:00",
+          "body": "What about the rule quoted in the post above this one? Doesn't that stop you from revealing victory point cards early?"
+        },
+        {
+          "username": "Luk Van Baelen",
+          "date": "2021-12-29T16:46:31-06:00",
+          "body": "- I have 8 points (2 cities, 1 settlement, 3 points (hidden) from development cards\n- I have already played 1 knight development card\nIt’s now my turn\n- I play a second knight\n- I buy a development card: a knight\nAs this is my 3rd knight, do I win the game ? The 3 knights entitle me the 2 points which brings the total to 10.\nAnd the rules state that when you buy a development card and it’s your tenth point, you can play it."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2021-12-29T17:58:03-06:00",
+          "body": "Luk Van You technically never play victory point cards. You can just show them to claim the win. But a knight is not a victory point card. You need to actually play your third knight before you can claim the largest army."
+        },
+        {
+          "username": "ackmondual",
+          "date": "2021-12-30T10:33:00-06:00",
+          "body": "As this is my 3rd knight, do I win the game ? The 3 knights entitle me the 2 points which brings the total to 10.\nAnd the rules state that when you buy a development card and it’s your tenth point, you can play it. \n\nYou technically never play victory point cards. You can just show them to claim the win. But a knight is not a victory point card. You need to actually play your third knight before you can claim the largest army.\n\nWas there are reason VP cards are just \"shown\" vs \"played\"?"
+        },
+        {
+          "username": "WilbertK",
+          "date": "2021-12-30T10:49:15-06:00",
+          "body": "Beyond \"it's the rules\" I'm not sure there's a satisfying answer. I guess that if you had to play them it would stall the end game in a very anti-climactic manner."
+        },
+        {
+          "username": "Barninator",
+          "date": "2024-01-08T11:30:08-06:00",
+          "body": "Luk Van You technically never play victory point cards. You can just show them to claim the win. But a knight is not a victory point card. You need to actually play your third knight before you can claim the largest army.\n\nWas there are reason VP cards are just \"shown\" vs \"played\"?\n\nThe reason victory point cards are \"revealed\" and not \"played\" is that you are only allowed to play 1 development card on your turn.  (This only applies to development cards which do things other than directly provide victory points.)\n\nYou can reveal all of your victory point development cards on your turn (in order to bring your total victory points up to 10+).  This can be in addition to the 1 development card you play.\n\nSo, the distinction exists to help remind players that you do not have to use your sole development card \"play\" for the victory point cards you have."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 15,
+      "date_range": [
+        "2020-04-10",
+        "2024-01-08"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_2850176",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "2850176",
+      "thread_subject": "Ruling on gold tokens in basic setup for six players catan rivers",
+      "embed_text": "In the basic setup for six players in Catan with rivers, do players receive additional gold tokens for settlements or roads built adjacent to multiple rivers?",
+      "content": "One user stated that the rule for gold for settlements does not take into account the number of river hexes the settlement is adjacent to, suggesting no additional gold is awarded. Another user suggested posting the question in a different thread for The Great River expansion.",
+      "raw_thread": [
+        {
+          "username": "Krustynp",
+          "date": "2022-04-15T16:07:05-05:00",
+          "body": "Was playing rivers of catan last night with friends and a interesting question arised, in the basic 5-6 set up \n (see image for reference)\nIn the area between the two mountain hex's would you be awarded two gold each for your road and settlement if you built in that area yes, you are adjacent to two rivers\n\nWould be cool to see how others would rule this"
+        },
+        {
+          "username": "tabicat",
+          "date": "2022-04-15T16:56:41-05:00",
+          "body": "Are you talking about The Settlers of Catan: The Great River expansion?  If so, you should post your question there."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2022-04-15T18:12:37-05:00",
+          "body": "The rule for gold for settlements doesn't take into account the number of river hexes the settlement is adjacent to. So I wouldn't expect to get more gold for being adjacent to multiple rivers."
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "low",
+      "post_count": 3,
+      "date_range": [
+        "2022-04-15",
+        "2022-04-15"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_2903871",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "2903871",
+      "thread_subject": "Resources ",
+      "embed_text": "Do hexagons adjacent to a road generate resources, or is a city or settlement required to generate a resource?",
+      "content": "The community resolved that only settlements and cities generate resources, not the hexagons adjacent to roads. This is supported by the rules, which mention that it is the city or settlement that generates the resource, with no mention of roads.",
+      "raw_thread": [
+        {
+          "username": "Miragetwothousand",
+          "date": "2022-07-22T05:16:36-05:00",
+          "body": "Do the hexagon adjacent to the road generate resources ? Or there has to be a city or settlement next to the hexagon to generate a resource."
+        },
+        {
+          "username": "Arges92",
+          "date": "2022-07-22T05:34:49-05:00",
+          "body": "Only settlement and cities"
+        },
+        {
+          "username": "Karlsen",
+          "date": "2022-07-22T05:38:48-05:00",
+          "body": "It is the city or settlement that is generating the resource(s).\n\nSee section 1. Resource production of the rules, absolutely no mention of roads."
+        },
+        {
+          "username": "Miragetwothousand",
+          "date": "2022-07-22T08:34:42-05:00",
+          "body": "Thanks"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 4,
+      "date_range": [
+        "2022-07-22",
+        "2022-07-22"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_2904417",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "2904417",
+      "thread_subject": "Can you build a road from one of your non-blocked roads if other player's settlement is at the other endpoint of the constructed road?",
+      "embed_text": "Can a player build a road from one of their existing roads to an intersection occupied by another player's settlement, if the starting intersection is not blocked?",
+      "content": "The community resolved that a player can build a road from an unblocked intersection, even if the road will end at another player's settlement, as long as the starting intersection is empty. The key factor is whether the intersection where the road starts is empty, not where it ends.",
+      "raw_thread": [
+        {
+          "username": "vshorb",
+          "date": "2022-07-23T02:59:20-05:00",
+          "body": "'-' - my existing roads, 'X' - other player's settlement, '=' - road I want to build; is the following setup legal, i.e. can I build the '=' road:\n\n      = X\n   / \n  |\n\n?"
+        },
+        {
+          "username": "l-hansen",
+          "date": "2022-07-23T03:16:49-05:00",
+          "body": "Really can't figure it out from your \"graphics\". Could you take a photo and upload it instead?"
+        },
+        {
+          "username": "WilbertK",
+          "date": "2022-07-23T04:08:12-05:00",
+          "body": "I agree that a photo would be infinitely more clear. But I'm pretty sure what you want is not allowed."
+        },
+        {
+          "username": "jorganos",
+          "date": "2022-07-23T05:08:29-05:00",
+          "body": "Do you mean \"can I continue to build on a road where another player placed a settlement between two road pieces of mine\", then the answer is yes if the intersection you want to build past has no other player's piece (settlement, city, C&K knight) on it. Also, you can extend your road network to other players' settlements to add another piece to your bid for longest road.\n\nCan I build a road on an edge where the intersection connecting to my road has another player's piece? Then the answer is no."
+        },
+        {
+          "username": "grarrrg",
+          "date": "2022-07-23T10:16:08-05:00",
+          "body": "Forget hexagons...straight line for example:\n\n- - - = X\nYes, you can build.\n\n- - - X =\nNo, you cannot build.\n\n- - X - =\nYes, you can build."
+        },
+        {
+          "username": "odie73",
+          "date": "2022-07-23T15:08:46-05:00",
+          "body": "To put it into words: \n\nIf a road ends in an empty intersection you can expand from that end. Whether the newly built road ends at an opponent's village or city afterwards does not matter."
+        },
+        {
+          "username": "vshorb",
+          "date": "2022-07-24T16:35:31-05:00",
+          "body": "Got it, thanks! Yes, the rules seem pretty clear about disallowing building roads from the intersection if there's an opponent's village/city there. My question was if I can build a road starting from a \"valid\" intersection if it will end at the opponent's village/city - this seems like a useful way to block opponent from expanding in this direction. Seems like it's allowed, thanks everyone for your answers"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 7,
+      "date_range": [
+        "2022-07-23",
+        "2022-07-24"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_2906160",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "2906160",
+      "thread_subject": "Longest Road vs. Largest Army",
+      "embed_text": "How do the Longest Road and Largest Army cards work in the game of Catan, specifically in situations where a player's road is tied or broken by another player's settlement?",
+      "content": "The Longest Road card is removed from the game if another player builds a road of equal length, until a new longest road emerges. However, if a player's longest road is broken by a settlement, the card is only removed if the player is no longer tied for the longest road. The Largest Army card, on the other hand, remains with the original owner in the event of a tie, and only gets transferred if another player builds a larger army.",
+      "raw_thread": [
+        {
+          "username": "scotty321",
+          "date": "2022-07-26T07:02:58-05:00",
+          "body": "Longest Road vs. Largest Army:\n\nThere seems to be a difference in the rules for how these 2 cards are played.\n\n1. If you have the longest road card first, and then somebody ties you for the length of your road, the card gets removed from the game until somebody ends up with an actual longer road.\n\n2. However, if you have the largest army card first, and then somebody ties you for your amount of knight cards, you still get to hold onto your largest army card for the rest of the game unless someone ends up with more knight cards than you.\n\nIs this correct? Why the discrepancy between how these 2 cards are played?"
+        },
+        {
+          "username": "jutuomin",
+          "date": "2022-07-26T07:09:09-05:00",
+          "body": "I don't think 1. is correct.\nOnly time I have heard that The Longest Road gets removed is if someone builds a settlement in the middle of other player's (longest) road which cuts that road in half and there are no other roads in the game that are long enough."
+        },
+        {
+          "username": "scotty321",
+          "date": "2022-07-26T07:16:52-05:00",
+          "body": "The official rulebook states the exact opposite of this:\n\n1. In the event that the longest road is broken up by someone building a settlement in the middle of the longest road, the original person still gets to hold onto their longest road card, because they are still considered to have the longest road.\n\n2. However, if another player builds a road of equal length to the longest road, then the longest road card is removed from the game until a new longest road emerges.\n\n3. But in the case of the largest army, the largest army card always stays with the original owner in the event of a tie, and only gets transferred to another person if that person builds a larger army. \n\nPretty confusing, and it is glossed over pretty quickly in the rulebook. Although ideally, the ruies should be changed to be more consistent — instead of having 3 completely different sets of rules."
+        },
+        {
+          "username": "ChrisB",
+          "date": "2022-07-26T07:27:39-05:00",
+          "body": "There seems to be a difference in the rules for how these 2 cards are played.\n....\nIs this correct? Why the discrepancy between how these 2 cards are played?\n\nNo, both are basically played the same way \nRules on Catan.com pg 9:\n[If you hold the \"Longest Road\" card and another player builds a longer road, they immediately take your \"Longest Road\" card\n\nRules on Catan.com pg 5\n[If another player has more knight cars in front of them than the current holder of the Largest army card, they immediately take the special card...\n\n \n\nI think your confusion arises from situations where a player can get his number of roads reduced, say if his 5 length road is cut by the settlement of another player. The card can then be temporarily removed if no single player qualifies for \"Longest read\", say if 2 other players both have a road 5 long, or noone has a road 5 or longer. Once a player has a road that is at least 5 long and it is the longest, he gets the card.\nEdit: curses, 2nd on the \"puck\"."
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2022-07-26T07:28:15-05:00",
+          "body": "Only time I have heard that The Longest Road gets removed is if someone builds a settlement in the middle of other player's (longest) road which cuts that road in half and there are no other roads in the game that are long enough.\n\nThe official rulebook states the exact opposite of this:\n\n1. In the event that the longest road is broken up by someone building a settlement in the middle of the longest road, the original person still gets to hold onto their longest road card, because they are still considered to have the longest road.\n\n2. However, if another player builds a road of equal length to the longest road, then the longest road card is removed from the game until a new longest road emerges.\n\n3. But in the case of the largest army, the largest army card always stays with the original owner in the event of a tie, and only gets transferred to another person if that person builds a larger army. \n\nPretty confusing, and it is glossed over pretty quickly in the rulebook. Although ideally, the ruies should be changed to be more consistent — instead of having 3 completely different sets of rules.\n\nMy rules (very old, 3rd edition I think) agree with jutuominen's. Both largest army and longest road are treated the same: they remain with the owner until someone else gets a larger army or a longer road. A settlement in the middle of a road breaks that road up, and if no single person now has longest road (or the longest is now less than 5 segments), the card is set aside until someone has a valid longest road again.\n\nWhat version of the game do you have, Scott?"
+        },
+        {
+          "username": "jutuomin",
+          "date": "2022-07-26T07:32:33-05:00",
+          "body": "Scott Can you point where in the rules it says this?:\nhttps://www.officialgamerules.org/settlersofcatan\nMy game's rules are a translation (in Finnish) so that might be an issue."
+        },
+        {
+          "username": "ChrisB",
+          "date": "2022-07-26T07:37:28-05:00",
+          "body": "My rules (very old, 3rd edition I think) agree with jutuominen's. Both largest army and longest road are treated the same: they remain with the owner until someone else gets a larger army or a longer road. A settlement in the middle of a road breaks that road up, and if no single person now has longest road (or the longest is now less than 5 segments), the card is set aside until someone has a valid longest road again.\n\nWhat version of the game do you have, Scott?\n\nI think Scott misreads this special case on page 9 where it says that if your road is cut and your shortened road ties (edit: and qualifies) for longest, you keep the card.\nhttps://www.catan.com/sites/default/files/2021-06/catan_base... (Open the file, search for \"Special case\")\n(Sorry, my pdf reader wont let me copy the text, and it's too long for me to handtype.)\n\nEdit:\nNo, as I quoted in my first post from the rules at Catan.com, \"[If you hold the \"Longest Road\" card and another player builds a longer road, they immediately take your \"Longest Road\" card\" something which is not possible if you  lose the card when they tie you, that is, the card would not be \"yours\"."
+        },
+        {
+          "username": "mtaylor314",
+          "date": "2022-07-26T07:49:11-05:00",
+          "body": "1. In the event that the longest road is broken up by someone building a settlement in the middle of the longest road, the original person still gets to hold onto their longest road card, because they are still considered to have the longest road.\n\n2. However, if another player builds a road of equal length to the longest road, then the longest road card is removed from the game until a new longest road emerges.\n\nWhere in the rulebook and what edition are you getting this from? As others have said, I've always longest road only gets removed if an opponent builds a settlement break up your longest road and now its not at least 5 lengths. If an opponent builds their road to tie yours, you keep it until theirs is longer"
+        },
+        {
+          "username": "pauvre",
+          "date": "2022-07-26T08:19:56-05:00",
+          "body": "Here is the quote from the official rulebook:\n The first player to build a continuous road (not counting forks) of at least 5 road segments, receives the Special Card \"Longest Road\".\n\nIf another player succeeds in building a longer road than the one created by the current owner of the \"Longest Road\" card, he immediately takes the Special Card (and its 2 victory points). In this case, there is a 4 victory point swing!  \n\nHope this helps!"
+        },
+        {
+          "username": "scotty321",
+          "date": "2022-07-26T08:29:55-05:00",
+          "body": "Below is the photo from the newest version of rulebook. \n\nIf an opponent builds their road to tie your road, you lose the tile (and they do not gain the tile).\n\nHowever, the largest army card acts completely differently:\n\nIt’s disappointing that these 2 cards work completely differently from one another. It creates a lot of confusion and unnecessary bickering during a game.\n\nI suppose the only confusion remains for me over someone breaking up a longest road with a settlement."
+        },
+        {
+          "username": "jutuomin",
+          "date": "2022-07-26T08:36:53-05:00",
+          "body": "If an opponent builds their road to tie your road, you lose the tile (and they do not gain the tile).\n\nHowever, the largest army card acts completely differently:\n\nIt’s disappointing that these 2 cards work completely differently from one another. It creates a lot of confusion and unnecessary bickering during a game.\n\nI suppose the only confusion remains for me over someone breaking up a longest road with a settlement.\n\nThat is not what it says.\nIt's a special rule about a special case where opponent builds a settlement in the middle of other player's (longest) road.\n\nThis rule doesn't come in the play very often. I think I have never seen it played in any of my games."
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2022-07-26T09:05:46-05:00",
+          "body": "Exactly. Scott, you are misreading that rule; it only applies in that special case, and even then only if you are no longer tied for longest road.\n\nSee the rule above that for what happens if someone just builds up their road till it equals yours: it's the same as with largest army.\n\nThe reason this special rule exists is for cases like this:\n\nPlayer A has longest road, at 9 segments.\nPlayers B and C are tied for second, at 6 segments.\nIf player A's road is broken into 5 and 4 by someone else's settlement, who should get the longest road card? A is no longer even tied for longest, but should it go to B or C?\n\nThis rule makes it clear that no-one gets it in that case."
+        },
+        {
+          "username": "scotty321",
+          "date": "2022-07-26T10:02:26-05:00",
+          "body": "Thanks, everyone, for the clarification on this!! \n\nDamn, it looks like we were playing this rule properly for years, and then there was some recent confusion over what I believe is a poorly written almanac.\n\nAnd then, the confusion was confounded when somebody in my group Googled \"Catan 2 people tied longest road\", which led to the incorrect answer (on these forums). They didn't click through on the link to see that people corrected that person's incorrect answer.\n\nSo we were playing this rule properly for years, then we changed how we played the rule, and now we have to go back to normal! Lol.\n\nThank you for the clarification!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 13,
+      "date_range": [
+        "2022-07-26",
+        "2022-07-26"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_2912186",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "2912186",
+      "thread_subject": "Clarification of Harbor rules",
+      "embed_text": "Can a harbor in the game of Catan be accessed from two or three settlements along its hex? How do the harbor rules work in relation to the hex edges and intersections?",
+      "content": "A harbor can only be accessed from two settlements along its hex, specifically the two intersections on the same edge of the hex where the harbor is located. This is because harbors are features of an edge, not the whole tile. Only one player can claim each harbor.",
+      "raw_thread": [
+        {
+          "username": "ryleyra",
+          "date": "2022-08-05T17:06:10-05:00",
+          "body": "I came here searching for a clarification of a rule, and surprisingly saw no post directly about it. (There were a few that indirectly addressed the question, but it took me some time to find them) Since I came up with this question and others might wonder about the same thing I thought I might go ahead and make a post.\n\nThe answer may seem obvious, but I was wondering if a harbor can only be accessed from two settlements along its hex, or three. On the frames used by the most recent editions, there are jettys adjacent to two of the intersections of the hex, but there is also an intersection on the same coast that looks like it could be used, according to the stated rules, but there is no jetty.\n\nI always assumed that only the jettys could be used, which is correct, but I was was reading a review of 3D Catan that caused me to question that assumption. I came here to ask that question, or at least get clarification that I was right.\n\nMy solution was to realize that harbors are on the EDGE of the hex on which they are located, not the whole tile. This can be clearly seen in previous editions of Catan, where the sea hexes along the border clearly marked the two intersections where a settlement may be placed. The change from hexes to frame pieces obscured that factor, but harbors are still along a single edge of a the frame.\n\nTo put the nail in the coffin, the harbor pieces in Seafarers are clearly placed adjacent to an edge of a shoreline hex. There is no need for confusion as long as you understand the harbor is a feature of an edge.\n\nThis if course means that only one player can claim each harbor, which I'm sure was intended. \n\n(To clarify why I was confused, the harbors in 3D Catan are boats, with 3D cargo loaded into them, which I really like. But each boat had a pair of gangplanks, and the reviewer just placed them haphazardly, making it look like they were leading to two adjacent hexes. This was wrong; the boats were supposed to be placed with the gangplanks leading to the two vertices of the same edge)"
+        },
+        {
+          "username": "Smolskc",
+          "date": "2022-08-05T20:19:38-05:00",
+          "body": "You are correct that the harbors could only have at most one settlement each. They are meant to be aligned to an edge as a trade-off for only getting access to one or two production hexes."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 2,
+      "date_range": [
+        "2022-08-05",
+        "2022-08-05"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_295821",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "295821",
+      "thread_subject": "2 for 1 ports",
+      "embed_text": "Do 2:1 ports in the game of Catan allow for trading in both directions, or are they one-way only? For example, can a brick port be used to trade two bricks for one of any other resource, or also to trade two of any other resource for one brick?",
+      "content": "The community consensus is that 2:1 ports are one-way only, allowing players to trade two of the specified resource for one of any other resource, but not the reverse. This is supported by the majority of posts and is consistent with the rulebook.",
+      "raw_thread": [
+        {
+          "username": "Barticus88",
+          "date": "2008-02-24T13:57:28-06:00",
+          "body": "Do the 2:1 ports go both ways?  When I played in Los Angeles (multiple groups, but overlapping members), the rule was that it did, while here in Seattle (two groups, no known overlap) everyone says the 2:1 are one way only.\n\nTo elaborate, if I have a brick port, in Los Angeles I could use it to trade two brick for one of anything or to trade two (identical) of anything for one brick.  In Seattle I am told I can only use it to trade two brick for one of anything.  I looked at the rule book (from last century) and it was rather vague, but to me it implied it went both ways.  How do most people play, and in more recent editions is the rule written more clearly?"
+        },
+        {
+          "username": "chockle",
+          "date": "2008-02-24T14:14:46-06:00",
+          "body": "two brick for one of anything"
+        },
+        {
+          "username": "weevol",
+          "date": "2008-02-24T14:19:51-06:00",
+          "body": "Seattle is correct."
+        },
+        {
+          "username": "brafman",
+          "date": "2008-02-24T14:28:16-06:00",
+          "body": "Yep, one way only."
+        },
+        {
+          "username": "Case",
+          "date": "2008-02-24T15:19:20-06:00",
+          "body": "Seattle 1\n\nLA      0"
+        },
+        {
+          "username": "turtleback",
+          "date": "2008-02-24T18:21:25-06:00",
+          "body": "LA      0\n\nIt think that's one of the first times we have beat LA!"
+        },
+        {
+          "username": "ackmondual",
+          "date": "2008-02-24T18:35:35-06:00",
+          "body": "my vote is with Seattle as well.  It's 2 brick for one of any other resource type.\n\nInterestingly enough, someone's game group who posted here on BGG thought it was ONLY the other way around.  2 of any resource for one brick"
+        },
+        {
+          "username": "FlatOnHisFace",
+          "date": "2008-02-25T13:05:26-06:00",
+          "body": "Chock one up for the home team!\n\nIn yer face LA!\n\n(Which I think stands for \"Losing Argument\")"
+        },
+        {
+          "username": "Barticus88",
+          "date": "2008-02-29T23:46:39-06:00",
+          "body": "I went and looked this up and wrote it down.  In a recent rulebook I found this very clear statement:\n\nNew There's no arguing with that rule.  However, in an old rulebook (back when \"specific ports\" were \"special harbors\"), I find this:\n\nOld With all this verbiage (mixing tactical advice with rules of play) they never got around to clearly stating the rule.  A strict reading of this says I can only use my brick port harbor to trade two brick for one brick.  Clearly that's useless, so it must mean that brick needs to be on one side of the transaction, but it doesn't say which.  I can understand how someone concluded that it's two anything for one brick, though that is of limited utility.  It goes on to include a correct example, but there's nothing which explicitly bars the reverse trade.  Once you believe the trades run either way, there's nothing in the old rulebook to convince you otherwise.\n\nI liked the old LA rule.  It was rare that you used the reverse trade, but it was nice to have when you needed it."
+        },
+        {
+          "username": "Rusty Gamer",
+          "date": "2008-11-02T05:45:12-06:00",
+          "body": "Well, you could have a variation that if you upgrade a port settlement to a city, then you can have it both ways. :)"
+        },
+        {
+          "username": "itsmenadz33",
+          "date": "2019-01-02T15:53:11-06:00",
+          "body": "do you have to put a settlement on a port for it to be used? And if the ports a wood port does your road have to include a wood hex?"
+        },
+        {
+          "username": "DominionFamily",
+          "date": "2019-01-02T17:32:19-06:00",
+          "body": "Yes\n\nNo, there is no requirement like that."
+        },
+        {
+          "username": "mintern",
+          "date": "2020-09-11T19:27:54-05:00",
+          "body": "I've never played with the \"both ways\" rule, but it makes thematic sense to me. If I can take my bricks down to the port and trade them for other resources, some merchant at the port must be on the other side of that trade, trading those resources for brick. It makes logical sense to go trade for bricks, too, and our hypothetical merchant would love the opportunity to double up on both sides of the trade.\n\nIf a gaming group decides to play with this rule as a variant, it seems like it could introduce an interesting strategy wrinkle and more flexible starting opportunities. Can anyone, perhaps someone who has played \"both ways\" several times, describe ways that this rule would significantly break the dynamics?"
+        },
+        {
+          "username": "jorganos",
+          "date": "2020-09-13T09:45:41-05:00",
+          "body": "I think that having the \"we sell one brick for any two resources of the same kind\" port (or trade card) in addition to the conventional ones can introduce new goals in an expanded map Catan game (like Seafarers or possibly E&P)."
+        },
+        {
+          "username": "billybobjones1",
+          "date": "2024-12-28T07:59:48-06:00",
+          "body": "Yes, it fully changes the game and makes otherwise hard to obtain resources easy to get. For example, I played a game where the ore numbers were 2, 12, and 9, one of my friends got the ore 2:1 harbor/port and used that to get a ridiculous amount of ore because he traded sheep which was in abundance for the ore. 2 sheep for 1 ore."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 15,
+      "date_range": [
+        "2008-02-24",
+        "2024-12-28"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_2997558",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "2997558",
+      "thread_subject": "Can a settlement intersect another player’s road that only has a settlement on one side?",
+      "embed_text": "Can a player build a settlement that intersects another player's road, effectively isolating it, if the road only has a settlement on one side?",
+      "content": "The community consensus is that the settlement can be built, and it will separate the red road line for purposes of calculating the Longest Road. However, the isolated road is not 'dead' and the player can still build off it by adding another road first. The official FAQ and rules references support this interpretation.",
+      "raw_thread": [
+        {
+          "username": "tylermt1999",
+          "date": "2022-12-29T19:31:02-06:00",
+          "body": "In the picture below, can blue build a settlement in the purple circle, leaving red’s road stranded? \n\nIf someone can point me to a section in the rules, I’d appreciate it, this is a huge sticking point in our game"
+        },
+        {
+          "username": "whac3",
+          "date": "2022-12-29T19:37:10-06:00",
+          "body": "The rules just say it has to be two away from any other settlement. That point is. So it's allowed."
+        },
+        {
+          "username": "Arges92",
+          "date": "2022-12-29T19:53:16-06:00",
+          "body": "It's allowed and one way to cut off others routes"
+        },
+        {
+          "username": "tylermt1999",
+          "date": "2022-12-29T20:04:46-06:00",
+          "body": "So blue CAN build there and isolate that one red road, so it is no longer connected to anything?\n\nJust need some clarification, this is a pretty big sticking point in the game"
+        },
+        {
+          "username": "Arges92",
+          "date": "2022-12-29T20:05:42-06:00",
+          "body": "Yes, blue can build there."
+        },
+        {
+          "username": "monkeyhandz",
+          "date": "2022-12-29T20:11:42-06:00",
+          "body": "Just need some clarification, this is a pretty big sticking point in the game\n\nSee page 9\n\nhttps://www.catan.com/sites/default/files/2021-06/catan_base..."
+        },
+        {
+          "username": "Eldard",
+          "date": "2022-12-29T20:14:03-06:00",
+          "body": "The placing of a Blue settlement is legal as noted above, and furthermore, it affects Red when considering the Longest Road.  \n\nIn your example, if Red constructed a road between the \"5\" and \"4\" hexes, thus connecting the 2 existing Red roads coming from the two Red settlements (5 total), Red would be awarded the Longest Road card (unless someone else already held it).  The placing of the Blue settlement in the purple circle would then divide that Red Longest Road into two shorter roads (3 + 2), and Red would lose the Longest Road card."
+        },
+        {
+          "username": "kkstiles",
+          "date": "2022-12-29T21:17:05-06:00",
+          "body": "Just need some clarification, this is a pretty big sticking point in the game\n\nAs others have said, Blue can build there, but I wanted to add that while that would leave the red road no longer connected to anything, Red could still build off that road. They'd have to add another road first before a settlement and on the current board that would only get them a 5 wood, but the road isn't \"dead\" just because it's on its own. \n\n(Also, it's funny to me that it's Blue that is shown as doing this in your picture. At my house, the person who always plays with that color has earned the name The Evil Blue People because he'll regularly do this, usually 2 roads and a settlement all in one turn. And often on the spot that his mother-in-law has been trying to collect resources to build on for ages! )"
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2022-12-30T05:08:50-06:00",
+          "body": "Since the OP asked for a rules reference: in the rules linked by Liam above, the picture under “Longest Road” shows exactly this happening, and the text explains that building there will break the road up, as Bill said."
+        },
+        {
+          "username": "Argus Panoptes",
+          "date": "2022-12-31T19:16:48-06:00",
+          "body": "See also the official FAQ at https://www.catan.com/node/1532"
+        },
+        {
+          "username": "jorganos",
+          "date": "2023-01-04T06:22:24-06:00",
+          "body": "Blue can build a settlement there, which separates the red road line for purposes of calculating the Longest Road. Red can however continue to add roads to the isolated road, build settlements there, and might ultimately reconnect that road section to the other section by going around the coastal wood tile with the 5,  and /or connect one the roads to the other red settlement around the brick tile.\n\nIn this specific situation, if red wants to continue its longest road strategy it either needs to run around the coast line or connect the two settlements, losing the advantage of two roads already built. It is a setback, but hardly a crushing blow."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 11,
+      "date_range": [
+        "2022-12-29",
+        "2023-01-04"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3001131",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3001131",
+      "thread_subject": "First round settlement placement question...",
+      "embed_text": "Does the distance rule apply when placing the first settlement in the first round of the game?",
+      "content": "The community consensus is that the distance rule always applies, even during the first round of settlement placement. However, some users pointed out that the wording in the rulebook is ambiguous and could be improved to avoid confusion.",
+      "raw_thread": [
+        {
+          "username": "AbstractStrategy",
+          "date": "2023-01-04T00:01:13-06:00",
+          "body": "The rules seem to be worded ambiguously with regard to how settlements may be placed on the first round. It says, 'When placing all other settlements, the Distance Rule * (see page 7) always applies!' It is not clear from this whether they mean that the distance rule applies only after every player has placed their first settlement OR whether the distance rule applies after the first player has placed their first settlement. Most sources seem to think the distance rule always applies but then, if this is the intended meaning, IMHO, it is VERY odd that the rules should mention the distance rule not applying at some point. The distance rules can still apply on the very first placement regardless of whether there is something to distance yourself from or not. There is no need to make an exception for this very first placement. This makes me lean towards interpreting the rules as 'the distance rule does not apply on round 1'. Does anyone know for absolute sure what the game designers intend?"
+        },
+        {
+          "username": "WilbertK",
+          "date": "2023-01-04T00:14:07-06:00",
+          "body": "The distance rule always applies. That's always been the case in any implementation of the game, digital or analog."
+        },
+        {
+          "username": "AbstractStrategy",
+          "date": "2023-01-04T00:24:10-06:00",
+          "body": "Ok. Cool. Thankyou. 🙂 They really need to change the wording in that case as it definitely implies the opposite."
+        },
+        {
+          "username": "Chango",
+          "date": "2023-01-04T04:43:56-06:00",
+          "body": "No need, that misinterpretation is yours alone."
+        },
+        {
+          "username": "Burning_Tyger",
+          "date": "2023-01-04T05:51:24-06:00",
+          "body": "Ok. Cool. Thankyou. 🙂 They really need to change the wording in that case as it definitely implies the opposite.\n\nNo need, that misinterpretation is yours alone.\n\nHaving never been confused about the rules, to be fair, if the wording in this version English rule book truly is:\n\n'When placing all other settlements, the Distance Rule * (see page 7) always applies!'*\n\n... then I could see how one might interpret it that way.  The word \"other\" is unnecessary, and should actually just be ''When placing all settlements, the Distance Rule * (see page 7) always applies!'*.  The addition of the word \"other\" would typically mean all settlements but those previously mentioned before this sentence.  So if the instructions before this sentence mentioned the first player places their first settlement only, then the usage of \"other\" makes sense still and would technically still be correct.  Even if that is true,  the word \"other\" remains unnecessary."
+        },
+        {
+          "username": "Dax006006",
+          "date": "2024-12-24T18:29:43-06:00",
+          "body": "I agree they should word it better.  Saying \"other\" implies there is a moment when the distance rule does not apply.  Anyone who reads carefully would see the ambiguity."
+        },
+        {
+          "username": "homewardbound",
+          "date": "2025-03-20T23:30:05-05:00",
+          "body": "Ok. Cool. Thankyou. 🙂 They really need to change the wording in that case as it definitely implies the opposite.\n\nNo need, that misinterpretation is yours alone.\n\nNot at all! We were also confused. It's crazy to think that there's still ambiguity in the rulebook for a game that's been around THIS long."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 7,
+      "date_range": [
+        "2023-01-04",
+        "2025-03-20"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3006481",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3006481",
+      "thread_subject": "Do you have to “claim” longest road",
+      "embed_text": "Do you have to claim the longest road in the game, or is it automatically awarded when a player meets the requirements?",
+      "content": "The community resolved that the longest road is automatically awarded when a player meets the requirements, and it is not necessary to claim it. According to the official rules, the first player to build a continuous road of at least 5 road segments receives the special card, and if another player builds a longer road, they immediately take the special card.",
+      "raw_thread": [
+        {
+          "username": "Kilroy451",
+          "date": "2023-01-11T22:02:38-06:00",
+          "body": "Do you have to claim longest road or is it issued regardless once you get required road pieces down."
+        },
+        {
+          "username": "wmshub",
+          "date": "2023-01-11T22:22:58-06:00",
+          "body": "Issued regardless."
+        },
+        {
+          "username": "chardir",
+          "date": "2023-01-12T03:52:53-06:00",
+          "body": "Official answer: https://boardgamegeek.com/thread/494190/article/4629712#4629...\n\nYou have to do everything the rules state, you cannot \"forget\" or choose not to claim a resource, longest road, victory etc."
+        },
+        {
+          "username": "TVis",
+          "date": "2023-01-12T06:06:20-06:00",
+          "body": "\"Claim\" (as a choice) may be a misdirection.\n\nAccording to rules copyright 2020, as found here: \"Game Rules for Download\" page at Catan.com, it would simply be awarded.\n\nPage 4\nThe first player to build a continuous road (not counting forks) of at least 5 road segments receives the special card \"Longest Road\".  If another player succeeds in bulding a longer road than the one created by the current owner of the \"Longest Road\" card, they immediately take the special card (and its 2 victory points)."
+        },
+        {
+          "username": "AllanSMW",
+          "date": "2023-01-12T15:34:41-06:00",
+          "body": "There are instances where it has an impact:\n1) When a second person reaches 5 they would otherwise be able to claim, even though not entitled to it.\n2) Cities and Knights progress cards for example consider people with more VP than you.  Therefore \"Not claiming 2 vp\" would have a big impact."
+        },
+        {
+          "username": "Chango",
+          "date": "2023-01-12T17:42:42-06:00",
+          "body": "To earn those cards you have to overpass the previous maximum count, not just tie them. Also, not claiming any will be always bad, a mistake for the player, because they grant points, nothing bad to chose to hide you awarded them."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 6,
+      "date_range": [
+        "2023-01-11",
+        "2023-01-12"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3044226",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3044226",
+      "thread_subject": "Answered. Clarification in specific scenario - it seems like yellow should be able to play a settlement at intersection of 6 pasture, 11 hill, and 12 pasture. What am I missing??",
+      "embed_text": "Can a player build a settlement at an intersection if they already have the maximum number of settlements on the board? What are the rules for building settlements in this scenario?",
+      "content": "The player cannot build a settlement at the intersection because they already have 5 settlements on the board, which is the maximum allowed. To build a settlement, the player would need to convert one of their existing settlements to a city, freeing up a settlement spot.",
+      "raw_thread": [
+        {
+          "username": "coffeeand",
+          "date": "2023-03-10T14:05:54-06:00",
+          "body": "Here's a screenshot:\n\nI'm yellow. It's not giving me the option to build a settlement - only roads. Am I missing something? A rule?"
+        },
+        {
+          "username": "cordeiro",
+          "date": "2023-03-10T14:12:56-06:00",
+          "body": "Here's a screenshot:\n\nI'm yellow. It's not giving me the option to build a settlement - only roads. Am I missing something? A rule?\n\nBecause Settlements need to be at least 2 spaces away - including from your opponent. Both Red and White are blocking you in this situatuon.\n\nI think she's okay with spacing.  It's the double wool and brick intersection on the right, just below the desert.  The real problem is you have 5 settlements on the board already.  Max is 5.  You need to build a city to free up a settlement."
+        },
+        {
+          "username": "ColtsFan76",
+          "date": "2023-03-10T14:13:07-06:00",
+          "body": "I'm yellow. It's not giving me the option to build a settlement - only roads. Am I missing something? A rule?\n\nYou already have 5 settlements on the board, which is the limit. Convert one to a City and that intersection will be legal again."
+        },
+        {
+          "username": "ColtsFan76",
+          "date": "2023-03-10T14:14:39-06:00",
+          "body": "I'm yellow. It's not giving me the option to build a settlement - only roads. Am I missing something? A rule?\n\nBecause Settlements need to be at least 2 spaces away - including from your opponent. Both Red and White are blocking you in this situatuon.\n\nI think he's okay with spacing.  It's the double wool and brick intersection on the right, just below the desert.  The real problem is you have 5 settlements on the board already.  Max is 5.  You need to build a city to free up a settlement.\n\nYeah, I didn't see the question in the thread title and my eyes were drawn to the middle of the board at 3, 10, 11. Once I saw the actual location in question, then I saw we had 5 settlements on the board."
+        },
+        {
+          "username": "coffeeand",
+          "date": "2023-03-10T14:51:22-06:00",
+          "body": "Oh!!! Thank you!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 5,
+      "date_range": [
+        "2023-03-10",
+        "2023-03-10"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3063626",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3063626",
+      "thread_subject": "Maritine Trading Rules",
+      "embed_text": "Can a player use a harbor to trade a resource received from another player on a different turn in the Catan 5-player expansion maritime version?",
+      "content": "A player can trade resources with another player, but they cannot use their harbor to trade a resource received from another player if it's not their turn.",
+      "raw_thread": [
+        {
+          "username": "Ellebell",
+          "date": "2023-04-10T14:04:40-05:00",
+          "body": "If I give someone say 2 sheep to trade for 1 ore as they have a harbour, then they can trade it back for say wool is that OK in catan 5 player expansion maratine version"
+        },
+        {
+          "username": "WilbertK",
+          "date": "2023-04-10T14:16:03-05:00",
+          "body": "They can trade you 1 ore for 2 sheep. But they can't use their harbour if it's not their turn."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 2,
+      "date_range": [
+        "2023-04-10",
+        "2023-04-10"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3065075",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3065075",
+      "thread_subject": "Rules, 1 victory point.",
+      "embed_text": "Can a 1 victory point development card be used in the same turn it is purchased in the game of Catan?",
+      "content": "The community is divided on the answer, with some citing the rulebook as saying development cards cannot be played the same turn they are purchased, while others point to specific exceptions for victory point cards that allow them to be revealed immediately if they bring the player to 10 points. Some argue that victory point cards are not 'played' but rather owned, and can be revealed at any time.",
+      "raw_thread": [
+        {
+          "username": "wetopia",
+          "date": "2023-04-13T01:48:37-05:00",
+          "body": "Hi!\nI have a doubt about the rules. Can the 1 victory point development card be used in the same turn it is purchased?"
+        },
+        {
+          "username": "WilbertK",
+          "date": "2023-04-13T02:09:19-05:00",
+          "body": "The way to think about it is this: you don't need to use these cards at all. They just count as hidden victory points from the moment you get them. This means there's no limit on the number you can reveal at the same time, or on when you can do so.\n\nSo yes, you can immediately 'use' them."
+        },
+        {
+          "username": "Goliath463",
+          "date": "2023-04-13T07:44:05-05:00",
+          "body": "According to page 5 of the rulebook (English version), you cannot play a development card the same turn it is purchased. Therefore if you purchase the game winning victory point you’d need to wait until your next turn to claim victory. The rules also state that you should keep your development cards secret to hide any victory points."
+        },
+        {
+          "username": "wetopia",
+          "date": "2023-04-13T08:19:36-05:00",
+          "body": "As you indicate, there seems to be a contradiction: is there an official email where I can clear up my doubts?"
+        },
+        {
+          "username": "Farleyd",
+          "date": "2023-04-13T08:35:38-05:00",
+          "body": "The Settlers of Catan. Fourth Edition. Game Rules & Almanac Page 7.\n\"Exception: If you buy a card and it is a Victory Point Card that brings you to 10 points, you may immediately reveal this card (and all other VP cards) and win the game.\""
+        },
+        {
+          "username": "Skeime",
+          "date": "2023-04-13T08:41:10-05:00",
+          "body": "In the rules linked on catan.com, page 5, right column under Victory Point Cards, it says at the end:\nYou may play any number of victory point cards during your turn, even during the turn you purchased them.\n\nClearly, this is meant to overwrite the general limitations on playing progress cards."
+        },
+        {
+          "username": "wmshub",
+          "date": "2023-04-13T10:28:41-05:00",
+          "body": "You do not play the VP cards. You simply own them, so the \"when you can play...\" doesn't apply. If you are at 9VP, and you buy a card, and it's a VP card...you win! Stand up and cheer!"
+        },
+        {
+          "username": "Fromper",
+          "date": "2023-04-13T12:57:13-05:00",
+          "body": "According to page 5 of the rulebook (English version), you cannot play a development card the same turn it is purchased. Therefore if you purchase the game winning victory point you’d need to wait until your next turn to claim victory. The rules also state that you should keep your development cards secret to hide any victory points. \n\nYou do not play the VP cards. You simply own them, so the \"when you can play...\" doesn't apply. If you are at 9VP, and you buy a card, and it's a VP card...you win! Stand up and cheer!\n\nThis also means that if you have 8 points, buy 2 dev cards, and they're both VPs, you still win instantly. The limit on playing more than one dev card per turn doesn't apply to these, because you're not playing them."
+        },
+        {
+          "username": "wetopia",
+          "date": "2023-04-14T01:45:25-05:00",
+          "body": "Thank you all."
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "low",
+      "post_count": 9,
+      "date_range": [
+        "2023-04-13",
+        "2023-04-14"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3129944",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3129944",
+      "thread_subject": "Can i build a setlement like this?",
+      "embed_text": "Can a settlement be built between two existing roads, and are there any restrictions on building a settlement near other settlements or cities?",
+      "content": "The community agrees that the settlement in question can be built, as it is at least two corners away from the nearest other settlement or city and is on a road of its own color. The fact that the roads in between are from different players does not matter.",
+      "raw_thread": [
+        {
+          "username": "Eidsvik",
+          "date": "2023-08-04T10:29:00-05:00",
+          "body": "Me and My girlfriend cant agree. Can i build a setlement(upgraded it to a city) like this?\nAll the road on the image allready was in place."
+        },
+        {
+          "username": "GozzyBear",
+          "date": "2023-08-04T10:43:47-05:00",
+          "body": "I can't see an issue with any of those buildings.  What specifically about the situation is your girlfriend disputing?"
+        },
+        {
+          "username": "wmshub",
+          "date": "2023-08-04T10:51:14-05:00",
+          "body": "The one with the arrow pointing to it is fine. It is at least two corners away from  the neirest other settlement or city, it is on a road of its own color...it's good!"
+        },
+        {
+          "username": "cordeiro",
+          "date": "2023-08-04T10:58:06-05:00",
+          "body": "Is the debated issue that the 2 roads in between white and orange are from different players?  That doesn't matter.  It's 2 intersections apart, regardless of road colors."
+        },
+        {
+          "username": "tabicat",
+          "date": "2023-08-04T11:00:08-05:00",
+          "body": "I think he's asking whether you can build a settlement between two existing roads (you can)."
+        },
+        {
+          "username": "Arges92",
+          "date": "2023-08-04T15:20:53-05:00",
+          "body": "I don't know what's the problem. Could you be more specific? We don't see any issue"
+        },
+        {
+          "username": "Eidsvik",
+          "date": "2023-08-05T03:12:52-05:00",
+          "body": "Thanks all! Just needed some support from the heros on the webb 😂"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 7,
+      "date_range": [
+        "2023-08-04",
+        "2023-08-05"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3132921",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3132921",
+      "thread_subject": "passing dice without rolling",
+      "embed_text": "Can a player pass the dice to the next player without rolling them, and if so, can they ask for the dice back to roll them? What are the rules regarding passing the dice without rolling?",
+      "content": "The community consensus is that a player's turn begins with rolling the dice, and passing the dice without rolling them is not a valid move. If a player passes the dice without rolling, they have essentially given up their turn. The tournament rules and standard rules both support this interpretation, and the community agrees that the game in question was invalid and should be replayed.",
+      "raw_thread": [
+        {
+          "username": "cole007",
+          "date": "2023-08-09T10:41:43-05:00",
+          "body": "If you pass dice without rolling them can you ask them back to roll if there are in next players hand?"
+        },
+        {
+          "username": "cordeiro",
+          "date": "2023-08-09T10:55:47-05:00",
+          "body": "I thought every player had to roll the dice at the beginning of their turn.  I don't think rolling the dice is optional."
+        },
+        {
+          "username": "odie73",
+          "date": "2023-08-09T10:59:07-05:00",
+          "body": "The rules clearly state that you must roll the dice at the beginning of your turn. Hence, the other player should not even accept the dice from you."
+        },
+        {
+          "username": "chadnorth",
+          "date": "2023-08-09T11:17:21-05:00",
+          "body": "A soldier may be played prior to the required dice roll."
+        },
+        {
+          "username": "cole007",
+          "date": "2023-08-09T14:01:07-05:00",
+          "body": "What if you forget? I saw the Canada Championship Final that guy forgot to roll after he played Knight and give dices to next player. Son after he wanted it back but that opponent did not want to give him because of the rule that if you gave away dices cant get them back."
+        },
+        {
+          "username": "cordeiro",
+          "date": "2023-08-09T14:29:33-05:00",
+          "body": "I'm not familiar with that particular game, but this is straight out of the rules published here:\nhttps://www.catan.com/understand-catan/game-rules\n\npage 4, turn overview:\n\"You must roll for resource production.\"\n\npage 4, the turn in detail:\n\"You begin your turn by rolling both dice.\"\n\nPerhaps this is what happened in the Canada game?\n\"After you're done, pass the dice to the player to your left, who then continues the game with step 1.\" (Step 1 being \"You must roll for resource production.\")  Maybe the player wanted the dice back to do something else on their turn, and the 2nd player said no?"
+        },
+        {
+          "username": "cole007",
+          "date": "2023-08-09T15:34:17-05:00",
+          "body": "Here it is. Watch from 15:30 to 17:00.\nhttps://www.youtube.com/watch?v=L7t2CypaTME"
+        },
+        {
+          "username": "Eldard",
+          "date": "2023-08-09T16:19:09-05:00",
+          "body": "The players violated the rules.  I guess there's no tournament official at the championship to appeal to.  IMHO, that game is invalid.  🙂"
+        },
+        {
+          "username": "ackmondual",
+          "date": "2023-08-09T16:53:54-05:00",
+          "body": "Need to replay from scratch 😄 😮"
+        },
+        {
+          "username": "odie73",
+          "date": "2023-08-09T17:04:38-05:00",
+          "body": "There is actually someone in the back in that video who looks like a referee. They seem to agree with the player not returning the dice. Maybe there is already some clarification somewhere but I would have ruled differently. \n\nThe tournament rules state this:\nThese are clarifications to the standard rules. If there is any disagreement between the standard rules and these clarifications, then the clarification is considered to be the official rule.... A player’s turn begins with receiving the passed dice.\n\nbut they also say this:\nGames follow CATAN 5th Edition rules. ... If rules are broken at a table, players must call for a referee immediately. The referee’s ruling is final.\n\nNow, you can say that the player's turn started with receiving the dice. However, passing the dice to the player was an illegal move since the resource roll has not happened yet. Since that was appealed in time I would have ruled that the tournament clarification is not superseding the standard rules here. \n\nOf course, I am not a Catan referee or tournament player. Probably a question that needs an official ruling from Catan Studios. If asked like this:\" Would it be possible in a Catan tournament for a player to forego their turn (including resource roll) by simply passing the dice to the next player?\", I have a hard time believing it would get a \"yes\" as response."
+        },
+        {
+          "username": "Eldard",
+          "date": "2023-08-09T22:35:24-05:00",
+          "body": "Agreed.  Under the rules, the player was not authorized to pass the dice until the player had rolled the dice and resolved the outcome (i.e., players earn appropriate resources; possible robber action).  Playing cards, trading; and building roads/settlements/cities are optional, but the active player must roll in order to determine roll outcomes for all the players.  If I can pass the dice without rolling them, then I don't have to worry about starting my turn with more than 7 cards -- no fear of the Robber.\n\nThe game was invalid and should be replayed."
+        },
+        {
+          "username": "ackmondual",
+          "date": "2023-08-09T23:18:40-05:00",
+          "body": "Oookay....\nSo at https://youtu.be/L7t2CypaTME?t=984, player played a knight card, moved the robber, stole a card from an opponent, and then passed the die to the next player.\n\nCommenters here \nhttps://youtu.be/L7t2CypaTME?t=1003\nare saying that since he passed the dice before rolling, \"it was ruled that that means you gave up your turn\".  Didn't know that was actually a thing! 😮\n\nHad an odd thing like this when playing a tourney of Doiminon, 4p game, somebody noticed in when there were 3 Provinces left that we only had 11 of them in the pile!  The ruling was made to just \"play as is\" since we were assuming that many were left anyways (except for the player that was card counting, but I digress)."
+        },
+        {
+          "username": "cole007",
+          "date": "2023-08-10T02:14:01-05:00",
+          "body": "Yes. I agree. On tournament where I was referee same thing with dices happened but  one roll after and because of that the player already rolled his dices and made a move we could not take all back. The play continued. In this video from Canada Championship Final almost immediately after he passed the dices he wanted them back but could not get them because of the rule. \nI can't find that rule."
+        },
+        {
+          "username": "ackmondual",
+          "date": "2023-08-10T13:29:37-05:00",
+          "body": "The game was invalid and should be replayed.\n\nWhile that should be what happens, in practice, they'll probably just \"play as is\" since the participates and judges may not have the time to sit through another game.  They may not have those tables available after a set time (may be needed for other matches?)\n\nTournament rules are odd at times.  For one case, if there's a tie, then they just flip a coin to see who wins b/c the game doesn't have a tiebreaker, or it's deemed to be worse than flipping a coin (evidently [shrug])"
+        },
+        {
+          "username": "Subangelis",
+          "date": "2023-08-16T12:48:04-05:00",
+          "body": "Been a bit since I played, but doesn't everyone gain from rolling for production? If so, then him not rolling dice for production screws everyone playing. Perhaps he didn't have favorable production numbers?"
+        },
+        {
+          "username": "ackmondual",
+          "date": "2023-08-16T13:07:08-05:00",
+          "body": "It can also hurt players if they're over the hand limit.  Or help but then hurt if you gain an 8th resource, and the next player rolls a 7"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 16,
+      "date_range": [
+        "2023-08-09",
+        "2023-08-16"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3217421",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3217421",
+      "thread_subject": "Building on coast Catan",
+      "embed_text": "Can you build a settlement on the coast in Catan, and if so, are there any specific rules or restrictions that apply? The game rules seem to contradict themselves when it comes to building on the coast. How do you determine if you can build a settlement on the coast?",
+      "content": "The community resolved that the restriction regarding settlement building is that all settlements must be at least two hex-sides apart, and this rule applies to building on the coast as well. One user explained that the intersections on the coast are treated as if they are adjacent to a free intersection, due to the original design of the game board. Another user provided context by mentioning that older versions of the game had full-size sea hexes instead of a frame.",
+      "raw_thread": [
+        {
+          "username": "tangodownNZ",
+          "date": "2023-12-31T17:17:28-06:00",
+          "body": "In the Catan rules it says you may only build settlements on an intersection when the 3 adjacent intersections are unoccupied. The game rules fail to mention anything about unoccupied intersections when building on the coast. The coast does not have 3 intersections, only 2 so it is impossible to have 3 unoccupied intersections on the coast. So the game rules contradict themselves because we have no way of knowing how many unoccupied intersections there must be in order to build a settlement on the coast"
+        },
+        {
+          "username": "dcclark",
+          "date": "2023-12-31T17:21:44-06:00",
+          "body": "You can find some good answers to this in this previous thread where you posted the same question."
+        },
+        {
+          "username": "wcp1876",
+          "date": "2023-12-31T20:54:13-06:00",
+          "body": "I'm not sure what rule you're confused about (can you quote it?), but the only restriction regarding settlement building is all settlements must be at least two hex-sides apart. Under those circumstances you can build inland, inland adjacent to the desert, on the coast, or on the coast adjacent to the desert. Under those circumstances, you'll be adjacent to 3, 2, 2, and 1 resource generating areas respectively."
+        },
+        {
+          "username": "jorganos",
+          "date": "2024-01-01T07:04:03-06:00",
+          "body": "The hexagonal frame for the current edition of Catan was originally a ring of separate water hexes, and the areas on the frame are still treated as such. There is an invisible border to the edge of the frame from which originally two edges would extend outward. In this regard, the intersections pointing outward are adjacent to a free intersection. \n\nAs a consequence, the corners of the frame are regular intersections between two (incompletely represented) water hexes and the land hex, and with a free intersection on the far end of the invisible border between the two water hexes. The \"contradiction\" is mainly ignorance of the meaning of the frame that may have become slightly less obvious in re-design."
+        },
+        {
+          "username": "panzer6",
+          "date": "2024-01-01T10:49:30-06:00",
+          "body": "Older versions of SoC had full size sea hexes instead of a frame."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 5,
+      "date_range": [
+        "2023-12-31",
+        "2024-01-01"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3222490",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3222490",
+      "thread_subject": "Is there an \"official\" variant for an extra round of turns when someone declares victory?",
+      "embed_text": "Is there an official variant for an extra round of turns when someone declares victory in the game of CATAN?",
+      "content": "The official rule is that once a player reaches 10 victory points during their turn, they win and the game ends immediately. There is no rule to let the rest of the players who did not take their turn this round to do it after the winning player declares their victory. However, players can choose to house rule it if they want to.",
+      "raw_thread": [
+        {
+          "username": "Barninator",
+          "date": "2024-01-08T11:53:36-06:00",
+          "body": "I was reviewing the questions & answers on the awesome CATAN FAQ, here:\nhttps://www.catan.com/faq/basegame\n\nI noticed one that really confused me.  Here it is, in full. (I'm including the text and a screenshot.)  See my question following after:\nCATAN ⚫ Yes – if the game ends at a point agreed upon by the players before or during the game, after which each player – beginning with the starting player – may take one more turn, that is, the game ends when player 5 or 6 has taken his turn.\nIn this case, it is recommended to include another special building phase after player 5 or 6 has finished his turn, so that the players can use the resources they just have received. Otherwise, the last player to take a turn is at a disadvantage, because no one will trade with him any more. The order in which the players take their turns would have too much bearing on the outcome of the game, because during the last round the number of trades performed would diminish player by player – after all, why should a player who is no longer allowed to build keep on trading?\nThis rule is also recommended for 3-4 player games, because otherwise the last player would hardly have an opportunity to trade. Therefore, in a 3-4 player game, a one-time final build phase for all other players would take place.\n\nFor the \"Yes\" option here, what game-end point \"agreed upon by the players\" do they mean?  Is this a variant I just don't see in the current version of the rules?\n\nIt seems like \"No\" should be the only answer to this question.  Unless it's a house rule or variant.  Or unless I'm missing something else?"
+        },
+        {
+          "username": "BGmbr",
+          "date": "2024-01-09T06:19:21-06:00",
+          "body": "The quotes above relate to the old rules for 5-6 players (which included a special building phase). They do not apply to games with 3-4 players.\n\nActually, the official rule is that once the player reaches 10 victory points during their turn they win and the game ends immediately. So, there is no rule to let the rest of  players who did not take their turn this round (if any) to do it after the winning player declares their victory. The good thing is that no need to worry about ties as they are not possible with such approach. You may try to house rule it, of course."
+        },
+        {
+          "username": "Barninator",
+          "date": "2024-01-09T13:48:51-06:00",
+          "body": "Sounds good; that makes sense.  Thank you, Maxim!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 3,
+      "date_range": [
+        "2024-01-08",
+        "2024-01-09"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3329305",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3329305",
+      "thread_subject": "Development Cards : University, Palace, Market, Chapel, Library",
+      "embed_text": "Do the University, Palace, Market, Chapel, and Library Development Cards belong to an expansion or the base game of Catan, and how are they used?",
+      "content": "The University, Palace, Market, Chapel, and Library Development Cards are part of the base game and are used to claim victory when a player reaches 10 VP or more. They are kept hidden during the game and revealed immediately when the goal is reached, including any purchased during the same turn. There was some initial confusion about the rules, but the community clarified that these cards are not played during the game, but rather displayed to prove victory.",
+      "raw_thread": [
+        {
+          "username": "Capn Hook",
+          "date": "2024-07-05T20:15:14-05:00",
+          "body": "I haven't played Catan for a while, but I'm now reviewing it for English teaching purposes. \n\nI find I have several Development Cards that I don't remember, each wotrth 1 VP :  University, Palace, Market, Chapel, Library .\n\nThey have the \" Shield \" / \" circle\" (?) reverse side. \n\nI wonder, do they belong to an expansion ?"
+        },
+        {
+          "username": "odie73",
+          "date": "2024-07-05T20:30:45-05:00",
+          "body": "No, they are part of the base game and belong with the other development cards. \nIn the rules it should specify that you can play one of them immediately after purchase when it gives you your 10th VP. That's unlike the other development cards which you can only play at your next turn at the earliest."
+        },
+        {
+          "username": "Dhalbert",
+          "date": "2024-07-07T15:07:08-05:00",
+          "body": "This statement of the rule is poorly written. In CATAN (base version) the player does not PLAY these Victory Point cards during the game! This set of development cards are kept hidden by all players during the game. If a player during his turn attains the goal of 10 VP or more (variations may have a different goal number) the active player declares that he has won and then shows/displays all the Victory Point cards in his hand to prove he has the required number of points to win. The unique rule of these cards differs from other development cards in that the active player shows these cards immediately upon reaching or surpassing the VP goal even the Development Victory Point card that was purchased during this turn (that is do not wait a turn.) These Victory Cards are Revealed (displayed/shown) to claim victory; these cards are NOT played!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 3,
+      "date_range": [
+        "2024-07-05",
+        "2024-07-07"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3357401",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3357401",
+      "thread_subject": "If I have have played 3 knights but then discard one using Vincent's ability (Helpers of Catan expansion), do I lose the \"largest army\" bonus card?",
+      "embed_text": "If a player has the largest army bonus card and uses Vincent's ability from the Helpers of Catan expansion to discard a knight, do they lose the largest army bonus card? The player had 3 knights played and was the only one with knights, but then discarded one knight.",
+      "content": "The community is divided on whether the player would lose the largest army bonus card. Some argue that since the player no longer has the requisite 3 knights, they relinquish the Largest Army card. Others point out that the FAQ says 'may' lose the largest army and interpret it as only applying to cases of being tied with another player or losing the minimum number of knights to another player. There is no clear consensus.",
+      "raw_thread": [
+        {
+          "username": "hansat",
+          "date": "2024-08-26T19:36:04-05:00",
+          "body": "This situation came up in my game yesterday (we play base Catan along with the Helpers of Catan scenario cards): \n\nI had 3 knights already played face-up, and thus I collected the largest army bonus (no one else had any knights played at all).\n\nOn my next turn I used Vincent's ability (he lets you discard a face-up knight in order to reduce the necessary resources to build a settlement), which meant I had to  discard a knight. My friend pointed out that this meant I would lose the largest army bonus, because I no longer have 3 knights played.\n\nHowever the largest army bonus does not include the word \"minimum\" on it, whereas the longest road bonus does.\n\nSo we weren't sure if 3 knights are a minimum to \"introduce\" the largest army card into play, or if it functions as a minimum to hold the largest army bonus.\n\nDo you think I would have to relinquish the largest army if I used Vincent's ability and dropped down from 3 knights played to 2 knights played?"
+        },
+        {
+          "username": "Eldard",
+          "date": "2024-08-26T20:22:44-05:00",
+          "body": "I would say that since you no longer have the requisite 3 knights, you relinquish the Largest Army card."
+        },
+        {
+          "username": "odie73",
+          "date": "2024-08-26T21:42:29-05:00",
+          "body": "You lose the largest army. See the FAQ: https://www.catan.com/faq/catan-helpers"
+        },
+        {
+          "username": "hansat",
+          "date": "2024-08-26T21:48:31-05:00",
+          "body": "But the FAQ says you \"may\" lose the largest army. Are you sure that they are referring to the case of going from 3 to 2 knights, or just the case of being tied with another player for most knights and then dropping down to second-most knights?"
+        },
+        {
+          "username": "kkstiles",
+          "date": "2024-08-26T22:31:45-05:00",
+          "body": "In my view, the fact that they used \"minimum\" on the largest roads card but not the largest army doesn't really matter. When the base game was created, Helpers didn't exist; so while there was a way to lose minimum 5 roads (if an opponent built a settlement that divided the roads), there wasn't a way to lose knights. So there was no need to include \"minimum\" on the largest army card. \nMy table would probably treat largest army the same as largest road-- if you lose the number that got the card for you originally, you lose the card. I do see your point and you could certainly make a case for it. But without an official ruling, my table would probably side against your view."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2024-08-26T22:55:43-05:00",
+          "body": "The closest we have to an official ruling are the comments made by Dr Düren in this thread.\nOn top of that, it's good to realize that Klaus Teuber liked to make like things work alike. Ships work like roads for example. And the largest army works like the longest road. You lose the longest road card if you ever go below the minimum requirement. It's in line with his style to infer that the same would be true for the largest army."
+        },
+        {
+          "username": "Argus Panoptes",
+          "date": "2024-09-07T20:04:34-05:00",
+          "body": "If you drop from 4 knights to 3 knights and no one else has played knights, you won't lose largest army.  That FAQ entry  is not specific to the case of losing one of your 3 knights."
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 7,
+      "date_range": [
+        "2024-08-26",
+        "2024-09-07"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3364238",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3364238",
+      "thread_subject": "Starting out ",
+      "embed_text": "How does the initial placement of roads and settlements work in a 3 or 4 player game of Catan, specifically in terms of the order of placement for each player?",
+      "content": "In a 3 or 4 player game, each player places one settlement and adjacent road, then each player places a second one in reverse order. This is explained in the Set-Up Phase of the Almanac, with the specific details found on page 12 for the base game and page 9 for the Star Trek Catan version.",
+      "raw_thread": [
+        {
+          "username": "fugazi70",
+          "date": "2024-09-07T19:03:12-05:00",
+          "body": "When placing the road and settlement each player can do both in a turn but in a 3 or 4 player, how does the placement of roads and settlement go?\n\nIn a 3 player does the following for initial placement?\nPlayer 1 go\nPlayer 2 go\nPlayer 3 go\nPlayer 3 go\nPlayer 2 go\nPlayer 1 go\nStart roll?\n\nIf so where exactly in the rule book is this defined?"
+        },
+        {
+          "username": "dcclark",
+          "date": "2024-09-07T19:19:43-05:00",
+          "body": "Yes, you're correct: Each player puts out one settlement and adjacent road, then each player puts out a second one in reverse order. This is explained in the Almanac under \"Set-up Phase\"."
+        },
+        {
+          "username": "Argus Panoptes",
+          "date": "2024-09-07T19:22:15-05:00",
+          "body": "In the current rules at https://www.catan.com/sites/default/files/2021-06/catan_base... , it's under the Set-Up Phase on page 12 of the Almanac.\n\nRound One\nThe starting player places a settlement ....\nThe other players then follow clockwise.\n\nRound Two\n... the player who went last in the first round begins round two....\nImportant: After the starting player builds, the other players follow counterclockwise, so the starting player in round one places their second settlement last."
+        },
+        {
+          "username": "fugazi70",
+          "date": "2024-09-07T19:42:53-05:00",
+          "body": "Thanks 🙂 I’m playing Star Trek catan and it didn’t mention it heh"
+        },
+        {
+          "username": "odie73",
+          "date": "2024-09-07T19:49:51-05:00",
+          "body": "You will find that described in the Star Trek Catan Almanac on page 9 under \"Round 2\": https://www.catan.com/sites/default/files/2021-07/star_trek_..."
+        },
+        {
+          "username": "fugazi70",
+          "date": "2024-09-07T20:06:06-05:00",
+          "body": "Lol ya I was going through it and found it heh"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 6,
+      "date_range": [
+        "2024-09-07",
+        "2024-09-07"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3368373",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3368373",
+      "thread_subject": "Is it a legal move to give p1 5 Clay and they give me p2 a stone? ",
+      "embed_text": "Is it a legal move to give another player 5 Clay in exchange for 1 Stone in the game of Catan?",
+      "content": "The community discussed the trade restrictions in Catan, with some users referencing the game's FAQ and Encyclopædia Catanica. However, there is no clear consensus on whether the specific trade of 5 Clay for 1 Stone is allowed. Some users argued that the trade is not explicitly forbidden, while others suggested that it may be against the spirit of the game's trading rules.",
+      "raw_thread": [
+        {
+          "username": "skipppy909",
+          "date": "2024-09-15T07:39:07-05:00",
+          "body": "Is it a legal move to give p1 5 Clay and they give me p2 a stone? \n\nI did this because I wanted p1 to steal the longest road and end up with 8 points. The previous long road player (p3) had 9 points. So helping p1, reduced p3s points down to 7 because they lost the longest road. I couldn’t try getting longest road because I was no where near doing so.\n\nThis game ended up being a win for me because this decision prolonged the game and enabled me to catch up with my points."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2024-09-15T08:02:10-05:00",
+          "body": "You can't offer trades that are strictly better than what the bank offers.\nsource"
+        },
+        {
+          "username": "skipppy909",
+          "date": "2024-09-15T08:12:07-05:00",
+          "body": "so would that mean I could give up 4 cards and receive 1?\n\nbecause you can exchange 4 of the same card for a card of your choice during a turn"
+        },
+        {
+          "username": "WilbertK",
+          "date": "2024-09-15T08:20:49-05:00",
+          "body": "That depends om which trade harbours are available to you, but in principle yes."
+        },
+        {
+          "username": "skipppy909",
+          "date": "2024-09-15T08:24:20-05:00",
+          "body": "this is confusing, where in the rulebook does it state this? I thought trading didn't have any restrictions with the amounts"
+        },
+        {
+          "username": "WilbertK",
+          "date": "2024-09-15T08:27:25-05:00",
+          "body": "I linked my source. It's a developer of the game. It's an operationalization of the rule that says you can't just give your opponents stuff without receiving anything in return."
+        },
+        {
+          "username": "skipppy909",
+          "date": "2024-09-15T08:32:24-05:00",
+          "body": "so the max cards I can give is always 4? I know that we have to atleast recieve 1 item, which I mentioned in the first post."
+        },
+        {
+          "username": "skipppy909",
+          "date": "2024-09-15T08:59:45-05:00",
+          "body": "this is a different version of catan in that thread you linked. I've looked through the original catan rulebook and there's nothing about player to player trading restrictions."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2024-09-15T09:47:25-05:00",
+          "body": "It's not a different version. It's an expansion. The ruling came up in that context, but it's not specific to that expansion.\nFor reference, the general rule about trading restrictions is rule 1.E.b of Encyclopædia Catanica. The thread I linked to discusses the implications of that rule."
+        },
+        {
+          "username": "RandomObfuscation",
+          "date": "2024-09-15T09:51:45-05:00",
+          "body": "It's also in the FAQ on Catan.com which is an updated living document of rules clarifications that apply regardless of edition or printing."
+        },
+        {
+          "username": "ackmondual",
+          "date": "2024-09-15T09:54:58-05:00",
+          "body": "this is a different version of catan in that thread you linked. I've looked through the original catan rulebook and there's nothing about player to player trading restrictions.\n\nIt's also in the FAQ on Catan.com which is an updated living document of rules clarifications that apply regardless of edition or printing.\n\nAll it says is..\nNo. On Catan, a trade always involves giving and taking resources. Consequently, Catan’s trade law does not contain a “trade” of something for nothing or for immaterial goods such as services.\n\n... it doesn't seem to apply in the OP's case of 5 Clay to get 1 stone."
+        },
+        {
+          "username": "RandomObfuscation",
+          "date": "2024-09-15T10:11:59-05:00",
+          "body": "It's also in the FAQ on Catan.com which is an updated living document of rules clarifications that apply regardless of edition or printing.\n\nAll it says is..\nNo. On Catan, a trade always involves giving and taking resources. Consequently, Catan’s trade law does not contain a “trade” of something for nothing or for immaterial goods such as services.\n\n... it doesn't seem to apply in the OP's case of 5 Clay to get 1 stone.\n\nTrue. Though it was meant more of a supporting argument to the previous posts (re: developer) where the link they posted was broken."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2024-09-15T11:37:02-05:00",
+          "body": "... it doesn't seem to apply in the OP's case of 5 Clay to get 1 stone.\n\nThat's why I linked to the discussion, which is about the intent behind the rule. Dr Düren has been writing official clarifications about Catan for years."
+        },
+        {
+          "username": "James2044",
+          "date": "2024-09-20T11:18:00-05:00",
+          "body": "We would allow the trade under \"House Rules\"."
+        },
+        {
+          "username": "jorganos",
+          "date": "2024-09-20T12:43:51-05:00",
+          "body": "Not in a single trade. Legally, you can trade that p1 stone for three bricks, than trade a single brick for that stone to return to p1, then trade it for three bricks again, and you will have moved 5 bricks from p2 to p1. Stretched over three trades, there is a risk that one of the trading partners stops in the middle of the business."
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 15,
+      "date_range": [
+        "2024-09-15",
+        "2024-09-20"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3401541",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3401541",
+      "thread_subject": "How many resource cards does a player get when placing a starting settlement this way",
+      "embed_text": "How many resource cards does a player get when placing a starting settlement on a space with one or two adjacent resource spaces?",
+      "content": "A player gets 1 resource card for each resource space adjacent to their second settlement. If the settlement is adjacent to one resource space, they get 1 card of that resource type. If it's adjacent to two resource spaces, they get 1 card of each resource type. The first settlement placement does not give any resource cards.",
+      "raw_thread": [
+        {
+          "username": "rollstar",
+          "date": "2024-11-07T23:27:34-06:00",
+          "body": "Can anyone clarify, if a player were to put their starting settlement on A or B like in this picture, how many resource cards do they get?\n\nA - get 2 resource cards at the start of the game (wheat, lumber)\nB - get 1 resource card at the start of the game (brick)\n\nAre these correct?"
+        },
+        {
+          "username": "Eldard",
+          "date": "2024-11-07T23:36:16-06:00",
+          "body": "Yes.  Before the first dice are rolled, the second-placed settlement collects 1 resource card from each resource space to which it is adjacent.  B is adjacent to a single resource space (brick), so it gets 1 brick card.  A is adjacent to 2 resource spaces (wheat, wood), so it collects 1 wheat and 1 wood card."
+        },
+        {
+          "username": "Chango",
+          "date": "2024-11-08T03:27:06-06:00",
+          "body": "Assuming those are 2nd settlements.\nA = two resources\nB = one resource\n\nPorts (neither 1st settlements) give you nothing at the setup."
+        },
+        {
+          "username": "cordeiro",
+          "date": "2024-11-08T07:03:08-06:00",
+          "body": "You're correct, but only if spot A or B is where you placed your second settlement during setup.  Your first placement gets you nothing.  And if you went last, and are effectively placing 2 settlements back to back, you choose which settlement gives you your starting resources."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 4,
+      "date_range": [
+        "2024-11-07",
+        "2024-11-08"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3438688",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3438688",
+      "thread_subject": "[Helpers of Catan] Vincent and city building",
+      "embed_text": "In the Helpers of Catan, does Vincent allow building a city directly or only provide a resource discount for upgrading a settlement to a city?",
+      "content": "The community resolved that Vincent gives a resource discount for upgrading a settlement to a city, but does not allow building a city directly.",
+      "raw_thread": [
+        {
+          "username": "warlock000",
+          "date": "2025-01-11T08:17:12-06:00",
+          "body": "(initially I posted this thread in the HoC forum, but it's dead)\n\nThe standard Catan rules clearly state that you can only build city as an upgrade to an already existing settlement. Does it work the same with Vincent, i.e. does he just give a resource discount for upgrading settlement to a city (my guess) or does he allow you to build a city straight away (don't think that's the case, but the wording on the card is a bit confusing to me)? Thanks!"
+        },
+        {
+          "username": "WilbertK",
+          "date": "2025-01-11T08:54:18-06:00",
+          "body": "That forum isn't dead, you just have to give people time to respond. You're right. Vincent just gives you a resource discount."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 2,
+      "date_range": [
+        "2025-01-11",
+        "2025-01-11"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3448181",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3448181",
+      "thread_subject": "If you don't realize that you have the points to win, can you declare victory during someone else's turn?",
+      "embed_text": "Can a player declare victory during someone else's turn if they realize they have enough points to win? What if they didn't know they had the points until it was another player's turn?",
+      "content": "The community agrees that a player can win the game as soon as they have 10 victory points, but there is some debate about whether they can declare victory during another player's turn. Most posters agree that the player should be given the win, but some argue that they must wait until their next turn to claim victory.",
+      "raw_thread": [
+        {
+          "username": "RUTokkin2me",
+          "date": "2025-01-25T15:43:41-06:00",
+          "body": "Son in law didn't know he had the points to win, during my turn, when I was trying to determine if I could take the longest road from him (a four point swing) he realized his mistake and declared the game over. Is this cool?"
+        },
+        {
+          "username": "dcclark",
+          "date": "2025-01-25T16:16:59-06:00",
+          "body": "The rules say:\n\nCatan You don't have to realize you have those points, although ideally you would. So your son in law won, assuming he had already had the 10 points on his own turn."
+        },
+        {
+          "username": "Krubby",
+          "date": "2025-01-26T06:20:54-06:00",
+          "body": "In that case, technically he did win.  I would give him the win and try to get him next time 🙂 \n\nPS Welcome to BGG"
+        },
+        {
+          "username": "Dhalbert",
+          "date": "2025-01-29T23:28:21-06:00",
+          "body": "Give him the win. In a friendly game or family game, other players will know your points and declare you the winner. Some players (having fun) just like to build and expand and don't think of gaining points to win (fun in building and game play.) \n\nKnow that gaining \"10\" points when it is NOT yet your turn does not end the game nor make you the winner. (Many ways that this can occur - one example: someone else loses the Longest Road bonus and then you get the bonus instead.) After gaining 10 points or more, a player MUST either be the active player (your turn) or wait until your turn to become the winner.\n\n[Cut-throat players (hard-core competition) may argue that you only win if you can declare on your turn - and will state that the \"player\" failed to declare and thus must wait until the next turn to declare to be the winner.] However, official rules states that the game ENDS when a player has already acquired or achieves the required number of victory points on the player's turn."
+        },
+        {
+          "username": "desmond_21",
+          "date": "2025-02-21T12:43:23-06:00",
+          "body": "rules say:  \"If you have - or reach 10 victory points on your turn, the game ends immediately and you win.  You can only win during your turn.  If somehow you find you have 10 victory points during another players turn, you must wait until your next turn to claim victory.\"\n\nFor those who are just learning, I would give him the win, however, I truly believe that if you have 10 points on your turn and you don't claim the win and allow another player to roll the dice, it is not your turn anymore and therefore you must wait until your next turn to claim victory."
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 5,
+      "date_range": [
+        "2025-01-25",
+        "2025-02-21"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3478889",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3478889",
+      "thread_subject": "Catan Longest Road Card",
+      "embed_text": "In the game of Catan, can a player's own settlements or cities interrupt their road and prevent it from being considered the longest road? Does the rule about interrupting roads only apply to opponents' settlements and cities?",
+      "content": "The community resolved that a player's own settlements or cities do not interrupt their road, and only an opponent's settlements or cities can break a road. This is supported by the official rules and examples from the game manual.",
+      "raw_thread": [
+        {
+          "username": "BagaCrisps",
+          "date": "2025-03-15T16:45:59-05:00",
+          "body": "Hi everyone,\n\nI've just played Catan with my family and we couldn't agree whether the scenario below counts as the longest road (blue player).\n\nI always understood that the road / segment can't be interrupted by any settlements or cities.\n\nMy husband thinks only roads / segments interrupted by an opponents settlement don't count as the longest road.\n\nPleas help us settle this argument! 😊"
+        },
+        {
+          "username": "269Hawkmoon",
+          "date": "2025-03-15T16:54:54-05:00",
+          "body": "I see a road of length 6 for white and length 8 for blue. Only an opponent's settlements and cities break a road, not your own.\n\nLook at the example on page 9 here: \nCatan Rules\nNotice blue's road isn't broken my the blue's settlement. After blue builds at C, red's longest road is length 3. If blue's own settlement broke their own road, they'd also only have length 3. But the example indicates blue's is longer."
+        },
+        {
+          "username": "russ",
+          "date": "2025-03-15T16:55:23-05:00",
+          "body": "1. Each game has its own forum (which you can find by typing its title in the upper right Search box). (I've marked this thread \"Wrong forum\" so an admin can move it to the rules forum of Catan.)\n\n2. Your husband is correct. The rules say:\nYou can break an opponent’s road by building a settlement on an open intersection along his road!\n\nThere's nothing about your settlements breaking your own road."
+        },
+        {
+          "username": "purvisa",
+          "date": "2025-03-15T18:19:35-05:00",
+          "body": "Road is 8. A road cannot pass through another player's settlement, but blue can pass through and stay."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 4,
+      "date_range": [
+        "2025-03-15",
+        "2025-03-15"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_3496554",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "3496554",
+      "thread_subject": "Is giving resources away technically legal?",
+      "embed_text": "Is giving resources away in a series of trades technically legal in the game of Catan?",
+      "content": "The community is divided on the issue, with some arguing that as long as each individual trade is legal, the series of trades is also legal. Others argue that if the net result of the trades is that one player has given another a resource for free, it should not be allowed, even if it's done through multiple trades. An official ruling states that giving resources away, even in multiple trades, is not allowed due to the potential for collusion.",
+      "raw_thread": [
+        {
+          "username": "Karlo760400",
+          "date": "2025-04-15T05:24:10-05:00",
+          "body": "Would you consider the following trades legal?\n\nStep 1 :Player A trades 2 wood for 1 ore with player B.\nStep 2 : Player A trades 1 ore for 1 wood with player B."
+        },
+        {
+          "username": "Zveroboy",
+          "date": "2025-04-15T05:42:22-05:00",
+          "body": "Technically, rules as written legal? Yes, it's allowed.\n\nBut it feels rather underhanded, whether you \"allow\" it at your table is down to you and your group. For me personally the net result of those trades is that one player has effectively been given a resource for free and personally I would say that is against the spirit of the rules (\"something for nothing\" trades are specifically not allowed)."
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2025-04-15T06:47:42-05:00",
+          "body": "Step 1 :Player A trades 2 wood for 1 ore with player B.\nStep 2 : Player A trades 1 ore for 1 wood with player B.\n\nI would say, if you’re doing those trades one after the other, then no, it’s not legal. Because  you’re really just doing one trade which breaks the rules, and trying to justify it by doing it in two stages. But it’s still really one trade. \n\nNow, if you’re doing step 1 in one turn and wait till the next turn to do step 2, that’s fine, because the dice have been rolled and other trades may have happened in the meantime, so the game state has changed. It’s no longer functionally one trade."
+        },
+        {
+          "username": "edugon",
+          "date": "2025-04-15T09:35:12-05:00",
+          "body": "Is it illegal to donate a resource? I have not seen that in the rules."
+        },
+        {
+          "username": "cordeiro",
+          "date": "2025-04-15T10:10:01-05:00",
+          "body": "It's illegal.  Both players have to get something tangible in the trade, and you can't trade a resource for the same resource.\n\nhttps://www.catan.com/faq"
+        },
+        {
+          "username": "WilbertK",
+          "date": "2025-04-15T10:11:01-05:00",
+          "body": "Giving stuff away for free is not allowed."
+        },
+        {
+          "username": "xorsyst_uk",
+          "date": "2025-04-16T02:59:41-05:00",
+          "body": "Step 1 :Player A trades 2 wood for 1 ore with player B.\nStep 2 : Player A trades 1 ore for 1 wood with player B.\n\nI would say this is absolutely legal. However, there's nothing stopping player B from changing their mind after the first trade."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2025-04-16T03:54:20-05:00",
+          "body": "It was explicitly stated by the developer that it's not allowed to give other players resources for free. If you want to break the trade down like this in order to circumvent the rules I'd like to remind you that there's also nothing in the rules that says I can't kick you out of my house halfway through the game."
+        },
+        {
+          "username": "jorganos",
+          "date": "2025-04-16T04:15:43-05:00",
+          "body": "There is one official scenario that allows giving away a resource without being prompted by a card, yielding a reward instead: Frenemies. But only the active player can do so.\n\nOutside of that, it is prohibited.\n\nIt is always possible to define a set of rules modifications for your game, ideally set down before play."
+        },
+        {
+          "username": "James2044",
+          "date": "2025-04-29T18:38:06-05:00",
+          "body": "ISTM; They have traded two wood for one ore and one wood, Yes, within the rules it is legal.\nQuestion, did Player A gain a consideration for the trade?  Was Player B able to change the game score?"
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2025-04-29T19:36:32-05:00",
+          "body": "My understanding was that they have not really traded the ore away, as it was given then returned. So the overall trade was two wood for one wood, which is exactly equivalent to one wood for nothing, i.e. giving away one wood. Which is not legal."
+        },
+        {
+          "username": "drswirly",
+          "date": "2025-04-30T02:57:24-05:00",
+          "body": "Someone mentioned the \"spirit\" of the rules above, and I can see examples both ways.\n\nFirst example\n\n1.  Player A thinks \"Oh no, I have eight cards!  Can I sneakily give someone a free card to avoid being caught by the Robber?\"\n2. Player A trades two wood for one ore with player B.\n3. Player A trades one ore for one wood with player B.\n4. Player C rolls a 7 and looks grumpily at Players A and B, who both did well out it.\n\nSecond example.\n\n1.  Player A is close to building a city and needs two ore.\n2. Player A trades two wood for one ore with Player B.\n3. Player A tries to get another ore from Player C, who turns out to have none.\n4. Player A can't build a city after all and decides to go for a road instead, but now needs a wood.\n5. Player B offers to return one of the wood for the ore back.\n6. Player A reluctantly agrees.\n\nTo me, the first example feels against the spirit of the rules and should't really be allowed.  But the second example feels entirely in the spirit of the game, and ought to be allowed.  Above, Mark L said \"The game state has changed. It’s no longer functionally one trade.\", and the second example does somewhat fit that since step 3 happened and A gained information from C that no further ore was available.\n\nSo, would the second example be allowed?  (If it's both or neither, then I would prefer to allow the first than to ban the second.)"
+        },
+        {
+          "username": "xorsyst_uk",
+          "date": "2025-04-30T04:41:51-05:00",
+          "body": "Personally I don't see a legality difference between the following two scenarios:\n\nFirst Scenario:\n1. Player A trades two wood for an ore with player B\n2. Player A trades an ore for a wood with player B\nPlayer A has effectively given away a wood to player B. Some people are claiming this is between \"against the spirit\" and \"outright illegal\"\n\nSecond Scenario:\n1. Player A trades two wood for an ore with player B\n2. Player A trades an ore for a wood with player C\nFrom Player A's perspective, they have effectively given away a wood, however this is definitely a legal set of trades."
+        },
+        {
+          "username": "Zveroboy",
+          "date": "2025-04-30T06:17:50-05:00",
+          "body": "Ultimately its down to whether you consider each individual trade as an independent game event or whether you can take the whole set of trades, and their net outcomes, as one game event.\n\nI honestly don't believe you can seriously enforce the latter. You'd have to track all trades made in a turn, sum everything up, only to then declare \"Nope, sorry, after all that you got one sheep for free so take it all back.\"\n\nIf, OP, players A and B continue to exploit the rules like this, then your options are:\n\n- Use the \"exploit\" yourself\n\n- Tell them that while they're not technically doing anything against the rules, you feel that what they are doing is against the \"spirit of the rules\" (mention that single something-for-nothing trades are explicitly forbidden) and it is affecting your enjoyment of the game and your play sessions together"
+        },
+        {
+          "username": "DragonsDream",
+          "date": "2025-04-30T06:23:00-05:00",
+          "body": "not sure how you square these two statements. is effectively giving away a card forbidden by the rules or not?"
+        },
+        {
+          "username": "Skeime",
+          "date": "2025-04-30T06:38:10-05:00",
+          "body": "...\nthey're not ... doing anything against the rules,  ...  \nsingle something-for-nothing trades are explicitly forbidden\n\nnot sure how you square these two statements. is effectively giving away a card forbidden by the rules or not?\n\n(Emphasis mine.) The key word is single here. In each individual trade, gifting cards is forbidden. Doing it over multiple trades is legal. The two options are strategically distinct as each player could go back on their non-binding promise to perform the second trade after the first one has been completed, leaving the other player in a worse position if they were counting on the second trade going through."
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2025-04-30T07:30:00-05:00",
+          "body": "First example\n\n1.  Player A thinks \"Oh no, I have eight cards!  Can I sneakily give someone a free card to avoid being caught by the Robber?\"\n2. Player A trades two wood for one ore with player B.\n3. Player A trades one ore for one wood with player B.\n4. Player C rolls a 7 and looks grumpily at Players A and B, who both did well out it.\n\nSecond example.\n\n1.  Player A is close to building a city and needs two ore.\n2. Player A trades two wood for one ore with Player B.\n3. Player A tries to get another ore from Player C, who turns out to have none.\n4. Player A can't build a city after all and decides to go for a road instead, but now needs a wood.\n5. Player B offers to return one of the wood for the ore back.\n6. Player A reluctantly agrees.\n\nTo me, the first example feels against the spirit of the rules and should't really be allowed.  But the second example feels entirely in the spirit of the game, and ought to be allowed.  Above, Mark L said \"The game state has changed. It’s no longer functionally one trade.\", and the second example does somewhat fit that since step 3 happened and A gained information from C that no further ore was available.\n\nSo, would the second example be allowed?  (If it's both or neither, then I would prefer to allow the first than to ban the second.)\n\nIn your second example, the game state has not changed. Player A’s information has changed, but only because they didn’t ask player C if they would trade an ore away before doing the trade with player B. If I was in this situation, I would always check with both players before conducting any trades. If I didn’t, that’s my fault and it doesn’t allow me to tiptoe my way around the rules."
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2025-04-30T07:36:56-05:00",
+          "body": "First Scenario:\n1. Player A trades two wood for an ore with player B\n2. Player A trades an ore for a wood with player B\nPlayer A has effectively given away a wood to player B. Some people are claiming this is between \"against the spirit\" and \"outright illegal\"\n\nSecond Scenario:\n1. Player A trades two wood for an ore with player B\n2. Player A trades an ore for a wood with player C\nFrom Player A's perspective, they have effectively given away a wood, however this is definitely a legal set of trades.\n\nThe reason you don’t see the difference is because you’re only looking at it from player A’s perspective, and you’re ignoring the other two players’ perspectives, which also matter. \n\nIn the first example, player B has gained something for nothing, while player A has given something away. In other words, player A has simply given a wood to player B. \n\nIn the second example, player C has gained an ore and lost a wood, while player B has lost an ore and gained two wood. Only player A has not gained anything overall. I think that difference is crucial.\n\nThe rule is that you’re not allowed to give something to another player for nothing, not that you’re not allowed to lose overall when you make multiple trades."
+        },
+        {
+          "username": "cordeiro",
+          "date": "2025-04-30T07:42:03-05:00",
+          "body": "I honestly don't believe you can seriously enforce the latter. You'd have to track all trades made in a turn, sum everything up, only to then declare \"Nope, sorry, after all that you got one sheep for free so take it all back.\"\n\nIt's not hard to keep track of the trades made in a single turn, especially if the 2 questionable trades are made back-to-back.  Also, these types of trades are usually prefaced by, \"I need this resource to stop the leader from winning.  Who can give it to me?\""
+        },
+        {
+          "username": "drswirly",
+          "date": "2025-04-30T08:19:21-05:00",
+          "body": "I think it depends on what you view as state.  I would count information as state, but you wouldn't.  That's fair enough.  In the example I gave, the changing of state was that wood became more valuable to A than before.\n\nAlthough, what actually counts as state?\n\nExample 1.\n\nSuppose A makes the two-for-one trade with B, and that then there are three turns in which nothing is produced because of die rolls, and nothing is built.  It's now A's turn again, and the game state is exactly as it was before.  Can A now make the one-for-one trade with B?\n\nExample 2.\n\nIf the state changing between the trades within a turn counts, then you can we have the following sequence?\n\n1. A trades two wood for one ore with B.\n2. A trades two brick for one sheep with C.\n3. A trades one ore for one wood with B.  (Since step 2 has happened.)\n4. A trades one sheep for one brick with C.  (Since step 3 has happened.)\n\nI can see why a \"no giving things away\" rule should be there, but I think it's hard to define precisely and to prevent (which is probably why this discussion has happened so often in the last 30 years!)."
+        },
+        {
+          "username": "xorsyst_uk",
+          "date": "2025-04-30T08:43:01-05:00",
+          "body": "And in both scenarios, player A has lost overall over multiple trades, and never given something to another player for nothing."
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2025-04-30T08:52:03-05:00",
+          "body": "I would definitely say that a player asking a question of another (and getting an answer) doesn’t change the game state, becauer nothing has happened in the actual game. But if you disagree, I don’t think there’s any way to prove one of us right!\n\n Although, what actually counts as state?\n\nExample 1.\n\nSuppose A makes the two-for-one trade with B, and that then there are three turns in which nothing is produced because of die rolls, and nothing is built.  It's now A's turn again, and the game state is exactly as it was before.  Can A now make the one-for-one trade with B? \n\nThat’s a slightly tricky one, as I would say the game state has changed, as the turn has passed to another player (once or more than once doesn’t matter) but I can see the argument that it hasn’t materially changed. But unless you keep track of past trades for multiple turns, I don’t see any way to rule out such a thing. \n\n Example 2.\n\nIf the state changing between the trades within a turn counts, then you can we have the following sequence?\n\n1. A trades two wood for one ore with B.\n2. A trades two brick for one sheep with C.\n3. A trades one ore for one wood with B.  (Since step 2 has happened.)\n4. A trades one sheep for one brick with C.  (Since step 3 has happened.) \n\n😀 Clever! That could be argued, but it seems to me like the very definition of using the letter of the rules to defeat the spirit. At the end of the day, the end result of all the trading in that one turn is still that one player has given something to another for nothing. \n\n I can see why a \"no giving things away\" rule should be there, but I think it's hard to define precisely and to prevent (which is probably why this discussion has happened so often in the last 30 years!).\n\nI’m not really sure how often it’s happened, but to me the intent of the rule seems clear, and arguing it, while fun, does feel like rules-lawyering."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2025-04-30T14:33:38-05:00",
+          "body": "The official ruling regarding this is that you're just not allowed to do this. Also not in multiple trades. It may not be in the rules, but it's been clarified by official sources. You can argue about rules as written, but the intent is clear."
+        },
+        {
+          "username": "Tcaalaw",
+          "date": "2025-04-30T22:59:13-05:00",
+          "body": "The intent may be clear, but I'm still trying to understand why it isn't allowed if both parties to the deal agree to it."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2025-05-01T03:52:23-05:00",
+          "body": "Collusion. In a tournament setting, for example, you could arrange it such that your friend is with you at the table and dumps resources to you, giving you the opportunity to win the round easily."
+        },
+        {
+          "username": "DragonsDream",
+          "date": "2025-05-01T05:20:16-05:00",
+          "body": "The official ruling regarding this is that you're just not allowed to do this. Also not in multiple trades. It may not be in the rules, but it's been clarified by official sources. You can argue about rules as written, but the intent is clear.\n\nThe intent may be clear, but I'm still trying to understand why it isn't allowed if both parties to the deal agree to it.  \n\nbut even you don't understand why the rule exists, that's not a reason to rules lawyer your way around the rule"
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 26,
+      "date_range": [
+        "2025-04-15",
+        "2025-05-01"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_587950",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "587950",
+      "thread_subject": "What is the tie break?",
+      "embed_text": "What is the tiebreaker for players who are not the winner in the game of Settlers of Catan if they have the same score? How are second, third, and fourth places determined in the event of a tie?",
+      "content": "There is no official tiebreaker for determining second, third, and fourth places in the game of Settlers of Catan. Some players use house rules, such as the number of cities, settlements, roads, or victory point cards, but these are not officially recognized. The game does not provide a mechanism for ranking players who are not the winner.",
+      "raw_thread": [
+        {
+          "username": "pazu",
+          "date": "2010-11-23T00:22:46-06:00",
+          "body": "In the end game, if players (not the winner) get same scores, what is the tie breaker?"
+        },
+        {
+          "username": "wmshub",
+          "date": "2010-11-23T00:26:25-06:00",
+          "body": "You can only win on your turn. You can't have two people taking their turn at the same time, so somebody must win before the other. No tiebreaker is needed."
+        },
+        {
+          "username": "superbgg",
+          "date": "2010-11-23T00:27:34-06:00",
+          "body": "To win, you have to have the required number of points (10 in the basic game) on your turn.  So there can be no tie.\n\nEDIT:  One minute too slow"
+        },
+        {
+          "username": "elementary",
+          "date": "2010-11-23T00:37:15-06:00",
+          "body": "He asked what the tie breakers were for the other players, not the winner.  These would separate 2nd, 3rd, and 4th in instances of tied scores.\n\nI actually don't happen to know if there are any such tie breakers in the official rules, but I would assume that some tournament rule sets have established these types of tie breakers.  But again, I don't really know."
+        },
+        {
+          "username": "superbgg",
+          "date": "2010-11-23T01:08:37-06:00",
+          "body": "D'oh!  You're right, my apologies.  I also do not know of any official rules for this.  I guess we play by the 'if you're not first you're last' motto"
+        },
+        {
+          "username": "Sebastian Rapp",
+          "date": "2010-11-23T02:32:37-06:00",
+          "body": "In Settlers of Catan, there is no tier. There can be only one winner ever (the player who's turn it is as long as he is among the tied players).\n\nApart from winning, there is no ranking for 2nd, 3rd ... \n\nTournaments (that usually play more than one round) use other means to determine a tournament ranking, but there is none that involves tiers for ranking in a single game. If two players tie for 2nd place with 9 victory points, they are both considered 2nd with 9 victory points.\n\nThat's it. Because the game does not offer any means to determine a 2nd and 3rd place in this case\n\nSebastian Rapp / Kosmos"
+        },
+        {
+          "username": "Burtch",
+          "date": "2010-11-23T06:47:48-06:00",
+          "body": "But if you really really wanted to hand out silver medals, you could make a house rule that, of the tied players, whoever would have a turn next wins. But if you play with a new group who are familiar with the game, just don't expect anyone to know what your talking about.. I GOT SECOND!!"
+        },
+        {
+          "username": "mst3k4L",
+          "date": "2010-11-23T07:22:08-06:00",
+          "body": "Although it is by no means an official rule, I normally consider a good tie breaker to be the player with the most VPs that cannot be lost as the winner.  This removes Longest Road and Largest Army from the final point tally."
+        },
+        {
+          "username": "Gruumsh",
+          "date": "2010-11-23T10:33:00-06:00",
+          "body": "I actually don't happen to know if there are any such tie breakers in the official rules, but I would assume that some tournament rule sets have established these types of tie breakers.  But again, I don't really know.\n\nWell, we all know that \"assume\" makes an \"ass\" out of \"u\" and \"me\", but here I go anyway... maybe I can be permitted to make assumptions because my name is Klaus \n\nI would assume that because turn order is an issue, the next person who would have won on their turn would be 2nd, then 3rd, then so on. That seems to be within the spirit of the rules."
+        },
+        {
+          "username": "markgravitygood",
+          "date": "2010-11-23T10:40:13-06:00",
+          "body": "On ties, we go by:\n\nNumber of Cities, then\n\nNumber of Settlements, then\n\nNumber of Roads, then\n\nVictory Point Cards.\n\nAfter all, the name of the game is to \"Settle\" Catan, so it makes good sense."
+        },
+        {
+          "username": "kjamma4",
+          "date": "2010-11-23T11:15:34-06:00",
+          "body": "Steel cage death-match. It's the only way to be sure."
+        },
+        {
+          "username": "kelvSYC",
+          "date": "2010-11-23T19:46:10-06:00",
+          "body": "Short answer: Depends on the scenario.  Consult the individual scenario rules.\n\nLong answer: In the absence of any other rules to the contrary, there is no tiebreaker among \"the losers\".  One can still win on a tiebreak depending on scenario (where the game may end due to meeting some conditions independent of VPs).  These may be used as a definitive player ranking in those situations."
+        },
+        {
+          "username": "Radien",
+          "date": "2010-11-26T02:10:33-06:00",
+          "body": "I've calculated who got \"2nd place,\" etc., after many games of Settlers, but it's usually just an informational thing.  On the other hand, if it's your first game of Settlers, it feels a lot better to say \"I came in 2nd!\" than \"I lost.  \"  I say this because getting \"2nd\" in your first game of Settlers is actually pretty impressive in my book.\n\nzu laputa, is there a specific reason you need to calculate 2nd, 3rd, and 4th place?"
+        },
+        {
+          "username": "sergut",
+          "date": "2023-01-17T03:46:26-06:00",
+          "body": "Number of Cities, then\nNumber of Settlements, then\nNumber of Roads, then\nVictory Point Cards.\n\nIf two (or more) players have the same number of points, the same number of Cities, and the same number of Settlements... must they not have the same number of VP cards too? \n\nIf VP = 1 x S + 2 x C + 1 x DC and you have a tie on VP, C, and S, it seems that the value of DC is fixed. 🤔\n\nPS: FWIW, Board Game Arena seems to use the number of VP cards as a tie breaker."
+        },
+        {
+          "username": "drswirly",
+          "date": "2023-01-18T03:02:12-06:00",
+          "body": "If VP = 1 x S + 2 x C + 1 x DC and you have a tie on VP, C, and S, it seems that the value of DC is fixed. 🤔\n\nMaybe they ignore bonus points from Longest Road and Largest Army since those points aren't permanent, and only count actual VP cards."
+        },
+        {
+          "username": "sergut",
+          "date": "2023-02-01T16:54:51-06:00",
+          "body": "That makes a lot of sense. I had forgotten about the Special Cards. \n\nSo the correct formula is VP = 1 x S + 2 x C + 1 x DC + 2 x LR + 2 x LA and, therefore, fixing VP, S, and C does not determine the value of DC. \n\nThank you! 🙂"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": true,
+      "confidence": "high",
+      "post_count": 16,
+      "date_range": [
+        "2010-11-23",
+        "2023-02-01"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_742628",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "742628",
+      "thread_subject": "Building settlements between pre-built roads?",
+      "embed_text": "Can a player build a settlement between pre-built roads, as long as the distance rule is obeyed?",
+      "content": "The community consensus is that yes, a player can build a settlement between pre-built roads, as long as the distance rule is obeyed. This is also possible on an opponent's road if one of the player's road segments intersects with it.",
+      "raw_thread": [
+        {
+          "username": "Wilfrey",
+          "date": "2011-12-28T11:40:20-06:00",
+          "body": "Hello,\n\nI think the answer to this is 'yes' but I wanted to check and my girlfriend and I can't agree. Say you have already built a road segment 5 roads long, can you then go back and build a settlement between the roads you have built providing the distance rule is obeyed?\n\nie.\n\nS-----\n\nthen build\n\nS---S--\n\nMany thanks,\n\nWilfrey"
+        },
+        {
+          "username": "whac3",
+          "date": "2011-12-28T11:50:18-06:00",
+          "body": "Yes, of course. What would be the issue?"
+        },
+        {
+          "username": "nachof",
+          "date": "2011-12-28T11:50:28-06:00",
+          "body": "I think the answer to this is 'yes' but I wanted to check and my girlfriend and I can't agree. Say you have already built a road segment 5 roads long, can you then go back and build a settlement between the roads you have built providing the distance rule is obeyed?\n\nie.\n\nS-----\n\nthen build\n\nS---S--\n\nMany thanks,\n\nWilfrey\n\nPerfectly valid play.\n\nEven more, you can play a settlement between two of another player's roads (as long as you respect the distance rule and you also have a road leading to that intersection)."
+        },
+        {
+          "username": "big-pink-rabbit",
+          "date": "2011-12-28T11:52:04-06:00",
+          "body": "Hi - Yes you are correct - we have always played it that way and the computer versions of the game I have played always let you go back to play a settlement on a pre-built road of your own as long as it is at least 2 road segments away from any other settlement or city.\n\nAl"
+        },
+        {
+          "username": "Wilfrey",
+          "date": "2011-12-28T12:21:07-06:00",
+          "body": "Thank you all for clearing this up. I did not think this would be an issue but had to get clarification to avoid a relationship breakdown lol. \n\nHi I am the girlfriend and thank you for the answers although i will still stick to my guns and say I am right lmao. \n\nTypical."
+        },
+        {
+          "username": "AggieIE",
+          "date": "2011-12-28T12:21:28-06:00",
+          "body": "Welcome to BGG!\n\nDefinite \"yes.\"  It is an inexpensive way to gain control of an intersection you and your opponent may be competing to build on if you have enough resources for roads but not enough for a settlement.  In fact, you can even build a settlement on an opponent's road if one of your road segments intersects with it.  It is a fun way to break up an opponent's longest road."
+        },
+        {
+          "username": "WBRP",
+          "date": "2011-12-28T12:22:06-06:00",
+          "body": "Poor guy needs a new girlfriend"
+        },
+        {
+          "username": "Wilfrey",
+          "date": "2011-12-28T12:29:07-06:00",
+          "body": "Yes I will trade one girlfriend (nearly new) for three wood or two bricks. Asked the banker first but he didn't want any part of this one. lol"
+        },
+        {
+          "username": "WBRP",
+          "date": "2011-12-28T12:49:40-06:00",
+          "body": "[insert mandatory, obligatory \"Got Wood for...\" joke]"
+        },
+        {
+          "username": "Oni no board",
+          "date": "2011-12-28T13:40:39-06:00",
+          "body": "Doesn't the newest edition of Settlers come with a FAQ printed at the end of the rules book?  Some of the most asked questions and answers were printed on mine but I got mine way back when (I think mine is the 2nd printing/edition whatever)."
+        },
+        {
+          "username": "plurpee21",
+          "date": "2022-09-16T19:27:12-05:00",
+          "body": "Are you and your girlfriend still together?"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 11,
+      "date_range": [
+        "2011-12-28",
+        "2022-09-16"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_848287",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "848287",
+      "thread_subject": "The rules are not clear about starting resources, do you always hand out accourding to the white stars?",
+      "embed_text": "How do players determine their starting resources in the game of Catan, and are the white stars on the board used for this purpose?",
+      "content": "The community resolved that starting resources are determined by the terrain hexes adjacent to the second settlement placed by each player during the setup stage, with one resource card taken from the supply for each adjacent hex. The white stars are only used for the beginner's setup, and the rulebook's clarity on this point has been noted to vary across editions.",
+      "raw_thread": [
+        {
+          "username": "bmwrider",
+          "date": "2012-08-28T08:22:34-05:00",
+          "body": "How do we figure out which resources each player starts out with? 3 of us played last night and all read the starting setup rules but could not figure out if you are always supposed to use the white stars for starting resources.\n\nIt seems like its just the learning setup and there is another way but we could not find it.\n\nWe have played a few times before but the game owner always set things up now we can't figure it out, could some one help us out."
+        },
+        {
+          "username": "John85",
+          "date": "2012-08-28T08:27:53-05:00",
+          "body": "You get one resource from each resource tile adjacent to your starting settlements (so at most you begin with six cards, although depending on placement you may only receive 4 [i.e. if both settlements are on the coast])"
+        },
+        {
+          "username": "thejeffo",
+          "date": "2012-08-28T08:28:06-05:00",
+          "body": "You get the resource that are touching the second settlement you lay in setup.\n\nEx. If the second settlement you play in setup is touching 2 sheep hexes and 1 wood hex, then you get 2 sheep and 1 wood.\n\nIf the second settlement you play in setup is touching the desert, a brick hex and a stone hex, then you would get 1 brick and 1 stone."
+        },
+        {
+          "username": "AlexYeager",
+          "date": "2012-08-28T08:29:28-05:00",
+          "body": "The rule you're looking for is on page 3: \"You receive resources for each terrain hex around your starting settlement marked with a white star...\" So, if you're the blue player per the setup illustration, you receive a clay, wool, and ore card. If you do the variable setup (where you place your starting settlements where you choose), you get the resources from the hexes touching the second settlement that you place.\n\nI hope that helps!\n\nAlex Yeager\n\nMayfair Games"
+        },
+        {
+          "username": "jss333",
+          "date": "2012-08-28T08:31:06-05:00",
+          "body": "If you're using the starting setup laid out in the manual, then yes, you should give starting resources based on the settlement marked with a white star.\n\nIf you're doing a random setup, then resources are given according to the 2nd settlement placed by each player during the setup stage."
+        },
+        {
+          "username": "Sayburr",
+          "date": "2012-08-28T08:31:18-05:00",
+          "body": "You gather resources based on the tiles surrounding the second settlement you place.  \n\nOne resource, based on the tiles, that are surrounding your second settlement.\n\nIf the second settlement were placed in the intersection of 10,5,9 (where the white city is now), the players starting recources would be Wood and two Wool.\n\nAt 5,9,2 - three wool\n\nAt 2,4,6 - Wool, Wheat, Wood\n\nect..."
+        },
+        {
+          "username": "Sayburr",
+          "date": "2012-08-28T08:32:33-05:00",
+          "body": "Better Answer:\n\nIf you're doing a random setup, then resources are given according to the 2nd settlement placed by each player during the setup stage."
+        },
+        {
+          "username": "John85",
+          "date": "2012-08-28T09:50:26-05:00",
+          "body": "I guess I've been playing house rules, oh well."
+        },
+        {
+          "username": "markgravitygood",
+          "date": "2012-08-28T11:25:05-05:00",
+          "body": "I like your version. \"Constructors of Catan\". Seems to make it a fast-build game."
+        },
+        {
+          "username": "papiklfish",
+          "date": "2012-08-28T21:59:40-05:00",
+          "body": "I guess I've been playing house rules, oh well.\n\nI like your version. \"Constructors of Catan\". Seems to make it a fast-build game.\n\nActually we play with this house rule as well.  We always knew it was a house rule, but the guy who was most familiar with the game when we started playing regularly told us about this, and we have been using it ever since.  It will often let you get a road or a development card early on in the game.  I do not think it throws things off too much.  The downside is that you can become vulnerable to the robber with 7+ cards before you even get a turn to use any of them."
+        },
+        {
+          "username": "bmwrider",
+          "date": "2012-08-29T10:59:56-05:00",
+          "body": "I guess I've been playing house rules, oh well.\n\nI like your version. \"Constructors of Catan\". Seems to make it a fast-build game.\n\nOK so how does constructors of catan work?\n\nDo you get all adjacent resources? for a total of six depending on placement."
+        },
+        {
+          "username": "markgravitygood",
+          "date": "2012-08-29T11:24:56-05:00",
+          "body": "That's what I hear."
+        },
+        {
+          "username": "bmwrider",
+          "date": "2012-09-01T23:33:51-05:00",
+          "body": "I like your version. \"Constructors of Catan\". Seems to make it a fast-build game.\n\nOK so how does constructors of catan work?\n\nDo you get all adjacent resources? for a total of six depending on placement.\n\nWhere are the rules to this variant?"
+        },
+        {
+          "username": "The_General_",
+          "date": "2024-03-01T07:45:36-06:00",
+          "body": "Yep, the rule book is pretty poor here. I bought the 2019 version last month. Rule book doesn't explain what to do for random setup from what I can see. I was looking for hexes with white stars on them to begin with lol.\nWe ended up playing with no bonus starting resources, and it was a very slow start to the game. I like Patricks idea of bonus resources for both settlements to get things moving."
+        },
+        {
+          "username": "rainbowrose",
+          "date": "2024-03-03T18:43:28-06:00",
+          "body": "Ex. If the second settlement you play in setup is touching 2 sheep hexes and 1 wood hex, then you get 2 sheep and 1 wood.\nIf the second settlement you play in setup is touching the desert, a brick hex and a stone hex, then you would get 1 brick and 1 stone.\n\nMy rules from the English 4th Edition from 2007 are very clear that this is the rule. It's sad that newer editions are letting the side down.\n\nIn the Almanac section of my rulebook on Page 12 under Round Two, under Set-up Phase it saysEach player receives his starting resources immediately after building his second settlement; for each terrain hex adjacent to this second settlement, he takes a corresponding Resource Card from the supply.\n\nThis is referenced in the Game Rules section of the rulebook under Starting Set-up for Experienced Players.  The buisness about white stars is only part of the Starting Set-up for Beginners.\n\nAgain, it's really sad that the rulebook has gone down hill. Catan won awards for it's excellent and innovative rulebook."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": true,
+      "confidence": "high",
+      "post_count": 15,
+      "date_range": [
+        "2012-08-28",
+        "2024-03-03"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "catan_13_forum_952874",
+      "source_type": "forum",
+      "game_name": "catan",
+      "game_id": 13,
+      "thread_id": "952874",
+      "thread_subject": "Robber - discarding half of your cards, do development cards count?",
+      "embed_text": "When a player has more than 7 cards and the robber is activated, do development cards count towards the total number of cards that must be discarded?",
+      "content": "Development cards do not count as resource cards for the purpose of discarding half of your cards when the robber is activated. The rules state that Resource Cards are discarded, and Development Cards are not considered Resource Cards.",
+      "raw_thread": [
+        {
+          "username": "BeeBee505",
+          "date": "2013-03-27T10:55:20-05:00",
+          "body": "When a seven is rolled and the robber is activated, you have to discard half of your cards, if you have more than 7. Do you have to discard half of your cards if you have 5 resource and 3 unplayed development cards, that makes 8 cards in your hand?"
+        },
+        {
+          "username": "ackmondual",
+          "date": "2013-03-27T10:56:54-05:00",
+          "body": "No, Development cards do not count as resources for this purpose.  You're fine if you have 5 resource cards in hand and 3 dev cards in hand."
+        },
+        {
+          "username": "BeeBee505",
+          "date": "2013-03-27T10:59:35-05:00",
+          "body": "thank you for clearing that up  it's been bugging me for days and it's not explained anywhere in the rulebook"
+        },
+        {
+          "username": "mistergnome",
+          "date": "2013-03-27T11:04:51-05:00",
+          "body": "And just to clarify, Development cards cannot be stolen by other players either. They are meant to be face down in front of you and separate from your hand, presumably to clear up those two issues."
+        },
+        {
+          "username": "freechinanow",
+          "date": "2013-03-27T11:18:01-05:00",
+          "body": "Just to clarify, the rules state that Resource Cards are discarded. Development Cards are not Resource Cards."
+        },
+        {
+          "username": "BeeBee505",
+          "date": "2013-03-27T11:41:04-05:00",
+          "body": "My game and its rulebook aren't in english  that's why I was confused, because the rulebook only says: cards are discarded, it doesn't say: resource cards are discarded :/ I guess they did a sloppy translation"
+        },
+        {
+          "username": "Jason Winter",
+          "date": "2013-03-27T13:59:20-05:00",
+          "body": "\"keep your development cards hidden (in your hand)until you use them,so your opponents can't anticipate your play.\"  source \"build\" \"d)\" page 5 Game Rules Almanac \n\nI believe this is the source of contention."
+        },
+        {
+          "username": "BeeBee505",
+          "date": "2013-03-27T16:39:55-05:00",
+          "body": "exactly"
+        },
+        {
+          "username": "ivankeri",
+          "date": "2022-03-20T22:52:43-05:00",
+          "body": "Exactly!!\n\nCan anyone help me out here?\n\nHow can you actually “keep the number of resource cards you have” hidden, if you are not required to keep them separate from your resource cards?\n\nI mean: if you (as a personal choice) keep all of your cards (resource+development) in you hand (I mean in your literal hand together without distinction), then when the robber comes to get you, you could easily say something like: “oh no I do have 8 cards (i.e. more than 7) but actually 1 of them is a resource card so the robber won’t hit me”…\n\nI dont get how are you supposed to be able to keep resource and development not-separated and still be able to play without causing distrust in the rest of the players."
+        },
+        {
+          "username": "WilbertK",
+          "date": "2022-03-21T00:18:04-05:00",
+          "body": "Development cards are not resource cards."
+        },
+        {
+          "username": "xipuloxx",
+          "date": "2022-03-21T07:16:00-05:00",
+          "body": "I assume one of those should have said development cards, rather than resource cards! But nobody said anything about keeping the number of them secret: when it tells you to keep them hidden it just means to hide what they actually are (i.e. victory points, monopoly etc.). Obviously you'd have to reveal how many resource cards you have when the robber strikes so it's clear how many you should lose.\n\nI mean: if you (as a personal choice) keep all of your cards (resource+development) in you hand (I mean in your literal hand together without distinction), then when the robber comes to get you, you could easily say something like: “oh no I do have 8 cards (i.e. more than 7) but actually 1 of them is a resource card so the robber won’t hit me”…\n\nIt's been a while since I've played, but don't they have different backs so you can tell which is which?"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 11,
+      "date_range": [
+        "2013-03-27",
+        "2022-03-21"
+      ],
+      "retrieval_priority": 2
+    }
+  ]
+}
