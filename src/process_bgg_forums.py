@@ -4,7 +4,7 @@ Process raw BGG forum thread JSONs into structured chunks for RAG retrieval.
 Reads individual thread JSONs from data/bgg_threads/<game>/, uses Llama
 (via Groq) to extract structured fields (embed_text, content,
 resolution_status, etc.), and writes one consolidated JSON per game to
-data/processed/<game>_forum_chunks.json.
+data/chunks/<game>_forum_chunks.json.
 
 Usage:
     python src/process_bgg_forums.py                 # process all games
@@ -300,7 +300,7 @@ def main():
     project_root = script_dir.parent
 
     threads_dir = project_root / "data" / "bgg_threads"
-    output_dir = project_root / "data" / "processed"
+    output_dir = project_root / "data" / "chunks"
 
     games_to_process = {args.game: GAMES[args.game]} if args.game else GAMES
 

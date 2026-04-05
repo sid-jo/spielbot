@@ -157,7 +157,7 @@ if __name__ == "__main__":
     project_root = script_dir.parent
 
     rulebooks_dir = project_root / "data" / "rulebooks"
-    output_dir = project_root / "data" / "extracted"
+    output_dir = project_root / "data" / "processed_rulebooks"
 
     print(f"Extracting PDFs from: {rulebooks_dir}")
     print(f"Output directory: {output_dir}")
