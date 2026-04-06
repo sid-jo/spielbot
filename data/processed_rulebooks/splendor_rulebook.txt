@@ -36,12 +36,12 @@ During the game, the players take gem and gold tokens. With these tokens, they p
 As soon as a player reaches 15 prestige points, the current turn ends and the player with the most prestige points is declared the winner.
 
 {The Development Cards}
-To win prestige points, the players must purchase development cards.  These  cards  are  visible  in  the  middle  of  the  table  and  may be purchased by all players during the game.The developments in hand are the cards which the players reserve throughout the game. Developments in hand may only be purchased by the players holding them.
+To win prestige points, the players must purchase development cards. These cards are visible in the middle of the table and may be purchased by all players during the game.The developments in hand are the cards which the players reserve throughout the game. Developments in hand may only be purchased by the players holding them.
 
 {The Noble Tiles}
 The noble tiles are visible in the middle of the table. At the end of their turn, a player automatically receives the visit from a noble if that player has the amount of bonuses (and only bonuses) required, and they get the corresponding tile.
-A player canot refuse a visit from a noble.
-Receiving a noble isn't considered to be an action. Each noble tile is worth 3 points, but players can only gt a single one per turn.
+A player cannot refuse a visit from a noble.
+Receiving a noble isn't considered to be an action. Each noble tile is worth 3 points, but players can only get a single one per turn.
 
 {Starting the Game}
 The youngest player begins. Play then proceeds clockwise.
