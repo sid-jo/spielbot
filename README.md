@@ -45,7 +45,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 03/25/26 | Got access to the BGG API and made the API key! Incorporated API calls to gather data and kept webscraping script as fallback| 
 | 03/31/26 | Finalized BGG forum extraction script + processing script to prepare for chunking |
 | 04/05/26| Implemented chunking script for rulebook outputs and cleaned up data file structure. I might need to revise the chunking strategies to make sure only useful information is being kept to support retriever quality |
-| 04/05/26| Decided to manually re-format PDF extractions of rulebooks (and get rid of 2 ROOT rulebooks) to ensure better chunk quality. Multi-column structures are difficult for PDFPlumber and I need to get a PoC up as soon as I can. |
+| 04/06/26| Manually re-format PDF extractions of rulebooks (and get rid of 2 ROOT rulebooks) to ensure better chunk quality. Multi-column structures are difficult for `PDFPlumber` and I need to get a PoC up ASAP. |
 
 
 
