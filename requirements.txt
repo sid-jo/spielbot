@@ -3,3 +3,4 @@ requests
 groq
 chromadb
 sentence-transformers
+rank-bm25
