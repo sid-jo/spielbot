@@ -1,7 +1,7 @@
 {
   "game_name": "root",
   "source_file": "root_rulebook.txt",
-  "total_chunks": 71,
+  "total_chunks": 84,
   "chunks": [
     {
       "chunk_id": "root_rulebook_000",
@@ -13,7 +13,7 @@
       "page_start": 1,
       "page_end": 2,
       "chunk_index": 0,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -26,7 +26,7 @@
       "page_start": 2,
       "page_end": 2,
       "chunk_index": 1,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -39,7 +39,7 @@
       "page_start": 2,
       "page_end": 2,
       "chunk_index": 2,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -52,7 +52,7 @@
       "page_start": 2,
       "page_end": 3,
       "chunk_index": 3,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -65,7 +65,7 @@
       "page_start": 3,
       "page_end": 3,
       "chunk_index": 4,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -78,7 +78,7 @@
       "page_start": 3,
       "page_end": 3,
       "chunk_index": 5,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -91,7 +91,7 @@
       "page_start": 3,
       "page_end": 3,
       "chunk_index": 6,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -104,7 +104,7 @@
       "page_start": 3,
       "page_end": 4,
       "chunk_index": 7,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -117,7 +117,7 @@
       "page_start": 4,
       "page_end": 4,
       "chunk_index": 8,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -130,7 +130,7 @@
       "page_start": 4,
       "page_end": 4,
       "chunk_index": 9,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -143,7 +143,7 @@
       "page_start": 4,
       "page_end": 4,
       "chunk_index": 10,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -156,7 +156,7 @@
       "page_start": 4,
       "page_end": 4,
       "chunk_index": 11,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -169,7 +169,7 @@
       "page_start": 4,
       "page_end": 4,
       "chunk_index": 12,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -182,7 +182,7 @@
       "page_start": 4,
       "page_end": 4,
       "chunk_index": 13,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -195,7 +195,7 @@
       "page_start": 4,
       "page_end": 4,
       "chunk_index": 14,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -208,7 +208,7 @@
       "page_start": 4,
       "page_end": 6,
       "chunk_index": 15,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -221,7 +221,7 @@
       "page_start": 6,
       "page_end": 6,
       "chunk_index": 16,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -234,7 +234,7 @@
       "page_start": 6,
       "page_end": 6,
       "chunk_index": 17,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -247,7 +247,7 @@
       "page_start": 6,
       "page_end": 6,
       "chunk_index": 18,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -260,7 +260,7 @@
       "page_start": 6,
       "page_end": 7,
       "chunk_index": 19,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -273,7 +273,7 @@
       "page_start": 7,
       "page_end": 7,
       "chunk_index": 20,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -286,7 +286,7 @@
       "page_start": 7,
       "page_end": 7,
       "chunk_index": 21,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -299,7 +299,7 @@
       "page_start": 7,
       "page_end": 8,
       "chunk_index": 22,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -312,7 +312,7 @@
       "page_start": 8,
       "page_end": 9,
       "chunk_index": 23,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -325,7 +325,7 @@
       "page_start": 8,
       "page_end": 9,
       "chunk_index": 24,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -338,7 +338,7 @@
       "page_start": 8,
       "page_end": 9,
       "chunk_index": 25,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -351,7 +351,7 @@
       "page_start": 9,
       "page_end": 9,
       "chunk_index": 26,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -364,7 +364,7 @@
       "page_start": 9,
       "page_end": 10,
       "chunk_index": 27,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -377,7 +377,7 @@
       "page_start": 10,
       "page_end": 10,
       "chunk_index": 28,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -390,7 +390,7 @@
       "page_start": 10,
       "page_end": 10,
       "chunk_index": 29,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -403,7 +403,7 @@
       "page_start": 10,
       "page_end": 10,
       "chunk_index": 30,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -416,7 +416,7 @@
       "page_start": 10,
       "page_end": 10,
       "chunk_index": 31,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -429,7 +429,7 @@
       "page_start": 10,
       "page_end": 11,
       "chunk_index": 32,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -442,7 +442,7 @@
       "page_start": 11,
       "page_end": 11,
       "chunk_index": 33,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -455,7 +455,7 @@
       "page_start": 11,
       "page_end": 11,
       "chunk_index": 34,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -468,7 +468,7 @@
       "page_start": 11,
       "page_end": 11,
       "chunk_index": 35,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -481,7 +481,7 @@
       "page_start": 11,
       "page_end": 12,
       "chunk_index": 36,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -494,7 +494,7 @@
       "page_start": 12,
       "page_end": 12,
       "chunk_index": 37,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -507,7 +507,7 @@
       "page_start": 12,
       "page_end": 12,
       "chunk_index": 38,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -520,7 +520,7 @@
       "page_start": 12,
       "page_end": 12,
       "chunk_index": 39,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -533,7 +533,7 @@
       "page_start": 12,
       "page_end": 13,
       "chunk_index": 40,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -546,7 +546,7 @@
       "page_start": 13,
       "page_end": 13,
       "chunk_index": 41,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -559,7 +559,7 @@
       "page_start": 13,
       "page_end": 13,
       "chunk_index": 42,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -572,7 +572,7 @@
       "page_start": 13,
       "page_end": 14,
       "chunk_index": 43,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -585,7 +585,7 @@
       "page_start": 14,
       "page_end": 14,
       "chunk_index": 44,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -598,7 +598,7 @@
       "page_start": 14,
       "page_end": 14,
       "chunk_index": 45,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -611,7 +611,7 @@
       "page_start": 14,
       "page_end": 14,
       "chunk_index": 46,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -624,7 +624,7 @@
       "page_start": 14,
       "page_end": 14,
       "chunk_index": 47,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -637,7 +637,7 @@
       "page_start": 14,
       "page_end": 15,
       "chunk_index": 48,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -650,7 +650,7 @@
       "page_start": 15,
       "page_end": 15,
       "chunk_index": 49,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -663,7 +663,7 @@
       "page_start": 15,
       "page_end": 15,
       "chunk_index": 50,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -676,7 +676,7 @@
       "page_start": 15,
       "page_end": 15,
       "chunk_index": 51,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -689,7 +689,7 @@
       "page_start": 15,
       "page_end": 16,
       "chunk_index": 52,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -702,7 +702,7 @@
       "page_start": 16,
       "page_end": 16,
       "chunk_index": 53,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -715,7 +715,7 @@
       "page_start": 16,
       "page_end": 16,
       "chunk_index": 54,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -728,7 +728,7 @@
       "page_start": 16,
       "page_end": 16,
       "chunk_index": 55,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -741,7 +741,7 @@
       "page_start": 16,
       "page_end": 16,
       "chunk_index": 56,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -754,7 +754,7 @@
       "page_start": 16,
       "page_end": 17,
       "chunk_index": 57,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -767,7 +767,7 @@
       "page_start": 17,
       "page_end": 17,
       "chunk_index": 58,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -780,7 +780,7 @@
       "page_start": 17,
       "page_end": 18,
       "chunk_index": 59,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -793,7 +793,7 @@
       "page_start": 17,
       "page_end": 18,
       "chunk_index": 60,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -806,7 +806,7 @@
       "page_start": 17,
       "page_end": 18,
       "chunk_index": 61,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -819,7 +819,7 @@
       "page_start": 18,
       "page_end": 19,
       "chunk_index": 62,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -832,7 +832,7 @@
       "page_start": 18,
       "page_end": 19,
       "chunk_index": 63,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -845,7 +845,7 @@
       "page_start": 19,
       "page_end": 20,
       "chunk_index": 64,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -858,7 +858,7 @@
       "page_start": 20,
       "page_end": 20,
       "chunk_index": 65,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -871,7 +871,7 @@
       "page_start": 20,
       "page_end": 21,
       "chunk_index": 66,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -884,7 +884,7 @@
       "page_start": 20,
       "page_end": 21,
       "chunk_index": 67,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -897,7 +897,7 @@
       "page_start": 20,
       "page_end": 21,
       "chunk_index": 68,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -910,7 +910,7 @@
       "page_start": 21,
       "page_end": 22,
       "chunk_index": 69,
-      "total_chunks": 71,
+      "total_chunks": 84,
       "retrieval_priority": 1
     },
     {
@@ -919,11 +919,180 @@
       "game_name": "root",
       "section_title": "F. Landmarks (Part 2)",
       "source_tier": "reference",
-      "content": "a faction board. (Items are not faction pieces.) See 1.5.2. G.1.11 Forest. An area on the map enclosed by paths and clearings. G.1.12 Force. See 1.5.5. G.1.13 Item. A square cardboard piece showing an item (Boot, Sword, Crossbow, etc.) that is not owned by any faction. G.1.14 Map. See 2.2.\n\nG.1.15 Map Edge. The single closed loop of clearings and paths that define the map boundary, including closed paths on the mountain map.\nG.1.16 Path. A white link between two clearings.\nG.1.17 Pawn. A wooden figure owned by its faction.\nG.1.18 Piece. Any component—building, token, warrior, pawn, item, marker, and so on.\nG.1.19 Place. Take the prompted piece from the prompted source and put it in the prompted destination. Usually, no source is specified—in this case, take it from its supply, or take the leftmost prompted piece if it is on a track. Put is shorthand for Place.\nG.1.20 Play Area. The area around your faction board. Cards in it can only be spent, discarded, or used for other purposes if explicitly instructed.\nG.1.21 Replace. Shorthand for remove then place. Remove the prompted piece and place the other prompted piece in location from which the first was removed. You must complete all steps of the replace in order to do it.\nG.1.22 Remove. Take the prompted piece from the prompted source and return it to the prompted destination. Usually, no destination is specified—in this case, return it to its owner’s supply, return it to the rightmost empty space of its track it has one, or remove it permanently otherwise. (Items are removed permanently.)\nG.1.23 Reveal. Place the prompted card face up in your play area. Usually, no source is specified—in this case, take it from your hand.\nG.1.24 River. A blue link between two clearings.\nG.1.25 Ruin. Piece covering an “R” slot in a clearing (2.2.4).\nG.1.26 Rule. See 2.5.\nG.1.27 Show. Let the prompted player see the prompted piece.\nG.1.28 Slot. White box in a clearing (2.2.3).\nG.1.29 Spend. See Discard. (These terms are equivalent, but spend is used in contexts with choice.)\nG.1.30 Supply. The collection of pieces that is not on a faction board or the map. The item supply is the collection of items on the map.\nG.1.31 Swap. Switch the locations of the two prompted pieces. (This ignores move and place restrictions, such as the Corvids’ snare and the Marquise’s keep.)\nG.1.32 Token. A circular cardboard piece owned by its faction.\nG.1.33 Treat. The prompted thing takes on the properties of the second prompted thing. While you treat enemy pieces as your own for rule, they are not enemy pieces, but they are still faction pieces of that enemy player. (For example, Riverfolk warriors you’ve hired as mercenaries are not enemy pieces to you, but they are still Riverfolk faction pieces.)\nG.1.34 Warrior. A wooden figure owned by its faction. (The Vagabond pawn is not a warrior and cannot be removed.)",
+      "content": "a faction board. (Items are not faction pieces.) See 1.5.2. G.1.11 Forest. An area on the map enclosed by paths and clearings. G.1.12 Force. See 1.5.5. G.1.13 Item. A square cardboard piece showing an item (Boot, Sword, Crossbow, etc.) that is not owned by any faction. G.1.14 Map. See 2.2.\n\nG.1.15 Map Edge. The single closed loop of clearings and paths that define the map boundary, including closed paths on the mountain map.\nG.1.16 Path. A white link between two clearings.\nG.1.17 Pawn. A wooden figure owned by its faction.\nG.1.18 Piece. Any component—building, token, warrior, pawn, item, marker, and so on.\nG.1.19 Place. Take the prompted piece from the prompted source and put it in the prompted destination. Usually, no source is specified—in this case, take it from its supply, or take the leftmost prompted piece if it is on a track. Put is shorthand for Place.\nG.1.20 Play Area. The area around your faction board. Cards in it can only be spent, discarded, or used for other purposes if explicitly instructed.\nG.1.21 Replace. Shorthand for remove then place. Remove the prompted piece and place the other prompted piece in location from which the first was removed. You must complete all steps of the replace in order to do it.\nG.1.22 Remove. Take the prompted piece from the prompted source and return it to the prompted destination. Usually, no destination is specified—in this case, return it to its owner’s supply, return it to the rightmost empty space of its track it has one, or remove it permanently otherwise. (Items are removed permanently.)\nG.1.23 Reveal. Place the prompted card face up in your play area. Usually, no source is specified—in this case, take it from your hand.\nG.1.24 River. A blue link between two clearings.\nG.1.25 Ruin. Piece covering an “R” slot in a clearing (2.2.4).\nG.1.26 Rule. See 2.5.\nG.1.27 Show. Let the prompted player see the prompted piece.\nG.1.28 Slot. White box in a clearing (2.2.3).\nG.1.29 Spend. See Discard. (These terms are equivalent, but spend is used in contexts with choice.)\nG.1.30 Supply. The collection of pieces that is not on a faction board or the map. The item supply is the collection of items on the map.\nG.1.31 Swap. Switch the locations of the two prompted pieces. (This ignores move and place restrictions, such as the Corvids’ snare and the Marquise’s keep.)\nG.1.32 Token. A circular cardboard piece owned by its faction.\nG.1.33 Treat. The prompted thing takes on the properties of the second prompted thing. While you treat enemy pieces as your own for rule, they are not enemy pieces, but they are still faction pieces of that enemy player. (For example, Riverfolk warriors you’ve hired as mercenaries are not enemy pieces to you, but they are still Riverfolk faction pieces.)\nG.1.34 Warrior. A wooden figure owned by its faction. (The Vagabond pawn is not a warrior and cannot be removed.)\n\n[NO PAGE]",
       "page_start": 21,
       "page_end": 22,
       "chunk_index": 70,
-      "total_chunks": 71,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_071",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "16. Lilypad Diaspora",
+      "source_tier": "core_rules",
+      "content": "16.1 Overview. The Lilypad Diaspora wishes to establish ENCLAVES as safe havens in the Woodland, and they score points by spending cards matching enclaves on their peaceful side. These enclaves introduce the Diaspora culture to the Woodland, adding the new FROG SUIT to their clearing. They also add frog cards to the deck and a new discard pile for frog cards called the POND. However, their Peaceful enclaves cannot protect them. To gain warriors, they need enclaves on their militant side. But these enclaves cover their clearing's suit as the Diaspora expels threats real or imagined, making them lose essential Woodland support. They also prompt the Diaspora to retaliate, making them battle at them every turn. To prevent this, they can reconcile to flip Militant enclaves to Peaceful, and their enemies can do the same through negotiations. However, their enemies may battle the Diaspora to flip Peaceful enclaves to Militant, as their people's fears come to pass.",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 71,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_072",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "16.2 Faction Rules and Abilities",
+      "source_tier": "core_rules",
+      "content": "16.2.1 Enclaves. The Diaspora has 12 enclave tokens, which are double-sided: one side is Peaceful and the other side is Militant.\n16.2.1.I Clearing Suit. While Peaceful, an enclave adds the frog suit to its clearing, making it dual-suited. While Militant, an enclave replaces its clearing suit with the frog suit.\n16.2.1.II Matching. Various effects target a clearing matching the suit of something else, such as a card. A clearing with a Militant enclave can be matched with the frog suit. A clearing with a Peaceful enclave can be matched with either the frog suit or the printed clearing suit.\n16.2.2 Frog Cards. During setup, 14 frog cards are shuffled into the shared deck. These cards have the frog suit. Some of them have frog crafting icons. Many of their crafted effects force the Diaspora to take actions; the Diaspora can craft these to act themselves.\n16.2.2.I Frog Dominance. If a player has activated the Frog Dominance card, they win the game at the start of their Birdsong if they rule at least two enclaves on the river, and they now follow the Enclave Defense rule (16.2.2.Ia).\n16.2.2.I.a Enclave Defense. When the Diaspora is defending in battle, if an enclave is in the battle clearing, the player with Frog Dominance adds their faction warriors there as defending warriors, taking hits after the Diaspora's, unless the player with Frog Dominance is attacking.\n16.2.2.I.b Peacekeepers. If both Peacekeepers (17.2.5) and Enclave Defense (16.2.2.I.a) affect a battle, the Diaspora chooses the combination of Council warriors and Enclave Defense warriors to take hits after their own.\n16.2.3 The Pond. When a frog card is discarded, it goes face up on top of the Pond pile, on the Pond placard, instead of the discard pile.\n16.2.3.I Drawing. When a player draws any number of cards, they may draw the first card from the top of the Pond instead of the shared deck.\n16.2.3.II Reshuffling. When the shared deck is reshuffled, all cards from the Pond are also shuffled into it.\n16.2.4 Fears Come to Pass. After a battle where an enemy attacks a defending Peaceful enclave, or when an enemy removes a Peaceful enclave outside battle, flip all Peaceful enclaves with that enemy's pieces to Militant and place 1 warrior at each flipped enclave.\n16.2.5 Negotiations. Once during their turn, an enemy with faction pieces in a clearing with a Militant enclave may flip it to Peaceful. If they don't rule the enclave but another player does, the flipping player must give the ruler a card in order to flip the enclave.\n16.2.6 Swimmers. The Diaspora treat rivers as paths and may move along a river fully linking an origin and destination clearing, ignoring the need for rule.\n16.2.7 Crafting. The Diaspora crafts by activating enclaves in Birdsong (16.4.1).",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 72,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_073",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "16.3 Faction Setup / 16.4 Birdsong",
+      "source_tier": "core_rules",
+      "content": "16.3.1 Step 1: Gather Pieces. Form a supply of 20 warriors and 12 enclaves.\n16.3.2 Step 2: Place Warriors and Enclave. In a clearing on the river, place 5 warriors and 1 enclave on its Peaceful side. This is your starting clearing.\n16.3.3 Step 3: Remove Dominance. In a two-player game, remove the Frog Dominance card permanently.\n16.3.4 Step 4: Shuffle Frog Cards. Shuffle all of the Frog cards into the shared deck—14 cards, or 13 if the Frog Dominance card was removed. Place the Pond placard near the shared deck.\n\n16.4.1 Craft. You may activate enclaves to craft cards (16.2.1.II).\n16.4.2 Rally or Reconcile. You must either Rally or Reconcile.\n16.4.2.I Rally. Place 1 warrior at each Militant enclave.\n16.4.2.II Reconcile. Flip any number of Militant enclaves to Peaceful. Each time, if a player rules it, they draw 1 card (which can be from the Pond).",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 73,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_074",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "16.5 Daylight",
+      "source_tier": "core_rules",
+      "content": "You may Settle or Provoke up to 3 times in any order and combination.\n16.5.1 Settle. Choose a clearing. You may move into it from any number of adjacent clearings, once each. Then, you may either initiate a battle in it, or you may place a Peaceful enclave in it if it has none and you rule the clearing.\n16.5.2 Provoke. Flip a Peaceful enclave to Militant, or place a Militant enclave on the river or at a Diaspora warrior. Then, place 1 warrior at each Militant enclave. Finally, discard a random card. (If you have no cards in hand, skip the final step.)",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 74,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_075",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "16.6 Evening",
+      "source_tier": "core_rules",
+      "content": "Your Evening has three steps in the following order.\n16.6.1 Retaliate. You must battle at each Militant enclave. (If enemy pieces are placed during this step at a Militant enclave that had no enemy pieces, you must battle them. You must battle Riverfolk Company Mercenaries if they are the only way to battle.)\n16.6.2 Integrate. You may spend one card to score 1 victory point for each matching Peaceful enclave on the map. You cannot score the frog suit. (You cannot Integrate multiple times per turn.)\n16.6.3 Draw and Discard. Draw one card, plus more cards based on your Peaceful enclaves on the map: +1 if you have 2–3, +2 if you have 4–7, or +3 if you have 8 or more. Then, if you have more than five cards in your hand, discard cards of your choice until you have five.",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 75,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_076",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "17. Twilight Council",
+      "source_tier": "core_rules",
+      "content": "17.1 Overview. The Twilight Council works to suppress violence by bringing together the Woodfolk in ASSEMBLIES, hoping to draw the civil war to an end. Assemblies let the Council score victory points, banish enemy warriors from their clearings, and gain LOYALISTS, warriors on their player board that they can later place at assemblies. The Council acts as PEACEKEEPERS at their assemblies, defending enemy factions when they're attacked. By ruling assemblies, the Council can flip assemblies to their GOVERNING side. In Evening, they score points based on the number of Governing assemblies with any enemy buildings or tokens at them. Their GOVERNORS limit the actions that enemies can take at Governing assemblies, unless those enemies ENTREAT the Council to close the assembly for a time.",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 76,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_077",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "17.2 Faction Rules and Abilities",
+      "source_tier": "core_rules",
+      "content": "17.2.1 Loyalists. The Council can hold up to 4 warriors on its player board as LOYALISTS. They can place Loyalists with Entreat (17.2.4) and Assemble (17.4.3). They may remove Loyalists at any time.\n17.2.2 Assemblies. Assemblies have two sides: Closed (closed tent) and Governing (open tent). When an enemy of the Council removes an assembly, the Council removes 1 Loyalist.\n17.2.3 Governors. At Governing assemblies, enemies of the Council cannot activate crafting pieces and cannot place, take, remove, or flip pieces, except in battle. (The Vagabond cannot craft because the Vagabond pawn is its crafting piece.)\n17.2.4 Entreat. Any number of times on their turn, an enemy may force the Council to flip any assembly to Closed. After flipping it, the Council may either place any number of Loyalists at that assembly or place 1 warrior in their Loyalists.\n17.2.5 Peacekeepers. When an enemy chooses another enemy as defender at an assembly, the Council adds Council warriors as defending warriors, but Council warriors only take hits once the defender's warriors have been removed. Ignore Peacekeepers if the Vagabond is defending. (The Council cannot ambush, use battle effects, etc.)\n17.2.6 Crafting. The Council crafts during Evening by activating assemblies.",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 77,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_078",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "17.3 Faction Setup / 17.4 Birdsong",
+      "source_tier": "core_rules",
+      "content": "17.3.1 Step 1: Gather Pieces. Form a supply of 20 warriors.\n17.3.2 Step 2: Place Warriors. Place 4 warriors in a corner clearing. This is your starting clearing. Place 2 warriors in a different clearing.\n17.3.3 Step 3: Fill Assemblies Track. Fill your Assemblies track on your player board with your 6 assemblies.\n\nAny number of times, you may reveal a card to take an action, as follows. (Reveal cards from your hand into your play area. They cannot be used for any other purposes during Birdsong.)\n17.4.1 Move. Take a move from a clearing matching the revealed card.\n17.4.2 Recruit. Place 1 warrior in a clearing matching the revealed card.\n17.4.3 Assemble. Place a Closed assembly and any number of Loyalists in a clearing matching the revealed card that has no assembly. Then, if you don't rule the clearing, discard the revealed card.\n17.4.4 Battle. Initiate a battle in a clearing matching the revealed card. If an assembly is there, discard the revealed card.",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 78,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_079",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "17.5 Daylight / 17.6 Evening",
+      "source_tier": "core_rules",
+      "content": "17.5.1 Sleep. Flip assemblies ruled by enemies to Closed.\n\nYour Evening has five steps in the following order.\n17.6.1 Convene Woodfolk. One by one, return each card that you revealed in Birdsong to your hand. For each card returned, you may take one of the following actions.\n17.6.1.I Banish. If you returned a non-bird card, initiate a battle in a clearing with a matching assembly. Defending warriors are not removed when hit; instead, force them to move to a single destination you choose, ignoring rule. Treat this as a single move for triggering other effects. You cannot hit buildings or tokens, and you ignore rolled hits you take (not ambush or extra hits).\n17.6.1.Ia The Warlord. The warlord cannot take hits from banish because it cannot be moved outside the Lord of the Hundred's turn. (Their other warriors still take hits.)\n17.6.1.Ib The Vagabond. The Vagabond cannot take hits from banish because it is not a warrior.\n17.6.1.Ic Hirelings. Hirelings cannot take hits from banish because they cannot be forced to move (H.3.4).\n17.6.1.II Agitate. If you returned a non-bird card, spend it and choose a matching assembly. Place 1 warrior in your Loyalists, then flip the assembly to Governing if it is Closed. (You cannot gain the Loyalist if you don't have a matching assembly.)\n17.6.1.III Empower. If you returned a bird card, choose an assembly. Roll one battle die and remove Council warriors from it equal to the rolled number. You may either place these warriors in your Loyalists, or you may score 1 victory point if you rule the assembly.\n17.6.2 Inspire. You may activate assemblies to craft cards. If you craft no cards, draw one card per card draw icon showing on your Assemblies track.\n17.6.3 Adjourn. You may remove any of your assemblies. Flip assemblies you rule to Governing.\n17.6.4 Oversee. Score victory points based on the number of Governing assemblies in the same clearing as any enemy buildings or tokens. For one assembly, score one point; for two or three, score two points; for four, score three points; for five or six, score four points.\n17.6.5 Draw and Discard. Draw one card. Then, if you have more than five cards in your hand, discard cards of your choice until you have five.",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 79,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_080",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "18. Knaves of the Deepwood",
+      "source_tier": "core_rules",
+      "content": "18.1 Overview The Knaves of the Deepwood endeavor to mock the powerful and protect the needy. Each turn, they score victory points from their ACCLAIM throughout the Woodland and from warriors they take as PRISONERS by battling the enemy factions. Each turn, they act with one of their three CAPTAINS, backed up by a crew of rowdy SKUNKS that can move along with them. However, once a Captain has acted, it cannot act again until after the Knaves act with all three Captains, letting them TAKE IT EASY. They have a STASH of items that they can flip face down to take special actions at their Captain. Like their Captains, their items only flip face up again once they Take It Easy.\n18.2.1 Exclusive with Vagabond. The Knaves of the Deepwood cannot be played in the same game as the Vagabond.\n18.2.2 Stash. Instead of a Crafted Items box, the Knaves have the STASH. It holds items, which can be face up or face down. When you craft or take an item, place it face up in your Stash.\n18.2.3 Acclaim. The Knaves have 8 acclaim tokens. Each clearing can hold one acclaim. (Forests cannot hold it.) Acclaim affects various actions (18.5.1) and scores victory points in Evening (18.6.1).\n18.2.4 Deepwood Runners. Captains and Skunks are warriors that can move in and out of forests, ignoring rule.\n18.2.5 Follow Me. When moving a Captain, the Knaves may move Skunks with the Captain. Captains can only be hit in battle if no Skunks remain in the battle clearing. Captains cannot be placed except in setup and with Ready (18.4), and cannot be replaced.\n18.2.6 Have at Thee. When a Captain attacks a faction in battle, the Knaves take 1 defending warrior they hit as a prisoner: instead of removing it, they move it to an adjacent forest with no Prisoners, ignoring rule. If it cannot be moved, remove it as normal. At the end of this battle, place acclaim in the battle clearing if the Acting Captain is there.\n18.2.7 Run Away. When an enemy removes acclaim, they force the Knaves to place 1 Skunk in a forest of the enemy's choice adjacent to the acclaim's former clearing. (If the Skunk supply is empty, ignore this.)\n18.2.8 Crafting. The Knaves craft in Daylight by activating their Acting Captain or acclaim. Their Filch (18.5.1.III) lets them activate their Acting Captain, and their Serve (18.5.1.IVg) lets them activate any number of acclaim matching their Acting Captain's clearing. Each acclaim can only be activated once per turn.",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 80,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_081",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "18.3 Faction Setup / 18.4 Birdsong",
+      "source_tier": "core_rules",
+      "content": "18.3.1 Step 1: Gather Pieces. Form a supply of 10 Skunk warriors.\n18.3.2 Step 2: Choose Captains. Choose 3 Captain cards. Collect their respective Captain warriors.\n18.3.3 Step 3: Place Captains and Skunks. Place 1 Captain warrior and 1 Skunk warrior each in three different forests.\n18.3.4 Step 4: Set Up Player Board. Place the 6 items face up in your Stash that are shown on your 3 chosen Captain cards. Fill each Acclaim slot with 2 acclaim tokens.\n\n18.4.1 Ready. Place a face-up Captain card in the Acting Captain slot on your player board. You gain the effect listed on this card until you Retire (18.5.2). If the corresponding Captain warrior is not on the map, place it in any forest, remove any Prisoners in that forest and adjacent forests, and you take only three actions during Captain Acts (18.5.1).",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 81,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_082",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "18.5 Daylight",
+      "source_tier": "core_rules",
+      "content": "Your Daylight has two steps in the following order.\n18.5.1 Captain Acts. In any order and combination, you may take up to four actions as follows with the Acting Captain, shown in your Acting Captain slot. (If the Acting Captain was placed in a forest with Ready in Birdsong this turn, you take up to three actions instead.)\n18.5.1.I Move. Take a move with the Acting Captain. (You may move Skunks along with it.)\n18.5.1.II Battle. Initiate a battle in the Acting Captain's clearing.\n18.5.1.III Filch. Once per turn, either craft a card by activating the Acting Captain, or take 1 item from the Crafted Items box of an enemy faction in the Acting Captain's clearing. If you craft an item with Filch, do not score its listed victory points.\n18.5.1.IV Item Action. Flip a face-up item in your Stash face down to take its action.\n18.5.1.IV.a Dash (Boot). Move the Acting Captain up to twice, ignoring rule.\n18.5.1.IV.b Assault (Sword). Initiate a battle in the Acting Captain's clearing. Take all warriors you hit as a Prisoner (18.2.6), moving each to a separate forest with no Prisoners.\n18.5.1.IV.c Skirmish (Crossbow). Move the Acting Captain from a forest. Then, initiate a battle in the Acting Captain's destination clearing, ignoring the first hit you take.\n18.5.1.IV.d Nab (Satchel). Initiate a battle in the Acting Captain's clearing. If the Acting Captain is hit, it is not removed—move it to an adjacent forest instead; if it cannot be moved, it is removed as normal. If the Acting Captain was not hit, you may move it after the battle (after placing acclaim).\n18.5.1.IV.e Revel (Tea). Place 1 acclaim and 1 Skunk at the Acting Captain. (If it's in a forest, just place the Skunk.) If acclaim is already in the Acting Captain's clearing, place 2 Skunks there instead.\n18.5.1.IV.f Gift (Coins). Place 1 acclaim in the Acting Captain's clearing and draw 1 card. (If it's in a forest, just draw 1 card.) If acclaim is already in the Acting Captain's clearing, draw 2 cards instead.\n18.5.1.IV.g Serve (Hammer). Place 1 acclaim in the Acting Captain's clearing. If acclaim is already in the Acting Captain's clearing, activate any number of acclaim matching the Acting Captain's clearing to craft cards instead. (You do score the listed points. Each acclaim can only be activated once per turn to craft.)\n18.5.2 Retire. Flip the Captain card in the Acting Captain slot face down and return it to your supply.",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 82,
+      "total_chunks": 84,
+      "retrieval_priority": 1
+    },
+    {
+      "chunk_id": "root_rulebook_083",
+      "source_type": "rulebook",
+      "game_name": "root",
+      "section_title": "18.6 Evening",
+      "source_tier": "core_rules",
+      "content": "Your Evening has four steps in the following order.\n18.6.1 Mock the Powerful. Score 1 victory point for every 2 Prisoners, and score 1 victory point for every 2 acclaim on the map.\n18.6.2 Protect the Weak. Once per acclaim, you may spend a matching card to place 1 Skunk at it.\n18.6.3 Take It Easy. If all three Captain cards are face down, flip them face up, flip all items in your Stash face up, and the enemy with the most Prisoners may choose a clearing, remove all Prisoners of their faction from adjacent forests, and place them into the chosen clearing. On a tie for most Prisoners, you choose one tied enemy.\n18.6.4 Draw and Discard. Draw one card. Then, if you have more than five cards in your hand, discard cards of your choice until you have five.",
+      "page_start": 22,
+      "page_end": 22,
+      "chunk_index": 83,
+      "total_chunks": 84,
       "retrieval_priority": 1
     }
   ]
