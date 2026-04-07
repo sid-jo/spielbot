@@ -1,6 +1,7 @@
 *.pyc
 .env
 data/checkpoints/
+data/vectorstore/
 /src/.claude
 .claude/
 /src/__pycache__
