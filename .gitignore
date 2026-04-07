@@ -5,3 +5,4 @@ data/vectorstore/
 /src/.claude
 .claude/
 /src/__pycache__
+plans/
