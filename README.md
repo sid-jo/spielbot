@@ -28,8 +28,8 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] Chunk embedding with ChromaDB vector store
 - [ ] Implement dense and sparse retrievers (BM25)
 - [ ] RAG orchestrator script (Use Groq `Llama-32B-Instruct` or CMU LiteLLM instance)
-- [ ] Image and text encoder (might use CLIP)
-- [ ] VLM inference pipeline (access LlaVa or more SOTA VLM through Groq)
+- [ ] Image and text encoder (might use Gemma)
+- [ ] VLM inference pipeline (access LlaVa or more SOTA/free VLM through Groq)
 - [ ] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
 - [ ] Implement UI mockup + game selection menu
 
@@ -47,7 +47,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 03/31/26 | Finalized BGG forum extraction script + processing script to prepare for chunking |
 | 04/05/26| Implemented chunking script for rulebook outputs and cleaned up data file structure. I might need to revise the chunking strategies to make sure only useful information is being kept to support retriever quality |
 | 04/06/26| Manually re-format PDF extractions of rulebooks (and get rid of 2 ROOT rulebooks) to ensure better chunk quality. Multi-column structures are difficult for `PDFPlumber` and I need to move faster for the sake of time. Also implemented the embedding script to embed chunks and store them into a ChromaDB instance |
-
+| 04/07/26 | Refined chunking strategy to retain semantic sense through a given ruleset. Implemented dense (ChromaDB) and sparse (BM25) retrievers for the hybrid retrieval approach. |
 
 ## Future Considerations
  - **Extraction Generalizability** - Make extraction pipeline work over majority of rulebook formats with minimal game-specific revisions
