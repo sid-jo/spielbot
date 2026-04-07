@@ -7,8 +7,8 @@ from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunct
 
 from bgg_config import GAMES
 
-EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5" # 384-dim, strong for short passages
-COLLECTION_PREFIX = "spielbot" # ChromaDB collection name prefix
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5" # 384 dim
+COLLECTION_PREFIX = "spielbot"
 BATCH_SIZE = 64 # chunks per embedding batch
 
 
