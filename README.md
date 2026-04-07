@@ -24,8 +24,9 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] Data pipeline — PDF rulebook ingestion + BGG forum scraping
 - [x] Processing script for BGG data to prep for question-based embedding
 - [x] Processing script for rulebook data; section-based chunking?
-- [ ] Chunking script (preparation and execution)
-- [ ] Chunk embedding with vector store for dense and sparse retrievers
+- [x] Chunking script (preparation and execution)
+- [x] Chunk embedding with ChromaDB vector store
+- [ ] Implement dense and sparse retrievers (BM25)
 - [ ] RAG orchestrator script (Use Groq `Llama-32B-Instruct` or CMU LiteLLM instance)
 - [ ] Image and text encoder (might use CLIP)
 - [ ] VLM inference pipeline (access LlaVa or more SOTA VLM through Groq)
@@ -45,8 +46,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 03/25/26 | Got access to the BGG API and made the API key! Incorporated API calls to gather data and kept webscraping script as fallback| 
 | 03/31/26 | Finalized BGG forum extraction script + processing script to prepare for chunking |
 | 04/05/26| Implemented chunking script for rulebook outputs and cleaned up data file structure. I might need to revise the chunking strategies to make sure only useful information is being kept to support retriever quality |
-| 04/06/26| Manually re-format PDF extractions of rulebooks (and get rid of 2 ROOT rulebooks) to ensure better chunk quality. Multi-column structures are difficult for `PDFPlumber` and I need to get a PoC up ASAP. |
-
+| 04/06/26| Manually re-format PDF extractions of rulebooks (and get rid of 2 ROOT rulebooks) to ensure better chunk quality. Multi-column structures are difficult for `PDFPlumber` and I need to move faster for the sake of time. Also implemented the embedding script to embed chunks and store them into a ChromaDB instance |
 
 
 ## Future Considerations
@@ -58,3 +58,4 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [PDF Plumber](https://github.com/jsvine/pdfplumber)
 - [BGG API Repo](https://github.com/tnaskali/bgg-api)
 - [Using the BGG XML API](https://boardgamegeek.com/wiki/page/BGG_XML_API#)
+- [ChromaDB](https://docs.trychroma.com/docs/overview/introduction)
