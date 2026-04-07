@@ -1,6 +1,1569 @@
 {
   "game_name": "root",
   "game_id": 237182,
-  "total_chunks": 0,
-  "chunks": []
+  "total_chunks": 27,
+  "chunks": [
+    {
+      "chunk_id": "root_237182_forum_2398594",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "2398594",
+      "thread_subject": "Lizard Cult rule change?",
+      "embed_text": "Can Lizards craft using any gardens instead of just gardens matching the outcast suit?",
+      "content": "The community resolved that Lizards can only craft using gardens that match the outcast suit. The text on the player board was misread, and later posts confirmed that the rule had not changed. However, with the latest expansions and rules, there are ways for Lizards to craft cards that require one of each clearing type.",
+      "raw_thread": [
+        {
+          "username": "meeb93",
+          "date": "2020-03-31T17:22:24-05:00",
+          "body": "On my player boards the Lizard Cult no longer says \"in the outcast suit\" for the Craft action. \n\nCan Lizards now craft using any gardens instead of just gardens matching the outcast suit?"
+        },
+        {
+          "username": "sigmazero13",
+          "date": "2020-03-31T17:33:47-05:00",
+          "body": "Can Lizards now craft using any gardens instead of just gardens matching the outcast suit? \n\nIt looks like in the new rules, the Outcast only matters for Conspiracies and Crafting.  For Building, you can build anywhere.  (At least that's what the Law says, too)."
+        },
+        {
+          "username": "meeb93",
+          "date": "2020-03-31T17:41:45-05:00",
+          "body": "On my player boards the Lizard Cult no longer says \"in the outcast suit\" for the Build action. \n\nCan Lizards now craft using any gardens instead of just gardens matching the outcast suit? \n\nIt looks like in the new rules, the Outcast only matters for Conspiracies and Crafting.  For Building, you can build anywhere.  (At least that's what the Law says, too).\n\nAh my bad I meant the Craft action."
+        },
+        {
+          "username": "sigmazero13",
+          "date": "2020-03-31T17:52:14-05:00",
+          "body": "Can Lizards now craft using any gardens instead of just gardens matching the outcast suit? \n\nIt looks like in the new rules, the Outcast only matters for Conspiracies and Crafting.  For Building, you can build anywhere.  (At least that's what the Law says, too).\n\nAh my bad I meant the Craft action.\n\nAh.  In the law (10.6.2) it says it must match the Outcast suit, so I'm guessing if it's not on the board, it was an inadvertent omission."
+        },
+        {
+          "username": "Merlin8888",
+          "date": "2020-04-01T05:05:04-05:00",
+          "body": "Pretty sure that only in outcast /hatred clearing ... otherwise they are OP."
+        },
+        {
+          "username": "Vespert",
+          "date": "2020-04-01T05:15:30-05:00",
+          "body": "Yeah, the law didn't change on that part, so it's weird for it to suddenly disappear from the board without any reason. Could you upload a photo of the board?"
+        },
+        {
+          "username": "haslo",
+          "date": "2020-04-01T09:25:51-05:00",
+          "body": "FWIW, this is a photo of my player board from the most recent Kickstarter:"
+        },
+        {
+          "username": "patrickfatrick",
+          "date": "2020-04-01T09:39:47-05:00",
+          "body": "I have the new printing and it says to craft using the Outcast suit."
+        },
+        {
+          "username": "drneau",
+          "date": "2020-04-01T10:36:17-05:00",
+          "body": "C'mon, Jeff G.  Show us a picture!"
+        },
+        {
+          "username": "meeb93",
+          "date": "2020-04-03T12:05:35-05:00",
+          "body": "Was about to take a picture and turns out I’m just blind. It says outcast suit clear as day. My apologies."
+        },
+        {
+          "username": "mineminemine",
+          "date": "2021-01-26T21:03:44-06:00",
+          "body": "How do they craft the card that requires one of each clearing type, then? Or can they not..."
+        },
+        {
+          "username": "starlitepony",
+          "date": "2021-01-26T22:07:12-06:00",
+          "body": "I have the new printing and it says to craft using the Outcast suit.\n\nHow do they craft the card that requires one of each clearing type, then? Or can they not...\n\nThey cannot"
+        },
+        {
+          "username": "Decavele",
+          "date": "2026-03-30T02:47:01-05:00",
+          "body": "How do they craft the card that requires one of each clearing type, then? Or can they not...\n\nThey cannot\n\nWith the latest expansions and rules, there are ways for them to craft those. \n\nFor example:\n- If you have garden(s) at the Lost City, they're \"wild\" crafting pieces (for example a mouse-garden in Lost City is still activated by mouse outcast, but can craft rabbit/fox as well)\n- If you crafted the Rabbit, Mouse and/or Fox \"Laborers\" card (from frog deck) which counts those suit of enclaves as extra crafting pieces\n- If you control the \"River Roamers\" Hireling, which let's you craft using their lilypads tokens."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 13,
+      "date_range": [
+        "2020-03-31",
+        "2026-03-30"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3620718",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3620718",
+      "thread_subject": "Lost City, defenceless Vagabond, damaged items, Woodland organise, and flotilla questions from a 5-player session",
+      "embed_text": "What are the rules for the Vagabond's crafting in the Lost City landmark in Root, and how do other factions' abilities interact with it?",
+      "content": "The Vagabond can craft cards that require multiple different suits in the Lost City clearing. The Woodland Alliance's revolt in the Lost City allows for cards and bases that match the clearing, but not necessarily each other. A defenseless Vagabond with zero swords or damaged swords gives a bonus to the attacker. Damaged items cannot be used for quests. The Woodland Alliance's Organise action is not affected by Martial Law. The Flotilla hireling does not count towards the rule. When the Woodland Alliance revolts, they must place warriors in the clearing before placing officers.",
+      "raw_thread": [
+        {
+          "username": "pmw57",
+          "date": "2025-11-30T17:29:54-06:00",
+          "body": "Last night during a 5 player game with two militant and 3 insurgent factions, a number of questions came up. Factions involved were Lizard Cult, Keepers in Iron, Woodland Alliance, Lord of the Hundreds, and a Tinker Vagabond.\n\nQ1: In root when the Lost City landmark is being used, could the vagabond with multiple hammers craft cards with multiple different suits?\nA1: vagabond can craft any given suit in the Lost City clearing, and should announce which suit they are crafting with. Differently suited cards (such as fox, mouse, and rabbit) cannot be crafted by the vagabond, as all hammers match one particular suit for each crafting action. The vagabond can though craft multiple cards with different suits, such as for example one with a rabbit suit, and without moving from the Lost City use another hammer to craft with a fox suit.\n\nQ2: When the Woodland Alliance revolts in the Lost City, how does that affect the cards and the base being placed there when they revolt?\nA2: The cards have to match the clearing, so could be a rabbit and a mouse card for a revolt. The base has to match the clearing so could be a fox base. Yes, that means that there doesn’t have to be any connection between the cards and the base when revolting in the Lost City clearing.\n\nQ3: When the vagabond had zero swords, does that mean that the attacker gets a defenseless bonus again them?\nA3: Yes, the attacker against the vagabond gains a plus 1 bonus hit against the vagabond when they have zero swords, or when all swords are damaged. A crossbow if they have one doesn’t change any of that for the vagabond.\n\nQ4: Which rule indicates that the vagabond cannot use a damaged item for a quest?\nA4: Rule 9.2.5, “The Vagabond exhausts undamaged items . . .” They can though refresh damaged items, which remain in the damaged area but flip over to the refreshed side.\n\nQ5: When the Woodland Alliance Organises, do they ignore martial law?\nA5: No Martial Law applies when you Organise. It only applies when spreading sympathy during birdsong. The evening action to Organise is clear of any Martial Law obligations.\n\nQ6: Does the Flotilla hireling count towards rule?\nA6: No it doesn’t count. While all hirelings count towards rule, the Flotilla hireling is a pawn, and doesn’t qualify as either a warrior or a building to help towards rule.\n\nQ7: When the Woodland Alliance revolts and has just one warrior in their supply, can they choose to not an add a warrior to the revolted clearing so that they can instead use it as an officer?\nA7: No, you cannot skip placing the warrior in the clearing to save it for the Officers box. This comes from section 2.5, which says in part: “If you are prompted to place, take, or remove a piece but you cannot, you must place, take, or remove the maximum number possible.”"
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2025-11-30T17:39:00-06:00",
+          "body": "Q1) Incorrect. In the Lost City the Vagabond may craft cards that require multiple different suits to craft\n\nQ2) Correct, the base must match the clearing, the supporters must match the clearing, but supporters need not match the base \n\nQ3) Correct\n\nQ4) Correct. It's not stated as clearly as it could be, but items must be undamaged to be used for any purpose\n\nQ5) Correct\n\nQ6) Correct \n\nQ7) Correct. Revolt resolves linearly and the steps are not optional. The Warriors are placed before Officers are placed, so any remaining warriors in the supply must be placed as warriors, and only then can remaining warriors in the supply be placed as an officer"
+        },
+        {
+          "username": "kelann08",
+          "date": "2025-11-30T18:07:52-06:00",
+          "body": "Title edited for detail.\n\nPlease make sure your rules question threads include information about the questions being asked. This makes it much easier for others in the community to find the same answers."
+        },
+        {
+          "username": "pmw57",
+          "date": "2025-11-30T19:30:16-06:00",
+          "body": "The title has been updated. Thanks for the idea."
+        },
+        {
+          "username": "pmw57",
+          "date": "2025-11-30T20:05:54-06:00",
+          "body": "Thank you. Because the vagabond hammers must match the suit of the clearing, and the Lost City clearing matches all suits, that allows hammer 1 to be fox and hammer 2 to be bunny for example, as each hammer matches the lost city suit of all suits, to craft a card that requires one fox and one bunny.\n\nIf using AI to resolve this type of question, it’s hands need to be bound or else it fails due to a few problems:\n- it resorts to interpretation and thinks that matching the clearing suit means matching a single suit, which goes against section 0.2 of the law or root\n- it attempts to apply competitive play rulings or FAQ info, both of which fail to take into account the superseding nature of the landmark rules.\n\nAfter an intense discussion with AI it eventually conceded that my logic is unassailable (a massively enjoyable ego-stroking there) and that future prompts about Root could do with the following constraints to help avoid similar problems:\n\nI need a ruling on the interaction between Vagabond Crafting (Law 9.5.8) and the Lost City Landmark in Root. Please resolve this only by adhering to these constraints:\n\nLaw of Root 0.2: No Interpretation. State the RAW text only; do not infer intent or meaning.\n\nRules Hierarchy is Absolute: Specific rules (like Landmarks) supersede general rules or general FAQ/competitive rulings.\n\nQuestion: Can multiple Vagabond's hammers count as multiple suits for a single crafting action when he is in the Lost City clearing (All Suits)?\n\nYou might still find that it uses its own custom interpretation of the rules, but on catching that and having it use the correct reading of the rules it finally relents and gives the correct answer."
+        },
+        {
+          "username": "pmw57",
+          "date": "2025-12-01T03:31:50-06:00",
+          "body": "Q1) Incorrect. In the Lost City the Vagabond may craft cards that require multiple different suits to craft\n\nThank you. Because the vagabond hammers must match the suit of the clearing, and the Lost City clearing matches all suits, that allows hammer 1 to be fox and hammer 2 to be bunny for example, as each hammer matches the lost city suit of all suits, to craft a card that requires one fox and one bunny.\n\nIf using AI to resolve this type of question, it’s hands need to be bound or else it fails due to a few problems:\n- it resorts to interpretation and thinks that matching the clearing suit means matching a single suit, which goes against section 0.2 of the law or root\n- it attempts to apply competitive play rulings or FAQ info, both of which fail to take into account the superseding nature of the landmark rules.\n\nAfter an intense discussion with AI it eventually conceded that my logic is unassailable (a massively enjoyable ego-stroking there) and that future prompts about Root could do with the following constraints to help avoid similar problems:\n\n“Gemini Law of Root 0.2: No Interpretation. State the RAW text only; do not infer intent or meaning.\n\nRules Hierarchy is Absolute: Specific rules (like Landmarks) supersede general rules or general FAQ/competitive rulings.\n\nQuestion: Does the Vagabond's hammer count as multiple suits for crafting when he is in the Lost City clearing (All Suits)?\n\nYou might still find that it uses its own custom interpretation of the rules, but on catching that and having it use the correct reading of the rules it finally relents and gives the correct answer."
+        },
+        {
+          "username": "Sebby19",
+          "date": "2025-12-03T20:58:00-06:00",
+          "body": "Yeah never use AI for game rules. Ever. Or AI period, there is a reason the internet at large is revolting against the idea.\n\nSure, the Vagabond could craft a few more cards thanks to the Lost City. But when you look closely at those cards... are they really worth it? They would be unusable XD"
+        },
+        {
+          "username": "pmw57",
+          "date": "2025-12-04T00:09:55-06:00",
+          "body": "Yea there is that, but the Vagabond then keeps them out of the hands of other players at best, and forces them to use up some sabotage cards at worst."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 8,
+      "date_range": [
+        "2025-11-30",
+        "2025-12-04"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3622110",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3622110",
+      "thread_subject": "Movements as Marquise de Cat",
+      "embed_text": "When playing as the Marquise de Cat in Root, can the two allowed moves be used to move through a location that is not owned, as long as the starting or ending location is owned? Does the intermediate location count as a destination?",
+      "content": "The community consensus is that the two moves are separate events and must each adhere to general movement rules. Each move can be used to move through a spot as long as the criteria for each leg are met, and the intermediate location does not need to be owned.",
+      "raw_thread": [
+        {
+          "username": "MakingPancakes",
+          "date": "2025-12-03T09:15:28-06:00",
+          "body": "Good morning!\nMy friend and I bought Root, and we keep coming to an impasse. I’m currently playing Marquise de Cat. As the cat, the rules say I can move up to two times. The way I’m understanding the rules, if I own the land I’m originating from or the land that is my destination I can move freely up to two times. So if I own a land and I move through the eerie, pass it to a second spot, I can do that? In my mind it’s like a flight. I start in one location, the layover is not my destination, so I can move on. The book doesn’t mention that the moves are necessarily separate nor are they conjoined. My friend is really hung up on the two moves aspect of my character. In each case though, I have moved either owning the spot I’m moving from or eventually to.\nSo my question is, when moving two times, does the layover spot count as a “destination “? Do I have to own the first land I move TO even if I plan on moving my pieces to a second spot in the same turn?\n\nThank you for your help and consideration!"
+        },
+        {
+          "username": "Zetecua",
+          "date": "2025-12-03T09:25:43-06:00",
+          "body": "Each of the \"up to two\" moves must either originate or end in a clearing you own. Each of the two moves are separate events and must each adhere to general movement rules, with hopefully different parameters, i.e. number of warriors, starting clearing, ending clearing.\n\nHappy Gaming!"
+        },
+        {
+          "username": "ras2124",
+          "date": "2025-12-03T09:26:27-06:00",
+          "body": "It is two independent moves. You can move through a spot as long as you meet the criteria for each leg as you are doing that move."
+        },
+        {
+          "username": "Domfluff",
+          "date": "2025-12-03T09:27:38-06:00",
+          "body": "4.2 Move\nWhen you move, you may take any number (more than zero) of your warriors and pawns from one clearing and move them to one adjacent clearing.\n4.2.1\nYou Must Rule. To take a move, you must rule the origin clearing, destination clearing, or both.   \n4.2.2\nNo Movement Limits. A given piece can be moved any number of times per turn. If you are prompted to take multiple moves, you may move the same or separate groups of warriors.\n\nThe Marquise de Cat has the \"March\" action, which is two moves. Those two moves are worked out individually, with no memory of previous turns.\n\n(Assume all clearings are empty unless specified for the below. Three clearings A -> B -> C)\n\nIf you were moving 3 cats from clearing A, you could move them all to B (since you rule A), then move them all to C, (since you rule B).\n\nIf there were 4 lizards in clearing B, then you could move three from A to B, but then they wouldn't be able to move again (since Lizards now rule B, and the cats do not rule A or C)."
+        },
+        {
+          "username": "ZergyPoo",
+          "date": "2025-12-03T09:30:43-06:00",
+          "body": "You are in the right, they are separate moves.\n\nThe rulebook doesn't address this specifically, you are correct, but it does make it clear:\n\n1. It defines \"move\" as a core action. This is where the restrictions with regards to \"rule\" are defined.\n2. The Marquise player board just says \"March: take up to 2 moves.\"\n\nSince \"move\" is defined, there is nothing altering the rules and saying that March alters any \"rule\" restrictions. Therefore it's just like it says: you just take up to 2 moves, no more, no less. Following the core \"move\" rules from the booklet."
+        },
+        {
+          "username": "MakingPancakes",
+          "date": "2025-12-03T09:45:48-06:00",
+          "body": "Thanks everybody!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 6,
+      "date_range": [
+        "2025-12-03",
+        "2025-12-03"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3626567",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3626567",
+      "thread_subject": "Keepers in iron questions:",
+      "embed_text": "Can players choose which retinue card to use for certain actions in the digital version of the game? How do lakes and forests interact on the lake map, specifically regarding adjacency and clearing rules?",
+      "content": "Players can choose which retinue card to use before starting an action, but this option may not be immediately apparent in the digital version. Lakeside forests that share a common clearing are considered adjacent, and the lake acts as a barrier between clearings. However, forests on opposite sides of the lake can be adjacent if they share a coastal clearing.",
+      "raw_thread": [
+        {
+          "username": "DGD_Kami",
+          "date": "2025-12-12T00:21:39-06:00",
+          "body": "Ok so I have two questions:\n\n1.- (Digital) can you chose which retinue card to use on certain actions? Today I was playing against lizards, and sometimes I want to use the bird card first because I needed to burn the delving card, so even tho I had a suited card also I didn't wanna use it because knew I wasn't gonna rule after the first attack. So I wanted to use my bird card first to attack without delving, and then delve with the suited card and burn it.\n\nIs that even possible? Because the game didn't give me the option to, and used the suited card first by default which was annoying \n\n2.- How does rule and forests work in the lake map? I mean do clearings across the lake count as surrounding the forests that are next to the lake?\n\nThanks in advance"
+        },
+        {
+          "username": "Laterbot",
+          "date": "2025-12-12T00:57:45-06:00",
+          "body": "1. Sometimes digital has weird niche settings where you can pick the order of things (like WA Supporters) but I believe retinue, much like the decree, forces you to use suited cards first. It's just a limitation of digital.\nIf you were always going to do both actions, is there a reason you couldn't just do them in reverse order?\n(I'm 99% sure you cannot choose the card but maybe someone else will prove me wrong, I'm not as big of a digital player as others)\n\n2. Like the River on the Winter map, the lake splits forests. But worth noting the forests around the lake are adjacent to each other across the clearings.\nLaw of Root M.3.2: The Lake. The lake is in the center of the map. The lake is treated as rivers linking each coastal clearing to each other coastal clearing. The lake divides forests.\nM.3.4: Coastal Forests. Forests touching the lake are coastal forests. Each coastal forest is adjacent to its two neighboring coastal forests (separated by one coastal clearing).\n\nI couldn't find a good diagram to link (there are some I just couldn't find them) so I made a bad one for you:"
+        },
+        {
+          "username": "DeToije",
+          "date": "2025-12-12T01:02:37-06:00",
+          "body": "1) Regarding the cards in the retinue, yes uou can choose. But you have to choose before you start the corresponding action! It is possible to click on the retinue (in the bottom right corner) and then you will get a pop-up.\n(At least in the mobile app)\n\n2) every forest has at least 3 adjacent clearings. The lake does work as a barrier, so clearings on the otherside of the lake are not adjacent to a forest on this side."
+        },
+        {
+          "username": "pmw57",
+          "date": "2025-12-12T04:34:16-06:00",
+          "body": "I feel a clarification is wanted there. Lakeside forests that share a common clearing are considered to be adjacent. \n\nThe forest on the bottom towards the right, and the forest on the other side of the lake on the right edge towards the bottom, they both share the same bottom-right clearing so those two forests are adjacent to each other. Thematically it's wading through shallow waters to get from one forest to the next one."
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2025-12-12T08:38:58-06:00",
+          "body": "Tysm everyone for the answers, I will try to see if I can click the retinue, it didn't seem like I could in my previous game.\nThe situation is as follows: Lizard cult is in a clearing I need to delve in, they have two warriors and two gardens, I'm 100% guaranteed to not being able to rule after a single attack because lizards rule the clearing even if just a single garden exists, so I won't be able to delve in my first attack. The retinue card I was going to delve with was going to burn, since I don't rule three adjacent clearings to the forest, so naturally I wanted to burn the suited card and not the bird card, so the best course of action was to attack with the bird card first to kill (hopefully) two warriors and the attack again the two gardens with the suited card, delve and let it burn"
+        },
+        {
+          "username": "TacoMan253",
+          "date": "2025-12-13T16:11:04-06:00",
+          "body": "If you were always going to do both actions, is there a reason you couldn't just do them in reverse order?\n\nThe situation is as follows: Lizard cult is in a clearing I need to delve in, they have two warriors and two gardens, I'm 100% guaranteed to not being able to rule after a single attack because lizards rule the clearing even if just a single garden exists, so I won't be able to delve in my first attack. The retinue card I was going to delve with was going to burn, since I don't rule three adjacent clearings to the forest, so naturally I wanted to burn the suited card and not the bird card, so the best course of action was to attack with the bird card first to kill (hopefully) two warriors and the attack again the two gardens with the suited card, delve and let it burn \n\nYou only burn the card if you try to delve and don't rule enough surrounding clearings, not if you battle but don't rule."
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2025-12-13T17:17:29-06:00",
+          "body": "You need to rule the clearing you're battling on to delve mate"
+        },
+        {
+          "username": "ViolentWaves",
+          "date": "2025-12-14T03:38:07-06:00",
+          "body": "You need to rule the clearing you're battling on to delve mate\n\nYeah. But og poster knows that (“I’m 100% not guaranteed to rule after a single attack”). Therefore they need to attack twice and only delve on the second attack:\n- first attack uses bird card. No rule yet, so no delve. Bird card is secure. \n- second attack uses suited card. If no rule, no delve. But if rule, then delve with suited card. Since player KNOWS they won’t rule enough clearings when they turn the relic over, the used card is guaranteed to burn. Therefore ideally this second attack + delve should be done using a suited card. \n\nOG poster is right in their strategy. Without being able to choose, the keepers in iron would become a much weaker faction."
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2025-12-14T11:16:31-06:00",
+          "body": "Yeah. But og poster knows that (“I’m 100% not guaranteed to rule after a single attack”). Therefore they need to attack twice and only delve on the second attack:\n- first attack uses bird card. No rule yet, so no delve. Bird card is secure. \n- second attack uses suited card. If no rule, no delve. But if rule, then delve with suited card. Since player KNOWS they won’t rule enough clearings when they turn the relic over, the used card is guaranteed to burn. Therefore ideally this second attack + delve should be done using a suited card. \n\nOG poster is right in their strategy. Without being able to choose, the keepers in iron would become a much weaker faction. \n\nI mean I know, I'm the OG lol\n\nI was clarifying because if feel like Jason G didn't understand the question"
+        },
+        {
+          "username": "gmhakim",
+          "date": "2025-12-17T10:28:14-06:00",
+          "body": "Clarification here, which I think I have right. The forest labeled A here is adjacent to 4 other forests. Two \"inland\" forests which it borders, and two \"coastal\" forests on the other side of the clearings that border forest A."
+        },
+        {
+          "username": "stuffbybez",
+          "date": "2025-12-18T00:12:18-06:00",
+          "body": "If \"Lakeside forests that share a common clearing are considered to be adjacent.\", then A should alsop be adjacent to a 5th clearing; the clearing above it, between two you have already marked."
+        },
+        {
+          "username": "pmw57",
+          "date": "2025-12-18T00:27:09-06:00",
+          "body": "That forest, just below the collection of items, is not considered to be a lakeside forest as no edge of it is adjacent to the lake."
+        },
+        {
+          "username": "stuffbybez",
+          "date": "2025-12-18T00:52:02-06:00",
+          "body": "If \"Lakeside forests that share a common clearing are considered to be adjacent.\", then A should alsop be adjacent to a 5th clearing; the clearing above it, between two you have already marked. \n\nThat forest, just below the collection of items, is not considered to be a lakeside forest as no edge of it is adjacent to the lake.\n\nI'm talking about the forest on the top-right tip of A."
+        },
+        {
+          "username": "gmhakim",
+          "date": "2025-12-18T12:24:43-06:00",
+          "body": "That forest, just below the collection of items, is not considered to be a lakeside forest as no edge of it is adjacent to the lake.\n\nI'm talking about the forest on the top-right tip of A.\n\nYes, I think I know what you mean. Between the two I've marked with upward facing arrows. That forest doesn't border the lake, so is not considered a coastal forest, and thus is not adjacent to forest A."
+        },
+        {
+          "username": "stuffbybez",
+          "date": "2025-12-19T01:24:49-06:00",
+          "body": "Ah thanks for explaining again. \n\nI hope I didn't confuse other readers. I blame recent fatigue and brainfog. :-/"
+        },
+        {
+          "username": "gmhakim",
+          "date": "2025-12-19T08:35:45-06:00",
+          "body": "Yes, I think I know what you mean. Between the two I've marked with upward facing arrows. That forest doesn't border the lake, so is not considered a coastal forest, and thus is not adjacent to forest A.\n\nAh thanks for explaining again. \n\nI hope I didn't confuse other readers. I blame recent fatigue and brainfog. :-/\n\nNo worries - this is why we ask these questions and why the forums exist!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 16,
+      "date_range": [
+        "2025-12-12",
+        "2025-12-19"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3627973",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3627973",
+      "thread_subject": "Outrage and showing your hand ",
+      "embed_text": "When a player doesn't have cards in the outraged suit, they need to show their hand to the Woodland Alliance (WA). Can the WA share the information of the cards revealed with the rest of the table?",
+      "content": "The player reveals their hand to the WA, but the WA is not required to share this information with the rest of the table. While there is no explicit rule against sharing, it is generally considered poor form to reveal hidden information, and the WA can choose to lie about what they see in the player's hand.",
+      "raw_thread": [
+        {
+          "username": "DGD_Kami",
+          "date": "2025-12-14T17:31:50-06:00",
+          "body": "Ok so if you don't have cards in the outraged suit you need to show your hand, BUT is the WA allowed to share the information of the cards you revealed to the rest of the table? Idk if this has ever mentioned anywhere, but telling other people your hand shouldn't be allowed as it would be completely busted.\n\nThanks in advance"
+        },
+        {
+          "username": "Stargazer1x",
+          "date": "2025-12-14T17:55:34-06:00",
+          "body": "You reveal your hand to all players.  Not a big deal.  You don't need to get into detail on what you have or don't have (such as ambush cards).  Show them you don't have the suit and move on."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2025-12-14T17:57:51-06:00",
+          "body": "There is no rule against this but I'd say there's a few considerations.\nThe first one is, it's usually better for WA not to share this information, the WA would prefer you ambush one of their opponents rather than give everyone at the table the same advantage that they have.\nThe second one is more table dependant but it's generally poor form to blurt out hidden information even if it's not against the rules, like looking at your hand and reading aloud every suit and being like \"do with that information what you will\" to all opponents I'd say is not in line with the intention of the ability. However if you're the table leader and he says \"oh shit he has both coins, we absolutely have to take out his bunny crafters\" I'd say is the purpose of the ability... Generally the rule of thumb would be any knowledge gained about the table leader is fair game to use to tear them down, but and knowledge gained about a lower threat player should probably be only used for the WA to plan their own turn.\nFinally, it's important to remember the WA can lie, they might see you don't have an ambush but claim you have one because they want Eyrie to go in a certain direction or any other multitude of useful lies. The table still doesn't get perfect knowledge, they just get to know what the WA wants them to know and they should still be suspicious of whatever WA claims.\n\nI'd say the proper way to play is to freely discuss information you all know, but you shouldn't reveal information that isn't relevant just randomly, Root is a game where you want to hold your cards to your chest. And also you should assume anybody can lie about anything at any time. If it's not face up it mightn't be true\n\nLastly just in case: it IS against the rules to reveal a card to \"prove\" you have it whether it's in your hand or you're WA with somebody else's hand. That's poor behaviour and against the spirit of the game.\n\nBonus Edit: in 95% of cases you choose whether you trigger outrage anyway. So if your hand is so critical that you can't afford for the WA/table to have such knowledge you should consider acting in a different clearing which you can actually pay for, or switching up your turn to avoid sympathy altogether. It's a question of which is more valuable, your hand secrecy, or the action you're taking."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2025-12-14T17:58:43-06:00",
+          "body": "This is not true. You only reveal your hand to the WA and the WA is free to inspect it as much as they like. This is an explicit advantage the WA gets to know your ambushes and potential crafts etc."
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2025-12-14T18:13:40-06:00",
+          "body": "Everything about this is just straight up wrong \n\nI'm sorry I didn't quite get this."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2025-12-14T18:24:21-06:00",
+          "body": "Sorry, I was just saying you can say \"I have an ambush don't attack me there\" but you can't show your ambush and be like \"Look! I have an ambush you shouldn't attack me\" hands are not public knowledge and therefore must remain hidden and can always be lied about. (you should never know for sure if someone is telling the truth until they play or discard the card)\nSimilarly the WA can't do the same thing after outrage. They're free to say what they see in your hand (though in many situations they possibly should not) but they cannot show any of your cards to any other players, that would be cheating."
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2025-12-14T18:58:28-06:00",
+          "body": "I'm sorry I didn't quite get this.\n\nSorry, I was just saying you can say \"I have an ambush don't attack me there\" but you can't show your ambush and be like \"Look! I have an ambush you shouldn't attack me\" hands are not public knowledge and therefore must remain hidden and can always be lied about. (you should never know for sure if someone is telling the truth until they play or discard the card)\nSimilarly the WA can't do the same thing after outrage. They're free to say what they see in your hand (though in many situations they possibly should not) but they cannot show any of your cards to any other players, that would be cheating.\n\nAh I get it now. Can you please tell me exactly where in the rules is this mentioned? Is this explicitly stated?"
+        },
+        {
+          "username": "Laterbot",
+          "date": "2025-12-14T19:16:05-06:00",
+          "body": "The explicit rule is Law of Root 1.2.1: Hands. Players may only show or reveal cards in their hand if explicitly instructed, but the number of cards in their hand is public information.\n\nAnd then in addition to that it's just proper board game etiquette. Even if it wasn't spelled out so clearly, in any game where hands are private, fact that it's private means if you want to preserve the format and mystery of the game you keep them private. If there isn't a rule saying you're allowed to show someone your hand then you should not be showing it by very definition."
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2025-12-14T20:19:57-06:00",
+          "body": "Ah I get it now. Can you please tell me exactly where in the rules is this mentioned? Is this explicitly stated? \n\nThe explicit rule is Law of Root 1.2.1: Hands. Players may only show or reveal cards in their hand if explicitly instructed, but the number of cards in their hand is public information.\n\nAnd then in addition to that it's just proper board game etiquette. Even if it wasn't spelled out so clearly, in any game where hands are private, fact that it's private means if you want to preserve the format and mystery of the game you keep them private. If there isn't a rule saying you're allowed to show someone your hand then you should not be showing it by very definition.\n\nAh ty so much man"
+        },
+        {
+          "username": "PlanBee",
+          "date": "2025-12-15T02:39:54-06:00",
+          "body": "All the above replies are sound, I would just add the following embellishment.\n\nRoot is all about table talk. And knowing when to stab people in the back. So yes the cards are only shown to the WA. It is upto them to decide to tell the rest of the table if thay player has an ambush card etc. And it is up to the rest of the table to decide whether or not to believe them!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 10,
+      "date_range": [
+        "2025-12-14",
+        "2025-12-15"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3630643",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3630643",
+      "thread_subject": "WA discard down to 5 when lose the base",
+      "embed_text": "When losing the last base on the map, can a player choose which cards to discard to get down to 5 cards in hand?",
+      "content": "The community resolved that the player can choose which cards to discard to get down to 5 cards in hand.",
+      "raw_thread": [
+        {
+          "username": "tranlyvu",
+          "date": "2025-12-20T07:42:52-06:00",
+          "body": "Hi,\n\nCan WA choose which card to discard down to 5 when lose the last base on the map?"
+        },
+        {
+          "username": "ccek",
+          "date": "2025-12-20T07:58:18-06:00",
+          "body": "yeah you pick"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 2,
+      "date_range": [
+        "2025-12-20",
+        "2025-12-20"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3631111",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3631111",
+      "thread_subject": "Acolytes only if defending? If Lizards attacks, dead warriors don’t become Acolytes?",
+      "embed_text": "Do Lizard warriors only become Acolytes when defending, and not when attacking? If the Lizards attack, do dead warriors go back to the supply pile?",
+      "content": "The thread discusses the Lizard faction's ability to become Acolytes, with a general consensus that they can only do so when defending. The community notes that the Lizard's strength comes from cards in hand and Acolytes, and that their power is more focused on thriving under peaceful conditions. The faction's passive nature and reliance on table talk and deal-making are also highlighted.",
+      "raw_thread": [
+        {
+          "username": "thirdman",
+          "date": "2025-12-21T06:35:45-06:00",
+          "body": "Hello Everyone,\n\nWe have a major debate about this and it seems the digital inplementations also imdicate fhat Lizard warriors only become Acolytes if they are defending an attack. If the Lizards are the attacker, the dead warriors go back to the supply pile. Is this right?"
+        },
+        {
+          "username": "steveowen",
+          "date": "2025-12-21T06:53:00-06:00",
+          "body": "10.2.3 Revenge"
+        },
+        {
+          "username": "thirdman",
+          "date": "2025-12-21T06:57:05-06:00",
+          "body": "So if no one wants to attack the Lizards to deny them of Acolytes and they can only train, then it seems the Lizard power is quite weak."
+        },
+        {
+          "username": "Zorokrox",
+          "date": "2025-12-21T07:24:24-06:00",
+          "body": "Keep in mind the lizard’s strength comes from two sources: cards in hand and acolytes. If nobody’s attacking them to reduce their pieces, they have the opportunity to spread warriors and gardens across the map, eventually leading to lots of points even if they have no acolytes. The point of the faction is to thrive under peaceful conditions, and only have the opportunity to attack others if they are attacked first - acolytes shouldn’t necessarily be your end goal when playing them."
+        },
+        {
+          "username": "thirdman",
+          "date": "2025-12-21T07:31:49-06:00",
+          "body": "Got it. Thanks. But it seems quite a passive faction. It cannot battle. It cannot even move if it has no or not enough Acolytes."
+        },
+        {
+          "username": "deranderejan",
+          "date": "2025-12-21T09:24:18-06:00",
+          "body": "They don't need to, that's the very idea. They can just appear in your clearings regardless of rule, and can turn your buildings into their own. And when you force them out, you just make them stronger by giving them acolytes.\n\nAnyhow, the lizards don't seem to have quite as much of a tactical agenda as others; instead they have to act on what they are left with by the table a little more than the other factions I'd say."
+        },
+        {
+          "username": "VariousArtist",
+          "date": "2025-12-29T14:51:23-06:00",
+          "body": "Seems you look at the Lizards from a pure mechanical perspective. But their full strenght is levied with power brokering/ deal-making/ table talk."
+        },
+        {
+          "username": "deranderejan",
+          "date": "2025-12-29T17:24:33-06:00",
+          "body": "Anyhow, the lizards don't seem to have quite as much of a tactical agenda as others; instead they have to act on what they are left with by the table a little more than the other factions I'd say.\n\nSeems you look at the Lizards from a pure mechanical perspective. But their full strenght is levied with power brokering/ deal-making/ table talk.\n\nThat is true, but isn't it for all factions?"
+        },
+        {
+          "username": "ZergyPoo",
+          "date": "2025-12-29T20:30:04-06:00",
+          "body": "Seems you look at the Lizards from a pure mechanical perspective. But their full strenght is levied with power brokering/ deal-making/ table talk.\n\nThat is true, but isn't it for all factions?\n\nNo, some factions are more dependent on this than others. Otters, for example, need table talk more. Moles and coast to victory without talking much more easily. So can the vagabond."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 9,
+      "date_range": [
+        "2025-12-21",
+        "2025-12-29"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3631303",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3631303",
+      "thread_subject": "Vagabond coalition with someone in a dominance victory condition ",
+      "embed_text": "Can a Vagabond form a coalition with a player who has already activated a dominance card in the game Root?",
+      "content": "The community resolved that a Vagabond cannot form a coalition with a player who has already activated a dominance card, as the player no longer has a victory point marker on the track and therefore does not have a comparable number of victory points. This is supported by the official Root FAQ, which explicitly addresses this scenario.",
+      "raw_thread": [
+        {
+          "username": "pogle1",
+          "date": "2025-12-21T13:07:54-06:00",
+          "body": "So, previous laws of Root explicitly stated that Vagabonds could not coalition with someone in a dominance victory condition already. The latest one however no longer says that, and instead just says player with fewer points, and not having points is fewer than anyone else. I imagine they intend it to be like older versions, but the change in wording makes it a little uncertain whereas before it was crystal clear. Do we have any official guidance on the intention of the change in the latest version of the laws? We're playing it as though it's not allowed per the intention in older law versions, but I always like knowing for certain when possible."
+        },
+        {
+          "username": "ZergyPoo",
+          "date": "2025-12-21T13:28:35-06:00",
+          "body": "Not having a point marker at all is not like having fewer. There is a \"0\" spot on the point track, and THAT would count as having fewer."
+        },
+        {
+          "username": "dsdhornet",
+          "date": "2025-12-21T17:48:06-06:00",
+          "body": "No point market is \"undefined\", not 0.  It is neither fewer not more than anyone else."
+        },
+        {
+          "username": "pmw57",
+          "date": "2025-12-22T03:17:05-06:00",
+          "body": "Regardless of whether things are undefined or zero, the game rules clearly spell out that the Vagabond cannot form a coalition with someone that has declared dominance.\n\n9.2.8 Dominance Cards and Coalitions. In games with four or more players, the Vagabond can activate a dominance card to form a coalition with the player with the fewest victory points other than himself, placing his score marker on the chosen player’s faction board. If there is a tie for fewest, he chooses one tied player. If the chosen player wins the game, the Vagabond also wins. (The Vagabond no longer scores victory points. He cannot form a coalition with a player who has already activated a dominance card.)\n\nEmphasis at the end is mine, for clarity."
+        },
+        {
+          "username": "pogle1",
+          "date": "2025-12-22T06:41:40-06:00",
+          "body": "The latest version of the law does not in fact state that, as I mentioned in my original post. The change seemed weird since it moved from clear to ambiguity.\n\nDominance Cards and Coalitions.\nThe Vagabond cannot activate a dominance card for its normal victory condition (3.3.1). Instead, in games with four or more players, the Vagabond can activate a dominance card to form a coalition with another player, placing his score marker on that player's faction board. (The Vagabond no longer scores points.) That player must have fewer victory points than each other player except the Vagabond forming the coalition, and that player cannot be in a coalition. If there is a tie for fewest victory points, he chooses one tied player. If the coalitioned player wins the game, the Vagabond also wins. (3.3.1 - Activating.)"
+        },
+        {
+          "username": "ZergyPoo",
+          "date": "2025-12-23T18:07:25-06:00",
+          "body": "Dominance Cards and Coalitions.\nThe Vagabond cannot activate a dominance card for its normal victory condition (3.3.1). Instead, in games with four or more players, the Vagabond can activate a dominance card to form a coalition with another player, placing his score marker on that player's faction board. (The Vagabond no longer scores points.) That player must have fewer victory points than each other player except the Vagabond forming the coalition, and that player cannot be in a coalition. If there is a tie for fewest victory points, he chooses one tied player. If the coalitioned player wins the game, the Vagabond also wins. (3.3.1 - Activating.)\n\nI actually agree that this re-wording muddies it a bit more than it was before. But I still believe it's pretty clear. I think it's hard to argue that having no point marker at all is like having fewer. Having fewer would require you to have an actual number of points that is smaller than someone else's."
+        },
+        {
+          "username": "timonkey",
+          "date": "2025-12-24T18:33:07-06:00",
+          "body": "It is not clear from the rules that the answer to the question \"how many victory points do you have?\" is not a number for a player who has played a dominance card.  The rules say the score marker is removed and that the player no longer scores points but does not say that you no longer have a number of victory points.\n\nI find it hard to believe the rule would be changed in this manner without being explicit, so I assume the change was driven by space constraints.  A phrasing based on forming a coalition with the player furthest back on the victory point track would be preferable."
+        },
+        {
+          "username": "ZergyPoo",
+          "date": "2025-12-25T18:17:55-06:00",
+          "body": "But I still believe it's pretty clear. I think it's hard to argue that having no point marker at all is like having fewer. Having fewer would require you to have an actual number of points that is smaller than someone else's.\n\nIt is not clear from the rules that the answer to the question \"how many victory points do you have?\" is not a number for a player who has played a dominance card.  The rules say the score marker is removed and that the player no longer scores points but does not say that you no longer have a number of victory points.\n\nI find it hard to believe the rule would be changed in this manner without being explicit, so I assume the change was driven by space constraints.  A phrasing based on forming a coalition with the player furthest back on the victory point track would be preferable.\n\nThe point marker is literally removed from the track. What number are you arguing is the number of points that they have? \n\nBearing in mind that there is a 0 spot on the track and their marker is not on it"
+        },
+        {
+          "username": "pmw57",
+          "date": "2025-12-25T19:21:57-06:00",
+          "body": "If it helps, the phrase \"He cannot form a coalition with a player who has already activated a dominance card.\" was removed in the 8th printing (Maruder expansion) for a number of reasons:\n\n* It was redundant.\n* The \"Fewest Points\" Requirement: Under the current Law, a Vagabond must form a coalition with the player who has the fewest victory points.\n*The Status of Dominance Players: Rule 3.3.1 requires a Dominance player to remove their score marker from the track.\n*The Interaction: Because a Dominance player has no marker on the track, they technically do not have a \"victory point total\" to compare. Official rulings (such as the Root FAQ and developer clarifications) have clarified that if a player's marker is not on the track, the Vagabond cannot mathematically satisfy the requirement of picking the player with the \"fewest points.\"\n\nBy removing the sentence, the designers cleaned up the Law to rely on the core mechanic (the score track) rather than a redundant exception.\n\nThe Official Root FAQ explicitly addresses your exact scenario to clear up the confusion caused by the removal of that text:\nhttps://boardgamegeek.com/filepage/176322/official-root-rule...\n\nQ: Can a Vagabond form a coalition with a player who has activated a dominance card? Can a player activate a dominance card after a Vagabond formed a coalition with them?\nA: A Vagabond cannot form a coalition with a dominance player, since they have no victory point marker on the track. However, a player can activate a dominance card after a Vagabond forms a coalition with them!"
+        },
+        {
+          "username": "timonkey",
+          "date": "2025-12-25T22:46:43-06:00",
+          "body": "I'm not arguing that they have a specific number, but there are arguments to be made that the number is either what it was before their marker was removed as well as zero.  The rulebook doesn’t say.  Removing the point marker does not necessarily mean anything particular about how many victory points the player now has.\n\nThe FAQ seems to resolve the issue, but it's unfortunate that the principle is not found in the rulebook itself."
+        },
+        {
+          "username": "pmw57",
+          "date": "2025-12-25T22:52:52-06:00",
+          "body": "Removing their victory point marker from the victory points track means that they no longer qualify for anything relating to victory points.\n\nIt used to be found explicitly in the rulebook, but during an update it was considered better to remove it so that it was only the victory marker track responsible.\nI understand it was Joshua Yearsley’s rule design philosophy to streamline the Law in the 8th Printing. His portfolio and various interviews explain the shift toward a \"technical\" rulebook that removes redundant \"reminder text\" in favor of core mechanics."
+        },
+        {
+          "username": "timonkey",
+          "date": "2025-12-26T07:29:52-06:00",
+          "body": "I like a technical rulebook myself.  I'm trying to explain how, by my read at least, it doesn’t quite meet that goal.\n\nThat's what it's supposed to mean, but the rulebook does not establish this.  The game could be different.  For example, a different game could have the rule that such players have zero victory points but the marker is removed as a reminder that they no longer earn victory points.  A different game could have an identical rulebook but a different FAQ that establishes a different intended rule.\n\nNeither the actual FAQ or my hypothetical one contradict the rulebook."
+        },
+        {
+          "username": "stuffbybez",
+          "date": "2025-12-27T01:31:44-06:00",
+          "body": "I understand it was Joshua Yearsley’s rule design philosophy to streamline the Law in the 8th Printing. His portfolio and various interviews explain the shift toward a \"technical\" rulebook that removes redundant \"reminder text\" in favor of core mechanics.\n\nI like a technical rulebook myself.  I'm trying to explain how, by my read at least, it doesn’t quite meet that goal.\n\nThat's what it's supposed to mean, but the rulebook does not establish this.  The game could be different.  For example, a different game could have the rule that such players have zero victory points but the marker is removed as a reminder that they no longer earn victory points.  A different game could have an identical rulebook but a different FAQ that establishes a different intended rule.\n\nNeither the actual FAQ or my hypothetical one contradict the rulebook.\n\nI agree with all this. \n\nThis is what the currently shared homeland rulebook says:\n\n9.2.8 Dominance Cards and Coalitions. The Vagabond\ncannot activate a dominance card for its normal\nvictory condition (3.3.1). Instead, in games with\nfour or more players, the Vagabond can activate a\ndominance card to form a coalition with another\nplayer, placing his score marker on that player’s\nfaction board. (The Vagabond no longer scores points.)\nThat player must have fewer victory points than\neach other player except the Vagabond forming\nthe coalition, and that player cannot be in a coa-\nlition. If there is a tie for fewest victory points, he\nchooses one tied player. If the coalitioned player\nwins the game, the Vagabond also wins.\n\nIf I'd had to make a ruling before today, I'd probably has suggested that the person has no victory points, therefore has the fewest. \n\nIf it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck."
+        },
+        {
+          "username": "dsdhornet",
+          "date": "2025-12-27T01:39:42-06:00",
+          "body": "If it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck. \n\nThe rule has not changed.  You cannot, and have never been able to, do coalitions with someone without a victory point marker on the track."
+        },
+        {
+          "username": "ZergyPoo",
+          "date": "2025-12-27T10:56:18-06:00",
+          "body": "If I'd had to make a ruling before today, I'd probably has suggested that the person has no victory points, therefore has the fewest. \n\nIf it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck. \n\nThe rule has not changed.  You cannot, and have never been able to, do coalitions with someone without a victory point marker on the track.\n\nSeriously. They know the intent, and they are in this thread, why would they be confused?"
+        },
+        {
+          "username": "dsdhornet",
+          "date": "2025-12-27T11:32:09-06:00",
+          "body": "If it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck. \n\nThe rule has not changed.  You cannot, and have never been able to, do coalitions with someone without a victory point marker on the track.\n\nSeriously. They know the intent, and they are in this thread, why would they be confused?\n\nI get that the rulebook could be clearer in this regard, but to vote or remove cards when the answer is known?  The rulebook may be considered slightly ambiguous, but it isn't contradictory."
+        },
+        {
+          "username": "sigmazero13",
+          "date": "2026-02-12T14:21:14-06:00",
+          "body": "For my part, as a computer programmer, I am keenly aware of the difference between \"null\"/\"undefined\", and an actual value.  A variable with a null value is not comparable (with greater than or less than operators) to integers in most modern programming languages I'm familiar with; if you try to do so, you'll get an error.\n\nI know this doesn't necessarily \"prove\" anything from a board game perspective, but simply that for me, at least, it seems clear that \"remove the VP\" means \"undefined VP\"."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 17,
+      "date_range": [
+        "2025-12-21",
+        "2026-02-12"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3631477",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3631477",
+      "thread_subject": "Vagabond damages all his undamaged sword after being ambushed",
+      "embed_text": "If Vagabond damages all his undamaged swords after being ambushed as the attacker, will the battle stop? Does the Vagabond's ability to deal damage change in this situation?",
+      "content": "The battle will continue with the Vagabond having a maximum rolled hits value of 0, but still able to deal extra hits from other abilities. The Vagabond is not considered defenseless as an attacker, and will not take an extra hit from the defender for having no undamaged swords.",
+      "raw_thread": [
+        {
+          "username": "tranlyvu",
+          "date": "2025-12-21T19:58:53-06:00",
+          "body": "Hi,\n\nIf Vagabond damages all his undamaged sword after being ambushed as attacker, will the battle stop?"
+        },
+        {
+          "username": "k8rthik",
+          "date": "2025-12-21T20:43:44-06:00",
+          "body": "You still battle, the vagabond is just treated as defenseless. (9.2.4)"
+        },
+        {
+          "username": "tranlyvu",
+          "date": "2025-12-21T22:02:42-06:00",
+          "body": "but defenseless is state that granted to defender, in this case  Vagabond is the attacker,  so can he be considered defenseless with no undamaged sword?"
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2025-12-21T22:52:07-06:00",
+          "body": "If Vagabond damages all his undamaged sword after being ambushed as attacker, will the battle stop? \n\nThe battle will continue, with the Vagabond having a maximum rolled hits value of 0 but still able to deal extra hits from Defenseless or Crafted Improvements or so on\n\nThe attacking Vagabond is not defenseless, that is a condition that only applies to defenders. The Vagabond would not take an extra hit from the defender from having no undamaged swords"
+        },
+        {
+          "username": "bladerunner007",
+          "date": "2025-12-21T23:53:03-06:00",
+          "body": "If Vagabond damages all his undamaged sword after being ambushed as attacker, will the battle stop? \n\nThis question was already asked before:\n\nCan Vagabond still hit when swords are damaged?"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 5,
+      "date_range": [
+        "2025-12-21",
+        "2025-12-21"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3633071",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3633071",
+      "thread_subject": "Advanced Setup with no Vagabonds or Hundred: Do you place Ruins?",
+      "embed_text": "In the advanced setup of a game, should ruins be placed if neither the Vagabonds nor the Hundred factions are playing? How are ruins set up in this scenario?",
+      "content": "The community resolved that ruins should be set up as normal, following the last sentence of step 1 in the advanced setup, and placing the ruins tokens alone without any other token under them.",
+      "raw_thread": [
+        {
+          "username": "Yenreb",
+          "date": "2025-12-25T05:17:15-06:00",
+          "body": "The instructions to set up the ruins during basic setup are a separate step from any faction's setup. In the advanced setup, though, I can see no instruction to set up ruins except in the Vagabond's and Hundred's faction setup. If using Advanced Setup and neither of these factions are playing, should the Ruins slots be empty, or should they be filled anyway?"
+        },
+        {
+          "username": "jdludlow",
+          "date": "2025-12-25T05:35:25-06:00",
+          "body": "Set the ruins up as normal. It’s the last sentence of step 1 in advanced setup."
+        },
+        {
+          "username": "Yenreb",
+          "date": "2025-12-25T06:01:28-06:00",
+          "body": "Thanks!"
+        },
+        {
+          "username": "Micro_BIOS",
+          "date": "2025-12-26T10:19:09-06:00",
+          "body": "You put the ruins tokens alone, without any other token under them."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2025-12-26T17:55:08-06:00",
+          "body": "Vagabond and Hundreds actually instruct you to set up Ruin items rather than the Ruins themselves"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 5,
+      "date_range": [
+        "2025-12-25",
+        "2025-12-26"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3636896",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3636896",
+      "thread_subject": "Do you need to show the card before you guess the crow's token to prove you have the card matching suit?",
+      "embed_text": "Do you need to show a card matching the suit to the Crow player before guessing the crow's token, even if you're certain of the plot type?",
+      "content": "The community resolved that yes, you need to show a matching card to the Crow player before guessing the crow's token. This is a mandatory prerequisite to expose and remove the plot, and the Crow player gets to see and inspect the entire card. If you don't have a matching card, you cannot expose and must battle the plot instead.",
+      "raw_thread": [
+        {
+          "username": "tranlyvu",
+          "date": "2026-01-01T05:51:24-06:00",
+          "body": "Hi,\n\nLet's say after 3 wrong guesses, you know for sure the final plot type,  do you still need to prove you have the card matching the suit in the hand to guess the final type?\n\nTechnically, you still can forget the final plot type and guess wrong, and still have to hand over the card to the crow player? or you can guess without having the card which i dont think its correct rule?"
+        },
+        {
+          "username": "ow3n",
+          "date": "2026-01-01T06:12:44-06:00",
+          "body": "Hi,\nYes you need to be able to Expose, and for that the mandatory pre-requisite is to actually show a matching card to the Crow player.\nIn particular, in you have no card, you cannot Expose, and therefore must battle the plot if you absolutely need to remove it.\n\nAs you noticed, you could still purposely fake-guess for whatever reason."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-01-01T08:43:52-06:00",
+          "body": "Also important to note, the Corvid getting to see your card is still an explicit advantage for them.\nFor example if the only matching card you had was an ambush, you need to show them that to remove the plot. They get to know you have that ambush, and you get to remove the plot. That's the cost of the expose action even if you guess the plot correctly."
+        },
+        {
+          "username": "dsdhornet",
+          "date": "2026-01-01T10:57:55-06:00",
+          "body": "And remember, \"showing a card\" does not just mean flashing it to show the suit.  It means they get to see and inspect the entire card."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 4,
+      "date_range": [
+        "2026-01-01",
+        "2026-01-01"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3640506",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3640506",
+      "thread_subject": "If the warlord dies from the ambush, benefit from bitter cannot be triggered?",
+      "embed_text": "If the warlord dies from an ambush, can the benefit from Bitter be triggered, allowing warriors to be placed? Does the timing of Bitter's effect depend on the ambush step of battle?",
+      "content": "The community is divided on whether the benefit from Bitter can be triggered if the warlord dies from an ambush. Some argue that Bitter's timing window is after the ambush step of battle, while others point out that the rule does not explicitly state this and that the word 'immediately' is missing from the Bitter rule.",
+      "raw_thread": [
+        {
+          "username": "tranlyvu",
+          "date": "2026-01-06T23:30:25-06:00",
+          "body": "hi, \n\nIf the warlord dies from the ambush, benefit from bitter cannot be triggered, i.e. no warriors are placed?"
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2026-01-07T05:59:32-06:00",
+          "body": "If the warlord dies from the ambush, benefit from bitter cannot be triggered, i.e. no warriors are placed?\n\nCorrect\n\nBitter's timing window is specifically after the ambush step of battle and before the dice roll step of battle"
+        },
+        {
+          "username": "NachoFailconi",
+          "date": "2026-01-07T06:02:24-06:00",
+          "body": "Where is stated that Bitter's timing is after an ambush? When I read the rules, I don't conclude that from the texts (card and rule 14.7.1). Why rule 1.1.3 (Unclear Resolutions and Choices) cannot be applied?"
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2026-01-07T06:20:01-06:00",
+          "body": "Bitter's timing window is specifically after the ambush step of battle and before the dice roll step of battle\n\nWhere is stated that Bitter's timing is after an ambush? When I read the rules, I don't conclude that from the texts (card and rule 14.7.1). Why rule 1.1.3 (Unclear Resolutions and Choices) cannot be applied?\n\n\"Before rolling\" has been established to mean \"the moment before rolling\" since Arbiter released alongside the base game in 2018. As of Homeland this has been explicitly listed in the Law of Root as Step 2 of Battle"
+        },
+        {
+          "username": "NachoFailconi",
+          "date": "2026-01-07T06:50:50-06:00",
+          "body": "Thanks a lot! Yes, now that I re-read the Arbiter, it's clear from the rule, that says \"immediately before you roll\", but the Bitter rule does not have the word \"immediately\"."
+        }
+      ],
+      "resolution_status": "contested",
+      "has_publisher_post": false,
+      "confidence": "low",
+      "post_count": 5,
+      "date_range": [
+        "2026-01-06",
+        "2026-01-07"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3641410",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3641410",
+      "thread_subject": "Question regarding the False Orders card.",
+      "embed_text": "How does the False Orders card work in terms of moving enemy warriors, and are there any restrictions or additional rules to consider?",
+      "content": "The False Orders card allows moving any number of enemy warriors from one clearing to another, ignoring the rule that would normally restrict movement to adjacent clearings. However, other restrictions and abilities may still apply. The card does not allow moving certain pawns like the Vagabond or Protector, but it can be used to move hireling warriors controlled by an enemy player or the Riverfolk along rivers.",
+      "raw_thread": [
+        {
+          "username": "Tpatts1",
+          "date": "2026-01-08T12:05:20-06:00",
+          "body": "I read it to mean move any number of enemy warriors from ANY clearing to ANY OTHER clearing, regardless of adjacency. My thinking is it would explicitly say \"adjacent clearing\" otherwise.\n\nAm I correct in this?"
+        },
+        {
+          "username": "NachoFailconi",
+          "date": "2026-01-08T12:12:01-06:00",
+          "body": "\"Move\" is defined through adjacency, so no, you cannot do that.\n\nEdit: \"When you move, you may take any number (more than zero) of your warriors and pawns from one clearing and move them to one adjacent clearing.\""
+        },
+        {
+          "username": "dsdhornet",
+          "date": "2026-01-08T12:23:00-06:00",
+          "body": "You must also follow any of the ordered faction's move requirements, including rule (must rule the start or destination clearing)."
+        },
+        {
+          "username": "NachoFailconi",
+          "date": "2026-01-08T18:39:37-06:00",
+          "body": "No, because False Orders explicitly says \"ignoring rule\"."
+        },
+        {
+          "username": "dsdhornet",
+          "date": "2026-01-08T20:11:17-06:00",
+          "body": "You must also follow any of the ordered faction's move requirements, including rule (must rule the start or destination clearing).\n\nNo, because False Orders explicitly says \"ignoring rule\".\n\nGood catch.  Didn't have the card in front of me.  I believe other restrictions / abilities apply though."
+        },
+        {
+          "username": "BoilerUp",
+          "date": "2026-01-08T21:36:31-06:00",
+          "body": "Can I move the moles from one clearing with a hole to another clearing with a hole?  Could I move them to the burrow?  \nIf a faction has warriors by the raft, can I send them in the raft?  Do they get a card?"
+        },
+        {
+          "username": "pmw57",
+          "date": "2026-01-08T21:41:16-06:00",
+          "body": "It's 1 move action to move from the clearing with a hole token to the burrow. it's then another move action to move them from the burrow to another clearing with a hole token.\n\nIf you are allowed to move them, such as with False Orders, then yes you can send them in the raft. The raft can only be used once per turn so you would not be allowed to use the raft if it's been used to move others, at least that's how it is on the same turn.\n\nWhether they get a card or you get a card, depends on what it is that allows you to move them."
+        },
+        {
+          "username": "dsdhornet",
+          "date": "2026-01-08T23:29:32-06:00",
+          "body": "See Paul's answers.  But also:\n\nYou can move the Riverfolk along rivers and have the Keepers carry items along with them.  You can also move hireling warriors controlled by an enemy player (but not both the player's warriors and hireling's warriors...they are considered two separate \"enemies\").  \n\nNote that you cannot move the Vagabond or Protector, as they are pawns, not warriors."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 8,
+      "date_range": [
+        "2026-01-08",
+        "2026-01-08"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3643187",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3643187",
+      "thread_subject": "Question about the Lost City landmark",
+      "embed_text": "Can crows recruit into the Lost City landmark, and can a player use a crafted Mice Partisan card to deal an extra hit in a battle in the Lost City clearing?",
+      "content": "The Lost City is considered all suits at all times, allowing crows to recruit into it. A player can use a crafted Mice Partisan card to deal an extra hit in a battle in the Lost City clearing because the Lost City qualifies as a mouse clearing.",
+      "raw_thread": [
+        {
+          "username": "Tpatts1",
+          "date": "2026-01-11T15:25:21-06:00",
+          "body": "Picture the scene:\n\n• Moles vs Crows vs Cats\n• Mountain map is being used, along with the Lost City landmark.\n\nI have two questions about the City…\n\n1) Can the crows recruit into it ever? \n\n2) In our game the Moles attacked the Cats in the City clearing (4vs4). The Moles attacked player was using his brigadier to do two battles. \n\nThe Cats played a Rabbit ambush to remove 2 Moles immediately.\nThe dice result was 2,0 removing two cats.\n\nSo far so good.\n\nThen, before the second Mole attack (using the brigadier) the Cats player wanted to use their crafted Mice Partisan card to deal an extra hit.\n\nWas that a possibility or not?\n\nThanks in advance 👍"
+        },
+        {
+          "username": "steveowen",
+          "date": "2026-01-11T15:28:10-06:00",
+          "body": "Before Guerric turns up as I have been burnt on this before - the Lost City is all suits at all times. I hope that answers your questions."
+        },
+        {
+          "username": "pmw57",
+          "date": "2026-01-11T16:48:41-06:00",
+          "body": "Yes, they can always recruiit into the Lost City. The Mechanism used is that you check if the clearing matches the card. The Lost City is All Suits, so it matches.\n\nWas that a possibility or not?\n\nThe card says \"In battle in mouse clearings\" and the Lost City is All Suits, so that qualifies as a mouse clearing. Yes it was possible.\n\nAn extreme example with the Lost City is where the Woodland Alliance can reveal a yellow and a red card to revolt with an orange base.\n\nHow that works, is that the revealed cards are checked if they match the clearing, which they do, and the base needs to match the clearing, which it does.\nIt doesn't matter that the revealed cards don't match the base that's put down, because the fundamental aspect is that they match the clearing."
+        },
+        {
+          "username": "BitBracht",
+          "date": "2026-01-11T20:05:21-06:00",
+          "body": "How that works, is that the revealed cards are checked if they match the clearing, which they do, and the base needs to match the clearing, which it does.\nIt doesn't matter that the revealed cards don't match the base that's put down, because the fundamental aspect is that they match the clearing.\n\nI've seen this explained before, and every time I understand it, but it has yet to feel intuitive to me. Even though it is. \n\nPreconceptions are really hard to shake down. A lifetime of using rabbit supporters in rabbit clearings to put down a rabbit base does not prepare you well for something like the Lost City. Incredible bit of design, honestly."
+        },
+        {
+          "username": "dcpepp",
+          "date": "2026-01-11T22:29:17-06:00",
+          "body": "Well said, Fabio! I feel similarly 🤪 when it comes to the Lost City! In fact, I think I bulked and rejected this (correct) interpretation when I first came across it because I was thinking that the LC should become a color (which implies that it has to be consistently 1 color for the turn. But that is not how it works! Thank you, Paul for explaining it so clearly: the LC is all suits at once! And so can support any and all suite-related needs all at once - even if they are different colors!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 5,
+      "date_range": [
+        "2026-01-11",
+        "2026-01-11"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3643606",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3643606",
+      "thread_subject": "Vagabond Coalition and Damage Rules Clarification",
+      "embed_text": "Can a faction in a coalition with the Vagabond become Hostile if one of its warriors is removed? Additionally, when the Vagabond takes damage but has no more damage to mark and is Allied with a faction, can it still ignore the damage if there are allied warriors that would be removed?",
+      "content": "The community resolved that a faction in a coalition with the Vagabond can become Hostile in rare cases, such as when the Vagrant uses Instigate to make the coalition partner fight. Additionally, the Vagabond cannot ignore damage if it would result in the removal of allied warriors. If the Vagabond is Allied with a faction, it can take hits by removing Allied warriors, but if it takes more hits by removing Allied warriors than by damaging items, the Allied faction becomes Hostile.",
+      "raw_thread": [
+        {
+          "username": "Paoloscia",
+          "date": "2026-01-12T10:21:31-06:00",
+          "body": "I’ve just read the Root Quick Start Guide and I have two questions that I couldn’t find answers to, even after checking rules 9.2.8 and 9.2.9:\n\n1) Can a faction that is in a coalition with the Vagabond become Hostile if one of its warriors is removed, or once a faction enters a coalition is it immune to becoming Hostile?\n2) When the Vagabond takes damage but has no more damage he can mark (and therefore may “ignore damage”):\nif he is Allied with a faction and is fighting with the help of that faction’s warriors, can he still ignore the damage even if there are allied warriors that would be removed if the damage were assigned?"
+        },
+        {
+          "username": "ZergyPoo",
+          "date": "2026-01-12T10:47:00-06:00",
+          "body": "1. I don't think this can happen. If the vagabond is in a coalition with someone, they can't attack them, and therefore can't remove warriors. But also I believe the relationship marker for the coalition partner is removed anyway.\n2. No, I would think that damage would have to be applied."
+        },
+        {
+          "username": "Skeime",
+          "date": "2026-01-12T11:09:41-06:00",
+          "body": "I don’t think the relationship marker is removed. (If you are hostile before forming the coalition, there’s even a rule to move it to Indifferent (see 9.2.9.III.D).)\n\nAnd I think in rare cases the Vagabond can remove warriors from a coalition partner. For example, when the Vagrant makes their coalition partner fight using Instigate. (This might be the only way?) In this case, the relationship would turn hostile again; there is no rule making an exception here."
+        },
+        {
+          "username": "ZergyPoo",
+          "date": "2026-01-12T11:25:19-06:00",
+          "body": "1. I don't think this can happen. If the vagabond is in a coalition with someone, they can't attack them, and therefore can't remove warriors. But also I believe the relationship marker for the coalition partner is removed anyway.\n\nI don’t think the relationship marker is removed. (If you are hostile before forming the coalition, there’s even a rule to move it to Indifferent (see 9.2.9.III.D).)\n\nAnd I think in rare cases the Vagabond can remove warriors from a coalition partner. For example, when the Vagrant makes their coalition partner fight using Instigate. (This might be the only way?) In this case, the relationship would turn hostile again; there is no rule making an exception here.\n\nYou are correct!\n\nIn any case. Why would a VB in a coalition with someone actually want to go hostile?"
+        },
+        {
+          "username": "Skeime",
+          "date": "2026-01-12T12:04:13-06:00",
+          "body": "Probably they wouldn’t want to. But maybe Instigate is used as a Hail Mary to stop someone else from winning."
+        },
+        {
+          "username": "tranlyvu",
+          "date": "2026-01-13T05:56:47-06:00",
+          "body": "Can I also clarify that you can only initiate battle against an enemy and since coalition is no longer enemy, you cannot attack your coalition faction?"
+        },
+        {
+          "username": "Skeime",
+          "date": "2026-01-13T06:06:38-06:00",
+          "body": "Yes, that’s right."
+        },
+        {
+          "username": "pmw57",
+          "date": "2026-01-13T06:17:25-06:00",
+          "body": "If you are also Allied with your Coalition faction as well though, you can battle with someone else and choose to have your ally take hits. When they've taken more hits in the battle than you did, they become Hostile with you.\n\nhttps://rules.ledergames.com/?product=root&locale=en-US&prin...\n9.2.9 II D Taking Hits with Ally. In a battle where you treat Allied warriors as your own, you can take hits by removing them. However, if you take more hits by removing Allied warriors than by damaging items during the same battle, that Allied faction becomes Hostile (9.2.9.III) at the end of the battle. This rule overrides the condition for becoming Hostile in 9.3.3."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 8,
+      "date_range": [
+        "2026-01-12",
+        "2026-01-13"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3646341",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3646341",
+      "thread_subject": "What happens if the Birds turmoil a 4th time?",
+      "embed_text": "What happens if the Birds go into turmoil for a 4th time in the game? Do you shuffle the Ruler cards and draw one at random or is there another procedure?",
+      "content": "When the Birds go into turmoil for a 4th time, the player gets their whole Ruler deck back and can pick any one card they want, including the one they just had. This is supported by a reference to section 7.7.3.I of the rule book.",
+      "raw_thread": [
+        {
+          "username": "Tpatts1",
+          "date": "2026-01-17T10:42:49-06:00",
+          "body": "Hi, what happens if you're particularly unlucky/inept as the birds and go into turmoil a 4th time? Do you shuffle the Ruler cards and draw on at random or what?"
+        },
+        {
+          "username": "dcpepp",
+          "date": "2026-01-17T10:54:57-06:00",
+          "body": "You get your whole ruler deck back and can pick any one you want."
+        },
+        {
+          "username": "McBartsomeville",
+          "date": "2026-01-17T10:56:31-06:00",
+          "body": "Indeed, this can be found in section 7.7.3.I of the rule book."
+        },
+        {
+          "username": "Legacy_of_Svet",
+          "date": "2026-01-17T10:57:53-06:00",
+          "body": "Even the one you just had ?"
+        },
+        {
+          "username": "sigmazero13",
+          "date": "2026-01-17T11:18:21-06:00",
+          "body": "Yes."
+        },
+        {
+          "username": "BitBracht",
+          "date": "2026-01-17T15:14:30-06:00",
+          "body": "Not that it matters much at that point. 🤣"
+        },
+        {
+          "username": "LionPacifique",
+          "date": "2026-01-17T20:10:17-06:00",
+          "body": "You lie on the floor in the fetal position, sobbing quietly."
+        },
+        {
+          "username": "dsdhornet",
+          "date": "2026-01-17T22:02:02-06:00",
+          "body": "Hi, what happens if you're particularly unlucky/inept as the birds and go into turmoil a 4th time? Do you shuffle the Ruler cards and draw on at random or what?\n\nYou lie on the floor in the fetal position, sobbing quietly.\n\nActually, most times I've had this happen is when I had all my Roosts out so couldn't place another or couldn't Recruit because I had no warriors in the supply."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-01-18T00:27:15-06:00",
+          "body": "You lie on the floor in the fetal position, sobbing quietly.\n\nActually, most times I've had this happen is when I had all my Roosts out so couldn't place another or couldn't Recruit because I had no warriors in the supply.  \n\nBy the time you get in such a position and then proceed to turmoil FOUR TIMES you've probably already won the game for 3 turns"
+        },
+        {
+          "username": "LionPacifique",
+          "date": "2026-01-18T06:46:26-06:00",
+          "body": "You lie on the floor in the fetal position, sobbing quietly.\n\nActually, most times I've had this happen is when I had all my Roosts out so couldn't place another or couldn't Recruit because I had no warriors in the supply.  \n\nLol, this is the most specific \"um, actually\" thing on the internet."
+        },
+        {
+          "username": "ARBITERMAYBE",
+          "date": "2026-01-26T13:16:44-06:00",
+          "body": "Hi, what happens if you're particularly unlucky/inept as the birds and go into turmoil a 4th time? Do you shuffle the Ruler cards and draw on at random or what?\n\nYou lie on the floor in the fetal position, sobbing quietly.\n\nActually, most times I've had this happen is when I had all my Roosts out so couldn't place another or couldn't Recruit because I had no warriors in the supply.  \n\nLol, this is the most specific \"um, actually\" thing on the internet.\n\nYou know i just had to keep the qoute chain going"
+        },
+        {
+          "username": "chillingwithyourcat",
+          "date": "2026-02-27T14:12:58-06:00",
+          "body": "You lie on the floor in the fetal position, sobbing quietly.\n\nActually, most times I've had this happen is when I had all my Roosts out so couldn't place another or couldn't Recruit because I had no warriors in the supply.  \n\nLol, this is the most specific \"um, actually\" thing on the internet.\n\nYou know i just had to keep the qoute chain going\n\nwhy stop now"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 12,
+      "date_range": [
+        "2026-01-17",
+        "2026-02-27"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3650459",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3650459",
+      "thread_subject": "How to remove the Corvid's Raid token once it's face up",
+      "embed_text": "How can a player remove the Corvid's Raid token from the board once it's face up, and are there any methods to remove it other than an enemy attacking it?",
+      "content": "The community consensus is that the Corvid's Raid token can only be removed by an enemy attacking it, as players can only attack enemy pieces. However, players can use the Trick action to move the token to a different location on the board, potentially incentivizing enemies to remove it. Additionally, having a revealed Raid token can be beneficial for scoring points, so removing it may not always be desirable.",
+      "raw_thread": [
+        {
+          "username": "Tpatts1",
+          "date": "2026-01-24T14:35:21-06:00",
+          "body": "I was playing Crows and flipped a raid token face up to get some much needed points.\n\nFool!\n\nSuddenly I was without one of the handiest plot tokens and everyone was giving it a wide berth. \n\nIs there any way for it to be removed from the board other than for an enemy to attack it? \n\nGoogle told me I could attack it myself but the Law of Root states that battle is against enemy pieces, so I don't agree…"
+        },
+        {
+          "username": "NachoFailconi",
+          "date": "2026-01-24T14:50:43-06:00",
+          "body": "You can only attack enemy pieces, as you say, and you're not an enemy of yourself. And yes, I think the only way to remove it is that enemies should attack it."
+        },
+        {
+          "username": "pmw57",
+          "date": "2026-01-24T16:52:47-06:00",
+          "body": "Because other factions aren’t incentivised to attack and remove raid tokens, leverage that to help you score points by flipping other tokens instead."
+        },
+        {
+          "username": "BitBracht",
+          "date": "2026-01-24T20:38:53-06:00",
+          "body": "Don't forget you can also use the Trick action to move that plot somewhere else. (Provided you have a different revealed plot on the board during your turn.) Perhaps enemies would be more incentivized to remove it if it was somewhere else?\n\nBut I agree with the others — a Raid plot usually does more for you when it's revealed and boosting your scoring for the other revealed plots than it does when it's removed."
+        },
+        {
+          "username": "PlanBee",
+          "date": "2026-01-25T02:47:52-06:00",
+          "body": "In response to the OP, I am not sure it is the handiest token. I wouldn't differentiate but if forced to choose it would be the one that gives you more cards (exploit?).\n\nBut Paul hits the nail on the head.....if you have 2 Raid tokens that are flipped and your opponents will not attack, that means every subsequent flipped token is scoring at least 3 points........they'll attack it soon enough"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 5,
+      "date_range": [
+        "2026-01-24",
+        "2026-01-25"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3653229",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3653229",
+      "thread_subject": "WA: From where does a ‘trained’ officer come?",
+      "embed_text": "From where does a 'trained' officer come in the game, specifically whether it comes from the appropriate base on the board or from the player's supply?",
+      "content": "According to the community, a 'trained' officer comes from the player's supply, unless otherwise specified. This is supported by references to the game's rules, specifically sections 8.4.1.III and G.1.19.",
+      "raw_thread": [
+        {
+          "username": "hand0rf",
+          "date": "2026-01-29T09:55:07-06:00",
+          "body": "Does the warrior have to come from the appropriate base ON THE BOARD? Or does the warrior just move from Supply to the Officer’s section on the player’s mat?"
+        },
+        {
+          "username": "smmckit",
+          "date": "2026-01-29T10:21:51-06:00",
+          "body": "Pieces are placed from Supply unless otherwise specified. In the case of a Revolt, it is not specified and so comes from supply. (8.4.1.III for Revolt and G.1.19 for definition of Place)"
+        },
+        {
+          "username": "dcpepp",
+          "date": "2026-01-30T15:38:35-06:00",
+          "body": "Yep! In fact, if you make an Officer out of a Mouse, you can’t use it for anything else, and you only get it back if you loose a base - so plan them carefully! 10 mice get used up very quickly!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 3,
+      "date_range": [
+        "2026-01-29",
+        "2026-01-30"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3653647",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3653647",
+      "thread_subject": "Vagabond black and white pawns",
+      "embed_text": "Are the character boards for Vagabond completely interchangeable, and can any white or black pawn be used with any Vagabond card or board? Can a single Vagabond be played with either board, and does the choice of pawn affect the availability of quests?",
+      "content": "The community consensus is that the character boards are interchangeable, and the color of the pawns is irrelevant. The pawns were originally used to differentiate between two Vagabonds in the same session, but with the introduction of The Vagabond Pack, the pawns can now be matched with specific Vagabond cards for aesthetic purposes. The choice of pawn does not affect gameplay or the availability of quests.",
+      "raw_thread": [
+        {
+          "username": "darthkirx",
+          "date": "2026-01-30T03:58:09-06:00",
+          "body": "As you may already know there are two separate character boards for vagabond, one of them requires black pawn, and another one requires white pawn. One of these boards contains quest cards as faction components, another one doesn't. Also I have all available vagabond cards with pawns. Each pawn corelate exactly to one vagabond card (by art)\nSo here is my question. \n- Are those character boards completely interchangeable?\n- May I use any white color pawns correlated to a specific vagabond card, if my character board requires a black pawn?\n- Can I pick any of the vagabond boards if there is only one vagabond in the game?\n- Are there quests in the game if I choose to play black vagabond without white vagabond?"
+        },
+        {
+          "username": "NachoFailconi",
+          "date": "2026-01-30T04:47:13-06:00",
+          "body": "- Yes.\n- Yes. The color of the pawns is irrelevant.\n- Yes. Both Vagabonds are similar.\n- No. Vagabonds share the Quest deck, and playing with any pawn is irrelevant for the purpose of playing (other than aesthetics)."
+        },
+        {
+          "username": "darthkirx",
+          "date": "2026-01-30T06:49:57-06:00",
+          "body": "Thank you for replying, but what then is the purpose of specifying black and white pawns if it doesn't matter?"
+        },
+        {
+          "username": "NachoFailconi",
+          "date": "2026-01-30T06:59:27-06:00",
+          "body": "Originally, there was only one Vagabond. The Riverfolk expansion (2018) allows to play with a second Vagabond (that is, two Vagabonds in the same session), and in that case you needed to differentiate them, hence a black meeple and a grey meeple; there was never a need to match the card with the meeple. When The Vagabond Pack (2020, two years later) was published, now you could match the Vagabond you chose with the particular meeple, but that's that, aesthetics."
+        },
+        {
+          "username": "darthkirx",
+          "date": "2026-01-30T07:37:50-06:00",
+          "body": "Thank you very much.\nI understand it now. I forgot that initially it was literally the same pawn in different colors, and then the vagabond pack came in."
+        },
+        {
+          "username": "BitBracht",
+          "date": "2026-01-30T13:23:04-06:00",
+          "body": "You can use whichever board you want with whichever meeple you want. Matching the board with the meeple was never a thing. (Personally, I didn’t even know the boards could be differentiated in any way.)\n\nUsually you’ll want to match the meeple with the card, since each meeple actually corresponds to one card, but even that is not necessary. As long as you play by your card, you can totally use any meeple you want to represent that card.  \n\n(Unless you’re playing a 2-vagabond game, in which case it would probably be confusing for everyone if either Vagabond’s meeple didn’t match their card. But you probably shouldn’t be playing 2-vagabond games anyway.)"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 6,
+      "date_range": [
+        "2026-01-30",
+        "2026-01-30"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3655693",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3655693",
+      "thread_subject": "Woodland Alliance \"officer\" moving without controlling clearings",
+      "embed_text": "Can a Woodland Alliance Officer move without controlling either the current or destination clearing? Does the Alliance need to rule one or both clearings to perform a Move action?",
+      "content": "The community consensus is that the Woodland Alliance Officer cannot move without controlling either the current or destination clearing, unless there are specific card effects that allow it. The Alliance needs to rule one or both clearings to perform a Move action. This can be used to strategically limit the Alliance's movement by placing warriors in surrounding clearings.",
+      "raw_thread": [
+        {
+          "username": "Nemesis5057",
+          "date": "2026-02-02T12:09:45-06:00",
+          "body": "Can a Woodland Alliance \"Officer\" do a \"Move\" action if the Alliance doesn't rule either their current site or the site he's moving to?   I believe the answer to be No but the two times I've played it seemed very easy to bottle the Alliance by placing warriors in the sites surrounding them.   Thank you in advance."
+        },
+        {
+          "username": "Mattchu",
+          "date": "2026-02-02T12:13:32-06:00",
+          "body": "Nope, barring crafted card effects the Alliance needs to rule one or both clearings. Popping a big pile of warriors on top of their bases is often a good way to slow them down."
+        },
+        {
+          "username": "Kendress",
+          "date": "2026-02-02T12:15:03-06:00",
+          "body": "Only the corvids and vagabond specifically call out the ability to move without rule in the origin or destination clearings. All other factions are limited to that movement rule. \n\nOn that note, one of the primary deterrents of the WA once they have a base is to camp out with a ton of warriors on that clearing so they can't move out."
+        },
+        {
+          "username": "sigmazero13",
+          "date": "2026-02-02T12:15:22-06:00",
+          "body": "They are bound by the rule of.. well, Rule, when moving.  So they either need to rule to clearing they are moving FROM or moving TO.  Hemming the Alliance in is one key way to help keep them from spreading sympathy.  Of course, they can still do it by spending cards, but with more Sympathy on the board, it becomes more and more expensive to do that (as opposed to using a Warrior to do it without spending cards)."
+        },
+        {
+          "username": "Nemesis5057",
+          "date": "2026-02-02T19:58:18-06:00",
+          "body": "Thank you to all who responded.  It is much appreciated.  I pretty much knew that would be the response but thought I'd get confirmation after seeing the way the Alliance was pretty much stymied when warriors enter their base."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 5,
+      "date_range": [
+        "2026-02-02",
+        "2026-02-02"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3660060",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3660060",
+      "thread_subject": "A question about the Keepers in Iron",
+      "embed_text": "In the Iron Keepers faction, if a player has multiple relics and is attacked, do the relics prevent multiple hits from being taken? Does the effect of ignoring the first hit stack with multiple relics?",
+      "content": "The community resolved that the Keepers ignore only the first hit they take in battle if they have at least one relic and one Keeper warrior in the clearing. The effect does not stack with multiple relics. This is based on the faction board and the rules as written.",
+      "raw_thread": [
+        {
+          "username": "Vagabot",
+          "date": "2026-02-10T08:36:44-06:00",
+          "body": "In the last game I played, I had a question about this faction, which has been played very little in my group.\n\nThe player who was playing with them had three relics unearthed in the same clearing and, according to him, that meant that if he was attacked, none of his warriors could die because he had one less hit for each relic carried by one of his badgers. Is that true?\n\nAccording to the faction board, the first hit received is ignored if you have a relic and a guardian, but it doesn't say anything if you have more guardians and more relics."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-02-10T08:55:04-06:00",
+          "body": "15.2.4 Devout Knights. In battle, if the clearing of battle has at least one relic and at least one Keeper warrior, the Keepers ignore the first hit they take. _(If ambushed, ignore one hit from the ambush, but do not ignore further hits.)_ When moving, the Keepers may move one relic with each Keeper warrior that they move.\n\nIgnore the first hit they take.\n\nYour friend is wrong. Just get him to check the wording on the faction board next time the ruling is already very clear. \n\nIt sounds like you guys already read the board, so if he still insists the effect stacks you have to ask why he thinks that 😅 Root rules are very precise and should be followed exactly as written."
+        },
+        {
+          "username": "Vagabot",
+          "date": "2026-02-11T03:22:19-06:00",
+          "body": "Thank you. I figured it couldn't be because that would give them a tremendous advantage."
+        },
+        {
+          "username": "Rootin",
+          "date": "2026-02-13T11:30:32-06:00",
+          "body": "Yeah I just got shivers thinking about that lol"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 4,
+      "date_range": [
+        "2026-02-10",
+        "2026-02-13"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3661638",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3661638",
+      "thread_subject": "The Riverfolk Company's funds",
+      "embed_text": "When the Riverfolk Company loses a trading post, it has to return half of its funds. Do warriors in the consignment area count as funds?",
+      "content": "Funds only count as funds when they're in the funds box. Warriors in the consignment area do not count as funds. Losing a trading post results in losing half of the remaining funds, which can be relevant when scoring dividends or when attacking in a way that destroys a trading post.",
+      "raw_thread": [
+        {
+          "username": "NoTeVuelvasLoki",
+          "date": "2026-02-13T06:58:13-06:00",
+          "body": "According to the faction board, when the company loses a trading post, it has to return half of its funds. What happens if all the warriors are in the consignment area? Do they count as funds?"
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-02-13T07:00:39-06:00",
+          "body": "Nope! Funds only count as funds when they're in the funds box.\n\nYou only have to worry about losing funds from a destroyed trade post if you're trying to score dividends, otherwise it poses no threat."
+        },
+        {
+          "username": "NachoFailconi",
+          "date": "2026-02-13T07:04:10-06:00",
+          "body": "Funds are defined as \"warriors in the Fund box\", so no, warriors is the Committed box are do not count for Trade Disruption, as they are not in the Funds box."
+        },
+        {
+          "username": "NoTeVuelvasLoki",
+          "date": "2026-02-13T07:05:49-06:00",
+          "body": "Thank you, both of you."
+        },
+        {
+          "username": "Skeime",
+          "date": "2026-02-13T07:19:17-06:00",
+          "body": "You only have to worry about losing funds from a destroyed trade post if you're trying to score dividends, otherwise it poses no threat.\n\nNot quite the only threat: If you attack on your turn in a way that destroys a trading post (for example, fighting with two Riverfolk warriors against three warriors at a trading post, and then rolling 3-3), you lose half of your remaining funds as well.\n\nThis can become relevant relatively easily when you run into an ambush."
+        },
+        {
+          "username": "Rootin",
+          "date": "2026-02-13T11:24:07-06:00",
+          "body": "Nope! Funds only count as funds when they're in the funds box.\n\nYou only have to worry about losing funds from a destroyed trade post if you're trying to score dividends, otherwise it poses no threat.\n\nNot quite the only threat: If you attack on your turn in a way that destroys a trading post (for example, fighting with two Riverfolk warriors against three warriors at a trading post, and then rolling 3-3), you lose half of your remaining funds as well.\n\nThis can become relevant relatively easily when you run into an ambush.\n\nYes, as happened to me in a recent digital game"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 6,
+      "date_range": [
+        "2026-02-13",
+        "2026-02-13"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3674425",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3674425",
+      "thread_subject": "Question about moles and Hundreds",
+      "embed_text": "When digging a tunnel as moles, is it mandatory to have warriors in the burrow? Additionally, when the Hundreds raze a ruin, is it mandatory to take the item from the ruin?",
+      "content": "According to the community, moles can dig a tunnel without having warriors in the burrow, but they must move at least one warrior if they have any. The Hundreds must take an item from a ruin when they raze it, with no option to decline, although they can later remove the item using certain mechanics.",
+      "raw_thread": [
+        {
+          "username": "DGD_Kami",
+          "date": "2026-03-08T18:44:29-05:00",
+          "body": "Ok so I have two questions:\n\n1.- As moles when you dig a tunnel, is it mandatory to have warriors in your burrow when building it? I believe you can dig and move 0, but what if you don't have warriors at all?\n\n2.- Hundreds, when you raze a ruin and is it mandatory to take the item even if you don't want it?\n\nThanks in advance"
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-03-08T18:59:21-05:00",
+          "body": "1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. However interesting to note you may not dig and choose to move 0 warriors. If you have any number of warriors in the burrow you must move at least one (this is an update from a rule clarification about whether 0 is a number or not with Homeland, it's a whole thing)\n\n2. Yes, it is mandatory to take the item. The only way to get rid of it is with the Lavish mood or if your item track is already full. The items in the ruins can block some pretty good moods so that's part of the gamble!"
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-03-08T19:02:08-05:00",
+          "body": "Just to justify the above, here's the current wording in the latest version of the law, it's very clear in the latest edition 🙂 \nLaw of Root 12.5.1 V wrote:\n\n Dig. Spend one card to place a tunnel token in a matching clearing without a tunnel token. Then, move up to four warriors (at least one) from the Burrow to that clearing. (If all three tunnels are on the map, you may remove a tunnel first.)"
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2026-03-08T20:06:13-05:00",
+          "body": "1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. However interesting to note you may not dig and choose to move 0 warriors. If you have any number of warriors in the burrow you must move at least one (this is an update from a rule clarification about whether 0 is a number or not with Homeland, it's a whole thing)\n\nJust to justify the above, here's the current wording in the latest version of the law, it's very clear in the latest edition 🙂 \nLaw of Root 12.5.1 Tysm, does the law of root mention anything about the hundreds item being mandatory to take?"
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-03-08T20:13:34-05:00",
+          "body": "if Root doesn't say \"may\" in an action then it's mandatory. (with several weird exceptions)\n\nSo here's the list of rules you should know to understand why you must take the item:\n\n14.4.1:\nRaze. In each clearing with a mob token, remove all enemy buildings and tokens, take one item from the ruin in the clearing, if any, and remove the ruin if you took its last item....\n\n14.2.4 I:\nGaining Items. When the Hundreds gain an item, they put it in the leftmost empty Command or Prowess space based on the item type; if there is no such empty space, they must permanently remove the gained item or any item on that track, and they score one victory point.\n\nSo whenever a mob razes an item must be taken from a ruin without any choice on the Hundred's part. You don't control the Raze action it just happens, same for removing enemy cardboard you couldn't stop it if you wanted to. And whenever the Hundreds gain an item it must go in their Hoard (with the exception of the choice you get when you craft but that's a different rule) so therefore if you have a mob at a ruin you might get stuck with an item you don't want.\n\nThen if you know other Hundreds mechanics, you can remove items with Lavish, or by overfilling your hoard."
+        },
+        {
+          "username": "MiceandMysticslover",
+          "date": "2026-03-12T21:02:29-05:00",
+          "body": "I think this is false. But that would just be my interpretation of the law that your not aloud to dig if you don't have warriors to move."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-03-12T21:12:22-05:00",
+          "body": "1. Yes you can dig with no warriors and the tunnel will be placed but you have nothing to move. \n\nI think this is false. But that would just be my interpretation of the law that your not aloud to dig if you don't have warriors to move.\n\nThis is wrong.\n\nSpend one card to place a tunnel token in a matching clearing without a tunnel token. \n\nDoesn't say anything about requiring a warrior therefore it doesn't. There's no interpretation where a warrior is required.\n\nThen,\n\nThen is a keyword in Root for compound actions, it means you must have finished the first step to do the second step, and you cannot do anything in between. But doesn't have any requirements for fulfilment of either step. If the word was \"and\" (used in replace) it would be more ambiguous but even \"and\" is usually used synonymously with \"then\", in the case of something like replace (which does require all parts of the action to be possible) a special rule is required. So it's \"Then\" as in, after doing the first step, do the second step\n\nmove up to four warriors (at least one) from the Burrow to that clearing. (If all three tunnels are on the map, you may remove a tunnel first.)\n\nYou must move one warrior, if you cannot, then you cannot. This is just how Root logic works, if you're instructed to move and don't have the warriors, you can't move.\n\nI can't think of any way to read this which would require a warrior to place the tunnel."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 7,
+      "date_range": [
+        "2026-03-08",
+        "2026-03-12"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3680429",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3680429",
+      "thread_subject": "Twilight council question ",
+      "embed_text": "How does the Twilight Council's Banish action work in Root? Specifically, do extra hits from abilities like Partisans also make enemy warriors move, and can Banish be used to hit enemy cardboard?",
+      "content": "The Banish action makes enemy warriors move, ignoring rules, and extra hits from abilities like Partisans also apply. However, Banish does not deal hits to enemy buildings and tokens. If all enemy warriors are moved and there are leftover hits, those hits are simply unused. Additionally, Banish moves all hit warriors to a single destination, not multiple clearings.",
+      "raw_thread": [
+        {
+          "username": "DGD_Kami",
+          "date": "2026-03-20T11:01:55-05:00",
+          "body": "Ok so the Twilight council banish action reads:\n\n\"Battle. Your hits force enemy warriors to move instead, ignoring rule. Ignore any rolled his you take\"\n\nSo if I have partisans or any other means to deal extra hits, do those hits also make enemies move, or to they hit them normally? \n\nAlso can you use that action to hit enemy cardboard? If so, do you hit them normally or do extra rules apply?\n\nThanks in advance"
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2026-03-20T11:07:47-05:00",
+          "body": "1) Extra Hits you deal will also make enemy warriors move\n\n2) Banish does not deal hits to enemy buildings and tokens. If you move all enemy warriors and have hits left over, those left over hits are simply unused"
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2026-03-20T12:11:40-05:00",
+          "body": "2) Banish does not deal hits to enemy buildings and tokens. If you move all enemy warriors and have hits left over, those left over hits are simply unused\n\nOk ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?"
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2026-03-20T12:16:07-05:00",
+          "body": "1) Extra Hits you deal will also make enemy warriors move\n\n2) Banish does not deal hits to enemy buildings and tokens. If you move all enemy warriors and have hits left over, those left over hits are simply unused\n\nOk ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?\n\nNo, Banish moves all hit warriors to a single destination"
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2026-03-20T20:26:08-05:00",
+          "body": "2) Banish does not deal hits to enemy buildings and tokens. If you move all enemy warriors and have hits left over, those left over hits are simply unused\n\nOk ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?\n\nNo, Banish moves all hit warriors to a single destination\n\nExcelent tysm"
+        },
+        {
+          "username": "DMoneyMonet",
+          "date": "2026-03-21T14:01:44-05:00",
+          "body": "2) Banish does not deal hits to enemy buildings and tokens. If you move all enemy warriors and have hits left over, those left over hits are simply unused\n\nOk ty\n\nAlso if you deal multiple hits, can you force and opponent to move to two different clearings?\n\nNo, Banish moves all hit warriors to a single destination\n\nEven though its a much simpler system than it once was, it's still a little complex and very unique. Banish is so weird that I wish all of this was on the player board instead of just in the law. This is an instance where more would be more. A lot of people I've play Root with only check the Law for edge cases and trust the boards to (succinctly) cover what they need to know. Or they play most factions first in the app and then have no true understanding of how the minutiae of factions work. For some factions, the board is enough, mostly because the faction is very simple or comes from earlier days of Root when you could just take most instructions at face value. For others, the board is inadequate - someone needs to know the Law or know when to use the Law. After all, you don't know what you don't know. I find this to be especially true for Lord of Hundreds and all three Homeland factions. These are also factions with the most dense text, though, and I wish that it had been broken up a bit more. I can picture the Woodland Alliance board in my head. The same for the Keepers in Iron. There's a shape to their turn structure that helps you get through it. The Knaves have that a bit, but it's not quite as visually supported as the Vagabond's board. Even just having the buildings on the board, such as with the Lizard Cult, is a huge help for giving the rest of the turn a form you can live in comfortably. It would seem that I'm arguing for less text, but I am really arguing for graphic design that allows for more text because the user can situate different text in diverse contexts. Every time I see white space on a player board filled with a big animal picture opposite a wall of instructions, I just know I'm going to have to put extra effort into walking someone through their turn (or working to internalize that turn if I'm playing as that faction). Again, not a dig on the factions. Just a phenomenon that I wish was better addressed given how complex these factions are."
+        },
+        {
+          "username": "stuffbybez",
+          "date": "2026-03-22T15:36:36-05:00",
+          "body": "What is lacking from the LoH board? What rules do you think should be there but aren't?"
+        },
+        {
+          "username": "DGD_Kami",
+          "date": "2026-03-23T16:16:23-05:00",
+          "body": "For others, the board is inadequate - someone needs to know the Law or know when to use the Law. After all, you don't know what you don't know. I find this to be especially true for Lord of Hundreds and all three Homeland factions. \n\nWhat is lacking from the LoH board? What rules do you think should be there but aren't?\n\nPrecisely the fact that you cannot hit cardboard with banish.\n\nI know the Law of root has it, but come on this should be at least in the manual"
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2026-03-23T17:03:23-05:00",
+          "body": "What is lacking from the LoH board? What rules do you think should be there but aren't?\n\nPrecisely the fact that you cannot hit cardboard with banish.\n\nI know the Law of root has it, but come on this should be at least in the manual \n\nFor what it's worth, the Banish text OP posted is not the final board text. The final text for Banish says \"Battle. Ignored rolled hits you take. You only hit warriors, forcing them to move as you want, ignoring rule.\""
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 9,
+      "date_range": [
+        "2026-03-20",
+        "2026-03-23"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3681594",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3681594",
+      "thread_subject": "two questions about the twilight council",
+      "embed_text": "How do assemblies work in the Twilight Council, and can any opponent flip an assembly to closed for no cost except loyalists for the Council?",
+      "content": "The idea of having assemblies craft with enemies' crafting pieces was abandoned due to balance issues. Any opponent can flip an assembly to closed for no cost except loyalists for the Council, with no frequency limit or cost, but using this ability wantonly can supercharge the Bats' recruiting.",
+      "raw_thread": [
+        {
+          "username": "MiceandMysticslover",
+          "date": "2026-03-22T15:31:07-05:00",
+          "body": "1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\n2. It appears that any opponent can flip an assembly to closed for no cost except loyalists for the Council? What the heck? Is there a once-per turn limit? Card cost? Requirement that you have to be at the assembly. I don't understand.\n\nClarification would be great. Thanks, all!"
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2026-03-22T15:58:44-05:00",
+          "body": "1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\nYes that was abandoned as it was impossible to balance\n\n2. It appears that any opponent can flip an assembly to closed for no cost except loyalists for the Council? What the heck? Is there a once-per turn limit? Card cost? Requirement that you have to be at the assembly. I don't understand.\n\nThere is no frequency limit or cost for the player activating Entreat. The hidden cost is that using it wantonly will supercharge the Bats' recruiting"
+        },
+        {
+          "username": "pmw57",
+          "date": "2026-03-22T15:59:34-05:00",
+          "body": "[Edit: The following about Lilypad Diaspora when it was Twilight Council being asked about]\n\nFrom https://rules.ledergames.com/?product=root\n16.4.1 Craft. You may activate enclaves to craft cards (16.2.1.II).\n\nThat would be Negotiations.\n\n16.2.5 Negotiations. Once during their turn, an enemy with faction pieces in a clearing with a Militant enclave may flip it to Peaceful. If they don't rule the enclave but another player does, the flipping player must give the ruler a card in order to flip the enclave."
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2026-03-22T16:00:41-05:00",
+          "body": "1. The board says that you 'craft with assemblies'. So, the idea of having them craft with enemies crafting pieces has been abandoned? Why? Or am I mis-reading this?\n\nFrom rules.ledergames.com\n16.4.1 Craft. You may activate enclaves to craft cards (16.2.1.II).\n\nThat would be Negotiations.\n\n16.2.5 Negotiations. Once during their turn, an enemy with faction pieces in a clearing with a Militant enclave may flip it to Peaceful. If they don't rule the enclave but another player does, the flipping player must give the ruler a card in order to flip the enclave.\n\nOP was asking about the Bats, and you are referencing the Frogs"
+        },
+        {
+          "username": "pmw57",
+          "date": "2026-03-22T16:02:51-05:00",
+          "body": "Oh thanks, that'll teach me to reply while not having woken up yet."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-03-23T00:08:21-05:00",
+          "body": "The answer is, there's no mistakes that's precisely how they work.\n\nPlay a couple of games and you should find they're well balanced (even a little strong imo)"
+        },
+        {
+          "username": "MiceandMysticslover",
+          "date": "2026-03-23T16:31:45-05:00",
+          "body": "Thanks everyone!"
+        },
+        {
+          "username": "MiceandMysticslover",
+          "date": "2026-03-23T16:41:20-05:00",
+          "body": "Yes that was abandoned as it was impossible to balance\n\nThis disappoints me. How was it impossible to balance? It seems like it would encourage strategic placement of assemblies. Of course, they would occasionally struggle to craft but that seems like a reasonably thematic cost of playing without helpful allies. What is the problem? Where did they release this?\n\nThe answer to question 2 is very interesting. I wonder how the meta will turn out for that."
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-03-24T02:02:44-05:00",
+          "body": "They already score from enemy cardboard, so strategic assemblies are still required.\nThe crafting thing was an issue because different matchups have vastly different crafting pieces. In a WA game it'd be fine, but against Cats, Vagabond and Keepers in Iron there may only ever be 3 crafting pieces on the board in the whole game.\nWhereas the amount of cardboard is consistent across most matchups, in my afformentioned example, cats and badgers put down plenty of cardboard, it's just only a small percentage are crafting pieces.\n\nBasically crafting pieces are ridiculously variable whereas cardboard (while still being variable) is far less so"
+        },
+        {
+          "username": "MiceandMysticslover",
+          "date": "2026-03-24T15:58:18-05:00",
+          "body": "Basically crafting pieces are ridiculously variable whereas cardboard (while still being variable) is far less so\n\nThanks for the clarification. I still would have liked the mechanic to show up somewhere. Maybe they choose which to use each turn? Or they use both?"
+        },
+        {
+          "username": "shadowhawk720",
+          "date": "2026-03-26T14:29:50-05:00",
+          "body": "Would be nice if they considered such nice crafting changes for the lizards 🤐😅"
+        },
+        {
+          "username": "Laterbot",
+          "date": "2026-03-27T06:24:34-05:00",
+          "body": "The lizards actually do have a small crafting buff in Homeland, specifically in relation to Lost City, the new Landmarks and Lilypad Diaspora clearings"
+        },
+        {
+          "username": "MiceandMysticslover",
+          "date": "2026-03-31T16:16:34-05:00",
+          "body": "Would be nice if they considered such nice crafting changes for the lizards 🤐😅\n\nThe lizards actually do have a small crafting buff in Homeland, specifically in relation to Lost City, the new Landmarks and Lilypad Diaspora clearings \n\nHow so? The Lilypad Diaspora seems like a nerf, not a buff."
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 13,
+      "date_range": [
+        "2026-03-22",
+        "2026-03-31"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3683252",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3683252",
+      "thread_subject": "Resolved: intepreting Sunny Advocates hireling from the new Homeland Hirelings Pack",
+      "embed_text": "How does the Sunny Advocates hireling from the Homeland Hirelings Pack work, specifically the part about placing a warrior in a clearing without Advocates?",
+      "content": "The community resolved that the hireling's ability means to place an Advocate warrior in any one clearing that has the player's faction pieces but does not already have an Advocate warrior.",
+      "raw_thread": [
+        {
+          "username": "Cheddarific",
+          "date": "2026-03-25T19:00:06-05:00",
+          "body": "Choose a clearing suit.  In eachmatching clearing with any Advocate warriors, replace 1 enemy warrior with a warrior of your faction.\nThen, place 1 Advocate warrior in a clearing without them at your faction pieces.  If you cannot, place 1 Advocate warrior in any clearing.\n\nThe sentence I struggle with is in italics.  I can't seem to understand what it means.  Typo?  I'm going crazy?  Really I just want to know what it means.  Anyone?"
+        },
+        {
+          "username": "barbarossa4",
+          "date": "2026-03-25T19:02:52-05:00",
+          "body": "If any clearing has bits in your colour, and doesn't have an Advocate there\nAdd an Advocate warrior"
+        },
+        {
+          "username": "Cheddarific",
+          "date": "2026-03-25T20:48:22-05:00",
+          "body": "Ah yes thank you.  With the wisdom of your interpretation, I would tweak your words slightly:\nIn any one clearing which has bits in your colour, and doesn't have an Advocate there\nAdd an Advocate warrior\n\nDoes this feel right to you?"
+        },
+        {
+          "username": "barbarossa4",
+          "date": "2026-03-25T21:21:09-05:00",
+          "body": "Ah, yes, sorry"
+        },
+        {
+          "username": "Cheddarific",
+          "date": "2026-03-25T21:30:43-05:00",
+          "body": "Thanks so much!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "high",
+      "post_count": 5,
+      "date_range": [
+        "2026-03-25",
+        "2026-03-25"
+      ],
+      "retrieval_priority": 2
+    },
+    {
+      "chunk_id": "root_237182_forum_3683304",
+      "source_type": "forum",
+      "game_name": "root",
+      "game_id": 237182,
+      "thread_id": "3683304",
+      "thread_subject": "Prosperous Farmers Hireling - Who takes the Actions?",
+      "embed_text": "In the Prosperous Farmers hireling, who takes the actions described, such as battling at a farm or placing warriors at each farm? Does the player or the hireling perform these actions?",
+      "content": "The community resolved that hirelings are self-referential unless they use the word 'Controller', implying that the Prosperous Farmers hireling takes the actions described. This interpretation is based on comparisons with other hirelings, such as Vault Keepers and Corvid Spies, which have similar wording.",
+      "raw_thread": [
+        {
+          "username": "Samalander",
+          "date": "2026-03-25T21:46:48-05:00",
+          "body": "Prosperous Farmers says (among other things):\n2nd  Battle at a farm, or place 1 warrior at each farm.\n\nBoth of these options are confusing, as they are far less clear than other hirelings. \nA) Is the battling force you or the Hireling? \nB) Are the warriors placed yours or the Hireling's?\n\nIf both are \"Hireling\", this makes sense, as the warriors are meaningful, but the wording appears to be warped. Warriors should be called \"Farmer warriors\", yes? And shouldn't it say \"Prosperous Farmers battle at a farm...\"? (see Riverfolk Flotilla: \"Then, the Flotilla may battle.\")\nAnd if both are \"you\", then the single Farmer warrior at each farm is relatively useless, and there are a ton of unused warriors, which doesn't seem great.\nA mixture of the two is also confusing.\n\nBasically, huh?"
+        },
+        {
+          "username": "OmegasSquared",
+          "date": "2026-03-25T21:55:25-05:00",
+          "body": "Hirelings are always self-referential unless they use the word \"Controller\" either within the effect or prefacing the effect.\n\nYou can see other examples of Hireling actions that do not explicitly state the Hireling name on the Vault Keepers (\"place a warrior\", \"you may battle\"), Corvid Spies (\"battle in each clearing\"), Sunward Expedition (\"you may move, and then you may battle\", \"place a warrior\"), Forest Patrol (\"you may move, and then you may battle\"), etc"
+        },
+        {
+          "username": "Samalander",
+          "date": "2026-03-25T22:01:41-05:00",
+          "body": "Thank you so much!"
+        }
+      ],
+      "resolution_status": "resolved",
+      "has_publisher_post": false,
+      "confidence": "medium",
+      "post_count": 3,
+      "date_range": [
+        "2026-03-25",
+        "2026-03-25"
+      ],
+      "retrieval_priority": 2
+    }
+  ]
 }
