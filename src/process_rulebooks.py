@@ -26,9 +26,9 @@ from bgg_config import GAMES
 # Configuration
 # ---------------------------------------------------------------------------
 
-MIN_CHUNK_WORDS = 100
-MAX_CHUNK_WORDS = 500
-OVERLAP_WORDS = 50
+MIN_CHUNK_WORDS = 50     # was 100 — allow small self-contained sections
+MAX_CHUNK_WORDS = 400    # was 500 — tighter chunks reduce noise for the generator
+OVERLAP_WORDS = 0        # was 50  — no longer needed with semantic splitting
 
 # Matches section titles that indicate the reference/almanac tier.
 # [B-G]\.\s catches Root's appendix sections (B. Components, C. Variant Maps, etc.)
@@ -69,11 +69,12 @@ def parse_sections(text: str) -> list:
 
     Returns a list of dicts:
       {
-          "section_title": str,
-          "source_tier":   str,   # "core_rules" or "reference"
-          "body":          str,
-          "page_start":    int,
-          "page_end":      int,
+          "section_title":     str,
+          "source_tier":       str,   # "core_rules" or "reference"
+          "body":              str,
+          "page_start":        int,
+          "page_end":          int,
+          "has_explicit_title": bool,  # True if started by {Title}, False if numbered header
       }
     """
     lines = text.splitlines()
@@ -84,6 +85,7 @@ def parse_sections(text: str) -> list:
     current_page = 1
     page_start = 1
     current_tier = 'core_rules'
+    current_has_explicit_title = False  # default intro section is not a {Title}
     first_heading_seen = False
 
     def _flush(end_page):
@@ -97,16 +99,19 @@ def parse_sections(text: str) -> list:
             'body': body,
             'page_start': page_start,
             'page_end': end_page,
+            'has_explicit_title': current_has_explicit_title,
         })
 
-    def _new_section(title, start_page):
-        nonlocal current_title, current_body, page_start, current_tier, first_heading_seen
+    def _new_section(title, start_page, has_explicit_title):
+        nonlocal current_title, current_body, page_start, current_tier
+        nonlocal current_has_explicit_title, first_heading_seen
         first_heading_seen = True
         if classify_tier(title) == 'reference':
             current_tier = 'reference'
         current_title = title
         current_body = []
         page_start = start_page
+        current_has_explicit_title = has_explicit_title
 
     for line in lines:
         stripped = line.strip()
@@ -121,7 +126,7 @@ def parse_sections(text: str) -> list:
         title_match = re.match(r'^\{(.+)\}$', stripped)
         if title_match:
             _flush(current_page)
-            _new_section(title_match.group(1), current_page)
+            _new_section(title_match.group(1), current_page, has_explicit_title=True)
             continue
 
         # Numbered header: e.g. "1.1 Rules Conflicts"
@@ -132,7 +137,7 @@ def parse_sections(text: str) -> list:
             rest = num_match.group(2)
             if not re.search(r'\.\s+[A-Z]', rest):
                 _flush(current_page)
-                _new_section(stripped, current_page)
+                _new_section(stripped, current_page, has_explicit_title=False)
                 continue
 
         # Blank line or content line — append to current section body
@@ -150,9 +155,12 @@ def parse_sections(text: str) -> list:
 
 def _merge_small_sections(sections):
     """
-    Forward-merge sections shorter than MIN_CHUNK_WORDS into the next section.
-    If the merged result is still small it becomes the new pending. At EOF any
-    remaining pending is merged backward into the last emitted section.
+    Forward-merge sections that are BOTH:
+      - shorter than MIN_CHUNK_WORDS, AND
+      - lack an explicit {Title} heading (has_explicit_title == False)
+
+    Sections with explicit titles are never merged — they represent
+    distinct rulebook topics that should remain separate chunks.
     """
     if not sections:
         return []
@@ -162,11 +170,14 @@ def _merge_small_sections(sections):
 
     for section in sections:
         if pending is None:
-            if _word_count(section['body']) < MIN_CHUNK_WORDS:
+            # Only merge candidates without explicit titles
+            if (_word_count(section['body']) < MIN_CHUNK_WORDS
+                    and not section.get('has_explicit_title', False)):
                 pending = dict(section)
             else:
                 result.append(dict(section))
         else:
+            # Merge pending into this section
             merged_body = (
                 (pending['body'] + '\n\n' + section['body']).strip()
                 if pending['body'] and section['body']
@@ -178,13 +189,16 @@ def _merge_small_sections(sections):
                 'body': merged_body,
                 'page_start': min(pending['page_start'], section['page_start']),
                 'page_end': max(pending['page_end'], section['page_end']),
+                'has_explicit_title': section.get('has_explicit_title', False),
             }
             pending = None
-            if _word_count(merged['body']) < MIN_CHUNK_WORDS:
+            if (_word_count(merged['body']) < MIN_CHUNK_WORDS
+                    and not merged.get('has_explicit_title', False)):
                 pending = merged
             else:
                 result.append(merged)
 
+    # Handle leftover pending
     if pending is not None:
         if result:
             prev = result[-1]
@@ -195,6 +209,7 @@ def _merge_small_sections(sections):
                 'body': merged_body,
                 'page_start': min(prev['page_start'], pending['page_start']),
                 'page_end': max(prev['page_end'], pending['page_end']),
+                'has_explicit_title': prev.get('has_explicit_title', False),
             }
         else:
             result.append(pending)
@@ -222,73 +237,131 @@ def _split_para_by_sentences(para):
     return pieces if pieces else [para]
 
 
-def _split_large_section(section):
+# Regex patterns for sub-topic detection in _split_section_semantically
+_CALLOUT_RE = re.compile(
+    r'^(?:Important|Note|Hint|Tip|Special Case|Reminder|Example)\s*:', re.IGNORECASE
+)
+_NUMBERED_ITEM_RE = re.compile(
+    r'^(?:\(\d+\)|\d+\.|[a-d]\)|Step\s+\d+)', re.IGNORECASE
+)
+_CONCEPT_INTRO_RE = re.compile(
+    r'^[A-Z][A-Za-z\s]+(?:\([^)]*\))?\s*[:.]'  # e.g. "Generic Harbor (3:1):" or "Road Building."
+)
+
+
+def _split_section_semantically(section):
     """
-    Split a section exceeding MAX_CHUNK_WORDS on paragraph boundaries,
-    with OVERLAP_WORDS overlap between consecutive sub-chunks.
-    Each sub-chunk inherits the parent's page_start and page_end.
+    Split a large section at sub-topic boundaries.
+
+    Strategy:
+      1. Attach callouts (Important:/Note:/etc.) to the preceding paragraph.
+      2. Identify sub-topic boundaries (numbered items, concept introductions).
+      3. Pack sub-topics into chunks up to MAX_CHUNK_WORDS.
+      4. Fall back to sentence-level splitting for oversized sub-topics.
+      5. No overlap — semantic boundaries make it unnecessary.
+
+    Returns a list of section-like dicts.
     """
     raw_paragraphs = [p.strip() for p in re.split(r'\n\s*\n', section['body']) if p.strip()]
     if not raw_paragraphs:
         return [section]
 
-    paragraphs = []
-    for p in raw_paragraphs:
-        if _word_count(p) > MAX_CHUNK_WORDS:
-            paragraphs.extend(_split_para_by_sentences(p))
+    # Step 1: Attach callouts to preceding paragraph
+    merged_paras = []
+    for para in raw_paragraphs:
+        if merged_paras and _CALLOUT_RE.match(para):
+            merged_paras[-1] = merged_paras[-1] + '\n\n' + para
         else:
-            paragraphs.append(p)
+            merged_paras.append(para)
 
-    sub_chunks = []
+    # Step 2: Group into sub-topics at boundary paragraphs
+    sub_topics = []       # each is a list of paragraphs
+    current_group = []
+
+    for i, para in enumerate(merged_paras):
+        excerpt = para[:60] if len(para) > 60 else para
+        is_boundary = (
+            i > 0  # first paragraph is never a boundary
+            and (
+                _NUMBERED_ITEM_RE.match(para)
+                or _CONCEPT_INTRO_RE.match(excerpt)
+            )
+        )
+        if is_boundary and current_group:
+            sub_topics.append(current_group)
+            current_group = [para]
+        else:
+            current_group.append(para)
+
+    if current_group:
+        sub_topics.append(current_group)
+
+    # Step 3: Pack sub-topics into chunks up to MAX_CHUNK_WORDS
+    chunks = []
     current_paras = []
     current_wc = 0
-    overlap_prefix = ''
     part_num = 1
 
-    def _flush():
-        nonlocal overlap_prefix, part_num
+    def _flush_chunk():
+        nonlocal part_num
         body = '\n\n'.join(current_paras)
-        if overlap_prefix:
-            body = overlap_prefix + '\n\n' + body
-        sub_chunks.append({
-            'section_title': f"{section['section_title']} (Part {part_num})",
+        title = (
+            f"{section['section_title']} (Part {part_num})"
+            if part_num > 1 or len(sub_topics) > 1
+            else section['section_title']
+        )
+        chunks.append({
+            'section_title': title,
             'source_tier': section['source_tier'],
             'body': body.strip(),
             'page_start': section['page_start'],
             'page_end': section['page_end'],
+            'has_explicit_title': section.get('has_explicit_title', False),
         })
-        all_words = '\n\n'.join(current_paras).split()
-        overlap_prefix = ' '.join(all_words[-OVERLAP_WORDS:])
         part_num += 1
 
-    for para in paragraphs:
-        para_wc = _word_count(para)
-        if current_paras and current_wc + para_wc > MAX_CHUNK_WORDS:
-            _flush()
-            current_paras = [para]
-            current_wc = para_wc
-        else:
-            current_paras.append(para)
-            current_wc += para_wc
+    for sub_topic in sub_topics:
+        sub_text = '\n\n'.join(sub_topic)
+        sub_wc = _word_count(sub_text)
+
+        # If this single sub-topic is too large, split it by sentences
+        if sub_wc > MAX_CHUNK_WORDS:
+            if current_paras:
+                _flush_chunk()
+                current_paras = []
+                current_wc = 0
+            for piece in _split_para_by_sentences(sub_text):
+                current_paras = [piece]
+                current_wc = _word_count(piece)
+                _flush_chunk()
+                current_paras = []
+                current_wc = 0
+            continue
+
+        # Would adding this sub-topic exceed the limit?
+        if current_paras and current_wc + sub_wc > MAX_CHUNK_WORDS:
+            _flush_chunk()
+            current_paras = []
+            current_wc = 0
+
+        current_paras.extend(sub_topic)
+        current_wc += sub_wc
 
     if current_paras:
-        if part_num == 1:
-            # Everything fit in one chunk — return the original section unchanged
-            return [section]
-        _flush()
+        _flush_chunk()
 
-    # If only one part was produced, strip the "(Part N)" suffix
-    if len(sub_chunks) == 1:
-        sub_chunks[0]['section_title'] = section['section_title']
+    # If everything fit in one chunk, restore the original title (no Part suffix)
+    if len(chunks) == 1:
+        chunks[0]['section_title'] = section['section_title']
 
-    return sub_chunks if sub_chunks else [section]
+    return chunks if chunks else [section]
 
 
 def build_chunks(sections, game_name):
     """
     Apply size rules to sections and return final chunk dicts.
-      1. Merge small sections forward
-      2. Split large sections on paragraph boundaries
+      1. Merge small sections forward (only non-{Title} sections below MIN_CHUNK_WORDS)
+      2. Split large sections at semantic sub-topic boundaries (_split_section_semantically)
       3. Assign metadata (includes page_start / page_end for citation support)
     """
     merged = _merge_small_sections(sections)
@@ -296,7 +369,7 @@ def build_chunks(sections, game_name):
     raw = []
     for section in merged:
         if _word_count(section['body']) > MAX_CHUNK_WORDS:
-            raw.extend(_split_large_section(section))
+            raw.extend(_split_section_semantically(section))
         else:
             raw.append(section)
 
