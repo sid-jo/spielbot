@@ -146,8 +146,7 @@ Viable Reach Sums
 | Lizard Cult | 2 |
 
 {6. Marquise de Cat}
-6.1 Overview
-The Marquise de Cat occupies the Woodland and wants to turn it into an industrial and military powerhouse. Each time the Marquise builds one of her buildings—a workshop, sawmill, or recruiter—she scores victory points. The more of the same building she has on the map, the more points she scores. However, to fuel ongoing construction, the Marquise must maintain and protect a strong, interconnected economy of wood.
+6.1 Overview. The Marquise de Cat occupies the Woodland and wants to turn it into an industrial and military powerhouse. Each time the Marquise builds one of her buildings—a workshop, sawmill, or recruiter—she scores victory points. The more of the same building she has on the map, the more points she scores. However, to fuel ongoing construction, the Marquise must maintain and protect a strong, interconnected economy of wood.
 6.2 Faction Rules and Abilities
 6.2.1 Crafting. The Marquise crafts during Daylight by activating workshops.
 6.2.2 The Keep. The Marquise can place pieces in the clearing with the keep token, and other players cannot. (Pieces may be moved into it. If the keep is removed, there is no way to place it on the map again.)
@@ -177,8 +176,7 @@ Draw one card, plus one card per uncovered draw bonus. Then, if you have more th
 
 
 {7. Eyrie Dynasties}
-7.1 Overview
-The Eyrie Dynasties wish to restore their once dignified kind to their former glory in the Woodland by retaking control of the forest clearings. During their Evening, the Eyrie score victory points based on the number of roosts on the map. The greater their presence in the Woodland, the greater their gains. However, the Eyrie are bound by their Decree, an ever-increasing set of mandated actions promised by their leader. Each turn, they must take all of the actions on their Decree, or else fall into turmoil.
+7.1 Overview. The Eyrie Dynasties wish to restore their once dignified kind to their former glory in the Woodland by retaking control of the forest clearings. During their Evening, the Eyrie score victory points based on the number of roosts on the map. The greater their presence in the Woodland, the greater their gains. However, the Eyrie are bound by their Decree, an ever-increasing set of mandated actions promised by their leader. Each turn, they must take all of the actions on their Decree, or else fall into turmoil.
 7.2 Faction Rules and Abilities
 7.2.1 Crafting. The Eyrie craft before resolving the Decree during Daylight by activating roosts.
 7.2.2 Lords of the Forest. The Eyrie rule a clearing when tied for most combined warriors and buildings there, and they have at least one Eyrie piece there.
@@ -224,8 +222,7 @@ The Eyrie have four leader cards, as follows.
 7.8.4 Despot. Loyal Viziers begin on Move and Build. Whenever you remove at least one enemy building or token in battle, you score one extra victory point (two in total, 3.2.1).
 
 {8. Woodland Alliance}
-8.1 Overview
-The Woodland Alliance works to gain the sympathy of the various creatures of the Woodland who are dissatisfied with their present condition. Each time the Alliance places a sympathy token, they may score victory points. The more sympathy on the map they have, the more victory points they score. Gaining the sympathy of the people requires supporters. These supporters can also be put toward violent ends, inciting outright rebellion across the forest. When a revolt erupts, the Alliance will establish a base. Bases allow the Alliance to train officers, increasing their military flexibility.
+8.1 Overview. The Woodland Alliance works to gain the sympathy of the various creatures of the Woodland who are dissatisfied with their present condition. Each time the Alliance places a sympathy token, they may score victory points. The more sympathy on the map they have, the more victory points they score. Gaining the sympathy of the people requires supporters. These supporters can also be put toward violent ends, inciting outright rebellion across the forest. When a revolt erupts, the Alliance will establish a base. Bases allow the Alliance to train officers, increasing their military flexibility.
 8.2 Faction Rules and Abilities
 8.2.1 Crafting. The Alliance crafts during Daylight by activating sympathy tokens.
 8.2.2 Guerrilla War. As defender in battle, the Alliance will deal hits equal to the higher roll, and the attacker will deal hits equal to the lower roll.
@@ -270,8 +267,7 @@ Your Evening has two steps in the following order.
 8.6.2 Draw and Discard. Draw one card, plus one card per uncovered draw bonus. Then, if you have more than five cards in your hand, discard cards of your choice until you have five.
 
 {9. Vagabond}
-9.1 Overview
-The Vagabond plays all sides of the conflict while going on quests to increase his renown throughout the wood. Each time the Vagabond improves his relationship with another faction, or removes a warrior belonging to a faction hostile toward him, he scores victory points. He can also complete quests to score victory points. To move and act effectively the Vagabond must manage his pack of items, expanding his selection by exploring the forest ruins and providing aid to other factions.
+9.1 Overview. The Vagabond plays all sides of the conflict while going on quests to increase his renown throughout the wood. Each time the Vagabond improves his relationship with another faction, or removes a warrior belonging to a faction hostile toward him, he scores victory points. He can also complete quests to score victory points. To move and act effectively the Vagabond must manage his pack of items, expanding his selection by exploring the forest ruins and providing aid to other factions.
 9.2 Faction Rules and Abilities
 9.2.1 Crafting. The Vagabond exhausts Hammers to craft. All of his Hammers match the suit of his current clearing. If the Vagabond crafts an item, he may immediately take it, face up.
 9.2.2 Lone Wanderer. The Vagabond pawn is not a warrior (so he cannot rule a clearing or stop another player from ruling one). The Vagabond pawn cannot be removed from the map.
@@ -341,8 +337,7 @@ If you have The Riverfolk Expansion, you can play a game with two Vagabonds by f
 The next two sections refer to factions in The Riverfolk Expansion.
 
 {10. Lizard Cult}
-10.1 Overview
-Catering to the discarded creatures of the Woodland, the Lizard Cult seeks to overwhelm its foes through sheer force of will. Wherever the Cult rules clearings, it can build gardens, using word of mouth and beak to spread its gospel to the animals living there. The firmer its hold over the hearts of its followers, the more victory points the Cult can score by completing the proper rituals. While other factions spend cards to achieve their aims, the Cult acts chiefly by revealing cards and gradually gathering a set of ideal followers. These revealed cards are returned to the Cult’s hand in Evening, unless discarded to score victory points. However, this gentler approach makes movement and battle difficult—the Cult can only take these actions with its radicalized acolytes, gained as the Cult’s warriors are slaughtered while defending in battle.
+10.1 Overview. Catering to the discarded creatures of the Woodland, the Lizard Cult seeks to overwhelm its foes through sheer force of will. Wherever the Cult rules clearings, it can build gardens, using word of mouth and beak to spread its gospel to the animals living there. The firmer its hold over the hearts of its followers, the more victory points the Cult can score by completing the proper rituals. While other factions spend cards to achieve their aims, the Cult acts chiefly by revealing cards and gradually gathering a set of ideal followers. These revealed cards are returned to the Cult’s hand in Evening, unless discarded to score victory points. However, this gentler approach makes movement and battle difficult—the Cult can only take these actions with its radicalized acolytes, gained as the Cult’s warriors are slaughtered while defending in battle.
 10.2 Faction Rules and Abilities
 10.2.1 Crafting. The Cult crafts during Evening by activating gardens whose printed suit matches the Outcast suit (10.4.1). (Generally this matches the clearing, except with the Lost City landmark.)
 10.2.2 Hatred of Birds. Bird cards are not wild for Cult rituals.
@@ -379,8 +374,7 @@ Your Evening has three steps in the following order.
 10.6.3 Draw and Discard. Draw one card, plus one card per uncovered draw bonus. Then, if you have more than five cards in your hand, discard cards of your choice until you have five.
 
 {11. Riverfolk Company}
-11.1 Overview
-When news arrived that the Woodland on the shore of the great lake was descending into all-out war, the Riverfolk Company quickly dispatched its officers to set up shop. As other factions purchase their services, the Riverfolk can further entrench their commercial interests by establishing trade posts along the river, scoring victory points. So too can they score points by raw accumulation of funds, but a big treasury makes for an easy target, so the Riverfolk must take care in expanding their operations across the dangerous forest.
+11.1 Overview. When news arrived that the Woodland on the shore of the great lake was descending into all-out war, the Riverfolk Company quickly dispatched its officers to set up shop. As other factions purchase their services, the Riverfolk can further entrench their commercial interests by establishing trade posts along the river, scoring victory points. So too can they score points by raw accumulation of funds, but a big treasury makes for an easy target, so the Riverfolk must take care in expanding their operations across the dangerous forest.
 11.2 Faction Rules and Abilities
 11.2.1 Crafting. The Riverfolk craft during Daylight by committing funds to empty spaces on the Trade Posts tracks. (They have no crafting pieces.)
 11.2.2 Swimmers. The Riverfolk treat rivers as paths and may move along rivers regardless of who rules their origin or destination clearing. (They can still move using paths.)
@@ -433,8 +427,7 @@ Your Evening has two steps in the following order.
 The next two sections refer to factions in The Underworld Expansion.
 
 {12. Underground Duchy}
-12.1 Overview
-The Underground Duchy wants to show the foreign creatures of the Woodland that they would be better off as subjects. As they set up frontier outposts to show their power in the Woodland, the Duchy can sway ministers to the cause, scoring victory points and diverting more of the Duchy’s resources. But be careful—a reversal of fortune could spell public humiliation, leading ministers to abandon the task.
+12.1 Overview. The Underground Duchy wants to show the foreign creatures of the Woodland that they would be better off as subjects. As they set up frontier outposts to show their power in the Woodland, the Duchy can sway ministers to the cause, scoring victory points and diverting more of the Duchy’s resources. But be careful—a reversal of fortune could spell public humiliation, leading ministers to abandon the task.
 12.2 Faction Rules and Abilities
 12.2.1 Crafting. The Duchy crafts during Evening by activating citadels and markets.
 12.2.2 The Burrow. The Burrow is an unsuited clearing adjacent to each clearing with a tunnel token. Non-Duchy pieces cannot be placed in or moved into the Burrow. The Duchy always rules the Burrow (even with no pieces there).
@@ -484,8 +477,7 @@ Your Evening has three steps in the following order.
 [PAGE 14]
 
 {13. Corvid Conspiracy}
-13.1 Overview
-The Corvid Conspiracy seeks to strong-arm the Woodland into submission by completing criminal plots, scoring victory points each time they flip one. The more revealed plots on the map, the more they score. Misdirection is critical—if their plans are too obvious, the Corvids risk exposure. To avoid this, they must recruit carefully and look for any opportunities for subterfuge and extortion.
+13.1 Overview. The Corvid Conspiracy seeks to strong-arm the Woodland into submission by completing criminal plots, scoring victory points each time they flip one. The more revealed plots on the map, the more they score. Misdirection is critical—if their plans are too obvious, the Corvids risk exposure. To avoid this, they must recruit carefully and look for any opportunities for subterfuge and extortion.
 13.2 Faction Rules and Abilities
 13.2.1 Crafting. The Corvids craft during Birdsong by activating plot tokens (whether face up or down).
 13.2.2 Plot Tokens. The Corvids have eight plot tokens, two of each type.
@@ -521,8 +513,7 @@ Your Evening has two steps in the following order.
 The next two sections refer to factions in The Marauder Expansion
 
 {14. Lord of the Hundreds}
-14.1 Overview
-The Lord of the Hundreds suffers no fools and allows no dissent. During their Evening, they score points based on how well they oppress their foes. The more clearings they rule that have a Hundreds piece and no enemy pieces—no warriors, no buildings, nothing—the more points they score. To grow in power and attract warriors, the Hundreds must gain items and add them to their towering Hoard. Leading the Hundreds is the warlord, a warrior-demagogue whose fickle mood gives them an ability for the turn. Their warlord is obsessed with hoarding, so as the Hundreds gain more items, they will have fewer moods to choose from. Declaring themselves as the true voice of the Woodland, the Hundreds can incite mobs, which destroy enemy buildings and tokens, and raid ruins for items.
+14.1 Overview. The Lord of the Hundreds suffers no fools and allows no dissent. During their Evening, they score points based on how well they oppress their foes. The more clearings they rule that have a Hundreds piece and no enemy pieces—no warriors, no buildings, nothing—the more points they score. To grow in power and attract warriors, the Hundreds must gain items and add them to their towering Hoard. Leading the Hundreds is the warlord, a warrior-demagogue whose fickle mood gives them an ability for the turn. Their warlord is obsessed with hoarding, so as the Hundreds gain more items, they will have fewer moods to choose from. Declaring themselves as the true voice of the Woodland, the Hundreds can incite mobs, which destroy enemy buildings and tokens, and raid ruins for items.
 
 [PAGE 15]
 
@@ -573,8 +564,7 @@ Your Evening has three steps in the following order.
 14.7.8 Wrathful (Sword). As attacker in battle in your warlord’s clearing, you deal an extra hit.
 
 {15. Keepers in Iron}
-15.1 Overview
-The Keepers in Iron are an order of devout knights, once exiled from the Woodland, who have returned to recover relics lost in past conflicts. Whether these relics belong to the Keepers or the Woodland, though, is another question. To accomplish their mission, they will need to delve relics out of the forests, move them to a waystation of the same type, and then recover them. When they recover a relic, they score points equal to the relic’s value of one to three, and they also score two points each time they complete a set of the three relic types—figures, tablets, and jewelry. Over time, the Keepers will gather a Retinue of Woodland creatures, letting them take more actions. However, each time they delve a relic or recover one, they might lose the Retinue card they used to act, so they will need to plan ahead and take prudent risks in order to succeed.
+15.1 Overview. The Keepers in Iron are an order of devout knights, once exiled from the Woodland, who have returned to recover relics lost in past conflicts. Whether these relics belong to the Keepers or the Woodland, though, is another question. To accomplish their mission, they will need to delve relics out of the forests, move them to a waystation of the same type, and then recover them. When they recover a relic, they score points equal to the relic’s value of one to three, and they also score two points each time they complete a set of the three relic types—figures, tablets, and jewelry. Over time, the Keepers will gather a Retinue of Woodland creatures, letting them take more actions. However, each time they delve a relic or recover one, they might lose the Retinue card they used to act, so they will need to plan ahead and take prudent risks in order to succeed.
 15.2 Faction Rules and Abilities
 15.2.1 Relics. You seek out twelve relic tokens of three types—figures, tablets, and jewelry. Each relic type has four tokens in total. The relic front shows only its type, and the relic back shows a value of 1, 2, 3, or 3.
 15.2.2 Waystations. You have three waystations. Each waystation shows one relic type on its front and another relic type on its back.
@@ -782,7 +772,7 @@ F.1 General Rules
 F.1.1 Safety. Landmarks cannot be battled, moved, or removed, unless noted explicitly by a landmark.
 F.1.2 Ownership. Landmarks are not owned by any faction and are not enemy pieces.
 
-G. Glossary
+{G. Glossary}
 G.1.1 Ability. A persistent effect of a faction as listed at the top of its faction board and in its Faction Rules and Abilities section, or a persistent effect of a hireling as listed on its hireling card (E.2.1).
 G.1.2 Adjacent. A clearing is adjacent to all other clearings linked to it by a path. A forest is adjacent to all clearings that touch it without crossing a path, and it is adjacent to all forests that are separated by only one path, except on the lake (C.2.4).
 G.1.3 Building. A square cardboard piece owned by its faction.
@@ -824,7 +814,7 @@ G.1.34 Warrior. A wooden figure owned by its faction. (The Vagabond pawn is not 
 [NO PAGE]
 
 {16. Lilypad Diaspora}
-16.1 Overview. The Lilypad Diaspora wishes to establish ENCLAVES as safe havens in the Woodland, and they score points by spending cards matching enclaves on their peaceful side. These enclaves introduce the Diaspora culture to the Woodland, adding the new FROG SUIT to their clearing. They also add frog cards to the deck and a new discard pile for frog cards called the POND. However, their Peaceful enclaves cannot protect them. To gain warriors, they need enclaves on their militant side. But these enclaves cover their clearing's suit as the Diaspora expels threats real or imagined, making them lose essential Woodland support. They also prompt the Diaspora to retaliate, making them battle at them every turn. To prevent this, they can reconcile to flip Militant enclaves to Peaceful, and their enemies can do the same through negotiations. However, their enemies may battle the Diaspora to flip Peaceful enclaves to Militant, as their people's fears come to pass.
+16.1 Overview. The Lilypad Diaspora wishes to establish enclaves as safe havens in the Woodland, and they score points by spending cards matching enclaves on their peaceful side. These enclaves introduce the Diaspora culture to the Woodland, adding the new FROG SUIT to their clearing. They also add frog cards to the deck and a new discard pile for frog cards called the POND. However, their Peaceful enclaves cannot protect them. To gain warriors, they need enclaves on their militant side. But these enclaves cover their clearing's suit as the Diaspora expels threats real or imagined, making them lose essential Woodland support. They also prompt the Diaspora to retaliate, making them battle at them every turn. To prevent this, they can reconcile to flip Militant enclaves to Peaceful, and their enemies can do the same through negotiations. However, their enemies may battle the Diaspora to flip Peaceful enclaves to Militant, as their people's fears come to pass.
 16.2 Faction Rules and Abilities
 16.2.1 Enclaves. The Diaspora has 12 enclave tokens, which are double-sided: one side is Peaceful and the other side is Militant.
 16.2.1.I Clearing Suit. While Peaceful, an enclave adds the frog suit to its clearing, making it dual-suited. While Militant, an enclave replaces its clearing suit with the frog suit.
@@ -896,7 +886,7 @@ Your Evening has five steps in the following order.
 17.6.5 Draw and Discard. Draw one card. Then, if you have more than five cards in your hand, discard cards of your choice until you have five.
 
 {18. Knaves of the Deepwood}
-18.1 Overview The Knaves of the Deepwood endeavor to mock the powerful and protect the needy. Each turn, they score victory points from their ACCLAIM throughout the Woodland and from warriors they take as PRISONERS by battling the enemy factions. Each turn, they act with one of their three CAPTAINS, backed up by a crew of rowdy SKUNKS that can move along with them. However, once a Captain has acted, it cannot act again until after the Knaves act with all three Captains, letting them TAKE IT EASY. They have a STASH of items that they can flip face down to take special actions at their Captain. Like their Captains, their items only flip face up again once they Take It Easy.
+18.1 Overview. The Knaves of the Deepwood endeavor to mock the powerful and protect the needy. Each turn, they score victory points from their ACCLAIM throughout the Woodland and from warriors they take as PRISONERS by battling the enemy factions. Each turn, they act with one of their three CAPTAINS, backed up by a crew of rowdy SKUNKS that can move along with them. However, once a Captain has acted, it cannot act again until after the Knaves act with all three Captains, letting them TAKE IT EASY. They have a STASH of items that they can flip face down to take special actions at their Captain. Like their Captains, their items only flip face up again once they Take It Easy.
 18.2.1 Exclusive with Vagabond. The Knaves of the Deepwood cannot be played in the same game as the Vagabond.
 18.2.2 Stash. Instead of a Crafted Items box, the Knaves have the STASH. It holds items, which can be face up or face down. When you craft or take an item, place it face up in your Stash.
 18.2.3 Acclaim. The Knaves have 8 acclaim tokens. Each clearing can hold one acclaim. (Forests cannot hold it.) Acclaim affects various actions (18.5.1) and scores victory points in Evening (18.6.1).
