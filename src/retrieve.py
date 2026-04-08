@@ -1,7 +1,7 @@
 """
-Hybrid retrieval: dense (Chroma) + sparse (BM25) via RRF, with rulebook/tier boosts.
+Hybrid retrieval: per-source dense + BM25 via RRF; rulebook and forum pools merged for context.
 
-See plans/retriever_plan.md for design. Used by the RAG orchestrator as Step 1.
+Rulebook and forum each use separate Chroma collections and BM25 indexes (plans/split_vectordb_plan.md).
 """
 
 import argparse
@@ -11,14 +11,13 @@ from pathlib import Path
 from bgg_config import GAMES
 from index import ChunkIndex, ChunkResult
 
-# RRF
+# RRF (per source pool)
 RRF_K = 60
 DENSE_TOP_K = 15
 SPARSE_TOP_K = 15
-DEFAULT_FINAL_K = 5
+POOL_K = 3  # max chunks per source type; up to 2 * POOL_K total
 
-PRIORITY_BOOST = 0.02
-TIER_BOOST = 0.005
+TIER_BOOST = 0.005  # within-pool tiebreaker for core_rules vs reference
 
 
 def reciprocal_rank_fusion(
@@ -47,8 +46,6 @@ def reciprocal_rank_fusion(
 
 def apply_boosts(results: list[ChunkResult]) -> list[ChunkResult]:
     for r in results:
-        if r.retrieval_priority == 1:
-            r.score += PRIORITY_BOOST
         if r.source_tier == "core_rules":
             r.score += TIER_BOOST
     results.sort(key=lambda r: r.score, reverse=True)
@@ -59,43 +56,65 @@ def retrieve(
     index: ChunkIndex,
     query: str,
     game_name: str,
-    top_k: int = DEFAULT_FINAL_K,
+    pool_k: int = POOL_K,
 ) -> list[ChunkResult]:
     if not query.strip():
         return []
 
-    dense_results = index.dense_search(query, game_name, top_k=DENSE_TOP_K)
-    sparse_results = index.bm25_search(query, game_name, top_k=SPARSE_TOP_K)
-    merged = reciprocal_rank_fusion(dense_results, sparse_results)
-    boosted = apply_boosts(merged)
-    return boosted[:top_k]
+    results: list[ChunkResult] = []
+
+    for source_type in ("rulebook", "forum"):
+        dense = index.dense_search(
+            query, game_name, source_type=source_type, top_k=DENSE_TOP_K
+        )
+        sparse = index.bm25_search(
+            query, game_name, source_type=source_type, top_k=SPARSE_TOP_K
+        )
+        merged = reciprocal_rank_fusion(dense, sparse)
+        boosted = apply_boosts(merged)
+        results.extend(boosted[:pool_k])
+
+    return results
+
+
+def _format_source_block(i: int, r: ChunkResult) -> str:
+    header_parts = [f"[Source {i}]"]
+    header_parts.append(f"Game: {r.game_name}")
+    header_parts.append(f"Type: {r.source_type}")
+
+    if r.source_type == "rulebook":
+        if r.section_title:
+            header_parts.append(f"Section: {r.section_title}")
+        if r.page_start > 0:
+            if r.page_start == r.page_end:
+                header_parts.append(f"Page: {r.page_start}")
+            else:
+                header_parts.append(f"Pages: {r.page_start}-{r.page_end}")
+    elif r.source_type == "forum":
+        if r.thread_subject:
+            header_parts.append(f"Thread: {r.thread_subject}")
+        if r.resolution_status:
+            header_parts.append(f"Status: {r.resolution_status}")
+        if r.confidence:
+            header_parts.append(f"Confidence: {r.confidence}")
+
+    header = " | ".join(header_parts)
+    return f"{header}\n{r.content}"
 
 
 def format_context(results: list[ChunkResult]) -> str:
+    rulebook = [r for r in results if r.source_type == "rulebook"]
+    forum = [r for r in results if r.source_type == "forum"]
+
     blocks = []
-    for i, r in enumerate(results, 1):
-        header_parts = [f"[Source {i}]"]
-        header_parts.append(f"Game: {r.game_name}")
-        header_parts.append(f"Type: {r.source_type}")
-
-        if r.source_type == "rulebook":
-            if r.section_title:
-                header_parts.append(f"Section: {r.section_title}")
-            if r.page_start > 0:
-                if r.page_start == r.page_end:
-                    header_parts.append(f"Page: {r.page_start}")
-                else:
-                    header_parts.append(f"Pages: {r.page_start}-{r.page_end}")
-        elif r.source_type == "forum":
-            if r.thread_subject:
-                header_parts.append(f"Thread: {r.thread_subject}")
-            if r.resolution_status:
-                header_parts.append(f"Status: {r.resolution_status}")
-            if r.confidence:
-                header_parts.append(f"Confidence: {r.confidence}")
-
-        header = " | ".join(header_parts)
-        blocks.append(f"{header}\n{r.content}")
+    if rulebook:
+        blocks.append("=== OFFICIAL RULES ===")
+        for i, r in enumerate(rulebook, 1):
+            blocks.append(_format_source_block(i, r))
+    if forum:
+        blocks.append("=== COMMUNITY DISCUSSION ===")
+        for i, r in enumerate(forum, len(rulebook) + 1):
+            blocks.append(_format_source_block(i, r))
 
     return "\n\n---\n\n".join(blocks)
 
@@ -106,12 +125,11 @@ def _format_result_header(rank: int, r: ChunkResult) -> str:
         title = r.section_title or ""
         if r.page_start > 0:
             if r.page_start == r.page_end:
-                pp = f"pp.{r.page_start}-{r.page_start}"
+                page_ref = f"p.{r.page_start}"
             else:
-                pp = f"pp.{r.page_start}-{r.page_end}"
-            return f'[{rank}] ({st}) {r.chunk_id} — "{title}" {pp}'
+                page_ref = f"pp.{r.page_start}-{r.page_end}"
+            return f'[{rank}] ({st}) {r.chunk_id} — "{title}" {page_ref}'
         return f'[{rank}] ({st}) {r.chunk_id} — "{title}"'
-    # forum
     subj = r.thread_subject or ""
     meta_parts = [p for p in (r.resolution_status, r.confidence) if p]
     meta = f'  [{"/".join(meta_parts)}]' if meta_parts else ""
@@ -134,7 +152,7 @@ def _run_query(
     index: ChunkIndex,
     query: str,
     game_name: str,
-    top_k: int,
+    pool_k: int,
     dense_only: bool,
     bm25_only: bool,
     show_scores: bool,
@@ -144,16 +162,24 @@ def _run_query(
         print("Empty query — nothing to retrieve.")
         return
 
+    results: list[ChunkResult] = []
+
     if dense_only:
-        raw = index.dense_search(q, game_name, top_k=DENSE_TOP_K)
-        boosted = apply_boosts(raw)
-        results = boosted[:top_k]
+        for source_type in ("rulebook", "forum"):
+            raw = index.dense_search(
+                q, game_name, source_type=source_type, top_k=DENSE_TOP_K
+            )
+            boosted = apply_boosts(raw)
+            results.extend(boosted[:pool_k])
     elif bm25_only:
-        raw = index.bm25_search(q, game_name, top_k=SPARSE_TOP_K)
-        boosted = apply_boosts(raw)
-        results = boosted[:top_k]
+        for source_type in ("rulebook", "forum"):
+            raw = index.bm25_search(
+                q, game_name, source_type=source_type, top_k=SPARSE_TOP_K
+            )
+            boosted = apply_boosts(raw)
+            results.extend(boosted[:pool_k])
     else:
-        results = retrieve(index, q, game_name, top_k=top_k)
+        results = retrieve(index, q, game_name, pool_k=pool_k)
 
     _print_results(results, show_scores)
 
@@ -180,20 +206,20 @@ def main() -> None:
         help="Enter interactive query loop.",
     )
     parser.add_argument(
-        "--top-k",
+        "--pool-k",
         type=int,
-        default=DEFAULT_FINAL_K,
-        help=f"Number of results to return (default: {DEFAULT_FINAL_K}).",
+        default=POOL_K,
+        help=f"Max results per source pool, rulebook + forum (default: {POOL_K}).",
     )
     parser.add_argument(
         "--dense-only",
         action="store_true",
-        help="Use only dense retrieval (no BM25).",
+        help="Use only dense retrieval (no BM25), per pool.",
     )
     parser.add_argument(
         "--bm25-only",
         action="store_true",
-        help="Use only BM25 retrieval (no dense).",
+        help="Use only BM25 retrieval (no dense), per pool.",
     )
     parser.add_argument(
         "--show-scores",
@@ -232,7 +258,7 @@ def main() -> None:
                 idx,
                 raw,
                 args.game,
-                args.top_k,
+                args.pool_k,
                 args.dense_only,
                 args.bm25_only,
                 args.show_scores,
@@ -243,7 +269,7 @@ def main() -> None:
         idx,
         args.query or "",
         args.game,
-        args.top_k,
+        args.pool_k,
         args.dense_only,
         args.bm25_only,
         args.show_scores,

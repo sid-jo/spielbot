@@ -10,7 +10,8 @@ from rank_bm25 import BM25Okapi
 from bgg_config import GAMES
 
 EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
-COLLECTION_NAME = "spielbot_chunks"
+RULEBOOK_COLLECTION = "spielbot_rulebook"
+FORUM_COLLECTION = "spielbot_forum"
 
 # Default max chars returned per chunk — snapped to sentence boundary.
 # At 1000 chars, ~75% of chunks pass through untrimmed; the long tail is clipped.
@@ -81,34 +82,47 @@ class ChunkIndex:
         )
 
         try:
-            self._collection = self._chroma_client.get_collection(
-                name=COLLECTION_NAME,
+            self._rulebook_collection = self._chroma_client.get_collection(
+                name=RULEBOOK_COLLECTION,
                 embedding_function=embed_fn,
             )
-        except (ValueError, chromadb.errors.NotFoundError):
-            raise RuntimeError(
-                f"Collection '{COLLECTION_NAME}' not found. Run embed_chunks.py first."
+            self._forum_collection = self._chroma_client.get_collection(
+                name=FORUM_COLLECTION,
+                embedding_function=embed_fn,
             )
+        except (ValueError, chromadb.errors.NotFoundError) as e:
+            raise RuntimeError(
+                f"Chroma collections '{RULEBOOK_COLLECTION}' / '{FORUM_COLLECTION}' "
+                f"not found. Run embed_chunks.py first."
+            ) from e
 
-        print(f"Dense index: {self._collection.count()} chunks in ChromaDB")
+        print(
+            f"Dense index: {self._rulebook_collection.count()} rulebook, "
+            f"{self._forum_collection.count()} forum chunks"
+        )
 
         # ── Sparse index (BM25) ──────────────────────────────────────────
         chunks_dir = project_root / "data" / "chunks"
-        self._bm25_indexes: dict[str, BM25Okapi] = {}
-        self._bm25_chunks: dict[str, list[dict]] = {}
+        self._bm25_indexes: dict[str, dict[str, BM25Okapi]] = {}
+        self._bm25_chunks: dict[str, dict[str, list[dict]]] = {}
 
         for game_name in GAMES:
-            chunks: list[dict] = []
+            self._bm25_indexes[game_name] = {}
+            self._bm25_chunks[game_name] = {}
             for suffix in ("rulebook", "forum"):
                 path = chunks_dir / f"{game_name}_{suffix}_chunks.json"
-                if path.exists():
-                    data = json.loads(path.read_text(encoding="utf-8"))
-                    chunks.extend(data["chunks"])
-
-            tokenized_corpus = [tokenize(get_embed_text(c)) for c in chunks]
-            self._bm25_indexes[game_name] = BM25Okapi(tokenized_corpus)
-            self._bm25_chunks[game_name] = chunks
-            print(f"BM25 index: {game_name} — {len(chunks)} chunks")
+                if not path.exists():
+                    continue
+                data = json.loads(path.read_text(encoding="utf-8"))
+                source_chunks = data["chunks"]
+                if not source_chunks:
+                    continue
+                tokenized = [tokenize(get_embed_text(c)) for c in source_chunks]
+                self._bm25_indexes[game_name][suffix] = BM25Okapi(tokenized)
+                self._bm25_chunks[game_name][suffix] = source_chunks
+            rb = len(self._bm25_chunks[game_name].get("rulebook", []))
+            fm = len(self._bm25_chunks[game_name].get("forum", []))
+            print(f"BM25 index: {game_name} — {rb} rulebook, {fm} forum chunks")
 
     # ── Dense search ─────────────────────────────────────────────────────
 
@@ -116,10 +130,16 @@ class ChunkIndex:
         self,
         query: str,
         game_name: str,
+        source_type: str = "rulebook",
         top_k: int = 10,
         max_chars: int | None = MAX_CONTENT_CHARS,
     ) -> list[ChunkResult]:
-        results = self._collection.query(
+        collection = (
+            self._rulebook_collection
+            if source_type == "rulebook"
+            else self._forum_collection
+        )
+        results = collection.query(
             query_texts=[query],
             n_results=top_k,
             where={"game_name": game_name},
@@ -152,19 +172,21 @@ class ChunkIndex:
         self,
         query: str,
         game_name: str,
+        source_type: str = "rulebook",
         top_k: int = 10,
         max_chars: int | None = MAX_CONTENT_CHARS,
     ) -> list[ChunkResult]:
-        if game_name not in self._bm25_indexes:
+        idx_map = self._bm25_indexes.get(game_name, {})
+        if source_type not in idx_map:
             return []
 
         query_tokens = tokenize(query)
-        scores = self._bm25_indexes[game_name].get_scores(query_tokens)
+        scores = idx_map[source_type].get_scores(query_tokens)
         top_indices = sorted(
             range(len(scores)), key=lambda i: scores[i], reverse=True
         )[:top_k]
 
-        chunks = self._bm25_chunks[game_name]
+        chunks = self._bm25_chunks[game_name][source_type]
         chunk_results = []
         for idx in top_indices:
             if scores[idx] <= 0:
@@ -194,8 +216,9 @@ if __name__ == "__main__":
     idx = ChunkIndex(project_root)
 
     for q in ["roll a 7", "longest road", "Distance Rule"]:
-        dense = idx.dense_search(q, "catan", top_k=3)
-        sparse = idx.bm25_search(q, "catan", top_k=3)
         print(f"\nQuery: {q}")
-        print(f"  Dense:  {[r.chunk_id for r in dense]}")
-        print(f"  BM25:   {[r.chunk_id for r in sparse]}")
+        for st in ("rulebook", "forum"):
+            dense = idx.dense_search(q, "catan", source_type=st, top_k=3)
+            sparse = idx.bm25_search(q, "catan", source_type=st, top_k=3)
+            print(f"  [{st}] Dense:  {[r.chunk_id for r in dense]}")
+            print(f"  [{st}] BM25:   {[r.chunk_id for r in sparse]}")

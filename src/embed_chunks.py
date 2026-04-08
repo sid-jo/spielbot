@@ -9,6 +9,8 @@ from bgg_config import GAMES
 
 EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5" # 384 dim
 COLLECTION_PREFIX = "spielbot"
+RULEBOOK_COLLECTION = f"{COLLECTION_PREFIX}_rulebook"
+FORUM_COLLECTION = f"{COLLECTION_PREFIX}_forum"
 BATCH_SIZE = 64 # chunks per embedding batch
 
 
@@ -94,7 +96,7 @@ def main():
         description="Embed chunk JSONs into a ChromaDB vector store."
     )
     parser.add_argument('--game', type=str, default=None,
-                        help=f"Game to embed. Options: {', '.join(GAMES)}")
+                        help=f"Game to embed. Options: {', '.join(GAMES.keys())}")
     parser.add_argument('--dry-run', action='store_true',
                         help="Print chunk counts without embedding")
     parser.add_argument('--reset', action='store_true',
@@ -102,7 +104,9 @@ def main():
     args = parser.parse_args()
 
     if args.game and args.game not in GAMES:
-        parser.error(f"Unknown game '{args.game}'. Valid options: {', '.join(GAMES)}")
+        parser.error(
+            f"Unknown game '{args.game}'. Valid options: {', '.join(GAMES.keys())}"
+        )
 
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
@@ -129,22 +133,29 @@ def main():
         normalize_embeddings=True,
     )
 
-    collection_name = f"{COLLECTION_PREFIX}_chunks"
-    if args.reset:
-        try:
-            client.delete_collection(collection_name)
-            print(f"Deleted existing collection '{collection_name}'")
-        except (ValueError, chromadb.errors.NotFoundError):
-            pass
+    rulebook_chunks = [c for c in chunks if c["source_type"] == "rulebook"]
+    forum_chunks = [c for c in chunks if c["source_type"] == "forum"]
 
-    collection = client.get_or_create_collection(
-        name=collection_name,
-        embedding_function=embed_fn,
-        metadata={"hnsw:space": "cosine"},
-    )
+    for col_name, col_chunks in [
+        (RULEBOOK_COLLECTION, rulebook_chunks),
+        (FORUM_COLLECTION, forum_chunks),
+    ]:
+        if args.reset:
+            try:
+                client.delete_collection(col_name)
+                print(f"Deleted existing collection '{col_name}'")
+            except (ValueError, chromadb.errors.NotFoundError):
+                pass
 
-    count = embed_and_store(chunks, collection)
-    print(f"Embedded {count} chunks into collection '{collection_name}' at {vectorstore_dir}")
+        collection = client.get_or_create_collection(
+            name=col_name,
+            embedding_function=embed_fn,
+            metadata={"hnsw:space": "cosine"},
+        )
+        count = embed_and_store(col_chunks, collection)
+        print(f"Embedded {count} chunks into '{col_name}'")
+
+    print(f"Vector store path: {vectorstore_dir}")
 
 
 if __name__ == "__main__":
