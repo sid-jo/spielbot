@@ -1,0 +1,274 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "game": "catan",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "2",
+            "game": "catan",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "3",
+            "game": "catan",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "4",
+            "game": "catan",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "5",
+            "game": "catan",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "6",
+            "game": "catan",
+            "type": "reasoning",
+            "question": "Can I \"give away\" resources with the following trade scheme? Player A trades 2 sheep for 1 wheat with player B. Then, Player A trades 1 wheat for 1 sheep with player B.",
+            "reference": "That trade sequence is technically allowed, however the net effect is that Player A effectively gave away 1 sheep to Player B. As a table, you will have to decide if this violates the spirit of the game or is a valid loophole which is allowed to be exploited.",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "7",
+            "game": "catan",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "8",
+            "game": "catan",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "9",
+            "game": "catan",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "10",
+            "game": "catan",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["catan_rb_007", "catan_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "1",
+            "game": "root",
+            "type": "comprehension",
+            "question": "Can the Riverfolk Company use the Tunnels card to move between trade posts?",
+            "reference": "Trading posts do not count as crafting pieces (in fact, the Riverfolk don’t have crafting pieces) so travelling between them with Tunnels is not possible.",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "2",
+            "game": "root",
+            "type": "comprehension",
+            "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
+            "reference": "Mercenaries are only active during Daylight and Evening, not Birdsong, so buying them will not help when checking for a Dominance victory on the same turn.",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "3",
+            "game": "root",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "4",
+            "game": "root",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "5",
+            "game": "root",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "6",
+            "game": "root",
+            "type": "reasoning",
+            "question": "How does alliance revolt interact with the Lost City landmark?",
+            "reference": "Since the Lost City clearing counts for all suits at once, the Woodland Alliance revolt can be triggered there using supporters of any suit combination to remove all enemy pieces and build a base of any suit (if there is an available building space).",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "7",
+            "game": "root",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "8",
+            "game": "root",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "9",
+            "game": "root",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "10",
+            "game": "root",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["root_rb_007", "root_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "1",
+            "game": "splendor",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "2",
+            "game": "splendor",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "3",
+            "game": "splendor",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "4",
+            "game": "splendor",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "5",
+            "game": "splendor",
+            "type": "comprehension",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "6",
+            "game": "splendor",
+            "type": "reasoning",
+            "question": "If I cannot take 3 different colored gem tokens because there are only 2 colors left, each with less than 4 in stock, am I allowed to take just 2?",
+            "reference": "Yes, you are allowed to take up to 3 different colored gem tokens if this is the case.",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "7",
+            "game": "splendor",
+            "type": "reasoning",
+            "question": "Can I spend 4 gold tokens to buy a card that costs 4 gems?",
+            "reference": "Yes, there is no limit to how many gold tokens you can spend when purchasing a card.",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "8",
+            "game": "splendor",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "9",
+            "game": "splendor",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        },
+        {
+            "id": "10",
+            "game": "splendor",
+            "type": "reasoning",
+            "question": "",
+            "reference": "",
+            "relevant_chunk_ids": ["splendor_rb_007", "splendor_rb_008"],
+            "source_note": ""
+        }
+    ]  
+}
