@@ -49,6 +49,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 04/06/26| Manually re-format PDF extractions of rulebooks (and get rid of 2 ROOT rulebooks) to ensure better chunk quality. Multi-column structures are difficult for `PDFPlumber` and I need to move faster for the sake of time. Also implemented the embedding script to embed chunks and store them into a ChromaDB instance |
 | 04/07/26 | Refined chunking strategy to retain semantic sense through a given ruleset. Implemented dense (ChromaDB) and sparse (BM25) retrievers for the hybrid retrieval approach. |
 | 04/08/26 | Retriever is functional, but only retrieving rule-excerpts; made edits to force both rule and forum chunks to be retrieved so answers reflect ground truth _and_ community sentiment |
+| 04/09/26 | Updated ROOT rulebook with Homeland Expansion Law |
 
 
 ## Future Considerations
