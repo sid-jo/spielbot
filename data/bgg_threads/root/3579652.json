@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "game_name": "root",
+    "game_id": 237182,
+    "forum_type": "Rules",
+    "scrape_date": "2026-04-09"
+  },
+  "subject": "Revolting in the lost city",
+  "posts": [
+    {
+      "username": "pmw57",
+      "date": "2025-09-21T08:22:19+00:00",
+      "body": "How does alliance revolt interact with the Lost City landmark?\n\nLost City includes the following info:\nThe Lost City’s clearing counts as fox, mouse and rabbit suits.\nExamples: With two crafting pieces here, you could say one is fox and one is mouse.\n- For outrage, give any card in your hand.\n- The Alliance can revolt with mixed suits.\n. . .\n\nIn a game, the mouse base was already on the board.  A Woodland Alliance player wanted to use a bird card and a mouse card from their supporters deck to revolt in the Lost City clearing, to place a red or a yellow base. Is that viable?"
+    },
+    {
+      "username": "Stargazer1x",
+      "date": "2025-09-21T13:49:00+00:00",
+      "body": "Revolt: Spend 2 supporters matching a sympathetic clearing.  Remove all enemy pieces there. Place matching base and warriors there equal to total number of matching sympathetic clearings.  Place a warrior in the Officers box.\n\nI would say it's viable.  The Revolt ability is about matching a clearing.  The player spent 2 supporter cards matching the clearing.  Any base matches the clearing too."
+    },
+    {
+      "username": "dcpepp",
+      "date": "2025-09-21T16:26:52+00:00",
+      "body": "Maybe that flies from a rules lawyer perspective (?), but my sense is that that is dodgy. The clearing may be all 3 suits, but the supporters still need to match the base being placed. It’s not like that mouse card was suddenly a fox card just because it was played in the Lost City. I’m not a tournament referee, but if someone tried that at my table, I would vehemently object!"
+    },
+    {
+      "username": "BitBracht",
+      "date": "2025-09-21T20:50:45+00:00",
+      "body": "Agree with Devon. I’d rule that the WA can spend two supporters for a suit they don’t yet have a base, and then revolt for that suit specifically. \n\nBut I’d love to see someone more experienced with playing with the Lost City chime in."
+    },
+    {
+      "username": "M_R_10",
+      "date": "2025-09-21T20:51:33+00:00",
+      "body": "I do not think that this is the case at all. I mean the whole situation certainly is an edge case. But just looking at the rules as spelled out, the only requirement to be the same suit as the base (printed suit), is for the matching sympathetic clearings for placing warriors (Step 3 below).\nEverything else just refers to the suit of the clearing, which in case of the lost city is either suit.\n\nOn a related note, looking at the FAQ you can even revolt at the lost city if you have the building slots there already filled with 1 or 2 bases and still one base left on your board."
+    },
+    {
+      "username": "dcpepp",
+      "date": "2025-09-21T21:06:47+00:00",
+      "body": "I feel like that at the time that the original rule was written, they could have said that the cards had to match the clearing or the base and it would have meant the same thing. So my counter would be that under normal circumstances, the suit of the of the clearing is what centers the concept of suit for interacting with the board - so it makes sense to write both from the perspective of matching the clearing… but even so, I believe that the original intent was to have supporters for your revolt match your base and that it’s the supporters that drive the revolt, so their suit is more important than the clearing’s. All of that said, I cannot deny RAW — I think as written, it sounds like you are right and I am wrong… I just don’t think that the rules authors intended to create that loophole… and I’d still cry foul (at our non-tournament table).\n\n(This is an interesting edge case, all the same.)"
+    },
+    {
+      "username": "OmegasSquared",
+      "date": "2025-09-22T03:52:16+00:00",
+      "body": "Just noting a few things\n- It is very intentional that the Supporters must match the clearing and not the Base that is being placed. In fact Homeland will be updating Woodland Alliance's Train to also work like this (spend based on the clearing rather than the base)\n- Pre-Homeland it is possible to Revolt in the Lost City and per 1.5.4 fail to place the base (because there are no open building slots after removing all enemy pieces). This still allows you to resolve the action and fulfill all its other aspects as much as possible|\n- Post-Homeland Step 1 is receiving errata that makes it such that you can only choose a sympathetic clearing without a base to revolt in"
+    },
+    {
+      "username": "Leonard_Daniels",
+      "date": "2025-09-22T08:04:20+00:00",
+      "body": "That's a shame, the WA having all their bases in the Lost City was one of my favourite weird edge cases.  Never actually seen it happen but for some reason I liked the idea that it was possible."
+    },
+    {
+      "username": "Rune",
+      "date": "2025-09-22T08:08:09+00:00",
+      "body": "You shouldn't make assumptions about the authors' intent. The official word from Leder games (from the FAQ) is: \n\nCertainly an interesting edge case this. You could theoretically have all three Alliance bases in the same clearing"
+    },
+    {
+      "username": "tranlyvu",
+      "date": "2025-09-26T01:21:55+00:00",
+      "body": "in which situation that you have no open slot after removing all nemy pieces, i.e i believe all clearing have open slot?"
+    },
+    {
+      "username": "OmegasSquared",
+      "date": "2025-09-26T03:27:38+00:00",
+      "body": "in which situation that you have no open slot after removing all nemy pieces, i.e i believe all clearing have open slot?\nIf the Lost City clearing only has 1-2 building slots and those spots are already occupied by WA bases, then WA can Revolt there and have no open slots within which to place a second/third base"
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-09-26T10:12:02+00:00",
+      "body": "That doesn’t seem to make sense, for only a clearing without a WA base csn be selected."
+    },
+    {
+      "username": "Skeime",
+      "date": "2025-09-26T10:29:44+00:00",
+      "body": "That doesn’t seem to make sense, for only a clearing without a WA base csn be selected.\n\nThat’s not true. The condition is that you need to pick a clearing where the matching base is still on your board, see 8.4.1.I in the Law. Normally, this prevents choosing a clearing with a base, but for the Lost City clearing it does not."
+    },
+    {
+      "username": "pmw57",
+      "date": "2025-09-26T10:44:29+00:00",
+      "body": "And that’s going to change post-homeland. My apologies for getting ahead of that."
+    },
+    {
+      "username": "Rune",
+      "date": "2025-09-26T11:19:25+00:00",
+      "body": "Ah yes, Homeland will solve this. Here is the relevant quote from the next version of the Law: Step 1: Choose Clearing. Choose a sympathetic clearing without a base that matches a base on your faction board."
+    }
+  ]
+}
