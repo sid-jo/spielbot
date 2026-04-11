@@ -90,6 +90,15 @@ def _format_source_block(i: int, r: ChunkResult) -> str:
                 header_parts.append(f"Page: {r.page_start}")
             else:
                 header_parts.append(f"Pages: {r.page_start}-{r.page_end}")
+    elif r.source_type == "card":
+        if r.section_title:
+            header_parts.append(f"Card: {r.section_title}")
+        if r.card_deck:
+            header_parts.append(f"Deck: {r.card_deck}")
+        if r.card_suit:
+            header_parts.append(f"Suit: {r.card_suit}")
+        if r.card_cost:
+            header_parts.append(f"Cost: {r.card_cost}")
     elif r.source_type == "forum":
         if r.thread_subject:
             header_parts.append(f"Thread: {r.thread_subject}")
@@ -103,17 +112,17 @@ def _format_source_block(i: int, r: ChunkResult) -> str:
 
 
 def format_context(results: list[ChunkResult]) -> str:
-    rulebook = [r for r in results if r.source_type == "rulebook"]
+    official = [r for r in results if r.source_type in ("rulebook", "card")]
     forum = [r for r in results if r.source_type == "forum"]
 
     blocks = []
-    if rulebook:
+    if official:
         blocks.append("=== OFFICIAL RULES ===")
-        for i, r in enumerate(rulebook, 1):
+        for i, r in enumerate(official, 1):
             blocks.append(_format_source_block(i, r))
     if forum:
         blocks.append("=== COMMUNITY DISCUSSION ===")
-        for i, r in enumerate(forum, len(rulebook) + 1):
+        for i, r in enumerate(forum, len(official) + 1):
             blocks.append(_format_source_block(i, r))
 
     return "\n\n---\n\n".join(blocks)
@@ -130,6 +139,10 @@ def _format_result_header(rank: int, r: ChunkResult) -> str:
                 page_ref = f"pp.{r.page_start}-{r.page_end}"
             return f'[{rank}] ({st}) {r.chunk_id} — "{title}" {page_ref}'
         return f'[{rank}] ({st}) {r.chunk_id} — "{title}"'
+    if st == "card":
+        title = r.section_title or ""
+        extra = f" [{r.card_suit}]" if r.card_suit else ""
+        return f'[{rank}] ({st}) {r.chunk_id} — "{title}"{extra}'
     subj = r.thread_subject or ""
     meta_parts = [p for p in (r.resolution_status, r.confidence) if p]
     meta = f'  [{"/".join(meta_parts)}]' if meta_parts else ""

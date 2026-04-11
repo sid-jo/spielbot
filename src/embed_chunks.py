@@ -17,7 +17,11 @@ BATCH_SIZE = 64 # chunks per embedding batch
 def load_chunks(chunks_dir: Path, game_name: str | None = None) -> list[dict]:
     """Load all chunk dicts from JSON files in chunks_dir."""
     if game_name:
-        patterns = [f"{game_name}_rulebook_chunks.json", f"{game_name}_forum_chunks.json"]
+        patterns = [
+            f"{game_name}_rulebook_chunks.json",
+            f"{game_name}_forum_chunks.json",
+            f"{game_name}_card_chunks.json",
+        ]
         files = [chunks_dir / p for p in patterns if (chunks_dir / p).exists()]
     else:
         files = sorted(chunks_dir.glob("*_chunks.json"))
@@ -25,25 +29,32 @@ def load_chunks(chunks_dir: Path, game_name: str | None = None) -> list[dict]:
     all_chunks = []
     rulebook_count = 0
     forum_count = 0
+    card_count = 0
 
     for f in files:
         data = json.loads(f.read_text(encoding="utf-8"))
         chunks = data["chunks"]
         for c in chunks:
-            if c["source_type"] == "rulebook":
+            st = c["source_type"]
+            if st == "rulebook":
                 rulebook_count += 1
-            else:
+            elif st == "forum":
                 forum_count += 1
+            elif st == "card":
+                card_count += 1
         all_chunks.extend(chunks)
 
     game_label = game_name if game_name else "all games"
-    print(f"Loaded {len(all_chunks)} chunks ({rulebook_count} rulebook, {forum_count} forum) for {game_label}")
+    print(
+        f"Loaded {len(all_chunks)} chunks ({rulebook_count} rulebook, "
+        f"{forum_count} forum, {card_count} card) for {game_label}"
+    )
     return all_chunks
 
 
 def get_embed_text(chunk: dict) -> str:
     """Return the text that should be embedded for a given chunk."""
-    if chunk["source_type"] == "forum":
+    if chunk["source_type"] in ("forum", "card"):
         return chunk["embed_text"]
     return chunk["content"]
 
@@ -66,6 +77,16 @@ def build_metadata(chunk: dict) -> dict:
         meta["thread_subject"] = chunk.get("thread_subject", "")
         meta["resolution_status"] = chunk.get("resolution_status", "")
         meta["confidence"] = chunk.get("confidence", "")
+
+    if chunk["source_type"] == "card":
+        cd = chunk.get("card_deck", "")
+        meta["card_deck"] = ", ".join(cd) if isinstance(cd, list) else str(cd)
+        meta["card_suit"] = chunk.get("card_suit", "")
+        meta["card_box"] = chunk.get("card_box", "")
+        meta["card_cost"] = chunk.get("card_cost", "")
+        meta["card_quantity"] = int(chunk.get("card_quantity", 0))
+        if "game_id" in chunk:
+            meta["game_id"] = int(chunk["game_id"])
 
     return meta
 
@@ -120,10 +141,14 @@ def main():
         for c in chunks:
             game = c["game_name"]
             stype = c["source_type"]
-            counts.setdefault(game, {"rulebook": 0, "forum": 0})
-            counts[game][stype] += 1
+            counts.setdefault(game, {"rulebook": 0, "forum": 0, "card": 0})
+            if stype in counts[game]:
+                counts[game][stype] += 1
         for game, type_counts in sorted(counts.items()):
-            print(f"  {game}: {type_counts['rulebook']} rulebook, {type_counts['forum']} forum")
+            print(
+                f"  {game}: {type_counts['rulebook']} rulebook, "
+                f"{type_counts['forum']} forum, {type_counts['card']} card"
+            )
         return
 
     client = chromadb.PersistentClient(path=str(vectorstore_dir))
@@ -133,7 +158,10 @@ def main():
         normalize_embeddings=True,
     )
 
-    rulebook_chunks = [c for c in chunks if c["source_type"] == "rulebook"]
+    # Cards share the rulebook Chroma collection (official rules text).
+    rulebook_chunks = [
+        c for c in chunks if c["source_type"] in ("rulebook", "card")
+    ]
     forum_chunks = [c for c in chunks if c["source_type"] == "forum"]
 
     for col_name, col_chunks in [

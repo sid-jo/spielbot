@@ -33,18 +33,24 @@ class ChunkResult:
     chunk_id: str
     content: str              # text the generator will see (may be trimmed)
     game_name: str
-    source_type: str          # "rulebook" or "forum"
+    source_type: str          # "rulebook", "forum", or "card"
     section_title: str        # "" for forum chunks
     source_tier: str          # "core_rules" / "reference" / "" for forum
-    retrieval_priority: int   # 1=rulebook, 2=forum
-    page_start: int           # -1 if not applicable (forum)
-    page_end: int             # -1 if not applicable (forum)
+    retrieval_priority: int   # 1=rulebook/card, 2=forum
+    page_start: int           # -1 if not applicable (forum/card)
+    page_end: int             # -1 if not applicable (forum/card)
     score: float = 0.0
     # Forum-specific (empty strings for rulebook chunks)
     thread_id: str = ""
     thread_subject: str = ""
     resolution_status: str = ""
     confidence: str = ""
+    # Card-specific (empty for non-card chunks)
+    card_deck: str = ""
+    card_suit: str = ""
+    card_box: str = ""
+    card_cost: str = ""
+    card_quantity: int = 0
 
 
 def tokenize(text: str) -> list[str]:
@@ -53,7 +59,7 @@ def tokenize(text: str) -> list[str]:
 
 
 def get_embed_text(chunk: dict) -> str:
-    if chunk["source_type"] == "forum":
+    if chunk["source_type"] in ("forum", "card"):
         return chunk["embed_text"]
     return chunk["content"]
 
@@ -114,7 +120,15 @@ class ChunkIndex:
                 if not path.exists():
                     continue
                 data = json.loads(path.read_text(encoding="utf-8"))
-                source_chunks = data["chunks"]
+                source_chunks = list(data["chunks"])
+                # Cards live in the rulebook Chroma collection; include them in BM25 rulebook pool.
+                if suffix == "rulebook":
+                    card_path = chunks_dir / f"{game_name}_card_chunks.json"
+                    if card_path.exists():
+                        card_data = json.loads(
+                            card_path.read_text(encoding="utf-8")
+                        )
+                        source_chunks.extend(card_data["chunks"])
                 if not source_chunks:
                     continue
                 tokenized = [tokenize(get_embed_text(c)) for c in source_chunks]
@@ -163,6 +177,11 @@ class ChunkIndex:
                 thread_subject=meta.get("thread_subject", ""),
                 resolution_status=meta.get("resolution_status", ""),
                 confidence=meta.get("confidence", ""),
+                card_deck=meta.get("card_deck", ""),
+                card_suit=meta.get("card_suit", ""),
+                card_box=meta.get("card_box", ""),
+                card_cost=meta.get("card_cost", ""),
+                card_quantity=int(meta.get("card_quantity", 0) or 0),
             ))
         return chunk_results
 
@@ -192,6 +211,8 @@ class ChunkIndex:
             if scores[idx] <= 0:
                 continue
             chunk = chunks[idx]
+            cd = chunk.get("card_deck", "")
+            card_deck_str = ", ".join(cd) if isinstance(cd, list) else str(cd)
             chunk_results.append(ChunkResult(
                 chunk_id=chunk["chunk_id"],
                 content=_trim_content(chunk["content"], max_chars),
@@ -207,6 +228,11 @@ class ChunkIndex:
                 thread_subject=chunk.get("thread_subject", ""),
                 resolution_status=chunk.get("resolution_status", ""),
                 confidence=chunk.get("confidence", ""),
+                card_deck=card_deck_str,
+                card_suit=chunk.get("card_suit", ""),
+                card_box=chunk.get("card_box", ""),
+                card_cost=chunk.get("card_cost", ""),
+                card_quantity=int(chunk.get("card_quantity", 0) or 0),
             ))
         return chunk_results
 
