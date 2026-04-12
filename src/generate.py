@@ -14,9 +14,6 @@ from pathlib import Path
 
 from openai import OpenAI
 
-# --- .env loading (same pattern as process_bgg_forums.py manual style) ---
-
-
 def _load_env() -> None:
     """Load .env file from project root if it exists."""
     env_path = Path(__file__).parent.parent / ".env"
@@ -41,7 +38,7 @@ _load_env()
 LITELLM_BASE_URL_ENV = "LITELLM_BASE_URL"
 LITELLM_API_KEY_ENV = "LITELLM_API_KEY"
 
-DEFAULT_MODEL = "openai/gpt-4o-mini"
+DEFAULT_MODEL = "gemini-2.5-flash"
 DEFAULT_TEMPERATURE = 0.2
 DEFAULT_MAX_TOKENS = 1024
 
