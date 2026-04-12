@@ -27,7 +27,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] Chunking script (preparation and execution)
 - [x] Chunk embedding with ChromaDB vector store
 - [x] Implement dense and sparse retrievers (BM25)
-- [ ] RAG orchestrator script (Use Groq `Llama-32B-Instruct` or CMU LiteLLM instance)
+- [x] RAG orchestrator script (Use CMU LiteLLM instance)
 - [ ] Image and text encoder (might use Gemma)
 - [ ] VLM inference pipeline (access LlaVa or more SOTA/free VLM through Groq)
 - [ ] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
