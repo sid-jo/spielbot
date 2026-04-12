@@ -61,7 +61,7 @@
         {
           "username": "meeb93",
           "date": "2020-04-03T12:05:35-05:00",
-          "body": "Was about to take a picture and turns out I’m just blind. It says outcast suit clear as day. My apologies."
+          "body": "Was about to take a picture and turns out I'm just blind. It says outcast suit clear as day. My apologies."
         },
         {
           "username": "mineminemine",
@@ -102,7 +102,7 @@
         {
           "username": "pmw57",
           "date": "2025-11-30T17:29:54-06:00",
-          "body": "Last night during a 5 player game with two militant and 3 insurgent factions, a number of questions came up. Factions involved were Lizard Cult, Keepers in Iron, Woodland Alliance, Lord of the Hundreds, and a Tinker Vagabond.\n\nQ1: In root when the Lost City landmark is being used, could the vagabond with multiple hammers craft cards with multiple different suits?\nA1: vagabond can craft any given suit in the Lost City clearing, and should announce which suit they are crafting with. Differently suited cards (such as fox, mouse, and rabbit) cannot be crafted by the vagabond, as all hammers match one particular suit for each crafting action. The vagabond can though craft multiple cards with different suits, such as for example one with a rabbit suit, and without moving from the Lost City use another hammer to craft with a fox suit.\n\nQ2: When the Woodland Alliance revolts in the Lost City, how does that affect the cards and the base being placed there when they revolt?\nA2: The cards have to match the clearing, so could be a rabbit and a mouse card for a revolt. The base has to match the clearing so could be a fox base. Yes, that means that there doesn’t have to be any connection between the cards and the base when revolting in the Lost City clearing.\n\nQ3: When the vagabond had zero swords, does that mean that the attacker gets a defenseless bonus again them?\nA3: Yes, the attacker against the vagabond gains a plus 1 bonus hit against the vagabond when they have zero swords, or when all swords are damaged. A crossbow if they have one doesn’t change any of that for the vagabond.\n\nQ4: Which rule indicates that the vagabond cannot use a damaged item for a quest?\nA4: Rule 9.2.5, “The Vagabond exhausts undamaged items . . .” They can though refresh damaged items, which remain in the damaged area but flip over to the refreshed side.\n\nQ5: When the Woodland Alliance Organises, do they ignore martial law?\nA5: No Martial Law applies when you Organise. It only applies when spreading sympathy during birdsong. The evening action to Organise is clear of any Martial Law obligations.\n\nQ6: Does the Flotilla hireling count towards rule?\nA6: No it doesn’t count. While all hirelings count towards rule, the Flotilla hireling is a pawn, and doesn’t qualify as either a warrior or a building to help towards rule.\n\nQ7: When the Woodland Alliance revolts and has just one warrior in their supply, can they choose to not an add a warrior to the revolted clearing so that they can instead use it as an officer?\nA7: No, you cannot skip placing the warrior in the clearing to save it for the Officers box. This comes from section 2.5, which says in part: “If you are prompted to place, take, or remove a piece but you cannot, you must place, take, or remove the maximum number possible.”"
+          "body": "Last night during a 5 player game with two militant and 3 insurgent factions, a number of questions came up. Factions involved were Lizard Cult, Keepers in Iron, Woodland Alliance, Lord of the Hundreds, and a Tinker Vagabond.\n\nQ1: In root when the Lost City landmark is being used, could the vagabond with multiple hammers craft cards with multiple different suits?\nA1: vagabond can craft any given suit in the Lost City clearing, and should announce which suit they are crafting with. Differently suited cards (such as fox, mouse, and rabbit) cannot be crafted by the vagabond, as all hammers match one particular suit for each crafting action. The vagabond can though craft multiple cards with different suits, such as for example one with a rabbit suit, and without moving from the Lost City use another hammer to craft with a fox suit.\n\nQ2: When the Woodland Alliance revolts in the Lost City, how does that affect the cards and the base being placed there when they revolt?\nA2: The cards have to match the clearing, so could be a rabbit and a mouse card for a revolt. The base has to match the clearing so could be a fox base. Yes, that means that there doesn't have to be any connection between the cards and the base when revolting in the Lost City clearing.\n\nQ3: When the vagabond had zero swords, does that mean that the attacker gets a defenseless bonus again them?\nA3: Yes, the attacker against the vagabond gains a plus 1 bonus hit against the vagabond when they have zero swords, or when all swords are damaged. A crossbow if they have one doesn't change any of that for the vagabond.\n\nQ4: Which rule indicates that the vagabond cannot use a damaged item for a quest?\nA4: Rule 9.2.5, “The Vagabond exhausts undamaged items . . .” They can though refresh damaged items, which remain in the damaged area but flip over to the refreshed side.\n\nQ5: When the Woodland Alliance Organises, do they ignore martial law?\nA5: No Martial Law applies when you Organise. It only applies when spreading sympathy during birdsong. The evening action to Organise is clear of any Martial Law obligations.\n\nQ6: Does the Flotilla hireling count towards rule?\nA6: No it doesn't count. While all hirelings count towards rule, the Flotilla hireling is a pawn, and doesn't qualify as either a warrior or a building to help towards rule.\n\nQ7: When the Woodland Alliance revolts and has just one warrior in their supply, can they choose to not an add a warrior to the revolted clearing so that they can instead use it as an officer?\nA7: No, you cannot skip placing the warrior in the clearing to save it for the Officers box. This comes from section 2.5, which says in part: “If you are prompted to place, take, or remove a piece but you cannot, you must place, take, or remove the maximum number possible.”"
         },
         {
           "username": "OmegasSquared",
@@ -122,12 +122,12 @@
         {
           "username": "pmw57",
           "date": "2025-11-30T20:05:54-06:00",
-          "body": "Thank you. Because the vagabond hammers must match the suit of the clearing, and the Lost City clearing matches all suits, that allows hammer 1 to be fox and hammer 2 to be bunny for example, as each hammer matches the lost city suit of all suits, to craft a card that requires one fox and one bunny.\n\nIf using AI to resolve this type of question, it’s hands need to be bound or else it fails due to a few problems:\n- it resorts to interpretation and thinks that matching the clearing suit means matching a single suit, which goes against section 0.2 of the law or root\n- it attempts to apply competitive play rulings or FAQ info, both of which fail to take into account the superseding nature of the landmark rules.\n\nAfter an intense discussion with AI it eventually conceded that my logic is unassailable (a massively enjoyable ego-stroking there) and that future prompts about Root could do with the following constraints to help avoid similar problems:\n\nI need a ruling on the interaction between Vagabond Crafting (Law 9.5.8) and the Lost City Landmark in Root. Please resolve this only by adhering to these constraints:\n\nLaw of Root 0.2: No Interpretation. State the RAW text only; do not infer intent or meaning.\n\nRules Hierarchy is Absolute: Specific rules (like Landmarks) supersede general rules or general FAQ/competitive rulings.\n\nQuestion: Can multiple Vagabond's hammers count as multiple suits for a single crafting action when he is in the Lost City clearing (All Suits)?\n\nYou might still find that it uses its own custom interpretation of the rules, but on catching that and having it use the correct reading of the rules it finally relents and gives the correct answer."
+          "body": "Thank you. Because the vagabond hammers must match the suit of the clearing, and the Lost City clearing matches all suits, that allows hammer 1 to be fox and hammer 2 to be bunny for example, as each hammer matches the lost city suit of all suits, to craft a card that requires one fox and one bunny.\n\nIf using AI to resolve this type of question, it's hands need to be bound or else it fails due to a few problems:\n- it resorts to interpretation and thinks that matching the clearing suit means matching a single suit, which goes against section 0.2 of the law or root\n- it attempts to apply competitive play rulings or FAQ info, both of which fail to take into account the superseding nature of the landmark rules.\n\nAfter an intense discussion with AI it eventually conceded that my logic is unassailable (a massively enjoyable ego-stroking there) and that future prompts about Root could do with the following constraints to help avoid similar problems:\n\nI need a ruling on the interaction between Vagabond Crafting (Law 9.5.8) and the Lost City Landmark in Root. Please resolve this only by adhering to these constraints:\n\nLaw of Root 0.2: No Interpretation. State the RAW text only; do not infer intent or meaning.\n\nRules Hierarchy is Absolute: Specific rules (like Landmarks) supersede general rules or general FAQ/competitive rulings.\n\nQuestion: Can multiple Vagabond's hammers count as multiple suits for a single crafting action when he is in the Lost City clearing (All Suits)?\n\nYou might still find that it uses its own custom interpretation of the rules, but on catching that and having it use the correct reading of the rules it finally relents and gives the correct answer."
         },
         {
           "username": "pmw57",
           "date": "2025-12-01T03:31:50-06:00",
-          "body": "Q1) Incorrect. In the Lost City the Vagabond may craft cards that require multiple different suits to craft\n\nThank you. Because the vagabond hammers must match the suit of the clearing, and the Lost City clearing matches all suits, that allows hammer 1 to be fox and hammer 2 to be bunny for example, as each hammer matches the lost city suit of all suits, to craft a card that requires one fox and one bunny.\n\nIf using AI to resolve this type of question, it’s hands need to be bound or else it fails due to a few problems:\n- it resorts to interpretation and thinks that matching the clearing suit means matching a single suit, which goes against section 0.2 of the law or root\n- it attempts to apply competitive play rulings or FAQ info, both of which fail to take into account the superseding nature of the landmark rules.\n\nAfter an intense discussion with AI it eventually conceded that my logic is unassailable (a massively enjoyable ego-stroking there) and that future prompts about Root could do with the following constraints to help avoid similar problems:\n\n“Gemini Law of Root 0.2: No Interpretation. State the RAW text only; do not infer intent or meaning.\n\nRules Hierarchy is Absolute: Specific rules (like Landmarks) supersede general rules or general FAQ/competitive rulings.\n\nQuestion: Does the Vagabond's hammer count as multiple suits for crafting when he is in the Lost City clearing (All Suits)?\n\nYou might still find that it uses its own custom interpretation of the rules, but on catching that and having it use the correct reading of the rules it finally relents and gives the correct answer."
+          "body": "Q1) Incorrect. In the Lost City the Vagabond may craft cards that require multiple different suits to craft\n\nThank you. Because the vagabond hammers must match the suit of the clearing, and the Lost City clearing matches all suits, that allows hammer 1 to be fox and hammer 2 to be bunny for example, as each hammer matches the lost city suit of all suits, to craft a card that requires one fox and one bunny.\n\nIf using AI to resolve this type of question, it's hands need to be bound or else it fails due to a few problems:\n- it resorts to interpretation and thinks that matching the clearing suit means matching a single suit, which goes against section 0.2 of the law or root\n- it attempts to apply competitive play rulings or FAQ info, both of which fail to take into account the superseding nature of the landmark rules.\n\nAfter an intense discussion with AI it eventually conceded that my logic is unassailable (a massively enjoyable ego-stroking there) and that future prompts about Root could do with the following constraints to help avoid similar problems:\n\n“Gemini Law of Root 0.2: No Interpretation. State the RAW text only; do not infer intent or meaning.\n\nRules Hierarchy is Absolute: Specific rules (like Landmarks) supersede general rules or general FAQ/competitive rulings.\n\nQuestion: Does the Vagabond's hammer count as multiple suits for crafting when he is in the Lost City clearing (All Suits)?\n\nYou might still find that it uses its own custom interpretation of the rules, but on catching that and having it use the correct reading of the rules it finally relents and gives the correct answer."
         },
         {
           "username": "Sebby19",
@@ -163,7 +163,7 @@
         {
           "username": "MakingPancakes",
           "date": "2025-12-03T09:15:28-06:00",
-          "body": "Good morning!\nMy friend and I bought Root, and we keep coming to an impasse. I’m currently playing Marquise de Cat. As the cat, the rules say I can move up to two times. The way I’m understanding the rules, if I own the land I’m originating from or the land that is my destination I can move freely up to two times. So if I own a land and I move through the eerie, pass it to a second spot, I can do that? In my mind it’s like a flight. I start in one location, the layover is not my destination, so I can move on. The book doesn’t mention that the moves are necessarily separate nor are they conjoined. My friend is really hung up on the two moves aspect of my character. In each case though, I have moved either owning the spot I’m moving from or eventually to.\nSo my question is, when moving two times, does the layover spot count as a “destination “? Do I have to own the first land I move TO even if I plan on moving my pieces to a second spot in the same turn?\n\nThank you for your help and consideration!"
+          "body": "Good morning!\nMy friend and I bought Root, and we keep coming to an impasse. I'm currently playing Marquise de Cat. As the cat, the rules say I can move up to two times. The way I'm understanding the rules, if I own the land I'm originating from or the land that is my destination I can move freely up to two times. So if I own a land and I move through the eerie, pass it to a second spot, I can do that? In my mind it's like a flight. I start in one location, the layover is not my destination, so I can move on. The book doesn't mention that the moves are necessarily separate nor are they conjoined. My friend is really hung up on the two moves aspect of my character. In each case though, I have moved either owning the spot I'm moving from or eventually to.\nSo my question is, when moving two times, does the layover spot count as a “destination “? Do I have to own the first land I move TO even if I plan on moving my pieces to a second spot in the same turn?\n\nThank you for your help and consideration!"
         },
         {
           "username": "Zetecua",
@@ -249,12 +249,12 @@
         {
           "username": "ViolentWaves",
           "date": "2025-12-14T03:38:07-06:00",
-          "body": "You need to rule the clearing you're battling on to delve mate\n\nYeah. But og poster knows that (“I’m 100% not guaranteed to rule after a single attack”). Therefore they need to attack twice and only delve on the second attack:\n- first attack uses bird card. No rule yet, so no delve. Bird card is secure. \n- second attack uses suited card. If no rule, no delve. But if rule, then delve with suited card. Since player KNOWS they won’t rule enough clearings when they turn the relic over, the used card is guaranteed to burn. Therefore ideally this second attack + delve should be done using a suited card. \n\nOG poster is right in their strategy. Without being able to choose, the keepers in iron would become a much weaker faction."
+          "body": "You need to rule the clearing you're battling on to delve mate\n\nYeah. But og poster knows that (“I'm 100% not guaranteed to rule after a single attack”). Therefore they need to attack twice and only delve on the second attack:\n- first attack uses bird card. No rule yet, so no delve. Bird card is secure. \n- second attack uses suited card. If no rule, no delve. But if rule, then delve with suited card. Since player KNOWS they won't rule enough clearings when they turn the relic over, the used card is guaranteed to burn. Therefore ideally this second attack + delve should be done using a suited card. \n\nOG poster is right in their strategy. Without being able to choose, the keepers in iron would become a much weaker faction."
         },
         {
           "username": "DGD_Kami",
           "date": "2025-12-14T11:16:31-06:00",
-          "body": "Yeah. But og poster knows that (“I’m 100% not guaranteed to rule after a single attack”). Therefore they need to attack twice and only delve on the second attack:\n- first attack uses bird card. No rule yet, so no delve. Bird card is secure. \n- second attack uses suited card. If no rule, no delve. But if rule, then delve with suited card. Since player KNOWS they won’t rule enough clearings when they turn the relic over, the used card is guaranteed to burn. Therefore ideally this second attack + delve should be done using a suited card. \n\nOG poster is right in their strategy. Without being able to choose, the keepers in iron would become a much weaker faction. \n\nI mean I know, I'm the OG lol\n\nI was clarifying because if feel like Jason G didn't understand the question"
+          "body": "Yeah. But og poster knows that (“I'm 100% not guaranteed to rule after a single attack”). Therefore they need to attack twice and only delve on the second attack:\n- first attack uses bird card. No rule yet, so no delve. Bird card is secure. \n- second attack uses suited card. If no rule, no delve. But if rule, then delve with suited card. Since player KNOWS they won't rule enough clearings when they turn the relic over, the used card is guaranteed to burn. Therefore ideally this second attack + delve should be done using a suited card. \n\nOG poster is right in their strategy. Without being able to choose, the keepers in iron would become a much weaker faction. \n\nI mean I know, I'm the OG lol\n\nI was clarifying because if feel like Jason G didn't understand the question"
         },
         {
           "username": "gmhakim",
@@ -410,7 +410,7 @@
       "game_name": "root",
       "game_id": 237182,
       "thread_id": "3631111",
-      "thread_subject": "Acolytes only if defending? If Lizards attacks, dead warriors don’t become Acolytes?",
+      "thread_subject": "Acolytes only if defending? If Lizards attacks, dead warriors don't become Acolytes?",
       "embed_text": "Do Lizard warriors only become Acolytes when defending, and not when attacking? If the Lizards attack, do dead warriors go back to the supply pile?",
       "content": "The thread discusses the Lizard faction's ability to become Acolytes, with a general consensus that they can only do so when defending. The community notes that the Lizard's strength comes from cards in hand and Acolytes, and that their power is more focused on thriving under peaceful conditions. The faction's passive nature and reliance on table talk and deal-making are also highlighted.",
       "raw_thread": [
@@ -432,7 +432,7 @@
         {
           "username": "Zorokrox",
           "date": "2025-12-21T07:24:24-06:00",
-          "body": "Keep in mind the lizard’s strength comes from two sources: cards in hand and acolytes. If nobody’s attacking them to reduce their pieces, they have the opportunity to spread warriors and gardens across the map, eventually leading to lots of points even if they have no acolytes. The point of the faction is to thrive under peaceful conditions, and only have the opportunity to attack others if they are attacked first - acolytes shouldn’t necessarily be your end goal when playing them."
+          "body": "Keep in mind the lizard's strength comes from two sources: cards in hand and acolytes. If nobody's attacking them to reduce their pieces, they have the opportunity to spread warriors and gardens across the map, eventually leading to lots of points even if they have no acolytes. The point of the faction is to thrive under peaceful conditions, and only have the opportunity to attack others if they are attacked first - acolytes shouldn't necessarily be your end goal when playing them."
         },
         {
           "username": "thirdman",
@@ -498,7 +498,7 @@
         {
           "username": "pmw57",
           "date": "2025-12-22T03:17:05-06:00",
-          "body": "Regardless of whether things are undefined or zero, the game rules clearly spell out that the Vagabond cannot form a coalition with someone that has declared dominance.\n\n9.2.8 Dominance Cards and Coalitions. In games with four or more players, the Vagabond can activate a dominance card to form a coalition with the player with the fewest victory points other than himself, placing his score marker on the chosen player’s faction board. If there is a tie for fewest, he chooses one tied player. If the chosen player wins the game, the Vagabond also wins. (The Vagabond no longer scores victory points. He cannot form a coalition with a player who has already activated a dominance card.)\n\nEmphasis at the end is mine, for clarity."
+          "body": "Regardless of whether things are undefined or zero, the game rules clearly spell out that the Vagabond cannot form a coalition with someone that has declared dominance.\n\n9.2.8 Dominance Cards and Coalitions. In games with four or more players, the Vagabond can activate a dominance card to form a coalition with the player with the fewest victory points other than himself, placing his score marker on the chosen player's faction board. If there is a tie for fewest, he chooses one tied player. If the chosen player wins the game, the Vagabond also wins. (The Vagabond no longer scores victory points. He cannot form a coalition with a player who has already activated a dominance card.)\n\nEmphasis at the end is mine, for clarity."
         },
         {
           "username": "pogle1",
@@ -528,22 +528,22 @@
         {
           "username": "timonkey",
           "date": "2025-12-25T22:46:43-06:00",
-          "body": "I'm not arguing that they have a specific number, but there are arguments to be made that the number is either what it was before their marker was removed as well as zero.  The rulebook doesn’t say.  Removing the point marker does not necessarily mean anything particular about how many victory points the player now has.\n\nThe FAQ seems to resolve the issue, but it's unfortunate that the principle is not found in the rulebook itself."
+          "body": "I'm not arguing that they have a specific number, but there are arguments to be made that the number is either what it was before their marker was removed as well as zero.  The rulebook doesn't say.  Removing the point marker does not necessarily mean anything particular about how many victory points the player now has.\n\nThe FAQ seems to resolve the issue, but it's unfortunate that the principle is not found in the rulebook itself."
         },
         {
           "username": "pmw57",
           "date": "2025-12-25T22:52:52-06:00",
-          "body": "Removing their victory point marker from the victory points track means that they no longer qualify for anything relating to victory points.\n\nIt used to be found explicitly in the rulebook, but during an update it was considered better to remove it so that it was only the victory marker track responsible.\nI understand it was Joshua Yearsley’s rule design philosophy to streamline the Law in the 8th Printing. His portfolio and various interviews explain the shift toward a \"technical\" rulebook that removes redundant \"reminder text\" in favor of core mechanics."
+          "body": "Removing their victory point marker from the victory points track means that they no longer qualify for anything relating to victory points.\n\nIt used to be found explicitly in the rulebook, but during an update it was considered better to remove it so that it was only the victory marker track responsible.\nI understand it was Joshua Yearsley's rule design philosophy to streamline the Law in the 8th Printing. His portfolio and various interviews explain the shift toward a \"technical\" rulebook that removes redundant \"reminder text\" in favor of core mechanics."
         },
         {
           "username": "timonkey",
           "date": "2025-12-26T07:29:52-06:00",
-          "body": "I like a technical rulebook myself.  I'm trying to explain how, by my read at least, it doesn’t quite meet that goal.\n\nThat's what it's supposed to mean, but the rulebook does not establish this.  The game could be different.  For example, a different game could have the rule that such players have zero victory points but the marker is removed as a reminder that they no longer earn victory points.  A different game could have an identical rulebook but a different FAQ that establishes a different intended rule.\n\nNeither the actual FAQ or my hypothetical one contradict the rulebook."
+          "body": "I like a technical rulebook myself.  I'm trying to explain how, by my read at least, it doesn't quite meet that goal.\n\nThat's what it's supposed to mean, but the rulebook does not establish this.  The game could be different.  For example, a different game could have the rule that such players have zero victory points but the marker is removed as a reminder that they no longer earn victory points.  A different game could have an identical rulebook but a different FAQ that establishes a different intended rule.\n\nNeither the actual FAQ or my hypothetical one contradict the rulebook."
         },
         {
           "username": "stuffbybez",
           "date": "2025-12-27T01:31:44-06:00",
-          "body": "I understand it was Joshua Yearsley’s rule design philosophy to streamline the Law in the 8th Printing. His portfolio and various interviews explain the shift toward a \"technical\" rulebook that removes redundant \"reminder text\" in favor of core mechanics.\n\nI like a technical rulebook myself.  I'm trying to explain how, by my read at least, it doesn’t quite meet that goal.\n\nThat's what it's supposed to mean, but the rulebook does not establish this.  The game could be different.  For example, a different game could have the rule that such players have zero victory points but the marker is removed as a reminder that they no longer earn victory points.  A different game could have an identical rulebook but a different FAQ that establishes a different intended rule.\n\nNeither the actual FAQ or my hypothetical one contradict the rulebook.\n\nI agree with all this. \n\nThis is what the currently shared homeland rulebook says:\n\n9.2.8 Dominance Cards and Coalitions. The Vagabond\ncannot activate a dominance card for its normal\nvictory condition (3.3.1). Instead, in games with\nfour or more players, the Vagabond can activate a\ndominance card to form a coalition with another\nplayer, placing his score marker on that player’s\nfaction board. (The Vagabond no longer scores points.)\nThat player must have fewer victory points than\neach other player except the Vagabond forming\nthe coalition, and that player cannot be in a coa-\nlition. If there is a tie for fewest victory points, he\nchooses one tied player. If the coalitioned player\nwins the game, the Vagabond also wins.\n\nIf I'd had to make a ruling before today, I'd probably has suggested that the person has no victory points, therefore has the fewest. \n\nIf it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck."
+          "body": "I understand it was Joshua Yearsley's rule design philosophy to streamline the Law in the 8th Printing. His portfolio and various interviews explain the shift toward a \"technical\" rulebook that removes redundant \"reminder text\" in favor of core mechanics.\n\nI like a technical rulebook myself.  I'm trying to explain how, by my read at least, it doesn't quite meet that goal.\n\nThat's what it's supposed to mean, but the rulebook does not establish this.  The game could be different.  For example, a different game could have the rule that such players have zero victory points but the marker is removed as a reminder that they no longer earn victory points.  A different game could have an identical rulebook but a different FAQ that establishes a different intended rule.\n\nNeither the actual FAQ or my hypothetical one contradict the rulebook.\n\nI agree with all this. \n\nThis is what the currently shared homeland rulebook says:\n\n9.2.8 Dominance Cards and Coalitions. The Vagabond\ncannot activate a dominance card for its normal\nvictory condition (3.3.1). Instead, in games with\nfour or more players, the Vagabond can activate a\ndominance card to form a coalition with another\nplayer, placing his score marker on that player's\nfaction board. (The Vagabond no longer scores points.)\nThat player must have fewer victory points than\neach other player except the Vagabond forming\nthe coalition, and that player cannot be in a coa-\nlition. If there is a tie for fewest victory points, he\nchooses one tied player. If the coalitioned player\nwins the game, the Vagabond also wins.\n\nIf I'd had to make a ruling before today, I'd probably has suggested that the person has no victory points, therefore has the fewest. \n\nIf it happens on Sunday 4th (when I next have root games planned), I might tell folk that a 2019 FAQ said you can't do coalitions but I'll let the rest of the table vote. \n\nTbh, I'll probably just remove the dominance cards (along with favours) from the deck."
         },
         {
           "username": "dsdhornet",
@@ -640,7 +640,7 @@
         {
           "username": "jdludlow",
           "date": "2025-12-25T05:35:25-06:00",
-          "body": "Set the ruins up as normal. It’s the last sentence of step 1 in advanced setup."
+          "body": "Set the ruins up as normal. It's the last sentence of step 1 in advanced setup."
         },
         {
           "username": "Yenreb",
@@ -875,7 +875,7 @@
         {
           "username": "Paoloscia",
           "date": "2026-01-12T10:21:31-06:00",
-          "body": "I’ve just read the Root Quick Start Guide and I have two questions that I couldn’t find answers to, even after checking rules 9.2.8 and 9.2.9:\n\n1) Can a faction that is in a coalition with the Vagabond become Hostile if one of its warriors is removed, or once a faction enters a coalition is it immune to becoming Hostile?\n2) When the Vagabond takes damage but has no more damage he can mark (and therefore may “ignore damage”):\nif he is Allied with a faction and is fighting with the help of that faction’s warriors, can he still ignore the damage even if there are allied warriors that would be removed if the damage were assigned?"
+          "body": "I've just read the Root Quick Start Guide and I have two questions that I couldn't find answers to, even after checking rules 9.2.8 and 9.2.9:\n\n1) Can a faction that is in a coalition with the Vagabond become Hostile if one of its warriors is removed, or once a faction enters a coalition is it immune to becoming Hostile?\n2) When the Vagabond takes damage but has no more damage he can mark (and therefore may “ignore damage”):\nif he is Allied with a faction and is fighting with the help of that faction's warriors, can he still ignore the damage even if there are allied warriors that would be removed if the damage were assigned?"
         },
         {
           "username": "ZergyPoo",
@@ -885,17 +885,17 @@
         {
           "username": "Skeime",
           "date": "2026-01-12T11:09:41-06:00",
-          "body": "I don’t think the relationship marker is removed. (If you are hostile before forming the coalition, there’s even a rule to move it to Indifferent (see 9.2.9.III.D).)\n\nAnd I think in rare cases the Vagabond can remove warriors from a coalition partner. For example, when the Vagrant makes their coalition partner fight using Instigate. (This might be the only way?) In this case, the relationship would turn hostile again; there is no rule making an exception here."
+          "body": "I don't think the relationship marker is removed. (If you are hostile before forming the coalition, there's even a rule to move it to Indifferent (see 9.2.9.III.D).)\n\nAnd I think in rare cases the Vagabond can remove warriors from a coalition partner. For example, when the Vagrant makes their coalition partner fight using Instigate. (This might be the only way?) In this case, the relationship would turn hostile again; there is no rule making an exception here."
         },
         {
           "username": "ZergyPoo",
           "date": "2026-01-12T11:25:19-06:00",
-          "body": "1. I don't think this can happen. If the vagabond is in a coalition with someone, they can't attack them, and therefore can't remove warriors. But also I believe the relationship marker for the coalition partner is removed anyway.\n\nI don’t think the relationship marker is removed. (If you are hostile before forming the coalition, there’s even a rule to move it to Indifferent (see 9.2.9.III.D).)\n\nAnd I think in rare cases the Vagabond can remove warriors from a coalition partner. For example, when the Vagrant makes their coalition partner fight using Instigate. (This might be the only way?) In this case, the relationship would turn hostile again; there is no rule making an exception here.\n\nYou are correct!\n\nIn any case. Why would a VB in a coalition with someone actually want to go hostile?"
+          "body": "1. I don't think this can happen. If the vagabond is in a coalition with someone, they can't attack them, and therefore can't remove warriors. But also I believe the relationship marker for the coalition partner is removed anyway.\n\nI don't think the relationship marker is removed. (If you are hostile before forming the coalition, there's even a rule to move it to Indifferent (see 9.2.9.III.D).)\n\nAnd I think in rare cases the Vagabond can remove warriors from a coalition partner. For example, when the Vagrant makes their coalition partner fight using Instigate. (This might be the only way?) In this case, the relationship would turn hostile again; there is no rule making an exception here.\n\nYou are correct!\n\nIn any case. Why would a VB in a coalition with someone actually want to go hostile?"
         },
         {
           "username": "Skeime",
           "date": "2026-01-12T12:04:13-06:00",
-          "body": "Probably they wouldn’t want to. But maybe Instigate is used as a Hail Mary to stop someone else from winning."
+          "body": "Probably they wouldn't want to. But maybe Instigate is used as a Hail Mary to stop someone else from winning."
         },
         {
           "username": "tranlyvu",
@@ -905,7 +905,7 @@
         {
           "username": "Skeime",
           "date": "2026-01-13T06:06:38-06:00",
-          "body": "Yes, that’s right."
+          "body": "Yes, that's right."
         },
         {
           "username": "pmw57",
@@ -1027,7 +1027,7 @@
         {
           "username": "pmw57",
           "date": "2026-01-24T16:52:47-06:00",
-          "body": "Because other factions aren’t incentivised to attack and remove raid tokens, leverage that to help you score points by flipping other tokens instead."
+          "body": "Because other factions aren't incentivised to attack and remove raid tokens, leverage that to help you score points by flipping other tokens instead."
         },
         {
           "username": "BitBracht",
@@ -1056,14 +1056,14 @@
       "game_name": "root",
       "game_id": 237182,
       "thread_id": "3653229",
-      "thread_subject": "WA: From where does a ‘trained’ officer come?",
+      "thread_subject": "WA: From where does a ‘trained' officer come?",
       "embed_text": "From where does a 'trained' officer come in the game, specifically whether it comes from the appropriate base on the board or from the player's supply?",
       "content": "According to the community, a 'trained' officer comes from the player's supply, unless otherwise specified. This is supported by references to the game's rules, specifically sections 8.4.1.III and G.1.19.",
       "raw_thread": [
         {
           "username": "hand0rf",
           "date": "2026-01-29T09:55:07-06:00",
-          "body": "Does the warrior have to come from the appropriate base ON THE BOARD? Or does the warrior just move from Supply to the Officer’s section on the player’s mat?"
+          "body": "Does the warrior have to come from the appropriate base ON THE BOARD? Or does the warrior just move from Supply to the Officer's section on the player's mat?"
         },
         {
           "username": "smmckit",
@@ -1073,7 +1073,7 @@
         {
           "username": "dcpepp",
           "date": "2026-01-30T15:38:35-06:00",
-          "body": "Yep! In fact, if you make an Officer out of a Mouse, you can’t use it for anything else, and you only get it back if you loose a base - so plan them carefully! 10 mice get used up very quickly!"
+          "body": "Yep! In fact, if you make an Officer out of a Mouse, you can't use it for anything else, and you only get it back if you loose a base - so plan them carefully! 10 mice get used up very quickly!"
         }
       ],
       "resolution_status": "resolved",
@@ -1124,7 +1124,7 @@
         {
           "username": "BitBracht",
           "date": "2026-01-30T13:23:04-06:00",
-          "body": "You can use whichever board you want with whichever meeple you want. Matching the board with the meeple was never a thing. (Personally, I didn’t even know the boards could be differentiated in any way.)\n\nUsually you’ll want to match the meeple with the card, since each meeple actually corresponds to one card, but even that is not necessary. As long as you play by your card, you can totally use any meeple you want to represent that card.  \n\n(Unless you’re playing a 2-vagabond game, in which case it would probably be confusing for everyone if either Vagabond’s meeple didn’t match their card. But you probably shouldn’t be playing 2-vagabond games anyway.)"
+          "body": "You can use whichever board you want with whichever meeple you want. Matching the board with the meeple was never a thing. (Personally, I didn't even know the boards could be differentiated in any way.)\n\nUsually you'll want to match the meeple with the card, since each meeple actually corresponds to one card, but even that is not necessary. As long as you play by your card, you can totally use any meeple you want to represent that card.  \n\n(Unless you're playing a 2-vagabond game, in which case it would probably be confusing for everyone if either Vagabond's meeple didn't match their card. But you probably shouldn't be playing 2-vagabond games anyway.)"
         }
       ],
       "resolution_status": "resolved",
@@ -1578,7 +1578,7 @@
         {
           "username": "pmw57",
           "date": "2025-09-21T08:22:19+00:00",
-          "body": "How does alliance revolt interact with the Lost City landmark?\n\nLost City includes the following info:\nThe Lost City’s clearing counts as fox, mouse and rabbit suits.\nExamples: With two crafting pieces here, you could say one is fox and one is mouse.\n- For outrage, give any card in your hand.\n- The Alliance can revolt with mixed suits.\n. . .\n\nIn a game, the mouse base was already on the board.  A Woodland Alliance player wanted to use a bird card and a mouse card from their supporters deck to revolt in the Lost City clearing, to place a red or a yellow base. Is that viable?"
+          "body": "How does alliance revolt interact with the Lost City landmark?\n\nLost City includes the following info:\nThe Lost City's clearing counts as fox, mouse and rabbit suits.\nExamples: With two crafting pieces here, you could say one is fox and one is mouse.\n- For outrage, give any card in your hand.\n- The Alliance can revolt with mixed suits.\n. . .\n\nIn a game, the mouse base was already on the board.  A Woodland Alliance player wanted to use a bird card and a mouse card from their supporters deck to revolt in the Lost City clearing, to place a red or a yellow base. Is that viable?"
         },
         {
           "username": "Stargazer1x",
@@ -1588,12 +1588,12 @@
         {
           "username": "dcpepp",
           "date": "2025-09-21T16:26:52+00:00",
-          "body": "Maybe that flies from a rules lawyer perspective (?), but my sense is that that is dodgy. The clearing may be all 3 suits, but the supporters still need to match the base being placed. It’s not like that mouse card was suddenly a fox card just because it was played in the Lost City. I’m not a tournament referee, but if someone tried that at my table, I would vehemently object!"
+          "body": "Maybe that flies from a rules lawyer perspective (?), but my sense is that that is dodgy. The clearing may be all 3 suits, but the supporters still need to match the base being placed. It's not like that mouse card was suddenly a fox card just because it was played in the Lost City. I'm not a tournament referee, but if someone tried that at my table, I would vehemently object!"
         },
         {
           "username": "BitBracht",
           "date": "2025-09-21T20:50:45+00:00",
-          "body": "Agree with Devon. I’d rule that the WA can spend two supporters for a suit they don’t yet have a base, and then revolt for that suit specifically. \n\nBut I’d love to see someone more experienced with playing with the Lost City chime in."
+          "body": "Agree with Devon. I'd rule that the WA can spend two supporters for a suit they don't yet have a base, and then revolt for that suit specifically. \n\nBut I'd love to see someone more experienced with playing with the Lost City chime in."
         },
         {
           "username": "M_R_10",
@@ -1603,7 +1603,7 @@
         {
           "username": "dcpepp",
           "date": "2025-09-21T21:06:47+00:00",
-          "body": "I feel like that at the time that the original rule was written, they could have said that the cards had to match the clearing or the base and it would have meant the same thing. So my counter would be that under normal circumstances, the suit of the of the clearing is what centers the concept of suit for interacting with the board - so it makes sense to write both from the perspective of matching the clearing… but even so, I believe that the original intent was to have supporters for your revolt match your base and that it’s the supporters that drive the revolt, so their suit is more important than the clearing’s. All of that said, I cannot deny RAW — I think as written, it sounds like you are right and I am wrong… I just don’t think that the rules authors intended to create that loophole… and I’d still cry foul (at our non-tournament table).\n\n(This is an interesting edge case, all the same.)"
+          "body": "I feel like that at the time that the original rule was written, they could have said that the cards had to match the clearing or the base and it would have meant the same thing. So my counter would be that under normal circumstances, the suit of the of the clearing is what centers the concept of suit for interacting with the board - so it makes sense to write both from the perspective of matching the clearing… but even so, I believe that the original intent was to have supporters for your revolt match your base and that it's the supporters that drive the revolt, so their suit is more important than the clearing's. All of that said, I cannot deny RAW — I think as written, it sounds like you are right and I am wrong… I just don't think that the rules authors intended to create that loophole… and I'd still cry foul (at our non-tournament table).\n\n(This is an interesting edge case, all the same.)"
         },
         {
           "username": "OmegasSquared",
@@ -1633,17 +1633,17 @@
         {
           "username": "pmw57",
           "date": "2025-09-26T10:12:02+00:00",
-          "body": "That doesn’t seem to make sense, for only a clearing without a WA base csn be selected."
+          "body": "That doesn't seem to make sense, for only a clearing without a WA base csn be selected."
         },
         {
           "username": "Skeime",
           "date": "2025-09-26T10:29:44+00:00",
-          "body": "That doesn’t seem to make sense, for only a clearing without a WA base csn be selected.\n\nThat’s not true. The condition is that you need to pick a clearing where the matching base is still on your board, see 8.4.1.I in the Law. Normally, this prevents choosing a clearing with a base, but for the Lost City clearing it does not."
+          "body": "That doesn't seem to make sense, for only a clearing without a WA base csn be selected.\n\nThat's not true. The condition is that you need to pick a clearing where the matching base is still on your board, see 8.4.1.I in the Law. Normally, this prevents choosing a clearing with a base, but for the Lost City clearing it does not."
         },
         {
           "username": "pmw57",
           "date": "2025-09-26T10:44:29+00:00",
-          "body": "And that’s going to change post-homeland. My apologies for getting ahead of that."
+          "body": "And that's going to change post-homeland. My apologies for getting ahead of that."
         },
         {
           "username": "Rune",

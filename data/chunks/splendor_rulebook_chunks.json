@@ -100,7 +100,7 @@
       "game_name": "splendor",
       "section_title": "Selecting tokens",
       "source_tier": "core_rules",
-      "content": "A player can never have more than 10 tokens at the end of their turn (including jokers). If this happens, they must return tokens until they only have 10 left. A player can return all or some of those they’ve just drawn. The tokens owned by a player must be visible by all players at all times.\nReminder: players may not take 2 tokens of the same color if there are less than 4 tokens available of that color.",
+      "content": "A player can never have more than 10 tokens at the end of their turn (including jokers). If this happens, they must return tokens until they only have 10 left. A player can return all or some of those they've just drawn. The tokens owned by a player must be visible by all players at all times.\nReminder: players may not take 2 tokens of the same color if there are less than 4 tokens available of that color.",
       "page_start": 2,
       "page_end": 2,
       "chunk_index": 7,
