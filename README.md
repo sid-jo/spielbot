@@ -49,12 +49,14 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 04/06/26| Manually re-format PDF extractions of rulebooks (and get rid of 2 ROOT rulebooks) to ensure better chunk quality. Multi-column structures are difficult for `PDFPlumber` and I need to move faster for the sake of time. Also implemented the embedding script to embed chunks and store them into a ChromaDB instance |
 | 04/07/26 | Refined chunking strategy to retain semantic sense through a given ruleset. Implemented dense (ChromaDB) and sparse (BM25) retrievers for the hybrid retrieval approach. |
 | 04/08/26 | Retriever is functional, but only retrieving rule-excerpts; made edits to force both rule and forum chunks to be retrieved so answers reflect ground truth _and_ community sentiment |
-| 04/09/26 | Updated ROOT rulebook with Homeland Expansion Law |
-
+| 04/09/26 | Updated ROOT rulebook with Homeland Expansion Law as well as custom curated card dataset with information on every card across the 3 decks available. |
+| 04/11/26 | Implemented generator component and stitched system together with `orchestrator.py` to support a CLI-based V1 implementation of SpielBot! |
 
 ## Future Considerations
  - **Extraction Generalizability** - Make extraction pipeline work over majority of rulebook formats with minimal game-specific revisions
  - **Better quality PDF extraction** - PDF Plumber struggles with multi-column data (a common rulebook format) and for testing purposes it is easier to just manually review and edit each rulebook. I'll need to look into other OCR libraries when I have time (PyPDF, Pytesseract, etc.)
+- **Expanding on the evaluation dataset** - I think there is some real potential to make the evaluation dataset some kind of gold standard evaluation set for many more games to test LLM capabilities on rule following, synthesis, and reasoning!
+
 
 ### References
 
