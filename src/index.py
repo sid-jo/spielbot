@@ -147,16 +147,47 @@ class ChunkIndex:
         source_type: str = "rulebook",
         top_k: int = 10,
         max_chars: int | None = MAX_CONTENT_CHARS,
+        source_types: list[str] | None = None,
     ) -> list[ChunkResult]:
-        collection = (
-            self._rulebook_collection
-            if source_type == "rulebook"
-            else self._forum_collection
-        )
+        if source_types is not None:
+            if not source_types:
+                return []
+            st_set = set(source_types)
+            rules_set = {"rulebook", "card"}
+            if st_set <= rules_set:
+                collection = self._rulebook_collection
+                where_filter = {
+                    "$and": [
+                        {"game_name": game_name},
+                        {"source_type": {"$in": list(st_set)}},
+                    ],
+                }
+            elif st_set == {"forum"}:
+                collection = self._forum_collection
+                where_filter = {
+                    "$and": [
+                        {"game_name": game_name},
+                        {"source_type": {"$in": ["forum"]}},
+                    ],
+                }
+            else:
+                raise ValueError(
+                    "dense_search source_types must be a subset of "
+                    "{'rulebook', 'card'} or exactly {'forum'}; "
+                    f"got {source_types!r}"
+                )
+        else:
+            collection = (
+                self._rulebook_collection
+                if source_type == "rulebook"
+                else self._forum_collection
+            )
+            where_filter = {"game_name": game_name}
+
         results = collection.query(
             query_texts=[query],
             n_results=top_k,
-            where={"game_name": game_name},
+            where=where_filter,
             include=["metadatas", "distances"],
         )
 
@@ -194,18 +225,50 @@ class ChunkIndex:
         source_type: str = "rulebook",
         top_k: int = 10,
         max_chars: int | None = MAX_CONTENT_CHARS,
+        source_types: list[str] | None = None,
     ) -> list[ChunkResult]:
-        idx_map = self._bm25_indexes.get(game_name, {})
-        if source_type not in idx_map:
-            return []
+        if source_types is not None:
+            if not source_types:
+                return []
+            st_set = set(source_types)
+            rules_set = {"rulebook", "card"}
+            if st_set <= rules_set:
+                suffix = "rulebook"
+            elif st_set == {"forum"}:
+                suffix = "forum"
+            else:
+                raise ValueError(
+                    "bm25_search source_types must be a subset of "
+                    "{'rulebook', 'card'} or exactly {'forum'}; "
+                    f"got {source_types!r}"
+                )
+            idx_map = self._bm25_indexes.get(game_name, {})
+            if suffix not in idx_map:
+                return []
+            chunks = self._bm25_chunks[game_name][suffix]
+            bm25 = idx_map[suffix]
+            if st_set <= rules_set:
+                valid_indices = [
+                    i
+                    for i in range(len(chunks))
+                    if chunks[i]["source_type"] in st_set
+                ]
+            else:
+                valid_indices = list(range(len(chunks)))
+        else:
+            idx_map = self._bm25_indexes.get(game_name, {})
+            if source_type not in idx_map:
+                return []
+            chunks = self._bm25_chunks[game_name][source_type]
+            bm25 = idx_map[source_type]
+            valid_indices = list(range(len(chunks)))
 
         query_tokens = tokenize(query)
-        scores = idx_map[source_type].get_scores(query_tokens)
+        scores = bm25.get_scores(query_tokens)
         top_indices = sorted(
-            range(len(scores)), key=lambda i: scores[i], reverse=True
+            valid_indices, key=lambda i: scores[i], reverse=True
         )[:top_k]
 
-        chunks = self._bm25_chunks[game_name][source_type]
         chunk_results = []
         for idx in top_indices:
             if scores[idx] <= 0:

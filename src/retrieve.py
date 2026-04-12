@@ -17,6 +17,9 @@ DENSE_TOP_K = 15
 SPARSE_TOP_K = 15
 POOL_K = 3  # max chunks per source type; up to 2 * POOL_K total
 
+RULES_TOP_K = 5  # max chunks from rulebook + card sources
+FORUM_TOP_K = 3  # max chunks from forum sources
+
 TIER_BOOST = 0.005  # within-pool tiebreaker for core_rules vs reference
 
 
@@ -75,6 +78,51 @@ def retrieve(
         results.extend(boosted[:pool_k])
 
     return results
+
+
+def retrieve_split(
+    index: ChunkIndex,
+    query: str,
+    game_name: str,
+    rules_top_k: int = RULES_TOP_K,
+    forum_top_k: int = FORUM_TOP_K,
+) -> list[ChunkResult]:
+    """
+    Two-pass hybrid retrieval with separate budgets for rules vs. forum.
+
+    Pass 1: Retrieve from rulebook + card chunks (max rules_top_k)
+    Pass 2: Retrieve from forum chunks (max forum_top_k)
+
+    Each pass does its own dense + BM25 + RRF fusion internally.
+    Results are concatenated with rules first, then forum.
+    """
+    if not query.strip():
+        return []
+
+    rules_types = ["rulebook", "card"]
+    forum_types = ["forum"]
+
+    dense_rules = index.dense_search(
+        query, game_name, top_k=DENSE_TOP_K, source_types=rules_types
+    )
+    sparse_rules = index.bm25_search(
+        query, game_name, top_k=SPARSE_TOP_K, source_types=rules_types
+    )
+    merged_rules = reciprocal_rank_fusion(dense_rules, sparse_rules)
+    boosted_rules = apply_boosts(merged_rules)
+    top_rules = boosted_rules[:rules_top_k]
+
+    dense_forum = index.dense_search(
+        query, game_name, top_k=DENSE_TOP_K, source_types=forum_types
+    )
+    sparse_forum = index.bm25_search(
+        query, game_name, top_k=SPARSE_TOP_K, source_types=forum_types
+    )
+    merged_forum = reciprocal_rank_fusion(dense_forum, sparse_forum)
+    boosted_forum = apply_boosts(merged_forum)
+    top_forum = boosted_forum[:forum_top_k]
+
+    return top_rules + top_forum
 
 
 def _format_source_block(i: int, r: ChunkResult) -> str:
