@@ -56,7 +56,12 @@ def get_embed_text(chunk: dict) -> str:
     """Return the text that should be embedded for a given chunk."""
     if chunk["source_type"] in ("forum", "card"):
         return chunk["embed_text"]
-    return chunk["content"]
+    # Prepend section title to content for embedding
+    title = chunk.get("section_title", "")
+    content = chunk["content"]
+    if title:
+        return f"{title}\n\n{content}"
+    return content
 
 
 def build_metadata(chunk: dict) -> dict:

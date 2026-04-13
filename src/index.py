@@ -61,7 +61,12 @@ def tokenize(text: str) -> list[str]:
 def get_embed_text(chunk: dict) -> str:
     if chunk["source_type"] in ("forum", "card"):
         return chunk["embed_text"]
-    return chunk["content"]
+    # Prepend section title to content for embedding
+    title = chunk.get("section_title", "")
+    content = chunk["content"]
+    if title:
+        return f"{title}\n\n{content}"
+    return content
 
 
 def _trim_content(text: str, max_chars: int | None) -> str:
