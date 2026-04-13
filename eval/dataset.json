@@ -266,7 +266,7 @@
             "game": "splendor",
             "type": "reasoning",
             "question": "When purchasing cards, can I choose to pay with gem tokens instead of cards or vice versa?",
-            "gold_answer": "There is no official order in which you must pay for development cards, so you are allowed to pay using either gems, cards, or a combination of both. Though it is recommended to pay with cards whenever possible as they never go away.",
+            "gold_answer": "Players must use their development cards first to cover the cost of a new card before spending any chip tokens to make up the difference.",
             "relevant_chunk_ids": ["splendor_forum_2909463", "splendor_forum_2878731", "splendor_rulebook_009", "splendor_rulebook_004"],
             "source_note": ""
         }
