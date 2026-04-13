@@ -17,7 +17,7 @@ DENSE_TOP_K = 15
 SPARSE_TOP_K = 15
 POOL_K = 3  # max chunks per source type; up to 2 * POOL_K total
 
-RULES_TOP_K = 5  # max chunks from rulebook + card sources
+RULES_TOP_K = 3  # max chunks from rulebook + card sources
 FORUM_TOP_K = 3  # max chunks from forum sources
 
 TIER_BOOST = 0.005  # within-pool tiebreaker for core_rules vs reference
