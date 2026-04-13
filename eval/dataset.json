@@ -59,7 +59,7 @@
             "game": "catan",
             "type": "reasoning",
             "question": "How many VPs would this be: 4 settlements, 1 city and longest road?",
-            "gold_answer": "4 settlements = 4 VPs, 1 city = 2 VPs, longest road = 2 VPs. Total = 9 VPs.",
+            "gold_answer": "4 settlements = 4 VPs, 1 city = 2 VPs, longest road = 2 VPs. Total = 8 VPs.",
             "relevant_chunk_ids": ["catan_rulebook_055", "catan_rulebook_054"],
             "source_note": ""
         },
@@ -148,7 +148,7 @@
             "id": "7",
             "game": "root",
             "type": "reasoning",
-            "question": "Which faction can lose Victory Points?",
+            "question": "Which factions can lose Victory Points?",
             "gold_answer": "There are 2 factions that can lose Victory Points. The Eyrie lose Victory Points for each bird card in their decree upon turmoil. The Jailor Vagabond loses a Victory Point whenever they choose to take their special action \"Coerce\"",
             "relevant_chunk_ids": ["root_rulebook_119", "root_rulebook_031"],
             "source_note": ""
