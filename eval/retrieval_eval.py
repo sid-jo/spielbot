@@ -1,17 +1,78 @@
 #!/usr/bin/env python3
-"""Evaluate SpielBot retrieval quality against ground-truth chunk annotations."""
+"""Evaluate SpielBot retrieval quality against ground-truth chunk annotations.
+
+Fixed-k metrics use the same cutoffs as production retrieval: Recall@3 / NDCG@3
+(rulebook+card budget) and Recall@6 / NDCG@6 (full merged context: 3 rules + 3 forum).
+"""
 
 import json
 import math
+import re
 import sys
 from pathlib import Path
 from collections import defaultdict
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 from index import ChunkIndex
-from retrieve import retrieve_split
+from retrieve import (
+    FORUM_TOP_K,
+    RULES_TOP_K,
+    TOTAL_RETRIEVED_K,
+    retrieve_split,
+)
 
-K_VALUES = [3, 8]
+# Fixed-k cutoffs: @3 (rulebook+card budget) and @6 (full merged context: rules + forum).
+K_VALUES = [RULES_TOP_K, TOTAL_RETRIEVED_K]
+
+
+def format_metric_label(metric_key: str) -> str:
+    """Human-readable labels, e.g. recall_at_6 -> Recall@6."""
+    if metric_key == "mrr":
+        return "MRR"
+    if metric_key == "map":
+        return "MAP"
+    if metric_key == "r_precision":
+        return "R-Precision"
+    for prefix, name in (
+        ("ndcg_at_", "NDCG"),
+        ("recall_at_", "Recall"),
+        ("hit_rate_at_", "Hit rate"),
+        ("precision_at_", "Precision"),
+    ):
+        if metric_key.startswith(prefix):
+            k = metric_key[len(prefix) :]
+            return f"{name}@{k}"
+    return metric_key.replace("_", " ").title()
+
+
+def normalize_chunk_id(chunk_id: str) -> str:
+    """
+    Normalize a chunk_id to a canonical format for comparison.
+
+    Handles two known inconsistencies:
+    1. Forum IDs: "catan_13_forum_587950" vs "catan_forum_587950"
+       → Strips the game_id segment, producing "catan_forum_587950"
+    2. Rulebook IDs: "catan_rulebook_19" vs "catan_rulebook_019"
+       → Zero-pads the index to 3 digits, producing "catan_rulebook_019"
+    """
+    # Forum: strip game_id segment
+    #   Pattern: {game}_{digits}_forum_{thread_id} → {game}_forum_{thread_id}
+    m = re.match(r"^(\w+)_\d+_forum_(.+)$", chunk_id)
+    if m:
+        return f"{m.group(1)}_forum_{m.group(2)}"
+
+    # Rulebook: zero-pad index
+    #   Pattern: {game}_rulebook_{N} → {game}_rulebook_{NNN}
+    m = re.match(r"^(\w+_rulebook_)(\d+)$", chunk_id)
+    if m:
+        return f"{m.group(1)}{int(m.group(2)):03d}"
+
+    # Card: zero-pad index
+    m = re.match(r"^(\w+_card_)(\d+)$", chunk_id)
+    if m:
+        return f"{m.group(1)}{int(m.group(2)):03d}"
+
+    return chunk_id
 
 
 # ── Adaptive / rank-aware metrics ────────────────────────────────────────
@@ -109,11 +170,19 @@ def evaluate(dataset, idx):
 
     for q in dataset["questions"]:
         results = retrieve_split(idx, q["question"], q["game"])
-        retrieved_ids = [r.chunk_id for r in results]
-        relevant = set(q["relevant_chunk_ids"])
+        retrieved_ids = [normalize_chunk_id(r.chunk_id) for r in results]
+        relevant = {normalize_chunk_id(cid) for cid in q["relevant_chunk_ids"]}
 
-        rulebook_ids = [r.chunk_id for r in results if r.source_type in ("rulebook", "card")]
-        forum_ids = [r.chunk_id for r in results if r.source_type == "forum"]
+        rulebook_ids = [
+            normalize_chunk_id(r.chunk_id)
+            for r in results
+            if r.source_type in ("rulebook", "card")
+        ]
+        forum_ids = [
+            normalize_chunk_id(r.chunk_id)
+            for r in results
+            if r.source_type == "forum"
+        ]
 
         row = {
             "id": q["id"],
@@ -124,7 +193,7 @@ def evaluate(dataset, idx):
             "num_rulebook": len(rulebook_ids),
             "num_forum": len(forum_ids),
             "retrieved_ids": retrieved_ids,
-            "relevant_ids": list(relevant),
+            "relevant_ids": sorted(relevant),
             # ── Primary (adaptive) ──
             "mrr": round(mrr(retrieved_ids, relevant), 4),
             "map": round(average_precision(retrieved_ids, relevant), 4),
@@ -192,7 +261,16 @@ def main():
     per_question = evaluate(dataset, idx)
     summary = aggregate(per_question)
 
-    output = {"per_question": per_question, "summary": summary}
+    output = {
+        "per_question": per_question,
+        "summary": summary,
+        "retrieval_config": {
+            "rules_top_k": RULES_TOP_K,
+            "forum_top_k": FORUM_TOP_K,
+            "total_retrieved_k": TOTAL_RETRIEVED_K,
+            "metric_k_values": K_VALUES,
+        },
+    }
     out_path = eval_dir / "results" / "retrieval_metrics.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(output, indent=2), encoding="utf-8")
@@ -204,8 +282,20 @@ def main():
     print()
     print("─" * (28 + 10 * len(summary["by_game"])))
 
-    for m in ["mrr", "map", "r_precision", "ndcg_at_8", "recall_at_8", "hit_rate_at_8"]:
-        label = m.upper().replace("_AT_", "@")
+    k1, k2 = K_VALUES[0], K_VALUES[-1]
+    primary_metrics = [
+        "mrr",
+        "map",
+        "r_precision",
+        f"ndcg_at_{k1}",
+        f"recall_at_{k1}",
+        f"hit_rate_at_{k1}",
+        f"ndcg_at_{k2}",
+        f"recall_at_{k2}",
+        f"hit_rate_at_{k2}",
+    ]
+    for m in primary_metrics:
+        label = format_metric_label(m)
         print(f"{label:<18} {summary['overall'][m]:>8.3f}  ", end="")
         for g in sorted(summary["by_game"]):
             print(f"{summary['by_game'][g][m]:>10.3f}", end="")
@@ -214,8 +304,16 @@ def main():
     # ── Print comp vs reasoning ──
     print(f"\n{'Metric':<18} {'Comp':>8} {'Reasoning':>10}")
     print("─" * 38)
-    for m in ["mrr", "map", "r_precision", "ndcg_at_8", "recall_at_8"]:
-        label = m.upper().replace("_AT_", "@")
+    for m in [
+        "mrr",
+        "map",
+        "r_precision",
+        f"ndcg_at_{k1}",
+        f"recall_at_{k1}",
+        f"ndcg_at_{k2}",
+        f"recall_at_{k2}",
+    ]:
+        label = format_metric_label(m)
         c_val = summary["by_type"].get("comprehension", {}).get(m, 0)
         r_val = summary["by_type"].get("reasoning", {}).get(m, 0)
         print(f"{label:<18} {c_val:>8.3f} {r_val:>10.3f}")
