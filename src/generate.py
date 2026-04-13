@@ -11,6 +11,7 @@ import os
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Generator
 
 from openai import OpenAI
 
@@ -122,6 +123,79 @@ def generate(
     except Exception as e:
         return GeneratorResponse(
             answer="",
+            game_name=game_name,
+            model=model,
+            query=query,
+            num_sources=len(source_ids),
+            source_ids=source_ids,
+            error=str(e),
+        )
+
+
+def generate_stream(
+    query: str,
+    game_name: str,
+    context: str,
+    source_ids: list[str],
+    system_prompt: str,
+    history: list[dict] | None = None,
+    model: str = DEFAULT_MODEL,
+    temperature: float = DEFAULT_TEMPERATURE,
+    max_tokens: int = DEFAULT_MAX_TOKENS,
+) -> Generator[str, None, GeneratorResponse]:
+    """
+    Stream LLM response tokens. Yields individual text chunks as they arrive.
+    Returns a GeneratorResponse with the complete answer when done.
+
+    Usage:
+        streamer = generate_stream(...)
+        full_answer = ""
+        try:
+            while True:
+                token = next(streamer)
+                print(token, end="", flush=True)
+                full_answer += token
+        except StopIteration as e:
+            response = e.value   # GeneratorResponse with complete answer
+    """
+    messages: list[dict] = [{"role": "system", "content": system_prompt}]
+    if history:
+        messages.extend(history)
+    user_content = (
+        f"--- Retrieved Sources ---\n\n"
+        f"{context}\n\n"
+        f"--- Player Question ---\n\n"
+        f"{query}"
+    )
+    messages.append({"role": "user", "content": user_content})
+
+    full_answer = ""
+    try:
+        client = _get_client()
+        stream = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            temperature=temperature,
+            max_tokens=max_tokens,
+            stream=True,
+        )
+        for chunk in stream:
+            delta = chunk.choices[0].delta
+            if delta and delta.content:
+                full_answer += delta.content
+                yield delta.content
+
+        return GeneratorResponse(
+            answer=full_answer.strip(),
+            game_name=game_name,
+            model=model,
+            query=query,
+            num_sources=len(source_ids),
+            source_ids=source_ids,
+        )
+    except Exception as e:
+        return GeneratorResponse(
+            answer=full_answer.strip(),
             game_name=game_name,
             model=model,
             query=query,

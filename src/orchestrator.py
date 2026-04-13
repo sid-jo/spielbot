@@ -9,9 +9,10 @@ import sys
 import time
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Generator
 
 from bgg_config import GAMES
-from generate import GeneratorResponse, generate
+from generate import GeneratorResponse, generate, generate_stream
 from index import ChunkIndex, ChunkResult
 from prompts import get_system_prompt
 from retrieve import format_context, retrieve_split
@@ -55,6 +56,7 @@ class SpielBotSession:
         model: str | None = None,
         temperature: float | None = None,
         index: ChunkIndex | None = None,
+        eager_load: bool = False,
     ):
         self._model = model
         self._temperature = temperature
@@ -62,6 +64,13 @@ class SpielBotSession:
         self._game_name: str | None = None
         self._system_prompt: str = ""
         self._history: list[dict] = []
+        if eager_load and self._index is None:
+            self._load_index()
+
+    def _load_index(self) -> None:
+        """Load ChunkIndex immediately. Call during startup."""
+        project_root = Path(__file__).parent.parent
+        self._index = ChunkIndex(project_root)
 
     @property
     def game_name(self) -> str | None:
@@ -78,8 +87,7 @@ class SpielBotSession:
 
     def _get_index(self) -> ChunkIndex:
         if self._index is None:
-            project_root = Path(__file__).parent.parent
-            self._index = ChunkIndex(project_root)
+            self._load_index()
         return self._index
 
     def select_game(self, game_name: str) -> None:
@@ -109,7 +117,7 @@ class SpielBotSession:
     def ask(
         self,
         query: str,
-        rules_top_k: int = 5,
+        rules_top_k: int = 3,
         forum_top_k: int = 3,
     ) -> SpielBotAnswer:
         """
@@ -117,7 +125,7 @@ class SpielBotSession:
 
         Steps:
           1. Validate state (game must be selected)
-          2. Retrieve: 5 rulebook+card chunks + 3 forum chunks
+          2. Retrieve: 3 rulebook+card chunks + 3 forum chunks
           3. Format context
           4. Generate with conversation history
           5. Append Q&A to history
@@ -204,23 +212,98 @@ class SpielBotSession:
             error=gen_response.error,
         )
 
+    def ask_stream(
+        self,
+        query: str,
+        rules_top_k: int = 3,
+        forum_top_k: int = 3,
+    ) -> tuple[list[ChunkResult], Generator[str, None, GeneratorResponse]]:
+        """
+        Streaming variant of ask(). Returns retrieved sources and a
+        generator that yields tokens.
 
-def _print_answer(result: SpielBotAnswer, show_sources: bool) -> None:
-    """Format and print a SpielBotAnswer for terminal display."""
-    if result.error:
-        print(f"Error: {result.error}")
-        return
-    print()
-    print(f"SpielBot: {result.answer}")
-    print()
-    sources = result.sources
-    if sources:
-        n_official = sum(
-            1 for s in sources if s.source_type in ("rulebook", "card")
+        Returns:
+            (sources, token_generator)
+            - sources: list of ChunkResult for citation display
+            - token_generator: yields str tokens; final GeneratorResponse
+              is accessible via StopIteration.value
+
+        The caller is responsible for consuming the generator and
+        appending to history afterward.
+        """
+        if not self.has_game:
+            raise ValueError("No game selected. Call select_game() first.")
+
+        idx = self._get_index()
+        results = retrieve_split(
+            idx,
+            query,
+            self._game_name,
+            rules_top_k=rules_top_k,
+            forum_top_k=forum_top_k,
         )
-        n_forum = sum(1 for s in sources if s.source_type == "forum")
-        print(f"  Sources: {n_official} rulebook, {n_forum} forum")
-    if show_sources and sources:
+
+        if not results:
+            no_results = (
+                "I couldn't find any relevant sources for your question. "
+                "Try rephrasing, or make sure you've selected the right game."
+            )
+
+            def _empty_stream() -> Generator[str, None, GeneratorResponse]:
+                yield no_results
+                return GeneratorResponse(
+                    answer=no_results,
+                    game_name=self._game_name,
+                    model="",
+                    query=query,
+                    num_sources=0,
+                    source_ids=[],
+                )
+
+            return [], _empty_stream()
+
+        context = format_context(results)
+        source_ids = [r.chunk_id for r in results]
+
+        gen_kwargs: dict = {}
+        if self._model is not None:
+            gen_kwargs["model"] = self._model
+        if self._temperature is not None:
+            gen_kwargs["temperature"] = self._temperature
+
+        streamer = generate_stream(
+            query=query,
+            game_name=self._game_name,
+            context=context,
+            source_ids=source_ids,
+            system_prompt=self._system_prompt,
+            history=self._history,
+            **gen_kwargs,
+        )
+
+        return results, streamer
+
+    def commit_to_history(self, query: str, answer: str) -> None:
+        """
+        Append a completed Q&A pair to conversation history.
+        Call this after consuming the stream from ask_stream().
+        """
+        self._history.append({"role": "user", "content": query})
+        self._history.append({"role": "assistant", "content": answer})
+        if len(self._history) > MAX_HISTORY_TURNS * 2:
+            self._history = self._history[-(MAX_HISTORY_TURNS * 2) :]
+
+
+def _print_sources(sources: list[ChunkResult], show_sources: bool) -> None:
+    """Print source counts and optional chunk details (matches _print_answer)."""
+    if not sources:
+        return
+    n_official = sum(
+        1 for s in sources if s.source_type in ("rulebook", "card")
+    )
+    n_forum = sum(1 for s in sources if s.source_type == "forum")
+    print(f"  Sources: {n_official} rulebook, {n_forum} forum")
+    if show_sources:
         from retrieve import _format_result_header
 
         print()
@@ -231,6 +314,17 @@ def _print_answer(result: SpielBotAnswer, show_sources: bool) -> None:
                 prev = prev[:200] + "..."
             print(f"    {prev}")
             print()
+
+
+def _print_answer(result: SpielBotAnswer, show_sources: bool) -> None:
+    """Format and print a SpielBotAnswer for terminal display."""
+    if result.error:
+        print(f"Error: {result.error}")
+        return
+    print()
+    print(f"SpielBot: {result.answer}")
+    print()
+    _print_sources(result.sources, show_sources)
 
 
 def _print_game_header(game_name: str) -> None:
@@ -283,6 +377,9 @@ def _interactive_loop(
     print("  🎲 SpielBot")
     print(line)
     print()
+    print("  Loading indexes...")
+    session._load_index()
+    print("  Ready!\n")
 
     chosen = _prompt_game_choice(session)
     if not chosen:
@@ -319,17 +416,36 @@ def _interactive_loop(
             continue
 
         t0 = time.perf_counter()
-        result = session.ask(q)
+        sources, streamer = session.ask_stream(q)
+
+        print()
+        print("SpielBot: ", end="", flush=True)
+        full_answer = ""
+        gen_response = None
+        try:
+            while True:
+                token = next(streamer)
+                print(token, end="", flush=True)
+                full_answer += token
+        except StopIteration as e:
+            gen_response = e.value
+        print("\n")
+
         t1 = time.perf_counter()
 
         if verbose:
             print(f"\n[verbose] retrieval+generate: {(t1 - t0):.2f}s")
-            if result.sources:
+            if sources:
                 print("\n--- Context ---\n")
-                print(format_context(result.sources))
+                print(format_context(sources))
                 print("\n--- End context ---\n")
 
-        _print_answer(result, show_sources)
+        if gen_response and gen_response.error:
+            print(f"Error: {gen_response.error}\n")
+        elif gen_response and sources and not gen_response.error:
+            session.commit_to_history(q, gen_response.answer)
+
+        _print_sources(sources, show_sources)
 
 
 def _run_single_query(
@@ -386,6 +502,7 @@ def main() -> None:
         session = SpielBotSession(
             model=args.model,
             temperature=args.temperature,
+            eager_load=True,
         )
         _interactive_loop(session, args.show_sources, args.verbose)
         return
@@ -403,6 +520,7 @@ def main() -> None:
     session = SpielBotSession(
         model=args.model,
         temperature=args.temperature,
+        eager_load=True,
     )
     _run_single_query(
         session,
