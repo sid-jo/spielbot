@@ -3,123 +3,123 @@
     "setting": "chatbot_ui",
     "answers": [
       {
-        "question_id": "1",
+        "question_id": "catan_1",
         "response": ""
       },
       {
-        "question_id": "2",
+        "question_id": "catan_2",
         "response": ""
       },
       {
-        "question_id": "3",
+        "question_id": "catan_3",
         "response": ""
       },
       {
-        "question_id": "4",
+        "question_id": "catan_4",
         "response": ""
       },
       {
-        "question_id": "5",
+        "question_id": "catan_5",
         "response": ""
       },
       {
-        "question_id": "6",
+        "question_id": "catan_6",
         "response": ""
       },
       {
-        "question_id": "7",
+        "question_id": "catan_7",
         "response": ""
       },
       {
-        "question_id": "8",
+        "question_id": "catan_8",
         "response": ""
       },
       {
-        "question_id": "9",
+        "question_id": "catan_9",
         "response": ""
       },
       {
-        "question_id": "10",
+        "question_id": "catan_10",
         "response": ""
       },
       {
-        "question_id": "11",
+        "question_id": "root_1",
         "response": ""
       },
       {
-        "question_id": "12",
+        "question_id": "root_2",
         "response": ""
       },
       {
-        "question_id": "13",
+        "question_id": "root_3",
         "response": ""
       },
       {
-        "question_id": "14",
+        "question_id": "root_4",
         "response": ""
       },
       {
-        "question_id": "15",
+        "question_id": "root_5",
         "response": ""
       },
       {
-        "question_id": "16",
+        "question_id": "root_6",
         "response": ""
       },
       {
-        "question_id": "17",
+        "question_id": "root_7",
         "response": ""
       },
       {
-        "question_id": "18",
+        "question_id": "root_8",
         "response": ""
       },
       {
-        "question_id": "19",
+        "question_id": "root_9",
         "response": ""
       },
       {
-        "question_id": "20",
+        "question_id": "root_10",
         "response": ""
       },
       {
-        "question_id": "21",
+        "question_id": "splendor_1",
         "response": ""
       },
       {
-        "question_id": "22",
+        "question_id": "splendor_2",
         "response": ""
       },
       {
-        "question_id": "23",
+        "question_id": "splendor_3",
         "response": ""
       },
       {
-        "question_id": "24",
+        "question_id": "splendor_4",
         "response": ""
       },
       {
-        "question_id": "25",
+        "question_id": "splendor_5",
         "response": ""
       },
       {
-        "question_id": "26",
+        "question_id": "splendor_6",
         "response": ""
       },
       {
-        "question_id": "27",
+        "question_id": "splendor_7",
         "response": ""
       },
       {
-        "question_id": "28",
+        "question_id": "splendor_8",
         "response": ""
       },
       {
-        "question_id": "29",
+        "question_id": "splendor_9",
         "response": ""
       },
       {
-        "question_id": "30",
+        "question_id": "splendor_10",
         "response": ""
       }
     ]
