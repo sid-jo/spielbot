@@ -52,6 +52,8 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 04/09/26 | Updated ROOT rulebook with Homeland Expansion Law as well as custom curated card dataset with information on every card across the 3 decks available. |
 | 04/11/26 | Implemented generator component and stitched system together with `orchestrator.py` to support a CLI-based V1 implementation of SpielBot! |
 | 04/12/26 | Created custom evaluation dataset! |
+| 04/13/26 | Began work on evaluation pipeline, running evaluation dataset on standard chatbot UIs (Finished for Chat-GPT)|
+
 ## Future Considerations
  - **Extraction Generalizability** - Make extraction pipeline work over majority of rulebook formats with minimal game-specific revisions
  - **Better quality PDF extraction** - PDF Plumber struggles with multi-column data (a common rulebook format) and for testing purposes it is easier to just manually review and edit each rulebook. I'll need to look into other OCR libraries when I have time (PyPDF, Pytesseract, etc.)
