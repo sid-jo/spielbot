@@ -19,6 +19,8 @@ POOL_K = 3  # max chunks per source type; up to 2 * POOL_K total
 
 RULES_TOP_K = 3  # max chunks from rulebook + card sources
 FORUM_TOP_K = 3  # max chunks from forum sources
+# Total chunks merged for RAG context; eval fixed-k metrics use @3 and @this (see eval/retrieval_eval.py).
+TOTAL_RETRIEVED_K = RULES_TOP_K + FORUM_TOP_K
 
 TIER_BOOST = 0.005  # within-pool tiebreaker for core_rules vs reference
 
