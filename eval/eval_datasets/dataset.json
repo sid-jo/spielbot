@@ -7,7 +7,7 @@
             "question": "How do I build a city?",
             "gold_answer": "Cities must replace one of your existing settlements on the board. Pay 2 grain and 3 ore to the supply and replace the settlement with a city on the same intersection.",
             "relevant_chunk_ids": ["catan_rulebook_020", "catan_rulebook_19", "catan_rulebook_013"],
-            "source_note": ""
+            "tags": ["city", "building costs"]
         },
         {
             "id": "2",
@@ -16,7 +16,7 @@
             "question": "What happens when I run out of roads?",
             "gold_answer": "You have 15 roads in your supply and can only build as many roads are are available in your supply. Do not use other pieces to substitute for roads once you've built all 15 of your roads.",
             "relevant_chunk_ids": ["catan_rulebook_018", "catan_rulebook_041"],
-            "source_note": ""
+            "tags": ["roads", "supply limits"]
         },
         {
             "id": "3",
@@ -25,7 +25,7 @@
             "question": "If I have multiple VP development cards, can I play them all in the same turn?",
             "gold_answer": "If, on your turn, you have reached the victory points (including your Victory Point Cards) required to win, you may reveal all your Victory Point Cards at once.",
             "relevant_chunk_ids": ["catan_rulebook_016", "catan_rulebook_017", "catan_forum_3065075", "catan_forum_3329305", "catan_forum_3448181"],
-            "source_note": ""
+            "tags": ["victory points", "development cards"]
         },
         {
             "id": "4",
@@ -34,7 +34,7 @@
             "question": "How can the Robber get activated?",
             "gold_answer": "The Robber can be activated in two ways: a player rolls a 7 on their turn or a player activates a Knight card on their turn.",
             "relevant_chunk_ids": ["catan_rulebook_017", "catan_rulebook_031", "catan_rulebook_042", "catan_rulebook_043"],
-            "source_note": ""
+            "tags": ["robber", "rolling a 7", "knights", "development cards"]
         },
         {
             "id": "5",
@@ -43,7 +43,7 @@
             "question": "When does the game end?",
             "gold_answer": "A game ends the moment a player reaches at least 10 VPs.",
             "relevant_chunk_ids": ["catan_rulebook_055", "catan_rulebook_017"],
-            "source_note": ""
+            "tags": ["victory points", "game end"]
         },
         {
             "id": "6",
@@ -52,7 +52,7 @@
             "question": "Can I \"give away\" resources with the following trade scheme? Player A trades 2 sheep for 1 wheat with player B. Then, Player A trades 1 wheat for 1 sheep with player B.",
             "gold_answer": "That trade sequence is technically allowed, however the net effect is that Player A effectively gave away 1 sheep to Player B. As a table, you will have to decide if this violates the spirit of the game or is a valid loophole which is allowed to be exploited.",
             "relevant_chunk_ids": ["catan_forum_3496554", "catan_rulebook_040", "catan_rulebook_053"],
-            "source_note": ""
+            "tags": ["trade", "resources"]
         },
         {
             "id": "7",
@@ -61,7 +61,7 @@
             "question": "How many VPs would this be: 4 settlements, 1 city and longest road?",
             "gold_answer": "4 settlements = 4 VPs, 1 city = 2 VPs, longest road = 2 VPs. Total = 8 VPs.",
             "relevant_chunk_ids": ["catan_rulebook_055", "catan_rulebook_054"],
-            "source_note": ""
+            "tags": ["victory points", "settlements", "cities", "longest road"]
         },
         {
             "id": "8",
@@ -70,7 +70,7 @@
             "question": "How are ties broken if multiple people reach 10 VPs at the same time?",
             "gold_answer": "The game ends when a player reaches at least 10 VPs at some point during their own turn. Therefore, it is not possible to have multiple players tie for 10 VPs.",
             "relevant_chunk_ids": ["catan_forum_587950", "catan_forum_3222490", "catan_rulebook_055"],
-            "source_note": ""
+            "tags": ["victory points", "game end"]
         },
         {
             "id": "9",
@@ -79,7 +79,7 @@
             "question": "When discarding cards for the Robber, do development cards count toward hand size?",
             "gold_answer": "No, only resource cards (sheep, grain, bricks, ore, and wood) count toward hand size. Neither revealed nor unrevealed development cards should be included.",
             "relevant_chunk_ids": ["catan_forum_952874", "catan_rulebook_042", "catan_rulebook_043"],
-            "source_note": ""
+            "tags": ["robber", "rolling a 7", "resources", "development cards"]
         },
         {
             "id": "10",
@@ -88,7 +88,7 @@
             "question": "Can new settlements be built on existing roads?",
             "gold_answer": "So long as you obey the Distance Rule and at the settlement connects to at least one of your roads, building a settlement is allowed.",
             "relevant_chunk_ids": ["catan_forum_742628", "catan_rulebook_025", "catan_rulebook_013"],
-            "source_note": ""
+            "tags": ["roads", "settlements", "distance rule"]
         },
         {
             "id": "1",
@@ -97,7 +97,7 @@
             "question": "What happens when the birds turmoil for the 4th time?",
             "gold_answer": "Upon turmoiling for the 4th time, the Eyrie leaders are flipped face-up and a new one is chosen, including the leader that was just deposed.",
             "relevant_chunk_ids": ["root_forum_3646341", "root_rulebook_031"],
-            "source_note": ""
+            "tags": ["eyrie dynasties", "turmoil"]
         },
         {
             "id": "2",
@@ -106,7 +106,7 @@
             "question": "What are the types of Corvid plots?",
             "gold_answer": "The Corvid plots are Raid, Snare, Extortion, and Bomb.",
             "relevant_chunk_ids": ["root_rulebook_072"],
-            "source_note": ""
+            "tags": ["corvid conspiracy", "plot tokens"]
         },
         {
             "id": "3",
@@ -115,7 +115,7 @@
             "question": "What is the difference between buildings, tokens, and units?",
             "gold_answer": "Units (warriors) are the pieces that are used to attack and defend in battle. Buildings are the square pieces that can only be placed on empty building spaces in clearings. Tokens are the round pieces that factions can place in clearings. There is no limit to the number of tokens or warriors that can be placed in a clearing and only the number of buildings and warriors count toward a faction's Rule of a clearing. Additionally, each building or token removed in battle rewards the attacker with 1 victory point.",
             "relevant_chunk_ids": ["root_rulebook_110", "root_rulebook_111", "root_rulebook_017"],
-            "source_note": ""
+            "tags": ["buildings", "tokens", "warriors", "rule"]
         },
         {
             "id": "4",
@@ -124,7 +124,7 @@
             "question": "If I strike another faction piece as the Vagabond, does that make my relationship hostile with that faction?",
             "gold_answer": "It depends on the particular piece you are removing with the Strike action. A vagabond's relationship with a faction becomes Hostile if the vagabond removes a warrior piece. If Strike is used to remove a building or token, then nothing happens to the relationship.",
             "relevant_chunk_ids": ["root_rulebook_041", "root_rulebook_042", "root_rulebook_046"],
-            "source_note": ""
+            "tags": ["vagabond", "strike", "relationship", "hostile"]
         },
         {
             "id": "5",
@@ -133,7 +133,7 @@
             "question": "When can an ambush card be used?",
             "gold_answer": "Ambush cards are to be used in battle, before the die roll. The defender can play it to remove two opponent pieces from the board, starting with warriors before removing buildings/tokens. The attacker can play an Ambush in response to a defender's Ambush to cancel the defender's Ambush effect and continue battle as normal.",
             "relevant_chunk_ids": ["root_rulebook_016", "root_card_001"],
-            "source_note": ""
+            "tags": ["ambush", "battle"]
         },
         {
             "id": "6",
@@ -142,7 +142,7 @@
             "question": "How does alliance revolt interact with the Lost City landmark?",
             "gold_answer": "Since the Lost City clearing counts for all suits at once, the Woodland Alliance revolt can be triggered there using supporters of any suit combination to remove all enemy pieces and build a base of any suit (if there isn't already a base in that clearing and a building space is available).",
             "relevant_chunk_ids": ["root_rulebook_036", "root_rulebook_115", "root_forum_3620718", "root_forum_3579652"],
-            "source_note": ""
+            "tags": ["woodland alliance", "lost city", "revolt"]
         },
         {
             "id": "7",
@@ -151,7 +151,7 @@
             "question": "Which factions can lose Victory Points?",
             "gold_answer": "There are 2 factions that can lose Victory Points. The Eyrie lose Victory Points for each bird card in their decree upon turmoil. The Jailor Vagabond loses a Victory Point whenever they choose to take their special action \"Coerce\"",
             "relevant_chunk_ids": ["root_rulebook_119", "root_rulebook_031"],
-            "source_note": ""
+            "tags": ["victory points", "eyrie dynasties", "jailor vagabond"]
         },
         {
             "id": "8",
@@ -160,7 +160,7 @@
             "question": "Can the Riverfolk Company use the Tunnels card to move between trade posts?",
             "gold_answer": "Trading posts do not count as crafting pieces (in fact, the Riverfolk don't have crafting pieces) so travelling between them with Tunnels is not possible.",
             "relevant_chunk_ids": ["root_rulebook_056", "root_card_072"],
-            "source_note": ""
+            "tags": ["riverfolk company", "tunnels", "cards", "trade post tokens"]
         },
         {
             "id": "9",
@@ -169,7 +169,7 @@
             "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
             "gold_answer": "Mercenaries are only active during Daylight and Evening, not Birdsong, so buying them will not help when checking for a Dominance victory on the same turn.",
             "relevant_chunk_ids": ["root_rulebook_056", "root_rulebook_057", "root_card_021"],
-            "source_note": ""
+            "tags": ["riverfolk company", "mercenaries", "dominance", "cards"]
         },
         {
             "id": "10",
@@ -178,7 +178,7 @@
             "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
             "gold_answer": "No. In order to Scorched Earth a clearing, the Scoundrel Vagabond must exhaust their Torch and place it into their clearing. The Marquise Keep prevents anyone other than the Marquise from placing pieces into the Keep's clearing, so it is impossible to Scorched Earth the Keep.",
             "relevant_chunk_ids": ["root_rulebook_118", "root_rulebook_022", "root_rulebook_110"],
-            "source_note": ""
+            "tags": ["scoundrel vagabond", "scorched earth", "marquise de cat", "marquise keep"]
         },
         {
             "id": "1",
@@ -187,7 +187,7 @@
             "question": "If a player qualifies for multiple nobles, can they take all of them on their turn?",
             "gold_answer": "No, players must only collect 1 noble per turn should they meet that noble's requirement. If a player qualifies for multiple, they must choose 1 to collect.",
             "relevant_chunk_ids": ["splendor_rulebook_005", "splendor_rulebook_011", "splendor_forum_2824299"],
-            "source_note": ""
+            "tags": ["nobles"]
         },
         {
             "id": "2",
@@ -196,7 +196,7 @@
             "question": "How do you win a noble?",
             "gold_answer": "Each noble has a card requirement on their tile which, upon fulfillment, rewards the player with the noble at the end of their turn. This does not count as an action and is automatically done when a player has purchased the combination of cards necessary to win the noble tile.",
             "relevant_chunk_ids": ["splendor_rulebook_005", "splendor_rulebook_011"],
-            "source_note": ""
+            "tags": ["nobles"]
         },
         {
             "id": "3",
@@ -205,7 +205,7 @@
             "question": "Can I take 2 gems of the same color if there are only 3 left?",
             "gold_answer": "No, you can only take two gems of the same color if there are at least four gems of that color available in the supply. If fewer than four remain, you must choose three gems of different colors instead.",
             "relevant_chunk_ids": ["splendor_rulebook_007", "splendor_rulebook_006"],
-            "source_note": ""
+            "tags": ["gem tokens", "performing actions"]
         },
         {
             "id": "4",
@@ -214,7 +214,7 @@
             "question": "How many tokens are there in the game?",
             "gold_answer": "There are a total of 40 tokens in the game; 7 of each of the 5 gems and 5 gold tokens.",
             "relevant_chunk_ids": ["splendor_rulebook_000"],
-            "source_note": ""
+            "tags": ["gem tokens", "gold tokens"]
         },
         {
             "id": "5",
@@ -223,7 +223,7 @@
             "question": "Which cards can I buy on my turn?",
             "gold_answer": "You can buy any of the 12 face-up cards in the center of the play area so long as you have the tokens and/or cards to pay for it.",
             "relevant_chunk_ids": ["splendor_rulebook_004", "splendor_rulebook_006", "splendor_rulebook_009"],
-            "source_note": ""
+            "tags": ["development cards", "reserved cards", "performing actions"]
         },
         {
             "id": "6",
@@ -232,7 +232,7 @@
             "question": "If I cannot take 3 different colored gem tokens because there are only 2 colors left, each with less than 4 in stock, am I allowed to take just 2?",
             "gold_answer": "Yes, you are allowed to take up to 3 different colored gem tokens if this is the case.",
             "relevant_chunk_ids": ["splendor_rulebook_006", "splendor_forum_2013374", "splendor_forum_2557740"],
-            "source_note": ""
+            "tags": ["gem tokens", "performing actions"]
         },
         {
             "id": "7",
@@ -241,7 +241,7 @@
             "question": "Can I spend 4 gold tokens to buy a card that costs 4 gems?",
             "gold_answer": "Yes, there is no limit to how many gold tokens you can spend when purchasing a card.",
             "relevant_chunk_ids": ["splendor_rulebook_008", "splendor_rulebook_009", "splendor_forum_2792365", "splendor_forum_2891080"],
-            "source_note": ""
+            "tags": ["gold tokens"]
         },
         {
             "id": "8",
@@ -250,7 +250,7 @@
             "question": "Do reserved cards need to be visible to all other players at the table?",
             "gold_answer": "There is no official ruling on this issue. Many players treat reserved cards as hidden information, however, others treat it as public information to allow for counter-strategies.",
             "relevant_chunk_ids": ["splendor_forum_1308007", "splendor_forum_1282556", "splendor_rulebook_008", "splendor_rulebook_009"],
-            "source_note": ""
+            "tags": ["reserved cards"]
         },
         {
             "id": "9",
@@ -259,7 +259,7 @@
             "question": "What happens when a player cannot do any of the three required actions on their turn?",
             "gold_answer": "While there is no official rules on this, the community and publishers have agreed that the player can pass on their turn.",
             "relevant_chunk_ids": ["splendor_rulebook_006", "splendor_forum_2907875"],
-            "source_note": ""
+            "tags": ["performing actions"]
         },
         {
             "id": "10",
@@ -268,7 +268,7 @@
             "question": "When purchasing cards, can I choose to pay with gem tokens instead of cards or vice versa?",
             "gold_answer": "Players must use their development cards first to cover the cost of a new card before spending any chip tokens to make up the difference.",
             "relevant_chunk_ids": ["splendor_forum_2909463", "splendor_forum_2878731", "splendor_rulebook_009", "splendor_rulebook_004"],
-            "source_note": ""
+            "tags": ["gem tokens", "development cards", "performing actions"]
         }
     ]  
 }
