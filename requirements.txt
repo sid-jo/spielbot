@@ -5,3 +5,4 @@ chromadb
 sentence-transformers
 rank-bm25
 openai>=1.0.0
+matplotlib
