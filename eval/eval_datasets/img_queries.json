@@ -1,0 +1,76 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "img_id": "catan_1",
+            "game": "catan",
+            "question": "",
+            "gold_answer": "",
+            "relevant_chunk_ids": []
+        },
+        {
+            "id": "2",
+            "img_id": "catan_2",
+            "game": "catan",
+            "question": "",
+            "gold_answer": "",
+            "relevant_chunk_ids": []
+        },
+        {
+            "id": "3",
+            "img_id": "catan_3",
+            "game": "catan",
+            "question": "",
+            "gold_answer": "",
+            "relevant_chunk_ids": []
+        },
+        {
+            "id": "4",
+            "img_id": "root_1",
+            "game": "root",
+            "question": "",
+            "gold_answer": "",
+            "relevant_chunk_ids": []
+        },
+        {
+            "id": "5",
+            "img_id": "root_2",
+            "game": "root",
+            "question": "",
+            "gold_answer": "",
+            "relevant_chunk_ids": []
+        },
+        {
+            "id": "6",
+            "img_id": "root_3",
+            "game": "root",
+            "question": "",
+            "gold_answer": "",
+            "relevant_chunk_ids": []
+        },
+        {
+            "id": "7",
+            "img_id": "splendor_1",
+            "game": "splendor",
+            "question": "",
+            "gold_answer": "",
+            "relevant_chunk_ids": []
+        },
+        {
+            "id": "8",
+            "img_id": "splendor_2",
+            "game": "splendor",
+            "question": "",
+            "gold_answer": "",
+            "relevant_chunk_ids": []
+        },
+        {
+            "id": "9",
+            "img_id": "splendor_3",
+            "game": "splendor",
+            "question": "",
+            "gold_answer": "",
+            "relevant_chunk_ids": []
+        }
+    ]  
+}
