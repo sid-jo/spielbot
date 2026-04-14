@@ -39,9 +39,9 @@ _load_env()
 LITELLM_BASE_URL_ENV = "LITELLM_BASE_URL"
 LITELLM_API_KEY_ENV = "LITELLM_API_KEY"
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gpt-5"
 DEFAULT_TEMPERATURE = 0.2
-DEFAULT_MAX_TOKENS = 1024
+DEFAULT_MAX_TOKENS = 4096
 
 _client: OpenAI | None = None
 
@@ -94,12 +94,7 @@ def generate(
     if history:
         messages.extend(history)
 
-    user_content = (
-        f"--- Retrieved Sources ---\n\n"
-        f"{context}\n\n"
-        f"--- Player Question ---\n\n"
-        f"{query}"
-    )
+    user_content = build_user_content(query, game_name, context, source_ids)
     messages.append({"role": "user", "content": user_content})
 
     try:

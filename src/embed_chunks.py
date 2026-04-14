@@ -7,7 +7,7 @@ from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunct
 
 from bgg_config import GAMES
 
-EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5" # 384 dim
+EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"  # 768 dim
 COLLECTION_PREFIX = "spielbot"
 RULEBOOK_COLLECTION = f"{COLLECTION_PREFIX}_rulebook"
 FORUM_COLLECTION = f"{COLLECTION_PREFIX}_forum"
