@@ -30,7 +30,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] RAG orchestrator script (Use CMU LiteLLM instance)
 - [ ] Image and text encoder (might use Gemma)
 - [ ] VLM inference pipeline (access LlaVa or more SOTA/free VLM through Groq)
-- [ ] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
+- [x] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
 - [ ] Implement UI mockup + game selection menu
 
 
@@ -52,7 +52,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 04/09/26 | Updated ROOT rulebook with Homeland Expansion Law as well as custom curated card dataset with information on every card across the 3 decks available. |
 | 04/11/26 | Implemented generator component and stitched system together with `orchestrator.py` to support a CLI-based V1 implementation of SpielBot! |
 | 04/12/26 | Created custom evaluation dataset! |
-| 04/13/26 | Began work on evaluation pipeline, running evaluation dataset on standard chatbot UIs (Finished for Chat-GPT)|
+| 04/13/26 | Finished bullk of evaluation pipeline aside from the reporting scripts. Got initial results for each of the experiment modes and Spielbot is sadly not doing better than GPT with the PDF attachment. |
 
 ## Future Considerations
  - **Extraction Generalizability** - Make extraction pipeline work over majority of rulebook formats with minimal game-specific revisions
