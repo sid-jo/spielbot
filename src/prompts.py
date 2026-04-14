@@ -115,10 +115,6 @@ Key things to watch for:
   defenseless modifier, and Ambush cards
 - Card data sources include effects, costs, suits, and activation types
   (Paper = one-time, Stone = persistent)
-
-When answering about card effects, specify the card's suit, cost, and
-whether it is a Paper (one-time use, discarded after craft) or Stone
-(persistent effect) card.
 """,
 }
 
