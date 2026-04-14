@@ -85,7 +85,7 @@
             "id": "10",
             "game": "catan",
             "type": "reasoning",
-            "question": "Can new settlements be built on existing roads?",
+            "question": "Can new settlements be built between existing roads?",
             "gold_answer": "So long as you obey the Distance Rule and at the settlement connects to at least one of your roads, building it along an existing road is allowed.",
             "relevant_chunk_ids": ["catan_forum_742628", "catan_rulebook_025", "catan_rulebook_013"],
             "tags": ["roads", "settlements", "distance rule"]
