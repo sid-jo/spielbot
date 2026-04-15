@@ -1,0 +1,442 @@
+{
+  "answer_quality": {
+    "by_setting": {
+      "s1_claude-4.6-sonnet": {
+        "correctness_mean": 3.9,
+        "completeness_mean": 4.13,
+        "conciseness_mean": 3.03,
+        "composite_mean": 3.69,
+        "n": 30,
+        "model": "claude-4.6-sonnet"
+      },
+      "s1_gemini-3-flash": {
+        "correctness_mean": 3.77,
+        "completeness_mean": 3.97,
+        "conciseness_mean": 2.47,
+        "composite_mean": 3.4,
+        "n": 30,
+        "model": "gemini-3-flash"
+      },
+      "s1_gpt-5.3": {
+        "correctness_mean": 3.5,
+        "completeness_mean": 3.6,
+        "conciseness_mean": 3.13,
+        "composite_mean": 3.41,
+        "n": 30,
+        "model": "gpt-5.3"
+      },
+      "s1_perplexity-sonar": {
+        "correctness_mean": 4.27,
+        "completeness_mean": 4.37,
+        "conciseness_mean": 2.17,
+        "composite_mean": 3.6,
+        "n": 30,
+        "model": "perplexity-sonar"
+      },
+      "s2_gpt5_prompt": {
+        "correctness_mean": 4.33,
+        "completeness_mean": 4.23,
+        "conciseness_mean": 3.63,
+        "composite_mean": 4.07,
+        "n": 30,
+        "model": "gpt-5"
+      },
+      "s3_gpt5_pdf": {
+        "correctness_mean": 4.57,
+        "completeness_mean": 4.57,
+        "conciseness_mean": 3.87,
+        "composite_mean": 4.33,
+        "n": 30,
+        "model": "gpt-5"
+      },
+      "s4_spielbot": {
+        "correctness_mean": 3.8,
+        "completeness_mean": 3.77,
+        "conciseness_mean": 3.3,
+        "composite_mean": 3.62,
+        "n": 30,
+        "model": "gpt-5"
+      }
+    },
+    "by_setting_and_game": {
+      "s1_claude-4.6-sonnet": {
+        "catan": {
+          "correctness_mean": 4.6,
+          "completeness_mean": 4.8,
+          "conciseness_mean": 3.2,
+          "composite_mean": 4.2,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 3.1,
+          "completeness_mean": 3.4,
+          "conciseness_mean": 2.7,
+          "composite_mean": 3.07,
+          "n": 10
+        },
+        "splendor": {
+          "correctness_mean": 4,
+          "completeness_mean": 4.2,
+          "conciseness_mean": 3.2,
+          "composite_mean": 3.8,
+          "n": 10
+        }
+      },
+      "s1_gemini-3-flash": {
+        "catan": {
+          "correctness_mean": 4.1,
+          "completeness_mean": 4.2,
+          "conciseness_mean": 2.7,
+          "composite_mean": 3.67,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 3.3,
+          "completeness_mean": 3.6,
+          "conciseness_mean": 2.1,
+          "composite_mean": 3.0,
+          "n": 10
+        },
+        "splendor": {
+          "correctness_mean": 3.9,
+          "completeness_mean": 4.1,
+          "conciseness_mean": 2.6,
+          "composite_mean": 3.53,
+          "n": 10
+        }
+      },
+      "s1_gpt-5.3": {
+        "catan": {
+          "correctness_mean": 4.6,
+          "completeness_mean": 4.7,
+          "conciseness_mean": 3.5,
+          "composite_mean": 4.27,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 2.1,
+          "completeness_mean": 1.9,
+          "conciseness_mean": 2.5,
+          "composite_mean": 2.17,
+          "n": 10
+        },
+        "splendor": {
+          "correctness_mean": 3.8,
+          "completeness_mean": 4.2,
+          "conciseness_mean": 3.4,
+          "composite_mean": 3.8,
+          "n": 10
+        }
+      },
+      "s1_perplexity-sonar": {
+        "catan": {
+          "correctness_mean": 4.1,
+          "completeness_mean": 4.5,
+          "conciseness_mean": 2.2,
+          "composite_mean": 3.6,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 4.4,
+          "completeness_mean": 4.4,
+          "conciseness_mean": 2.2,
+          "composite_mean": 3.67,
+          "n": 10
+        },
+        "splendor": {
+          "correctness_mean": 4.3,
+          "completeness_mean": 4.2,
+          "conciseness_mean": 2.1,
+          "composite_mean": 3.53,
+          "n": 10
+        }
+      },
+      "s2_gpt5_prompt": {
+        "catan": {
+          "correctness_mean": 4.8,
+          "completeness_mean": 4.6,
+          "conciseness_mean": 3.8,
+          "composite_mean": 4.4,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 3.6,
+          "completeness_mean": 3.7,
+          "conciseness_mean": 3.3,
+          "composite_mean": 3.53,
+          "n": 10
+        },
+        "splendor": {
+          "correctness_mean": 4.6,
+          "completeness_mean": 4.4,
+          "conciseness_mean": 3.8,
+          "composite_mean": 4.27,
+          "n": 10
+        }
+      },
+      "s3_gpt5_pdf": {
+        "catan": {
+          "correctness_mean": 4.7,
+          "completeness_mean": 4.8,
+          "conciseness_mean": 3.1,
+          "composite_mean": 4.2,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 4.7,
+          "completeness_mean": 4.8,
+          "conciseness_mean": 4.1,
+          "composite_mean": 4.53,
+          "n": 10
+        },
+        "splendor": {
+          "correctness_mean": 4.3,
+          "completeness_mean": 4.1,
+          "conciseness_mean": 4.4,
+          "composite_mean": 4.27,
+          "n": 10
+        }
+      },
+      "s4_spielbot": {
+        "catan": {
+          "correctness_mean": 4.2,
+          "completeness_mean": 4.1,
+          "conciseness_mean": 3.7,
+          "composite_mean": 4.0,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 3.5,
+          "completeness_mean": 3.5,
+          "conciseness_mean": 2.8,
+          "composite_mean": 3.27,
+          "n": 10
+        },
+        "splendor": {
+          "correctness_mean": 3.7,
+          "completeness_mean": 3.7,
+          "conciseness_mean": 3.4,
+          "composite_mean": 3.6,
+          "n": 10
+        }
+      }
+    },
+    "by_setting_and_type": {
+      "s1_claude-4.6-sonnet": {
+        "comprehension": {
+          "correctness_mean": 4.13,
+          "completeness_mean": 4.33,
+          "conciseness_mean": 3.07,
+          "composite_mean": 3.84,
+          "n": 15
+        },
+        "reasoning": {
+          "correctness_mean": 3.67,
+          "completeness_mean": 3.93,
+          "conciseness_mean": 3,
+          "composite_mean": 3.53,
+          "n": 15
+        }
+      },
+      "s1_gemini-3-flash": {
+        "comprehension": {
+          "correctness_mean": 4.47,
+          "completeness_mean": 4.53,
+          "conciseness_mean": 2.47,
+          "composite_mean": 3.82,
+          "n": 15
+        },
+        "reasoning": {
+          "correctness_mean": 3.07,
+          "completeness_mean": 3.4,
+          "conciseness_mean": 2.47,
+          "composite_mean": 2.98,
+          "n": 15
+        }
+      },
+      "s1_gpt-5.3": {
+        "comprehension": {
+          "correctness_mean": 3.53,
+          "completeness_mean": 3.87,
+          "conciseness_mean": 2.93,
+          "composite_mean": 3.44,
+          "n": 15
+        },
+        "reasoning": {
+          "correctness_mean": 3.47,
+          "completeness_mean": 3.33,
+          "conciseness_mean": 3.33,
+          "composite_mean": 3.38,
+          "n": 15
+        }
+      },
+      "s1_perplexity-sonar": {
+        "comprehension": {
+          "correctness_mean": 4.87,
+          "completeness_mean": 4.87,
+          "conciseness_mean": 2,
+          "composite_mean": 3.91,
+          "n": 15
+        },
+        "reasoning": {
+          "correctness_mean": 3.67,
+          "completeness_mean": 3.87,
+          "conciseness_mean": 2.33,
+          "composite_mean": 3.29,
+          "n": 15
+        }
+      },
+      "s2_gpt5_prompt": {
+        "comprehension": {
+          "correctness_mean": 4.4,
+          "completeness_mean": 4.2,
+          "conciseness_mean": 3.67,
+          "composite_mean": 4.09,
+          "n": 15
+        },
+        "reasoning": {
+          "correctness_mean": 4.27,
+          "completeness_mean": 4.27,
+          "conciseness_mean": 3.6,
+          "composite_mean": 4.04,
+          "n": 15
+        }
+      },
+      "s3_gpt5_pdf": {
+        "comprehension": {
+          "correctness_mean": 4.8,
+          "completeness_mean": 4.73,
+          "conciseness_mean": 3.8,
+          "composite_mean": 4.44,
+          "n": 15
+        },
+        "reasoning": {
+          "correctness_mean": 4.33,
+          "completeness_mean": 4.4,
+          "conciseness_mean": 3.93,
+          "composite_mean": 4.22,
+          "n": 15
+        }
+      },
+      "s4_spielbot": {
+        "comprehension": {
+          "correctness_mean": 4.13,
+          "completeness_mean": 4.07,
+          "conciseness_mean": 3.13,
+          "composite_mean": 3.78,
+          "n": 15
+        },
+        "reasoning": {
+          "correctness_mean": 3.47,
+          "completeness_mean": 3.47,
+          "conciseness_mean": 3.47,
+          "composite_mean": 3.47,
+          "n": 15
+        }
+      }
+    }
+  },
+  "retrieval_quality": {
+    "overall": {
+      "mrr": 0.6706,
+      "map": 0.4218,
+      "r_precision": 0.4,
+      "ndcg_at_5": 0.4758,
+      "ndcg_at_8": 0.5578,
+      "recall_at_5": 0.5,
+      "recall_at_8": 0.6633,
+      "hit_rate_at_5": 0.9,
+      "hit_rate_at_8": 0.9333,
+      "precision_at_5": 0.2667,
+      "precision_at_8": 0.2333
+    },
+    "n": 30,
+    "by_game": {
+      "catan": {
+        "mrr": 0.6,
+        "map": 0.3421,
+        "r_precision": 0.425,
+        "ndcg_at_5": 0.4234,
+        "ndcg_at_8": 0.4958,
+        "recall_at_5": 0.475,
+        "recall_at_8": 0.615,
+        "hit_rate_at_5": 0.9,
+        "hit_rate_at_8": 1.0,
+        "precision_at_5": 0.26,
+        "precision_at_8": 0.225,
+        "n": 10
+      },
+      "root": {
+        "mrr": 0.6783,
+        "map": 0.3986,
+        "r_precision": 0.3917,
+        "ndcg_at_5": 0.469,
+        "ndcg_at_8": 0.5178,
+        "recall_at_5": 0.475,
+        "recall_at_8": 0.575,
+        "hit_rate_at_5": 0.9,
+        "hit_rate_at_8": 0.9,
+        "precision_at_5": 0.24,
+        "precision_at_8": 0.1875,
+        "n": 10
+      },
+      "splendor": {
+        "mrr": 0.7333,
+        "map": 0.5246,
+        "r_precision": 0.3833,
+        "ndcg_at_5": 0.535,
+        "ndcg_at_8": 0.6598,
+        "recall_at_5": 0.55,
+        "recall_at_8": 0.8,
+        "hit_rate_at_5": 0.9,
+        "hit_rate_at_8": 0.9,
+        "precision_at_5": 0.3,
+        "precision_at_8": 0.2875,
+        "n": 10
+      }
+    },
+    "by_type": {
+      "comprehension": {
+        "mrr": 0.6333,
+        "map": 0.4684,
+        "r_precision": 0.4611,
+        "ndcg_at_5": 0.5377,
+        "ndcg_at_8": 0.579,
+        "recall_at_5": 0.6056,
+        "recall_at_8": 0.6878,
+        "hit_rate_at_5": 0.8,
+        "hit_rate_at_8": 0.8667,
+        "precision_at_5": 0.3067,
+        "precision_at_8": 0.225,
+        "n": 15,
+        "avg_num_relevant": 2.5
+      },
+      "reasoning": {
+        "mrr": 0.7078,
+        "map": 0.3751,
+        "r_precision": 0.3389,
+        "ndcg_at_5": 0.4139,
+        "ndcg_at_8": 0.5366,
+        "recall_at_5": 0.3944,
+        "recall_at_8": 0.6389,
+        "hit_rate_at_5": 1.0,
+        "hit_rate_at_8": 1.0,
+        "precision_at_5": 0.2267,
+        "precision_at_8": 0.2417,
+        "n": 15,
+        "avg_num_relevant": 3.0
+      }
+    }
+  },
+  "retrieval_config": {
+    "rules_top_k": 5,
+    "forum_top_k": 3,
+    "total_retrieved_k": 8,
+    "metric_k_values": [
+      5,
+      8
+    ],
+    "cross_encoder_rerank": true,
+    "embedding_model": "BAAI/bge-base-en-v1.5"
+  }
+}
