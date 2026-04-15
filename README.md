@@ -19,7 +19,6 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 
 - [x] Repo structure and initial setup
 - [x] Text Q&A evaluation dataset curated
-- [x] Image-text dataset curated
 - [x] Baseline outputs collected across ChatGPT, Claude, Gemini, and DeepSeek
 - [x] Data pipeline — PDF rulebook ingestion + BGG forum scraping
 - [x] Processing script for BGG data to prep for question-based embedding
@@ -28,8 +27,8 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] Chunk embedding with ChromaDB vector store
 - [x] Implement dense and sparse retrievers (BM25)
 - [x] RAG orchestrator script (Use CMU LiteLLM instance)
-- [ ] Image and text encoder (might use Gemma)
-- [ ] VLM inference pipeline (access LlaVa or more SOTA/free VLM through Groq)
+- [x] Image-text dataset curated
+- [ ] VLM inference pipeline (to be done via Gemma, need to explore options with Barry first)
 - [x] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
 - [ ] Implement UI mockup + game selection menu
 
