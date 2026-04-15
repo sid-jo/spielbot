@@ -79,7 +79,7 @@
       "question_id": "catan_10",
       "game": "catan",
       "type": "reasoning",
-      "question": "Can new settlements be built on existing roads?",
+      "question": "Can new settlements be built along existing roads?",
       "response": "No.\n\nIn Catan, settlements are placed only on **intersections (the points where three hex corners meet)**, not on roads.\n\nRoads don\u2019t serve as building spots. They only connect intersections and expand your network.\n\nA couple of related rules that usually cause confusion:\n\n* You can only build a settlement on an intersection if it is **at least 2 edges away from any other settlement or city**.\n* After initial setup, any new settlement you place must also be **connected to one of your existing roads**.\n* Roads themselves do not block placement directly, except that they may determine where your connected network reaches.\n\nSo even if a road is running through a spot, it doesn\u2019t change anything about whether a settlement can go there. The key is the intersection, not the road.",
       "latency_ms": -1
     },

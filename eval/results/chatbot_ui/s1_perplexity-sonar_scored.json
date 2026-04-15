@@ -133,7 +133,7 @@
       "question_id": "catan_10",
       "game": "catan",
       "type": "reasoning",
-      "question": "Can new settlements be built on existing roads?",
+      "question": "Can new settlements be built along existing roads?",
       "response": "**Yes, in Catan, new settlements can be built on intersections along existing roads.**\n\n## Key Rules\nSettlements must connect to one of your own existing roads, settlements, or cities. Your own settlements do not break the continuity of your road network, allowing placement at any valid intersection along your roads. [catan](https://www.catan.com/sites/default/files/2021-06/catan-family-rules-overview.pdf)\n\nThe primary restriction is the distance rule: New settlements (or cities) must be at least two road segments away from any other settlement or city, belonging to any player. [reddit](https://www.reddit.com/r/Catan/comments/1dwj080/can_you_add_a_settlement_here_after_the_roads/)\n\n## Strategic Notes\nThis enables tactics like placing roads ahead to reserve spots or block opponents, then building settlements later. Players can even build on intersections in the middle of another player's road (if the distance rule allows), splitting their Longest Road. [blog.colonist](https://blog.colonist.io/catan-faq/)\n\nIn summary, as long as the spot touches your road and meets the two-road distance requirement, it's valid\u2014making road extension a key part of expansion. [reddit](https://www.reddit.com/r/Catan/comments/1dwj080/can_you_add_a_settlement_here_after_the_roads/)",
       "latency_ms": -1,
       "scores": {

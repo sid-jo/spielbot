@@ -214,7 +214,7 @@
       "question_id": "catan_10",
       "game": "catan",
       "type": "reasoning",
-      "question": "Can new settlements be built on existing roads?",
+      "question": "Can new settlements be built along existing roads?",
       "response": "Short answer: Yes\u2014at an empty intersection, even if roads are already along the adjacent paths. Settlements are placed on intersections (not on top of road segments) and may be built there if the spot connects to at least one of your roads and the Distance Rule is satisfied. Other players\u2019 roads do not prevent this. [2][1][6][4]",
       "retrieved_chunk_ids": [
         "catan_rulebook_041",

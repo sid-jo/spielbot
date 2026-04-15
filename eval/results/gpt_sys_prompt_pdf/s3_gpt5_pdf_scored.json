@@ -133,7 +133,7 @@
       "question_id": "catan_10",
       "game": "catan",
       "type": "reasoning",
-      "question": "Can new settlements be built on existing roads?",
+      "question": "Can new settlements be built along existing roads?",
       "response": "Yes\u2014if the intersection is legal and connected to your road.\n\n- Official rule: A new settlement may be built \u201conly on an unoccupied intersection\u201d and \u201cmust always connect to 1 or more of your own roads,\u201d while observing the Distance Rule (no settlement/city on any of the 3 adjacent intersections) (Almanac: Settlements, p. 11; Distance Rule, p. 7).\n- Roads run along paths (edges), and intersections can have roads leading in; you may place a settlement at such an intersection if it\u2019s vacant and you have a road into it. This can even break an opponent\u2019s road network if they only have roads there (Almanac: Longest Road, example on p. 9).\n\nClarification:\n- During initial setup you place a settlement then an adjacent road (Almanac: Set-Up Phase, p. 12). During the game, you must have your road in place first to build the settlement (Settlements, p. 11).",
       "latency_ms": 27877,
       "scores": {

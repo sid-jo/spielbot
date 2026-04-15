@@ -79,7 +79,7 @@
       "question_id": "catan_10",
       "game": "catan",
       "type": "reasoning",
-      "question": "Can new settlements be built on existing roads?",
+      "question": "Can new settlements be built along existing roads?",
       "response": "Yes, in Catan you can build a new settlement on an existing road \u2014 but only if all of the following conditions are met:\n\n1. **It's your own road.** You can only build on roads you control (with one exception \u2014 see below).\n\n2. **The intersection is unoccupied.** No settlement or city can already be at that spot.\n\n3. **The distance rule is respected.** The new settlement must be at least two road segments away from any other settlement or city (yours or anyone else's).\n\n4. **You have a road leading there.** The settlement must be connected to your road network (which it will be, if you're building on your own road).\n\nSo a common strategy is to extend your road network and then \"cap\" it with a new settlement at a favorable intersection.\n\n**The one exception:** If an opponent's road passes through an intersection where you later build a settlement, your settlement effectively **breaks** their road at that point for the purpose of calculating the **Longest Road** card. Your settlement acts as a blocker, potentially splitting their continuous road into two shorter segments.",
       "latency_ms": -1
     },
