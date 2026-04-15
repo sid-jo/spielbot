@@ -16,6 +16,7 @@ from generate import GeneratorResponse, generate, generate_stream
 from index import ChunkIndex, ChunkResult
 from prompts import get_system_prompt
 from retrieve import format_context, retrieve_split
+from vision import SceneAnalysis, analyze_game_image, build_retrieval_query
 
 MAX_HISTORY_TURNS = 10  # max Q&A pairs to keep (20 messages)
 
@@ -35,6 +36,7 @@ class SpielBotAnswer:
     query: str
     sources: list[ChunkResult]
     generator_response: GeneratorResponse
+    scene_analysis: SceneAnalysis | None = None
     error: str | None = None
 
 
@@ -117,6 +119,7 @@ class SpielBotSession:
     def ask(
         self,
         query: str,
+        image: str | Path | bytes | None = None,
         rules_top_k: int = 3,
         forum_top_k: int = 3,
     ) -> SpielBotAnswer:
@@ -145,13 +148,37 @@ class SpielBotSession:
                     num_sources=0,
                     error="No game selected",
                 ),
+                scene_analysis=None,
                 error="No game selected. Call select_game() first.",
             )
+
+        scene_analysis: SceneAnalysis | None = None
+        if image is not None:
+            scene_analysis = analyze_game_image(
+                image_path=image,
+                game_name=self._game_name,
+                user_question=query,
+            )
+            if (
+                scene_analysis
+                and not scene_analysis.error
+                and scene_analysis.game_detected
+                and scene_analysis.game_detected != self._game_name
+            ):
+                print(
+                    f"[warning] Image looks like '{scene_analysis.game_detected}', "
+                    f"but active game is '{self._game_name}'. Proceeding with active game.",
+                    file=sys.stderr,
+                )
+
+        retrieval_query = query
+        if scene_analysis and scene_analysis.retrieval_terms:
+            retrieval_query = build_retrieval_query(query, scene_analysis.retrieval_terms)
 
         idx = self._get_index()
         results = retrieve_split(
             idx,
-            query,
+            retrieval_query,
             self._game_name,
             rules_top_k=rules_top_k,
             forum_top_k=forum_top_k,
@@ -174,6 +201,7 @@ class SpielBotSession:
                     query=query,
                     num_sources=0,
                 ),
+                scene_analysis=scene_analysis,
             )
 
         context = format_context(results)
@@ -192,6 +220,11 @@ class SpielBotSession:
             source_ids=source_ids,
             system_prompt=self._system_prompt,
             history=self._history,
+            scene_description=(
+                scene_analysis.scene_description
+                if scene_analysis and not scene_analysis.error
+                else None
+            ),
             **gen_kwargs,
         )
 
@@ -209,12 +242,14 @@ class SpielBotSession:
             query=query,
             sources=results,
             generator_response=gen_response,
+            scene_analysis=scene_analysis,
             error=gen_response.error,
         )
 
     def ask_stream(
         self,
         query: str,
+        image: str | Path | bytes | None = None,
         rules_top_k: int = 3,
         forum_top_k: int = 3,
     ) -> tuple[list[ChunkResult], Generator[str, None, GeneratorResponse]]:
@@ -234,10 +269,33 @@ class SpielBotSession:
         if not self.has_game:
             raise ValueError("No game selected. Call select_game() first.")
 
+        scene_analysis: SceneAnalysis | None = None
+        if image is not None:
+            scene_analysis = analyze_game_image(
+                image_path=image,
+                game_name=self._game_name,
+                user_question=query,
+            )
+            if (
+                scene_analysis
+                and not scene_analysis.error
+                and scene_analysis.game_detected
+                and scene_analysis.game_detected != self._game_name
+            ):
+                print(
+                    f"[warning] Image looks like '{scene_analysis.game_detected}', "
+                    f"but active game is '{self._game_name}'. Proceeding with active game.",
+                    file=sys.stderr,
+                )
+
+        retrieval_query = query
+        if scene_analysis and scene_analysis.retrieval_terms:
+            retrieval_query = build_retrieval_query(query, scene_analysis.retrieval_terms)
+
         idx = self._get_index()
         results = retrieve_split(
             idx,
-            query,
+            retrieval_query,
             self._game_name,
             rules_top_k=rules_top_k,
             forum_top_k=forum_top_k,
@@ -278,6 +336,11 @@ class SpielBotSession:
             source_ids=source_ids,
             system_prompt=self._system_prompt,
             history=self._history,
+            scene_description=(
+                scene_analysis.scene_description
+                if scene_analysis and not scene_analysis.error
+                else None
+            ),
             **gen_kwargs,
         )
 
@@ -338,6 +401,7 @@ def _print_game_header(game_name: str) -> None:
     print("  Type your question, or:")
     print("    /game    — switch game")
     print("    /clear   — clear chat history")
+    print("    /image <path> — attach image to next question")
     print("    /sources — toggle source display")
     print("    /quit    — exit")
     print()
@@ -386,6 +450,7 @@ def _interactive_loop(
         return
     session.select_game(chosen)
     _print_game_header(session.game_name or "")
+    pending_image: str | None = None
 
     while True:
         try:
@@ -400,6 +465,14 @@ def _interactive_loop(
         if low == "/clear":
             session.reset_chat()
             print("  Chat history cleared.\n")
+            continue
+        if low.startswith("/image"):
+            parts = q.split(maxsplit=1)
+            if len(parts) < 2:
+                print("  Usage: /image <path>\n")
+                continue
+            pending_image = parts[1].strip()
+            print(f"  Image attached for next question: {pending_image}\n")
             continue
         if low == "/sources":
             show_sources = not show_sources
@@ -416,7 +489,8 @@ def _interactive_loop(
             continue
 
         t0 = time.perf_counter()
-        sources, streamer = session.ask_stream(q)
+        sources, streamer = session.ask_stream(q, image=pending_image)
+        pending_image = None
 
         print()
         print("SpielBot: ", end="", flush=True)
@@ -452,12 +526,13 @@ def _run_single_query(
     session: SpielBotSession,
     game: str,
     query: str,
+    image: str | None,
     verbose: bool,
     show_sources: bool,
 ) -> None:
     session.select_game(game)
     t0 = time.perf_counter()
-    result = session.ask(query)
+    result = session.ask(query, image=image)
     t1 = time.perf_counter()
     if verbose:
         print(f"[verbose] retrieval+generate: {(t1 - t0):.2f}s")
@@ -486,6 +561,12 @@ def main() -> None:
     parser.add_argument("--query", type=str, default=None)
     parser.add_argument("--model", type=str, default=None)
     parser.add_argument("--temperature", type=float, default=None)
+    parser.add_argument(
+        "--image",
+        type=str,
+        default=None,
+        help="Path to game state image for visual query.",
+    )
     parser.add_argument(
         "--verbose",
         action="store_true",
@@ -526,6 +607,7 @@ def main() -> None:
         session,
         args.game,
         args.query,
+        args.image,
         args.verbose,
         args.show_sources,
     )

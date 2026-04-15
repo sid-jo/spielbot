@@ -58,6 +58,21 @@ INSTRUCTIONS:
    some additional key terms from the game to guide me!"
 """
 
+VISION_ADDENDUM = """
+
+IMAGE CONTEXT: A photo of the current game state has been analyzed. A
+"Game State (from photo)" section appears in the context below. Use it
+to inform your answer - reference specific board elements when relevant.
+
+Guidelines:
+- The game state was extracted by a vision model and may contain errors.
+  If it contradicts official rules text, trust the rules.
+- Fields marked null or missing were not visible in the photo.
+  Do not speculate about them.
+- When referencing the photo, say "Based on the board state shown..."
+  rather than describing the analysis process.
+"""
+
 # ---------------------------------------------------------------------------
 # Per-game prompts
 # ---------------------------------------------------------------------------
@@ -132,4 +147,4 @@ def get_system_prompt(game_name: str) -> str:
     Assemble the full system prompt for a given game.
     """
     addendum = GAME_PROMPTS.get(game_name, "")
-    return BASE_SYSTEM_PROMPT + addendum
+    return BASE_SYSTEM_PROMPT + VISION_ADDENDUM + addendum

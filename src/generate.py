@@ -78,6 +78,22 @@ class GeneratorResponse:
     error: str | None = None
 
 
+def build_user_content(
+    query: str,
+    game_name: str,
+    context: str,
+    source_ids: list[str],
+    scene_description: str | None = None,
+) -> str:
+    _ = game_name, source_ids
+    parts: list[str] = []
+    parts.append(f"--- Retrieved Sources ---\n\n{context}")
+    if scene_description:
+        parts.append(f"--- Game State (from photo) ---\n\n{scene_description}")
+    parts.append(f"--- Player Question ---\n\n{query}")
+    return "\n\n".join(parts)
+
+
 def generate(
     query: str,
     game_name: str,
@@ -85,6 +101,7 @@ def generate(
     source_ids: list[str],
     system_prompt: str,
     history: list[dict] | None = None,
+    scene_description: str | None = None,
     model: str = DEFAULT_MODEL,
     temperature: float = DEFAULT_TEMPERATURE,
     max_tokens: int = DEFAULT_MAX_TOKENS,
@@ -94,7 +111,13 @@ def generate(
     if history:
         messages.extend(history)
 
-    user_content = build_user_content(query, game_name, context, source_ids)
+    user_content = build_user_content(
+        query=query,
+        game_name=game_name,
+        context=context,
+        source_ids=source_ids,
+        scene_description=scene_description,
+    )
     messages.append({"role": "user", "content": user_content})
 
     try:
@@ -134,6 +157,7 @@ def generate_stream(
     source_ids: list[str],
     system_prompt: str,
     history: list[dict] | None = None,
+    scene_description: str | None = None,
     model: str = DEFAULT_MODEL,
     temperature: float = DEFAULT_TEMPERATURE,
     max_tokens: int = DEFAULT_MAX_TOKENS,
@@ -156,11 +180,12 @@ def generate_stream(
     messages: list[dict] = [{"role": "system", "content": system_prompt}]
     if history:
         messages.extend(history)
-    user_content = (
-        f"--- Retrieved Sources ---\n\n"
-        f"{context}\n\n"
-        f"--- Player Question ---\n\n"
-        f"{query}"
+    user_content = build_user_content(
+        query=query,
+        game_name=game_name,
+        context=context,
+        source_ids=source_ids,
+        scene_description=scene_description,
     )
     messages.append({"role": "user", "content": user_content})
 
