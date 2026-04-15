@@ -52,13 +52,14 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 04/09/26 | Updated ROOT rulebook with Homeland Expansion Law as well as custom curated card dataset with information on every card across the 3 decks available. |
 | 04/11/26 | Implemented generator component and stitched system together with `orchestrator.py` to support a CLI-based V1 implementation of SpielBot! |
 | 04/12/26 | Created custom evaluation dataset! |
-| 04/13/26 | Finished bullk of evaluation pipeline aside from the reporting scripts. Got initial results for each of the experiment modes and Spielbot is sadly not doing better than GPT with the PDF attachment. |
+| 04/13/26 | Finished bullk of evaluation pipeline aside from the reporting scripts. Got initial results for each of the experiment modes and Spielbot is sadly not doing better than GPT with the PDF attachment, but is comparable with other methods. |
+| 04/14/26 | Curated binary question-image dataset for VLM capability testing. Will be implementing VLM via Gemma tomorrow. Planning to evaluate on existing board game rule assistants as an additional baseline. |
 
 ## Future Considerations
  - **Extraction Generalizability** - Make extraction pipeline work over majority of rulebook formats with minimal game-specific revisions
  - **Better quality PDF extraction** - PDF Plumber struggles with multi-column data (a common rulebook format) and for testing purposes it is easier to just manually review and edit each rulebook. I'll need to look into other OCR libraries when I have time (PyPDF, Pytesseract, etc.)
 - **Expanding on the evaluation dataset** - I think there is some real potential to make the evaluation dataset some kind of gold standard evaluation set for many more games to test LLM capabilities on rule following, synthesis, and reasoning!
-
+- **Look into richer/better retrieval** - It might be worth it to explore more clever retrieval systems that are specialized on baord game rule data. While I don't think I will be able to rival the PDF extraction and retrieval capabilities of SOTA chatbots, I would like to come as close to them as possible with a fraction of the cost and much higher utility. The value prop for Spielbot could still stand in the lack of PDF upload by the user, board state image understanding, and cheaper/faster retrieval than SOTA chatbots.
 
 ### References
 
