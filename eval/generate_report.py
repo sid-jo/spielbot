@@ -23,6 +23,8 @@ SETTING_ORDER = [
     "s1_claude-4.6-sonnet",
     "s1_gemini-3-flash",
     "s1_perplexity-sonar",
+    "s1_bg_wizard",
+    "s1_rulesbot",
     "s2_gpt5_prompt",
     "s3_gpt5_pdf",
     "s4_spielbot",
@@ -32,9 +34,19 @@ SETTING_LABELS = {
     "s1_claude-4.6-sonnet": "S1-Claude",
     "s1_gemini-3-flash": "S1-Gemini",
     "s1_perplexity-sonar": "S1-Perplexity",
+    "s1_bg_wizard": "S1-BG Wizard",
+    "s1_rulesbot": "S1-Rulesbot",
     "s2_gpt5_prompt": "S2-GPT+Prompt",
     "s3_gpt5_pdf": "S3-GPT+PDF",
     "s4_spielbot": "S4-SpielBot",
+}
+
+# Board Game Wizard vs Rulesbot vs SpielBot (subset charts / metrics)
+ASSISTANT_TRIO_ORDER = ("s1_bg_wizard", "s1_rulesbot", "s4_spielbot")
+ASSISTANT_TRIO_LABELS = {
+    "s1_bg_wizard": "Board Game Wizard",
+    "s1_rulesbot": "Rulesbot",
+    "s4_spielbot": "SpielBot",
 }
 
 
@@ -46,6 +58,95 @@ def _setting_color(setting: str, idx: int) -> str:
 
 def _sorted_present_settings(by_setting: dict) -> list[str]:
     return [s for s in SETTING_ORDER if s in by_setting]
+
+
+def _assistant_trio_answer_quality(answer_quality: dict) -> dict | None:
+    """Slice used for assistant-trio-only figures (prefers aggregate ``assistant_trio``)."""
+    trio = answer_quality.get("assistant_trio")
+    if trio and trio.get("by_setting"):
+        return trio
+    by_setting = answer_quality.get("by_setting", {})
+    present = [s for s in ASSISTANT_TRIO_ORDER if s in by_setting]
+    if not present:
+        return None
+    return {
+        "settings_order": present,
+        "by_setting": {s: by_setting[s] for s in present},
+        "by_setting_and_game": {
+            s: answer_quality.get("by_setting_and_game", {}).get(s, {}) for s in present
+        },
+        "by_setting_and_type": {
+            s: answer_quality.get("by_setting_and_type", {}).get(s, {}) for s in present
+        },
+    }
+
+
+def chart_assistant_trio_overall(trio_aq: dict, out_dir: Path) -> None:
+    order = trio_aq.get("settings_order") or [
+        s for s in ASSISTANT_TRIO_ORDER if s in trio_aq.get("by_setting", {})
+    ]
+    by_setting = trio_aq["by_setting"]
+    if len(order) < 1:
+        return
+
+    labels = [ASSISTANT_TRIO_LABELS.get(s, s) for s in order]
+    c_vals = [by_setting[s]["correctness_mean"] for s in order]
+    p_vals = [by_setting[s]["completeness_mean"] for s in order]
+    z_vals = [by_setting[s]["conciseness_mean"] for s in order]
+
+    x = np.arange(len(order))
+    width = 0.24
+    fig_w = max(7.0, 2.2 * len(order) + 2.0)
+    fig, ax = plt.subplots(figsize=(fig_w, 5))
+
+    bars_c = ax.bar(x - width, c_vals, width, label="Correctness", color="#4C78A8")
+    bars_p = ax.bar(x, p_vals, width, label="Completeness", color="#F58518")
+    bars_z = ax.bar(x + width, z_vals, width, label="Conciseness", color="#54A24B")
+
+    for i, s in enumerate(order):
+        if s == "s4_spielbot":
+            for bars in (bars_c, bars_p, bars_z):
+                bars[i].set_edgecolor("black")
+                bars[i].set_linewidth(1.8)
+
+    ax.set_ylim(1, 5)
+    ax.set_ylabel("Score (1-5)")
+    ax.set_title("Assistant trio: overall answer quality (Wizard vs Rulesbot vs SpielBot)")
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels, rotation=15, ha="right")
+    ax.legend()
+    fig.tight_layout()
+    fig.savefig(out_dir / "assistant_trio_overall.png", dpi=300)
+    plt.close(fig)
+
+
+def chart_assistant_trio_comp_vs_reasoning(trio_aq: dict, out_dir: Path) -> None:
+    by_type = trio_aq.get("by_setting_and_type", {})
+    order = trio_aq.get("settings_order") or [
+        s for s in ASSISTANT_TRIO_ORDER if s in by_type
+    ]
+    if len(order) < 1:
+        return
+
+    labels = [ASSISTANT_TRIO_LABELS.get(s, s) for s in order]
+    comp_vals = [by_type[s].get("comprehension", {}).get("composite_mean", 0.0) for s in order]
+    reas_vals = [by_type[s].get("reasoning", {}).get("composite_mean", 0.0) for s in order]
+
+    x = np.arange(len(order))
+    width = 0.35
+    fig_w = max(7.0, 2.2 * len(order) + 2.0)
+    fig, ax = plt.subplots(figsize=(fig_w, 5))
+    ax.bar(x - width / 2, comp_vals, width, label="Comprehension", color="#4C78A8")
+    ax.bar(x + width / 2, reas_vals, width, label="Reasoning", color="#E45756")
+    ax.set_ylim(1, 5)
+    ax.set_ylabel("Composite Score")
+    ax.set_title("Assistant trio: comprehension vs reasoning")
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels, rotation=15, ha="right")
+    ax.legend()
+    fig.tight_layout()
+    fig.savefig(out_dir / "assistant_trio_comp_vs_reasoning.png", dpi=300)
+    plt.close(fig)
 
 
 def chart_overall_comparison(answer_quality: dict, out_dir: Path) -> None:
@@ -79,39 +180,6 @@ def chart_overall_comparison(answer_quality: dict, out_dir: Path) -> None:
     ax.legend()
     fig.tight_layout()
     fig.savefig(out_dir / "overall_comparison.png", dpi=300)
-    plt.close(fig)
-
-
-def chart_by_game_heatmap(answer_quality: dict, out_dir: Path) -> None:
-    by_setting_game = answer_quality["by_setting_and_game"]
-    settings = [s for s in SETTING_ORDER if s in by_setting_game]
-    games = ["catan", "splendor", "root"]
-    data = np.full((len(games), len(settings)), np.nan)
-
-    for i, game in enumerate(games):
-        for j, setting in enumerate(settings):
-            row = by_setting_game.get(setting, {}).get(game)
-            if row:
-                data[i, j] = row["composite_mean"]
-
-    fig, ax = plt.subplots(figsize=(12, 4.5))
-    im = ax.imshow(data, cmap="YlGnBu", vmin=1, vmax=5, aspect="auto")
-    cbar = fig.colorbar(im, ax=ax)
-    cbar.set_label("Composite Score")
-
-    ax.set_xticks(np.arange(len(settings)))
-    ax.set_xticklabels([SETTING_LABELS.get(s, s) for s in settings], rotation=20, ha="right")
-    ax.set_yticks(np.arange(len(games)))
-    ax.set_yticklabels([g.title() for g in games])
-    ax.set_title("Composite Score by Game and Setting")
-
-    for i in range(len(games)):
-        for j in range(len(settings)):
-            if not np.isnan(data[i, j]):
-                ax.text(j, i, f"{data[i, j]:.2f}", ha="center", va="center", color="black")
-
-    fig.tight_layout()
-    fig.savefig(out_dir / "by_game_heatmap.png", dpi=300)
     plt.close(fig)
 
 
@@ -211,9 +279,22 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     chart_overall_comparison(answer_quality, out_dir)
-    chart_by_game_heatmap(answer_quality, out_dir)
     chart_retrieval_metrics(aggregate, out_dir)
     chart_comp_vs_reasoning(answer_quality, out_dir)
+
+    trio_aq = _assistant_trio_answer_quality(answer_quality)
+    if trio_aq:
+        chart_assistant_trio_overall(trio_aq, out_dir)
+        chart_assistant_trio_comp_vs_reasoning(trio_aq, out_dir)
+        print(
+            "Saved assistant trio figures: assistant_trio_overall.png, "
+            "assistant_trio_comp_vs_reasoning.png"
+        )
+    else:
+        print(
+            "Skipped assistant trio figures (no scored data for any of "
+            "s1_bg_wizard, s1_rulesbot, s4_spielbot)."
+        )
 
     print(f"Saved report figures to {out_dir}")
 

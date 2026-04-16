@@ -18,12 +18,34 @@ def _composite(correctness: float, completeness: float, conciseness: float) -> f
 
 
 def _setting_key_from_file(path: Path) -> str:
+    """Derive the eval setting id from the results filename (not JSON metadata).
+
+    Using the path avoids mis-tagged copies where ``setting`` inside the JSON
+    does not match the file (e.g. two exports share the same header).
+    """
     stem = path.stem
     if stem.endswith("_scored"):
-        if stem.startswith("s1_"):
-            return stem.replace("_scored", "")
-        return stem.replace("_scored", "")
+        return stem[: -len("_scored")]
     return stem
+
+
+ASSISTANT_TRIO_SETTINGS = ("s1_bg_wizard", "s1_rulesbot", "s4_spielbot")
+
+
+def _answer_quality_trio_subset(answer_quality: dict) -> dict:
+    """Metrics for Board Game Wizard, Rulesbot, and SpielBot only (when present)."""
+    by_setting = answer_quality.get("by_setting", {})
+    present = [s for s in ASSISTANT_TRIO_SETTINGS if s in by_setting]
+    return {
+        "settings_order": present,
+        "by_setting": {s: by_setting[s] for s in present},
+        "by_setting_and_game": {
+            s: answer_quality.get("by_setting_and_game", {}).get(s, {}) for s in present
+        },
+        "by_setting_and_type": {
+            s: answer_quality.get("by_setting_and_type", {}).get(s, {}) for s in present
+        },
+    }
 
 
 def _aggregate_one_answers(answers: list[dict]) -> dict:
@@ -79,7 +101,7 @@ def main() -> None:
         if not answers:
             continue
 
-        setting = payload.get("setting") or _setting_key_from_file(file_path)
+        setting = _setting_key_from_file(file_path)
         model = payload.get("model", "unknown")
 
         setting_agg = _aggregate_one_answers(answers)
@@ -99,6 +121,8 @@ def main() -> None:
         answer_quality["by_setting_and_type"][setting] = {}
         for qtype, rows in sorted(type_groups.items()):
             answer_quality["by_setting_and_type"][setting][qtype] = _aggregate_one_answers(rows)
+
+    answer_quality["assistant_trio"] = _answer_quality_trio_subset(answer_quality)
 
     retrieval_path = results_dir / "retrieval_metrics.json"
     if not retrieval_path.exists():

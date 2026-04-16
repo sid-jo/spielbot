@@ -19,6 +19,8 @@ SETTING_FILES = {
     "s1_claude-4.6-sonnet": "chatbot_ui/s1_claude-4.6-sonnet.json",
     "s1_gemini-3-flash": "chatbot_ui/s1_gemini-3-flash.json",
     "s1_perplexity-sonar": "chatbot_ui/s1_perplexity-sonar.json",
+    "s1_bg_wizard": "chatbot_ui/s1_bg_wizard.json",
+    "s1_rulesbot": "chatbot_ui/s1_rulesbot.json",
     "s2_gpt5_prompt": "gpt_sys_prompt/s2_gpt5_prompt.json",
     "s3_gpt5_pdf": "gpt_sys_prompt_pdf/s3_gpt5_pdf.json",
     "s4_spielbot": "spielbot/s4_spielbot.json",
