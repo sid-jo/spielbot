@@ -68,7 +68,7 @@
             "game": "catan",
             "type": "reasoning",
             "question": "How are ties broken if multiple people reach 10 VPs at the same time?",
-            "gold_answer": "The game ends when a player reaches at least 10 VPs at some point during their own turn. Therefore, it is not possible to have multiple players tie for 10 VPs.",
+            "gold_answer": "The game ends when a player reaches at least 10 VPs at some point during their own turn. Therefore, it is not possible to have multiple players tie for 10 VPs. Even if you reach 10 VPs on someone else's turn, you muct wait until your turn to declare victory.",
             "relevant_chunk_ids": ["catan_forum_587950", "catan_forum_3222490", "catan_rulebook_055"],
             "tags": ["victory points", "game end"]
         },
@@ -86,7 +86,7 @@
             "game": "catan",
             "type": "reasoning",
             "question": "Can new settlements be built along existing roads?",
-            "gold_answer": "So long as you obey the Distance Rule and at the settlement connects to at least one of your roads, building it along an existing road is allowed.",
+            "gold_answer": "Yes. So long as you obey the Distance Rule and at the settlement connects to at least one of your roads, building it along an existing road is allowed.",
             "relevant_chunk_ids": ["catan_forum_742628", "catan_rulebook_025", "catan_rulebook_013"],
             "tags": ["roads", "settlements", "distance rule"]
         },
@@ -185,7 +185,7 @@
             "game": "splendor",
             "type": "comprehension",
             "question": "If a player qualifies for multiple nobles, can they take all of them on their turn?",
-            "gold_answer": "No, players must only collect 1 noble per turn should they meet that noble's requirement. If a player qualifies for multiple, they must choose 1 to collect.",
+            "gold_answer": "No, players must only collect one noble per turn should they meet that noble's requirement. If a player qualifies for multiple, they must choose one to collect and wait until their next turn to collect another.",
             "relevant_chunk_ids": ["splendor_rulebook_005", "splendor_rulebook_011", "splendor_forum_2824299"],
             "tags": ["nobles"]
         },
@@ -221,7 +221,7 @@
             "game": "splendor",
             "type": "comprehension",
             "question": "Which cards can I buy on my turn?",
-            "gold_answer": "You can buy any of the 12 face-up cards in the center of the play area so long as you have the tokens and/or cards to pay for it.",
+            "gold_answer": "You can buy any of the 12 face-up cards in the center of the play area or cards you have previously reserved so long as you have the tokens and/or cards to pay for it.",
             "relevant_chunk_ids": ["splendor_rulebook_004", "splendor_rulebook_006", "splendor_rulebook_009"],
             "tags": ["development cards", "reserved cards", "performing actions"]
         },
@@ -230,7 +230,7 @@
             "game": "splendor",
             "type": "reasoning",
             "question": "If I cannot take 3 different colored gem tokens because there are only 2 colors left, each with less than 4 in stock, am I allowed to take just 2?",
-            "gold_answer": "Yes, you are allowed to take up to 3 different colored gem tokens if this is the case.",
+            "gold_answer": "Yes, you are allowed to take up to 3 different colored gem tokens if this is the case. However, you must also be unable to take any other valid action to do so.",
             "relevant_chunk_ids": ["splendor_rulebook_006", "splendor_forum_2013374", "splendor_forum_2557740"],
             "tags": ["gem tokens", "performing actions"]
         },
@@ -257,7 +257,7 @@
             "game": "splendor",
             "type": "reasoning",
             "question": "What happens when a player cannot do any of the three required actions on their turn?",
-            "gold_answer": "While there is no official rules on this, the community and publishers have agreed that the player can pass on their turn.",
+            "gold_answer": "While there is no official rules on this, the community and publishers have agreed that house rules such as allowing the player can pass on their turn or taking a partial gem collection action.",
             "relevant_chunk_ids": ["splendor_rulebook_006", "splendor_forum_2907875"],
             "tags": ["performing actions"]
         },
@@ -266,7 +266,7 @@
             "game": "splendor",
             "type": "reasoning",
             "question": "When purchasing cards, can I choose to pay with gem tokens instead of cards or vice versa?",
-            "gold_answer": "Players must use their development cards first to cover the cost of a new card before spending any chip tokens to make up the difference.",
+            "gold_answer": "Players must use their development cards first to discount the cost of a new card before spending any chip tokens to make up the difference.",
             "relevant_chunk_ids": ["splendor_forum_2909463", "splendor_forum_2878731", "splendor_rulebook_009", "splendor_rulebook_004"],
             "tags": ["gem tokens", "development cards", "performing actions"]
         }
