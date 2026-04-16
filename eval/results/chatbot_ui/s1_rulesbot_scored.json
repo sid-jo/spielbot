@@ -9,7 +9,13 @@
       "type": "comprehension",
       "question": "How do I build a city?",
       "response": "To build a city in Catan, you must follow these steps according to the rulebook:\n\nUpgrade a Settlement: You can only establish a city by upgrading one of your existing settlements. This means you must have a settlement already built on the board that you wish to upgrade.\n\nReturn the Settlement Piece: When you upgrade a settlement to a city, you need to take the settlement piece (the house) and return it to your supply.\n\nPlace the City Piece: After returning the settlement piece, you will replace it with a city piece (the church).\n\nResource Requirements: To perform this upgrade, you must pay the required resources, which are 3 Ore and 2 Grain.\n\nResource Production: Remember that cities produce twice as many resources as settlements. When a terrain hex produces resources, you will acquire 2 resource cards for each city you have adjacent to that terrain hex.\n\nBy following these steps, you can successfully build a city in Catan.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 3,
+        "reasoning": "The generated answer is perfectly correct, matching all factual claims in the gold answer. It is also complete, covering all points from the gold answer and adding a relevant, accurate detail about city resource production. However, it is less concise than the gold answer, using a more verbose step-by-step format and introductory/concluding remarks, making it less ideal for a quick mid-game rule check."
+      }
     },
     {
       "question_id": "catan_2",
@@ -17,7 +23,13 @@
       "type": "comprehension",
       "question": "What happens when I run out of roads?",
       "response": "In Catan, if you run out of road pieces, you cannot build any more roads until you have more available. The game has a limited supply of road pieces, and once you have used all of your allotted roads, you must wait until you can either acquire more through trading or by gaining additional roads through game mechanics, such as the \"Longest Road\" card being passed to you if you build a longer road than your opponents.\n\nYou cannot build new settlements without also building roads, so running out of roads can limit your ability to expand your settlements and cities on the board. You will need to strategize around this limitation, possibly focusing on upgrading settlements to cities or trading with other players to acquire roads if they have extras.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 2,
+        "completeness": 2,
+        "conciseness": 2,
+        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 2,\n  \"conciseness\": 2,\n  \"reasoning\": \"The generated answer makes a critical factual error by suggesting players can acquire more road"
+      }
     },
     {
       "question_id": "catan_3",
@@ -25,7 +37,13 @@
       "type": "comprehension",
       "question": "If I have multiple VP development cards, can I play them all in the same turn?",
       "response": "No, you cannot play multiple Victory Point (VP) development cards in the same turn. According to the rules, you can only play one development card per turn. This includes all types of development cards, and since VP cards are a type of development card, they are subject to this rule as well.\n\nAdditionally, Victory Point cards are kept hidden until you reach 10 victory points, at which point you reveal them to declare your victory. Therefore, you cannot play them to gain immediate benefits during your turn; they only contribute to your total victory points when you reveal them.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 2,
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"conciseness\": 3,"
+      }
     },
     {
       "question_id": "catan_4",
@@ -33,7 +51,13 @@
       "type": "comprehension",
       "question": "How can the Robber get activated?",
       "response": "The Robber in Catan can be activated in two ways:\n\nRolling a \"7\": When a player rolls a \"7\" during their turn, the Robber is activated. This means that no players receive resources from any hexes that are adjacent to the Robber's current location. The player who rolled the \"7\" must then move the Robber to another terrain hex (or to the desert hex) and can steal one resource card at random from an opponent who has a settlement or city adjacent to the new hex.\n\nPlaying a Knight Development Card: If a player plays a Knight card (which is a type of development card), they also activate the Robber. Similar to rolling a \"7,\" the player must move the Robber to a different terrain hex and can steal a resource card from an opponent with a settlement or city adjacent to the new hex.\n\nIn both cases, the Robber blocks resource production from the hex it occupies until it is moved again.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 2,
+        "reasoning": "The generated answer correctly identifies the two ways the Robber is activated, matching the gold standard. It also provides additional, correct information about the Robber's actions once activated. However, this extra detail, while accurate, makes the answer less concise for the specific question 'How can the Robber get activated?'"
+      }
     },
     {
       "question_id": "catan_5",
@@ -41,7 +65,13 @@
       "type": "comprehension",
       "question": "When does the game end?",
       "response": "The game of Catan ends when a player reaches 10 or more victory points during their turn. Here are the key points regarding the end of the game:\n\nReaching 10 Victory Points: If you have 10 or more victory points at the start of your turn, you immediately declare victory, and the game ends.\n\nNot Your Turn: If you reach 10 victory points when it is not your turn, the game continues until any player (including you) has 10 points on their turn. This means you cannot claim victory until it is your turn, even if you have reached the required points.\n\nVictory Point Cards: Victory point cards are kept hidden until you declare victory. You can reveal them when you reach the necessary points to win.\n\nIn summary, the game concludes as soon as a player achieves 10 victory points during their turn.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 4,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4,"
+      }
     },
     {
       "question_id": "catan_6",
@@ -49,7 +79,13 @@
       "type": "reasoning",
       "question": "Can I \"give away\" resources with the following trade scheme? Player A trades 2 sheep for 1 wheat with player B. Then, Player A trades 1 wheat for 1 sheep with player B.",
       "response": "No, you cannot \"give away\" resources in the manner described in your trade scheme. According to the rules of Catan, players may only trade resources during their turn, and they cannot give away cards or trade matching resources (for example, trading 1 wheat for 1 sheep).\n\nIn your example, Player A is effectively trading resources back and forth with Player B. However, since Player A is trading 1 wheat for 1 sheep after having just traded 2 sheep for 1 wheat, this would not be allowed as it constitutes a matching resource trade. Each trade must involve different resources, and you cannot trade resources in a way that simply exchanges them back and forth without a net gain or loss.\n\nTherefore, the proposed trade scheme is not permissible under the rules of Catan.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 3,
+        "reasoning": "The generated answer directly contradicts the gold answer by stating the trade scheme is not allowed. The gold answer correctly identifies that the individual trades are technically allowed, but the sequence results in a 'give away' effect, which is a table decision. The generated answer also misinterprets 'matching resource trade' in the context of the example."
+      }
     },
     {
       "question_id": "catan_7",
@@ -57,7 +93,13 @@
       "type": "reasoning",
       "question": "How many VPs would this be: 4 settlements, 1 city and longest road?",
       "response": "To calculate the total victory points (VPs) for 4 settlements, 1 city, and the Longest Road in Catan, you can use the following breakdown:\n\nSettlements: Each settlement is worth 1 VP. Therefore, 4 settlements would give you:\n4 settlements x 1 VP = 4 VPs\n\nCity: Each city is worth 2 VPs. Therefore, 1 city would give you:\n\n1 city x 2 VPs = 2 VPs\n\nLongest Road: The Longest Road special card is worth 2 VPs.\n\nNow, you can add these points together: - 4 VPs (from settlements) + 2 VPs (from the city) + 2 VPs (from Longest Road) = 8 VPs\n\nSo, the total would be 8 victory points.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 4,
+        "reasoning": "The generated answer is perfectly correct and complete, matching the gold standard's calculations and total. It is slightly more verbose than necessary, explaining each step in detail, but remains practical."
+      }
     },
     {
       "question_id": "catan_8",
@@ -65,7 +107,13 @@
       "type": "reasoning",
       "question": "How are ties broken if multiple people reach 10 VPs at the same time?",
       "response": "In Catan, if multiple players reach 10 victory points at the same time during their turns, the game does not have a specific rule for breaking ties. Instead, the game ends immediately when any player reaches 10 or more victory points during their turn, and that player is declared the winner.\n\nIf two or more players reach 10 victory points simultaneously, the player whose turn it is (the one who reached 10 points) is the winner. The game does not continue to determine a winner among those players; the first player to reach 10 points during their turn is the victor.\n\nTherefore, there is no need for a tie-breaking mechanism in this scenario, as the player whose turn it is when they reach 10 points is the one who wins the game.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 4,
+        "completeness": 4,
+        "conciseness": 4,
+        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"conciseness\": 4,"
+      }
     },
     {
       "question_id": "catan_9",
@@ -73,7 +121,13 @@
       "type": "reasoning",
       "question": "When discarding cards for the Robber, do development cards count toward hand size?",
       "response": "No, development cards do not count toward your hand size when discarding cards for the Robber. According to the rules of Catan, when a player rolls a \"7,\" they must check their resource cards to see if they have more than 7. If they do, they must discard half of those resource cards (rounded down).\n\nDevelopment cards are kept separate from resource cards and do not factor into the total number of cards a player has for the purpose of discarding when the Robber is activated. Therefore, only the resource cards (brick, wood, sheep, wheat, and ore) are considered when determining if a player needs to discard cards due to having more than 7.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 3,"
+      }
     },
     {
       "question_id": "catan_10",
@@ -81,7 +135,13 @@
       "type": "reasoning",
       "question": "Can new settlements be built along existing roads?",
       "response": "Yes, new settlements can be built along existing roads, but they must be placed at the intersections where the roads end. In Catan, a settlement must be built at an intersection, which is the point where three hexes meet or where one or two hexes meet the frame of the board.\n\nTo build a new settlement along an existing road, you must ensure the following:\n\nConnection to Your Roads: The new settlement must connect to one or more of your own roads. This means that the road must lead to the intersection where you want to build the settlement.\n\nDistance Rule: You must observe the Distance Rule, which requires that there are at least two open intersections between your new settlement and any existing settlements (whether yours or another player's).\n\nSo, while you cannot place a settlement directly on a road, you can build a settlement at an intersection that is accessible via your existing roads.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 3,
+        "reasoning": "The generated answer is perfectly correct and covers all points from the gold answer, plus provides a helpful definition of an intersection. However, it is more verbose than necessary, repeating some information and taking a longer path to the core answer compared to the gold standard."
+      }
     },
     {
       "question_id": "root_1",
@@ -89,7 +149,13 @@
       "type": "comprehension",
       "question": "What happens when the birds turmoil for the 4th time?",
       "response": "In the game Root, if the Eyrie Dynasties fall into turmoil, the process is the same regardless of how many times they have previously fallen into turmoil. The rules state that when the Eyrie cannot take an action for any reason, they follow these steps:\n\nHumiliation: Lose one victory point for each bird card in the Decree.\nPurge: Discard all cards in the Decree except for the two Loyal Vizier bird cards.\nDeposition: Flip the current leader face down, choose a new leader from those face up, and place it on the faction board. Tuck the Loyal Viziers into the Decree spaces listed on the new leader.\nRest: End Daylight and go to Evening.\nThis process does not change based on the number of times the Eyrie has fallen into turmoil. Therefore, if they were to fall into turmoil for the fourth time, they would still follow these same steps as outlined in the rulebook. Each instance of turmoil resets their Decree and leader, and they must start anew from that point.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 2,
+        "reasoning": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"conciseness\": 2"
+      }
     },
     {
       "question_id": "root_2",
@@ -97,7 +163,13 @@
       "type": "comprehension",
       "question": "What are the types of Corvid plots?",
       "response": "In Root, the Corvid Conspiracy has three types of plots that they can create. These plots are:\n\nSabotage: This plot allows the Corvids to remove an opponent's building from the map. It can be a strategic way to disrupt other players' plans and control of the Woodland.\n\nAmbush: This plot enables the Corvids to set a trap for an opponent's warrior. When an opponent moves into a clearing with an Ambush plot, they can lose warriors, making it a powerful defensive tactic.\n\nScouting: This plot allows the Corvids to draw cards from the shared deck. It can help the Corvid player gain additional resources and options for their strategy.\n\nThese plots are essential to the Corvid Conspiracy's gameplay, providing various tactical advantages and opportunities to influence the game.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 2,
+        "reasoning": "The generated answer lists completely incorrect plot types (Sabotage, Ambush, Scouting) and an incorrect number of plot types (three) compared to the actual Corvid plots (Raid, Snare, Extortion, Bomb). It is entirely wrong on the core factual claim."
+      }
     },
     {
       "question_id": "root_3",
@@ -105,7 +177,13 @@
       "type": "comprehension",
       "question": "What is the difference between buildings, tokens, and units?",
       "response": "In Root: A Game of Woodland Might and Right, buildings, tokens, and units serve different purposes and have distinct characteristics:\n\nBuildings:\nBuildings are structures that start on faction boards and can be placed in empty slots in clearings.\nThey are specific to factions and contribute to their unique abilities and scoring mechanisms. For example, the Marquise de Cat has workshops, sawmills, and recruiters as her buildings, which help her generate resources and score victory points.\n\nTokens:\n\nTokens can be placed in clearings but do not fill slots.\nThey are used for various purposes, such as marking sympathy for the Alliance faction or representing other game effects. Unlike buildings, tokens do not contribute to the physical structure of the board in terms of occupying slots.\n\nUnits:\n\nUnits refer to the warriors that can move around the map and engage in battles with other players' pieces.\nThey are the primary means of interacting with other factions on the board, allowing players to attack and defend. The Vagabond pawn is also considered a unit, but it is not classified as a warrior.\nIn summary, buildings are faction-specific structures that occupy slots and contribute to scoring, tokens are markers that do not occupy slots, and units are the warriors and the Vagabond pawn that can move and battle on the board.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 4,
+        "completeness": 3,
+        "conciseness": 4,
+        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 3,\n  \"conciseness\": 4,\n  \"reasoning\": \"The generated answer correctly defines buildings, tokens, and units, and adds helpful context like faction specificity and the Vagabond. However, it misses crucial functional differences mentioned"
+      }
     },
     {
       "question_id": "root_4",
@@ -113,7 +191,13 @@
       "type": "comprehension",
       "question": "If I strike another faction piece as the Vagabond, does that make my relationship hostile with that faction?",
       "response": "Yes, if you Strike another faction's piece as the Vagabond, it does indeed make your relationship with that faction hostile. According to the rules, whenever you remove a warrior from another faction, you must place that faction's relationship marker in the Hostile box. This means that from that point on, you will score a victory point each time you remove one of their pieces in battle during your turn, along with any points you score for removing buildings and tokens. Additionally, you will need to exhaust another item whenever you move into a clearing with any hostile warriors. Therefore, Striking another faction's piece directly impacts your relationship with them, making it hostile.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 2,
+        "completeness": 2,
+        "conciseness": 2,
+        "reasoning": "The generated answer incorrectly states 'Yes' at the beginning, implying any piece makes the relationship hostile. The gold answer correctly clarifies that it 'depends' on the piece. The generated answer only covers the warrior scenario and completely misses the crucial detail that removing a building or token does *not* make the relationship hostile, which is a key part of the gold answer. It also adds unnecessary information about VP scoring and item exhaustion, which are consequences of hostility, not part of *making* the relationship hostile."
+      }
     },
     {
       "question_id": "root_5",
@@ -121,7 +205,13 @@
       "type": "comprehension",
       "question": "When can an ambush card be used?",
       "response": "An ambush card can be used during the battle phase, specifically before the roll in battle. The defender may play an ambush card whose suit matches the clearing where the battle is taking place to deal two hits immediately to the attacker.\n\nHere are the key points regarding the use of ambush cards:\n\nThe ambush card must match the suit of the clearing where the battle occurs.\nThe defender can play the ambush card before the attacker rolls their dice.\nIf the defender plays an ambush card, the attacker has the option to foil the ambush by also playing a matching ambush card, which cancels the effect of the ambush.\nAmbush hits are not limited by the number of warriors the defender has in the clearing, and the defender can play an ambush card even if they are defenseless.\nIf the ambush card removes all of the attacker's warriors, the battle immediately ends.\nOverall, ambush cards are a strategic tool for defenders to mitigate damage and potentially turn the tide of battle in their favor.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 4,
+        "completeness": 4,
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"conciseness\": 3"
+      }
     },
     {
       "question_id": "root_6",
@@ -129,7 +219,13 @@
       "type": "reasoning",
       "question": "How does alliance revolt interact with the Lost City landmark?",
       "response": "In Root, the Woodland Alliance can initiate a revolt in a clearing where they have sympathy tokens. The Lost City landmark has specific rules regarding its interaction with factions, including the Woodland Alliance.\n\nWhen the Woodland Alliance performs a revolt in a clearing that contains the Lost City, the revolt can still occur as normal. However, the presence of the Lost City means that the clearing is considered a special location, which may have implications for the placement of the new base that the Alliance establishes as a result of the revolt.\n\nTypically, the Lost City landmark allows for additional strategic options, but it does not prevent the revolt itself. The Woodland Alliance can still gain control of the clearing and establish their base, which will allow them to train officers and increase their military flexibility.\n\nIt's important to note that the specifics of how the Lost City interacts with other factions or actions may vary, so players should refer to the rulebook for any additional details or clarifications regarding landmarks and their effects on gameplay.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 2,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer completely misses the core interaction of the Lost City with the Woodland Alliance revolt, which is that the Lost City allows the revolt to be triggered with supporters of *any suit combination* and allows the base to be of *any suit*. It is very vague, stating only that the revolt 'can still occur as normal' and that the Lost City 'may have implications' without explaining what those implications are. It is also very verbose and includes a generic disclaimer."
+      }
     },
     {
       "question_id": "root_7",
@@ -137,7 +233,13 @@
       "type": "reasoning",
       "question": "Which factions can lose Victory Points?",
       "response": "In Root, the factions that can lose Victory Points are primarily the Marquise de Cat and the Eyrie Dynasties.\n\nMarquise de Cat: The Marquise can lose Victory Points if they lose control of their buildings or if they are unable to maintain their military presence on the board. If the Marquise loses warriors or buildings in battle, they may also lose Victory Points as a consequence of their actions and the state of the board.\n\nEyrie Dynasties: The Eyrie can lose Victory Points if they fail to fulfill their Decree. If they cannot take the required actions specified in their Decree during their turn, they may suffer penalties, which can include losing Victory Points.\n\nOther factions, such as the Woodland Alliance and the Vagabond, do not have mechanics that directly cause them to lose Victory Points in the same way. Instead, their scoring is typically based on their actions and relationships with other factions, rather than a mechanism for losing points.\n\nIt's important for players to be aware of the conditions that can lead to losing Victory Points, as maintaining control and fulfilling faction-specific objectives is crucial for success in the game.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 2,
+        "completeness": 2,
+        "conciseness": 2,
+        "reasoning": "The generated answer incorrectly states that the Marquise de Cat can lose Victory Points and completely misses the Jailor Vagabond, which is one of the two factions that can. While it correctly identifies the Eyrie, its explanation for their VP loss is vague and not entirely accurate. The answer is also quite verbose, especially given the amount of incorrect and missing information."
+      }
     },
     {
       "question_id": "root_8",
@@ -145,7 +247,13 @@
       "type": "reasoning",
       "question": "Can the Riverfolk Company use the Tunnels card to move between trade posts?",
       "response": "No, the Riverfolk Company cannot use the Tunnels card to move between trade posts. The Tunnels card allows the Vagabond to move between clearings that contain tunnels, but it does not apply to the Riverfolk Company's trade posts.\n\nThe Riverfolk Company's trade posts are considered buildings, and the movement rules for the Riverfolk Company do not include the ability to use the Tunnels card for movement between their trade posts. The Riverfolk Company can move their warriors between clearings as per the standard movement rules, but they cannot utilize the Tunnels card to facilitate movement specifically between trade posts.\n\nTherefore, the Tunnels card is not applicable for the Riverfolk Company in this context.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 2,
+        "completeness": 2,
+        "conciseness": 1,
+        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 2,\n  \"conciseness\": 1,\n  \"reasoning\": \"The generated answer correctly states 'No' but provides an incorrect and misleading explanation for why. It misrepresents the Tunnels card's function (it's not specific to the Vagabond or 'tunnels' but allows movement between crafted items). It completely misses the gold answer's crucial point that trade posts are not crafting pieces and Riverfolk don't have crafting pieces. The answer is also very verbose for the simple 'No"
+      }
     },
     {
       "question_id": "root_9",
@@ -153,7 +261,13 @@
       "type": "reasoning",
       "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
       "response": "Yes, you can purchase mercenaries and use them for the dominance victory condition on the same turn. According to the rules, when you activate a dominance card, you can still perform actions such as purchasing mercenaries during your turn.\n\nWhen you have at least 10 victory points and you play a dominance card, you activate it and change your victory condition to the one specified on that card. After activating the dominance card, you can then use any mercenaries you have purchased during that turn to help meet the new victory condition.\n\nJust ensure that you follow the rules for purchasing mercenaries and that you meet any requirements for the dominance victory condition as specified on the card you activated. This allows for strategic flexibility in your gameplay, enabling you to bolster your forces while also working towards the dominance victory.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer is fundamentally incorrect. It states 'Yes' when the correct answer is 'No'. It misunderstands that dominance victory conditions are checked during Birdsong, while mercenaries are only active during Daylight and Evening, making them unusable for a dominance check on the same turn they are purchased."
+      }
     },
     {
       "question_id": "root_10",
@@ -161,7 +275,13 @@
       "type": "reasoning",
       "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
       "response": "No, as the Scoundrel, you cannot use the Scorched Earth ability in a clearing that contains the Marquise's Keep. The Keep has a special rule that states no one but the Marquise can place pieces in the clearing with the Keep token. This restriction means that you cannot perform actions that involve placing or removing pieces in that clearing, including using the Scorched Earth ability, which requires you to remove a piece from the clearing.\n\nTherefore, you would need to choose a different clearing that does not contain the Marquise's Keep to use the Scorched Earth ability.",
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 2,
+        "completeness": 2,
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 2,\n  \"conciseness\": 3,\n  \"reasoning\": \"The generated answer correctly states 'No' and identifies that the Keep prevents placing pieces. However, it incorrectly states that Scorched Earth requires 'removing a piece' as the reason for the block. The actual reason is that Scorched Earth requires the Scoundrel to 'place their Torch' into the clearing, which is prevented by the Keep"
+      }
     },
     {
       "question_id": "splendor_1",
@@ -169,7 +289,13 @@
       "type": "comprehension",
       "question": "If a player qualifies for multiple nobles, can they take all of them on their turn?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer is 'None', meaning no answer was provided. This makes it completely incorrect, incomplete, and unhelpful."
+      }
     },
     {
       "question_id": "splendor_2",
@@ -177,7 +303,13 @@
       "type": "comprehension",
       "question": "How do you win a noble?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer is 'None', meaning it provided no information whatsoever and completely failed to answer the question. Therefore, it scores 1 across all dimensions."
+      }
     },
     {
       "question_id": "splendor_3",
@@ -185,7 +317,13 @@
       "type": "comprehension",
       "question": "Can I take 2 gems of the same color if there are only 3 left?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer is 'None', which provides no information and therefore cannot answer the question or be evaluated against the gold standard in any meaningful way beyond being completely incorrect and incomplete."
+      }
     },
     {
       "question_id": "splendor_4",
@@ -193,7 +331,13 @@
       "type": "comprehension",
       "question": "How many tokens are there in the game?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer 'None' is completely incorrect and provides no information, directly contradicting the gold answer which states there are 40 tokens."
+      }
     },
     {
       "question_id": "splendor_5",
@@ -201,7 +345,13 @@
       "type": "comprehension",
       "question": "Which cards can I buy on my turn?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer is completely incorrect, stating 'None' when the gold answer clearly outlines two types of cards that can be purchased. It provides no correct information and is entirely unhelpful, thus failing on all metrics despite its brevity."
+      }
     },
     {
       "question_id": "splendor_6",
@@ -209,7 +359,13 @@
       "type": "reasoning",
       "question": "If I cannot take 3 different colored gem tokens because there are only 2 colors left, each with less than 4 in stock, am I allowed to take just 2?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer is 'None', which provides no information or ruling. This makes it completely incorrect, incomplete, and unhelpful, thus scoring the lowest on all dimensions."
+      }
     },
     {
       "question_id": "splendor_7",
@@ -217,7 +373,13 @@
       "type": "reasoning",
       "question": "Can I spend 4 gold tokens to buy a card that costs 4 gems?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer is 'None', meaning it provided no answer to the question. Therefore, it is completely incorrect, incomplete, and unhelpful."
+      }
     },
     {
       "question_id": "splendor_8",
@@ -225,7 +387,13 @@
       "type": "reasoning",
       "question": "Do reserved cards need to be visible to all other players at the table?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer 'None' does not address the question or provide any information, making it completely incorrect, incomplete, and unhelpful. It fails to convey that there is no official ruling and the common player practices."
+      }
     },
     {
       "question_id": "splendor_9",
@@ -233,7 +401,13 @@
       "type": "reasoning",
       "question": "What happens when a player cannot do any of the three required actions on their turn?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 2,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer 'None' is technically correct in that there is no *official* rule, but it completely misses the crucial information about community and publisher agreement on common house rules to address this situation. It is extremely incomplete and unhelpful, making its conciseness a detriment."
+      }
     },
     {
       "question_id": "splendor_10",
@@ -241,7 +415,14 @@
       "type": "reasoning",
       "question": "When purchasing cards, can I choose to pay with gem tokens instead of cards or vice versa?",
       "response": null,
-      "latency_ms": -1
+      "latency_ms": -1,
+      "scores": {
+        "correctness": 1,
+        "completeness": 1,
+        "conciseness": 1,
+        "reasoning": "The generated answer was 'None', meaning no answer was provided. This makes it completely incorrect, incomplete, and not concise in a helpful way as it provides no information."
+      }
     }
-  ]
+  ],
+  "judge_model": "gemini-2.5-flash"
 }

@@ -1,0 +1,247 @@
+{
+  "setting": "s1_bg_wizard",
+  "model": "board_game_wizard",
+  "timestamp": "",
+  "answers": [
+    {
+      "question_id": "catan_1",
+      "game": "catan",
+      "type": "comprehension",
+      "question": "How do I build a city?",
+      "response": "To build a city, you must upgrade one of your existing settlements. According to the rules, this costs 3 ore and 2 grain. When you upgrade, return the settlement piece to your supply and replace it with a city piece on the same intersection. Each city is worth 2 victory points and produces double resources.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "catan_2",
+      "game": "catan",
+      "type": "comprehension",
+      "question": "What happens when I run out of roads?",
+      "response": "You cannot build more roads than are available in your supply. Since each player has a maximum of 15 roads, once you have placed all of them on the board, you can no longer build roads. Unlike settlements, roads are never returned to your supply and remain on the board until the end of the game.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "catan_3",
+      "game": "catan",
+      "type": "comprehension",
+      "question": "If I have multiple VP development cards, can I play them all in the same turn?",
+      "response": "Yes, according to the rules, you may play any number of victory point cards during your turn, even if you purchased them during that same turn. You should reveal them when they bring you to the 10 victory points needed to win the game.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "catan_4",
+      "game": "catan",
+      "type": "comprehension",
+      "question": "How can the Robber get activated?",
+      "response": "The robber is activated in two ways:\n\n1. Rolling a \"7\": If you roll a \"7\" during the resource production phase, the robber is activated.\n2. Playing a Knight Card: You can activate the robber by playing a Knight development card during your turn.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "catan_5",
+      "game": "catan",
+      "type": "comprehension",
+      "question": "When does the game end?",
+      "response": "The game ends immediately when a player reaches 10 or more victory points on their own turn. If you reach 10 points when it is not your turn, the game continues until a player (including you) has 10 points during their own turn.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "catan_6",
+      "game": "catan",
+      "type": "reasoning",
+      "question": "Can I \"give away\" resources with the following trade scheme? Player A trades 2 sheep for 1 wheat with player B. Then, Player A trades 1 wheat for 1 sheep with player B.",
+      "response": "No, you cannot give away cards. The rules explicitly state that \\\"you cannot give away cards\\\" and \\\"you cannot... trade matching resources.\\\" Every trade must involve an exchange of different types of resource cards.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "catan_7",
+      "game": "catan",
+      "type": "reasoning",
+      "question": "How many VPs would this be: 4 settlements, 1 city and longest road?",
+      "response": "This would be a total of 8 victory points:\n\n1. 4 settlements: 4 VPs (1 per settlement)\n2. 1 city: 2 VPs\n3. Longest Road: 2 VPs",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "catan_8",
+      "game": "catan",
+      "type": "reasoning",
+      "question": "How are ties broken if multiple people reach 10 VPs at the same time?",
+      "response": "There is no tie-breaking needed because the game ends immediately when a player reaches 10 victory points on their own turn. You can only win during your turn; if you reach 10 points when it is not your turn, you must wait until your next turn to claim victory. The first person to reach 10 points on their own turn is the winner.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "catan_9",
+      "game": "catan",
+      "type": "reasoning",
+      "question": "When discarding cards for the Robber, do development cards count toward hand size?",
+      "response": "No, only resource cards count toward your hand size. When a \"7\" is rolled, only players with more than 7 resource cards must discard. Development cards are not included in this count.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "catan_10",
+      "game": "catan",
+      "type": "reasoning",
+      "question": "Can new settlements be built along existing roads?",
+      "response": "Yes, you can build a new settlement on an unoccupied intersection along your road network. However, you must follow the Distance Rule, which states that a settlement can only be built if all three adjacent intersections are vacant (unoccupied by any other settlement or city). Additionally, the settlement must connect to at least one of your own roads.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_1",
+      "game": "root",
+      "type": "comprehension",
+      "question": "What happens when the birds turmoil for the 4th time?",
+      "response": "When the Eyrie fall into turmoil for the fourth time, they follow the standard turmoil procedure but trigger the New Clutch rule. The following happens:\n\n1. Humiliate: They lose one victory point for every bird card (including Loyal Viziers) in the Decree.\n2. Purge: They discard all cards in the Decree except the Loyal Viziers.\n3. Depose: The current leader is flipped face down. Because no leaders remain face up, the New Clutch rule triggers: all four leader cards are flipped face up, and the player chooses a new one.\n4. Rest: Daylight ends immediately and Evening begins.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_2",
+      "game": "root",
+      "type": "comprehension",
+      "question": "What are the types of Corvid plots?",
+      "response": "What are the types of Corvid plots?\n\nThe four types of Corvid plots are:\n\n1. Bomb\n2. Snare\n3. Extortion\n4. Raid",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_3",
+      "game": "root",
+      "type": "comprehension",
+      "question": "What is the difference between buildings, tokens, and units?",
+      "response": "According to the rules, the differences are as follows:\n\n1. Buildings are square cardboard pieces. They contribute to the rule of a clearing.\n2. Tokens are circular cardboard pieces. They do not contribute to the rule of a clearing.\n3. Warriors (commonly referred to as units) are wooden figures. They contribute to the rule of a clearing.\n4. Pawns (such as the Vagabond) are also wooden figures, but they do not contribute to the rule of a clearing.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_4",
+      "game": "root",
+      "type": "comprehension",
+      "question": "If I strike another faction piece as the Vagabond, does that make my relationship hostile with that faction?",
+      "response": "Yes. If you remove a warrior with the Strike action, the faction becomes Hostile.\n\nHowever, if you remove a building or token (which is only permitted if that enemy has no warriors in the clearing), the faction does not become Hostile, as that status is only triggered by the removal of a warrior.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_5",
+      "game": "root",
+      "type": "comprehension",
+      "question": "When can an ambush card be used?",
+      "response": "An ambush card can be used in the following ways:\n\n1. In Battle: During Step 1 of a battle, the defender may play an ambush card matching the clearing's suit to deal two hits immediately. The attacker may then play a matching ambush card to foil the defender's ambush.\n2. For its Suit: An ambush card can be spent or used for its suit (fox, rabbit, mouse, or bird) to satisfy costs or requirements for actions, just like any other card.\nNote that bird ambush cards are wild and can be used in any clearing during battle or as any suit when spent.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_6",
+      "game": "root",
+      "type": "reasoning",
+      "question": "How does alliance revolt interact with the Lost City landmark?",
+      "response": "According to the rules, a Revolt removes all enemy pieces from the chosen clearing (8.4.1). However, landmarks like the Lost City are not considered enemy pieces (F.1.2) and cannot be removed from the map (F.1.1).\n\nRegarding the cost to revolt, the specific suit properties of the Lost City are not defined in the provided text, but generally, you must spend two supporters matching the suit of the clearing to perform the action (8.4.1).",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_7",
+      "game": "root",
+      "type": "reasoning",
+      "question": "Which factions can lose Victory Points?",
+      "response": "Based on the rules, the Eyrie Dynasties is the faction that can lose victory points. This occurs when they fall into Turmoil, at which point they must Humiliate: they lose one victory point per bird card (including Loyal Viziers) on the Decree (7.7.1).",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_8",
+      "game": "root",
+      "type": "reasoning",
+      "question": "Can the Riverfolk Company use the Tunnels card to move between trade posts?",
+      "response": "No. The Riverfolk Company has no crafting pieces (11.2.1). Because the Tunnels card (from the Exiles and Partisans deck) requires crafting pieces to function, and trade posts are considered tokens rather than crafting pieces, the Riverfolk cannot use it to move between them.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_9",
+      "game": "root",
+      "type": "reasoning",
+      "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
+      "response": "Yes. Buying services occurs at the start of your Birdsong (11.2.6), and the dominance victory condition is also checked at the start of your Birdsong (3.3.1).\n\nWhenever simultaneous effects occur, the player taking their turn chooses the order in which they resolve (1.1.3). Therefore, you can purchase mercenaries to establish rule before checking if you have met the dominance victory requirements.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "root_10",
+      "game": "root",
+      "type": "reasoning",
+      "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
+      "response": "No. The Marquise's The Keep ability states that other players cannot place pieces in its clearing (6.2.2). Because Scorched Earth requires you to place a torch piece in the clearing (D.6.2), and the term CANNOT is absolute (1.1.2), you are prevented from taking this action in the clearing with the Keep.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_1",
+      "game": "splendor",
+      "type": "comprehension",
+      "question": "If a player qualifies for multiple nobles, can they take all of them on their turn?",
+      "response": "No, you may only acquire 1 Noble tile per turn. If you meet the requirements for multiple Noble tiles, you must choose one to take and wait until your next turn to potentially acquire another.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_2",
+      "game": "splendor",
+      "type": "comprehension",
+      "question": "How do you win a noble?",
+      "response": "To acquire a Noble tile, you must possess the specific number and color of bonuses indicated on the tile, which are earned by purchasing Development cards. At the end of your turn, if you meet the requirements, you take the tile and place it in your play area. This does not count as an action.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_3",
+      "game": "splendor",
+      "type": "comprehension",
+      "question": "Can I take 2 gems of the same color if there are only 3 left?",
+      "response": "No, you cannot. According to the rules, you may only take 2 Gem pieces of the same color if there are at least 4 pieces of that color available in the supply before you take them.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_4",
+      "game": "splendor",
+      "type": "comprehension",
+      "question": "How many tokens are there in the game?",
+      "response": "According to the rules, the number of gem tokens depends on the player count:\n\n4-Player game: 7 of each gem color (35 total gems).\n3-Player game: 5 of each gem color (25 total gems).\n2-Player game: 4 of each gem color (20 total gems).\nThe rules do not specify the total quantity of Gold pieces, but they are not reduced for 2 or 3-player games.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_5",
+      "game": "splendor",
+      "type": "comprehension",
+      "question": "Which cards can I buy on my turn?",
+      "response": "You may purchase any of the revealed Development cards from the middle of the table or any of the Development cards you have previously reserved.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_6",
+      "game": "splendor",
+      "type": "reasoning",
+      "question": "If I cannot take 3 different colored gem tokens because there are only 2 colors left, each with less than 4 in stock, am I allowed to take just 2?",
+      "response": "Yes, you can. According to the rules, if there are not enough available pieces to take 3 of different colors from the supply, you may take 2 pieces or even 1.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_7",
+      "game": "splendor",
+      "type": "reasoning",
+      "question": "Can I spend 4 gold tokens to buy a card that costs 4 gems?",
+      "response": "Yes, you can. Gold pieces are wild and can be used in place of any gem color, even if you already have a gem of that color. As long as you have the 4 gold pieces, you can use them to cover the cost of the card.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_8",
+      "game": "splendor",
+      "type": "reasoning",
+      "question": "Do reserved cards need to be visible to all other players at the table?",
+      "response": "Yes, reserved cards are placed in front of you face down, but they must remain visible to all other players. They cannot be hidden.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_9",
+      "game": "splendor",
+      "type": "reasoning",
+      "question": "What happens when a player cannot do any of the three required actions on their turn?",
+      "response": "I don't know. The rules specify that you must perform exactly one of the four available actions (taking three gems, taking two gems, reserving a card, or purchasing a card) on your turn, but they do not provide instructions for a situation where no actions are possible.",
+      "latency_ms": -1
+    },
+    {
+      "question_id": "splendor_10",
+      "game": "splendor",
+      "type": "reasoning",
+      "question": "When purchasing cards, can I choose to pay with gem tokens instead of cards or vice versa?",
+      "response": "You use both. Development cards you have already acquired provide permanent bonuses that act as discounts toward the cost of new cards. You pay the remaining balance using your gem tokens. If your bonuses meet or exceed the cost of the card, you can purchase it without spending any tokens. Unlike tokens, the cards you use for discounts are not returned to the supply; they remain in your play area.",
+      "latency_ms": -1
+    }
+  ]
+}
