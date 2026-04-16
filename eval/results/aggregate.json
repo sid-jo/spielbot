@@ -1,6 +1,14 @@
 {
   "answer_quality": {
     "by_setting": {
+      "s1_bg_wizard": {
+        "correctness_mean": 3.77,
+        "completeness_mean": 3.53,
+        "conciseness_mean": 4.03,
+        "composite_mean": 3.78,
+        "n": 30,
+        "model": "board_game_wizard"
+      },
       "s1_claude-4.6-sonnet": {
         "correctness_mean": 3.9,
         "completeness_mean": 4.13,
@@ -33,6 +41,14 @@
         "n": 30,
         "model": "perplexity-sonar"
       },
+      "s1_rulesbot": {
+        "correctness_mean": 2.33,
+        "completeness_mean": 2.27,
+        "conciseness_mean": 2.07,
+        "composite_mean": 2.22,
+        "n": 30,
+        "model": "rulesbot_ai"
+      },
       "s2_gpt5_prompt": {
         "correctness_mean": 4.33,
         "completeness_mean": 4.23,
@@ -59,6 +75,29 @@
       }
     },
     "by_setting_and_game": {
+      "s1_bg_wizard": {
+        "catan": {
+          "correctness_mean": 3.9,
+          "completeness_mean": 4,
+          "conciseness_mean": 3.9,
+          "composite_mean": 3.93,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 3.7,
+          "completeness_mean": 3.7,
+          "conciseness_mean": 4.2,
+          "composite_mean": 3.87,
+          "n": 10
+        },
+        "splendor": {
+          "correctness_mean": 3.7,
+          "completeness_mean": 2.9,
+          "conciseness_mean": 4,
+          "composite_mean": 3.53,
+          "n": 10
+        }
+      },
       "s1_claude-4.6-sonnet": {
         "catan": {
           "correctness_mean": 4.6,
@@ -151,6 +190,29 @@
           "n": 10
         }
       },
+      "s1_rulesbot": {
+        "catan": {
+          "correctness_mean": 3.8,
+          "completeness_mean": 3.9,
+          "conciseness_mean": 3.1,
+          "composite_mean": 3.6,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 2.1,
+          "completeness_mean": 1.9,
+          "conciseness_mean": 2.1,
+          "composite_mean": 2.03,
+          "n": 10
+        },
+        "splendor": {
+          "correctness_mean": 1.1,
+          "completeness_mean": 1,
+          "conciseness_mean": 1,
+          "composite_mean": 1.03,
+          "n": 10
+        }
+      },
       "s2_gpt5_prompt": {
         "catan": {
           "correctness_mean": 4.8,
@@ -222,6 +284,22 @@
       }
     },
     "by_setting_and_type": {
+      "s1_bg_wizard": {
+        "comprehension": {
+          "correctness_mean": 3.93,
+          "completeness_mean": 3.87,
+          "conciseness_mean": 4,
+          "composite_mean": 3.93,
+          "n": 15
+        },
+        "reasoning": {
+          "correctness_mean": 3.6,
+          "completeness_mean": 3.2,
+          "conciseness_mean": 4.07,
+          "composite_mean": 3.62,
+          "n": 15
+        }
+      },
       "s1_claude-4.6-sonnet": {
         "comprehension": {
           "correctness_mean": 4.13,
@@ -286,6 +364,22 @@
           "n": 15
         }
       },
+      "s1_rulesbot": {
+        "comprehension": {
+          "correctness_mean": 2.33,
+          "completeness_mean": 2.33,
+          "conciseness_mean": 2.13,
+          "composite_mean": 2.27,
+          "n": 15
+        },
+        "reasoning": {
+          "correctness_mean": 2.33,
+          "completeness_mean": 2.2,
+          "conciseness_mean": 2,
+          "composite_mean": 2.18,
+          "n": 15
+        }
+      },
       "s2_gpt5_prompt": {
         "comprehension": {
           "correctness_mean": 4.4,
@@ -332,6 +426,160 @@
           "conciseness_mean": 3.47,
           "composite_mean": 3.47,
           "n": 15
+        }
+      }
+    },
+    "assistant_trio": {
+      "settings_order": [
+        "s1_bg_wizard",
+        "s1_rulesbot",
+        "s4_spielbot"
+      ],
+      "by_setting": {
+        "s1_bg_wizard": {
+          "correctness_mean": 3.77,
+          "completeness_mean": 3.53,
+          "conciseness_mean": 4.03,
+          "composite_mean": 3.78,
+          "n": 30,
+          "model": "board_game_wizard"
+        },
+        "s1_rulesbot": {
+          "correctness_mean": 2.33,
+          "completeness_mean": 2.27,
+          "conciseness_mean": 2.07,
+          "composite_mean": 2.22,
+          "n": 30,
+          "model": "rulesbot_ai"
+        },
+        "s4_spielbot": {
+          "correctness_mean": 3.8,
+          "completeness_mean": 3.77,
+          "conciseness_mean": 3.3,
+          "composite_mean": 3.62,
+          "n": 30,
+          "model": "gpt-5"
+        }
+      },
+      "by_setting_and_game": {
+        "s1_bg_wizard": {
+          "catan": {
+            "correctness_mean": 3.9,
+            "completeness_mean": 4,
+            "conciseness_mean": 3.9,
+            "composite_mean": 3.93,
+            "n": 10
+          },
+          "root": {
+            "correctness_mean": 3.7,
+            "completeness_mean": 3.7,
+            "conciseness_mean": 4.2,
+            "composite_mean": 3.87,
+            "n": 10
+          },
+          "splendor": {
+            "correctness_mean": 3.7,
+            "completeness_mean": 2.9,
+            "conciseness_mean": 4,
+            "composite_mean": 3.53,
+            "n": 10
+          }
+        },
+        "s1_rulesbot": {
+          "catan": {
+            "correctness_mean": 3.8,
+            "completeness_mean": 3.9,
+            "conciseness_mean": 3.1,
+            "composite_mean": 3.6,
+            "n": 10
+          },
+          "root": {
+            "correctness_mean": 2.1,
+            "completeness_mean": 1.9,
+            "conciseness_mean": 2.1,
+            "composite_mean": 2.03,
+            "n": 10
+          },
+          "splendor": {
+            "correctness_mean": 1.1,
+            "completeness_mean": 1,
+            "conciseness_mean": 1,
+            "composite_mean": 1.03,
+            "n": 10
+          }
+        },
+        "s4_spielbot": {
+          "catan": {
+            "correctness_mean": 4.2,
+            "completeness_mean": 4.1,
+            "conciseness_mean": 3.7,
+            "composite_mean": 4.0,
+            "n": 10
+          },
+          "root": {
+            "correctness_mean": 3.5,
+            "completeness_mean": 3.5,
+            "conciseness_mean": 2.8,
+            "composite_mean": 3.27,
+            "n": 10
+          },
+          "splendor": {
+            "correctness_mean": 3.7,
+            "completeness_mean": 3.7,
+            "conciseness_mean": 3.4,
+            "composite_mean": 3.6,
+            "n": 10
+          }
+        }
+      },
+      "by_setting_and_type": {
+        "s1_bg_wizard": {
+          "comprehension": {
+            "correctness_mean": 3.93,
+            "completeness_mean": 3.87,
+            "conciseness_mean": 4,
+            "composite_mean": 3.93,
+            "n": 15
+          },
+          "reasoning": {
+            "correctness_mean": 3.6,
+            "completeness_mean": 3.2,
+            "conciseness_mean": 4.07,
+            "composite_mean": 3.62,
+            "n": 15
+          }
+        },
+        "s1_rulesbot": {
+          "comprehension": {
+            "correctness_mean": 2.33,
+            "completeness_mean": 2.33,
+            "conciseness_mean": 2.13,
+            "composite_mean": 2.27,
+            "n": 15
+          },
+          "reasoning": {
+            "correctness_mean": 2.33,
+            "completeness_mean": 2.2,
+            "conciseness_mean": 2,
+            "composite_mean": 2.18,
+            "n": 15
+          }
+        },
+        "s4_spielbot": {
+          "comprehension": {
+            "correctness_mean": 4.13,
+            "completeness_mean": 4.07,
+            "conciseness_mean": 3.13,
+            "composite_mean": 3.78,
+            "n": 15
+          },
+          "reasoning": {
+            "correctness_mean": 3.47,
+            "completeness_mean": 3.47,
+            "conciseness_mean": 3.47,
+            "composite_mean": 3.47,
+            "n": 15
+          }
         }
       }
     }
