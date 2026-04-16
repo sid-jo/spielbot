@@ -41,7 +41,7 @@
             "game": "catan",
             "type": "comprehension",
             "question": "When does the game end?",
-            "gold_answer": "A game ends the moment a player reaches at least 10 VPs.",
+            "gold_answer": "A game ends the moment a player reaches at least 10 VPs on their turn.",
             "relevant_chunk_ids": ["catan_rulebook_055", "catan_rulebook_017"],
             "tags": ["victory points", "game end"]
         },
@@ -68,7 +68,7 @@
             "game": "catan",
             "type": "reasoning",
             "question": "How are ties broken if multiple people reach 10 VPs at the same time?",
-            "gold_answer": "The game ends when a player reaches at least 10 VPs at some point during their own turn. Therefore, it is not possible to have multiple players tie for 10 VPs. Even if you reach 10 VPs on someone else's turn, you muct wait until your turn to declare victory.",
+            "gold_answer": "The game ends when a player reaches at least 10 VPs at some point during their own turn. Therefore, it is not possible to have multiple players tie for 10 VPs. Even if you reach 10 VPs on someone else's turn, you must wait until your turn to declare victory.",
             "relevant_chunk_ids": ["catan_forum_587950", "catan_forum_3222490", "catan_rulebook_055"],
             "tags": ["victory points", "game end"]
         },
@@ -95,7 +95,7 @@
             "game": "root",
             "type": "comprehension",
             "question": "What happens when the birds turmoil for the 4th time?",
-            "gold_answer": "Upon turmoiling for the 4th time, the Eyrie leaders are flipped face-up and a new one is chosen, including the leader that was just deposed.",
+            "gold_answer": "Upon turmoiling for the 4th time, they follow the standard turmoil procedure but trigger the New Clutch rule. The four Eyrie leader cards are flipped face-up and a new one is chosen, including the leader that was just deposed.",
             "relevant_chunk_ids": ["root_forum_3646341", "root_rulebook_031"],
             "tags": ["eyrie dynasties", "turmoil"]
         },
@@ -158,7 +158,7 @@
             "game": "root",
             "type": "reasoning",
             "question": "Can the Riverfolk Company use the Tunnels card to move between trade posts?",
-            "gold_answer": "Trading posts do not count as crafting pieces (in fact, the Riverfolk don't have crafting pieces) so travelling between them with Tunnels is not possible.",
+            "gold_answer": "The Tunnels card allows the crafter's faction warriors to treat clearings with their crafting pieces as adjacent for movement. Trading posts do not count as crafting pieces (in fact, the Riverfolk don't have crafting pieces) so travelling between them with Tunnels is not possible.",
             "relevant_chunk_ids": ["root_rulebook_056", "root_card_072"],
             "tags": ["riverfolk company", "tunnels", "cards", "trade post tokens"]
         },
@@ -185,7 +185,7 @@
             "game": "splendor",
             "type": "comprehension",
             "question": "If a player qualifies for multiple nobles, can they take all of them on their turn?",
-            "gold_answer": "No, players must only collect one noble per turn should they meet that noble's requirement. If a player qualifies for multiple, they must choose one to collect and wait until their next turn to collect another.",
+            "gold_answer": "No, players must only collect one noble per turn should they meet that noble's requirement. If a player qualifies for multiple, they must choose one to collect and wait until their next turn to collect another (if it is still available).",
             "relevant_chunk_ids": ["splendor_rulebook_005", "splendor_rulebook_011", "splendor_forum_2824299"],
             "tags": ["nobles"]
         },
@@ -203,7 +203,7 @@
             "game": "splendor",
             "type": "comprehension",
             "question": "Can I take 2 gems of the same color if there are only 3 left?",
-            "gold_answer": "No, you can only take two gems of the same color if there are at least four gems of that color available in the supply. If fewer than four remain, you must choose three gems of different colors instead.",
+            "gold_answer": "No, you can only take two gems of the same color if there are at least four gems of that color available in the supply. If fewer than four remain, you must choose three gems of different colors instead or take a different action altogether.",
             "relevant_chunk_ids": ["splendor_rulebook_007", "splendor_rulebook_006"],
             "tags": ["gem tokens", "performing actions"]
         },
