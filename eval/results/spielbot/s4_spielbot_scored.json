@@ -43,10 +43,10 @@
       "latency_ms": 18131,
       "error": null,
       "scores": {
-        "correctness": 5,
-        "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "The generated answer is perfectly correct and covers all points from the gold answer, including the implicit 'no substitutes' by stating 'you may not build beyond what you physically have available'. It also adds a helpful, correct consequence regarding settlement placement, making it more complete and useful for a player. It is slightly less concise than the gold, but the added information is valuable."
+        "correctness": 4,
+        "completeness": 3,
+        "conciseness": 3,
+        "reasoning": "The generated answer correctly states you cannot build more roads once you've placed all 15. However, it misses the gold answer's explicit instruction not to substitute other pieces for roads. It also adds information about settlements, which is an implication but not directly part of the rule about running out of roads itself, making it less concise than the gold standard."
       }
     },
     {
@@ -112,10 +112,10 @@
       "latency_ms": 9390,
       "error": null,
       "scores": {
-        "correctness": 1,
-        "completeness": 2,
-        "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"conciseness\": 3,"
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 5,
+        "reasoning": "The generated answer perfectly captures the core rule from the gold answer and adds crucial, correct clarifications regarding reaching 10 VPs off-turn and the absence of an extra round. This makes it more complete and practical without being verbose."
       }
     },
     {
@@ -161,7 +161,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 3,
-        "reasoning": "The generated answer correctly calculates the VPs and provides the breakdown, matching the gold standard. However, it includes extra, unrequested information about needing 10 VPs to win, making it less concise."
+        "reasoning": "The generated answer correctly calculates the VPs and provides the breakdown, matching the gold standard. It is complete, even adding extra, unrequested information about winning conditions, which makes it less concise than ideal for a direct calculation question."
       }
     },
     {
@@ -182,9 +182,9 @@
       "error": null,
       "scores": {
         "correctness": 5,
-        "completeness": 5,
+        "completeness": 4,
         "conciseness": 5,
-        "reasoning": "The generated answer perfectly explains why ties for winning at 10 VPs are not possible, matching the gold standard. It also adds a relevant, concise point about ranking non-winners, which enhances completeness without sacrificing conciseness."
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 4,\n  \"conciseness\": 5,\n  \"reasoning\": \"The generated answer perfectly captures the core rule"
       }
     },
     {
@@ -230,7 +230,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 4,
-        "reasoning": "The generated answer is perfectly correct and even more complete than the gold, clarifying that settlements are on intersections and that other players' roads do not prevent building. It is slightly less concise than the gold due to these extra (though valuable) clarifications."
+        "reasoning": "The generated answer is perfectly accurate and provides excellent clarification on what 'existing roads' means (including other players' roads) and the placement of settlements on intersections. It covers all points in the gold answer and adds valuable, relevant details. It is slightly more verbose than the gold answer, but the additional information is helpful and not padding, making it still practical for mid-game use."
       }
     },
     {
@@ -252,8 +252,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 3,"
+        "conciseness": 4,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4"
       }
     },
     {
@@ -297,9 +297,9 @@
       "error": null,
       "scores": {
         "correctness": 5,
-        "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4"
+        "completeness": 4,
+        "conciseness": 5,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 4,\n  \"conciseness\": 5,"
       }
     },
     {
@@ -365,10 +365,10 @@
       "latency_ms": 26940,
       "error": null,
       "scores": {
-        "correctness": 4,
-        "completeness": 5,
+        "correctness": 3,
+        "completeness": 3,
         "conciseness": 2,
-        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 5,\n  \"conciseness\": 2,"
+        "reasoning": "{\n  \"correctness\": 3,\n  \"completeness\": 3,\n  \"conciseness\": 2,"
       }
     },
     {
@@ -391,7 +391,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 3,
-        "reasoning": "The generated answer is completely incorrect. It states that no factions can lose Victory Points, which directly contradicts the gold answer and the game rules (Eyrie in turmoil, Jailor Vagabond's Coerce action). It fails to identify any of the correct instances."
+        "reasoning": "The generated answer is fundamentally incorrect, stating that no factions can lose Victory Points, which directly contradicts the gold answer that correctly identifies the Eyrie and the Jailor Vagabond as factions that can lose VPs. It completely misses the specific instances where VPs are lost."
       }
     },
     {
@@ -413,8 +413,8 @@
       "scores": {
         "correctness": 1,
         "completeness": 1,
-        "conciseness": 1,
-        "reasoning": "The generated answer completely fails to answer the question, stating it lacks information. The gold answer provides a definitive 'no' and the specific rule reason (trading posts are not crafting pieces). The generated answer is therefore incorrect in its assessment of its ability to answer, incomplete as it provides no ruling, and verbose for explaining why it can't answer and including irrelevant information."
+        "conciseness": 2,
+        "reasoning": "The generated answer incorrectly states it lacks information to answer the question, while the gold answer provides a clear and definitive ruling. It completely fails to address the core question and provides no useful rule explanation. While not excessively long, it includes irrelevant information given its inability to answer the specific question."
       }
     },
     {
@@ -460,7 +460,7 @@
         "correctness": 3,
         "completeness": 3,
         "conciseness": 3,
-        "reasoning": "The generated answer correctly identifies the core rule conflict (Keep prevents placing pieces, Scorched Earth requires placing a piece) but hedges significantly due to a stated lack of specific rule text. The gold answer confirms that Scorched Earth *does* require placing a piece (the Torch), making the 'if' and 'likely no' in the generated answer unnecessary and reducing its correctness and completeness. The hedging also impacts conciseness."
+        "reasoning": "The generated answer correctly identifies the Keep's restriction but hedges on whether Scorched Earth requires placing a piece, which the gold answer confirms it does. This hedging makes it less correct and complete, and also less concise for a definitive ruling."
       }
     },
     {
@@ -482,8 +482,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "The generated answer is perfectly correct and aligns with the gold standard. It is more complete by adding relevant context about the noble visit being automatic and that another noble can be received on a later turn if requirements are met, which enhances the overall understanding without being overly verbose."
+        "conciseness": 5,
+        "reasoning": "The generated answer is perfectly accurate, matching the gold standard and adding a helpful detail about the noble visit being automatic and not an action. It covers all aspects of the gold answer and is concise."
       }
     },
     {
@@ -506,7 +506,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 5,
-        "reasoning": "The generated answer is perfectly accurate, covering all points from the gold answer and adding crucial details like 'bonuses only, not gem tokens' and the 'one noble per turn' rule with the choice mechanism. It is also very concise, delivering all necessary information in a clear, single sentence."
+        "reasoning": "The generated answer is perfectly accurate, matching all claims in the gold answer. It also adds crucial, correct details not present in the gold answer, such as the clarification about permanent bonuses (not gem tokens) and the rule about claiming only one noble per turn (and choosing if multiple qualify). This makes it more complete and a better overall answer without sacrificing conciseness."
       }
     },
     {
@@ -528,8 +528,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 3,
-        "conciseness": 3,
-        "reasoning": "The generated answer is correct in its ruling and explanation of the condition. However, it is incomplete as it omits the alternative action (taking three different colored gems) that the gold answer provides. It is also less concise due to the added timing clarification and bracketed numbers, which are not strictly necessary to answer the core question."
+        "conciseness": 4,
+        "reasoning": "The generated answer is perfectly correct regarding the condition for taking two gems of the same color. However, it is incomplete as it omits the alternative actions a player can take (three different gems or a different action altogether), which the gold answer includes. It is mostly concise, with a minor extra clarification on timing."
       }
     },
     {
@@ -572,10 +572,10 @@
       "latency_ms": 18399,
       "error": null,
       "scores": {
-        "correctness": 3,
-        "completeness": 5,
+        "correctness": 4,
+        "completeness": 3,
         "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 3,\n  \"completeness\": 5,\n  \"conciseness\": 3,"
+        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 3,\n  \"conciseness\": 3,"
       }
     },
     {
@@ -595,10 +595,10 @@
       "latency_ms": 19169,
       "error": null,
       "scores": {
-        "correctness": 5,
-        "completeness": 5,
+        "correctness": 4,
+        "completeness": 4,
         "conciseness": 5,
-        "reasoning": "The generated answer correctly states that the player can take two (or even one) different colored tokens. It also provides a valuable and accurate clarification that taking two of the same color is not possible in this scenario due to the 'less than 4 in stock' condition, which is a common point of confusion related to this rule. It is concise and directly addresses the question and its implications."
+        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"conciseness\": 5,"
       }
     },
     {
@@ -644,7 +644,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 3,
-        "reasoning": "The gold answer states there is no official ruling, while the generated answer gives a definitive 'No' and provides a justification as if it were an official rule. It completely misses the ambiguity and the alternative player interpretations mentioned in the gold standard."
+        "reasoning": "The generated answer directly contradicts the gold answer's primary claim that there is no official ruling on this issue. It presents a common player interpretation as a definitive rule ('No. Reserved development cards are kept 'in hand'...') rather than acknowledging the ambiguity. It completely misses the crucial information about the lack of an official rule and the differing player practices. While not excessively verbose, its conciseness is undermined by the incorrect and incomplete information."
       }
     },
     {
@@ -665,9 +665,9 @@
       "error": null,
       "scores": {
         "correctness": 1,
-        "completeness": 2,
-        "conciseness": 3,
-        "reasoning": "The generated answer directly contradicts the gold answer regarding the official status of the ruling. The gold answer states there are no official rules, while the generated answer claims it is an 'official ruling from Asmodee'. This is a major factual error. While it correctly states the player passes, it completely misrepresents the source and nature of this agreement."
+        "completeness": 1,
+        "conciseness": 4,
+        "reasoning": "The generated answer directly contradicts the gold standard by claiming there is an 'official ruling from Asmodee' when the gold standard states 'there is no official rules'. It also fails to mention the community agreement or the suggested house rules, making it very incomplete."
       }
     },
     {
@@ -687,10 +687,10 @@
       "latency_ms": 24290,
       "error": null,
       "scores": {
-        "correctness": 5,
-        "completeness": 5,
-        "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 3"
+        "correctness": 3,
+        "completeness": 3,
+        "conciseness": 2,
+        "reasoning": "The generated answer correctly clarifies that development cards provide discounts rather than being 'spent.' However, it hedges on the crucial point of whether applying these discounts is mandatory, stating that 'Rules-as-written lean toward' it, and introducing conflicting community answers. The gold answer is definitive: 'Players must use their development cards first.' This hedging and inclusion of external debate significantly reduces correctness and completeness. It is also very verbose compared to the concise gold answer."
       }
     }
   ],

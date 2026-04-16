@@ -56,7 +56,7 @@
         "correctness": 4,
         "completeness": 5,
         "conciseness": 4,
-        "reasoning": "The generated answer correctly identifies the two ways to activate the Robber. The phrasing 'during the resource production phase' for rolling a 7 is slightly imprecise, as the Robber is activated *before* resource production, but the core trigger (rolling a 7) is correct. It is slightly less concise than the gold answer but still very clear."
+        "reasoning": "The generated answer correctly identifies the two ways to activate the Robber. It is slightly less concise than the gold standard and includes a minor, slightly imprecise detail about the 'resource production phase' for rolling a 7, but this doesn't fundamentally change the correctness of the triggers."
       }
     },
     {
@@ -67,10 +67,10 @@
       "response": "The game ends immediately when a player reaches 10 or more victory points on their own turn. If you reach 10 points when it is not your turn, the game continues until a player (including you) has 10 points during their own turn.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 1,
-        "completeness": 1,
-        "conciseness": 3,
-        "reasoning": "The generated answer fundamentally contradicts the gold standard. The gold answer states the game ends 'the moment' 10 VPs are reached, implying it can happen at any time. The generated answer adds a crucial condition that it must be 'on their own turn' and that the game continues if 10 VPs are reached off-turn. This is a direct contradiction of the gold answer's core rule."
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 4,
+        "reasoning": "The generated answer is perfectly correct and even more complete than the gold standard by explicitly addressing the scenario of reaching 10 VPs off-turn, which is a common point of confusion. It is slightly less concise than the gold, but the added detail is valuable and not verbose."
       }
     },
     {
@@ -98,7 +98,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 4,
-        "reasoning": "The generated answer is perfectly accurate and covers all the points mentioned in the gold answer. It is very concise, though the gold answer is marginally more direct by not having an introductory sentence before the breakdown."
+        "reasoning": "The generated answer is perfectly correct and complete, matching all details and the total VP count from the gold answer. It is slightly less concise than the gold answer due to the introductory sentence and bullet point formatting, but still very clear and practical."
       }
     },
     {
@@ -112,7 +112,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 5,
-        "reasoning": "The generated answer perfectly explains why ties are not possible, matching the gold standard's explanation of the turn-based victory condition. It is accurate, complete, and concise."
+        "reasoning": "The generated answer perfectly matches the gold standard, explaining why ties are not possible and covering the rule about winning only on your own turn."
       }
     },
     {
@@ -125,8 +125,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 4,
-        "conciseness": 4,
-        "reasoning": "The generated answer is perfectly correct, stating that only resource cards count and development cards do not. It adds the context of the '7' roll, which is relevant to discarding for the Robber. It is slightly less complete than the gold answer by not explicitly mentioning 'revealed nor unrevealed' development cards or listing the specific resource types, but its core message is complete. It is slightly less concise due to the added context, but still very practical."
+        "conciseness": 5,
+        "reasoning": "The generated answer is perfectly accurate, stating 'No' and clarifying that only resource cards count, and linking it to the '7' roll. It is very concise. It misses the explicit mention of 'revealed nor unrevealed' development cards and the specific list of resource types, which are minor details."
       }
     },
     {
@@ -140,7 +140,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 4,
-        "reasoning": "The generated answer is perfectly accurate, matching all claims from the gold answer. It is also more complete as it explicitly defines the Distance Rule, which the gold answer only references. It is slightly less concise due to this added explanation, but the detail is valuable and not unnecessary."
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4,"
       }
     },
     {
@@ -153,8 +153,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4,"
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 3,"
       }
     },
     {
@@ -162,13 +162,13 @@
       "game": "root",
       "type": "comprehension",
       "question": "What are the types of Corvid plots?",
-      "response": "The four types of Corvid plots are:\n\n1. Bomb\n2. Snare\n3. Extortion\n4. Raid",
+      "response": "What are the types of Corvid plots?\n\nThe four types of Corvid plots are:\n\n1. Bomb\n2. Snare\n3. Extortion\n4. Raid",
       "latency_ms": -1,
       "scores": {
         "correctness": 5,
         "completeness": 5,
         "conciseness": 4,
-        "reasoning": "The generated answer correctly lists all four Corvid plot types. It is slightly less concise than the gold answer due to repeating the question and using a more verbose introductory sentence before the list."
+        "reasoning": "The generated answer correctly lists all four Corvid plot types. It is slightly less concise than the gold answer due to repeating the question and using a more verbose introductory sentence, but still clear and practical."
       }
     },
     {
@@ -179,10 +179,10 @@
       "response": "According to the rules, the differences are as follows:\n\n1. Buildings are square cardboard pieces. They contribute to the rule of a clearing.\n2. Tokens are circular cardboard pieces. They do not contribute to the rule of a clearing.\n3. Warriors (commonly referred to as units) are wooden figures. They contribute to the rule of a clearing.\n4. Pawns (such as the Vagabond) are also wooden figures, but they do not contribute to the rule of a clearing.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 3,
-        "completeness": 2,
+        "correctness": 4,
+        "completeness": 3,
         "conciseness": 4,
-        "reasoning": "{\n  \"correctness\": 3,\n  \"completeness\": 2,\n  \"conciseness\": 4,"
+        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 3,\n  \"conciseness\": 4,\n  \"reasoning\": \"The generated answer correctly identifies the physical characteristics and rule contribution for buildings, tokens, and warriors. However, it misses several key details from the gold answer, such as units being used for attack/defense,"
       }
     },
     {
@@ -235,10 +235,10 @@
       "response": "Based on the rules, the Eyrie Dynasties is the faction that can lose victory points. This occurs when they fall into Turmoil, at which point they must Humiliate: they lose one victory point per bird card (including Loyal Viziers) on the Decree (7.7.1).",
       "latency_ms": -1,
       "scores": {
-        "correctness": 2,
+        "correctness": 3,
         "completeness": 2,
-        "conciseness": 4,
-        "reasoning": "The generated answer correctly identifies the Eyrie Dynasties and how they lose VPs, but it incorrectly states they are 'the faction' (implying only one) and completely misses the Jailor Vagabond, which is the second faction mentioned in the gold answer. This makes it mostly incorrect and very incomplete."
+        "conciseness": 5,
+        "reasoning": "The generated answer correctly identifies the Eyrie Dynasties and their VP loss condition, which is accurate. However, it completely misses the Jailor Vagabond, who is the second faction that can lose Victory Points, making it significantly incomplete. The information provided for the Eyrie is concise and well-stated."
       }
     },
     {
@@ -252,7 +252,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 4,
-        "reasoning": "The generated answer is perfectly correct and covers all points from the gold answer, even adding a rule reference. It is slightly less concise than the gold answer due to minor additional details like the card's deck origin, but still practical."
+        "reasoning": "The generated answer is perfectly correct and complete, providing all the necessary reasons why the Riverfolk cannot use the Tunnels card in this way. It is also very concise, though slightly more verbose than the gold answer due to the rule reference and deck name, which are not strictly necessary for the ruling but add context."
       }
     },
     {
@@ -294,7 +294,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 5,
-        "reasoning": "The generated answer is perfectly accurate, matching the gold standard's ruling and even adding a slight, helpful nuance with 'potentially acquire another'. It is complete and very concise, ideal for quick rule lookups."
+        "reasoning": "The generated answer is perfectly correct, complete, and concise. It matches the gold standard in all factual claims and covers all relevant details in a clear, brief manner."
       }
     },
     {
@@ -307,8 +307,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "The generated answer is perfectly accurate and covers all the key points from the gold answer, including the requirements, timing (end of turn), and that it doesn't count as an action. It is slightly more verbose than the gold answer but still very concise and practical."
+        "conciseness": 5,
+        "reasoning": "The generated answer is perfectly accurate, covering all the key details from the gold answer, including the requirements, timing, and the fact that it doesn't count as an action. It is also very concise and clear."
       }
     },
     {
@@ -322,7 +322,7 @@
         "correctness": 5,
         "completeness": 3,
         "conciseness": 5,
-        "reasoning": "The generated answer is perfectly correct regarding the condition for taking two gems of the same color. However, it is incomplete as it omits the alternative action (taking three different colored gems) that the gold answer provides, which is important context for the 'No' answer. It is very concise for the information it does provide."
+        "reasoning": "The generated answer is perfectly correct in its statement of the rule. However, it is less complete than the gold answer because it omits the alternative actions a player can take if the condition for taking two gems of the same color is not met. It is very concise for the information it provides."
       }
     },
     {
@@ -333,10 +333,10 @@
       "response": "According to the rules, the number of gem tokens depends on the player count:\n\n4-Player game: 7 of each gem color (35 total gems).\n3-Player game: 5 of each gem color (25 total gems).\n2-Player game: 4 of each gem color (20 total gems).\nThe rules do not specify the total quantity of Gold pieces, but they are not reduced for 2 or 3-player games.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 1,
-        "completeness": 1,
+        "correctness": 2,
+        "completeness": 2,
         "conciseness": 2,
-        "reasoning": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"conciseness\": 2"
+        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 2,\n  \"conciseness\": 2,"
       }
     },
     {
@@ -348,9 +348,9 @@
       "latency_ms": -1,
       "scores": {
         "correctness": 3,
-        "completeness": 2,
-        "conciseness": 5,
-        "reasoning": "The generated answer correctly identifies the two types of cards that can be purchased (face-up and reserved) but critically omits the condition that the player must have the tokens/cards to pay for the purchase, which is a fundamental part of the rule. It also misses the specific count of 12 face-up cards. What it does state is concise."
+        "completeness": 3,
+        "conciseness": 4,
+        "reasoning": "{\n  \"correctness\": 3,\n  \"completeness\": 3,\n  \"conciseness\": 4,"
       }
     },
     {
@@ -361,10 +361,10 @@
       "response": "Yes, you can. According to the rules, if there are not enough available pieces to take 3 of different colors from the supply, you may take 2 pieces or even 1.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 3,
+        "correctness": 2,
         "completeness": 2,
-        "conciseness": 4,
-        "reasoning": "{\n  \"correctness\": 3,\n  \"completeness\": 2,\n  \"conciseness\": 4,"
+        "conciseness": 5,
+        "reasoning": "The generated answer correctly states that you can take fewer tokens if 3 different colors aren't available. However, it critically misses the condition that you must also be unable to take any other valid action, which is a fundamental part of the rule. This omission makes the answer misleading and incomplete."
       }
     },
     {
@@ -376,9 +376,9 @@
       "latency_ms": -1,
       "scores": {
         "correctness": 5,
-        "completeness": 4,
-        "conciseness": 3,
-        "reasoning": "The generated answer is correct and provides good context about gold tokens being wild. However, it doesn't explicitly state 'there is no limit to how many gold tokens you can spend' as the gold answer does, which directly addresses the quantity aspect of the question. It is also slightly more verbose than needed for a direct answer."
+        "completeness": 5,
+        "conciseness": 4,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4"
       }
     },
     {
@@ -392,7 +392,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 5,
-        "reasoning": "The generated answer is completely incorrect as it states a definitive rule ('must remain visible') where the gold answer explicitly states there is no official ruling. It also fails to mention the varying player practices. It is concise, but its conciseness comes from being definitively wrong."
+        "reasoning": "The generated answer directly contradicts the gold standard. The gold answer states there is no official ruling, while the generated answer gives a definitive 'yes' and a specific (incorrect) instruction. It completely misses the nuance of player interpretations."
       }
     },
     {
@@ -403,10 +403,10 @@
       "response": "I don't know. The rules specify that you must perform exactly one of the four available actions (taking three gems, taking two gems, reserving a card, or purchasing a card) on your turn, but they do not provide instructions for a situation where no actions are possible.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 5,
+        "correctness": 3,
         "completeness": 2,
-        "conciseness": 4,
-        "reasoning": "The generated answer correctly states that the rules do not provide instructions for this scenario, aligning with the gold answer's point about 'no official rules'. However, it is incomplete as it misses the crucial information about community consensus and common house rules, which the gold answer provides as a practical solution."
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 3,\n  \"completeness\": 2,\n  \"conciseness\": 3"
       }
     },
     {

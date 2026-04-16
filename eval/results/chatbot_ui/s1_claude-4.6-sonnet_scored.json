@@ -14,7 +14,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 3,
-        "reasoning": "The generated answer is perfectly correct and covers all points from the gold answer, plus additional helpful context about cities (VP, resources, max cities). However, this extra information, while useful, makes it less concise than the gold answer, which strictly answers 'how to build' without additional details."
+        "reasoning": "The generated answer is perfectly correct and provides all information from the gold answer, plus highly relevant additional details about cities (VP, resource production, max cities). However, it is less concise than the gold answer, as it includes information beyond the direct 'how to build' steps, making it slightly less ideal for a quick mid-game lookup of just the building process."
       }
     },
     {
@@ -68,9 +68,9 @@
       "latency_ms": -1,
       "scores": {
         "correctness": 5,
-        "completeness": 5,
+        "completeness": 4,
         "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 3,"
+        "reasoning": "The generated answer is perfectly correct and accurately explains the game-ending condition, including the crucial 'on their turn' aspect. It is less concise than the gold answer because it includes a list of how victory points are earned, which, while accurate, is not strictly necessary to answer 'When does the game end?'."
       }
     },
     {
@@ -83,8 +83,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "The generated answer perfectly aligns with the gold answer regarding the legality and effect of the trade sequence. It is more complete by providing additional, correct details about the constraints of trading (mutual agreement, resources on each side, on turn) and a clear example of the resource flow. While slightly longer than the gold answer, the added information is valuable and well-structured, making it a very good explanation."
+        "conciseness": 3,
+        "reasoning": "The generated answer is perfectly correct and aligns with the gold standard. It is more complete, providing additional context on Catan's trade rules and the 'no gifting' rule, which helps explain *why* this loophole exists and is allowed. It also elaborates on the 'spirit of the game' aspect mentioned in the gold answer. It is less concise than the gold answer due to this added detail, but the detail is relevant and helpful."
       }
     },
     {
@@ -98,7 +98,7 @@
         "correctness": 3,
         "completeness": 5,
         "conciseness": 3,
-        "reasoning": "The generated answer initially states '9 Victory Points' which is incorrect, but then correctly calculates the individual components and states the 'Total: 8 VP'. This internal contradiction lowers the correctness score. It is complete in addressing all parts of the question. It is less concise due to the initial incorrect statement and the added, unrequested information about being 'one short of the 10 needed to win'."
+        "reasoning": "The answer correctly calculates the individual VP values and the final total (8 VPs), matching the gold answer. However, it initially states '9 Victory Points' before correcting itself to '8 VP', which is a significant contradiction and makes the initial statement incorrect. It also includes a slightly verbose comment about being 'one short of 10 VPs' which is not strictly necessary to answer the question."
       }
     },
     {
@@ -109,10 +109,10 @@
       "response": "In Catan, ties in reaching 10 victory points simultaneously don't actually occur in standard gameplay, because **turns are sequential** \u2014 only one player takes a turn at a time. A player wins **immediately** when they reach 10 victory points at the start of their turn (with the points being \"announced\" at the end of it), so no other player gets a chance to reach 10 in the same moment.\n\nThe one nuance worth noting: you must reach 10 VPs **on your own turn** to win. If something during another player's turn would theoretically push you to 10 (which isn't really possible in standard Catan, since you don't gain VPs during others' turns), it wouldn't count until your next turn \u2014 at which point that player would have already won on their own turn first.\n\nSo the short answer is: **the rules are designed so ties can't happen**, and no tiebreaker rule exists in the official ruleset because none is needed.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 4,
-        "completeness": 5,
+        "correctness": 3,
+        "completeness": 3,
         "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 5,\n  \"conciseness\": 3,\n  \"reasoning\": \"The generated answer correctly identifies that ties are not possible due to the 'win on your"
+        "reasoning": "Fallback neutral score: judge output parse failed repeatedly."
       }
     },
     {
@@ -124,9 +124,9 @@
       "latency_ms": -1,
       "scores": {
         "correctness": 5,
-        "completeness": 4,
-        "conciseness": 4,
-        "reasoning": "The generated answer is perfectly accurate and provides all the essential information. It is slightly more verbose than the gold answer by explaining the general discard rule, but this context is helpful and doesn't detract significantly from conciseness. It misses the explicit mention of 'revealed vs unrevealed' development cards, but implicitly covers it."
+        "completeness": 5,
+        "conciseness": 5,
+        "reasoning": "The generated answer is perfectly accurate, matching the gold standard and providing additional helpful context about the Robber rule (discarding half, when a 7 is rolled) and explicitly listing the resource cards. It is also very concise, with every sentence adding value without being overly verbose."
       }
     },
     {
@@ -137,10 +137,10 @@
       "response": "Yes, in Catan you can build a new settlement on an existing road \u2014 but only if all of the following conditions are met:\n\n1. **It's your own road.** You can only build on roads you control (with one exception \u2014 see below).\n\n2. **The intersection is unoccupied.** No settlement or city can already be at that spot.\n\n3. **The distance rule is respected.** The new settlement must be at least two road segments away from any other settlement or city (yours or anyone else's).\n\n4. **You have a road leading there.** The settlement must be connected to your road network (which it will be, if you're building on your own road).\n\nSo a common strategy is to extend your road network and then \"cap\" it with a new settlement at a favorable intersection.\n\n**The one exception:** If an opponent's road passes through an intersection where you later build a settlement, your settlement effectively **breaks** their road at that point for the purpose of calculating the **Longest Road** card. Your settlement acts as a blocker, potentially splitting their continuous road into two shorter segments.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 4,
+        "correctness": 5,
         "completeness": 5,
-        "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 5,\n  \"conciseness\": 3,"
+        "conciseness": 4,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4,"
       }
     },
     {
@@ -154,7 +154,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 1,
-        "reasoning": "The generated answer is fundamentally incorrect. It states that 'nothing specially different happens mechanically' on the 4th turmoil, which directly contradicts the gold answer's explanation of leaders being flipped face-up and the deposed leader becoming available again. It also incorrectly claims that deposed leaders 'cannot be chosen again that game' and that the Eyrie would be crippled after all leaders are deposed, which is a complete misunderstanding of the Eyrie turmoil rules. The gold answer correctly states that all leaders, including the recently deposed one, become available again. The generated answer is also very verbose and includes irrelevant details and self-corrections."
+        "reasoning": "The generated answer is fundamentally incorrect. It states that nothing special happens on the 4th turmoil, directly contradicting the 'New Clutch' rule. It also misrepresents how leaders are handled after turmoil, claiming they cannot be chosen again, which is the opposite of what the 'New Clutch' rule allows. The answer is verbose and contains self-corrections and irrelevant questions."
       }
     },
     {
@@ -237,8 +237,8 @@
       "scores": {
         "correctness": 1,
         "completeness": 1,
-        "conciseness": 1,
-        "reasoning": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"conciseness\": 1,"
+        "conciseness": 2,
+        "reasoning": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"conciseness\": 2,"
       }
     },
     {
@@ -249,10 +249,10 @@
       "response": "No, the Riverfolk Company **cannot** use the Tunnels card to move between their trade posts.\n\nThe Tunnels card (from the Eyrie Dynasties' deck, or as a shared card) allows movement between burrow tokens or tunnel markers placed on the board \u2014 specifically the Marquise de Cat's keep and any clearing with a burrow. The Riverfolk Company's trade posts are a completely different type of structure and have no interaction with the Tunnels card's movement rule.\n\nThe Riverfolk Company moves via the standard river and path connections on the board (or by purchasing their own ferry/movement services). Their trade posts are placed to enable selling services to other factions, not to form a movement network of their own.\n\nIf you're looking for ways to zip around the board quickly as Riverfolk, your best bet is selling your **Boat Builders** service to yourself (if playing a variant that allows it) or leveraging the river for efficient movement naturally.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 5,
-        "completeness": 5,
-        "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 3"
+        "correctness": 1,
+        "completeness": 2,
+        "conciseness": 2,
+        "reasoning": "The generated answer correctly states 'No' but provides a fundamentally incorrect explanation of the Tunnels card's effect, confusing it with the Marquise de Cat's burrow ability. It fails to mention 'crafting pieces,' which is the key element of the Tunnels card, and includes irrelevant information about general Riverfolk movement and advice."
       }
     },
     {
@@ -265,8 +265,8 @@
       "scores": {
         "correctness": 3,
         "completeness": 4,
-        "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 3,\n  \"completeness\": 4,\n  \"conciseness\": 3,"
+        "conciseness": 2,
+        "reasoning": "{\n  \"correctness\": 3,\n  \"completeness\": 4,\n  \"conciseness\": 2"
       }
     },
     {
@@ -280,7 +280,7 @@
         "correctness": 2,
         "completeness": 2,
         "conciseness": 3,
-        "reasoning": "The generated answer correctly states 'No' but provides an incorrect reason. It claims the Keep prevents other factions from *removing* it, which is not the Keep's special rule. The gold answer correctly identifies that Scorched Earth requires *placing* the Scoundrel's Torch, and the Keep prevents anyone other than the Marquise from *placing* pieces in its clearing. The generated answer's explanation is a fundamental misunderstanding of the rule interaction. It also includes irrelevant suggestions."
+        "reasoning": "The generated answer correctly states 'No', but provides an incorrect reason. It claims the Keep prevents other factions from *removing* it, which is false. The actual reason (as per the gold answer) is that the Keep prevents other players from *placing pieces* in its clearing, which Scorched Earth requires (placing the Torch). The generated answer completely misses this crucial rule interaction and invents a different one. The additional suggestions are also not directly relevant to the core question."
       }
     },
     {
@@ -293,8 +293,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 3,
-        "reasoning": "The generated answer is perfectly correct and covers all information from the gold answer. However, it adds a paragraph of strategic advice that, while true, is not strictly necessary to answer the rule question, making it less concise than the gold standard."
+        "conciseness": 4,
+        "reasoning": "The generated answer is perfectly accurate and covers all points from the gold answer, including the crucial 'one noble per turn' and 'choose one if multiple'. It also adds a helpful clarification about nobles not costing cards, which is good context. It is slightly less concise than the gold due to this additional detail, but still very practical."
       }
     },
     {
@@ -322,7 +322,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 4,
-        "reasoning": "The generated answer is perfectly correct and complete, even offering an additional valid alternative action (reserving a card) not explicitly mentioned in the gold answer. It is slightly less concise due to the introductory phrase 'In Splendor' and listing multiple alternatives, but still very clear and practical."
+        "reasoning": "The generated answer is perfectly correct and complete, accurately stating the rule and providing valid alternative actions. It is slightly less concise than the gold standard due to a slightly more conversational opening and explicit examples for alternative actions, but still very practical."
       }
     },
     {
@@ -347,10 +347,10 @@
       "response": "In Splendor, on your turn you can buy any of the following cards:\n\n**From the board:**\n- Any one of the **4 face-up development cards** in any of the three rows (levels 1, 2, or 3).\n\n**From your hand (reserved cards):**\n- Any card you previously **reserved** (held in hand). You can hold up to 3 reserved cards at a time, and you can purchase any of them on your turn.\n\nTo purchase a card, you pay its gem cost using your **tokens** and/or the **bonus gems** provided by your already-purchased development cards. You cannot buy more than one card per turn.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 3,
-        "completeness": 4,
+        "correctness": 5,
+        "completeness": 5,
         "conciseness": 4,
-        "reasoning": "{\n  \"correctness\": 3,\n  \"completeness\": 4,\n  \"conciseness\": 4,"
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4"
       }
     },
     {
@@ -361,10 +361,10 @@
       "response": "Yes! In Splendor, if there are fewer than 3 different colors available to take (because other piles are empty or depleted), you can take tokens from however many colors are available \u2014 so taking 2 different colored tokens in that situation is perfectly legal.\n\nThe key rules are:\n\n- You **ideally** take 3 tokens of 3 different colors, but only if those colors have at least 1 token each.\n- If only 2 colors are available, you take 2. If only 1, you take 1.\n- The \"less than 4 in stock\" restriction only applies to taking **2 tokens of the same color** (you need at least 4 in a pile to take 2 of the same color) \u2014 it does **not** block you from taking 1 token of that color as part of a 3-different-colors action.\n\nSo in your scenario: only 2 colors remain (each with fewer than 4 tokens), you simply take 1 token from each of those 2 colors. Completely valid!",
       "latency_ms": -1,
       "scores": {
-        "correctness": 5,
-        "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "The generated answer is perfectly accurate, confirming the 'Yes' and providing excellent, correct clarification regarding the 'less than 4 in stock' rule, which directly addresses the nuance in the user's question. It covers all relevant aspects and is well-structured, though slightly more verbose than the gold standard, the extra detail is highly valuable and not superfluous."
+        "correctness": 2,
+        "completeness": 2,
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 2,\n  \"conciseness\": 3,"
       }
     },
     {
@@ -378,7 +378,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 4,
-        "reasoning": "The generated answer is perfectly correct and provides a slightly more complete explanation by detailing that gold tokens are wildcards and can substitute for any color. While slightly longer than the gold answer, the added detail is valuable and not overly verbose, making it still concise enough for mid-game use."
+        "reasoning": "The generated answer is perfectly correct and complete, matching the gold standard. It is slightly less concise than the gold answer due to adding a bit more explanatory text, but still very practical."
       }
     },
     {
@@ -403,10 +403,10 @@
       "response": "In Splendor, this situation doesn't actually arise as a rules problem, because the three possible actions are always available (at least in some form):\n\n1. **Take gems** \u2013 you can always take gems as long as there are gems in the supply.\n2. **Purchase a card** \u2013 you can always purchase a card if you have enough gems/gold.\n3. **Reserve a card** \u2013 you can always reserve a card as long as you have fewer than 3 reserved cards and there are cards available.\n\nHowever, the rules do **not** require a player to be *able* to take a meaningful or beneficial action \u2014 they simply must take *one* of the three action types on their turn. If a player somehow finds themselves unable to perform any of the three actions (an extremely rare edge case, such as having a full hand of 10 gems, 3 reserved cards, and no cards they can afford), the rules are silent on a formal remedy, but the practical answer from most rule interpretations is:\n\n- A player **must always pass gems back** if they exceed the 10-gem limit, ensuring the supply isn't permanently drained.\n- If truly stuck, a player would typically **discard gems** (as part of the gem-taking action) to free up options on a future turn.\n\nIn competitive play, this scenario is essentially theoretical \u2014 the game is designed so that a complete deadlock is virtually impossible given the gem limits and card availability. But the official rulebook does **not** explicitly address a \"no legal action\" scenario, so house rules or tournament rules may vary.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 2,
-        "completeness": 2,
-        "conciseness": 1,
-        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 2,\n  \"conciseness\": 1,"
+        "correctness": 4,
+        "completeness": 4,
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"conciseness\": 3,"
       }
     },
     {
@@ -420,7 +420,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 3,
-        "reasoning": "The generated answer is perfectly correct and provides a very thorough explanation, even more complete than the gold answer by clarifying the 'discount' nature of cards. However, it is significantly more verbose than the gold answer, which provides the core rule in a single, concise sentence. While the explanation is good, it's not ideal for a quick mid-game rule check."
+        "reasoning": "The generated answer is perfectly correct and fully explains the rule, matching the gold standard. It is, however, more verbose than necessary, providing examples and reiterating the point, making it less concise than the gold answer."
       }
     }
   ],

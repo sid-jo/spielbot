@@ -2,74 +2,74 @@
   "answer_quality": {
     "by_setting": {
       "s1_bg_wizard": {
-        "correctness_mean": 3.77,
-        "completeness_mean": 3.53,
-        "conciseness_mean": 4.03,
-        "composite_mean": 3.78,
+        "correctness_mean": 3.9,
+        "completeness_mean": 3.8,
+        "conciseness_mean": 4.13,
+        "composite_mean": 3.94,
         "n": 30,
         "model": "board_game_wizard"
       },
       "s1_claude-4.6-sonnet": {
-        "correctness_mean": 3.9,
-        "completeness_mean": 4.13,
-        "conciseness_mean": 3.03,
-        "composite_mean": 3.69,
+        "correctness_mean": 3.8,
+        "completeness_mean": 3.97,
+        "conciseness_mean": 3.1,
+        "composite_mean": 3.62,
         "n": 30,
         "model": "claude-4.6-sonnet"
       },
       "s1_gemini-3-flash": {
-        "correctness_mean": 3.77,
+        "correctness_mean": 3.93,
         "completeness_mean": 3.97,
-        "conciseness_mean": 2.47,
-        "composite_mean": 3.4,
+        "conciseness_mean": 2.6,
+        "composite_mean": 3.5,
         "n": 30,
         "model": "gemini-3-flash"
       },
       "s1_gpt-5.3": {
-        "correctness_mean": 3.5,
-        "completeness_mean": 3.6,
-        "conciseness_mean": 3.13,
-        "composite_mean": 3.41,
+        "correctness_mean": 3.4,
+        "completeness_mean": 3.53,
+        "conciseness_mean": 3,
+        "composite_mean": 3.31,
         "n": 30,
         "model": "gpt-5.3"
       },
       "s1_perplexity-sonar": {
-        "correctness_mean": 4.27,
-        "completeness_mean": 4.37,
-        "conciseness_mean": 2.17,
-        "composite_mean": 3.6,
+        "correctness_mean": 4.33,
+        "completeness_mean": 4.43,
+        "conciseness_mean": 2.2,
+        "composite_mean": 3.66,
         "n": 30,
         "model": "perplexity-sonar"
       },
       "s1_rulesbot": {
-        "correctness_mean": 2.33,
-        "completeness_mean": 2.27,
-        "conciseness_mean": 2.07,
-        "composite_mean": 2.22,
+        "correctness_mean": 2.2,
+        "completeness_mean": 2.23,
+        "conciseness_mean": 1.97,
+        "composite_mean": 2.13,
         "n": 30,
         "model": "rulesbot_ai"
       },
       "s2_gpt5_prompt": {
-        "correctness_mean": 4.33,
-        "completeness_mean": 4.23,
-        "conciseness_mean": 3.63,
-        "composite_mean": 4.07,
+        "correctness_mean": 4.07,
+        "completeness_mean": 3.97,
+        "conciseness_mean": 3.6,
+        "composite_mean": 3.88,
         "n": 30,
         "model": "gpt-5"
       },
       "s3_gpt5_pdf": {
-        "correctness_mean": 4.57,
+        "correctness_mean": 4.67,
         "completeness_mean": 4.57,
-        "conciseness_mean": 3.87,
-        "composite_mean": 4.33,
+        "conciseness_mean": 3.73,
+        "composite_mean": 4.32,
         "n": 30,
         "model": "gpt-5"
       },
       "s4_spielbot": {
         "correctness_mean": 3.8,
-        "completeness_mean": 3.77,
-        "conciseness_mean": 3.3,
-        "composite_mean": 3.62,
+        "completeness_mean": 3.47,
+        "conciseness_mean": 3.5,
+        "composite_mean": 3.59,
         "n": 30,
         "model": "gpt-5"
       }
@@ -77,132 +77,132 @@
     "by_setting_and_game": {
       "s1_bg_wizard": {
         "catan": {
-          "correctness_mean": 3.9,
-          "completeness_mean": 4,
-          "conciseness_mean": 3.9,
-          "composite_mean": 3.93,
+          "correctness_mean": 4.3,
+          "completeness_mean": 4.4,
+          "conciseness_mean": 4.1,
+          "composite_mean": 4.27,
           "n": 10
         },
         "root": {
-          "correctness_mean": 3.7,
-          "completeness_mean": 3.7,
+          "correctness_mean": 3.9,
+          "completeness_mean": 3.8,
           "conciseness_mean": 4.2,
-          "composite_mean": 3.87,
+          "composite_mean": 3.97,
           "n": 10
         },
         "splendor": {
-          "correctness_mean": 3.7,
-          "completeness_mean": 2.9,
-          "conciseness_mean": 4,
-          "composite_mean": 3.53,
+          "correctness_mean": 3.5,
+          "completeness_mean": 3.2,
+          "conciseness_mean": 4.1,
+          "composite_mean": 3.6,
           "n": 10
         }
       },
       "s1_claude-4.6-sonnet": {
         "catan": {
           "correctness_mean": 4.6,
-          "completeness_mean": 4.8,
-          "conciseness_mean": 3.2,
-          "composite_mean": 4.2,
+          "completeness_mean": 4.6,
+          "conciseness_mean": 3.3,
+          "composite_mean": 4.17,
           "n": 10
         },
         "root": {
-          "correctness_mean": 3.1,
-          "completeness_mean": 3.4,
-          "conciseness_mean": 2.7,
-          "composite_mean": 3.07,
+          "correctness_mean": 2.7,
+          "completeness_mean": 3.1,
+          "conciseness_mean": 2.6,
+          "composite_mean": 2.8,
           "n": 10
         },
         "splendor": {
-          "correctness_mean": 4,
+          "correctness_mean": 4.1,
           "completeness_mean": 4.2,
-          "conciseness_mean": 3.2,
-          "composite_mean": 3.8,
+          "conciseness_mean": 3.4,
+          "composite_mean": 3.9,
           "n": 10
         }
       },
       "s1_gemini-3-flash": {
         "catan": {
-          "correctness_mean": 4.1,
+          "correctness_mean": 4.2,
           "completeness_mean": 4.2,
           "conciseness_mean": 2.7,
-          "composite_mean": 3.67,
+          "composite_mean": 3.7,
           "n": 10
         },
         "root": {
-          "correctness_mean": 3.3,
+          "correctness_mean": 3.5,
           "completeness_mean": 3.6,
-          "conciseness_mean": 2.1,
-          "composite_mean": 3.0,
+          "conciseness_mean": 2.2,
+          "composite_mean": 3.1,
           "n": 10
         },
         "splendor": {
-          "correctness_mean": 3.9,
+          "correctness_mean": 4.1,
           "completeness_mean": 4.1,
-          "conciseness_mean": 2.6,
-          "composite_mean": 3.53,
+          "conciseness_mean": 2.9,
+          "composite_mean": 3.7,
           "n": 10
         }
       },
       "s1_gpt-5.3": {
         "catan": {
-          "correctness_mean": 4.6,
+          "correctness_mean": 4.5,
           "completeness_mean": 4.7,
-          "conciseness_mean": 3.5,
-          "composite_mean": 4.27,
+          "conciseness_mean": 3,
+          "composite_mean": 4.07,
           "n": 10
         },
         "root": {
-          "correctness_mean": 2.1,
-          "completeness_mean": 1.9,
+          "correctness_mean": 1.9,
+          "completeness_mean": 1.8,
           "conciseness_mean": 2.5,
-          "composite_mean": 2.17,
+          "composite_mean": 2.07,
           "n": 10
         },
         "splendor": {
           "correctness_mean": 3.8,
-          "completeness_mean": 4.2,
-          "conciseness_mean": 3.4,
+          "completeness_mean": 4.1,
+          "conciseness_mean": 3.5,
           "composite_mean": 3.8,
           "n": 10
         }
       },
       "s1_perplexity-sonar": {
         "catan": {
-          "correctness_mean": 4.1,
+          "correctness_mean": 4.4,
           "completeness_mean": 4.5,
+          "conciseness_mean": 2.1,
+          "composite_mean": 3.67,
+          "n": 10
+        },
+        "root": {
+          "correctness_mean": 4.2,
+          "completeness_mean": 4.4,
           "conciseness_mean": 2.2,
           "composite_mean": 3.6,
           "n": 10
         },
-        "root": {
+        "splendor": {
           "correctness_mean": 4.4,
           "completeness_mean": 4.4,
-          "conciseness_mean": 2.2,
-          "composite_mean": 3.67,
-          "n": 10
-        },
-        "splendor": {
-          "correctness_mean": 4.3,
-          "completeness_mean": 4.2,
-          "conciseness_mean": 2.1,
-          "composite_mean": 3.53,
+          "conciseness_mean": 2.3,
+          "composite_mean": 3.7,
           "n": 10
         }
       },
       "s1_rulesbot": {
         "catan": {
-          "correctness_mean": 3.8,
-          "completeness_mean": 3.9,
-          "conciseness_mean": 3.1,
-          "composite_mean": 3.6,
+          "correctness_mean": 3.5,
+          "completeness_mean": 3.8,
+          "conciseness_mean": 2.8,
+          "composite_mean": 3.37,
           "n": 10
         },
         "root": {
-          "correctness_mean": 2.1,
+          "correctness_mean": 2,
           "completeness_mean": 1.9,
           "conciseness_mean": 2.1,
-          "composite_mean": 2.03,
+          "composite_mean": 2.0,
           "n": 10
         },
         "splendor": {
@@ -215,70 +215,70 @@
       },
       "s2_gpt5_prompt": {
         "catan": {
-          "correctness_mean": 4.8,
-          "completeness_mean": 4.6,
-          "conciseness_mean": 3.8,
-          "composite_mean": 4.4,
+          "correctness_mean": 4.7,
+          "completeness_mean": 4.4,
+          "conciseness_mean": 3.7,
+          "composite_mean": 4.27,
           "n": 10
         },
         "root": {
-          "correctness_mean": 3.6,
-          "completeness_mean": 3.7,
-          "conciseness_mean": 3.3,
-          "composite_mean": 3.53,
+          "correctness_mean": 3.1,
+          "completeness_mean": 3.4,
+          "conciseness_mean": 3.1,
+          "composite_mean": 3.2,
           "n": 10
         },
         "splendor": {
-          "correctness_mean": 4.6,
-          "completeness_mean": 4.4,
-          "conciseness_mean": 3.8,
-          "composite_mean": 4.27,
+          "correctness_mean": 4.4,
+          "completeness_mean": 4.1,
+          "conciseness_mean": 4,
+          "composite_mean": 4.17,
           "n": 10
         }
       },
       "s3_gpt5_pdf": {
         "catan": {
-          "correctness_mean": 4.7,
-          "completeness_mean": 4.8,
-          "conciseness_mean": 3.1,
-          "composite_mean": 4.2,
+          "correctness_mean": 5,
+          "completeness_mean": 4.9,
+          "conciseness_mean": 3.2,
+          "composite_mean": 4.37,
           "n": 10
         },
         "root": {
-          "correctness_mean": 4.7,
-          "completeness_mean": 4.8,
-          "conciseness_mean": 4.1,
-          "composite_mean": 4.53,
+          "correctness_mean": 4.9,
+          "completeness_mean": 5,
+          "conciseness_mean": 3.9,
+          "composite_mean": 4.6,
           "n": 10
         },
         "splendor": {
-          "correctness_mean": 4.3,
-          "completeness_mean": 4.1,
-          "conciseness_mean": 4.4,
-          "composite_mean": 4.27,
+          "correctness_mean": 4.1,
+          "completeness_mean": 3.8,
+          "conciseness_mean": 4.1,
+          "composite_mean": 4.0,
           "n": 10
         }
       },
       "s4_spielbot": {
         "catan": {
-          "correctness_mean": 4.2,
+          "correctness_mean": 4.5,
           "completeness_mean": 4.1,
-          "conciseness_mean": 3.7,
-          "composite_mean": 4.0,
+          "conciseness_mean": 3.8,
+          "composite_mean": 4.13,
           "n": 10
         },
         "root": {
-          "correctness_mean": 3.5,
-          "completeness_mean": 3.5,
-          "conciseness_mean": 2.8,
-          "composite_mean": 3.27,
+          "correctness_mean": 3.4,
+          "completeness_mean": 3.2,
+          "conciseness_mean": 3.1,
+          "composite_mean": 3.23,
           "n": 10
         },
         "splendor": {
-          "correctness_mean": 3.7,
-          "completeness_mean": 3.7,
-          "conciseness_mean": 3.4,
-          "composite_mean": 3.6,
+          "correctness_mean": 3.5,
+          "completeness_mean": 3.1,
+          "conciseness_mean": 3.6,
+          "composite_mean": 3.4,
           "n": 10
         }
       }
@@ -286,49 +286,49 @@
     "by_setting_and_type": {
       "s1_bg_wizard": {
         "comprehension": {
-          "correctness_mean": 3.93,
-          "completeness_mean": 3.87,
+          "correctness_mean": 4.33,
+          "completeness_mean": 4.33,
           "conciseness_mean": 4,
-          "composite_mean": 3.93,
+          "composite_mean": 4.22,
           "n": 15
         },
         "reasoning": {
-          "correctness_mean": 3.6,
-          "completeness_mean": 3.2,
-          "conciseness_mean": 4.07,
-          "composite_mean": 3.62,
+          "correctness_mean": 3.47,
+          "completeness_mean": 3.27,
+          "conciseness_mean": 4.27,
+          "composite_mean": 3.67,
           "n": 15
         }
       },
       "s1_claude-4.6-sonnet": {
         "comprehension": {
-          "correctness_mean": 4.13,
+          "correctness_mean": 4.27,
           "completeness_mean": 4.33,
-          "conciseness_mean": 3.07,
-          "composite_mean": 3.84,
+          "conciseness_mean": 3.13,
+          "composite_mean": 3.91,
           "n": 15
         },
         "reasoning": {
-          "correctness_mean": 3.67,
-          "completeness_mean": 3.93,
-          "conciseness_mean": 3,
-          "composite_mean": 3.53,
+          "correctness_mean": 3.33,
+          "completeness_mean": 3.6,
+          "conciseness_mean": 3.07,
+          "composite_mean": 3.33,
           "n": 15
         }
       },
       "s1_gemini-3-flash": {
         "comprehension": {
-          "correctness_mean": 4.47,
-          "completeness_mean": 4.53,
+          "correctness_mean": 4.6,
+          "completeness_mean": 4.4,
           "conciseness_mean": 2.47,
           "composite_mean": 3.82,
           "n": 15
         },
         "reasoning": {
-          "correctness_mean": 3.07,
-          "completeness_mean": 3.4,
-          "conciseness_mean": 2.47,
-          "composite_mean": 2.98,
+          "correctness_mean": 3.27,
+          "completeness_mean": 3.53,
+          "conciseness_mean": 2.73,
+          "composite_mean": 3.18,
           "n": 15
         }
       },
@@ -336,95 +336,95 @@
         "comprehension": {
           "correctness_mean": 3.53,
           "completeness_mean": 3.87,
-          "conciseness_mean": 2.93,
-          "composite_mean": 3.44,
+          "conciseness_mean": 2.87,
+          "composite_mean": 3.42,
           "n": 15
         },
         "reasoning": {
-          "correctness_mean": 3.47,
-          "completeness_mean": 3.33,
-          "conciseness_mean": 3.33,
-          "composite_mean": 3.38,
+          "correctness_mean": 3.27,
+          "completeness_mean": 3.2,
+          "conciseness_mean": 3.13,
+          "composite_mean": 3.2,
           "n": 15
         }
       },
       "s1_perplexity-sonar": {
         "comprehension": {
-          "correctness_mean": 4.87,
-          "completeness_mean": 4.87,
-          "conciseness_mean": 2,
+          "correctness_mean": 4.73,
+          "completeness_mean": 4.8,
+          "conciseness_mean": 2.2,
           "composite_mean": 3.91,
           "n": 15
         },
         "reasoning": {
-          "correctness_mean": 3.67,
-          "completeness_mean": 3.87,
-          "conciseness_mean": 2.33,
-          "composite_mean": 3.29,
+          "correctness_mean": 3.93,
+          "completeness_mean": 4.07,
+          "conciseness_mean": 2.2,
+          "composite_mean": 3.4,
           "n": 15
         }
       },
       "s1_rulesbot": {
         "comprehension": {
-          "correctness_mean": 2.33,
-          "completeness_mean": 2.33,
-          "conciseness_mean": 2.13,
-          "composite_mean": 2.27,
+          "correctness_mean": 2.07,
+          "completeness_mean": 2.27,
+          "conciseness_mean": 2,
+          "composite_mean": 2.11,
           "n": 15
         },
         "reasoning": {
           "correctness_mean": 2.33,
           "completeness_mean": 2.2,
-          "conciseness_mean": 2,
-          "composite_mean": 2.18,
+          "conciseness_mean": 1.93,
+          "composite_mean": 2.16,
           "n": 15
         }
       },
       "s2_gpt5_prompt": {
         "comprehension": {
-          "correctness_mean": 4.4,
-          "completeness_mean": 4.2,
-          "conciseness_mean": 3.67,
-          "composite_mean": 4.09,
+          "correctness_mean": 4.27,
+          "completeness_mean": 4.13,
+          "conciseness_mean": 3.73,
+          "composite_mean": 4.04,
           "n": 15
         },
         "reasoning": {
-          "correctness_mean": 4.27,
-          "completeness_mean": 4.27,
-          "conciseness_mean": 3.6,
-          "composite_mean": 4.04,
+          "correctness_mean": 3.87,
+          "completeness_mean": 3.8,
+          "conciseness_mean": 3.47,
+          "composite_mean": 3.71,
           "n": 15
         }
       },
       "s3_gpt5_pdf": {
         "comprehension": {
-          "correctness_mean": 4.8,
-          "completeness_mean": 4.73,
-          "conciseness_mean": 3.8,
-          "composite_mean": 4.44,
+          "correctness_mean": 4.93,
+          "completeness_mean": 4.67,
+          "conciseness_mean": 3.6,
+          "composite_mean": 4.4,
           "n": 15
         },
         "reasoning": {
-          "correctness_mean": 4.33,
-          "completeness_mean": 4.4,
-          "conciseness_mean": 3.93,
-          "composite_mean": 4.22,
+          "correctness_mean": 4.4,
+          "completeness_mean": 4.47,
+          "conciseness_mean": 3.87,
+          "composite_mean": 4.24,
           "n": 15
         }
       },
       "s4_spielbot": {
         "comprehension": {
-          "correctness_mean": 4.13,
-          "completeness_mean": 4.07,
-          "conciseness_mean": 3.13,
-          "composite_mean": 3.78,
+          "correctness_mean": 4.4,
+          "completeness_mean": 3.93,
+          "conciseness_mean": 3.47,
+          "composite_mean": 3.93,
           "n": 15
         },
         "reasoning": {
-          "correctness_mean": 3.47,
-          "completeness_mean": 3.47,
-          "conciseness_mean": 3.47,
-          "composite_mean": 3.47,
+          "correctness_mean": 3.2,
+          "completeness_mean": 3,
+          "conciseness_mean": 3.53,
+          "composite_mean": 3.24,
           "n": 15
         }
       }
@@ -437,26 +437,26 @@
       ],
       "by_setting": {
         "s1_bg_wizard": {
-          "correctness_mean": 3.77,
-          "completeness_mean": 3.53,
-          "conciseness_mean": 4.03,
-          "composite_mean": 3.78,
+          "correctness_mean": 3.9,
+          "completeness_mean": 3.8,
+          "conciseness_mean": 4.13,
+          "composite_mean": 3.94,
           "n": 30,
           "model": "board_game_wizard"
         },
         "s1_rulesbot": {
-          "correctness_mean": 2.33,
-          "completeness_mean": 2.27,
-          "conciseness_mean": 2.07,
-          "composite_mean": 2.22,
+          "correctness_mean": 2.2,
+          "completeness_mean": 2.23,
+          "conciseness_mean": 1.97,
+          "composite_mean": 2.13,
           "n": 30,
           "model": "rulesbot_ai"
         },
         "s4_spielbot": {
           "correctness_mean": 3.8,
-          "completeness_mean": 3.77,
-          "conciseness_mean": 3.3,
-          "composite_mean": 3.62,
+          "completeness_mean": 3.47,
+          "conciseness_mean": 3.5,
+          "composite_mean": 3.59,
           "n": 30,
           "model": "gpt-5"
         }
@@ -464,40 +464,40 @@
       "by_setting_and_game": {
         "s1_bg_wizard": {
           "catan": {
-            "correctness_mean": 3.9,
-            "completeness_mean": 4,
-            "conciseness_mean": 3.9,
-            "composite_mean": 3.93,
+            "correctness_mean": 4.3,
+            "completeness_mean": 4.4,
+            "conciseness_mean": 4.1,
+            "composite_mean": 4.27,
             "n": 10
           },
           "root": {
-            "correctness_mean": 3.7,
-            "completeness_mean": 3.7,
+            "correctness_mean": 3.9,
+            "completeness_mean": 3.8,
             "conciseness_mean": 4.2,
-            "composite_mean": 3.87,
+            "composite_mean": 3.97,
             "n": 10
           },
           "splendor": {
-            "correctness_mean": 3.7,
-            "completeness_mean": 2.9,
-            "conciseness_mean": 4,
-            "composite_mean": 3.53,
+            "correctness_mean": 3.5,
+            "completeness_mean": 3.2,
+            "conciseness_mean": 4.1,
+            "composite_mean": 3.6,
             "n": 10
           }
         },
         "s1_rulesbot": {
           "catan": {
-            "correctness_mean": 3.8,
-            "completeness_mean": 3.9,
-            "conciseness_mean": 3.1,
-            "composite_mean": 3.6,
+            "correctness_mean": 3.5,
+            "completeness_mean": 3.8,
+            "conciseness_mean": 2.8,
+            "composite_mean": 3.37,
             "n": 10
           },
           "root": {
-            "correctness_mean": 2.1,
+            "correctness_mean": 2,
             "completeness_mean": 1.9,
             "conciseness_mean": 2.1,
-            "composite_mean": 2.03,
+            "composite_mean": 2.0,
             "n": 10
           },
           "splendor": {
@@ -510,24 +510,24 @@
         },
         "s4_spielbot": {
           "catan": {
-            "correctness_mean": 4.2,
+            "correctness_mean": 4.5,
             "completeness_mean": 4.1,
-            "conciseness_mean": 3.7,
-            "composite_mean": 4.0,
+            "conciseness_mean": 3.8,
+            "composite_mean": 4.13,
             "n": 10
           },
           "root": {
-            "correctness_mean": 3.5,
-            "completeness_mean": 3.5,
-            "conciseness_mean": 2.8,
-            "composite_mean": 3.27,
+            "correctness_mean": 3.4,
+            "completeness_mean": 3.2,
+            "conciseness_mean": 3.1,
+            "composite_mean": 3.23,
             "n": 10
           },
           "splendor": {
-            "correctness_mean": 3.7,
-            "completeness_mean": 3.7,
-            "conciseness_mean": 3.4,
-            "composite_mean": 3.6,
+            "correctness_mean": 3.5,
+            "completeness_mean": 3.1,
+            "conciseness_mean": 3.6,
+            "composite_mean": 3.4,
             "n": 10
           }
         }
@@ -535,49 +535,49 @@
       "by_setting_and_type": {
         "s1_bg_wizard": {
           "comprehension": {
-            "correctness_mean": 3.93,
-            "completeness_mean": 3.87,
+            "correctness_mean": 4.33,
+            "completeness_mean": 4.33,
             "conciseness_mean": 4,
-            "composite_mean": 3.93,
+            "composite_mean": 4.22,
             "n": 15
           },
           "reasoning": {
-            "correctness_mean": 3.6,
-            "completeness_mean": 3.2,
-            "conciseness_mean": 4.07,
-            "composite_mean": 3.62,
+            "correctness_mean": 3.47,
+            "completeness_mean": 3.27,
+            "conciseness_mean": 4.27,
+            "composite_mean": 3.67,
             "n": 15
           }
         },
         "s1_rulesbot": {
           "comprehension": {
-            "correctness_mean": 2.33,
-            "completeness_mean": 2.33,
-            "conciseness_mean": 2.13,
-            "composite_mean": 2.27,
+            "correctness_mean": 2.07,
+            "completeness_mean": 2.27,
+            "conciseness_mean": 2,
+            "composite_mean": 2.11,
             "n": 15
           },
           "reasoning": {
             "correctness_mean": 2.33,
             "completeness_mean": 2.2,
-            "conciseness_mean": 2,
-            "composite_mean": 2.18,
+            "conciseness_mean": 1.93,
+            "composite_mean": 2.16,
             "n": 15
           }
         },
         "s4_spielbot": {
           "comprehension": {
-            "correctness_mean": 4.13,
-            "completeness_mean": 4.07,
-            "conciseness_mean": 3.13,
-            "composite_mean": 3.78,
+            "correctness_mean": 4.4,
+            "completeness_mean": 3.93,
+            "conciseness_mean": 3.47,
+            "composite_mean": 3.93,
             "n": 15
           },
           "reasoning": {
-            "correctness_mean": 3.47,
-            "completeness_mean": 3.47,
-            "conciseness_mean": 3.47,
-            "composite_mean": 3.47,
+            "correctness_mean": 3.2,
+            "completeness_mean": 3,
+            "conciseness_mean": 3.53,
+            "composite_mean": 3.24,
             "n": 15
           }
         }

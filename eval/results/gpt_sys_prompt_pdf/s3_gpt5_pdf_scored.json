@@ -67,10 +67,10 @@
       "response": "Official rule: The game ends immediately when a player has 10 or more victory points on their own turn and declares it (revealing any VP development cards as needed). If you reach 10 points when it is not your turn, play continues until a player (possibly you) has 10+ points on their turn. [Game Rules, \u201cEnding the Game,\u201d p.5; Almanac, \u201cEnding the Game,\u201d p.7; \u201cVictory Points,\u201d p.14]",
       "latency_ms": 17072,
       "scores": {
-        "correctness": 2,
+        "correctness": 5,
         "completeness": 5,
-        "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 5,\n  \"conciseness\": 3"
+        "conciseness": 4,
+        "reasoning": "The generated answer is perfectly accurate and provides more comprehensive details than the gold answer, including the need to declare victory and reveal VP cards, and the important clarification about reaching 10 VPs when it's not your turn. While longer than the gold, the additional information is highly relevant and useful, making it slightly verbose but still practical."
       }
     },
     {
@@ -112,7 +112,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 5,
-        "reasoning": "The generated answer perfectly captures the essence of the rule, explaining that ties are not possible because the game ends immediately when a player reaches 10 VPs on their turn. It also correctly clarifies the situation for players who might reach 10 VPs off-turn, which is a common point of confusion related to this question."
+        "reasoning": "The generated answer perfectly explains that ties are not possible because victory can only be declared on a player's own turn, aligning completely with the gold standard and official rules. It is also very concise."
       }
     },
     {
@@ -124,9 +124,9 @@
       "latency_ms": 18455,
       "scores": {
         "correctness": 5,
-        "completeness": 4,
+        "completeness": 5,
         "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 4,\n  \"conciseness\": 3,\n  \"reasoning\": \"The answer is perfectly correct and provides strong official rule citations. It is slightly less complete"
+        "reasoning": "The generated answer is perfectly correct, aligning with the gold standard and providing excellent rule citations. It is complete, covering all aspects of the question. However, it is less concise than the gold standard due to the inclusion of direct rule quotes and a note about house rules, which, while informative, make it less ideal for a quick mid-game lookup."
       }
     },
     {
@@ -140,7 +140,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 3,
-        "reasoning": "The generated answer is perfectly correct and more complete than the gold standard, providing additional relevant details and rulebook references. However, it is less concise than the gold answer, offering a comprehensive explanation rather than a quick, mid-game ruling."
+        "reasoning": "The generated answer is perfectly correct and very complete, providing more detail and context than the gold answer, including rule citations and a clarification about setup. However, its extensive detail makes it less concise than the gold answer, which directly answers the question with only the essential conditions."
       }
     },
     {
@@ -151,10 +151,10 @@
       "response": "You just pick a new leader again\u2014there\u2019s no extra penalty or loss.\n\n- In Turmoil, you Depose your current leader and must choose a new one from those face up (7.7.3).\n- If this is the 4th Turmoil and all four leaders are now face down, \u201cA New Clutch\u201d applies: flip all leaders face up and choose any one (7.7.3.I).\n- Then proceed to Rest (end Daylight and begin Evening) as normal (7.7.4).\n\nOfficial rulebook refs: 7.7, 7.7.3, 7.7.3.I.",
       "latency_ms": 47071,
       "scores": {
-        "correctness": 5,
+        "correctness": 4,
         "completeness": 5,
         "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 3,"
+        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 5,\n  \"conciseness\": 3,"
       }
     },
     {
@@ -195,8 +195,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "The generated answer is perfectly correct, providing rule references and accurately explaining the conditions for becoming hostile via Strike. It is more complete than the gold answer by adding relevant details about Infamy and movement costs after becoming hostile. It is slightly less concise than the gold answer due to these additional, albeit useful, details."
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 3,\n  \"reasoning\": \"The generated answer is perfectly correct, aligning with the gold standard and providing helpful rule references. It is also very complete, covering all points in the gold"
       }
     },
     {
@@ -209,8 +209,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 5,
-        "reasoning": "The generated answer is perfectly accurate, covering all points in the gold answer and adding highly relevant details such as the matching clearing requirement, the bird suit's wild nature, and the inability to craft ambush cards. It is also very well-structured and concise, making it ideal for quick reference during gameplay."
+        "conciseness": 4,
+        "reasoning": "The generated answer is perfectly accurate, covering all points in the gold answer and adding valuable, correct details like the 'matching clearing' requirement and the specific rules for bird-suit ambushes. It is very complete. While slightly more detailed than the gold, the additional information is highly relevant and well-organized, making it still concise and practical for mid-game use."
       }
     },
     {
@@ -221,10 +221,10 @@
       "response": "Short answer\nAt Lost City, the Woodland Alliance treats the clearing as any one suit of its choice for the Revolt. So:\n- You may place any one base (mouse, rabbit, or fox) there. (8.4.1.I)\n- To Revolt there, you must spend two supporters of a single suit you choose for that Revolt (mouse/rabbit/fox; birds may substitute) rather than mixing suits. (8.4.1.II; \u201cmatching\u201d means same suit, G.16.)\n- After placing the base, you place warriors equal to the number of sympathetic clearings of the chosen suit; the Lost City clearing itself counts if it is sympathetic. (8.4.1.III)\n\nWhy\nLost City\u2019s clearing is considered to have all three suits; whenever a rule asks for a clearing \u201cmatching a suit,\u201d you pick one suit to use for that effect. The Law supports this interpretation in its treatment of multi\u2011suit clearings (see the Lizard Cult\u2019s note about Lost City and suit matching, 10.2.1) and by the glossary definition of \u201cmatching\u201d (G.16).\n\nStatus of rulings\n- Official rules: Revolt steps (8.4.1); \u201cmatching\u201d means same suit (G.16); Lost City creates multi\u2011suit interactions (10.2.1 note).\n- Common clarification (widely accepted): In a multi\u2011suit clearing such as Lost City, you choose one suit for the action and all \u201cmatching\u201d cards you spend must share that suit.",
       "latency_ms": 53366,
       "scores": {
-        "correctness": 2,
-        "completeness": 3,
-        "conciseness": 3,
-        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 3,\n  \"conciseness\": 3,"
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 4,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4,"
       }
     },
     {
@@ -238,7 +238,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 4,
-        "reasoning": "The generated answer is perfectly accurate, matching all claims in the gold answer and adding helpful details like rule references and clarification on Loyal Viziers. It is also fully complete, covering all aspects of the gold answer and providing additional useful context. It is slightly less concise than the gold due to quoting rules directly and adding a 'Notes' section, but it remains very practical and well-structured."
+        "reasoning": "The generated answer is perfectly accurate, identifying the correct factions and conditions. It is also very complete, providing direct quotes and rule references, and explicitly stating that no other factions lose VP. It is slightly more verbose than the gold due to the quotes and extra clarification, but remains concise and practical."
       }
     },
     {
@@ -251,8 +251,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 5,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 5,\n  \"reasoning\": \"The generated answer is perfectly accurate. It correctly identifies that the Tunnels card specifies movement between clearings with 'buildings' and that Riverfolk trade posts are 'tokens', not buildings. This is the correct rule explanation. The gold answer"
+        "conciseness": 4,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4,"
       }
     },
     {
@@ -292,9 +292,9 @@
       "latency_ms": 20335,
       "scores": {
         "correctness": 5,
-        "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "The generated answer is perfectly accurate and covers all points from the gold answer, adding a relevant detail about when the check happens and that it's not an action. It is very concise, though the rulebook citation, while helpful for verification, makes it slightly less 'ideal for mid-game use' than the gold answer's brevity."
+        "completeness": 4,
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 4,\n  \"conciseness\": 3"
       }
     },
     {
@@ -322,7 +322,7 @@
         "correctness": 5,
         "completeness": 4,
         "conciseness": 5,
-        "reasoning": "The generated answer is perfectly correct and concise in its direct answer to the question. It accurately states the condition for taking two gems of the same color. However, it misses the additional helpful detail provided in the gold answer about what action a player must take instead (taking three gems of different colors) when the condition for taking two of the same color is not met."
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 4,\n  \"conciseness\": 5,\n  \"reasoning\": \"The generated answer is perfectly correct, stating the"
       }
     },
     {
@@ -349,8 +349,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4"
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 3,"
       }
     },
     {
@@ -361,10 +361,10 @@
       "response": "Yes. Under the action \u201cTake 3 Gem pieces of different colors,\u201d the rules say: \u201cIf there are not enough available pieces to take 3 of different colors from the supply, you may take 2 pieces or even 1.\u201d This does not require \u201cat least 4 in stock\u201d\u2014that restriction only applies to the separate action \u201cTake 2 Gem pieces of the same color.\u201d Note you still must take different colors (no Gold) when using the \u201c3 different\u201d action.",
       "latency_ms": 20058,
       "scores": {
-        "correctness": 5,
-        "completeness": 5,
-        "conciseness": 5,
-        "reasoning": "The generated answer is perfectly accurate, directly quoting the relevant rule and clarifying a common misconception about the 'at least 4 in stock' condition. It is more complete than the gold answer by providing this context and additional relevant details. Despite being longer, it is highly concise as every sentence adds significant value and clarity, making it ideal for understanding the rule mid-game."
+        "correctness": 3,
+        "completeness": 3,
+        "conciseness": 4,
+        "reasoning": "The generated answer correctly states that you can take 2 or 1 gems if 3 different colors are not available and clarifies the 'at least 4 in stock' rule. However, it critically misses the condition from the gold answer that this is only allowed if no other valid action can be taken, which is a significant omission affecting both correctness and completeness."
       }
     },
     {
@@ -406,7 +406,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 2,
-        "reasoning": "The generated answer directly contradicts the gold answer by stating 'You can't pass' and attempting to force an action, whereas the gold answer states there's no official rule and the community consensus is to pass. It completely misses the core point of the gold answer and is verbose in its incorrect justification."
+        "reasoning": "The generated answer fundamentally contradicts the gold answer. The gold answer states there are 'no official rules on this,' while the generated answer attempts to provide an official ruling by interpreting existing rules. Its interpretation of gem collection (taking 1 or 2 gems for the 'take 3 different' action) is a common house rule, not strictly official, and it fails to acknowledge the lack of an explicit rule for the 'cannot do any action' scenario, which is the core of the gold answer's point."
       }
     },
     {
@@ -420,7 +420,7 @@
         "correctness": 5,
         "completeness": 5,
         "conciseness": 5,
-        "reasoning": "The generated answer perfectly captures the essence of the gold answer, stating that bonuses are automatically applied and cannot be bypassed. It also adds the correct and relevant detail that players cannot overpay, which is a direct consequence of the rule. It is concise and accurate."
+        "reasoning": "The generated answer is perfectly accurate, directly answers the question, and covers all aspects of the gold answer, including the implication that you cannot overpay. It is also very concise and clear."
       }
     }
   ],

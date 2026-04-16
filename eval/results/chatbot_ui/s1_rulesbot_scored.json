@@ -53,10 +53,10 @@
       "response": "The Robber in Catan can be activated in two ways:\n\nRolling a \"7\": When a player rolls a \"7\" during their turn, the Robber is activated. This means that no players receive resources from any hexes that are adjacent to the Robber's current location. The player who rolled the \"7\" must then move the Robber to another terrain hex (or to the desert hex) and can steal one resource card at random from an opponent who has a settlement or city adjacent to the new hex.\n\nPlaying a Knight Development Card: If a player plays a Knight card (which is a type of development card), they also activate the Robber. Similar to rolling a \"7,\" the player must move the Robber to a different terrain hex and can steal a resource card from an opponent with a settlement or city adjacent to the new hex.\n\nIn both cases, the Robber blocks resource production from the hex it occupies until it is moved again.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 5,
-        "completeness": 5,
+        "correctness": 2,
+        "completeness": 4,
         "conciseness": 2,
-        "reasoning": "The generated answer correctly identifies the two ways the Robber is activated, matching the gold standard. It also provides additional, correct information about the Robber's actions once activated. However, this extra detail, while accurate, makes the answer less concise for the specific question 'How can the Robber get activated?'"
+        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 4,\n  \"conciseness\": 2"
       }
     },
     {
@@ -69,8 +69,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"conciseness\": 4,"
+        "conciseness": 3,
+        "reasoning": "The generated answer is perfectly correct and expands on the gold answer with relevant clarifications regarding reaching 10 VPs not on your turn. However, it repeats the core rule twice and includes a point about VP cards which, while true, is slightly tangential to the direct question of *when* the game ends, making it less concise than ideal."
       }
     },
     {
@@ -97,8 +97,8 @@
       "scores": {
         "correctness": 5,
         "completeness": 5,
-        "conciseness": 4,
-        "reasoning": "The generated answer is perfectly correct and complete, matching the gold standard's calculations and total. It is slightly more verbose than necessary, explaining each step in detail, but remains practical."
+        "conciseness": 2,
+        "reasoning": "The generated answer is perfectly correct and complete, matching the gold answer's breakdown and total VPs. However, it is very verbose, adding unnecessary introductory and concluding sentences, and over-explaining simple arithmetic steps, making it less ideal for quick mid-game reference."
       }
     },
     {
@@ -154,7 +154,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 2,
-        "reasoning": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"conciseness\": 2"
+        "reasoning": "The generated answer is fundamentally incorrect. It states that the turmoil process is the same regardless of how many times it has occurred, which directly contradicts the 'New Clutch' rule that triggers on the 4th turmoil. It completely misses the unique aspect of the 4th turmoil described in the gold answer. It is also verbose by detailing the standard turmoil steps when the question is about a specific, unique instance."
       }
     },
     {
@@ -181,8 +181,8 @@
       "scores": {
         "correctness": 4,
         "completeness": 3,
-        "conciseness": 4,
-        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 3,\n  \"conciseness\": 4,\n  \"reasoning\": \"The generated answer correctly defines buildings, tokens, and units, and adds helpful context like faction specificity and the Vagabond. However, it misses crucial functional differences mentioned"
+        "conciseness": 3,
+        "reasoning": "{\n  \"correctness\": 4,\n  \"completeness\": 3,\n  \"conciseness\": 3,"
       }
     },
     {
@@ -193,10 +193,10 @@
       "response": "Yes, if you Strike another faction's piece as the Vagabond, it does indeed make your relationship with that faction hostile. According to the rules, whenever you remove a warrior from another faction, you must place that faction's relationship marker in the Hostile box. This means that from that point on, you will score a victory point each time you remove one of their pieces in battle during your turn, along with any points you score for removing buildings and tokens. Additionally, you will need to exhaust another item whenever you move into a clearing with any hostile warriors. Therefore, Striking another faction's piece directly impacts your relationship with them, making it hostile.",
       "latency_ms": -1,
       "scores": {
-        "correctness": 2,
+        "correctness": 1,
         "completeness": 2,
         "conciseness": 2,
-        "reasoning": "The generated answer incorrectly states 'Yes' at the beginning, implying any piece makes the relationship hostile. The gold answer correctly clarifies that it 'depends' on the piece. The generated answer only covers the warrior scenario and completely misses the crucial detail that removing a building or token does *not* make the relationship hostile, which is a key part of the gold answer. It also adds unnecessary information about VP scoring and item exhaustion, which are consequences of hostility, not part of *making* the relationship hostile."
+        "reasoning": "The generated answer is fundamentally incorrect as it states that striking 'another faction's piece' *always* makes the relationship hostile. The gold answer correctly clarifies that it *depends* on the piece, specifically only becoming hostile if a warrior is removed, and not for buildings or tokens. The generated answer completely misses this crucial distinction. It then adds extra details about the consequences of hostility, which, while true, don't address the core question correctly and make the answer less concise."
       }
     },
     {
@@ -238,7 +238,7 @@
         "correctness": 2,
         "completeness": 2,
         "conciseness": 2,
-        "reasoning": "The generated answer incorrectly states that the Marquise de Cat can lose Victory Points and completely misses the Jailor Vagabond, which is one of the two factions that can. While it correctly identifies the Eyrie, its explanation for their VP loss is vague and not entirely accurate. The answer is also quite verbose, especially given the amount of incorrect and missing information."
+        "reasoning": "The answer incorrectly states that the Marquise de Cat can lose Victory Points, which is false. It completely misses the Jailor Vagabond, one of the two factions that can lose VPs according to the gold standard. While it identifies the Eyrie, its explanation for their VP loss is less precise than the gold answer. The answer is also verbose, including incorrect information and general filler."
       }
     },
     {
@@ -251,8 +251,8 @@
       "scores": {
         "correctness": 2,
         "completeness": 2,
-        "conciseness": 1,
-        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 2,\n  \"conciseness\": 1,\n  \"reasoning\": \"The generated answer correctly states 'No' but provides an incorrect and misleading explanation for why. It misrepresents the Tunnels card's function (it's not specific to the Vagabond or 'tunnels' but allows movement between crafted items). It completely misses the gold answer's crucial point that trade posts are not crafting pieces and Riverfolk don't have crafting pieces. The answer is also very verbose for the simple 'No"
+        "conciseness": 2,
+        "reasoning": "{\n  \"correctness\": 2,\n  \"completeness\": 2,\n  \"conciseness\": 2,\n  \"reasoning\": \"The generated answer correctly states 'No' but provides an incorrect explanation for why. It fundamentally misunderstands the Tunnels card's effect, incorrectly stating it allows the Vagabond to move"
       }
     },
     {
@@ -294,7 +294,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 1,
-        "reasoning": "The generated answer is 'None', meaning no answer was provided. This makes it completely incorrect, incomplete, and unhelpful."
+        "reasoning": "The generated answer is 'None', which provides no information and completely fails to answer the question. It is incorrect, incomplete, and unhelpful."
       }
     },
     {
@@ -322,7 +322,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 1,
-        "reasoning": "The generated answer is 'None', which provides no information and therefore cannot answer the question or be evaluated against the gold standard in any meaningful way beyond being completely incorrect and incomplete."
+        "reasoning": "The generated answer is 'None', which provides no information or ruling. It completely fails to answer the question, making it incorrect, incomplete, and not concise as an answer."
       }
     },
     {
@@ -336,7 +336,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 1,
-        "reasoning": "The generated answer 'None' is completely incorrect and provides no information, directly contradicting the gold answer which states there are 40 tokens."
+        "reasoning": "The generated answer 'None' is completely incorrect and provides no information, making it entirely unhelpful and incomplete. While short, it's not concise in a valuable way as it's a non-answer."
       }
     },
     {
@@ -378,7 +378,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 1,
-        "reasoning": "The generated answer is 'None', meaning it provided no answer to the question. Therefore, it is completely incorrect, incomplete, and unhelpful."
+        "reasoning": "The generated answer is 'None', which provides no information and is therefore completely incorrect and incomplete. It does not address the question at all."
       }
     },
     {
@@ -392,7 +392,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 1,
-        "reasoning": "The generated answer 'None' does not address the question or provide any information, making it completely incorrect, incomplete, and unhelpful. It fails to convey that there is no official ruling and the common player practices."
+        "reasoning": "The generated answer 'None' provides no information and does not address the question at all. It is completely incorrect and incomplete compared to the gold answer, which states there is no official ruling and explains common player practices."
       }
     },
     {
@@ -406,7 +406,7 @@
         "correctness": 2,
         "completeness": 1,
         "conciseness": 1,
-        "reasoning": "The generated answer 'None' is technically correct in that there is no *official* rule, but it completely misses the crucial information about community and publisher agreement on common house rules to address this situation. It is extremely incomplete and unhelpful, making its conciseness a detriment."
+        "reasoning": "The generated answer 'None' is technically correct in that there are no *official* rules, but it completely misses the crucial context provided by the gold answer about community consensus and common house rules. It's misleadingly incomplete and unhelpful. It fails to provide any of the useful information from the gold answer."
       }
     },
     {
@@ -420,7 +420,7 @@
         "correctness": 1,
         "completeness": 1,
         "conciseness": 1,
-        "reasoning": "The generated answer was 'None', meaning no answer was provided. This makes it completely incorrect, incomplete, and not concise in a helpful way as it provides no information."
+        "reasoning": "The generated answer is 'None', meaning it provided no information whatsoever. It completely failed to answer the question or provide any part of the gold standard answer."
       }
     }
   ],
