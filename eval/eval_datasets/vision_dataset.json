@@ -1,0 +1,125 @@
+{
+  "description": "Image+text scenarios for vision eval (gold keys use eval_id; synced from img_queries.json).",
+  "questions": [
+    {
+      "eval_id": "img_catan_1",
+      "id": "1",
+      "img_id": "catan_1",
+      "game": "catan",
+      "type": "vision",
+      "question": "Can red build a settlement on the intersection circled in purple?",
+      "gold_answer": "Yes",
+      "relevant_chunk_ids": ["catan_forum_742628", "catan_rulebook_025", "catan_rulebook_013"]
+    },
+    {
+      "eval_id": "img_catan_2",
+      "id": "2",
+      "img_id": "catan_2",
+      "game": "catan",
+      "type": "vision",
+      "question": "Does orange have the longest road?",
+      "gold_answer": "No",
+      "relevant_chunk_ids": ["catan_rulebook_033", "catan_rulebook_041", "catan_forum_2906160", "catan_forum_3478889"]
+    },
+    {
+      "eval_id": "img_catan_3",
+      "id": "3",
+      "img_id": "catan_3",
+      "game": "catan",
+      "type": "vision",
+      "question": "Did the white player win the game?",
+      "gold_answer": "Yes",
+      "relevant_chunk_ids": ["catan_rulebook_017", "catan_rulebook_027", "catan_rulebook_055"]
+    },
+    {
+      "eval_id": "img_catan_4",
+      "id": "4",
+      "img_id": "catan_4",
+      "game": "catan",
+      "type": "vision",
+      "question": "Does this player have 6 resource cards in their hand?",
+      "gold_answer": "No",
+      "relevant_chunk_ids": ["catan_rulebook_038", "catan_rulebook_024", "catan_forum_952874"]
+    },
+    {
+      "eval_id": "img_root_1",
+      "id": "5",
+      "img_id": "root_1",
+      "game": "root",
+      "type": "vision",
+      "question": "Are there three factions in this game?",
+      "gold_answer": "Yes",
+      "relevant_chunk_ids": ["root_rulebook_067", "root_rulebook_080", "root_rulebook_049"]
+    },
+    {
+      "eval_id": "img_root_2",
+      "id": "6",
+      "img_id": "root_2",
+      "game": "root",
+      "type": "vision",
+      "question": "Does the Woodland Alliance currently have 21 victory points?",
+      "gold_answer": "Yes",
+      "relevant_chunk_ids": [""]
+    },
+    {
+      "eval_id": "img_root_3",
+      "id": "7",
+      "img_id": "root_3",
+      "game": "root",
+      "type": "vision",
+      "question": "Are the Eyrie Dynasties ruling 4 clearings?",
+      "gold_answer": "No",
+      "relevant_chunk_ids": ["root_rulebook_010"]
+    },
+    {
+      "eval_id": "img_root_4",
+      "id": "8",
+      "img_id": "root_4",
+      "game": "root",
+      "type": "vision",
+      "question": "Is this card a fox suit?",
+      "gold_answer": "No",
+      "relevant_chunk_ids": ["root_card_044"]
+    },
+    {
+      "eval_id": "img_splendor_1",
+      "id": "9",
+      "img_id": "splendor_1",
+      "game": "splendor",
+      "type": "vision",
+      "question": "Does this player have 2 victory points?",
+      "gold_answer": "Yes",
+      "relevant_chunk_ids": ["splendor_rulebook_009"]
+    },
+    {
+      "eval_id": "img_splendor_2",
+      "id": "10",
+      "img_id": "splendor_2",
+      "game": "splendor",
+      "type": "vision",
+      "question": "Can I take two black gems from the supply?",
+      "gold_answer": "No",
+      "relevant_chunk_ids": ["splendor_rulebook_006"]
+    },
+    {
+      "eval_id": "img_splendor_3",
+      "id": "11",
+      "img_id": "splendor_3",
+      "game": "splendor",
+      "type": "vision",
+      "question": "Is this set up for a 4-player game?",
+      "gold_answer": "No",
+      "relevant_chunk_ids": ["splendor_rulebook_001", "splendor_rulebook_002"]
+    },
+    {
+      "eval_id": "img_splendor_4",
+      "id": "12",
+      "img_id": "splendor_4",
+      "game": "splendor",
+      "type": "vision",
+      "question": "Did I win the game?",
+      "gold_answer": "Yes",
+      "relevant_chunk_ids": ["splendor_rulebook_003", "splendor_rulebook_004", "splendor_rulebook_012"]
+    }
+  ]
+}
