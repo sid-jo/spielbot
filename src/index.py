@@ -9,7 +9,8 @@ from rank_bm25 import BM25Okapi
 
 from bgg_config import GAMES
 
-EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
+# Must match embed_chunks.py (vectorstore was indexed with this model).
+EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"
 RULEBOOK_COLLECTION = "spielbot_rulebook"
 FORUM_COLLECTION = "spielbot_forum"
 

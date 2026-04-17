@@ -15,8 +15,8 @@ from bgg_config import GAMES
 from generate import GeneratorResponse, generate, generate_stream
 from index import ChunkIndex, ChunkResult
 from prompts import get_system_prompt
-from retrieve import format_context, retrieve_split
-from vision import SceneAnalysis, analyze_game_image, build_retrieval_query
+from reason import ReasoningResult, reason
+from retrieve import format_context, multi_query_retrieve, retrieve_split
 
 MAX_HISTORY_TURNS = 10  # max Q&A pairs to keep (20 messages)
 
@@ -36,7 +36,7 @@ class SpielBotAnswer:
     query: str
     sources: list[ChunkResult]
     generator_response: GeneratorResponse
-    scene_analysis: SceneAnalysis | None = None
+    reasoning: ReasoningResult | None = None
     error: str | None = None
 
 
@@ -105,7 +105,7 @@ class SpielBotSession:
                 f"Valid options: {', '.join(GAMES)}"
             )
         self._game_name = game_name
-        self._system_prompt = get_system_prompt(game_name)
+        self._system_prompt = get_system_prompt(game_name, is_grounding=False)
         self._history = []
 
     def reset_chat(self) -> None:
@@ -120,17 +120,17 @@ class SpielBotSession:
         self,
         query: str,
         image: str | Path | bytes | None = None,
-        rules_top_k: int = 3,
-        forum_top_k: int = 3,
+        rules_top_k: int = 1,
+        forum_top_k: int = 1,
     ) -> SpielBotAnswer:
         """
         Answer a question in the context of the current game + conversation.
 
         Steps:
           1. Validate state (game must be selected)
-          2. Retrieve: 3 rulebook+card chunks + 3 forum chunks
-          3. Format context
-          4. Generate with conversation history
+          2. Reason: sub-questions (+ optional image reasoning_answer)
+          3. Multi-query retrieve (or single-query fallback)
+          4. Generate / ground with conversation history
           5. Append Q&A to history
           6. Return SpielBotAnswer
         """
@@ -148,41 +148,40 @@ class SpielBotSession:
                     num_sources=0,
                     error="No game selected",
                 ),
-                scene_analysis=None,
+                reasoning=None,
                 error="No game selected. Call select_game() first.",
             )
 
-        scene_analysis: SceneAnalysis | None = None
-        if image is not None:
-            scene_analysis = analyze_game_image(
-                image_path=image,
-                game_name=self._game_name,
-                user_question=query,
-            )
-            if (
-                scene_analysis
-                and not scene_analysis.error
-                and scene_analysis.game_detected
-                and scene_analysis.game_detected != self._game_name
-            ):
-                print(
-                    f"[warning] Image looks like '{scene_analysis.game_detected}', "
-                    f"but active game is '{self._game_name}'. Proceeding with active game.",
-                    file=sys.stderr,
-                )
-
-        retrieval_query = query
-        if scene_analysis and scene_analysis.retrieval_terms:
-            retrieval_query = build_retrieval_query(query, scene_analysis.retrieval_terms)
-
-        idx = self._get_index()
-        results = retrieve_split(
-            idx,
-            retrieval_query,
-            self._game_name,
-            rules_top_k=rules_top_k,
-            forum_top_k=forum_top_k,
+        # ── Step 1: Reasoning ──
+        reasoning_result = reason(
+            query=query,
+            game_name=self._game_name,
+            image=image,
         )
+
+        if reasoning_result.error:
+            print(f"[reason] {reasoning_result.error}", file=sys.stderr)
+
+        # ── Step 2: Multi-query retrieval ──
+        idx = self._get_index()
+
+        if reasoning_result.sub_questions:
+            results = multi_query_retrieve(
+                index=idx,
+                queries=reasoning_result.sub_questions,
+                game_name=self._game_name,
+                per_query_rules_k=rules_top_k,
+                per_query_forum_k=forum_top_k,
+            )
+        else:
+            # Fallback: direct single-query retrieval
+            results = retrieve_split(
+                idx,
+                query,
+                self._game_name,
+                rules_top_k=3,
+                forum_top_k=3,
+            )
 
         if not results:
             no_results = (
@@ -201,11 +200,18 @@ class SpielBotSession:
                     query=query,
                     num_sources=0,
                 ),
-                scene_analysis=scene_analysis,
+                reasoning=reasoning_result,
             )
 
         context = format_context(results)
         source_ids = [r.chunk_id for r in results]
+
+        # ── Step 3: Generate / Ground ──
+        has_image = image is not None
+        system_prompt = get_system_prompt(
+            self._game_name,
+            is_grounding=has_image,
+        )
 
         gen_kwargs: dict = {}
         if self._model is not None:
@@ -218,13 +224,9 @@ class SpielBotSession:
             game_name=self._game_name,
             context=context,
             source_ids=source_ids,
-            system_prompt=self._system_prompt,
+            system_prompt=system_prompt,
             history=self._history,
-            scene_description=(
-                scene_analysis.scene_description
-                if scene_analysis and not scene_analysis.error
-                else None
-            ),
+            reasoning_answer=reasoning_result.reasoning_answer,
             **gen_kwargs,
         )
 
@@ -242,7 +244,7 @@ class SpielBotSession:
             query=query,
             sources=results,
             generator_response=gen_response,
-            scene_analysis=scene_analysis,
+            reasoning=reasoning_result,
             error=gen_response.error,
         )
 
@@ -250,8 +252,8 @@ class SpielBotSession:
         self,
         query: str,
         image: str | Path | bytes | None = None,
-        rules_top_k: int = 3,
-        forum_top_k: int = 3,
+        rules_top_k: int = 1,
+        forum_top_k: int = 1,
     ) -> tuple[list[ChunkResult], Generator[str, None, GeneratorResponse]]:
         """
         Streaming variant of ask(). Returns retrieved sources and a
@@ -269,37 +271,35 @@ class SpielBotSession:
         if not self.has_game:
             raise ValueError("No game selected. Call select_game() first.")
 
-        scene_analysis: SceneAnalysis | None = None
-        if image is not None:
-            scene_analysis = analyze_game_image(
-                image_path=image,
-                game_name=self._game_name,
-                user_question=query,
-            )
-            if (
-                scene_analysis
-                and not scene_analysis.error
-                and scene_analysis.game_detected
-                and scene_analysis.game_detected != self._game_name
-            ):
-                print(
-                    f"[warning] Image looks like '{scene_analysis.game_detected}', "
-                    f"but active game is '{self._game_name}'. Proceeding with active game.",
-                    file=sys.stderr,
-                )
-
-        retrieval_query = query
-        if scene_analysis and scene_analysis.retrieval_terms:
-            retrieval_query = build_retrieval_query(query, scene_analysis.retrieval_terms)
-
-        idx = self._get_index()
-        results = retrieve_split(
-            idx,
-            retrieval_query,
-            self._game_name,
-            rules_top_k=rules_top_k,
-            forum_top_k=forum_top_k,
+        # ── Step 1: Reasoning ──
+        reasoning_result = reason(
+            query=query,
+            game_name=self._game_name,
+            image=image,
         )
+
+        if reasoning_result.error:
+            print(f"[reason] {reasoning_result.error}", file=sys.stderr)
+
+        # ── Step 2: Multi-query retrieval ──
+        idx = self._get_index()
+
+        if reasoning_result.sub_questions:
+            results = multi_query_retrieve(
+                index=idx,
+                queries=reasoning_result.sub_questions,
+                game_name=self._game_name,
+                per_query_rules_k=rules_top_k,
+                per_query_forum_k=forum_top_k,
+            )
+        else:
+            results = retrieve_split(
+                idx,
+                query,
+                self._game_name,
+                rules_top_k=3,
+                forum_top_k=3,
+            )
 
         if not results:
             no_results = (
@@ -323,6 +323,13 @@ class SpielBotSession:
         context = format_context(results)
         source_ids = [r.chunk_id for r in results]
 
+        # ── Step 3: Stream ──
+        has_image = image is not None
+        system_prompt = get_system_prompt(
+            self._game_name,
+            is_grounding=has_image,
+        )
+
         gen_kwargs: dict = {}
         if self._model is not None:
             gen_kwargs["model"] = self._model
@@ -334,13 +341,9 @@ class SpielBotSession:
             game_name=self._game_name,
             context=context,
             source_ids=source_ids,
-            system_prompt=self._system_prompt,
+            system_prompt=system_prompt,
             history=self._history,
-            scene_description=(
-                scene_analysis.scene_description
-                if scene_analysis and not scene_analysis.error
-                else None
-            ),
+            reasoning_answer=reasoning_result.reasoning_answer,
             **gen_kwargs,
         )
 

@@ -148,6 +148,8 @@ Key things to watch for:
   defenseless modifier, and Ambush cards
 - Card data sources include effects, costs, suits, and activation types
   (Paper = one-time, Stone = persistent)
+- Faction-specific victory conditions and how players can win (e.g. Lord 
+  of the Hundreds' Oppression) and/or lose victory points (e.g. Eyrie Turmoil)
 """,
 }
 

@@ -39,7 +39,8 @@ _load_env()
 LITELLM_BASE_URL_ENV = "LITELLM_BASE_URL"
 LITELLM_API_KEY_ENV = "LITELLM_API_KEY"
 
-DEFAULT_MODEL = "gpt-5"
+GEN_MODEL_ENV = "SPIELBOT_GEN_MODEL"
+DEFAULT_MODEL = os.environ.get(GEN_MODEL_ENV, "gemini-2.5-flash")
 DEFAULT_TEMPERATURE = 0.2
 DEFAULT_MAX_TOKENS = 4096
 
@@ -83,13 +84,15 @@ def build_user_content(
     game_name: str,
     context: str,
     source_ids: list[str],
-    scene_description: str | None = None,
+    reasoning_answer: str | None = None,
 ) -> str:
     _ = game_name, source_ids
     parts: list[str] = []
     parts.append(f"--- Retrieved Sources ---\n\n{context}")
-    if scene_description:
-        parts.append(f"--- Game State (from photo) ---\n\n{scene_description}")
+    if reasoning_answer:
+        parts.append(
+            f"--- Reasoning Model Answer ---\n\n{reasoning_answer}"
+        )
     parts.append(f"--- Player Question ---\n\n{query}")
     return "\n\n".join(parts)
 
@@ -101,7 +104,7 @@ def generate(
     source_ids: list[str],
     system_prompt: str,
     history: list[dict] | None = None,
-    scene_description: str | None = None,
+    reasoning_answer: str | None = None,
     model: str = DEFAULT_MODEL,
     temperature: float = DEFAULT_TEMPERATURE,
     max_tokens: int = DEFAULT_MAX_TOKENS,
@@ -116,7 +119,7 @@ def generate(
         game_name=game_name,
         context=context,
         source_ids=source_ids,
-        scene_description=scene_description,
+        reasoning_answer=reasoning_answer,
     )
     messages.append({"role": "user", "content": user_content})
 
@@ -157,7 +160,7 @@ def generate_stream(
     source_ids: list[str],
     system_prompt: str,
     history: list[dict] | None = None,
-    scene_description: str | None = None,
+    reasoning_answer: str | None = None,
     model: str = DEFAULT_MODEL,
     temperature: float = DEFAULT_TEMPERATURE,
     max_tokens: int = DEFAULT_MAX_TOKENS,
@@ -185,7 +188,7 @@ def generate_stream(
         game_name=game_name,
         context=context,
         source_ids=source_ids,
-        scene_description=scene_description,
+        reasoning_answer=reasoning_answer,
     )
     messages.append({"role": "user", "content": user_content})
 

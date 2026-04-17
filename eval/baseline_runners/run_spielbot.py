@@ -16,7 +16,10 @@ def _canonical_id(q: dict) -> str:
 
 def main() -> None:
     eval_dir = Path(__file__).parent.parent
-    dataset = json.loads((eval_dir / "dataset.json").read_text(encoding="utf-8"))
+    ds_path = eval_dir / "eval_datasets" / "dataset.json"
+    if not ds_path.exists():
+        ds_path = eval_dir / "dataset.json"
+    dataset = json.loads(ds_path.read_text(encoding="utf-8"))
 
     session = SpielBotSession()
     current_game = None

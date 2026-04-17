@@ -23,6 +23,7 @@ FORUM_TOP_K = 3  # max chunks from forum sources
 TOTAL_RETRIEVED_K = RULES_TOP_K + FORUM_TOP_K
 
 TIER_BOOST = 0.005  # within-pool tiebreaker for core_rules vs reference
+CARD_NAME_BOOST = TIER_BOOST * 5  # 0.025 — card name appears in query
 
 
 def reciprocal_rank_fusion(
@@ -49,10 +50,19 @@ def reciprocal_rank_fusion(
     return merged
 
 
-def apply_boosts(results: list[ChunkResult]) -> list[ChunkResult]:
+def apply_boosts(results: list[ChunkResult], query: str = "") -> list[ChunkResult]:
+    query_lower = query.lower() if query else ""
     for r in results:
         if r.source_tier == "core_rules":
             r.score += TIER_BOOST
+        # Boost card chunks when their name literally appears in the query
+        if (
+            r.source_type == "card"
+            and query_lower
+            and r.section_title
+            and r.section_title.lower() in query_lower
+        ):
+            r.score += CARD_NAME_BOOST
     results.sort(key=lambda r: r.score, reverse=True)
     return results
 
@@ -76,7 +86,7 @@ def retrieve(
             query, game_name, source_type=source_type, top_k=SPARSE_TOP_K
         )
         merged = reciprocal_rank_fusion(dense, sparse)
-        boosted = apply_boosts(merged)
+        boosted = apply_boosts(merged, query=query)
         results.extend(boosted[:pool_k])
 
     return results
@@ -111,7 +121,7 @@ def retrieve_split(
         query, game_name, top_k=SPARSE_TOP_K, source_types=rules_types
     )
     merged_rules = reciprocal_rank_fusion(dense_rules, sparse_rules)
-    boosted_rules = apply_boosts(merged_rules)
+    boosted_rules = apply_boosts(merged_rules, query=query)
     top_rules = boosted_rules[:rules_top_k]
 
     dense_forum = index.dense_search(
@@ -121,10 +131,42 @@ def retrieve_split(
         query, game_name, top_k=SPARSE_TOP_K, source_types=forum_types
     )
     merged_forum = reciprocal_rank_fusion(dense_forum, sparse_forum)
-    boosted_forum = apply_boosts(merged_forum)
+    boosted_forum = apply_boosts(merged_forum, query=query)
     top_forum = boosted_forum[:forum_top_k]
 
     return top_rules + top_forum
+
+
+def multi_query_retrieve(
+    index: ChunkIndex,
+    queries: list[str],
+    game_name: str,
+    per_query_rules_k: int = 1,
+    per_query_forum_k: int = 1,
+) -> list[ChunkResult]:
+    """
+    Run retrieve_split() per sub-question, union-dedup by chunk_id.
+
+    Keeps the best score for each chunk across all queries.
+    Returns results sorted by best score descending.
+    """
+    best: dict[str, ChunkResult] = {}
+
+    for q in queries:
+        if not q.strip():
+            continue
+        for r in retrieve_split(
+            index,
+            q,
+            game_name,
+            rules_top_k=per_query_rules_k,
+            forum_top_k=per_query_forum_k,
+        ):
+            existing = best.get(r.chunk_id)
+            if existing is None or r.score > existing.score:
+                best[r.chunk_id] = r
+
+    return sorted(best.values(), key=lambda r: r.score, reverse=True)
 
 
 def _format_source_block(i: int, r: ChunkResult) -> str:
@@ -232,14 +274,14 @@ def _run_query(
             raw = index.dense_search(
                 q, game_name, source_type=source_type, top_k=DENSE_TOP_K
             )
-            boosted = apply_boosts(raw)
+            boosted = apply_boosts(raw, query=q)
             results.extend(boosted[:pool_k])
     elif bm25_only:
         for source_type in ("rulebook", "forum"):
             raw = index.bm25_search(
                 q, game_name, source_type=source_type, top_k=SPARSE_TOP_K
             )
-            boosted = apply_boosts(raw)
+            boosted = apply_boosts(raw, query=q)
             results.extend(boosted[:pool_k])
     else:
         results = retrieve(index, q, game_name, pool_k=pool_k)

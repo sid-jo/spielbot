@@ -65,7 +65,8 @@ Respond ONLY with valid JSON:
 
 JUDGE_SYSTEM_PROMPT_COMPACT = """Score the generated answer against the gold answer.
 Return ONLY strict JSON with integer fields:
-{"correctness":1-5,"completeness":1-5,"conciseness":1-5,"reasoning":"<=20 words"}"""
+{"correctness":1-5,"completeness":1-5,"conciseness":1-5,"reasoning":"<=20 words"}
+Pay extra attention to produce your reasoning!"""
 
 
 def _load_dotenv(project_root: Path) -> None:

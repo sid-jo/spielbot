@@ -255,7 +255,10 @@ def aggregate(per_question):
 def main():
     eval_dir = Path(__file__).parent
     project_root = eval_dir.parent
-    dataset = json.loads((eval_dir / "dataset.json").read_text(encoding="utf-8"))
+    ds_path = eval_dir / "eval_datasets" / "dataset.json"
+    if not ds_path.exists():
+        ds_path = eval_dir / "dataset.json"
+    dataset = json.loads(ds_path.read_text(encoding="utf-8"))
 
     idx = ChunkIndex(project_root)
     per_question = evaluate(dataset, idx)
