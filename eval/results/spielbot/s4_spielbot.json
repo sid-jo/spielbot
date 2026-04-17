@@ -399,11 +399,11 @@
       "game": "splendor",
       "type": "comprehension",
       "question": "How many tokens are there in the game?",
-      "response": "The provided sources indicate that for a 4-player game (the standard setup), there are 7 tokens of each of the 5 gem colors, totaling 35 gem tokens [1].\n\nThis is derived from the setup rules for fewer players:\n*   For a 2-player game, 3 tokens of each gem color are removed, leaving 4 of each [1]. This implies an original count of 7 tokens per gem color (4 + 3 = 7).\n*   For a 3-player game, 2 tokens of each gem color are removed, leaving 5 of each [1]. This also implies an original count of 7 tokens per gem color (5 + 2 = 7).\n\nThe sources state that the gold tokens are not adjusted for player count (\"Don't touch the gold\") [1], but they do not specify the exact number of gold tokens. Therefore, the total number of tokens in the game cannot be determined from the provided information.",
+      "response": "There are a total of 40 tokens in the game [2]. Specifically, the game includes: \n\n 7 Emerald (green) tokens [2]\n 7 Diamond (white) tokens [2]\n7 Sapphire (blue) tokens [2]\n7 Onyx (black) tokens [2]\n7 Ruby (red) tokens [2]\n5 Gold Joker tokens [2]",
       "retrieved_chunk_ids": [
         "splendor_rulebook_002",
-        "splendor_rulebook_007",
-        "splendor_rulebook_001",
+        "splendor_rulebook_000",
+        "splendor_rulebook_006",
         "splendor_148228_forum_2557740",
         "splendor_148228_forum_1146877",
         "splendor_148228_forum_2013374"

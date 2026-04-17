@@ -537,11 +537,11 @@
       "game": "splendor",
       "type": "comprehension",
       "question": "How many tokens are there in the game?",
-      "response": "The provided sources indicate that for a 4-player game (the standard setup), there are 7 tokens of each of the 5 gem colors, totaling 35 gem tokens [1].\n\nThis is derived from the setup rules for fewer players:\n*   For a 2-player game, 3 tokens of each gem color are removed, leaving 4 of each [1]. This implies an original count of 7 tokens per gem color (4 + 3 = 7).\n*   For a 3-player game, 2 tokens of each gem color are removed, leaving 5 of each [1]. This also implies an original count of 7 tokens per gem color (5 + 2 = 7).\n\nThe sources state that the gold tokens are not adjusted for player count (\"Don't touch the gold\") [1], but they do not specify the exact number of gold tokens. Therefore, the total number of tokens in the game cannot be determined from the provided information.",
+      "response": "There are a total of 40 tokens in the game [2]. Specifically, the game includes: \n\n 7 Emerald (green) tokens [2]\n 7 Diamond (white) tokens [2]\n7 Sapphire (blue) tokens [2]\n7 Onyx (black) tokens [2]\n7 Ruby (red) tokens [2]\n5 Gold Joker tokens [2]",
       "retrieved_chunk_ids": [
         "splendor_rulebook_002",
-        "splendor_rulebook_007",
-        "splendor_rulebook_001",
+        "splendor_rulebook_000",
+        "splendor_rulebook_006",
         "splendor_148228_forum_2557740",
         "splendor_148228_forum_1146877",
         "splendor_148228_forum_2013374"
@@ -549,10 +549,10 @@
       "latency_ms": 18826,
       "error": null,
       "scores": {
-        "correctness": 3,
-        "completeness": 2,
-        "conciseness": 2,
-        "reasoning": "The generated answer correctly identifies the number of gem tokens (35) but fails to identify the number of gold tokens (5) and therefore the total number of tokens (40). It incorrectly concludes that the total cannot be determined. The explanation of 2 and 3-player setups is unnecessary for the question asked, making it very verbose."
+        "correctness": 5,
+        "completeness": 5,
+        "conciseness": 5,
+        "reasoning": "The generated answer correctly identifies the number of tokens (40) and identifies the correct count of each one."
       }
     },
     {
