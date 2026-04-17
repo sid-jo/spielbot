@@ -50,7 +50,7 @@
             "game": "catan",
             "type": "reasoning",
             "question": "Can I \"give away\" resources with the following trade scheme? Player A trades 2 sheep for 1 wheat with player B. Then, Player A trades 1 wheat for 1 sheep with player B.",
-            "gold_answer": "That trade sequence is technically allowed, however the net effect is that Player A effectively gave away 1 sheep to Player B. As a table, you will have to decide if this violates the spirit of the game or is a valid loophole which is allowed to be exploited.",
+            "gold_answer": "Though the individual trades are allowed, the net effect is that Player A effectively gave away 1 sheep to Player B. Official rulings for tournaments claim this is not allowed due to potential for collusion, however the community is quite divided. As a table, you will have to decide if this violates the spirit of the game or is a valid loophole which is allowed to be exploited.",
             "relevant_chunk_ids": ["catan_forum_3496554", "catan_rulebook_040", "catan_rulebook_053"],
             "tags": ["trade", "resources"]
         },
@@ -166,8 +166,8 @@
             "id": "9",
             "game": "root",
             "type": "reasoning",
-            "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
-            "gold_answer": "Mercenaries are only active during Daylight and Evening, not Birdsong, so buying them will not help when checking for a Dominance victory on the same turn.",
+            "question": "Can I purchase Riverfolk mercenaries and use them for the dominance victory condition on the same turn?",
+            "gold_answer": "Riverfolk Mercenaries are only active during Daylight and Evening, not Birdsong, so buying them will not help when checking for a Dominance victory on the same turn.",
             "relevant_chunk_ids": ["root_rulebook_056", "root_rulebook_057", "root_card_021"],
             "tags": ["riverfolk company", "mercenaries", "dominance", "cards"]
         },
@@ -175,7 +175,7 @@
             "id": "10",
             "game": "root",
             "type": "reasoning",
-            "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
+            "question": "As the Scoundrel vagbond, can I Scorched Earth the clearing with the Marquise' Keep?",
             "gold_answer": "No. In order to Scorched Earth a clearing, the Scoundrel Vagabond must exhaust their Torch and place it into their clearing. The Marquise Keep prevents anyone other than the Marquise from placing pieces into the Keep's clearing, so it is impossible to Scorched Earth the Keep.",
             "relevant_chunk_ids": ["root_rulebook_118", "root_rulebook_022", "root_rulebook_110"],
             "tags": ["scoundrel vagabond", "scorched earth", "marquise de cat", "marquise keep"]
@@ -248,7 +248,7 @@
             "game": "splendor",
             "type": "reasoning",
             "question": "Do reserved cards need to be visible to all other players at the table?",
-            "gold_answer": "There is no official ruling on this issue. Many players treat reserved cards as hidden information, however, others treat it as public information to allow for counter-strategies.",
+            "gold_answer": "Players often treat reserved cards as hidden information, however, there is some discussion about treating then as public information to allow for counter-strategies.",
             "relevant_chunk_ids": ["splendor_forum_1308007", "splendor_forum_1282556", "splendor_rulebook_008", "splendor_rulebook_009"],
             "tags": ["reserved cards"]
         },
