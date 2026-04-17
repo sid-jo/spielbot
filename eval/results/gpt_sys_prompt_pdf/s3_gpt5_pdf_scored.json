@@ -259,7 +259,7 @@
       "question_id": "root_9",
       "game": "root",
       "type": "reasoning",
-      "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
+      "question": "Can I purchase Riverfolk mercenaries and use them for the dominance victory condition on the same turn?",
       "response": "No.\n\n- Rule: Riverfolk Mercenaries explicitly \u201ccannot be counted toward dominance\u201d by the buyer (11.2.7 III).\n- Timing: Dominance cards check \u201cat the start of your Birdsong\u201d (3.3.1). Buying services also happens \u201cat the start of [your] Birdsong\u201d (11.2.6), and while you may choose the order (1.1.3), Mercenaries only apply for Daylight and Evening of that turn and still cannot count for dominance (11.2.7 III).\n\nTherefore you cannot purchase Mercenaries and use them to satisfy a dominance victory on the same turn\u2014or any turn. This is an official rule, not a house rule.",
       "latency_ms": 42950,
       "scores": {
@@ -273,7 +273,7 @@
       "question_id": "root_10",
       "game": "root",
       "type": "reasoning",
-      "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
+      "question": "As the Scoundrel vagabond, can I Scorched Earth the clearing with the Marquise' Keep?",
       "response": "No. You cannot use Scorched Earth in the Keep clearing.\n\n- Why: The Keep rule (6.2.2) says \u201cother players cannot [place] pieces in the clearing with the keep token.\u201d Scorched Earth (V.6.2) requires you to \u201cexhaust a F and place it in your clearing\u201d to remove all enemy pieces. Items are pieces (G.13, G.19). So placing the Torch item in the Keep clearing is prohibited.\n- \u201cCannot\u201d is absolute unless explicitly overridden (1.1.2), and Scorched Earth does not override the Keep.\n\nOfficial ruling: You cannot perform Scorched Earth there while the Keep is present. If the Keep has been removed by some other effect, then you could. (House rules sometimes allow it, but that is not the official rule.)",
       "latency_ms": 46676,
       "scores": {

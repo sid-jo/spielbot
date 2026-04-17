@@ -151,7 +151,7 @@
       "question_id": "root_9",
       "game": "root",
       "type": "reasoning",
-      "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
+      "question": "Can I purchase Riverfolk mercenaries and use them for the dominance victory condition on the same turn?",
       "response": "Yes. Buying services occurs at the start of your Birdsong (11.2.6), and the dominance victory condition is also checked at the start of your Birdsong (3.3.1).\n\nWhenever simultaneous effects occur, the player taking their turn chooses the order in which they resolve (1.1.3). Therefore, you can purchase mercenaries to establish rule before checking if you have met the dominance victory requirements.",
       "latency_ms": -1
     },
@@ -159,7 +159,7 @@
       "question_id": "root_10",
       "game": "root",
       "type": "reasoning",
-      "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
+      "question": "As the Scoundrel vagabond, can I Scorched Earth the clearing with the Marquise' Keep?",
       "response": "No. The Marquise's The Keep ability states that other players cannot place pieces in its clearing (6.2.2). Because Scorched Earth requires you to place a torch piece in the clearing (D.6.2), and the term CANNOT is absolute (1.1.2), you are prevented from taking this action in the clearing with the Keep.",
       "latency_ms": -1
     },

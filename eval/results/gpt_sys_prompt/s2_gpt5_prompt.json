@@ -151,7 +151,7 @@
       "question_id": "root_9",
       "game": "root",
       "type": "reasoning",
-      "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
+      "question": "Can I purchase Riverfolk mercenaries and use them for the dominance victory condition on the same turn?",
       "response": "Short answer: No.\n\n- Dominance wins are only checked at the start of your Birdsong (Law of Root, Dominance Cards: \u201cyou win if at the start of your Birdsong you meet the card\u2019s condition\u201d).\n- You can only buy Riverfolk services (including Mercenaries) during your Daylight, and Mercenaries apply only \u201cduring battle as attacker\u201d and last only until the start of the Riverfolk Company\u2019s next turn (Riverfolk Company rules, Services: Mercenaries).\n- Therefore, there is no timing window to buy Mercenaries and have them count for a same-turn dominance win\u2014dominance isn\u2019t checked in Daylight. By the time your next Birdsong occurs, the Mercenaries service will have expired (the Riverfolk will have taken a turn).\n- Additionally, Mercenaries do not help you \u201crule\u201d clearings for dominance; they only affect battles you initiate (\u201cduring battle as attacker\u201d), not ruling.\n\nSome players wonder if Mercenaries can help with ruling; the commonly accepted interpretation (and wording) is that they do not, since their effect is explicitly limited to battles you initiate.",
       "latency_ms": 29090
     },
@@ -159,7 +159,7 @@
       "question_id": "root_10",
       "game": "root",
       "type": "reasoning",
-      "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
+      "question": "As the Scoundrel vagabond, can I Scorched Earth the clearing with the Marquise' Keep?",
       "response": "Short answer: No.\n\nWhy:\n- Scorched Earth (Scoundrel ability) requires you to \u201cremove all pieces in the clearing\u201d before placing a Ruins token (Vagabond Pack \u2013 Scoundrel character board/ability text; Root Law: Vagabond\u2014Scoundrel).\n- The Marquise\u2019s Keep token cannot be removed (Marquise de Cat rules\u2014Keep; Root Law section covering Marquise de Cat Components/Keep).\n\nBecause you cannot remove all pieces from the Keep\u2019s clearing (the Keep itself is non\u2011removable), the condition for Scorched Earth isn\u2019t met, so you cannot use Scorched Earth there.\n\nNotes on interpretation:\n- Some players ask if you can remove everything except the Keep and still place the Ruins. Official/commonly accepted ruling is no: the ability\u2019s \u201cremove all pieces\u201d clause must be satisfied, and the Keep\u2019s immunity prevents that.",
       "latency_ms": 37813
     },

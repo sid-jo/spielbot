@@ -151,7 +151,7 @@
       "question_id": "root_9",
       "game": "root",
       "type": "reasoning",
-      "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
+      "question": "Can I purchase Riverfolk mercenaries and use them for the dominance victory condition on the same turn?",
       "response": "Short answer: you can\u2019t use them to \u201cenable\u201d a dominance declaration on the same turn, but they *can* still matter later in that turn.\n\nIn *Root*, dominance works like this:\n\n* You declare dominance at the start of your turn (instead of scoring normally).\n* At that moment, the win condition is checked based on the current board state.\n\nSo if you purchase mercenaries (hirelings) later in your turn, they don\u2019t get to retroactively affect that start-of-turn check. If you didn\u2019t already meet the dominance requirement at the start of the turn, you can\u2019t use them to justify a declaration that turn.\n\nHowever, there\u2019s an important edge case:\n\n* If you already have a dominance card in effect and later in your turn you change the board state (for example by buying mercenaries and placing them), and that *immediately* makes you satisfy the dominance condition, you can win right then and there, before your turn ends.\n\nSo the clean way to think about it is:\n\n* They don\u2019t help with the start-of-turn declaration.\n* They *can* help you reach the condition later in the same turn, which can trigger an immediate win if you\u2019re already pursuing dominance.\n\nIf you want, I can walk through a concrete example with a specific dominance card (like fox/clearings control) because timing quirks in *Root* get a lot clearer that way.",
       "latency_ms": -1
     },
@@ -159,7 +159,7 @@
       "question_id": "root_10",
       "game": "root",
       "type": "reasoning",
-      "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
+      "question": "As the Scoundrel vagabond, can I Scorched Earth the clearing with the Marquise' Keep?",
       "response": "Yes.\n\nThe Keep in Root doesn\u2019t block you from targeting that clearing with Scorched Earth. It\u2019s still a valid clearing with an enemy presence, since the Keep counts as a Marquise building.\n\nSo as long as your Scorched Earth conditions are met (you\u2019re in the clearing and there\u2019s something there to scorch), you can use it even if the Keep is the only piece there.\n\nThe Keep mainly affects movement into the clearing and battle defense, not whether abilities can target it.",
       "latency_ms": -1
     },

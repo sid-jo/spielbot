@@ -151,7 +151,7 @@
       "question_id": "root_9",
       "game": "root",
       "type": "reasoning",
-      "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
+      "question": "Can I purchase Riverfolk mercenaries and use them for the dominance victory condition on the same turn?",
       "response": "No, you cannot. In Root, when you use a **Dominance card** to pursue the dominance victory condition, you must control the required clearings **with your own warriors only** \u2014 mercenaries (hired via the Corvid Conspiracy or other means) do not count toward dominance scoring.\n\nBut more directly to your question: even if mercenaries *could* count, the timing doesn't work in your favor. Activating a Dominance card changes your victory condition immediately, but the dominance check happens at the **end of your turn** (or when you'd normally score points). Any warriors you place or purchase during that same turn can *in principle* be on the board, but the more common issue is whether freshly placed pieces can be used to satisfy the condition right away \u2014 and typically, pieces placed during your Daylight phase can help you meet the board state needed.\n\nThe real answer hinges on **why mercenaries don't apply**: dominance victory requires your faction's own pieces in the specified clearings, and mercenaries are a hired/temporary presence that doesn't count as your warriors for that purpose.\n\nSo: you can buy mercenaries and play a Dominance card in the same turn, but the mercenaries won't help you win via dominance regardless of timing.",
       "latency_ms": -1
     },
@@ -159,8 +159,8 @@
       "question_id": "root_10",
       "game": "root",
       "type": "reasoning",
-      "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
-      "response": "**No, you cannot.** The Scoundrel's Scorched Earth ability cannot be used on the clearing containing the Marquise de Cat's **Keep**.\n\nThe Keep has a specific rule that **prevents any other faction from removing it** \u2014 and since Scorched Earth destroys all buildings and tokens in the clearing, it would require removing the Keep, which is not allowed. The Keep's protection overrides the Scoundrel's ability to torch that clearing.\n\nYou'd need to either:\n- **Drive the Marquise out of the game** (eliminate them), or\n- **Use another faction's ability** that specifically interacts with the Keep differently\n\n...but as the Scoundrel, that clearing with the Keep is off-limits for Scorched Earth.",
+      "question": "As the Scoundrel vagabond vagabond, can I Scorched Earth the clearing with the Marquise' Keep?",
+      "response": "**No, you cannot.** The Scoundrel's Scorched Earth ability cannot be used on the clearing containing the Marquise de Cat's **Keep**.\n\nThe Keep has a specific rule that **prevents any other faction from removing it** \u2014 and since Scorched Earth destroys all buildings and tokens in the clearing, it would require removing the Keep, which is not allowed. The Keep's protection overrides the Scoundrel's ability to torch that clearing.\n\nYou'd need to either:\n- **Drive the Marquise out of the game** (eliminate them), or\n- **Use another faction's ability** that specifically interacts with the Keep differently\n\n...but As the Scoundrel vagabond, that clearing with the Keep is off-limits for Scorched Earth.",
       "latency_ms": -1
     },
     {

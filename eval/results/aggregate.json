@@ -66,12 +66,12 @@
         "model": "gpt-5"
       },
       "s4_spielbot": {
-        "correctness_mean": 3.8,
-        "completeness_mean": 3.47,
-        "conciseness_mean": 3.5,
-        "composite_mean": 3.59,
+        "correctness_mean": 3.47,
+        "completeness_mean": 3.27,
+        "conciseness_mean": 3.1,
+        "composite_mean": 3.28,
         "n": 30,
-        "model": "gpt-5"
+        "model": "gemini-2.5-flash"
       }
     },
     "by_setting_and_game": {
@@ -262,23 +262,23 @@
       "s4_spielbot": {
         "catan": {
           "correctness_mean": 4.5,
-          "completeness_mean": 4.1,
-          "conciseness_mean": 3.8,
+          "completeness_mean": 4.4,
+          "conciseness_mean": 3.5,
           "composite_mean": 4.13,
           "n": 10
         },
         "root": {
-          "correctness_mean": 3.4,
-          "completeness_mean": 3.2,
-          "conciseness_mean": 3.1,
-          "composite_mean": 3.23,
+          "correctness_mean": 2.5,
+          "completeness_mean": 2.4,
+          "conciseness_mean": 2.8,
+          "composite_mean": 2.57,
           "n": 10
         },
         "splendor": {
-          "correctness_mean": 3.5,
-          "completeness_mean": 3.1,
-          "conciseness_mean": 3.6,
-          "composite_mean": 3.4,
+          "correctness_mean": 3.4,
+          "completeness_mean": 3,
+          "conciseness_mean": 3,
+          "composite_mean": 3.13,
           "n": 10
         }
       }
@@ -414,16 +414,16 @@
       },
       "s4_spielbot": {
         "comprehension": {
-          "correctness_mean": 4.4,
-          "completeness_mean": 3.93,
-          "conciseness_mean": 3.47,
-          "composite_mean": 3.93,
+          "correctness_mean": 3.67,
+          "completeness_mean": 3.4,
+          "conciseness_mean": 2.87,
+          "composite_mean": 3.31,
           "n": 15
         },
         "reasoning": {
-          "correctness_mean": 3.2,
-          "completeness_mean": 3,
-          "conciseness_mean": 3.53,
+          "correctness_mean": 3.27,
+          "completeness_mean": 3.13,
+          "conciseness_mean": 3.33,
           "composite_mean": 3.24,
           "n": 15
         }
@@ -453,12 +453,12 @@
           "model": "rulesbot_ai"
         },
         "s4_spielbot": {
-          "correctness_mean": 3.8,
-          "completeness_mean": 3.47,
-          "conciseness_mean": 3.5,
-          "composite_mean": 3.59,
+          "correctness_mean": 3.47,
+          "completeness_mean": 3.27,
+          "conciseness_mean": 3.1,
+          "composite_mean": 3.28,
           "n": 30,
-          "model": "gpt-5"
+          "model": "gemini-2.5-flash"
         }
       },
       "by_setting_and_game": {
@@ -511,23 +511,23 @@
         "s4_spielbot": {
           "catan": {
             "correctness_mean": 4.5,
-            "completeness_mean": 4.1,
-            "conciseness_mean": 3.8,
+            "completeness_mean": 4.4,
+            "conciseness_mean": 3.5,
             "composite_mean": 4.13,
             "n": 10
           },
           "root": {
-            "correctness_mean": 3.4,
-            "completeness_mean": 3.2,
-            "conciseness_mean": 3.1,
-            "composite_mean": 3.23,
+            "correctness_mean": 2.5,
+            "completeness_mean": 2.4,
+            "conciseness_mean": 2.8,
+            "composite_mean": 2.57,
             "n": 10
           },
           "splendor": {
-            "correctness_mean": 3.5,
-            "completeness_mean": 3.1,
-            "conciseness_mean": 3.6,
-            "composite_mean": 3.4,
+            "correctness_mean": 3.4,
+            "completeness_mean": 3,
+            "conciseness_mean": 3,
+            "composite_mean": 3.13,
             "n": 10
           }
         }
@@ -567,16 +567,16 @@
         },
         "s4_spielbot": {
           "comprehension": {
-            "correctness_mean": 4.4,
-            "completeness_mean": 3.93,
-            "conciseness_mean": 3.47,
-            "composite_mean": 3.93,
+            "correctness_mean": 3.67,
+            "completeness_mean": 3.4,
+            "conciseness_mean": 2.87,
+            "composite_mean": 3.31,
             "n": 15
           },
           "reasoning": {
-            "correctness_mean": 3.2,
-            "completeness_mean": 3,
-            "conciseness_mean": 3.53,
+            "correctness_mean": 3.27,
+            "completeness_mean": 3.13,
+            "conciseness_mean": 3.33,
             "composite_mean": 3.24,
             "n": 15
           }

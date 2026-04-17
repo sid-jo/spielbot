@@ -151,7 +151,7 @@
       "question_id": "root_9",
       "game": "root",
       "type": "reasoning",
-      "question": "Can I purchase mercenaries and use them for the dominance victory condition on the same turn?",
+      "question": "Can I purchase Riverfolk mercenaries and use them for the dominance victory condition on the same turn?",
       "response": "Yes, you can purchase mercenaries and use them for the dominance victory condition on the same turn. According to the rules, when you activate a dominance card, you can still perform actions such as purchasing mercenaries during your turn.\n\nWhen you have at least 10 victory points and you play a dominance card, you activate it and change your victory condition to the one specified on that card. After activating the dominance card, you can then use any mercenaries you have purchased during that turn to help meet the new victory condition.\n\nJust ensure that you follow the rules for purchasing mercenaries and that you meet any requirements for the dominance victory condition as specified on the card you activated. This allows for strategic flexibility in your gameplay, enabling you to bolster your forces while also working towards the dominance victory.",
       "latency_ms": -1
     },
@@ -159,7 +159,7 @@
       "question_id": "root_10",
       "game": "root",
       "type": "reasoning",
-      "question": "As the Scoundrel, can I Scorched Earth the clearing with the Marquise' Keep?",
+      "question": "As the Scoundrel vagabond, can I Scorched Earth the clearing with the Marquise' Keep?",
       "response": "No, as the Scoundrel, you cannot use the Scorched Earth ability in a clearing that contains the Marquise's Keep. The Keep has a special rule that states no one but the Marquise can place pieces in the clearing with the Keep token. This restriction means that you cannot perform actions that involve placing or removing pieces in that clearing, including using the Scorched Earth ability, which requires you to remove a piece from the clearing.\n\nTherefore, you would need to choose a different clearing that does not contain the Marquise's Keep to use the Scorched Earth ability.",
       "latency_ms": -1
     },
