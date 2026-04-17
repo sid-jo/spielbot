@@ -28,7 +28,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] Implement dense and sparse retrievers (BM25)
 - [x] RAG orchestrator script (Use CMU LiteLLM instance)
 - [x] Image-text dataset curated
-- [ ] VLM inference pipeline (to be done via Gemma, need to explore options with Barry first)
+- [x] VLM inference pipeline (to be done via Gemini)
 - [x] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
 - [ ] Implement UI mockup + game selection menu
 
@@ -53,12 +53,18 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 04/12/26 | Created custom evaluation dataset! |
 | 04/13/26 | Finished bullk of evaluation pipeline aside from the reporting scripts. Got initial results for each of the experiment modes and Spielbot is sadly not doing better than GPT with the PDF attachment, but is comparable with other methods. |
 | 04/14/26 | Curated binary question-image dataset for VLM capability testing. Will be implementing VLM via Gemma tomorrow. Planning to evaluate on existing board game rule assistants as an additional baseline. |
+| 04/16/26 | Incorporated vision component and revamped original retrieval to run multi-query retrieval to improve relevant chunk capture. Final results on evaluation data have been generated. |
+
+
 
 ## Future Considerations
  - **Extraction Generalizability** - Make extraction pipeline work over majority of rulebook formats with minimal game-specific revisions
  - **Better quality PDF extraction** - PDF Plumber struggles with multi-column data (a common rulebook format) and for testing purposes it is easier to just manually review and edit each rulebook. I'll need to look into other OCR libraries when I have time (PyPDF, Pytesseract, etc.)
 - **Expanding on the evaluation dataset** - I think there is some real potential to make the evaluation dataset some kind of gold standard evaluation set for many more games to test LLM capabilities on rule following, synthesis, and reasoning!
 - **Look into richer/better retrieval** - It might be worth it to explore more clever retrieval systems that are specialized on baord game rule data. While I don't think I will be able to rival the PDF extraction and retrieval capabilities of SOTA chatbots, I would like to come as close to them as possible with a fraction of the cost and much higher utility. The value prop for Spielbot could still stand in the lack of PDF upload by the user, board state image understanding, and cheaper/faster retrieval than SOTA chatbots.
+- **Scenario-based Evalation** - Right now, have curated questions to fall into two categories: comprehension and reasoning. Comprehension questions are ideally questions that can be answered with a lookup to a single chunk and reasoning questions require synthesizing across chunks to create responses. I would like to explore scenario questions that lay out a sequence of events in a game and ask if a subsequent set of actions is possible. This could test the model's ability to follow the action trajectory, map it to relevant rule interactions, and validate the sequence of actions being proposed by the user.
+- **Smarter chunking** - As of now, I am chunking rulebooks based on the section-by-section outline in which they are typically presented. No chunks overlap with one another and the system seems to be running into a sort of "needle in a haystack" problem where longer sections (chunks) with one crucial component to answer a question _don't_ get retrieved. And even if they are on occasion, there is too much noise within the chunk for the generator to pull out relevant details when crafting answers. So it might be worthwhile to explore a more granular chunking method that separates concepts within chunks a beyond the provided sectioning inherently in rulebooks.
+
 
 ### References
 
