@@ -95,7 +95,7 @@
       "question_id": "root_2",
       "game": "root",
       "type": "comprehension",
-      "question": "What are the types of Corvid plots?",
+      "question": "What are the types of Corvid plot tokens?",
       "response": "Bomb, Snare, Extortion, and Raid.\n\nReference: The Corvid Conspiracy has eight plot tokens\u2014two of each type (13.2.2). Their types and flip/remove effects are detailed in 13.7.1\u201313.7.4:\n- Bomb: on flip, remove all enemy pieces in the clearing; then remove the bomb.\n- Snare: face up, enemies can\u2019t place pieces in or move pieces from the clearing.\n- Extortion: on flip, take a random card from each enemy with pieces there; face up, +1 card draw in Evening.\n- Raid: when removed (face up or down), place one Corvid warrior in each adjacent clearing (ignored if removed by Exposure).",
       "latency_ms": 108674
     },

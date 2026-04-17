@@ -103,7 +103,7 @@
             "id": "2",
             "game": "root",
             "type": "comprehension",
-            "question": "What are the types of Corvid plots?",
+            "question": "What are the types of Corvid plot tokens?",
             "gold_answer": "The Corvid plots are Raid, Snare, Extortion, and Bomb.",
             "relevant_chunk_ids": ["root_rulebook_072"],
             "tags": ["corvid conspiracy", "plot tokens"]

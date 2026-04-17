@@ -161,7 +161,7 @@
       "question_id": "root_2",
       "game": "root",
       "type": "comprehension",
-      "question": "What are the types of Corvid plots?",
+      "question": "What are the types of Corvid plot tokens?",
       "response": "Bomb, Extortion, Raid, and Snare.\n\nThese are the four types of face-down plot tokens used by the Corvid Conspiracy (see Root: The Underworld Expansion, Corvid Conspiracy faction rules/components).",
       "latency_ms": 12968,
       "scores": {

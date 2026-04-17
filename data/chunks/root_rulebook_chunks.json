@@ -943,7 +943,7 @@
       "chunk_id": "root_rulebook_072",
       "source_type": "rulebook",
       "game_name": "root",
-      "section_title": "13.7 Plot Tokens Reference",
+      "section_title": "13.7 Corvid Plot Tokens Reference",
       "source_tier": "core_rules",
       "content": "13.7.1 Bomb. Whenever a bomb token is flipped, remove all enemy pieces in its clearing, then remove the bomb token.\n13.7.2 Snare. While a snare token is face up, enemy pieces cannot be placed in or moved from its clearing.\n13.7.3 Extortion. Whenever an extortion token is flipped, take a random card from each enemy player with faction pieces in its clearing. While an extortion token is face up, you draw another card in Evening.\n13.7.4 Raid. Whenever a raid token is removed (face up or down), place one warrior in each clearing adjacent to the clearing from which the raid was removed. (Ignore this effect if the raid is removed by Exposure.).\n\nThe next two sections refer to factions in The Marauder Expansion",
       "page_start": 15,
