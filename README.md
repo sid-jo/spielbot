@@ -30,7 +30,8 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] Image-text dataset curated
 - [x] VLM inference pipeline (to be done via Gemini)
 - [x] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
-- [ ] Implement UI mockup + game selection menu
+- [x] Implement UI mockup + game selection menu
+- [ ] Iterate over UI to make it decent (explore Lovable)
 
 
 
@@ -54,6 +55,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 04/13/26 | Finished bullk of evaluation pipeline aside from the reporting scripts. Got initial results for each of the experiment modes and Spielbot is sadly not doing better than GPT with the PDF attachment, but is comparable with other methods. |
 | 04/14/26 | Curated binary question-image dataset for VLM capability testing. Will be implementing VLM via Gemma tomorrow. Planning to evaluate on existing board game rule assistants as an additional baseline. |
 | 04/16/26 | Incorporated vision component and revamped original retrieval to run multi-query retrieval to improve relevant chunk capture. Final results on evaluation data have been generated. |
+| 04/18/26 | First draft of UI implemented in `streamlit` and it needs a TON of improvement in terms of response latency and general cleanliness of the site |
 
 
 
