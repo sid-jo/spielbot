@@ -220,6 +220,37 @@ def format_context(results: list[ChunkResult]) -> str:
     return "\n\n---\n\n".join(blocks)
 
 
+def sources_for_api(results: list[ChunkResult]) -> list[dict]:
+    """
+    Citation order matches format_context(): rulebook+card first [1..k],
+    then forum [k+1..]. Safe for UI [n] brackets in the model answer.
+    """
+    official = [r for r in results if r.source_type in ("rulebook", "card")]
+    forum = [r for r in results if r.source_type == "forum"]
+    out: list[dict] = []
+    for i, r in enumerate(official, 1):
+        out.append(
+            {
+                "citationIndex": i,
+                "sourceType": r.source_type,
+                "content": r.content,
+                "reference": _format_result_header(i, r),
+                "chunkId": r.chunk_id,
+            }
+        )
+    for i, r in enumerate(forum, len(official) + 1):
+        out.append(
+            {
+                "citationIndex": i,
+                "sourceType": r.source_type,
+                "content": r.content,
+                "reference": _format_result_header(i, r),
+                "chunkId": r.chunk_id,
+            }
+        )
+    return out
+
+
 def _format_result_header(rank: int, r: ChunkResult) -> str:
     st = r.source_type
     if st == "rulebook":

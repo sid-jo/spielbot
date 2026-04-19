@@ -15,6 +15,56 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 
 ---
 
+## Quick Start (For running locally)
+
+SpielBot’s main UI is the **React app** in [`frontend/`](frontend/) talking to a **FastAPI** server ([`api/main.py`](api/main.py)). Run **two processes**: the API first, then the frontend.
+
+### Prerequisites
+
+- **Python 3.10+** ([`conda`](https://docs.conda.io/) virtual environment recommended)
+- **Node.js 18+** and **npm**
+- **LiteLLM** (or another OpenAI-compatible gateway): base URL and API key. Put them in `.env` as below.
+- The repo includes [`data/`](data/) (chunks and indexes). The first API startup may take a minute while embedding models load.
+
+### 1. Configure environment
+
+From the **repository root**, create `.env` from the example.
+
+Edit `.env` and set at least:
+
+- `LITELLM_BASE_URL` — your gateway URL (no trailing slash)
+- `LITELLM_API_KEY` — your key  
+- `SPIELBOT_REASON_MODEL` and `SPIELBOT_GEN_MODEL` if you differ from the examples
+
+For the frontend, same idea: copy `frontend/.env.example` to `frontend/.env` (e.g. `Copy-Item frontend\.env.example frontend\.env` in PowerShell).
+
+Keep `VITE_API_BASE_URL=/api` for local development. Vite proxies `/api` to the FastAPI process (see [`frontend/vite.config.ts`](frontend/vite.config.ts)), so the browser does not hit CORS issues. If you change `frontend/.env`, restart `npm run dev`.
+
+### 2. Install Python dependencies and start the API
+
+In the repo root (Within the `conda` venv):
+
+```bash
+pip install -r requirements.txt
+uvicorn api.main:app --host 127.0.0.1 --port 8000
+```
+
+Leave this terminal open. Wait until the server is ready (first load can be slow while indexes and models initialize).
+
+### 3. Install frontend dependencies and start Vite
+
+In a **second** terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open the URL Vite prints (usually **http://localhost:5173**) and you'll see SpielBot!
+
+---
+
 ## 📋 Roadmap
 
 - [x] Repo structure and initial setup
@@ -31,8 +81,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 - [x] VLM inference pipeline (to be done via Gemini)
 - [x] Evaluation framework (rule accuracy, citation quality, visual comprehension, etc.)
 - [x] Implement UI mockup + game selection menu
-- [ ] Iterate over UI to make it decent (explore Lovable)
-
+- [x] Iterate over UI to make it decent (explore Lovable)
 
 
 ## 📅 Progression
@@ -56,6 +105,7 @@ The idea is to combine RAG over official rulebooks and BoardGameGeek forum data 
 | 04/14/26 | Curated binary question-image dataset for VLM capability testing. Will be implementing VLM via Gemma tomorrow. Planning to evaluate on existing board game rule assistants as an additional baseline. |
 | 04/16/26 | Incorporated vision component and revamped original retrieval to run multi-query retrieval to improve relevant chunk capture. Final results on evaluation data have been generated. |
 | 04/18/26 | First draft of UI implemented in `streamlit` and it needs a TON of improvement in terms of response latency and general cleanliness of the site |
+| 04/19/26 | Revamped front-end with Lovable and integrated into the backend. Used React + FastAPI for implementation. Spielbot-V1 is complete! |
 
 
 
