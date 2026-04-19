@@ -66,6 +66,7 @@ class SpielBotSession:
         self._game_name: str | None = None
         self._system_prompt: str = ""
         self._history: list[dict] = []
+        self._last_reasoning: ReasoningResult | None = None
         if eager_load and self._index is None:
             self._load_index()
 
@@ -86,6 +87,11 @@ class SpielBotSession:
     def history(self) -> list[dict]:
         """Return a copy of the conversation history."""
         return list(self._history)
+
+    @property
+    def last_reasoning(self) -> ReasoningResult | None:
+        """Most recent `reason()` result from the last ask/ask_stream call."""
+        return self._last_reasoning
 
     def _get_index(self) -> ChunkIndex:
         if self._index is None:
@@ -158,6 +164,7 @@ class SpielBotSession:
             game_name=self._game_name,
             image=image,
         )
+        self._last_reasoning = reasoning_result
 
         if reasoning_result.error:
             print(f"[reason] {reasoning_result.error}", file=sys.stderr)
@@ -273,6 +280,7 @@ class SpielBotSession:
             game_name=self._game_name,
             image=image,
         )
+        self._last_reasoning = reasoning_result
 
         if reasoning_result.error:
             print(f"[reason] {reasoning_result.error}", file=sys.stderr)
