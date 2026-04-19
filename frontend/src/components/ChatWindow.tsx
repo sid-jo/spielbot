@@ -1,19 +1,28 @@
 import { useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { Paperclip, Send, X, Menu, type LucideProps } from "lucide-react";
-import type { Game, MockSource } from "@/lib/games";
+import { Paperclip, Send, X, Menu, ChevronDown, ChevronUp, type LucideProps } from "lucide-react";
+import type { Game, CitationSource } from "@/lib/games";
 import { ChatSidebar } from "@/components/ChatSidebar";
 import { SourceCitations } from "@/components/SourceCitations";
 import { gameBanner, gameMotif } from "@/lib/gameAssets";
 import { SpielbotOracle } from "@/components/SpielbotOracle";
+import {
+  ApiError,
+  createSession,
+  deleteSession,
+  getApiBase,
+  streamChat,
+} from "@/lib/api";
 
 interface Message {
   id: string;
   role: "user" | "assistant";
   content: string;
   image?: string;
-  sources?: MockSource[];
+  sources?: CitationSource[];
+  subQuestions?: string[];
+  error?: string;
   timestamp: Date;
 }
 
@@ -28,10 +37,50 @@ export function ChatWindow({ game }: ChatWindowProps) {
   const [isThinking, setIsThinking] = useState(false);
   const [streamingId, setStreamingId] = useState<string | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sessionId, setSessionId] = useState<string | null>(null);
+  const [sessionError, setSessionError] = useState<string | null>(null);
+  /** True while POST /v1/sessions is in flight (must block send until session exists). */
+  const [sessionConnecting, setSessionConnecting] = useState(false);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  const apiConfigured = getApiBase() !== "";
+
+  useEffect(() => {
+    let cancelled = false;
+    setSessionError(null);
+    setSessionId(null);
+    if (!apiConfigured) {
+      setSessionConnecting(false);
+      setSessionError(
+        "API URL not configured. Set VITE_API_BASE_URL in frontend/.env (see .env.example).",
+      );
+      return;
+    }
+    setSessionConnecting(true);
+    (async () => {
+      try {
+        const { session_id } = await createSession(game.id);
+        if (!cancelled) {
+          setSessionId(session_id);
+          setSessionError(null);
+        }
+      } catch (e) {
+        if (!cancelled) {
+          setSessionError(
+            e instanceof ApiError ? e.message : e instanceof Error ? e.message : String(e),
+          );
+        }
+      } finally {
+        if (!cancelled) setSessionConnecting(false);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [game.id, apiConfigured]);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({
@@ -56,17 +105,44 @@ export function ChatWindow({ game }: ChatWindowProps) {
     e.target.value = "";
   };
 
-  const resetChat = () => {
+  const resetChat = async () => {
     setMessages([]);
     setPendingImage(null);
     setInput("");
     setIsThinking(false);
     setStreamingId(null);
+    setSessionError(null);
+    if (!apiConfigured) {
+      setSessionConnecting(false);
+      setSessionError(
+        "API URL not configured. Set VITE_API_BASE_URL in frontend/.env (see .env.example).",
+      );
+      return;
+    }
+    setSessionConnecting(true);
+    if (sessionId) {
+      await deleteSession(sessionId);
+    }
+    setSessionId(null);
+    try {
+      const { session_id } = await createSession(game.id);
+      setSessionId(session_id);
+      setSessionError(null);
+    } catch (e) {
+      setSessionError(
+        e instanceof ApiError ? e.message : e instanceof Error ? e.message : String(e),
+      );
+    } finally {
+      setSessionConnecting(false);
+    }
   };
 
-  const send = (overrideText?: string) => {
+  const send = async (overrideText?: string) => {
     const text = (overrideText ?? input).trim();
     if (!text && !pendingImage) return;
+    if (sessionConnecting || !sessionId) {
+      return;
+    }
 
     const userMsg: Message = {
       id: crypto.randomUUID(),
@@ -77,48 +153,111 @@ export function ChatWindow({ game }: ChatWindowProps) {
     };
     setMessages((prev) => [...prev, userMsg]);
     setInput("");
-    const hadImage = !!pendingImage;
+    const imagePayload = pendingImage;
     setPendingImage(null);
     setIsThinking(true);
+    setStreamingId(null);
 
-    // Mocked assistant response — shown with a graceful line-by-line reveal.
-    window.setTimeout(() => {
-      const fullAnswer = hadImage
-        ? `Based on the board state you shared, here's what I see for **${game.name}**:\n\n` +
-          `This is a preview UI showing how SpielBot will respond. Once connected to the backend, you'll get a real, source-grounded analysis of your board photo with specific rule citations.`
-        : `Great question about **${game.name}**!\n\n` +
-          `Here's a placeholder answer with **markdown** support:\n\n` +
-          `- Bullet points work\n- Bold and *italic* render correctly\n- \`inline code\` too\n\n` +
-          `Connect SpielBot to the backend to get real, retrieval-grounded answers with citations.`;
+    const assistantId = crypto.randomUUID();
 
-      const assistantId = crypto.randomUUID();
-      const estimatedLineCount = Math.max(3, fullAnswer.split(/\n+/).filter(Boolean).length + 2);
-      const revealDuration = Math.max(900, estimatedLineCount * 180);
+    try {
+      const done = await streamChat(
+        {
+          sessionId,
+          message: userMsg.content,
+          imageBase64: imagePayload ?? undefined,
+        },
+        (tok) => {
+          setIsThinking(false);
+          setStreamingId(assistantId);
+          setMessages((prev) => {
+            const i = prev.findIndex((m) => m.id === assistantId);
+            if (i === -1) {
+              return [
+                ...prev,
+                {
+                  id: assistantId,
+                  role: "assistant",
+                  content: tok,
+                  timestamp: new Date(),
+                },
+              ];
+            }
+            return prev.map((m) =>
+              m.id === assistantId ? { ...m, content: m.content + tok } : m,
+            );
+          });
+        },
+      );
 
       setIsThinking(false);
-      setStreamingId(assistantId);
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: assistantId,
-          role: "assistant",
-          content: fullAnswer,
-          sources: game.mockSources,
-          timestamp: new Date(),
-        },
-      ]);
-
-      window.setTimeout(() => {
-        setStreamingId((current) => (current === assistantId ? null : current));
-      }, revealDuration);
-    }, 900);
+      setMessages((prev) => {
+        const i = prev.findIndex((m) => m.id === assistantId);
+        if (i === -1) {
+          return [
+            ...prev,
+            {
+              id: assistantId,
+              role: "assistant",
+              content: done.answer,
+              sources: done.sources,
+              subQuestions: done.sub_questions,
+              error: done.error ?? undefined,
+              timestamp: new Date(),
+            },
+          ];
+        }
+        return prev.map((m) =>
+          m.id === assistantId
+            ? {
+                ...m,
+                content: done.answer || m.content,
+                sources: done.sources,
+                subQuestions: done.sub_questions,
+                error: done.error ?? undefined,
+              }
+            : m,
+        );
+      });
+    } catch (e) {
+      setIsThinking(false);
+      const msg =
+        e instanceof ApiError ? e.message : e instanceof Error ? e.message : String(e);
+      setMessages((prev) => {
+        const i = prev.findIndex((m) => m.id === assistantId);
+        if (i === -1) {
+          return [
+            ...prev,
+            {
+              id: assistantId,
+              role: "assistant",
+              content: "Sorry — something went wrong while contacting SpielBot.",
+              error: msg,
+              timestamp: new Date(),
+            },
+          ];
+        }
+        return prev.map((m) =>
+          m.id === assistantId
+            ? {
+                ...m,
+                content: m.content || "Sorry — something went wrong while contacting SpielBot.",
+                error: msg,
+              }
+            : m,
+        );
+      });
+    } finally {
+      setIsThinking(false);
+      setStreamingId(null);
+    }
   };
 
   return (
     <div className="flex h-[calc(100vh-3.5rem)]">
       {/* Sidebar — desktop */}
       <div className="hidden w-72 shrink-0 border-r border-green-dark/20 lg:block">
-        <ChatSidebar game={game} onNewChat={resetChat} />
+        <ChatSidebar game={game} onNewChat={() => void resetChat()} />
       </div>
 
       {/* Sidebar — mobile drawer */}
@@ -132,7 +271,7 @@ export function ChatWindow({ game }: ChatWindowProps) {
             <ChatSidebar
               game={game}
               onNewChat={() => {
-                resetChat();
+                void resetChat();
                 setSidebarOpen(false);
               }}
               onClose={() => setSidebarOpen(false)}
@@ -186,8 +325,28 @@ export function ChatWindow({ game }: ChatWindowProps) {
         {/* Messages */}
         <div ref={scrollRef} className="relative flex-1 overflow-y-auto">
           <div className="mx-auto flex max-w-3xl flex-col gap-5 px-4 py-6 sm:px-6">
+            {sessionConnecting && apiConfigured && !sessionError && (
+              <div
+                role="status"
+                className="rounded-lg border border-green-sage/40 bg-cream px-4 py-3 text-sm text-text-dark"
+              >
+                Connecting to SpielBot…
+              </div>
+            )}
+            {sessionError && (
+              <div
+                role="alert"
+                className="rounded-lg border border-destructive/40 bg-destructive/10 px-4 py-3 text-sm text-destructive"
+              >
+                {sessionError}
+              </div>
+            )}
             {messages.length === 0 && !isThinking && (
-              <EmptyState game={game} onPick={(p) => send(p)} />
+              <EmptyState
+                game={game}
+                startersDisabled={sessionConnecting || !sessionId || !!sessionError}
+                onPick={(p) => void send(p)}
+              />
             )}
 
             {messages.map((m) => (
@@ -199,7 +358,7 @@ export function ChatWindow({ game }: ChatWindowProps) {
               />
             ))}
 
-            {isThinking && <TypingIndicator game={game} />}
+            {isThinking && !streamingId && <TypingIndicator game={game} />}
           </div>
         </div>
 
@@ -228,8 +387,10 @@ export function ChatWindow({ game }: ChatWindowProps) {
 
             <div className="flex items-end gap-2 rounded-xl border-2 border-tan bg-cream p-2 transition-smooth focus-within:border-green-sage">
               <button
+                type="button"
                 onClick={() => fileInputRef.current?.click()}
-                className="flex h-9 w-9 items-center justify-center rounded-md text-text-muted transition-smooth hover:bg-tan/50 hover:text-green-dark"
+                disabled={sessionConnecting || !sessionId || !!sessionError}
+                className="flex h-9 w-9 items-center justify-center rounded-md text-text-muted transition-smooth enabled:hover:bg-tan/50 enabled:hover:text-green-dark disabled:cursor-not-allowed disabled:opacity-30"
                 aria-label="Attach image"
                 title="Attach image"
               >
@@ -243,17 +404,30 @@ export function ChatWindow({ game }: ChatWindowProps) {
                 onKeyDown={(e) => {
                   if (e.key === "Enter" && !e.shiftKey) {
                     e.preventDefault();
-                    send();
+                    if (!sessionConnecting && sessionId && !sessionError) void send();
                   }
                 }}
-                placeholder="Ask a rules question..."
+                placeholder={
+                  sessionConnecting
+                    ? "Connecting…"
+                    : !sessionId && apiConfigured
+                      ? "Waiting for session…"
+                      : "Ask a rules question…"
+                }
+                disabled={sessionConnecting || !sessionId || !!sessionError}
                 rows={1}
                 className="flex-1 resize-none bg-transparent px-1 py-2 text-sm text-text-dark placeholder:text-text-muted/70 focus:outline-none"
               />
 
               <button
-                onClick={() => send()}
-                disabled={(!input.trim() && !pendingImage) || isThinking}
+                onClick={() => void send()}
+                disabled={
+                  (!input.trim() && !pendingImage) ||
+                  isThinking ||
+                  sessionConnecting ||
+                  !sessionId ||
+                  !!sessionError
+                }
                 className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-green-dark text-cream transition-smooth hover:brightness-110 disabled:cursor-not-allowed disabled:opacity-30"
                 aria-label="Send"
               >
@@ -281,9 +455,11 @@ export function ChatWindow({ game }: ChatWindowProps) {
 
 function EmptyState({
   game,
+  startersDisabled,
   onPick,
 }: {
   game: Game;
+  startersDisabled: boolean;
   onPick: (p: string) => void;
 }) {
   return (
@@ -319,10 +495,12 @@ function EmptyState({
         {game.starterPrompts.map((p) => (
           <button
             key={p}
-            onClick={() => onPick(p)}
-            className="rounded-full border border-tan bg-card px-4 py-2 text-sm text-text-dark shadow-soft transition-smooth hover:-translate-y-0.5 hover:shadow-card"
+            type="button"
+            disabled={startersDisabled}
+            onClick={() => void onPick(p)}
+            className="rounded-full border border-tan bg-card px-4 py-2 text-sm text-text-dark shadow-soft transition-smooth enabled:hover:-translate-y-0.5 enabled:hover:shadow-card disabled:cursor-not-allowed disabled:opacity-40"
             onMouseEnter={(e) =>
-              (e.currentTarget.style.borderColor = game.accentHex)
+              !startersDisabled && (e.currentTarget.style.borderColor = game.accentHex)
             }
             onMouseLeave={(e) => (e.currentTarget.style.borderColor = "")}
           >
@@ -509,12 +687,43 @@ function MessageBubble({
           ) : (
             <AssistantMessageContent content={message.content} isStreaming={isStreaming} />
           )}
+          {!isUser && message.error && (
+            <p className="mt-2 text-xs text-destructive">{message.error}</p>
+          )}
         </div>
 
-        {!isUser && !isStreaming && message.sources && (
+        {!isUser && !isStreaming && message.subQuestions && message.subQuestions.length > 0 && (
+          <SearchQueriesExpand queries={message.subQuestions} />
+        )}
+
+        {!isUser && !isStreaming && message.sources && message.sources.length > 0 && (
           <SourceCitations sources={message.sources} />
         )}
       </div>
+    </div>
+  );
+}
+
+function SearchQueriesExpand({ queries }: { queries: string[] }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="mt-2">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        className="inline-flex items-center gap-1 text-xs font-medium text-text-muted transition-smooth hover:text-text-dark"
+      >
+        <span>🔍 Search queries</span>
+        <span className="font-mono text-[10px]">({queries.length})</span>
+        {open ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />}
+      </button>
+      {open && (
+        <ol className="mt-2 list-decimal space-y-1 pl-5 text-xs text-text-muted">
+          {queries.map((q, i) => (
+            <li key={`${i}-${q.slice(0, 24)}`}>{q}</li>
+          ))}
+        </ol>
+      )}
     </div>
   );
 }

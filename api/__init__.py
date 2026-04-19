@@ -1,0 +1,1 @@
+# SpielBot HTTP API package

@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp, BookOpen, MessageSquare } from "lucide-react";
-import type { MockSource } from "@/lib/games";
+import { ChevronDown, ChevronUp, BookOpen, MessageSquare, Layers } from "lucide-react";
+import type { CitationSource } from "@/lib/games";
 
 interface SourceCitationsProps {
-  sources: MockSource[];
+  sources: CitationSource[];
 }
 
 export function SourceCitations({ sources }: SourceCitationsProps) {
@@ -20,24 +20,30 @@ export function SourceCitations({ sources }: SourceCitationsProps) {
         <span>📑 Sources</span>
         <span className="font-mono text-[10px]">({sources.length})</span>
         {open ? (
-          <ChevronUp className="h-3.5 w-3.5" />
+          <ChevronUp className="h-3 w-3.5" />
         ) : (
-          <ChevronDown className="h-3.5 w-3.5" />
+          <ChevronDown className="h-3 w-3.5" />
         )}
       </button>
 
       {open && (
         <div className="mt-2 space-y-2 animate-float-up">
-          {sources.map((s, i) => (
+          {sources.map((s) => (
             <div
-              key={i}
+              key={`${s.citationIndex}-${s.chunkId ?? s.reference.slice(0, 24)}`}
               className="rounded-lg border-l-[3px] border-green-sage bg-cream p-3 text-xs"
             >
               <div className="mb-1.5 flex items-center gap-1.5 font-mono text-[10px] font-semibold uppercase tracking-[0.12em] text-green-dark">
-                {s.type === "rulebook" ? (
+                <span className="font-mono text-text-muted">[{s.citationIndex}]</span>
+                {s.sourceType === "rulebook" ? (
                   <>
                     <BookOpen className="h-3 w-3" />
                     Official Rulebook
+                  </>
+                ) : s.sourceType === "card" ? (
+                  <>
+                    <Layers className="h-3 w-3" />
+                    Card
                   </>
                 ) : (
                   <>
