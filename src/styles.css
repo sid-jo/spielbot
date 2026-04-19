@@ -1,0 +1,163 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+
+  /* SpielBot brand tokens */
+  --color-green-dark: var(--green-dark);
+  --color-green-sage: var(--green-sage);
+  --color-tan: var(--tan);
+  --color-cream: var(--cream);
+  --color-text-dark: var(--text-dark);
+  --color-text-muted: var(--text-muted);
+
+  --color-catan: var(--catan);
+  --color-splendor: var(--splendor);
+  --color-root: var(--root);
+
+  --font-display: "DM Sans", "Inter", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "DM Mono", ui-monospace, monospace;
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* === SpielBot palette (oklch equivalents of spec hex values) === */
+  --green-dark: oklch(0.45 0.06 130);   /* #546B41 */
+  --green-sage: oklch(0.71 0.07 125);   /* #99AD7A */
+  --tan: oklch(0.85 0.04 80);            /* #DCCCAC */
+  --cream: oklch(0.98 0.015 90);         /* #FFF8EC */
+  --text-dark: oklch(0.28 0.04 130);     /* #2D3A24 */
+  --text-muted: oklch(0.52 0.03 130);    /* #6B7B5E */
+
+  /* Semantic mappings */
+  --background: var(--cream);
+  --foreground: var(--text-dark);
+
+  --card: oklch(1 0 0);
+  --card-foreground: var(--text-dark);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--text-dark);
+
+  --primary: var(--green-dark);
+  --primary-foreground: var(--cream);
+
+  --secondary: var(--green-sage);
+  --secondary-foreground: var(--cream);
+
+  --muted: oklch(0.94 0.02 85);
+  --muted-foreground: var(--text-muted);
+
+  --accent: var(--tan);
+  --accent-foreground: var(--text-dark);
+
+  --destructive: oklch(0.55 0.2 28);
+  --destructive-foreground: oklch(0.99 0 0);
+
+  --border: var(--tan);
+  --input: var(--cream);
+  --ring: var(--green-sage);
+
+  /* Game accents (per spec) */
+  --catan: oklch(0.68 0.16 48);     /* #E07A2F warm orange */
+  --splendor: oklch(0.62 0.1 190);  /* #1B998B teal */
+  --root: oklch(0.42 0.04 50);      /* #5B4A3F warm brown */
+
+  /* Shadows */
+  --shadow-card: 0 4px 14px -4px oklch(0.45 0.06 130 / 0.15);
+  --shadow-soft: 0 2px 8px -2px oklch(0.45 0.06 130 / 0.12);
+  --shadow-lift: 0 12px 28px -10px oklch(0.45 0.06 130 / 0.25);
+
+  --transition-smooth: all 0.2s ease;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html, body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Subtle linen/felt texture across the app */
+  body {
+    background-image:
+      radial-gradient(oklch(0.45 0.06 130 / 0.025) 1px, transparent 1px),
+      radial-gradient(oklch(0.45 0.06 130 / 0.02) 1px, transparent 1px);
+    background-size: 22px 22px, 11px 11px;
+    background-position: 0 0, 11px 11px;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer utilities {
+  .shadow-card { box-shadow: var(--shadow-card); }
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-lift { box-shadow: var(--shadow-lift); }
+  .transition-smooth { transition: var(--transition-smooth); }
+
+  .felt-texture {
+    background-image:
+      radial-gradient(oklch(0.45 0.06 130 / 0.04) 1px, transparent 1px);
+    background-size: 14px 14px;
+  }
+
+  @keyframes float-up {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-float-up { animation: float-up 0.3s ease-out both; }
+
+  @keyframes pulse-dot {
+    0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+    40% { opacity: 1; transform: scale(1); }
+  }
+  .animate-pulse-dot { animation: pulse-dot 1.4s infinite ease-in-out; }
+
+  @keyframes reveal-line {
+    from { opacity: 0; transform: translateY(10px); filter: blur(4px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+  }
+  .reveal-line {
+    opacity: 0;
+    animation: reveal-line 420ms ease-out forwards;
+  }
+}
