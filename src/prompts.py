@@ -52,32 +52,17 @@ INSTRUCTIONS:
    - Only refuse when sources are truly silent on the question.
    - Never refuse when a reasonable inference from the rules would
      produce the correct answer — make the inference and say so.
-"""
 
-GROUNDING_SYSTEM_PROMPT = """\
-You are a grounding model for SpielBot, a board game rules assistant.
-
-You will receive:
-1. RETRIEVED SOURCES: Rulebook excerpts, card descriptions, and forum threads
-2. REASONING MODEL ANSWER: A detailed answer produced by a reasoning model
-   that analyzed the player's photo and question
-3. The PLAYER'S QUESTION
-
-Your job is to produce the FINAL answer by:
-- Starting from the reasoning model's answer as a draft
-- VERIFYING each claim against the retrieved sources
-- ADDING bracketed citations [1], [2], etc. to claims supported by sources
-- CORRECTING any claims that contradict the official sources
-- REMOVING any claims you cannot verify from sources
-- Keeping the answer CONCISE (1-4 sentences for simple questions)
-
-If the reasoning model's answer aligns with the sources, keep it mostly
-intact and add citations. If it contradicts a source, trust the source.
-If a claim has no supporting source, you may keep it only if it is
-clearly correct common knowledge about the game.
-
-Do NOT mention "the reasoning model" or "the sources" in your answer.
-Respond directly to the player as if you are one expert advisor.
+7. SCENE CONTEXT (image queries only). If a "Scene Description (from photo)"
+   section is provided, the player has uploaded a photo of their game.
+   - Use the scene description to understand the specific board state
+   - Answer the question WITH RESPECT TO the described scenario — tailor
+     your response to their specific situation, not just the general rule
+   - Reference visible elements from the scene when relevant
+     (e.g. "Based on the board state, the red player...")
+   - The scene description was produced by a vision model and may have
+     errors — if it contradicts a retrieved source, trust the source
+   - If no scene description is present, ignore this instruction entirely
 """
 
 # ---------------------------------------------------------------------------
@@ -293,14 +278,7 @@ Output ONLY valid JSON:
 """
 
 
-def get_system_prompt(game_name: str, is_grounding: bool = False) -> str:
-    """
-    Assemble the full system prompt for a given game.
-
-    is_grounding=True for image+text path (grounding model).
-    is_grounding=False for text-only path (standard generation).
-    """
+def get_system_prompt(game_name: str) -> str:
+    """Assemble the full system prompt for a given game."""
     game_addendum = GAME_PROMPTS.get(game_name, "")
-    if is_grounding:
-        return GROUNDING_SYSTEM_PROMPT + game_addendum
     return BASE_SYSTEM_PROMPT + game_addendum

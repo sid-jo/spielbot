@@ -84,14 +84,14 @@ def build_user_content(
     game_name: str,
     context: str,
     source_ids: list[str],
-    reasoning_answer: str | None = None,
+    scene_description: str | None = None,
 ) -> str:
     _ = game_name, source_ids
     parts: list[str] = []
     parts.append(f"--- Retrieved Sources ---\n\n{context}")
-    if reasoning_answer:
+    if scene_description:
         parts.append(
-            f"--- Reasoning Model Answer ---\n\n{reasoning_answer}"
+            f"--- Scene Description (from photo) ---\n\n{scene_description}"
         )
     parts.append(f"--- Player Question ---\n\n{query}")
     return "\n\n".join(parts)
@@ -104,7 +104,7 @@ def generate(
     source_ids: list[str],
     system_prompt: str,
     history: list[dict] | None = None,
-    reasoning_answer: str | None = None,
+    scene_description: str | None = None,
     model: str = DEFAULT_MODEL,
     temperature: float = DEFAULT_TEMPERATURE,
     max_tokens: int = DEFAULT_MAX_TOKENS,
@@ -119,7 +119,7 @@ def generate(
         game_name=game_name,
         context=context,
         source_ids=source_ids,
-        reasoning_answer=reasoning_answer,
+        scene_description=scene_description,
     )
     messages.append({"role": "user", "content": user_content})
 
@@ -160,7 +160,7 @@ def generate_stream(
     source_ids: list[str],
     system_prompt: str,
     history: list[dict] | None = None,
-    reasoning_answer: str | None = None,
+    scene_description: str | None = None,
     model: str = DEFAULT_MODEL,
     temperature: float = DEFAULT_TEMPERATURE,
     max_tokens: int = DEFAULT_MAX_TOKENS,
@@ -188,7 +188,7 @@ def generate_stream(
         game_name=game_name,
         context=context,
         source_ids=source_ids,
-        reasoning_answer=reasoning_answer,
+        scene_description=scene_description,
     )
     messages.append({"role": "user", "content": user_content})
 

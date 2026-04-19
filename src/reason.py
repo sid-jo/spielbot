@@ -2,8 +2,8 @@
 Reasoning module: query expansion + optional image-based reasoning.
 
 Calls a beefy model to generate sub-questions for multi-query retrieval.
-For image queries, also produces a reasoning_answer that the generator
-will ground against retrieved sources.
+For image queries, also produces a scene_description that the generator
+uses as additional context when answering.
 """
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ from pathlib import Path
 
 
 REASON_MODEL_ENV = "SPIELBOT_REASON_MODEL"
-DEFAULT_REASON_MODEL = "gpt-5"
+DEFAULT_REASON_MODEL = "claude-sonnet-4-20250514-v1:0"
 
 
 def _get_reason_model() -> str:
@@ -28,7 +28,7 @@ def _get_reason_model() -> str:
 @dataclass
 class ReasoningResult:
     sub_questions: list[str]
-    reasoning_answer: str | None = None  # Only populated for image queries
+    scene_description: str | None = None  # Rich VLM scene description (image queries only)
     raw_response: str = ""
     error: str | None = None
 
@@ -94,17 +94,21 @@ def _build_image_prompt(query: str, game_name: str) -> str:
         f'A player uploaded a photo of their current game and asked: '
         f'"{query}"\n\n'
         f"Do two things:\n\n"
-        f"1. ANSWER THE QUESTION: Look at the image carefully. Think "
-        f"step-by-step about what you see and how it relates to the "
-        f"question. Give your best answer based on the image and your "
-        f"knowledge of {game_name.title()} rules.\n\n"
+        f"1. DESCRIBE THE SCENE: Look at the image carefully and write a "
+        f"rich, detailed description of the visible game state. Include:\n"
+        f"   - Which pieces, tokens, cards, and components are visible\n"
+        f"   - Player positions, colors, and approximate piece counts\n"
+        f"   - Board layout details relevant to the player's question\n"
+        f"   - Any notable game state (whose turn it might be, game phase,\n"
+        f"     special conditions like the robber position in Catan)\n"
+        f"   Be specific about what you CAN see vs what is unclear.\n\n"
         f"2. GENERATE SEARCH QUERIES: Create 5 to 7 short search queries "
         f"(5-15 words) that would find the rulebook passages and forum "
-        f"posts most relevant to your answer. Target the specific rules "
-        f"you referenced.\n\n"
+        f"posts most relevant to the player's question, informed by what "
+        f"you see in the image.\n\n"
         f"{guidance}\n\n"
         f"Respond with ONLY valid JSON, no markdown fences:\n"
-        f'{{"reasoning_answer": "<your full answer>", '
+        f'{{"scene_description": "<your detailed scene description>", '
         f'"sub_questions": ["q1", "q2", ...]}}'
     )
 
@@ -197,27 +201,40 @@ def _message_text(message) -> str:
 
 # ── Model calls ──────────────────────────────────────────────────────────
 
+def _reasoning_model_extras(model: str) -> dict:
+    """
+    LiteLLM / OpenAI pass-through for reasoning models (e.g. GPT-5).
+
+    High internal reasoning can consume the completion budget and yield empty
+    visible content at low max_tokens; pairing a higher cap with low
+    reasoning_effort matches eval/baseline_runners/run_gpt5_api.py.
+    """
+    m = (model or "").lower()
+    if m.startswith("gpt-5") or m.startswith("o1") or m.startswith("o3"):
+        return {"extra_body": {"reasoning_effort": "low"}}
+    return {}
+
+
 def _call_text(prompt: str, model: str) -> str:
     """Text-only reasoning call."""
     from generate import _get_client
 
     client = _get_client()
+    kwargs: dict = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": 4096,
+        "temperature": 0.3,
+    }
+    kwargs.update(_reasoning_model_extras(model))
     try:
         resp = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=1024,
-            temperature=0.3,
+            **kwargs,
             response_format={"type": "json_object"},
         )
     except Exception:
         # Fallback: some models don't support response_format
-        resp = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=1024,
-            temperature=0.3,
-        )
+        resp = client.chat.completions.create(**kwargs)
     return _message_text(resp.choices[0].message)
 
 
@@ -238,21 +255,20 @@ def _call_vision(
         },
         {"type": "text", "text": prompt},
     ]
+    kwargs: dict = {
+        "model": model,
+        "messages": [{"role": "user", "content": content}],
+        "max_tokens": 4096,
+        "temperature": 0.3,
+    }
+    kwargs.update(_reasoning_model_extras(model))
     try:
         resp = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": content}],
-            max_tokens=2048,
-            temperature=0.3,
+            **kwargs,
             response_format={"type": "json_object"},
         )
     except Exception:
-        resp = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": content}],
-            max_tokens=2048,
-            temperature=0.3,
-        )
+        resp = client.chat.completions.create(**kwargs)
     return _message_text(resp.choices[0].message)
 
 
@@ -266,7 +282,7 @@ def reason(
 ) -> ReasoningResult:
     """
     Expand the query into sub-questions for multi-query retrieval.
-    If an image is provided, also produce a full reasoning_answer.
+    If an image is provided, also produce a scene_description.
 
     On error, sub_questions is [] and callers fall back to single-query.
     """
@@ -299,15 +315,15 @@ def reason(
         questions = []
     questions = [str(q).strip() for q in questions if str(q).strip()]
 
-    reasoning_answer = None
+    scene_description = None
     if has_image:
-        ra = parsed.get("reasoning_answer", "")
-        if isinstance(ra, str) and ra.strip():
-            reasoning_answer = ra.strip()
+        sd = parsed.get("scene_description", "")
+        if isinstance(sd, str) and sd.strip():
+            scene_description = sd.strip()
 
     return ReasoningResult(
         sub_questions=questions,
-        reasoning_answer=reasoning_answer,
+        scene_description=scene_description,
         raw_response=raw,
     )
 
@@ -336,7 +352,7 @@ if __name__ == "__main__":
     print(f"\nSub-questions ({len(result.sub_questions)}):")
     for i, q in enumerate(result.sub_questions, 1):
         print(f"  {i}. {q}")
-    if result.reasoning_answer:
-        print(f"\nReasoning answer:\n{result.reasoning_answer}")
+    if result.scene_description:
+        print(f"\nScene description:\n{result.scene_description}")
     if args.raw:
         print(f"\nRaw:\n{result.raw_response}")

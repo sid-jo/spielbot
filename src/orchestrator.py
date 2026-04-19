@@ -105,7 +105,7 @@ class SpielBotSession:
                 f"Valid options: {', '.join(GAMES)}"
             )
         self._game_name = game_name
-        self._system_prompt = get_system_prompt(game_name, is_grounding=False)
+        self._system_prompt = get_system_prompt(game_name)
         self._history = []
 
     def reset_chat(self) -> None:
@@ -128,9 +128,9 @@ class SpielBotSession:
 
         Steps:
           1. Validate state (game must be selected)
-          2. Reason: sub-questions (+ optional image reasoning_answer)
+          2. Reason: sub-questions (+ optional image scene_description)
           3. Multi-query retrieve (or single-query fallback)
-          4. Generate / ground with conversation history
+          4. Generate with conversation history
           5. Append Q&A to history
           6. Return SpielBotAnswer
         """
@@ -206,12 +206,8 @@ class SpielBotSession:
         context = format_context(results)
         source_ids = [r.chunk_id for r in results]
 
-        # ── Step 3: Generate / Ground ──
-        has_image = image is not None
-        system_prompt = get_system_prompt(
-            self._game_name,
-            is_grounding=has_image,
-        )
+        # ── Step 3: Generate ──
+        system_prompt = get_system_prompt(self._game_name)
 
         gen_kwargs: dict = {}
         if self._model is not None:
@@ -226,7 +222,7 @@ class SpielBotSession:
             source_ids=source_ids,
             system_prompt=system_prompt,
             history=self._history,
-            reasoning_answer=reasoning_result.reasoning_answer,
+            scene_description=reasoning_result.scene_description,
             **gen_kwargs,
         )
 
@@ -324,11 +320,7 @@ class SpielBotSession:
         source_ids = [r.chunk_id for r in results]
 
         # ── Step 3: Stream ──
-        has_image = image is not None
-        system_prompt = get_system_prompt(
-            self._game_name,
-            is_grounding=has_image,
-        )
+        system_prompt = get_system_prompt(self._game_name)
 
         gen_kwargs: dict = {}
         if self._model is not None:
@@ -343,7 +335,7 @@ class SpielBotSession:
             source_ids=source_ids,
             system_prompt=system_prompt,
             history=self._history,
-            reasoning_answer=reasoning_result.reasoning_answer,
+            scene_description=reasoning_result.scene_description,
             **gen_kwargs,
         )
 
