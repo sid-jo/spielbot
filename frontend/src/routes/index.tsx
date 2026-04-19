@@ -1,8 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Github } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { GameCard } from "@/components/GameCard";
 import { SpielbotOracle } from "@/components/SpielbotOracle";
 import { games } from "@/lib/games";
+
+const SPIELBOT_REPO_URL = "https://github.com/sid-jo/spielbot";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -60,6 +63,31 @@ function Index() {
           </p>
         </div>
       </main>
+
+      <footer className="mt-auto bg-green-dark px-4 py-3 text-cream">
+        <div className="mx-auto flex max-w-3xl flex-col items-center gap-1.5 text-center text-xs leading-snug">
+          <p>
+            <span className="font-display font-semibold">SpielBot</span>
+            {" — "}
+            rules assistant by <span className="font-medium">Siddhant Joshi</span>
+            {" · "}
+            © {new Date().getFullYear()}
+          </p>
+          <a
+            href={SPIELBOT_REPO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 font-medium text-cream underline decoration-cream/45 underline-offset-2 transition-smooth hover:decoration-cream"
+          >
+            <Github className="h-3.5 w-3.5 shrink-0 opacity-90" aria-hidden />
+            GitHub
+          </a>
+          <p className="max-w-lg text-[10px] leading-snug text-cream/75">
+            Catan, Splendor, Root, and related marks are trademarks of their
+            respective owners. Not affiliated with any publisher.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
