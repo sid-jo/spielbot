@@ -5,7 +5,11 @@ import { Paperclip, Send, X, Menu, ChevronDown, ChevronUp, type LucideProps } fr
 import type { Game, CitationSource } from "@/lib/games";
 import { ChatSidebar } from "@/components/ChatSidebar";
 import { SourceCitations } from "@/components/SourceCitations";
-import { gameBanner, gameMotif } from "@/lib/gameAssets";
+import {
+  gameBanner,
+  gameMotif,
+  gameMotifBackgroundSize,
+} from "@/lib/gameAssets";
 import { SpielbotOracle } from "@/components/SpielbotOracle";
 import {
   ApiError,
@@ -288,7 +292,7 @@ export function ChatWindow({ game }: ChatWindowProps) {
           className="pointer-events-none absolute inset-0 opacity-[0.05]"
           style={{
             backgroundImage: gameMotif[game.id],
-            backgroundSize: "140px",
+            backgroundSize: gameMotifBackgroundSize[game.id],
           }}
         />
 
@@ -486,7 +490,7 @@ function EmptyState({
       </div>
       <h2 className="mt-6 font-display text-2xl font-bold text-text-dark">
         Ask me anything about{" "}
-        <span style={{ color: game.accentHex }}>{game.name}</span> rules
+        <span style={{ color: game.accentHex }}>{game.name}</span>
       </h2>
       <p className="mt-2 text-sm text-text-muted">
         Try one of these to get started:
@@ -512,7 +516,29 @@ function EmptyState({
   );
 }
 
+const THINKING_PHRASES = [
+  "Shuffling the deck...",
+  "Plotting the next move…",
+  "Choosing turn order…",
+  "Rolling the dice…",
+  "Resolving conflicts...",
+  "Tallying the score...",
+  "Gathering resources...",
+  "Almost there...",
+] as const;
+
 function TypingIndicator({ game }: { game: Game }) {
+  const [phraseIndex, setPhraseIndex] = useState(0);
+
+  useEffect(() => {
+    const id = window.setInterval(() => {
+      setPhraseIndex((i) => (i + 1) % THINKING_PHRASES.length);
+    }, 2400);
+    return () => window.clearInterval(id);
+  }, []);
+
+  const phrase = THINKING_PHRASES[phraseIndex];
+
   return (
     <div className="flex items-end gap-2.5 animate-float-up">
       <BotAvatar game={game} thinking />
@@ -520,20 +546,15 @@ function TypingIndicator({ game }: { game: Game }) {
         className="rounded-xl rounded-bl-sm border-l-[3px] bg-card px-4 py-3 shadow-soft"
         style={{ borderLeftColor: game.accentHex }}
       >
-        <div className="flex items-center gap-1.5">
-          <span
-            className="h-2 w-2 rounded-full animate-pulse-dot"
-            style={{ background: game.accentHex }}
-          />
-          <span
-            className="h-2 w-2 rounded-full animate-pulse-dot"
-            style={{ background: game.accentHex, animationDelay: "0.2s" }}
-          />
-          <span
-            className="h-2 w-2 rounded-full animate-pulse-dot"
-            style={{ background: game.accentHex, animationDelay: "0.4s" }}
-          />
-        </div>
+        <p
+          key={phraseIndex}
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+          className="reveal-line max-w-[min(100%,18rem)] text-sm leading-snug text-text-muted"
+        >
+          {phrase}
+        </p>
       </div>
     </div>
   );
@@ -542,14 +563,14 @@ function TypingIndicator({ game }: { game: Game }) {
 function BotAvatar({ game, thinking = false }: { game: Game; thinking?: boolean }) {
   return (
     <div
-      className="relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-cream"
+      className="relative flex h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-cream"
       style={{
-        boxShadow: `inset 0 0 0 1.5px ${game.accentHex}55, 0 2px 8px -2px ${game.accentHex}40`,
+        boxShadow: `inset 0 0 0 2.25px ${game.accentHex}55, 0 3px 12px -3px ${game.accentHex}40`,
       }}
       aria-label="SpielBot"
     >
       <SpielbotOracle
-        size={28}
+        size={42}
         thinking={thinking}
         idleLook={!thinking}
         accent={game.accentHex}
@@ -574,8 +595,8 @@ function MeepleIcon(props: LucideProps) {
 
 function UserAvatar() {
   return (
-    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-tan text-green-dark shadow-soft">
-      <MeepleIcon className="h-5 w-5" />
+    <div className="flex h-[54px] w-[54px] shrink-0 items-center justify-center rounded-full bg-tan text-green-dark shadow-soft">
+      <MeepleIcon className="h-[30px] w-[30px]" />
     </div>
   );
 }

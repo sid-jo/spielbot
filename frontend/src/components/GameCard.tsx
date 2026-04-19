@@ -1,7 +1,11 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import type { Game } from "@/lib/games";
-import { gameArt, gameMotif } from "@/lib/gameAssets";
+import {
+  gameArt,
+  gameMotif,
+  gameMotifCardBackgroundSize,
+} from "@/lib/gameAssets";
 
 interface GameCardProps {
   game: Game;
@@ -25,7 +29,7 @@ export function GameCard({ game }: GameCardProps) {
         className="pointer-events-none absolute inset-0 opacity-[0.08] transition-smooth group-hover:opacity-[0.14]"
         style={{
           backgroundImage: gameMotif[game.id],
-          backgroundSize: "120px",
+          backgroundSize: gameMotifCardBackgroundSize[game.id],
         }}
       />
 

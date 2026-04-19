@@ -34,11 +34,11 @@ export const games: Game[] = [
     id: "catan",
     name: "Catan",
     emoji: "🏝️",
-    tagline: "Trade, build, settle",
+    tagline: "Klaus Teuber | 1995",
     description:
-      "Resource trading, road building, and the longest road — every Catan rule, clarified.",
+      "Collect and trade resources to build up the island of Catan",
     accent: "catan",
-    accentHex: "#E07A2F",
+    accentHex: "#b63f41",
     starterPrompts: [
       "Can I trade on my first turn?",
       "What happens when the robber is on my hex?",
@@ -66,11 +66,11 @@ export const games: Game[] = [
     id: "splendor",
     name: "Splendor",
     emoji: "💎",
-    tagline: "Gems, cards, nobles",
+    tagline: "Mark Andre | 2014",
     description:
-      "From token economy to noble visits — get crisp answers on every turn action and end-game scoring rule.",
+      "Dominate the Silk Road to become the most prestigious merchant in the world",
     accent: "splendor",
-    accentHex: "#1B998B",
+    accentHex: "#15294a",
     starterPrompts: [
       "Can I take 2 gems of the same color if only 3 remain?",
       "How does the gold (joker) token work?",
@@ -98,16 +98,16 @@ export const games: Game[] = [
     id: "root",
     name: "Root",
     emoji: "🌲",
-    tagline: "Asymmetric woodland warfare",
+    tagline: "Cole Werhle | 2018",
     description:
-      "Marquise, Eyrie, Alliance, Vagabond — rules guidance for every faction's unique powers.",
+      "Decide the fate of the Woodland as asymmetric factions fight for contrasting goals",
     accent: "root",
-    accentHex: "#5B4A3F",
+    accentHex: "#3f5a51",
     starterPrompts: [
       "How does the Vagabond score points?",
-      "Can the Marquise move through a clearing she doesn't rule?",
+      "When can an ambush card be used?",
       "What happens when the Decree has no valid action?",
-      "What counts as 'rule' for the Woodland Alliance's outrage?",
+      "How do you determine 'rule'?",
     ],
     mockSources: [
       {

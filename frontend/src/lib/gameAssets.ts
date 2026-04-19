@@ -6,6 +6,20 @@ import catanBanner from "@/assets/banner-catan.jpg";
 import splendorBanner from "@/assets/banner-splendor.jpg";
 import rootBanner from "@/assets/banner-root.jpg";
 
+/** `background-size` for tiled `gameMotif` (Catan needs width/height to preserve honeycomb aspect). */
+export const gameMotifBackgroundSize: Record<GameId, string> = {
+  catan: "140px 113px",
+  splendor: "88px",
+  root: "140px",
+};
+
+/** Landing cards use slightly smaller tiles than the chat pane. */
+export const gameMotifCardBackgroundSize: Record<GameId, string> = {
+  catan: "120px 97px",
+  splendor: "88px",
+  root: "120px",
+};
+
 export const gameArt: Record<GameId, string> = {
   catan: catanArt,
   splendor: splendorArt,
@@ -27,13 +41,13 @@ export const gameBanner: Record<GameId, string> = {
  * These are layered behind the chat surface at very low opacity for game-specific flair.
  */
 export const gameMotif: Record<GameId, string> = {
-  // Hex grid — Catan
+  // True honeycomb repeat: four pointy-top hexes in one translational unit.
   catan: `url("data:image/svg+xml;utf8,${encodeURIComponent(
-    `<svg xmlns='http://www.w3.org/2000/svg' width='120' height='104' viewBox='0 0 120 104'><g fill='none' stroke='%23E07A2F' stroke-width='1.2' opacity='0.5'><polygon points='60,4 110,32 110,76 60,100 10,76 10,32'/><polygon points='30,56 50,68 50,88 30,100 10,88 10,68'/><polygon points='90,56 110,68 110,88 90,100 70,88 70,68'/></g></svg>`,
+    `<svg xmlns='http://www.w3.org/2000/svg' width='60.62' height='49' viewBox='0 0 60.62 49'><defs><pattern id='hc' width='60.62' height='49' patternUnits='userSpaceOnUse'><path d='M12.12,0 L24.25,7 L24.25,21 L12.12,28 L0,21 L0,7 Z' fill='#E07A2F' fill-opacity='0.38'/><path d='M36.37,0 L48.5,7 L48.5,21 L36.37,28 L24.25,21 L24.25,7 Z' fill='#E07A2F' fill-opacity='0.38'/><path d='M24.25,21 L36.37,28 L36.37,42 L24.25,49 L12.12,42 L12.12,28 Z' fill='#E07A2F' fill-opacity='0.38'/><path d='M48.5,21 L60.62,28 L60.62,42 L48.5,49 L36.37,42 L36.37,28 Z' fill='#E07A2F' fill-opacity='0.38'/></pattern></defs><rect width='200%' height='200%' fill='url(#hc)'/></svg>`,
   )}")`,
-  // Faceted diamond grid — Splendor
+  // Gems + coin discs — Splendor (filled like Root trees for consistent subtlety).
   splendor: `url("data:image/svg+xml;utf8,${encodeURIComponent(
-    `<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><g fill='none' stroke='%231B998B' stroke-width='1' opacity='0.55'><polygon points='40,8 64,40 40,72 16,40'/><path d='M16 40 L64 40 M28 40 L40 72 M52 40 L40 72 M28 40 L40 8 L52 40'/></g></svg>`,
+    `<svg xmlns='http://www.w3.org/2000/svg' width='88' height='88' viewBox='0 0 88 88'><g fill='%231B998B' fill-opacity='0.44'><polygon points='44,6 72,44 44,82 16,44'/><polygon points='68,12 82,28 68,44 54,28'/><polygon points='20,54 34,70 20,86 6,70'/><circle cx='72' cy='64' r='10'/><circle cx='18' cy='26' r='8'/><circle cx='52' cy='76' r='7'/></g></svg>`,
   )}")`,
   // Pine tree silhouettes — Root
   root: `url("data:image/svg+xml;utf8,${encodeURIComponent(

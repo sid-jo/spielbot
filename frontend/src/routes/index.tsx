@@ -40,10 +40,10 @@ function Index() {
               </h1>
             </div>
             <p className="text-base text-text-muted sm:text-lg">
-              Your board game rules assistant
+              Choose a game to begin!
             </p>
             <p className="mx-auto mt-2 max-w-md text-sm text-text-muted/80">
-              Choose a game to start. Ask any rules question by text or upload a
+              Ask any rules question by text or upload a
               photo of your board.
             </p>
           </div>
@@ -56,7 +56,7 @@ function Index() {
           </div>
 
           <p className="mt-10 text-center font-mono text-[11px] uppercase tracking-[0.2em] text-text-muted/70">
-            Grounded in official rulebooks · Backed by BGG community wisdom
+            Grounded in official rulebooks · Backed by community wisdom
           </p>
         </div>
       </main>
